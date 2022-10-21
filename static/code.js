@@ -1,4 +1,5 @@
-//calculate time difference
+//refs
+//calculate time differencess
 var timeZone = new Date().toLocaleDateString(undefined, { day: '2-digit', timeZoneName: 'short' }).substring(4);
 var time = -(new Date().getTimezoneOffset() / 60);
 var resetTime = 17 + time;
