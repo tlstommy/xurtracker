@@ -1,0 +1,1228 @@
+{
+    "Location": "European Dead Zone",
+    "Planet": "Earth",
+    "Landing Zone": "Winding Cove",
+    "Week": "October 21, 2022",
+    "Exotics": {
+        "Exotic Engram": {
+            "name": "Exotic Engram",
+            "type": "Exotic Engram",
+            "description": "An engram with a predestined outcome.\n\nContains a new Exotic if any of the possible rewards remain to be collected. Preview contents for possible rewards.",
+            "lore": "",
+            "ExtLore": null,
+            "itemHash": "3875551374",
+            "itemRating": null,
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/ee21b5bc72f9e48366c9addff163a187.png",
+            "rarity": "Exotic",
+            "class": 3,
+            "statRolls": [],
+            "weaponPerks": [],
+            "exoticArmorPerk": null,
+            "legendWeaponFrame": null,
+            "legendWeaponDamageType": null,
+            "legendWeaponDamageElement": null,
+            "masterworkData": null
+        },
+        "Exotic Quest": {
+            "name": "Xenology",
+            "type": "Exotic Quest Step",
+            "description": "Complete Vanguard playlist activities, or win matches in Crucible or Gambit.\n\nExtra progress is awarded for more challenging activities and for succeeding with clanmates.",
+            "lore": "",
+            "ExtLore": null,
+            "itemHash": "2125848607",
+            "itemRating": null,
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/7f9e6e79bb7a8ce59de9258a7d674af2.jpg",
+            "rarity": "Exotic",
+            "class": 3,
+            "statRolls": [],
+            "weaponPerks": [],
+            "exoticArmorPerk": null,
+            "legendWeaponFrame": null,
+            "legendWeaponDamageType": null,
+            "legendWeaponDamageElement": null,
+            "masterworkData": null
+        },
+        "Exotic Weapon": {
+            "name": "Arbalest",
+            "type": "Exotic Linear Fusion Rifle",
+            "description": "",
+            "lore": "\"We didn't have linear fusions in the Dark Age. But we made it work.\" \u2014The Drifter",
+            "ExtLore": "\"Nah. Dark Age version was better.\"\n\n\"You and I remember the Dark Age differently.\"\n\n\"I'll take a hard projectile over energy any day. No better way to make sure the target is dead.\"\n\n\"Energy is for silencing barriers. Fists are all I need to administer blunt-force trauma.\"\n\n\"I forget you used to be a Warlord.\"\n\n\"What do you mean 'used to?'\"\n\n\"I thought you'd thrown in with Saladin and Felwinter.\"\n\n\"I did. But I never stopped being me.\"\n\n\"Then why\u2014\"\n\n\"'Warlord' is too many syllables.\"\n\n\"Gambit needs more candidates like you. Should stop by sometime. Whatever you want to call yourself.\"\n\n\"Thank you. You're a liar and a cheat. Stay out of my Crucible.\"",
+            "itemHash": "2130065553",
+            "itemRating": null,
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/a25a0a02beacad55e2e5baf7c56c4acf.jpg",
+            "rarity": "Exotic",
+            "class": 3,
+            "statRolls": [],
+            "weaponPerks": [
+                {
+                    "name": "Compounding Force",
+                    "description": "Fires slugs that cause massive damage to combatant shields. Strong against [Shield-Piercing] Barrier Champions.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/c476feec55ad53c0f6b0b7a902cc6232.png",
+                    "hashID": 2564164194,
+                    "weaponHash": 2130065553,
+                    "isPerk": true,
+                    "isFavorablePerk": false
+                },
+                {
+                    "name": "Extended Barrel",
+                    "description": "Weighty barrel extension.\n  \u2022  Increases range\n  \u2022  Decreases handling speed\n  \u2022  Moderately controls recoil",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/7c81469db03f7111f8d248b54c83d7cf.png",
+                    "hashID": 1467527085,
+                    "weaponHash": 2130065553,
+                    "isPerk": true,
+                    "isFavorablePerk": false
+                },
+                {
+                    "name": "Projection Fuse",
+                    "description": "Distance optimizations.\n  \u2022  Increases range",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/253e7147a06242e8305ddf1c5571a9fc.png",
+                    "hashID": 2969185026,
+                    "weaponHash": 2130065553,
+                    "isPerk": true,
+                    "isFavorablePerk": false
+                },
+                {
+                    "name": "Disruption Break",
+                    "description": "Breaking an enemy's shield with this weapon makes them more vulnerable to Kinetic damage for a brief period.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/5b83b3c3fc474c9716e54b4dfe4a862b.png",
+                    "hashID": 1683379515,
+                    "weaponHash": 2130065553,
+                    "isPerk": true,
+                    "isFavorablePerk": false
+                },
+                {
+                    "name": "Composite Stock",
+                    "description": "This weapon has a versatile dual-purpose stock.\n  \u2022  Slightly increases stability\n  \u2022  Slightly increases handling speed",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/433673d0d64fd026c771612a6a9ff7f7.png",
+                    "hashID": 3465198467,
+                    "weaponHash": 2130065553,
+                    "isPerk": true,
+                    "isFavorablePerk": false
+                }
+            ],
+            "exoticArmorPerk": null,
+            "legendWeaponFrame": null,
+            "legendWeaponDamageType": "Kinetic",
+            "legendWeaponDamageElement": "Kinetic",
+            "masterworkData": null
+        },
+        "Hawkmoon": {
+            "name": "Hawkmoon",
+            "type": "Exotic Hand Cannon",
+            "description": "",
+            "lore": "Stalk thy prey and let loose thy talons upon the Darkness.",
+            "ExtLore": "What is this feeling?\n\nI did not ask for it. I do not understand it. I do not want it.\n\nThe Crow is so carefree in his ignorance. The bonfire's glow lights up his pale features and I am drawn to the hope in his gold eyes. Where is the despairing child I anticipated?\n\nHe drinks from an open bottle of wine against the recommendation of his Ghost. The Guardian encourages him and they are laughing. This celebration is maddening; neither have reason to be so jubilant. Their world is ending and they thrash like dying creatures in the final light of collapsing stars. They do not seem to acknowledge the futility of their existence, the impermanence of it in the face of cosmic annihilation.\n\nNow the Guardian is drinking, standing close to the fire. Their Ghost, too, encourages them not to partake. They poison themselves for the enjoyment of it.\n\nI am reminded of my sisters. Of moments spent by lapping shores, gazing up at infinite stars full of possibilities and wonder. I am left yearning.\n\nWhat is this feeling?\n\nI do not understand it. I do not want it.\n\nThey are celebrating their victory over the Taken. The Crow is making a gun shape with his hand, swinging the nearly empty bottle of wine around in the other like a Sword. The Guardian looks pensive, sitting on a rock by the fire, contemplating the secret they are keeping. The Crow notices, but tries not to show it. He wants the Guardian's spirits to be lifted. He wants to be supportive, so that they may share in their triumphs together.\n\nAs equals.\n\nI am reminded of my home. I am reminded of the warmth of the sun and the embrace of my family. I am reminded of my father's face. I am reminded of everyone I betrayed. All the blood spilled in the name of immortality. The warmth of the sun burns me with its memory.\n\nWhat is this feeling?\n\nI do not want it.\n\nThe fire has nearly died. The Crow fell over and cannot stand, though he insists he is fine. The Guardian is turning the embers with the tip of their Sword. The Ghosts are talking to one another in quiet conspiracy. The celebration has ended, but I can sense their emotions are mixed: complex and myriad things, when a simple, singular focus would suffice.\n\nThere is a growing kinship here. Against better judgment.\n\nWhat is this feeling?",
+            "itemHash": "3856705927",
+            "itemRating": null,
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/bc462cdde2fa00c808ff4f15802cb3b4.jpg",
+            "rarity": "Exotic",
+            "class": 3,
+            "statRolls": [],
+            "weaponPerks": [
+                {
+                    "name": "Paracausal Shot",
+                    "description": "Final blows and precision hits with Hawkmoon grant stacks of Paracausal Charge. The final round in the magazine deals bonus damage based on the number of stacks. Stowing Hawkmoon on the final round removes this bonus.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/db83b69527ca8373f2803386e3d0a086.png",
+                    "hashID": 213689231,
+                    "weaponHash": 3856705927,
+                    "isPerk": true,
+                    "isFavorablePerk": false
+                },
+                {
+                    "name": "Chambered Compensator",
+                    "description": "Stable barrel attachment.\n  \u2022  Increases stability\n  \u2022  Moderately controls recoil\n  \u2022  Slightly decreases handling speed",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/376aa9bd8c392567f501012fc3b3d4d0.png",
+                    "hashID": 3661387068,
+                    "weaponHash": 3856705927,
+                    "isPerk": true,
+                    "isFavorablePerk": false
+                },
+                {
+                    "name": "Alloy Magazine",
+                    "description": "Faster reloads when the magazine is empty.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/932e7b84c233c6cc49a58058f8c5144d.png",
+                    "hashID": 1431678320,
+                    "weaponHash": 3856705927,
+                    "isPerk": true,
+                    "isFavorablePerk": false
+                },
+                {
+                    "name": "Hip-Fire Grip",
+                    "description": "Increases accuracy, stability, and precision hit targeting when firing from the hip.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/9f3c3ae1bddbed21af1cc6487338028e.png",
+                    "hashID": 1866048759,
+                    "weaponHash": 3856705927,
+                    "isPerk": true,
+                    "isFavorablePerk": false
+                },
+                {
+                    "name": "Heavy Grip",
+                    "description": "This grip is weighted for recoil control.\n  \u2022  Increases stability\n  \u2022  Decreases handling speed",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/a5ff58a344799006cb7149f2ce881611.png",
+                    "hashID": 1012699414,
+                    "weaponHash": 3856705927,
+                    "isPerk": true,
+                    "isFavorablePerk": false
+                }
+            ],
+            "exoticArmorPerk": null,
+            "legendWeaponFrame": null,
+            "legendWeaponDamageType": "Kinetic",
+            "legendWeaponDamageElement": "Kinetic",
+            "masterworkData": null
+        },
+        "Dead Mans Tale": {
+            "name": "Dead Man's Tale",
+            "type": "Exotic Scout Rifle",
+            "description": "",
+            "lore": "\"Long, short, they all end the same way.\" \u2014Katabasis",
+            "ExtLore": "Gaelin-4's war beast  leads us through balmy Venusian  jungle. Our rifles low, our Ghosts high in the canopy like sentry drones.\n\n\"My vehicle is old. Needs maintenance. Been running too long without cutting the engine,\" I say.\n\nGaelin sends me a sideways look. \"That shipwright  still around? She used to make cider in the autumn. I swear, she kept us like a pack of strays.\"\n\nI sigh. \"No, I mean this thing.\" I run my hand over my body. \"Besides, you know I can't go back there.\" I straighten the leather wrap around my Tex-foundry rifle.\n\n\"You know I literally tune myself, right?\" asks the Exo Hunter.\n\n\"Why? You're immortal.\"\n\n\"And you're not?\"\n\n\"I know, but I'm\u2026 slower. I feel slower.\"\n\n\"Uh huh.\"\n\n\"Just not like what I used to feel like. Not\u2026 spry. Not up here either.\" I tap my helmet.\n\n\"Tragedy. I feel for you. Have Gilgamesh  tune you then.\"\n\nI chuckle. \"Yeah\u2026 he'd love that.\"\n\n\"You two having issues again?\"\n\nI shake my head in a stiff, narrow lie. \"You think we come back the same every time?\"\n\n\"I do. Straight from the manufacturer ,\" Gaelin-4 says.\n\n\"Sometimes I get the feeling\u2026 something's different.\"\n\nGaelin stops and squints at me.\n\nI dip my head and let my hood fall forward. \"Nothing I can put my finger on, just little things. Adjustments.\"\n\n\"You think he's changing you?\" Gaelin's voice sounds more serious than surprised.\n\nI wait too long to answer. It's not because I don't know my answer, but because I want to feel like I still doubt it. I raise my head. Gaelin meets my eyes and looks up to the canopy.\n\nHe leans his shoulder into me and drops his voice to a whisper. \"My Clip's  a good one, but you need to realize Ghosts don't know anything. Nobody does. They're just like us. They get curious. They question. If you think something's coming unwound, you need to sit down and talk it out.\"\n\n\"Wait\u2026 did Clip change yo\u2014\"\n\n\"Please,\" Gaelin scoffs. \"You're paranoid.\" He turns to keep walking and calls back, \"Life changes you. Same with them. I'm the only one that stays the same.\"\n\nGaelin raises a fist and we stop. His war beast sniffs the air and turns us east. We continue walking.\n\n\"What'd you name the beast?\"\n\n\"Castus.\"\n\n\"You've been reading too many of the Spider's books .\"\n\n\"Some of 'em are good.\"\n\nI laugh. \"Aren't you the man that said anything you got tying you down can be made into a noose?\"\n\n\"Yeah, some time ago.\"\n\n\"You've been taking a lot of jobs with him ? Those Fallen?\"\n\n\"You're one to talk, Emperor's lackey . Some of those Eliksni aren't so bad.\"",
+            "itemHash": "3654674561",
+            "itemRating": null,
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/67634d7a01d7dca3aef90b4612d58489.jpg",
+            "rarity": "Exotic",
+            "class": 3,
+            "statRolls": [],
+            "weaponPerks": [
+                {
+                    "name": "Cranial Spike",
+                    "description": "Chaining precision hits grants bonus target acquisition and range.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/0e171b3269c4796acad0c0b11c7fbc27.png",
+                    "hashID": 1319823571,
+                    "weaponHash": 3654674561,
+                    "isPerk": true,
+                    "isFavorablePerk": false
+                },
+                {
+                    "name": "Extended Barrel",
+                    "description": "Weighty barrel extension.\n  \u2022  Increases range\n  \u2022  Decreases handling speed\n  \u2022  Moderately controls recoil",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/7c81469db03f7111f8d248b54c83d7cf.png",
+                    "hashID": 1467527085,
+                    "weaponHash": 3654674561,
+                    "isPerk": true,
+                    "isFavorablePerk": false
+                },
+                {
+                    "name": "Armor-Piercing Rounds",
+                    "description": "Rounds cause extra damage to combatants' shields and overpenetrate targets. \n  \u2022  Slightly increases range",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/73b724a6839bb3e1db37742f7ed5249b.png",
+                    "hashID": 1968497646,
+                    "weaponHash": 3654674561,
+                    "isPerk": true,
+                    "isFavorablePerk": false
+                },
+                {
+                    "name": "Killing Wind",
+                    "description": "Final blows grant increased mobility, weapon range, and handling for a short duration.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/28114b59ba79d4abd5ea978cbd00e665.png",
+                    "hashID": 2450788523,
+                    "weaponHash": 3654674561,
+                    "isPerk": true,
+                    "isFavorablePerk": false
+                },
+                {
+                    "name": "Short-Action Stock",
+                    "description": "This weapon is especially easy to grip.\n  \u2022  Greatly increases handling speed",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/55bcc164026b9c8291094085a4a85802.png",
+                    "hashID": 1067908860,
+                    "weaponHash": 3654674561,
+                    "isPerk": true,
+                    "isFavorablePerk": false
+                }
+            ],
+            "exoticArmorPerk": null,
+            "legendWeaponFrame": null,
+            "legendWeaponDamageType": "Kinetic",
+            "legendWeaponDamageElement": "Kinetic",
+            "masterworkData": null
+        },
+        "Warlock Exotic": {
+            "name": "Karnstein Armlets",
+            "type": "Exotic Gauntlets",
+            "description": "",
+            "lore": "\u201cYou are mine, you shall be mine, you and I are one for ever.\u201d",
+            "ExtLore": "As you test the armlet, a regal voice sounds in your mind. \n\"Listen! I made this armlet to help you in your quests. Will you help me in mine? \n\n\"I remember a woman from my first life. I remember she was mine, my love, my wife. And I was hers, her love, her wife. I remember nothing else except the hole in my heart. I live in hope that she, too, has been reincarnated somewhere on this new Earth. \n\n\"I built this armlet with a neuromech trawl. It will scour whatever mind it touches, flesh or machine, for any hint of my beloved. The trawl will drink power to feed you. And if anyone you touch has seen my wife, the trawl will know. If, only and ever if, I have remembered her truly.\"",
+            "itemHash": "3844826440",
+            "itemRating": null,
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/7a37bd1dc75bd0848d8c7afa25570763.jpg",
+            "rarity": "Exotic",
+            "class": 2,
+            "statRolls": [
+                67,
+                24,
+                3,
+                7,
+                23,
+                8,
+                2
+            ],
+            "weaponPerks": [],
+            "exoticArmorPerk": [
+                {
+                    "name": "Vampire's Caress",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/cf44821763ca3aeaeb4a6a16153a0ee0.png",
+                    "desc": "Melee kills instantly restore a large amount of health and continue to restore health afterwards for a short duration."
+                }
+            ],
+            "legendWeaponFrame": null,
+            "legendWeaponDamageType": null,
+            "legendWeaponDamageElement": null,
+            "masterworkData": null
+        },
+        "Hunter Exotic": {
+            "name": "Fr0st-EE5",
+            "type": "Exotic Leg Armor",
+            "description": "",
+            "lore": "\"Hey, if it works for computers\u2026\" \u2014Marcus Ren",
+            "ExtLore": "\"Marcus, these are incredible!\"\n\"What did I tell you? I call these bad boys the Fr0st-EE5.\"\n\"Um, come again?\"\n\"Just call them the Frosties.\"\n\"Whatever they're called, I love them. It felt like my entire body became supercharged while running.\"\n\"Glad you like them. I still have a couple of kinks to work out, but when that's over\u2026\"\n\"A couple of kinks?\"\n\"Well sometimes\u2014and I mean very rarely\u2014the Energy Transfer Capacitors can overheat and explode during the user's sprint. That only happens 2% of the time or something.\"\n\"Wait, you sent me on that field test knowing this?\"\n\"I don't see the issue here.\"\n\"I'm telling Sloane.\"\n \"Whoa, Boaz, let's not get hasty. I'll make it up to you with some sparrow mods.\"\n\"You can't buy me off\u2014 Wait, which mods are we talking about here?\"",
+            "itemHash": "609852545",
+            "itemRating": null,
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/308f4e5bd5b86d095904b878f70d8ee8.jpg",
+            "rarity": "Exotic",
+            "class": 1,
+            "statRolls": [
+                67,
+                14,
+                9,
+                11,
+                2,
+                10,
+                21
+            ],
+            "weaponPerks": [],
+            "exoticArmorPerk": [
+                {
+                    "name": "Rapid Cooldown",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/8ff8479b346e8f6cd93d524268dbbbfc.png",
+                    "desc": "Increased grenade, melee, and dodge regeneration while sprinting. Dodging increases your sprint speed."
+                }
+            ],
+            "legendWeaponFrame": null,
+            "legendWeaponDamageType": null,
+            "legendWeaponDamageElement": null,
+            "masterworkData": null
+        },
+        "Titan Exotic": {
+            "name": "Ursa Furiosa",
+            "type": "Exotic Gauntlets",
+            "description": "",
+            "lore": "\"Stay back. I won't tell you again.\" \u2014Bjorna-3",
+            "ExtLore": "Behind her, they ran for their lives.\n\nThe Fallen had descended upon them in such numbers that they were impossible to count. First it was a Skiff. Then another, followed immediately by a third. And finally, a full-blown Ketch de-cloaked above their position. There were but three of them to protect a hundred who had once been thrice that. Within minutes, it was only her.\n\nShe corralled the survivors into a cave that once upon a time wasn't a cave but more of an industrial drainage system. It was foul here; the radiation was practically palpable, and the survivors\u2014if they survived this day\u2014would likely find their lives shortened by years if not decades thanks to this poisoned solace.\n\nShe pushed them forward, deeper into the underground, as fast as they could manage. She carried two children, both eerily silent and unaffected. They, like their people, had endured more than she could imagine in their five-thousand kilometer exodus. They had given up their homes for the promise of something better. For the promise of hope and light and the strength of the pack. In their quest for better lives, they had lost almost everything.\n\nHer Ghost told her the bad news\u2014this cave system was a labyrinth extending dozens of kilometers with more dead-ends than not. The walls were deeply reinforced, and its scans could see but half a kilometer at best. It was going to be trial and error, and their pursuers were getting closer. Her Ghost didn't think they would make it. Not before\u2026\n\nOne of the children in her arms\u2014a little girl whose name was Violet\u2014looked her in the eye and told her, without a hint of doubt, that she knew her Guardian would let nothing happen to them. Not after how far they'd come. She smiled at Violet and told her, yes, everything was going to be okay.\n\nShe set the children down, told them to run ahead and join the others; she would be right behind them. Alone with her Ghost, she told it to lead them to safety. She would stay behind and buy them time. And by the Traveler's Light, it would be an eternity's worth.\n\nAnd so, reluctantly, her Ghost floated ahead to rejoin the exodus, but not before swearing it would come back to find her and bring her back, no matter how long it took.\n\nWith the light of her Ghost now out of sight and the soft wet steps of a hundred refugees out of ear-shot, she strapped on her helmet, tightened her gauntlets, and drew a line in the muck beneath her feet. When the chittering of Fallen Dregs finally began to echo through the tunnels, she reached for the Light and with it crafted a shield of Void energy.\n\nIf need be, she would hold this line until the end of time.",
+            "itemHash": "1848640623",
+            "itemRating": null,
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/fcb345a9ab4c3c6a1afecb75f379c289.jpg",
+            "rarity": "Exotic",
+            "class": 0,
+            "statRolls": [
+                62,
+                21,
+                4,
+                6,
+                14,
+                6,
+                11
+            ],
+            "weaponPerks": [],
+            "exoticArmorPerk": [
+                {
+                    "name": "Ursine Guard",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/b8b533ddef212794b60a54799a00797d.png",
+                    "desc": "Move faster while guarding when Sentinel Shield is active. Guarded damage converts to Super energy when the Super ends."
+                }
+            ],
+            "legendWeaponFrame": null,
+            "legendWeaponDamageType": null,
+            "legendWeaponDamageElement": null,
+            "masterworkData": null
+        }
+    },
+    "Legendaries": {
+        "Legendary weapons": [
+            {
+                "name": "Chroma Rush",
+                "type": "Legendary Auto Rifle",
+                "description": "",
+                "lore": "Drink from the data stream.",
+                "ExtLore": "The Eliksni awkwardly shouldered its way onto the empty stool at the ramen shop and rested its four elbows on the bar.\n\nMaurice looked up over the huge pot of broth and, thinking a Titan in one of their ridiculous helmets had arrived for lunch, called out \"Irasshaimase!\" It wasn't until he absently stepped to the bar that he realized who his customer was.\n\nMetal plating covered the creature's forehead and the side of its face, ending in a nozzle that hissed a stream of blueish mist. A haphazard collision of heavy canvas and metallic weave draped over its shoulders. A Vanguard lanyard dangled absurdly from its neck. \n\nIt was small for an Eliksni, but its angular head still towered above Maurice as it hunched over the bar. Four blue eyes looked back at him from above a lipless mouth. It opened, revealing rows of thin, sharp teeth. \n\n\"One item ramen soup,\" the Eliksni croaked stiltedly. \"Please.\" \n\nMaurice held his breath, tightened his grip on his pencil, and grinned. He grinned when he was nervous, and this seemed like as good a time as any. \n\nThe Eliksni grinned back, nodded, and then opened its horrible mouth again. \"I smelled it, and the smell was good,\" it said.\n\nMaurice scanned the bar. His other customers sat frozen, their bowls of ramen steaming silently in front of them. He realized his mouth had apparently decided to talk on its own, as if nothing were wrong. He heard himself ask, \"How spicy, zero to five stars?\"\n\nThe Eliksni had anticipated this question. \"Spicy five stars,\" it said, holding up one hand with three claws splayed, and another with two. \"May I receive additional dead flesh, please?\"\n\n\"You got it,\" Maurice said, his even voice betraying none of his tension, and he turned back to the bubbling pot of broth. Muscle memory took over, and he soon found himself placing a steaming bowl of ramen in front of the creature, who clucked cheerfully.\n\nMaurice took a half-step back. A small crowd was forming in the walkway in front of the restaurant. Some of the customers leaned in as their curiosity overcame their terror. Maurice noticed the woman in seat 2 needed more water, but it could wait. \n\nThe Eliksni raised its arms tentatively, then looked to Maurice again. \"What is the protocol?\" \n\nMaurice found himself unsure of which pair of the Eliksni's eyes to look into and focused on the ramen instead. \"Well, you eat the noodles and pork and egg with\u2014\" \n\n\"Egg,\" repeated the Eliksni, enjoying the unfamiliar word.\n\n\"\u2014yeah, egg. You eat all that with the chopsticks, and you get the broth with the spoon.\" Maurice saw how the Eliksni's claws dwarfed the ceramic spoon. \"Or you can just lift the whole bowl and drink it.\"\n\nMaurice mimed lifting a bowl to his lips. The Eliksni nodded. Its claws tapped the metal on its face and the hissing blue mist ceased. \n\nThe Eliksni held the chopsticks, tested their weight, and respectfully placed them back on the bar before bringing the bowl to its mouth with its upper arms. Above the ramen bowl, Maurice saw all four of the Eliksni's eyes close. \n\nA long moment of tension fell over the shop, the silence broken only by a staccato series of hissing slurps.\n\nFinally, the Eliksni lowered the empty bowl. It breathed in as the blue mist resumed its thin spray. It looked toward Maurice. \"I tasted all of it,\" it said with deep satisfaction. \"I am very thankful.\"\n\nMaurice's grin turned into a tentative smile. \"Glad you enjoyed it.\" \n\nThe Eliksni stood and held out what looked like a small model of the Traveler. It glowed as it floated in the Eliksni's palm. \"Compensation,\" it said.\n\nMaurice reached to take the treasure, then drew his hand back. \"For new customers, there is no charge,\" he said. \"No compensation. Thank you for coming in.\" \n\nThe Eliksni cocked its head, then clucked and the model vanished beneath the folds of its cloak. It smiled at Maurice. \n\n\"You,\" it said, then cleared its throat with a rumble, \"you are a\u2014\" and the five spirited words that followed were replete with hard consonants. \n\nIn the confused silence that followed, the Eliksni nodded graciously, then walked through the crowd outside and deeper into the City.",
+                "itemHash": "1119734784",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/c291e9e23c0f4a7b7646f32e0936e307.jpg",
+                "rarity": "Legendary",
+                "class": 3,
+                "statRolls": [],
+                "weaponPerks": [
+                    {
+                        "name": "Chambered Compensator",
+                        "description": "Stable barrel attachment.\n  \u2022  Increases stability\n  \u2022  Moderately controls recoil\n  \u2022  Slightly decreases handling speed",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/376aa9bd8c392567f501012fc3b3d4d0.png",
+                        "hashID": 3661387068,
+                        "weaponHash": 1119734784,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Steady Rounds",
+                        "description": "This magazine is optimized for recoil control.\n  \u2022  Greatly increases stability \n  \u2022  Slightly decreases range\n  \u2022  Increases airborne effectiveness",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/adaf4315dab749519c41a233e9954598.png",
+                        "hashID": 3177308360,
+                        "weaponHash": 1119734784,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Feeding Frenzy",
+                        "description": "Each rapid kill with this weapon progressively increases reload speed for a short time.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/5838b4ef410895011edfed3eaf11641f.png",
+                        "hashID": 2779035018,
+                        "weaponHash": 1119734784,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Wellspring",
+                        "description": "Kills with this weapon generate ability energy. This energy is divided between your uncharged abilities.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/b480945e13f700b4fa510a6fc79b92b2.png",
+                        "hashID": 3592538738,
+                        "weaponHash": 1119734784,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    }
+                ],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": {
+                    "name": "Rapid-Fire Frame",
+                    "description": "Deeper ammo reserves. Slightly faster reload when magazine is empty.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/0ab090e93e19da9e841b0f94c5ab7de6.png"
+                },
+                "legendWeaponDamageType": "Kinetic",
+                "legendWeaponDamageElement": "Kinetic",
+                "masterworkData": {
+                    "name": "Reload Speed",
+                    "description": "The time it takes to reload this weapon.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/18a68428b806cf726984ce79126eed65.jpg",
+                    "mwHash": 4283235143
+                }
+            },
+            {
+                "name": "Whispering Slab",
+                "type": "Legendary Combat Bow",
+                "description": "",
+                "lore": "It sings of sorrows that have not yet come to pass.",
+                "ExtLore": "Eris Morn walks with slow, silent steps toward a haggard Drifter shoving small bags into larger ones. Dim and exhausted Motes lie scattered throughout the Derelict, slowly evaporating. She retrieves a Mote from the floor and shines her burning light over the cracked surface. The light struggles to leave the cracks. She lets the disintegrating Mote drop and shatter into dust against the floor grates. It chimes like resonate glass.\n\nThe Drifter whirls around to face the noise, almost losing his footing. He lets his hand slide off his holstered Trust as recognition washes over him. \"Ain't anybody ever tell you not to skulk? It's rude.\"\n\n\"Noted. Are you vacating?\"\n\n\"Road trip. How'd you get in here anyway?\"\n\n\"The airlock was open.\"\n\n\"Uh huh.\"\n\n\"If I said I were here to run in your rat race, would it change your tune?\"\n\n\"Uh huh\u2026\"\n\nEris drops her shoulders and approaches the Drifter. \"I want your help.\"\n\n\"Uh huh.\" His brow furrows with suspicion. \"Why? Didn't you save the universe yet?\" Drifter turns back to shoving bags in bags.\n\n\"It seems to be continually in peril. To be honest, I'm not sure I've helped.\"\n\nEris hands him a bag. \"I need your knowledge.\"\n\n\"You? No.\"\n\n\"I have had some troubling experiences as of late.\"\n\n\"Yeah, it's called life.\"\n\n\"I need to know,\" she says and hesitates, half-hearted restraint preceding sacrilege. \"Tell me how to interpret the Darkness.\"\n\n\"What am I, some crusty woo-woo sage? Beat it, kid. I'm packing.\"\n\n\"Do not ignore me,\" Eris says. Her voice is calm and piercing. \"We've both seen beneath the surface.\"\n\nDrifter drops the pack in his hand and picks a jade coin off his workbench.\n\n\"Asher is entrenched in his thinking,\" she says and gently places a palm down on the workbench beside them. \"Ikora\u2026 she tries. She hears, but she doesn't understand. No one is listening.\"\n\nDrifter pockets the coin and turns to face her. He stares deep. \"Experience. Hell of a thing.\" He looks down the gangway of the Derelict and through the gate that would take him to his Haul. \"Favors ain't free. I do this, you owe me.\"\n\nEris nods. Drifter swipes the workbench clean and pulls out a retractable seat for himself.\n\n\"How long you got?\"\n\nThe two sit. They speak. They listen. Linkages forged in Light and Dark of traded secrets as the Derelict hangs in orbit around the Earth. Pacts are made. Soon, there is only the silence of knowing left between them.\n\n\"Next time you fly over the Moon, dust your boots. Tracking that crap all over my floors.\"\n\nEris shakes her head and moves toward the airlock.\n\nDrifter yells after her, \"AND CALL NEXT TIME! I could've blown those fancy eyes straight out of your face.\"\n\n\"I'll try to be more mindful of your many eccentricities in the future.\"",
+                "itemHash": "211938782",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/e1a2005a56039adc4d0155905fec4876.jpg",
+                "rarity": "Legendary",
+                "class": 3,
+                "statRolls": [],
+                "weaponPerks": [
+                    {
+                        "name": "Elastic String",
+                        "description": "Excellent snapback.\n  \u2022  Decreases accuracy\n  \u2022  Faster draw time\n  \u2022  Slightly increases handling speed",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/a8aee4de9f46b3209f45a6fe65c57ada.png",
+                        "hashID": 2801223209,
+                        "weaponHash": 211938782,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Carbon Arrow Shaft",
+                        "description": "Light and stable shaft material. \n  \u2022  Increases stability",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/0dca9631d83ecaeb27bb39c7d2bf7679.png",
+                        "hashID": 2154191829,
+                        "weaponHash": 211938782,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Hip-Fire Grip",
+                        "description": "Increases accuracy, stability, and precision hit targeting when firing from the hip.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/9f3c3ae1bddbed21af1cc6487338028e.png",
+                        "hashID": 1866048759,
+                        "weaponHash": 211938782,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Swashbuckler",
+                        "description": "This weapon gains increased damage from melee kills and kills with this weapon.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/ef89b89410de618e9cfa353ff35125d8.png",
+                        "hashID": 4082225868,
+                        "weaponHash": 211938782,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    }
+                ],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": {
+                    "name": "Lightweight Frame",
+                    "description": "Recurve Bow. Draw quickly and move faster while this weapon is equipped. \n[Reload]  : Use while drawn to cancel the shot.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/0ce2f3a9046c3b1e2fc007d903563e66.png"
+                },
+                "legendWeaponDamageType": "Kinetic",
+                "legendWeaponDamageElement": "Kinetic",
+                "masterworkData": {
+                    "name": "Accuracy",
+                    "description": "How well shots fired by this weapon hit their target.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/8ebd558417d6c02e3ed2ffadc4bdbc48.jpg",
+                    "mwHash": 892374263
+                }
+            },
+            {
+                "name": "Truthteller",
+                "type": "Legendary Grenade Launcher",
+                "description": "",
+                "lore": "\"If we wish others to accept the grim reality, we must break through every comforting illusion.\" \u2014Arach Jalaal",
+                "ExtLore": null,
+                "itemHash": "1946491241",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/cc5101e4e22234770293284828519ae1.jpg",
+                "rarity": "Legendary",
+                "class": 3,
+                "statRolls": [],
+                "weaponPerks": [
+                    {
+                        "name": "Countermass",
+                        "description": "This weapon is weighted for vertical recoil.\n  \u2022  Greatly controls recoil\n  \u2022  Increases stability\n  \u2022  Increases handling speed",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/b1e34eabc2ad012b6258436e80705b49.png",
+                        "hashID": 3809316345,
+                        "weaponHash": 1946491241,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "High-Velocity Rounds",
+                        "description": "This weapon's projectiles are particularly light and quick.\n  \u2022  Increases projectile speed\n  \u2022  Increases reload speed",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/d541a7c35981cb9caceaf3736097adb9.png",
+                        "hashID": 2822142346,
+                        "weaponHash": 1946491241,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Auto-Loading Holster",
+                        "description": "The holstered weapon is automatically reloaded after a short period of time.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/d355b1117307c9f187729249361cecc3.png",
+                        "hashID": 3300816228,
+                        "weaponHash": 1946491241,
+                        "isPerk": true,
+                        "isFavorablePerk": true
+                    },
+                    {
+                        "name": "Demolitionist",
+                        "description": "Kills with this weapon generate grenade energy. Activating your grenade ability reloads this weapon from reserves.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/53ead908917c9156457c7c9dd453d649.png",
+                        "hashID": 3523296417,
+                        "weaponHash": 1946491241,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    }
+                ],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": {
+                    "name": "Lightweight Frame",
+                    "description": "One-shot handheld Grenade Launcher with remote detonation. \n[Shoot]  : Fire; release to detonate.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/530b400d5cec3bf6aca7c5efc46fea20.png"
+                },
+                "legendWeaponDamageType": "Energy",
+                "legendWeaponDamageElement": "Void",
+                "masterworkData": {
+                    "name": "Handling",
+                    "description": "The speed with which the weapon can be readied and aimed.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/97161c247fc79bacad09d15d6e5ee7f2.jpg",
+                    "mwHash": 518224747
+                }
+            },
+            {
+                "name": "Seventh Seraph SAW",
+                "type": "Legendary Machine Gun",
+                "description": "",
+                "lore": "Chained away long ago; its jaws too eager in times of peace.",
+                "ExtLore": null,
+                "itemHash": "2582755344",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/3120716febcf5f00f05988989dd68a29.jpg",
+                "rarity": "Legendary",
+                "class": 3,
+                "statRolls": [],
+                "weaponPerks": [
+                    {
+                        "name": "Fluted Barrel",
+                        "description": "Ultra-light barrel. \n  \u2022  Greatly increases handling speed\n  \u2022  Slightly increases stability",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/c2a4355c8db7eac12d6dec52d09a20fe.png",
+                        "hashID": 1840239774,
+                        "weaponHash": 2582755344,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "High-Caliber Rounds",
+                        "description": "Shots from this weapon knock the target back farther.\n  \u2022  Slightly increases range",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/f06239ee156ee70f99b48e8e1970dbca.png",
+                        "hashID": 1561002382,
+                        "weaponHash": 2582755344,
+                        "isPerk": true,
+                        "isFavorablePerk": true
+                    },
+                    {
+                        "name": "Auto-Loading Holster",
+                        "description": "The holstered weapon is automatically reloaded after a short period of time.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/d355b1117307c9f187729249361cecc3.png",
+                        "hashID": 3300816228,
+                        "weaponHash": 2582755344,
+                        "isPerk": true,
+                        "isFavorablePerk": true
+                    },
+                    {
+                        "name": "Vorpal Weapon",
+                        "description": "Increased damage against bosses, vehicles, and Guardians with their Super active.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/6f82df3f2505654c266d2ee34c2a922d.png",
+                        "hashID": 1546637391,
+                        "weaponHash": 2582755344,
+                        "isPerk": true,
+                        "isFavorablePerk": true
+                    }
+                ],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": {
+                    "name": "High-Impact Frame",
+                    "description": "Slow-firing and high-damage. This weapon is more accurate when stationary and aiming down sights.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/65fdde950b85bdd1e0383e1016a73661.png"
+                },
+                "legendWeaponDamageType": "Power",
+                "legendWeaponDamageElement": "Arc",
+                "masterworkData": {
+                    "name": "Reload Speed",
+                    "description": "The time it takes to reload this weapon.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/18a68428b806cf726984ce79126eed65.jpg",
+                    "mwHash": 4283235143
+                }
+            },
+            {
+                "name": "Gridskipper",
+                "type": "Legendary Pulse Rifle",
+                "description": "",
+                "lore": "\"No stars overhead. Best not to look up.\" \u2014Amanda Holliday",
+                "ExtLore": "He heard something and snapped awake. There it was again: the skittering of clawed feet above him. In a moment, he had grabbed the Pulse Rifle from near the door and was outside.\n\nHe saw nothing but the lip of the tar paper roof against the undulating night sky. That didn't mean anything\u2014they could turn invisible. Everyone knew that. They could just be standing there, one or two, or a dozen, staring down at him.\n\nHe looked for shimmering outlines, but his vision was filled by the swaying grid of the dark purple night. He squinted as a ripple rolled high overhead, and the grid seemed to move closer, like an enormous sheet settling over the City.\n\nA wave of pressure pushed down, building in his sinuses. He pressed a hand to his eyes. A deep thrum filled his head, and he heard their claws on the walls all around him, their hissing laughter.\n\nHe turned toward the street, weapon raised. He felt his heart thudding in his chest and sweat beading on his back.\n\nAnother noise: someone pounding on glass behind him.\n\nHe spun and one of them was in his house, looking out at him through the window. His sweaty fingers fumbled to turn the safety off as it opened its mouth\u2014\n\n\"Dad,\" the Fallen shouted, \"you're standing in the garden!\"\n\nHe looked down dumbly. Cherry tomatoes were crushed beneath his bare feet.\n\nHis son yelled again, no longer a Fallen, merely irritated and half asleep. \"Come back inside!\"\n\nHands shaking, he stepped out of the garden. He fought the urge to look into the sky as he walked back to the house.",
+                "itemHash": "1621558458",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/e448a8b6661c0d8a4894c8de3427cad5.jpg",
+                "rarity": "Legendary",
+                "class": 3,
+                "statRolls": [],
+                "weaponPerks": [
+                    {
+                        "name": "Corkscrew Rifling",
+                        "description": "Balanced barrel. \n  \u2022  Slightly increases range and stability\n  \u2022  Slightly increases handling speed",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/18cc75bf9a17bb80b5109f1b8909521f.png",
+                        "hashID": 4090651448,
+                        "weaponHash": 1621558458,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Extended Mag",
+                        "description": "This weapon has a greatly increased magazine size, but reloads much slower.\n  \u2022  Greatly increases magazine size\n  \u2022  Greatly decreases reload speed\n  \u2022  Increases airborne effectiveness",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/4cd73ae5b1bc1ae0afc7adb34c2f2df6.png",
+                        "hashID": 2420895100,
+                        "weaponHash": 1621558458,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Tunnel Vision",
+                        "description": "Reloading after defeating a target greatly increases target acquisition and aim down sight speed for a short duration.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/dce6ca3c9276e5c10432cb99685ea62e.png",
+                        "hashID": 2946784966,
+                        "weaponHash": 1621558458,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Frenzy",
+                        "description": "Being in combat for an extended time increases damage, handling, and reload for this weapon until you are out of combat.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/5f346569b07ad452768b16a255ebd168.png",
+                        "hashID": 4104185692,
+                        "weaponHash": 1621558458,
+                        "isPerk": true,
+                        "isFavorablePerk": true
+                    }
+                ],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": {
+                    "name": "Rapid-Fire Frame",
+                    "description": "Deeper ammo reserves. Slightly faster reload when magazine is empty.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/0ab090e93e19da9e841b0f94c5ab7de6.png"
+                },
+                "legendWeaponDamageType": "Energy",
+                "legendWeaponDamageElement": "Void",
+                "masterworkData": {
+                    "name": "Range",
+                    "description": "Increases the effective range of this weapon.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/b5dac54c0c768696460392d7d529166f.jpg",
+                    "mwHash": 150943607
+                }
+            },
+            {
+                "name": "Punching Out",
+                "type": "Legendary Sidearm",
+                "description": "",
+                "lore": "Time to close up.",
+                "ExtLore": null,
+                "itemHash": "378498222",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/bed67895b7f9a05d40ae949a49ec02f1.jpg",
+                "rarity": "Legendary",
+                "class": 3,
+                "statRolls": [],
+                "weaponPerks": [
+                    {
+                        "name": "Fluted Barrel",
+                        "description": "Ultra-light barrel. \n  \u2022  Greatly increases handling speed\n  \u2022  Slightly increases stability",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/c2a4355c8db7eac12d6dec52d09a20fe.png",
+                        "hashID": 1840239774,
+                        "weaponHash": 378498222,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Appended Mag",
+                        "description": "This weapon's magazine is built for higher capacity.\n  \u2022  Increases magazine size",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/9d8a7be4c2fef471a6fde38d02ab8dae.png",
+                        "hashID": 1087426260,
+                        "weaponHash": 378498222,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Feeding Frenzy",
+                        "description": "Each rapid kill with this weapon progressively increases reload speed for a short time.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/5838b4ef410895011edfed3eaf11641f.png",
+                        "hashID": 2779035018,
+                        "weaponHash": 378498222,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Unrelenting",
+                        "description": "Rapidly defeating targets triggers health regeneration. Guardians and powerful combatants count as more than one kill.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/1fc52a711b40a4d867312c8aeadce262.png",
+                        "hashID": 3108830275,
+                        "weaponHash": 378498222,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Vanguard's Vindication",
+                        "description": "Final blows with this weapon grant a small amount of health.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/712c038e553e04a40fe5cf84b5673d27.png",
+                        "hashID": 744217850,
+                        "weaponHash": 378498222,
+                        "isPerk": true,
+                        "isFavorablePerk": true
+                    }
+                ],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": {
+                    "name": "Rapid-Fire Frame",
+                    "description": "Full Auto. Deeper ammo reserves. Slightly faster reload when magazine is empty.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/0ab090e93e19da9e841b0f94c5ab7de6.png"
+                },
+                "legendWeaponDamageType": "Energy",
+                "legendWeaponDamageElement": "Solar",
+                "masterworkData": {
+                    "name": "Handling",
+                    "description": "The speed with which the weapon can be readied and aimed.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/97161c247fc79bacad09d15d6e5ee7f2.jpg",
+                    "mwHash": 518224747
+                }
+            },
+            {
+                "name": "Frozen Orbit",
+                "type": "Legendary Sniper Rifle",
+                "description": "",
+                "lore": "Never out of sight.",
+                "ExtLore": null,
+                "itemHash": "3473290087",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/9bca64e4672251a90f580b1881461550.jpg",
+                "rarity": "Legendary",
+                "class": 3,
+                "statRolls": [],
+                "weaponPerks": [
+                    {
+                        "name": "Chambered Compensator",
+                        "description": "Stable barrel attachment.\n  \u2022  Increases stability\n  \u2022  Moderately controls recoil\n  \u2022  Slightly decreases handling speed",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/376aa9bd8c392567f501012fc3b3d4d0.png",
+                        "hashID": 3661387068,
+                        "weaponHash": 3473290087,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Alloy Magazine",
+                        "description": "Faster reloads when the magazine is empty.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/932e7b84c233c6cc49a58058f8c5144d.png",
+                        "hashID": 1431678320,
+                        "weaponHash": 3473290087,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Moving Target",
+                        "description": "Increased movement speed and target acquisition when moving while aiming down sights.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/274a7f773a1bec5feb48bda6d9ecaa10.png",
+                        "hashID": 588594999,
+                        "weaponHash": 3473290087,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Opening Shot",
+                        "description": "Improved accuracy and range on the opening shot of attack.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/0fd9dbe1c09b8cc7d0be888c68ff4526.png",
+                        "hashID": 47981717,
+                        "weaponHash": 3473290087,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "One Quiet Moment",
+                        "description": "Grants increased reload speed when out of combat.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/823bf29510b2720dd561835d5192c47a.png",
+                        "hashID": 4091460919,
+                        "weaponHash": 3473290087,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    }
+                ],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": {
+                    "name": "Aggressive Frame",
+                    "description": "High damage, high recoil.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/d1ff65162c4a9d54a9612d9874b9fa88.png"
+                },
+                "legendWeaponDamageType": "Energy",
+                "legendWeaponDamageElement": "Void",
+                "masterworkData": {
+                    "name": "Range",
+                    "description": "Increases the effective range of this weapon.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/b5dac54c0c768696460392d7d529166f.jpg",
+                    "mwHash": 150943607
+                }
+            }
+        ],
+        "Warlock": {
+            "Helmet": {
+                "name": "Righteous Hood",
+                "type": "Legendary Helmet",
+                "description": "",
+                "lore": "Unflinching nobility.",
+                "ExtLore": null,
+                "itemHash": "1259643537",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/08815f9f94fc8a2650275c0ce8acc850.jpg",
+                "rarity": "Legendary",
+                "class": 2,
+                "statRolls": [
+                    62,
+                    15,
+                    2,
+                    12,
+                    12,
+                    8,
+                    13
+                ],
+                "weaponPerks": [],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": null,
+                "legendWeaponDamageType": null,
+                "legendWeaponDamageElement": null,
+                "masterworkData": null
+            },
+            "Arms": {
+                "name": "Righteous Gloves",
+                "type": "Legendary Gauntlets",
+                "description": "",
+                "lore": "Blessed with the strength of your convictions.",
+                "ExtLore": null,
+                "itemHash": "4171162472",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/c07deadbc5e1e2b6925aebf3e27e580d.jpg",
+                "rarity": "Legendary",
+                "class": 2,
+                "statRolls": [
+                    59,
+                    15,
+                    7,
+                    9,
+                    17,
+                    9,
+                    2
+                ],
+                "weaponPerks": [],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": null,
+                "legendWeaponDamageType": null,
+                "legendWeaponDamageElement": null,
+                "masterworkData": null
+            },
+            "Chest": {
+                "name": "Righteous Robes",
+                "type": "Legendary Chest Armor",
+                "description": "",
+                "lore": "Honor from glory. Pride from worth.",
+                "ExtLore": null,
+                "itemHash": "4200580064",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/e8b45f96b077980cc06226d7aca04770.jpg",
+                "rarity": "Legendary",
+                "class": 2,
+                "statRolls": [
+                    62,
+                    2,
+                    14,
+                    16,
+                    7,
+                    17,
+                    6
+                ],
+                "weaponPerks": [],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": null,
+                "legendWeaponDamageType": null,
+                "legendWeaponDamageElement": null,
+                "masterworkData": null
+            },
+            "Legs": {
+                "name": "Righteous Boots",
+                "type": "Legendary Leg Armor",
+                "description": "",
+                "lore": "Stand steadfast in the face of opposition.",
+                "ExtLore": null,
+                "itemHash": "977534402",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/af71a52305221a59f1b90d4712abb631.jpg",
+                "rarity": "Legendary",
+                "class": 2,
+                "statRolls": [
+                    60,
+                    2,
+                    20,
+                    9,
+                    16,
+                    7,
+                    6
+                ],
+                "weaponPerks": [],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": null,
+                "legendWeaponDamageType": null,
+                "legendWeaponDamageElement": null,
+                "masterworkData": null
+            },
+            "Class Item": {
+                "name": "Righteous Bond",
+                "type": "Legendary Warlock Bond",
+                "description": "",
+                "lore": "Ensign of untarnished principle.",
+                "ExtLore": null,
+                "itemHash": "3510616093",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/bbb37444c4996e86a69d8339b7c7dc8c.jpg",
+                "rarity": "Legendary",
+                "class": 2,
+                "statRolls": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "weaponPerks": [],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": null,
+                "legendWeaponDamageType": null,
+                "legendWeaponDamageElement": null,
+                "masterworkData": null
+            }
+        },
+        "Hunter": {
+            "Helmet": {
+                "name": "Righteous Mask",
+                "type": "Legendary Helmet",
+                "description": "",
+                "lore": "Unflinching nobility.",
+                "ExtLore": null,
+                "itemHash": "3931166610",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/169ccc342850a6497acdcd15488c6313.jpg",
+                "rarity": "Legendary",
+                "class": 1,
+                "statRolls": [
+                    61,
+                    13,
+                    16,
+                    2,
+                    8,
+                    20,
+                    2
+                ],
+                "weaponPerks": [],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": null,
+                "legendWeaponDamageType": null,
+                "legendWeaponDamageElement": null,
+                "masterworkData": null
+            },
+            "Arms": {
+                "name": "Righteous Grips",
+                "type": "Legendary Gauntlets",
+                "description": "",
+                "lore": "Blessed with the strength of your convictions.",
+                "ExtLore": null,
+                "itemHash": "102655739",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/b6d72dd1951ac0d2ed7cd68f0914758b.jpg",
+                "rarity": "Legendary",
+                "class": 1,
+                "statRolls": [
+                    63,
+                    2,
+                    12,
+                    18,
+                    9,
+                    12,
+                    10
+                ],
+                "weaponPerks": [],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": null,
+                "legendWeaponDamageType": null,
+                "legendWeaponDamageElement": null,
+                "masterworkData": null
+            },
+            "Chest": {
+                "name": "Righteous Vest",
+                "type": "Legendary Chest Armor",
+                "description": "",
+                "lore": "Honor from glory. Pride from worth.",
+                "ExtLore": null,
+                "itemHash": "648899669",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/d95e3fc09bd6e8040ccffc1cf27f8f03.jpg",
+                "rarity": "Legendary",
+                "class": 1,
+                "statRolls": [
+                    60,
+                    13,
+                    2,
+                    16,
+                    17,
+                    10,
+                    2
+                ],
+                "weaponPerks": [],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": null,
+                "legendWeaponDamageType": null,
+                "legendWeaponDamageElement": null,
+                "masterworkData": null
+            },
+            "Legs": {
+                "name": "Righteous Strides",
+                "type": "Legendary Leg Armor",
+                "description": "",
+                "lore": "Stand steadfast in the face of opposition.",
+                "ExtLore": null,
+                "itemHash": "2847663213",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/9d83033161cdf4cbc834a74fc26e3422.jpg",
+                "rarity": "Legendary",
+                "class": 1,
+                "statRolls": [
+                    60,
+                    7,
+                    14,
+                    9,
+                    8,
+                    20,
+                    2
+                ],
+                "weaponPerks": [],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": null,
+                "legendWeaponDamageType": null,
+                "legendWeaponDamageElement": null,
+                "masterworkData": null
+            },
+            "Class Item": {
+                "name": "Righteous Cloak",
+                "type": "Legendary Hunter Cloak",
+                "description": "",
+                "lore": "Ensign of untarnished principle.",
+                "ExtLore": null,
+                "itemHash": "4065815976",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/78c72f9633bcefd6e5511deb97fa4fe7.jpg",
+                "rarity": "Legendary",
+                "class": 1,
+                "statRolls": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "weaponPerks": [],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": null,
+                "legendWeaponDamageType": null,
+                "legendWeaponDamageElement": null,
+                "masterworkData": null
+            }
+        },
+        "Titan": {
+            "Helmet": {
+                "name": "Righteous Helm",
+                "type": "Legendary Helmet",
+                "description": "",
+                "lore": "Unflinching nobility.",
+                "ExtLore": null,
+                "itemHash": "3491384606",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/ca337dbaa13159d017232e5988c15e1f.jpg",
+                "rarity": "Legendary",
+                "class": 0,
+                "statRolls": [
+                    58,
+                    2,
+                    10,
+                    17,
+                    2,
+                    12,
+                    15
+                ],
+                "weaponPerks": [],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": null,
+                "legendWeaponDamageType": null,
+                "legendWeaponDamageElement": null,
+                "masterworkData": null
+            },
+            "Arms": {
+                "name": "Righteous Gauntlets",
+                "type": "Legendary Gauntlets",
+                "description": "",
+                "lore": "Blessed with the strength of your convictions.",
+                "ExtLore": null,
+                "itemHash": "2761357391",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/0a5aceff6da52c184987e48f809f446e.jpg",
+                "rarity": "Legendary",
+                "class": 0,
+                "statRolls": [
+                    63,
+                    16,
+                    2,
+                    12,
+                    23,
+                    8,
+                    2
+                ],
+                "weaponPerks": [],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": null,
+                "legendWeaponDamageType": null,
+                "legendWeaponDamageElement": null,
+                "masterworkData": null
+            },
+            "Chest": {
+                "name": "Righteous Plate",
+                "type": "Legendary Chest Armor",
+                "description": "",
+                "lore": "Honor from glory. Pride from worth.",
+                "ExtLore": null,
+                "itemHash": "3091683497",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/ed445eadf02e8dde518b0bc8c5197ce8.jpg",
+                "rarity": "Legendary",
+                "class": 0,
+                "statRolls": [
+                    63,
+                    6,
+                    19,
+                    6,
+                    11,
+                    19,
+                    2
+                ],
+                "weaponPerks": [],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": null,
+                "legendWeaponDamageType": null,
+                "legendWeaponDamageElement": null,
+                "masterworkData": null
+            },
+            "Legs": {
+                "name": "Righteous Greaves",
+                "type": "Legendary Leg Armor",
+                "description": "",
+                "lore": "Stand steadfast in the face of opposition.",
+                "ExtLore": null,
+                "itemHash": "3335857649",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/597f6b187efef547fd334f72187fbdc8.jpg",
+                "rarity": "Legendary",
+                "class": 0,
+                "statRolls": [
+                    62,
+                    10,
+                    14,
+                    6,
+                    15,
+                    15,
+                    2
+                ],
+                "weaponPerks": [],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": null,
+                "legendWeaponDamageType": null,
+                "legendWeaponDamageElement": null,
+                "masterworkData": null
+            },
+            "Class Item": {
+                "name": "Righteous Mark",
+                "type": "Legendary Titan Mark",
+                "description": "",
+                "lore": "Ensign of untarnished principle.",
+                "ExtLore": null,
+                "itemHash": "577019492",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/8dbc3272338db992cc309b4d8e73e5c5.jpg",
+                "rarity": "Legendary",
+                "class": 0,
+                "statRolls": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "weaponPerks": [],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": null,
+                "legendWeaponDamageType": null,
+                "legendWeaponDamageElement": null,
+                "masterworkData": null
+            }
+        }
+    }
+}

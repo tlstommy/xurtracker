@@ -1,0 +1,954 @@
+
+    
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <title>X&#251r Tracker // Titan</title>
+    <meta charset="utf-8";>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Bootstrap CDN CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--Bootstrap CDN JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!--FA CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary text-white">
+        <div class="container-fluid">
+            <a class="navbar-brand mb-0 h1" href="https://www.xurtracker.com">X&#251r Tracker</a>
+            <button class="navbar-toggler" style="margin-right:5px !important;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-nav">
+                    <a class="nav-link active" href="all">All Items</a>
+                    <a class="nav-link active" href="exotics">Exotic Items</a>
+                    <a class="nav-link active" href="legendary-weapons">Legendary Weapons</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Armor
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item"  aria-current="page" href="titan">Titan Armor</a></li>
+                        <li><a class="dropdown-item" href="hunter">Hunter Armor</a></li>
+                        <li><a class="dropdown-item" href="warlock">Warlock Armor</a></li>
+                        </ul>
+                    </li>
+                </div>
+                <nav class="navbar-nav ms-auto">
+                    <a class="navbar-brand mb-0" href="https://twitter.com/XurTrack">
+                        <i class="fab-solid fab fa-twitter-square fa-2xl"></i>
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </nav> 
+    <style>
+        body{
+            color: #ffffff;
+        }
+        .tooltip-inner {
+            background-color: #0e1010;
+            box-shadow: 0px 0px 5px #ffffff;
+            opacity: 1 !important;
+        }
+        progress {
+            border: solid #636363 3px;
+            background: #ffffff;
+        }
+
+        progress {
+            color: #ffffff;
+        }
+        progress::-moz-progress-bar {
+            background: #000000;
+        }
+
+        progress::-webkit-progress-value {
+            background: #ffffff;
+        }
+
+        progress::-webkit-progress-bar {
+            background: #000000;
+        }
+        ::-webkit-scrollbar {
+            width: 0;
+            background: transparent;
+        }
+        
+
+    </style>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y64WQ82WSS"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-Y64WQ82WSS');
+    </script>
+    
+    </head>
+
+    <body style="background-color:  #000000; overflow: auto;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <br>
+                    <br>
+                    <h1 style="text-align:center;">
+                        X&#251r's Titan Armor for October 21, 2022
+                        <hr>
+                    </h1>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <br>            
+        <br>
+        <div class="container">
+            <div class="row">
+              <div class="col-md-6 border">
+                <br>
+                <table class="table" style="color: #ffffff;padding-left: 4.5%;">
+                    <thead>
+                        <tr>
+                            <th><img src="https://bungie.net/common/destiny2_content/icons/2ffa90c58bdadcca8226f553315212e7.png" class="img" width="70px" alt="exotic-warlock"></th>
+                            <th><h2 style="padding-bottom: 10px;">Exotic Armorpeice</h2></th>
+                        </tr>
+                    </thead>
+                </table>
+                <br>
+                <table class="table table-borderless" style="color: #ffffff;padding-left: 4.5%;">
+                    <h2 style="text-align: center; border-bottom: #ffffff; border: #ffffff;">Ursa Furiosa<hr></h2>
+                    <thead>
+                        <tr>
+                        <th><img src="https://www.bungie.net/common/destiny2_content/icons/fcb345a9ab4c3c6a1afecb75f379c289.jpg" class="img" alt="exotic-warlock"></th>
+                        <th>
+                            <em>&quotStay back. I won't tell you again.&quot </em><br><br>&#8212&nbsp;Bjorna-3</em>
+                        </th>
+                        </tr>
+                    </thead>
+                </table>
+
+                <table class="table table-borderless" style="color: #ffffff;padding-left: 4.5%;">
+                    <thead>
+                        <tr>
+                            <h3 style="padding-left: 1%;"><u>Exotic Perk</u></h3>
+                            <th>
+                                <img src="https://www.bungie.net/common/destiny2_content/icons/b8b533ddef212794b60a54799a00797d.png" style="padding-bottom: 12.5px;" class="img" alt="exotic-warlock-perk" width="75" ></img></th>
+                            </th>
+                            <th>
+                                <h5>Ursine Guard</h5><p>Move faster while guarding when Sentinel Shield is active. Guarded damage converts to Super energy when the Super ends.</p>
+                            </th>
+                        </tr>
+                    </thead>
+                </table>
+                <div style="padding-left: 2%;">
+                    <table class="table table-borderless" style="color: #ffffff;max-width: 200px;">
+                        <caption><h4 style="color: #ffffff;">Stat Total : 62</h5></caption>
+                        <thead>
+                            <tr>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" style="vertical-align: middle;border: so #ffffff;">
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/e26e0e93a9daf4fdd21bf64eb9246340.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Mobility <br>Increases movement speed and maximum jump height."></img>
+                                </th>
+                                <td style="vertical-align: middle;">
+                                    <h5>+21</h5>
+                                </td>
+                                <td style="vertical-align: middle;">
+                                    
+                                    <progress id="mob" value="21" max="40" style="height: 30px; width: 200px;"> 32% </progress>
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="vertical-align: middle;">
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/202ecc1c6febeb6b97dafc856e863140.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Resilience <br>&#8226Decreases cooldown of Class abilities.<br>&#8226;Increases Shield capacity.<br>&#8226;Reduces incoming damage."></img>
+                                </th>
+                                <td style="vertical-align: middle;">
+                                    <h5>+4</h5>
+                                </td>
+                                <td style="vertical-align: middle;">
+                                    
+                                    <progress id="res" value="4" max="40" style="height: 30px; width: 200px;"> 32% </progress>
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="vertical-align: middle;">
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/128eee4ee7fc127851ab32eac6ca91cf.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Recovery<br>Increases health regeneration rate."></img>
+                                </th>
+                                <td style="vertical-align: middle;">
+                                    <h5>+6</h5>
+                                </td>
+                                <td style="vertical-align: middle;">
+                                    
+                                    <progress id="rec" value="6" max="40" style="height: 30px; width: 200px;"> 32% </progress>
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="vertical-align: middle;">
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/ca62128071dc254fe75891211b98b237.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Discipline<br>Decreases cooldown of grenade abilities."></img>
+                                </th>
+                                <td style="vertical-align: middle;">
+                                    <h5>+14</h5>
+                                </td>
+                                <td style="vertical-align: middle;">
+                                    
+                                    <progress id="dis" value="14" max="40" style="height: 30px; width: 200px;"> 32% </progress>
+                                    
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row" style="vertical-align: middle;">
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/59732534ce7060dba681d1ba84c055a6.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Intellect<br>Decreases cooldown of Super abilities."></img>
+                                </th>
+                                <td style="vertical-align: middle;">
+                                    <h5>+6</h5>
+                                </td>
+                                <td style="vertical-align: middle;">
+                                    
+                                    <progress id="inte" value="6" max="40" style="height: 30px; width: 200px;"> 32% </progress>
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="vertical-align: middle;">
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/c7eefc8abbaa586eeab79e962a79d6ad.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Strength<br>Decreases cooldown of melee abilities."></img>
+                                </th>
+                                <td style="vertical-align: middle;">
+                                    <h5>+11</h5>
+                                </td>
+                                <td style="vertical-align: middle;">
+                                    
+                                    <progress id="stre" value="11" max="40" style="height: 30px; width: 200px;"> 32% </progress>
+                                    
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div class="accordion" id="titan1">
+                    <div class="accordion-item" style="background-color: #0e1010; border-color: #ffffff;">
+                        <h2 class="accordion-header" id="heading1" style="background-color: #0e1010; border-color: #ffffff;">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" style="background-color: #0e1010; color: #ffffff;" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                            Ursa Furiosa Lore
+                        </button>
+                        </h2>
+                        <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p><h3>Ursa Furiosa</h3><hr><p>Behind her, they ran for their lives.<br><br>The Fallen had descended upon them in such numbers that they were impossible to count. First it was a Skiff. Then another, followed immediately by a third. And finally, a full-blown Ketch de-cloaked above their position. There were but three of them to protect a hundred who had once been thrice that. Within minutes, it was only her.<br><br>She corralled the survivors into a cave that once upon a time wasn't a cave but more of an industrial drainage system. It was foul here; the radiation was practically palpable, and the survivors&nbsp;&#8212&nbsp;if they survived this day&nbsp;&#8212&nbsp;would likely find their lives shortened by years if not decades thanks to this poisoned solace.<br><br>She pushed them forward, deeper into the underground, as fast as they could manage. She carried two children, both eerily silent and unaffected. They, like their people, had endured more than she could imagine in their five-thousand kilometer exodus. They had given up their homes for the promise of something better. For the promise of hope and light and the strength of the pack. In their quest for better lives, they had lost almost everything.<br><br>Her Ghost told her the bad news&nbsp;&#8212&nbsp;this cave system was a labyrinth extending dozens of kilometers with more dead-ends than not. The walls were deeply reinforced, and its scans could see but half a kilometer at best. It was going to be trial and error, and their pursuers were getting closer. Her Ghost didn't think they would make it. Not before...<br><br>One of the children in her arms&nbsp;&#8212&nbsp;a little girl whose name was Violet&nbsp;&#8212&nbsp;looked her in the eye and told her, without a hint of doubt, that she knew her Guardian would let nothing happen to them. Not after how far they'd come. She smiled at Violet and told her, yes, everything was going to be okay.<br><br>She set the children down, told them to run ahead and join the others; she would be right behind them. Alone with her Ghost, she told it to lead them to safety. She would stay behind and buy them time. And by the Traveler's Light, it would be an eternity's worth.<br><br>And so, reluctantly, her Ghost floated ahead to rejoin the exodus, but not before swearing it would come back to find her and bring her back, no matter how long it took.<br><br>With the light of her Ghost now out of sight and the soft wet steps of a hundred refugees out of ear-shot, she strapped on her helmet, tightened her gauntlets, and drew a line in the muck beneath her feet. When the chittering of Fallen Dregs finally began to echo through the tunnels, she reached for the Light and with it crafted a shield of Void energy.<br><br>If need be, she would hold this line until the end of time.</p></p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+              </div>
+          
+              <div class="col-md-6 border">
+                <br>
+                <table class="table" style="color: #ffffff;padding-left: 4.5%;">
+                    <thead>
+                        <tr>
+                            <th><div style="background-image:url('https://www.bungie.net/common/destiny2_content/icons/d89699e6307ac5d2a306cf054978e251.png'); width:70px; height:70px; background-position:center; border-radius: 100%;">&nbsp;</div>
+                            </th>
+                            <th><h2 style="padding-bottom: 10px;">Helmet</h2></th>
+                        </tr>
+                    </thead>
+                </table>
+                <br>
+                    <table class="table table-borderless" style="color: #ffffff;padding-left: 4.5%;">
+                        <h2 style="text-align: center; border-bottom: #ffffff; border: #ffffff;">Righteous Helm<hr></h2>
+                        <thead>
+                          <tr>
+                            <th><img src=https://www.bungie.net/common/destiny2_content/icons/ca337dbaa13159d017232e5988c15e1f.jpg class="img" alt="exotic-warlock"></th>
+                            <th>
+                                <em>Unflinching nobility.</em>
+                            </th>
+                          </tr>
+                      </thead>
+                    </table>
+                    <table class="table table-borderless" style="color: #ffffff;padding-left: 4.5%;visibility:hidden;">
+                      <thead>
+                          <tr>
+                              <h3 style="padding-left: 1%;visibility:hidden;"><u>Exotic Perk</u></h3>
+                              <th>
+                                  <img src="https://www.bungie.net/common/destiny2_content/icons/b8b533ddef212794b60a54799a00797d.png" style="padding-bottom: 12.5px;" class="img" alt="exotic-warlock-perk" width="75" ></img></th>
+                              </th>
+                              <th>
+                                  <h5>Ursine Guard</h5><p>Move faster while guarding when Sentinel Shield is active. Guarded damage converts to Super energy when the Super ends.</p>
+                              </th>
+                          </tr>
+                      </thead>
+                    </table>
+                    <div style="padding-left: 2%;">
+                        <table class="table table-borderless" style="color: #ffffff;max-width: 200px;">
+                            <caption><h4 style="color: #ffffff;">Stat Total : 58</h5></caption>
+                            <thead>
+                                <tr>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row" style="vertical-align: middle;border: so #ffffff;">
+                                        <img src="https://www.bungie.net/common/destiny2_content/icons/e26e0e93a9daf4fdd21bf64eb9246340.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Mobility <br>Increases movement speed and maximum jump height."></img>
+                                    </th>
+                                    <td style="vertical-align: middle;">
+                                        <h5>+2</h5>
+                                    </td>
+                                    <td style="vertical-align: middle;">
+                                        
+                                        <progress id="mob" value="2" max="40" style="height: 30px; width: 200px;"> 32% </progress>
+                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" style="vertical-align: middle;">
+                                        <img src="https://www.bungie.net/common/destiny2_content/icons/202ecc1c6febeb6b97dafc856e863140.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Resilience <br>&#8226Decreases cooldown of Class abilities.<br>&#8226;Increases Shield capacity.<br>&#8226;Reduces incoming damage."></img>
+                                    </th>
+                                    <td style="vertical-align: middle;">
+                                        <h5>+10</h5>
+                                    </td>
+                                    <td style="vertical-align: middle;">
+                                        
+                                        <progress id="res" value="10" max="40" style="height: 30px; width: 200px;"> 32% </progress>
+                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" style="vertical-align: middle;">
+                                        <img src="https://www.bungie.net/common/destiny2_content/icons/128eee4ee7fc127851ab32eac6ca91cf.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Recovery<br>Increases health regeneration rate."></img>
+                                    </th>
+                                    <td style="vertical-align: middle;">
+                                        <h5>+17</h5>
+                                    </td>
+                                    <td style="vertical-align: middle;">
+                                        
+                                        <progress id="rec" value="17" max="40" style="height: 30px; width: 200px;"> 32% </progress>
+                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" style="vertical-align: middle;">
+                                        <img src="https://www.bungie.net/common/destiny2_content/icons/ca62128071dc254fe75891211b98b237.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Discipline<br>Decreases cooldown of grenade abilities."></img>
+                                    </th>
+                                    <td style="vertical-align: middle;">
+                                        <h5>+2</h5>
+                                    </td>
+                                    <td style="vertical-align: middle;">
+                                        
+                                        <progress id="dis" value="2" max="40" style="height: 30px; width: 200px;"> 32% </progress>
+                                        
+                                    </td>
+                                </tr>
+    
+                                <tr>
+                                    <th scope="row" style="vertical-align: middle;">
+                                        <img src="https://www.bungie.net/common/destiny2_content/icons/59732534ce7060dba681d1ba84c055a6.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Intellect<br>Decreases cooldown of Super abilities."></img>
+                                    </th>
+                                    <td style="vertical-align: middle;">
+                                        <h5>+12</h5>
+                                    </td>
+                                    <td style="vertical-align: middle;">
+                                        
+                                        <progress id="inte" value="12" max="40" style="height: 30px; width: 200px;"> 32% </progress>
+                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" style="vertical-align: middle;">
+                                        <img src="https://www.bungie.net/common/destiny2_content/icons/c7eefc8abbaa586eeab79e962a79d6ad.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Strength<br>Decreases cooldown of melee abilities."></img>
+                                    </th>
+                                    <td style="vertical-align: middle;">
+                                        <h5>+15</h5>
+                                    </td>
+                                    <td style="vertical-align: middle;">
+                                        
+                                        <progress id="stre" value="15" max="40" style="height: 30px; width: 200px;"> 32% </progress>
+                                        
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <br>
+                    <div class="accordion" id="titan2">
+                        <div class="accordion-item" style="background-color: #0e1010; border-color: #ffffff;">
+                            <h2 class="accordion-header" id="heading2" style="background-color: #0e1010; border-color: #ffffff;">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" style="background-color: #0e1010; color: #ffffff;" data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                                Righteous Helm Lore
+                            </button>
+                            </h2>
+                            <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p><h3>Righteous Helm</h3><hr><p>This weapon has no known lore. Perhaps it was lost long ago?</p></p>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+              </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row ">
+              <div class="col-md-6 border">
+                <br>
+                <table class="table" style="color: #ffffff;padding-left: 4.5%;">
+                    <thead>
+                        <tr>
+                            <th><div style="background-image:url('https://www.bungie.net/common/destiny2_content/icons/18bb744532b78a20164f150c770c5f89.png'); width:70px; height:70px; background-position:center; border-radius: 100%;">&nbsp;</div>
+                            </th>
+                            <th><h2 style="padding-bottom: 10px;">Arms</h2></th>
+                        </tr>
+                    </thead>
+                </table>
+                <br>
+                <table class="table table-borderless" style="color: #ffffff;padding-left: 4.5%;height: 100px;">
+                    <h2 style="text-align: center; border-bottom: #ffffff; border: #ffffff;">Righteous Gauntlets<hr></h2>
+                    <thead>
+                        <tr>
+                        <th><img src=https://www.bungie.net/common/destiny2_content/icons/0a5aceff6da52c184987e48f809f446e.jpg class="img" alt="exotic-warlock"></th>
+                        <th style="height: 100px;">
+                            <em>Blessed with the strength of your convictions.</em>
+                        </th>
+                        </tr>
+                    </thead>
+                </table>
+                <div style="padding-left: 2%">
+                    <table class="table table-borderless" style="color: #ffffff;max-width: 200px;">
+                        <caption><h4 style="color: #ffffff;">Stat Total : 63</h5></caption>
+                        <thead>
+                            <tr>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" style="vertical-align: middle;border: so #ffffff;">
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/e26e0e93a9daf4fdd21bf64eb9246340.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Mobility <br>Increases movement speed and maximum jump height."></img>
+                                </th>
+                                <td style="vertical-align: middle;">
+                                    <h5>+16</h5>
+                                </td>
+                                <td style="vertical-align: middle;">
+                                    
+                                    <progress id="mob" value="16" max="40" style="height: 30px; width: 200px;"> 32% </progress>
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="vertical-align: middle;">
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/202ecc1c6febeb6b97dafc856e863140.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Resilience <br>&#8226Decreases cooldown of Class abilities.<br>&#8226;Increases Shield capacity.<br>&#8226;Reduces incoming damage."></img>
+                                </th>
+                                <td style="vertical-align: middle;">
+                                    <h5>+2</h5>
+                                </td>
+                                <td style="vertical-align: middle;">
+                                    
+                                    <progress id="res" value="2" max="40" style="height: 30px; width: 200px;"> 32% </progress>
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="vertical-align: middle;">
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/128eee4ee7fc127851ab32eac6ca91cf.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Recovery<br>Increases health regeneration rate."></img>
+                                </th>
+                                <td style="vertical-align: middle;">
+                                    <h5>+12</h5>
+                                </td>
+                                <td style="vertical-align: middle;">
+                                    
+                                    <progress id="rec" value="12" max="40" style="height: 30px; width: 200px;"> 32% </progress>
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="vertical-align: middle;">
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/ca62128071dc254fe75891211b98b237.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Discipline<br>Decreases cooldown of grenade abilities."></img>
+                                </th>
+                                <td style="vertical-align: middle;">
+                                    <h5>+23</h5>
+                                </td>
+                                <td style="vertical-align: middle;">
+                                    
+                                    <progress id="dis" value="23" max="40" style="height: 30px; width: 200px;"> 32% </progress>
+                                    
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row" style="vertical-align: middle;">
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/59732534ce7060dba681d1ba84c055a6.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Intellect<br>Decreases cooldown of Super abilities."></img>
+                                </th>
+                                <td style="vertical-align: middle;">
+                                    <h5>+8</h5>
+                                </td>
+                                <td style="vertical-align: middle;">
+                                    
+                                    <progress id="inte" value="8" max="40" style="height: 30px; width: 200px;"> 32% </progress>
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="vertical-align: middle;">
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/c7eefc8abbaa586eeab79e962a79d6ad.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Strength<br>Decreases cooldown of melee abilities."></img>
+                                </th>
+                                <td style="vertical-align: middle;">
+                                    <h5>+2</h5>
+                                </td>
+                                <td style="vertical-align: middle;">
+                                    
+                                    <progress id="stre" value="2" max="40" style="height: 30px; width: 200px;"> 32% </progress>
+                                    
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div class="accordion" id="titan3">
+                    <div class="accordion-item" style="background-color: #0e1010; border-color: #ffffff;">
+                        <h2 class="accordion-header" id="heading3" style="background-color: #0e1010; border-color: #ffffff;">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" style="background-color: #0e1010; color: #ffffff;" data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                            Righteous Gauntlets Lore
+                        </button>
+                        </h2>
+                        <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p><h3>Righteous Gauntlets</h3><hr><p>This weapon has no known lore. Perhaps it was lost long ago?</p></p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+    
+              </div>
+          
+              <div class="col-md-6 border">
+                <br>
+                <table class="table" style="color: #ffffff;padding-left: 4.5%;">
+                    <thead>
+                        <tr>
+                            <th><div style="background-image:url('https://www.bungie.net/common/destiny2_content/icons/6bf61607ffa8198cdabdf0fa3b5feab1.png'); width:70px; height:70px; background-position:center; border-radius: 100%;">&nbsp;</div>
+                            </th>
+                            <th><h2 style="padding-bottom: 10px;">Chest</h2></th>
+                        </tr>
+                    </thead>
+                </table>
+                <br>
+                <table class="table table-borderless" style="color: #ffffff;padding-left: 4.5%;height: 100px;">
+                    <h2 style="text-align: center; border-bottom: #ffffff; border: #ffffff;">Righteous Plate<hr></h2>
+                    <thead>
+                        <tr>
+                        <th><img src="https://www.bungie.net/common/destiny2_content/icons/ed445eadf02e8dde518b0bc8c5197ce8.jpg" class="img" alt="exotic-warlock"></th>
+                        <th style="height: 100px;">
+                            <em>Honor from glory. Pride from worth.</em>
+                        </th>
+                        </tr>
+                    </thead>
+                </table>
+                <div style="padding-left: 2%">
+                    <table class="table table-borderless" style="color: #ffffff;max-width: 200px;">
+                        <caption><h4 style="color: #ffffff;">Stat Total : 63</h5></caption>
+                        <thead>
+                            <tr>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" style="vertical-align: middle;border: so #ffffff;">
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/e26e0e93a9daf4fdd21bf64eb9246340.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Mobility <br>Increases movement speed and maximum jump height."></img>
+                                </th>
+                                <td style="vertical-align: middle;">
+                                    <h5>+6</h5>
+                                </td>
+                                <td style="vertical-align: middle;">
+                                    
+                                    <progress id="mob" value="6" max="40" style="height: 30px; width: 200px;"> 32% </progress>
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="vertical-align: middle;">
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/202ecc1c6febeb6b97dafc856e863140.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Resilience <br>&#8226Decreases cooldown of Class abilities.<br>&#8226;Increases Shield capacity.<br>&#8226;Reduces incoming damage."></img>
+                                </th>
+                                <td style="vertical-align: middle;">
+                                    <h5>+19</h5>
+                                </td>
+                                <td style="vertical-align: middle;">
+                                    
+                                    <progress id="res" value="19" max="40" style="height: 30px; width: 200px;"> 32% </progress>
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="vertical-align: middle;">
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/128eee4ee7fc127851ab32eac6ca91cf.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Recovery<br>Increases health regeneration rate."></img>
+                                </th>
+                                <td style="vertical-align: middle;">
+                                    <h5>+6</h5>
+                                </td>
+                                <td style="vertical-align: middle;">
+                                    
+                                    <progress id="rec" value="6" max="40" style="height: 30px; width: 200px;"> 32% </progress>
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="vertical-align: middle;">
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/ca62128071dc254fe75891211b98b237.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Discipline<br>Decreases cooldown of grenade abilities."></img>
+                                </th>
+                                <td style="vertical-align: middle;">
+                                    <h5>+11</h5>
+                                </td>
+                                <td style="vertical-align: middle;">
+                                    
+                                    <progress id="dis" value="11" max="40" style="height: 30px; width: 200px;"> 32% </progress>
+                                    
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row" style="vertical-align: middle;">
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/59732534ce7060dba681d1ba84c055a6.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Intellect<br>Decreases cooldown of Super abilities."></img>
+                                </th>
+                                <td style="vertical-align: middle;">
+                                    <h5>+19</h5>
+                                </td>
+                                <td style="vertical-align: middle;">
+                                    
+                                    <progress id="inte" value="19" max="40" style="height: 30px; width: 200px;"> 32% </progress>
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="vertical-align: middle;">
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/c7eefc8abbaa586eeab79e962a79d6ad.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Strength<br>Decreases cooldown of melee abilities."></img>
+                                </th>
+                                <td style="vertical-align: middle;">
+                                    <h5>+2</h5>
+                                </td>
+                                <td style="vertical-align: middle;">
+                                    
+                                    <progress id="stre" value="2" max="40" style="height: 30px; width: 200px;"> 32% </progress>
+                                    
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div class="accordion" id="titan4">
+                    <div class="accordion-item" style="background-color: #0e1010; border-color: #ffffff;">
+                        <h2 class="accordion-header" id="heading4" style="background-color: #0e1010; border-color: #ffffff;">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" style="background-color: #0e1010; color: #ffffff;" data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                            Righteous Plate Lore
+                        </button>
+                        </h2>
+                        <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p><h3>Righteous Plate</h3><hr><p>This weapon has no known lore. Perhaps it was lost long ago?</p></p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row ">
+              <div class="col-md-6 border">
+                <br>
+                <table class="table" style="color: #ffffff;padding-left: 4.5%;">
+                    <thead>
+                        <tr>
+                            <th><div style="background-image:url('https://www.bungie.net/common/destiny2_content/icons/c4b573f9dd4892f6eb3bfb9b194170d0.png'); width:70px; height:70px; background-position:center; border-radius: 100%;">&nbsp;</div>
+                            </th>
+                            <th><h2 style="padding-bottom: 10px;">Legs</h2></th>
+                        </tr>
+                    </thead>
+                </table>
+                <br>
+                <table class="table table-borderless" style="color: #ffffff;padding-left: 4.5%;height: 100px;">
+                    <h2 style="text-align: center; border-bottom: #ffffff; border: #ffffff;">Righteous Greaves<hr></h2>
+                    <thead>
+                        <tr>
+                        <th><img src="https://www.bungie.net/common/destiny2_content/icons/597f6b187efef547fd334f72187fbdc8.jpg" class="img" alt="exotic-warlock"></th>
+                        <th style="height: 100px;">
+                            <em>Stand steadfast in the face of opposition.</em>
+                        </th>
+                        </tr>
+                    </thead>
+                </table>
+                <div style="padding-left: 2%">
+                    <table class="table table-borderless" style="color: #ffffff;max-width: 200px;">
+                        <caption><h4 style="color: #ffffff;">Stat Total : 62</h5></caption>
+                        <thead>
+                            <tr>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" style="vertical-align: middle;border: so #ffffff;">
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/e26e0e93a9daf4fdd21bf64eb9246340.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Mobility <br>Increases movement speed and maximum jump height."></img>
+                                </th>
+                                <td style="vertical-align: middle;">
+                                    <h5>+10</h5>
+                                </td>
+                                <td style="vertical-align: middle;">
+                                    
+                                    <progress id="mob" value="10" max="40" style="height: 30px; width: 200px;"> 32% </progress>
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="vertical-align: middle;">
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/202ecc1c6febeb6b97dafc856e863140.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Resilience <br>&#8226Decreases cooldown of Class abilities.<br>&#8226;Increases Shield capacity.<br>&#8226;Reduces incoming damage."></img>
+                                </th>
+                                <td style="vertical-align: middle;">
+                                    <h5>+14</h5>
+                                </td>
+                                <td style="vertical-align: middle;">
+                                    
+                                    <progress id="res" value="14" max="40" style="height: 30px; width: 200px;"> 32% </progress>
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="vertical-align: middle;">
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/128eee4ee7fc127851ab32eac6ca91cf.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Recovery<br>Increases health regeneration rate."></img>
+                                </th>
+                                <td style="vertical-align: middle;">
+                                    <h5>+6</h5>
+                                </td>
+                                <td style="vertical-align: middle;">
+                                    
+                                    <progress id="rec" value="6" max="40" style="height: 30px; width: 200px;"> 32% </progress>
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="vertical-align: middle;">
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/ca62128071dc254fe75891211b98b237.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Discipline<br>Decreases cooldown of grenade abilities."></img>
+                                </th>
+                                <td style="vertical-align: middle;">
+                                    <h5>+15</h5>
+                                </td>
+                                <td style="vertical-align: middle;">
+                                    
+                                    <progress id="dis" value="15" max="40" style="height: 30px; width: 200px;"> 32% </progress>
+                                    
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row" style="vertical-align: middle;">
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/59732534ce7060dba681d1ba84c055a6.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Intellect<br>Decreases cooldown of Super abilities."></img>
+                                </th>
+                                <td style="vertical-align: middle;">
+                                    <h5>+15</h5>
+                                </td>
+                                <td style="vertical-align: middle;">
+                                    
+                                    <progress id="inte" value="15" max="40" style="height: 30px; width: 200px;"> 32% </progress>
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="vertical-align: middle;">
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/c7eefc8abbaa586eeab79e962a79d6ad.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Strength<br>Decreases cooldown of melee abilities."></img>
+                                </th>
+                                <td style="vertical-align: middle;">
+                                    <h5>+2</h5>
+                                </td>
+                                <td style="vertical-align: middle;">
+                                    
+                                    <progress id="stre" value="2" max="40" style="height: 30px; width: 200px;"> 32% </progress>
+                                    
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div class="accordion" id="titan5">
+                    <div class="accordion-item" style="background-color: #0e1010; border-color: #ffffff;">
+                        <h2 class="accordion-header" id="heading5" style="background-color: #0e1010; border-color: #ffffff;">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" style="background-color: #0e1010; color: #ffffff;" data-bs-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
+                            Righteous Greaves Lore
+                        </button>
+                        </h2>
+                        <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p><h3>Righteous Greaves</h3><hr><p>This weapon has no known lore. Perhaps it was lost long ago?</p></p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+    
+              </div>
+          
+              <div class="col-md-6 border">
+                <br>
+                <table class="table" style="color: #ffffff;padding-left: 4.5%;">
+                    <thead>
+                        <tr>
+                            <th><div style="background-image:url('https://www.bungie.net/common/destiny2_content/icons/3cfff0f2aa68784762f553eb7997e909.png'); width:70px; height:70px; background-position:center; border-radius: 100%;">&nbsp;</div>
+                            </th>
+                            <th><h2 style="padding-bottom: 10px;">Titan Mark</h2></th>
+                        </tr>
+                    </thead>
+                </table>
+                <br>
+                <table class="table table-borderless" style="color: #ffffff;padding-left: 4.5%;height: 100px;">
+                    <h2 style="text-align: center; border-bottom: #ffffff; border: #ffffff;">Righteous Mark<hr></h2>
+                    <thead>
+                        <tr>
+                        <th><img src="https://www.bungie.net/common/destiny2_content/icons/8dbc3272338db992cc309b4d8e73e5c5.jpg" class="img" alt="exotic-warlock"></th>
+                        <th style="height: 100px;">
+                            <em>Ensign of untarnished principle.</em>
+                        </th>
+                        </tr>
+                    </thead>
+                </table>
+                <div style="padding-left: 2%">
+                    <table class="table table-borderless" style="color: #ffffff;max-width: 200px;">
+                        <caption style="height: 53px;">Titan Marks do not have randomized stats.<br></caption>
+                        <thead>
+                            <tr>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" style="vertical-align: middle;border: so #ffffff;">
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/e26e0e93a9daf4fdd21bf64eb9246340.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Mobility <br>Increases movement speed and maximum jump height."></img>
+                                </th>
+                                <td style="vertical-align: middle;">
+                                    <h5>+0</h5>
+                                </td>
+                                <td style="vertical-align: middle;">
+                                    
+                                    <progress id="mob" value="0" max="40" style="height: 30px; width: 200px;"> 32% </progress>
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="vertical-align: middle;">
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/202ecc1c6febeb6b97dafc856e863140.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Resilience <br>&#8226Decreases cooldown of Class abilities.<br>&#8226;Increases Shield capacity.<br>&#8226;Reduces incoming damage."></img>
+                                </th>
+                                <td style="vertical-align: middle;">
+                                    <h5>+0</h5>
+                                </td>
+                                <td style="vertical-align: middle;">
+                                    
+                                    <progress id="res" value="0" max="40" style="height: 30px; width: 200px;"> 32% </progress>
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="vertical-align: middle;">
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/128eee4ee7fc127851ab32eac6ca91cf.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Recovery<br>Increases health regeneration rate."></img>
+                                </th>
+                                <td style="vertical-align: middle;">
+                                    <h5>+0</h5>
+                                </td>
+                                <td style="vertical-align: middle;">
+                                    
+                                    <progress id="rec" value="0" max="40" style="height: 30px; width: 200px;"> 32% </progress>
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="vertical-align: middle;">
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/ca62128071dc254fe75891211b98b237.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Discipline<br>Decreases cooldown of grenade abilities."></img>
+                                </th>
+                                <td style="vertical-align: middle;">
+                                    <h5>+0</h5>
+                                </td>
+                                <td style="vertical-align: middle;">
+                                    
+                                    <progress id="dis" value="0" max="40" style="height: 30px; width: 200px;"> 32% </progress>
+                                    
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row" style="vertical-align: middle;">
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/59732534ce7060dba681d1ba84c055a6.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Intellect<br>Decreases cooldown of Super abilities."></img>
+                                </th>
+                                <td style="vertical-align: middle;">
+                                    <h5>+0</h5>
+                                </td>
+                                <td style="vertical-align: middle;">
+                                    
+                                    <progress id="inte" value="0" max="40" style="height: 30px; width: 200px;"> 32% </progress>
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="vertical-align: middle;">
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/c7eefc8abbaa586eeab79e962a79d6ad.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Strength<br>Decreases cooldown of melee abilities."></img>
+                                </th>
+                                <td style="vertical-align: middle;">
+                                    <h5>+0</h5>
+                                </td>
+                                <td style="vertical-align: middle;">
+                                    
+                                    <progress id="stre" value="0" max="40" style="height: 30px; width: 200px;"> 32% </progress>
+                                    
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div class="accordion" id="titan6">
+                    <div class="accordion-item" style="background-color: #0e1010; border-color: #ffffff;">
+                        <h2 class="accordion-header" id="heading6" style="background-color: #0e1010; border-color: #ffffff;">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" style="background-color: #0e1010; color: #ffffff;" data-bs-target="#collapse6" aria-expanded="true" aria-controls="collapse6">
+                            Righteous Mark Lore
+                        </button>
+                        </h2>
+                        <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p><h3>Righteous Mark</h3><hr><p>This weapon has no known lore. Perhaps it was lost long ago?</p></p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <footer class="bg-dark text-center text-white">
+            <div class="text-center p-3" style="background-color:#6e757d;">
+              Created By:
+              <a class="text-white" href="https://www.linkedin.com/in/thomas-smith-89a918192/">Thomas Smith</a> // Bungie Net: <a class="text-white" href="https://www.bungie.net/7/en/User/Profile/254/10061778?bgn=Lulamae1">Lulamae1#6072</a>
+            </div>
+        </footer>
+        <script>
+            var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+            var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                return new bootstrap.Popover(popoverTriggerEl)
+            })
+            
+            var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+            var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+                return new bootstrap.Tooltip(tooltipTriggerEl)
+            })
+        </script>
+    </body>
+    </html>
+    
