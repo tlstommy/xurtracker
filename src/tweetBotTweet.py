@@ -52,7 +52,7 @@ class main:
         #calculate reset date    
         resetDate = date.today() + timedelta((1-date.today().weekday()) % 7 )
         resetDate = resetDate.strftime("%B %d").replace(' 0', ' ')
-        tweetStr = f"🌎  Xûr has arrived at the {self.location}!\n\n\n⚔️  {self.exoticWeapon}\n🛡  [{self.exoticTitanTotalStat}] {self.exoticTitan}\n🛡  [{self.exoticHunterTotalStat}] {self.exoticHunter}\n🛡  [{self.exoticWarlockTotalStat}] {self.exoticWarlock}\n\n\n\n🚀  Xûr will depart on {resetDate}.\n\nMore info at: https://xurtracker.com"
+        tweetStr = f"🌎  Xûr has arrived at the {self.location}!\n\n\n⚔️  {self.exoticWeapon}\n🛡  {self.exoticTitan}\n🛡  {self.exoticHunter}\n🛡  {self.exoticWarlock}\n\n\n\n🚀  Xûr will depart on {resetDate}.\n\nMore info at: https://xurtracker.com"
 
         
         if(debugTweet):
@@ -126,7 +126,7 @@ class main:
             
             #if item is exotic
             if decodedObj["inventory"]["tierType"] == 6:
-                decodedObj = await self.decodeHash(self.hashList[i],"DestinyInventoryItemDefinition")
+                #decodedObj = await self.decodeHash(self.hashList[i],"DestinyInventoryItemDefinition")
                 name = decodedObj["displayProperties"]["name"]
                 type = decodedObj["itemTypeDisplayName"]
                 itemClass = decodedObj["classType"]
@@ -141,15 +141,15 @@ class main:
                 #warlock
                 if(itemClass == 2):
                     self.exoticWarlock = jsonTemp["name"]
-                    self.exoticWarlockTotalStat = self.getArmorStats(self.hashIDList[i])
+                    #self.exoticWarlockTotalStat = self.getArmorStats(self.hashIDList[i])
                 #titan
                 elif(itemClass == 0):
                     self.exoticTitan = jsonTemp["name"]
-                    self.exoticTitanTotalStat = self.getArmorStats(self.hashIDList[i])
+                    #self.exoticTitanTotalStat = self.getArmorStats(self.hashIDList[i])
                 #hunter
                 elif(itemClass == 1):
                     self.exoticHunter = jsonTemp["name"]
-                    self.exoticHunterTotalStat = self.getArmorStats(self.hashIDList[i])
+                    #self.exoticHunterTotalStat = self.getArmorStats(self.hashIDList[i])
                 #weapon
                 else:
                     self.exoticWeapon = jsonTemp["name"]
