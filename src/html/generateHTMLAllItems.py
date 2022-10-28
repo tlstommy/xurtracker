@@ -239,6 +239,8 @@ def setHtmlVals():
     htmlTemp ="""<!DOCTYPE html>
     <html lang="en">
     <head>
+    <link rel="shortcut icon" href="https://pbs.twimg.com/profile_images/1586064167131385857/1mQC0kgE_400x400.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="https://pbs.twimg.com/profile_images/1586064167131385857/1mQC0kgE_400x400.png">
     <title>X&#251r Tracker // All Items</title>
     <meta charset="utf-8";>
 

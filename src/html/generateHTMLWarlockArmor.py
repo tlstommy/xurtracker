@@ -107,7 +107,9 @@ def setHtmlVals():
     <!DOCTYPE html>
     <html lang="en">
     <head>
-     <title>X&#251r Tracker // Warlock</title>
+    <title>X&#251r Tracker // Warlock</title>
+    <link rel="shortcut icon" href="https://pbs.twimg.com/profile_images/1586064167131385857/1mQC0kgE_400x400.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="https://pbs.twimg.com/profile_images/1586064167131385857/1mQC0kgE_400x400.png">
     <meta charset="utf-8";>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
