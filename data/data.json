@@ -1,8 +1,8 @@
 {
-    "Location": "European Dead Zone",
+    "Location": "The Last City",
     "Planet": "Earth",
-    "Landing Zone": "Winding Cove",
-    "Week": "November 18, 2022",
+    "Landing Zone": "Tower Hangar",
+    "Week": "November 25, 2022",
     "Exotics": {
         "Exotic Engram": {
             "name": "Exotic Engram",
@@ -43,60 +43,60 @@
             "masterworkData": null
         },
         "Exotic Weapon": {
-            "name": "The Queenbreaker",
-            "type": "Exotic Linear Fusion Rifle",
+            "name": "The Wardcliff Coil",
+            "type": "Exotic Rocket Launcher",
             "description": "",
-            "lore": "Despite the Breakers' treachery, Her Majesty still stands.",
-            "ExtLore": "Three cloaked figures trek through a cave on a windswept asteroid. As they walk, they joke. They tell stories. They are a fireteam.\n\n\"After Cybele,\" the Warlock says, \"the Wolves bowed. Some became the Queen's bodyguards. Then, Skolas\u2014\"\n\n\"Whoa, whoa, whoa. How? Why?\" The Hunter frowns. \"Why trust enemies with your life?\" A pause. \"No offense, buddy.\"\n\nThe Captain shrugs: none taken. \"Eia. Strange to do. But Eliksni\u2026 we been breathe-always love for honor. New promise not unmake an old. Wolves would been follow Marakel forever if Skolas does not appear again.\"\n\nThe passage widens, and they find a hidden door veneered with amethyst. The Captain lays a hand on it, bows his head. The Hunter and the Warlock fall back respectfully. After a time, the Warlock ventures, \"Mithrax?\"\n\nThe Captain turns. \"Wolves rebel. Now, Wolves extinct. This where-live mine-things scatter must end. I will Kell the mind-open Eliksni. No spider-tricks. No loyal-lies. Variisis truths. We fight for Great Machine together.\"",
-            "itemHash": "2044500762",
+            "lore": "Ingenuity. Desperation. A haphazard prototype of terrible power. Such were the factors at play in the Wardcliff Incident.",
+            "ExtLore": "HAMIT'S LOG. The lead is good, but so are the Fallen tracking me. I swear on my Ghost there's a hundred camped outside. I'm cornered in the lab and they're using Shanks to run me out of ammunition. War cultist, arm thyself; at least it's a weapons lab. This, er, rustic device was once an experimental axion emitter, which sprays weird particles to light up the basement of the universe. Right here I've coupled the emitter to some catacaustic quark-gluon coils, which will not, due to my scrupulous safety checking, create a strangelet that devours the Earth. I cook up some pain in there, the microverse decays, and the result comes out here. If it doesn't work, well, please name the crater after me.",
+            "itemHash": "1508896098",
             "itemRating": null,
-            "icon": "https://www.bungie.net/common/destiny2_content/icons/ada52c29c412bbc292760f5e6a23fe72.jpg",
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/7c419b2fb92344ed57211f7bcaf157b9.jpg",
             "rarity": "Exotic",
             "class": 3,
             "statRolls": [],
             "weaponPerks": [
                 {
-                    "name": "Wire Rifle",
-                    "description": "Fires a long-range precision Arc bolt that blinds enemies on hit.",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/e234fda1b911131b4cfa67d62cef1014.png",
-                    "hashID": 1531126198,
-                    "weaponHash": 2044500762,
+                    "name": "Mad Scientist",
+                    "description": "This weapon fires a volley of rockets.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/4b34043a2c60c42efd05d1edfcf4f3b8.png",
+                    "hashID": 2473404935,
+                    "weaponHash": 1508896098,
                     "isPerk": true,
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Marksman Sights",
-                    "description": "Long-range sights with slower charge time and greater damage. Displays ammo and charge levels.",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/658b96e18fecede147e8a21fbba70451.png",
-                    "hashID": 1408087975,
-                    "weaponHash": 2044500762,
+                    "name": "Volatile Launch",
+                    "description": "This weapon is optimized for an especially explosive payload.\n  \u2022  Greatly increases blast radius\n  \u2022  Slightly decreases handling speed\n  \u2022  Slightly decreases projectile speed",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/402765b86ff7b1d97078ac43d5ca39ad.png",
+                    "hashID": 1478423395,
+                    "weaponHash": 1508896098,
                     "isPerk": true,
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Enhanced Battery",
-                    "description": "Strong battery life.\n  \u2022  Increases magazine size",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/fba0bbb5a21b74ebe59f394f2319098c.png",
-                    "hashID": 2680121939,
-                    "weaponHash": 2044500762,
+                    "name": "Extended Mag",
+                    "description": "This weapon has a greatly increased magazine size, but reloads much slower.\n  \u2022  Greatly increases magazine size\n  \u2022  Greatly decreases reload speed\n  \u2022  Increases airborne effectiveness",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/4cd73ae5b1bc1ae0afc7adb34c2f2df6.png",
+                    "hashID": 2420895100,
+                    "weaponHash": 1508896098,
                     "isPerk": true,
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Hip-Fire Grip",
-                    "description": "Increases accuracy, stability, and precision hit targeting when firing from the hip.",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/9f3c3ae1bddbed21af1cc6487338028e.png",
-                    "hashID": 1866048759,
-                    "weaponHash": 2044500762,
+                    "name": "Mechanized Autoloader",
+                    "description": "This weapon automatically reloads on ammo pickup.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/f72ff856ce413498073701bc456c5dca.png",
+                    "hashID": 1178686995,
+                    "weaponHash": 1508896098,
                     "isPerk": true,
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Fitted Stock",
-                    "description": "This stock makes the weapon stable but heavy\n  \u2022  Increases stability\n  \u2022  Moderately controls recoil\n  \u2022  Slightly decreases handling speed",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/27c6695ec475d3fa1aefa71c2b099bfc.png",
-                    "hashID": 4259401308,
-                    "weaponHash": 2044500762,
+                    "name": "Composite Stock",
+                    "description": "This weapon has a versatile dual-purpose stock.\n  \u2022  Slightly increases stability\n  \u2022  Slightly increases handling speed",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/433673d0d64fd026c771612a6a9ff7f7.png",
+                    "hashID": 3465198467,
+                    "weaponHash": 1508896098,
                     "isPerk": true,
                     "isFavorablePerk": false
                 }
@@ -130,10 +130,10 @@
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Corkscrew Rifling",
-                    "description": "Balanced barrel. \n  \u2022  Slightly increases range and stability\n  \u2022  Slightly increases handling speed",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/18cc75bf9a17bb80b5109f1b8909521f.png",
-                    "hashID": 4090651448,
+                    "name": "Extended Barrel",
+                    "description": "Weighty barrel extension.\n  \u2022  Increases range\n  \u2022  Decreases handling speed\n  \u2022  Moderately controls recoil",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/7c81469db03f7111f8d248b54c83d7cf.png",
+                    "hashID": 1467527085,
                     "weaponHash": 3856705927,
                     "isPerk": true,
                     "isFavorablePerk": false
@@ -145,13 +145,13 @@
                     "hashID": 1431678320,
                     "weaponHash": 3856705927,
                     "isPerk": true,
-                    "isFavorablePerk": false
+                    "isFavorablePerk": true
                 },
                 {
-                    "name": "Snapshot Sights",
-                    "description": "Faster time to aim down sights.",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/49df9d90b3f27bd5ec6a9b35f4c10def.png",
-                    "hashID": 957782887,
+                    "name": "Quickdraw",
+                    "description": "This weapon can be drawn unbelievably fast.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/b04cf9a75031115055678b71c3c58443.png",
+                    "hashID": 706527188,
                     "weaponHash": 3856705927,
                     "isPerk": true,
                     "isFavorablePerk": false
@@ -195,10 +195,10 @@
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Arrowhead Brake",
-                    "description": "Lightly vented barrel.\n  \u2022  Greatly controls recoil\n  \u2022  Increases handling speed",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/7a0a23f9622636cea92387d50d368333.png",
-                    "hashID": 839105230,
+                    "name": "Hammer-Forged Rifling",
+                    "description": "Durable ranged barrel.\n  \u2022  Increases range",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/9acb073d4e85160f66f0d617d210cf61.png",
+                    "hashID": 3250034553,
                     "weaponHash": 3654674561,
                     "isPerk": true,
                     "isFavorablePerk": false
@@ -213,22 +213,22 @@
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Snapshot Sights",
-                    "description": "Faster time to aim down sights.",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/49df9d90b3f27bd5ec6a9b35f4c10def.png",
-                    "hashID": 957782887,
+                    "name": "Moving Target",
+                    "description": "Increased movement speed and target acquisition when moving while aiming down sights.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/274a7f773a1bec5feb48bda6d9ecaa10.png",
+                    "hashID": 588594999,
                     "weaponHash": 3654674561,
                     "isPerk": true,
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Composite Stock",
-                    "description": "This weapon has a versatile dual-purpose stock.\n  \u2022  Slightly increases stability\n  \u2022  Slightly increases handling speed",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/433673d0d64fd026c771612a6a9ff7f7.png",
-                    "hashID": 3465198467,
+                    "name": "Short-Action Stock",
+                    "description": "This weapon is especially easy to grip.\n  \u2022  Greatly increases handling speed",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/55bcc164026b9c8291094085a4a85802.png",
+                    "hashID": 1067908860,
                     "weaponHash": 3654674561,
                     "isPerk": true,
-                    "isFavorablePerk": true
+                    "isFavorablePerk": false
                 }
             ],
             "exoticArmorPerk": null,
@@ -238,31 +238,31 @@
             "masterworkData": null
         },
         "Warlock Exotic": {
-            "name": "Chromatic Fire",
-            "type": "Exotic Chest Armor",
+            "name": "Apotheosis Veil",
+            "type": "Exotic Helmet",
             "description": "",
-            "lore": "\"\u2026found them\u2026 Crystal Orchards of Dione\u2026 requesting backup\u2026 coordinates to follow\u2026\" \u2014Last transmission of Fireteam Pergamon",
-            "ExtLore": "It was Wen Jie who told me. At first I didn't believe her\u2014I mean, it's Wen Jie; she believes in moon fairies and the continent of Antarctica\u2014but she showed me the crystals.\n\nI examined the lattices myself. The crystals hold no natural attunement to any one fundamental force but, when exposed, achieve perfect fundamental force conduction.\n\nShe told me she got them from a trader at the Seven Stars, who got them from a Hunter, who got them from a Frame, who was programmed by a family in the Umbral District who had passed down the crystals as family heirlooms for generations, who'd been given the crystals by a Guardian back in the Dark Age in exchange for a home-cooked meal.\n\nThe name Pergamon never turned up. But where else could these crystals have come from but the Orchards of Dione?",
-            "itemHash": "4057299718",
+            "lore": "Most helmets protect the mind from the universe. Not this one.",
+            "ExtLore": "\"There are those who see the Void as dark. It is the folly of the simple mind, unable to perceive the brilliant richness of nothingness. The Void is not only the absence of Light, but Dark. To harness the Void is to enter a state of tranquility, free from the clatter of ordinary matter.\nWear this Veil and feel the Void. It is not a force of malice, no more charitable or heinous than gravity. The Void is a tool to be wielded by the patient, nothing more and nothing less. If you respect the Void, then one day you too shall step upon this pristine realm.\"\n\u2014Unknown Voidwalker",
+            "itemHash": "1096253259",
             "itemRating": null,
-            "icon": "https://www.bungie.net/common/destiny2_content/icons/aeba89a17da757ee0329979f7a3ec883.jpg",
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/6f234606ab2e043388dfaeee946f854b.jpg",
             "rarity": "Exotic",
             "class": 2,
             "statRolls": [
-                59,
+                63,
                 6,
-                12,
+                9,
+                17,
+                2,
                 13,
-                12,
-                7,
-                9
+                16
             ],
             "weaponPerks": [],
             "exoticArmorPerk": [
                 {
-                    "name": "Crystalline Transistor",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/31b54c2b4b2a5c3efc34b307c5f5f138.png",
-                    "desc": "Crystalline Transistor\nPrecision final blows with your Kinetic weapon create an explosion in the element of your subclass."
+                    "name": "Insatiable",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/72dd454b94ad8bce01c17eb55b30ea4f.png",
+                    "desc": "Immediately regenerate health, melee, grenade, and Rift energy upon activating your Super. Nearby allies recharge class abilities faster."
                 }
             ],
             "legendWeaponFrame": null,
@@ -271,31 +271,31 @@
             "masterworkData": null
         },
         "Hunter Exotic": {
-            "name": "Lucky Pants",
-            "type": "Exotic Leg Armor",
+            "name": "Celestial Nighthawk",
+            "type": "Exotic Helmet",
             "description": "",
-            "lore": "\"What? No, I didn't illegally mod the holster. These are just really lucky pants!\" \u2014Cayde-6",
-            "ExtLore": "> REMOTE VANGUARD DATABASE TEXT-ONLY SEARCH INITIALIZED. \n> WELCOME, USER \"ACEOFHEARTS\". \n> PLEASE ENTER SEARCH QUERY. \n?> beat shaxx \n> ONLY ONE GUARDIAN HAS DEFEATED LORD SHAXX IN THE CRUCIBLE. RELATED: REY, I. DO YOU WISH TO SEE POST-MATCH RESULTS? \n?> cheat crucible \n> CRUCIBLE PARTICIPANTS ARE SUBJECT TO A STRICT CODE OF CONDUCT. CHEATERS WILL BE BANNED. \n?> what about cheating like just a little \n> SORRY, I DIDN'T UNDERSTAND \"what about cheating like just a little\". \n?> ok what counts as cheating \n> TO ACT DISHONESTLY OR UNFAIRLY IN ORDER TO GAIN AN ADVANTAGE. \n?> is luck cheating \n> \"LUCK\" AND \"CHEATING\" ARE NOT EQUIVALENT. \n?> are my pants lucky \n> PROBABLY NOT. \n?> wrooooooong theyre super lucky",
-            "itemHash": "193869522",
+            "lore": "Starlight is your guide. No vacuum will contain you.",
+            "ExtLore": "I'm on the ground, half inside Mav's Ward. Lucky for me, it's my head that's half in. The stars over my head are going out one at a time, but that could just be Taken goo blocking my sight. \n\nThis giant one-eyed nightmare we woke up is real unhappy to see us. This wasn't the plan\u2014we just came here to rob him. \n\nLuna's dry. The 'horn's dull. Mav's either laughing, or screaming for her life spraying lead everywhere. She's floating past Psions that won't stop splitting. STOP SPLITTING. \n\nWe're almost out of time. We have one shot. \nSo I pull out the bird and give this sucker the finger. \nOne red-hot glowing finger.",
+            "itemHash": "1321354573",
             "itemRating": null,
-            "icon": "https://www.bungie.net/common/destiny2_content/icons/68dc68ed3ce3f9361460b7d4a69bd351.jpg",
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/fa668959fe0812f22f277ac17d819747.jpg",
             "rarity": "Exotic",
             "class": 1,
             "statRolls": [
-                64,
-                9,
-                10,
+                62,
+                3,
                 15,
-                9,
-                10,
-                11
+                16,
+                6,
+                15,
+                7
             ],
             "weaponPerks": [],
             "exoticArmorPerk": [
                 {
-                    "name": "Illegally Modded Holster",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/e5b157f170060b68fe800209c8151215.png",
-                    "desc": "When you ready a fully loaded Hand Cannon that deals Kinetic damage or a damage type that matches your subclass energy type, each hit from that Hand Cannon increases the damage of the next shot for a short time against a combatant. Hand Cannons ready faster and are more accurate immediately after swapping to them. Provides a small benefit to the airborne effectiveness stat of Hand Cannons while the buff is active."
+                    "name": "Hawkeye Hack",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/428a91c1b9d5e1a6136e9d90fe95c937.png",
+                    "desc": "Modifies Golden Gun to fire a single high-damage shot. Enemies eliminated by the shot explode and grant you Super energy."
                 }
             ],
             "legendWeaponFrame": null,
@@ -304,31 +304,31 @@
             "masterworkData": null
         },
         "Titan Exotic": {
-            "name": "An Insurmountable Skullfort",
+            "name": "One-Eyed Mask",
             "type": "Exotic Helmet",
             "description": "",
-            "lore": "BRAINVAULT Sigma-ACTIUM-IX Cranial Dreadnought (Invincible Type)",
-            "ExtLore": "Hello. We understand you require Real-Time Combat Instructives. \n\nThis is a BRAINVAULT Sigma-ACTIUM-X Cranial Dreadnought (Invictus Type). It is a fortress for your skull. Your skull is now a mighty bastion. You can break anything with your skull. The only limit is your spine. Relax. The lights will speak for you. Your hands are your eyes now. Look around. You find hand-to-hand combat relaxing. The lights will attract the enemy. Help them to relax as well. You will feel the effect of a CAREGRAVER Gamma-LYSANDER-IV Health Enforcer (Frontline Variant). Your enemies do not have a skull fortress. Their skulls are like meadows. Play in the meadows. Gather the flowers from the meadows. Gather them with electrokinetic trauma. Smell the flowers. Isn't that nice? \n\nYou are safe in your skullfort.",
-            "itemHash": "3216110440",
+            "lore": "An eye for an eye.",
+            "ExtLore": "When they took my Light, I dared them to do their worst. When they took my eye, I laughed and told them I had another. But when they took my Ghost\u2026 Ooh, when they took my Ghost from me\u2014that was the moment their lives ended.\n\nThey just didn't know it yet.\n\nSince my first rez, I kept to myself. Figured I'd always been that way, in my previous life and all. Joining fireteams, raiding, the Commander's Nightfalls\u2014never my bag. Always walked alone. Never needed nobody. Except for Ghost. Ghost was my only friend. Got no shame in admitting that, not anymore.\n\nNot long after the Taken War, we'd made our way to the EDZ, looking for a place to call our own. Looking for some quiet. Maybe something resembling peace. Ghost and me, we'd been fighting since the Faction Wars. Always fighting. Non-stop fighting. And I was done. We were done. We'd been running solo ops so long, I don't think anyone even noticed we were gone. And we were glad for it.\n\nOur sudden disconnect from the Light changed all that. Like it or not, I was Guardian, he was a Ghost. Peace was never in the cards; the Traveler saw to that. Ghost reconnected to the City networks for the first time in I don't know how long only to find that comms were jammed planet-wide. So we moved west\u2014to our original LZ, to head back to the City, to find the next fight. That's when they found us. The Cabal\u2014Red Legion, we would later learn.\n\nThey marched us north of the Winding Cove. Set up camp within sight of the Shard. They ingested their libations. Got rowdy. They knew we were Lightless; they wanted to see what I was really made of, when I was just meat and air. I said, do your worst. And they did. Beat me within an inch of my final life and then guffawed when Ghost couldn't do anything to get me back on my feet. They ingested more of their bevvies, and one of 'em decided I had one eye too many, and he took it and popped it and laughed some more and asked me what I was gonna do about it. I laughed back, louder and crazier than they liked, and told them I had another. Then one of them, the worst one of them, took hold of Ghost, and said, I'm your Ghost now\u2014I'm the one who decides if you live or die. Ghost was just a pebble in its meat hooks. And with no effort at all, Ghost was in pieces. Before the sun rose, they threw me off a cliff. They should have put a bullet in me. They should have fed me to their War Beasts.\n\nFigure Ghost chose me because I was some kind of hero in my before time. Maybe. More likely I was just another killer.\n\nAnd I sure as hell didn't need no Fists of Havoc to get my hands wet proper.",
+            "itemHash": "2578771006",
             "itemRating": null,
-            "icon": "https://www.bungie.net/common/destiny2_content/icons/c444f5213f554d715b0d7a9de1108e12.jpg",
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/d6e6248b34d1299aee22571db71c7a24.jpg",
             "rarity": "Exotic",
             "class": 0,
             "statRolls": [
-                61,
-                19,
-                8,
+                63,
+                12,
+                17,
                 3,
+                20,
                 2,
-                19,
-                10
+                9
             ],
             "weaponPerks": [],
             "exoticArmorPerk": [
                 {
-                    "name": "Transfusion Matrix",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/5384eebcb22ae821f3e2fb21cb15785f.png",
-                    "desc": "Kills with Arc melee abilities trigger health regeneration and restore melee energy."
+                    "name": "Vengeance",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/015525bda9f4da320c9fad69532080dc.png",
+                    "desc": "Highlights the target who dares to damage you. Track down and destroy them for an overshield."
                 }
             ],
             "legendWeaponFrame": null,
@@ -340,14 +340,144 @@
     "Legendaries": {
         "Legendary weapons": [
             {
-                "name": "Chrysura Melo",
-                "type": "Legendary Auto Rifle",
+                "name": "IKELOS_HC_v1.0.2",
+                "type": "Legendary Hand Cannon",
                 "description": "",
-                "lore": "\"If you hear it, remove your helmet and face the closest Corsair. They will know what must be done.\" \u2014Queen Mara",
-                "ExtLore": "There's a saying among con artists: \"Half the fun is showing the mark which cup hid the ball before you take their money.\" \n\nSavath\u00fbn understands. In her crystalline prison, she reflects on all her surreptitious winks and little nods. The risks taken and the boundaries pushed to keep herself entertained and her Worm fed.\n\nBefore\u2026 \n\nOsiris stumbles as he walks through the Last City. Beneath his robes, something erupts in a frenzy of motion. He pauses to compose himself and then walks on, trailing careless spatters of black fluid.\n\nBefore\u2026\n\nOsiris watches the Crucible match unfold. He does not cheer for either opponent. When a Ghost appears to revive the defeated warrior, Osiris leans forward in careful study. When Saint places a hand on his forearm, Osiris holds impossibly still just to see what the other man will do.\n\nBefore\u2026\n\nOsiris sits by the campfire as Crow and the Guardian share a drink. Osiris watches them with rapt attention. Crow is laughing. He passes the bottle, and Osiris, hands numb, puzzles at it. His mouth hangs in a half-smile before he takes a long drink, slaking a bone-deep thirst. \n\nBefore\u2026\n\nOsiris takes a shaky step forward. The High Celebrant howls in the catacombs, and he hears his sister's voice buried in its roar. He feels his heart beating in his chest and is so enraptured by the sensation that he forgets to be frightened.\n\nBefore\u2026\n\nSavath\u00fbn, physical form a twisting instar, emerges from the shadows and crawls over the shattered pieces of the Ghost. She reaches toward the ruined man. \n\nBefore\u2026\n\nSavath\u00fbn squeezes through the calcified channels of ascendant energy and manifests within the dangling Ahamkara skull. \n\nThe man standing below the netting senses her appearance. His Light flares as he draws his weapon with impossible speed.\n\nShe has only a moment: She pushes her face down through the ropes, opens her mouth, and sings. \n\nThe man stops, then slowly holsters his weapon. He turns, crosses his arms, and forgets. \n\nShe melts awkwardly back into the skull as best she can, though a tangle of spindly elbows, licorice-black, still juts from its sockets. She turns her attention to her quarry across the gap and hums her song softly to mask herself. \n\nSoon, the man below begins to hum along with her.\n\nShe smiles.",
-                "itemHash": "1337707096",
+                "lore": "Subroutine IKELOS: Status=reinitiated.\nAPOTHEOSIS: Status=active\u2026",
+                "ExtLore": null,
+                "itemHash": "1200824700",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/096c07355243a38f9cf7567a2aafd0b9.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/5b7295e4560566e444495611678ee856.jpg",
+                "rarity": "Legendary",
+                "class": 3,
+                "statRolls": [],
+                "weaponPerks": [
+                    {
+                        "name": "Chambered Compensator",
+                        "description": "Stable barrel attachment.\n  \u2022  Increases stability\n  \u2022  Moderately controls recoil\n  \u2022  Slightly decreases handling speed",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/376aa9bd8c392567f501012fc3b3d4d0.png",
+                        "hashID": 3661387068,
+                        "weaponHash": 1200824700,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Alloy Magazine",
+                        "description": "Faster reloads when the magazine is empty.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/932e7b84c233c6cc49a58058f8c5144d.png",
+                        "hashID": 1431678320,
+                        "weaponHash": 1200824700,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Subsistence",
+                        "description": "Defeating targets partially reloads the magazine from reserves.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/03d774525048e5eb5b6899b37d418920.png",
+                        "hashID": 1820235745,
+                        "weaponHash": 1200824700,
+                        "isPerk": true,
+                        "isFavorablePerk": true
+                    },
+                    {
+                        "name": "Disruption Break",
+                        "description": "Breaking an enemy's shield with this weapon makes them more vulnerable to Kinetic damage for a brief period.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/5b83b3c3fc474c9716e54b4dfe4a862b.png",
+                        "hashID": 1683379515,
+                        "weaponHash": 1200824700,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    }
+                ],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": {
+                    "name": "Precision Frame",
+                    "description": "Recoil pattern on this weapon is more predictably vertical. Fires quickly with high accuracy.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/90c4f7f35c9d24f4add016722a78404e.png"
+                },
+                "legendWeaponDamageType": "Energy",
+                "legendWeaponDamageElement": "Void",
+                "masterworkData": {
+                    "name": "Stability",
+                    "description": "How much or little recoil you will experience while firing the weapon.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/b67fd36e419016be239506aee0b73716.jpg",
+                    "mwHash": 1590375901
+                }
+            },
+            {
+                "name": "Jian 7 Rifle",
+                "type": "Legendary Pulse Rifle",
+                "description": "",
+                "lore": "Come, brothers and sisters! Let us make way for the new ruler!",
+                "ExtLore": null,
+                "itemHash": "1162247618",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/2f98f3da4a6c9a003c7d49e463c61650.jpg",
+                "rarity": "Legendary",
+                "class": 3,
+                "statRolls": [],
+                "weaponPerks": [
+                    {
+                        "name": "SRO-41 Ocular",
+                        "description": "SUROS threat evaluation. Long zoom. Highlights enemy targets.\n  \u2022  Increases range",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/b1b1220f301d8e4ce3f87ecbf6812b20.png",
+                        "hashID": 360593482,
+                        "weaponHash": 1162247618,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Extended Mag",
+                        "description": "This weapon has a greatly increased magazine size, but reloads much slower.\n  \u2022  Greatly increases magazine size\n  \u2022  Greatly decreases reload speed\n  \u2022  Increases airborne effectiveness",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/4cd73ae5b1bc1ae0afc7adb34c2f2df6.png",
+                        "hashID": 2420895100,
+                        "weaponHash": 1162247618,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Disruption Break",
+                        "description": "Breaking an enemy's shield with this weapon makes them more vulnerable to Kinetic damage for a brief period.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/5b83b3c3fc474c9716e54b4dfe4a862b.png",
+                        "hashID": 1683379515,
+                        "weaponHash": 1162247618,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Rampage",
+                        "description": "Kills with this weapon temporarily grant increased damage. Stacks 3x.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/e9aa2f479812bfabc8d48effde384737.png",
+                        "hashID": 3425386926,
+                        "weaponHash": 1162247618,
+                        "isPerk": true,
+                        "isFavorablePerk": true
+                    }
+                ],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": {
+                    "name": "Adaptive Frame",
+                    "description": "A well-rounded grip, reliable and sturdy.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/ad56b0e83d31592d9984cdf2f392452a.png"
+                },
+                "legendWeaponDamageType": "Energy",
+                "legendWeaponDamageElement": "Arc",
+                "masterworkData": {
+                    "name": "Range",
+                    "description": "Increases the effective range of this weapon.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/b5dac54c0c768696460392d7d529166f.jpg",
+                    "mwHash": 150943607
+                }
+            },
+            {
+                "name": "Royal Chase",
+                "type": "Legendary Scout Rifle",
+                "description": "",
+                "lore": "\"If anyone asks why you're out here, just reload.\" \u2014Devrim Kay",
+                "ExtLore": "VanNet/PRXC SCOUT WIDEBAND//:AudCHNL-33295, Public//:LogSkew-859128312785\n\nVGS-6: You still tracking that monster near Saturn? \n\nPXC-0: Yes. Nil-1 is holding position directly over Titan. On mark\u2026 uh, 27 hours. Rotating off in three. \n\nVGS-6: Long shift. You Praxic boys are cold. Regret your induction yet? \n\nPXC-0: It's not a problem. We don't sleep. \n\nVGS-6: Right. \n\n[Dead air.] \n\nVGS-6: I mean, you do sleep. \n\nPXC-0: Negative. \n\nVGS-6: Come on. I've met Guardians before. \n\nPXC-0: We do not. \n\nVGS-6: Don't make me call in the Gunny. \n\nPXC-0: Your Gunny would know better than to argue with the Order. \n\nVGS-6: Okay, listen JEFF. You're not THE Order. I don't give a sh\u2014\n\nPXC-0: Quiet. Energy rev spooling from the target\u2026\n\nVGS-6: What? You said it was basically dead. \n\nPXC-0: Basically\u2026 Verim, record this. Establish direct feed uplink with NavTAC. \n\nPXC-0-Verim: Uplink connectivity is spotty. Gravitational anomaly detec\u2014no it's collaps\u2014\n\n[Inaudible. Interference.] \n\n[Dead air. Silent minutes.] \n\nPXC-0: (Breathing heavily) NavTAC, return. Link reads as established\u2026 NavTAC, return. Telemetric positioning pins us on the opposing side of Saturn. Displacement reads as roughly 470,000km. Titan is\u2026 Titan is gone. This doesn't make any sense. \n\nPXC-0: NavTAC. Vanguard Recon, come in. Tower actual? Harriet, are you out there? \n\n[Signal Redacted] \n\n[Transmission Redacted]",
+                "itemHash": "2776503072",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/be6a19b5d38768dc872aa7a32ba4c096.jpg",
                 "rarity": "Legendary",
                 "class": 3,
                 "statRolls": [],
@@ -357,370 +487,110 @@
                         "description": "Balanced barrel. \n  \u2022  Slightly increases range and stability\n  \u2022  Slightly increases handling speed",
                         "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/18cc75bf9a17bb80b5109f1b8909521f.png",
                         "hashID": 4090651448,
-                        "weaponHash": 1337707096,
+                        "weaponHash": 2776503072,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Tactical Mag",
-                        "description": "This weapon has multiple tactical improvements.\n  \u2022  Slightly increases stability\n  \u2022  Increases reload speed\n  \u2022  Slightly increases magazine size",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/9711e6d3de7a9cf2f844752992390a63.png",
-                        "hashID": 106909392,
-                        "weaponHash": 1337707096,
+                        "name": "Accurized Rounds",
+                        "description": "This weapon can fire longer distances.\n  \u2022  Increases range",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/05e357cd152eb0f665ee986aaa3edc56.png",
+                        "hashID": 3142289711,
+                        "weaponHash": 2776503072,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Dynamic Sway Reduction",
-                        "description": "Improves accuracy and stability while continuously holding down the trigger.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/16d063d66a8d90643a409dfa4283c4e2.png",
-                        "hashID": 1359896290,
-                        "weaponHash": 1337707096,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Demolitionist",
-                        "description": "Kills with this weapon generate grenade energy. Activating your grenade ability reloads this weapon from reserves.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/53ead908917c9156457c7c9dd453d649.png",
-                        "hashID": 3523296417,
-                        "weaponHash": 1337707096,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    }
-                ],
-                "exoticArmorPerk": null,
-                "legendWeaponFrame": {
-                    "name": "High-Impact Frame",
-                    "description": "Slow-firing and high-damage. This weapon is more accurate when stationary and aiming down sights.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/65fdde950b85bdd1e0383e1016a73661.png"
-                },
-                "legendWeaponDamageType": "Energy",
-                "legendWeaponDamageElement": "Solar",
-                "masterworkData": {
-                    "name": "Range",
-                    "description": "Increases the effective range of this weapon.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/b5dac54c0c768696460392d7d529166f.jpg",
-                    "mwHash": 150943607
-                }
-            },
-            {
-                "name": "Cold Denial",
-                "type": "Legendary Pulse Rifle",
-                "description": "",
-                "lore": "A familiar tool in the face of failure.",
-                "ExtLore": "The Wizard floats horizontally, inches off the ground, restrained by a mesh cocoon that ripples with Arc energy. The restraints crackle and hiss as the Hive lieutenant struggles. The Warlock glances uneasily at her captive.\n\n\"Guardian is insult. Sword Logic is death to weakness. Death to sick. Keep alive weakness makes weakness alive,\" the Wizard says and then rattles off a thick stream of guttural sounds that the Guardian's Ghost can't translate. The Warlock assumes they're curses.\n\n\"You're lucky we disagree. We value more than just brute strength. We value all the things that make strength worth having. Like ingenuity. Or kindness. Or friendship,\" the Guardian says. She scans the horizon uneasily. It's been over thirty minutes since her fireteam last checked in. \"I wouldn't expect you to understand.\"\n\nThe Wizard clacks his teeth in disdain. \"Kill makes all nothing. Dead kindness nothing. Dead friend nothing. Kill is highest.\"\n\n\"Well then, I should probably shoot you right now,\" the Guardian snaps at her prisoner. Her fireteam's prolonged absence is making her edgy. \"Is that what you want?\"\n\n\"Yes. You kill now. Is Logic.\" The Wizard shows no fear.\n\nThe Guardian shakes her head. \"You lot are the worst.\"\n\nWhere the hell are they?",
-                "itemHash": "1216130969",
-                "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/c062b531b51cfa496220dffa033c6da8.jpg",
-                "rarity": "Legendary",
-                "class": 3,
-                "statRolls": [],
-                "weaponPerks": [
-                    {
-                        "name": "Arrowhead Brake",
-                        "description": "Lightly vented barrel.\n  \u2022  Greatly controls recoil\n  \u2022  Increases handling speed",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/7a0a23f9622636cea92387d50d368333.png",
-                        "hashID": 839105230,
-                        "weaponHash": 1216130969,
+                        "name": "Full Auto Trigger System",
+                        "description": "Holding down the trigger will fire this weapon at full auto.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/c995638d381d6ff46df5606f49abd7b3.png",
+                        "hashID": 4267945040,
+                        "weaponHash": 2776503072,
                         "isPerk": true,
                         "isFavorablePerk": true
-                    },
-                    {
-                        "name": "Extended Mag",
-                        "description": "This weapon has a greatly increased magazine size, but reloads much slower.\n  \u2022  Greatly increases magazine size\n  \u2022  Greatly decreases reload speed\n  \u2022  Increases airborne effectiveness",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/4cd73ae5b1bc1ae0afc7adb34c2f2df6.png",
-                        "hashID": 2420895100,
-                        "weaponHash": 1216130969,
-                        "isPerk": true,
-                        "isFavorablePerk": false
                     },
                     {
                         "name": "Threat Detector",
                         "description": "Increased reload, stability, and handling when enemies are in close proximity.",
                         "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/1cc8d4604d29dfe5bdc321b4c2681bfb.png",
                         "hashID": 4071163871,
-                        "weaponHash": 1216130969,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Sympathetic Arsenal",
-                        "description": "Reloading after a final blow also reloads stowed weapons.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/4476e3ab32b8e644da04aba087b369c7.png",
-                        "hashID": 3350417888,
-                        "weaponHash": 1216130969,
+                        "weaponHash": 2776503072,
                         "isPerk": true,
                         "isFavorablePerk": false
                     }
                 ],
                 "exoticArmorPerk": null,
                 "legendWeaponFrame": {
-                    "name": "High-Impact Frame",
-                    "description": "Slow-firing and high-damage. This weapon is more accurate when stationary and aiming down sights.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/65fdde950b85bdd1e0383e1016a73661.png"
-                },
-                "legendWeaponDamageType": "Kinetic",
-                "legendWeaponDamageElement": "Kinetic",
-                "masterworkData": {
-                    "name": "Range",
-                    "description": "Increases the effective range of this weapon.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/b5dac54c0c768696460392d7d529166f.jpg",
-                    "mwHash": 150943607
-                }
-            },
-            {
-                "name": "Stars in Shadow",
-                "type": "Legendary Pulse Rifle",
-                "description": "",
-                "lore": "Little is known about the early days of the Collapse. Signals vanished upon the arrival of the Darkness.",
-                "ExtLore": null,
-                "itemHash": "2050789284",
-                "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/0d31b30985f35f6c9457c79aa41d4ad9.jpg",
-                "rarity": "Legendary",
-                "class": 3,
-                "statRolls": [],
-                "weaponPerks": [
-                    {
-                        "name": "Fluted Barrel",
-                        "description": "Ultra-light barrel. \n  \u2022  Greatly increases handling speed\n  \u2022  Slightly increases stability",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/c2a4355c8db7eac12d6dec52d09a20fe.png",
-                        "hashID": 1840239774,
-                        "weaponHash": 2050789284,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Tactical Mag",
-                        "description": "This weapon has multiple tactical improvements.\n  \u2022  Slightly increases stability\n  \u2022  Increases reload speed\n  \u2022  Slightly increases magazine size",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/9711e6d3de7a9cf2f844752992390a63.png",
-                        "hashID": 106909392,
-                        "weaponHash": 2050789284,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Grave Robber",
-                        "description": "Melee final blows reload this weapon's magazine from reserves.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/83e206ebea83f76d9969efea7134ddcc.png",
-                        "hashID": 1631667848,
-                        "weaponHash": 2050789284,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Dragonfly",
-                        "description": "Precision kills create an elemental damage explosion.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/8fe8293ba02002f69bfa052a0c44223f.png",
-                        "hashID": 2848615171,
-                        "weaponHash": 2050789284,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "One Quiet Moment",
-                        "description": "Grants increased reload speed when out of combat.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/823bf29510b2720dd561835d5192c47a.png",
-                        "hashID": 4091460919,
-                        "weaponHash": 2050789284,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    }
-                ],
-                "exoticArmorPerk": null,
-                "legendWeaponFrame": {
-                    "name": "High-Impact Frame",
-                    "description": "Slow-firing and high-damage. This weapon is more accurate when stationary and aiming down sights.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/65fdde950b85bdd1e0383e1016a73661.png"
-                },
-                "legendWeaponDamageType": "Energy",
-                "legendWeaponDamageElement": "Solar",
-                "masterworkData": {
-                    "name": "Stability",
-                    "description": "How much or little recoil you will experience while firing the weapon.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/b67fd36e419016be239506aee0b73716.jpg",
-                    "mwHash": 1590375901
-                }
-            },
-            {
-                "name": "Gridskipper",
-                "type": "Legendary Pulse Rifle",
-                "description": "",
-                "lore": "\"No stars overhead. Best not to look up.\" \u2014Amanda Holliday",
-                "ExtLore": "He heard something and snapped awake. There it was again: the skittering of clawed feet above him. In a moment, he had grabbed the Pulse Rifle from near the door and was outside.\n\nHe saw nothing but the lip of the tar paper roof against the undulating night sky. That didn't mean anything\u2014they could turn invisible. Everyone knew that. They could just be standing there, one or two, or a dozen, staring down at him.\n\nHe looked for shimmering outlines, but his vision was filled by the swaying grid of the dark purple night. He squinted as a ripple rolled high overhead, and the grid seemed to move closer, like an enormous sheet settling over the City.\n\nA wave of pressure pushed down, building in his sinuses. He pressed a hand to his eyes. A deep thrum filled his head, and he heard their claws on the walls all around him, their hissing laughter.\n\nHe turned toward the street, weapon raised. He felt his heart thudding in his chest and sweat beading on his back.\n\nAnother noise: someone pounding on glass behind him.\n\nHe spun and one of them was in his house, looking out at him through the window. His sweaty fingers fumbled to turn the safety off as it opened its mouth\u2014\n\n\"Dad,\" the Fallen shouted, \"you're standing in the garden!\"\n\nHe looked down dumbly. Cherry tomatoes were crushed beneath his bare feet.\n\nHis son yelled again, no longer a Fallen, merely irritated and half asleep. \"Come back inside!\"\n\nHands shaking, he stepped out of the garden. He fought the urge to look into the sky as he walked back to the house.",
-                "itemHash": "1621558458",
-                "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/e448a8b6661c0d8a4894c8de3427cad5.jpg",
-                "rarity": "Legendary",
-                "class": 3,
-                "statRolls": [],
-                "weaponPerks": [
-                    {
-                        "name": "Fluted Barrel",
-                        "description": "Ultra-light barrel. \n  \u2022  Greatly increases handling speed\n  \u2022  Slightly increases stability",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/c2a4355c8db7eac12d6dec52d09a20fe.png",
-                        "hashID": 1840239774,
-                        "weaponHash": 1621558458,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Armor-Piercing Rounds",
-                        "description": "Rounds cause extra damage to combatants' shields and overpenetrate targets. \n  \u2022  Slightly increases range",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/73b724a6839bb3e1db37742f7ed5249b.png",
-                        "hashID": 1968497646,
-                        "weaponHash": 1621558458,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Slideways",
-                        "description": "Sliding partially reloads this weapon's magazine and temporarily boosts handling and stability.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/ccac4f90945c16a520b823d2a6cd48a3.png",
-                        "hashID": 2039302152,
-                        "weaponHash": 1621558458,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Frenzy",
-                        "description": "Being in combat for an extended time increases damage, handling, and reload for this weapon until you are out of combat.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/5f346569b07ad452768b16a255ebd168.png",
-                        "hashID": 4104185692,
-                        "weaponHash": 1621558458,
-                        "isPerk": true,
-                        "isFavorablePerk": true
-                    }
-                ],
-                "exoticArmorPerk": null,
-                "legendWeaponFrame": {
-                    "name": "Rapid-Fire Frame",
-                    "description": "Deeper ammo reserves. Slightly faster reload when magazine is empty.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/0ab090e93e19da9e841b0f94c5ab7de6.png"
+                    "name": "Precision Frame",
+                    "description": "This weapon's recoil pattern is more predictably vertical.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/90c4f7f35c9d24f4add016722a78404e.png"
                 },
                 "legendWeaponDamageType": "Energy",
                 "legendWeaponDamageElement": "Void",
                 "masterworkData": {
-                    "name": "Range",
-                    "description": "Increases the effective range of this weapon.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/b5dac54c0c768696460392d7d529166f.jpg",
-                    "mwHash": 150943607
+                    "name": "Reload Speed",
+                    "description": "The time it takes to reload this weapon.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/18a68428b806cf726984ce79126eed65.jpg",
+                    "mwHash": 4283235143
                 }
             },
             {
-                "name": "Code Duello",
-                "type": "Legendary Rocket Launcher",
-                "description": "",
-                "lore": "An unfinished inscription runs along the barrel: \"Tlamus, she who\u2014\"",
-                "ExtLore": "There is a story of two weaponsmiths, both skilled at their trade.\n\nOne smith, Dhutus, worked with metals she pulled from the mountains herself. She tooled the rifling in her barrels with the steady hand of an artisan. Her dyes, cobalt and ichor, shone bright as beetleshell.\n\nThe other, Gharhet, came from the distant plains. He traded for his wares and sold them dear, and thus he amassed great wealth. He embellished his goods with a rich lacquer the color of flame.\n\nWhen the Primus called for the strongest warriors to serve, the district knew the fighter Tlamus\u2014who had broken all challengers with her keen aim and powerful frame\u2014would represent them. Both Dhutus and Gharhet wished to outfit her with their finest pieces, as having a warrior of her status wear their colors would bring them great honor.\n\nSo Dhutus forged Tlamus a mighty war axe with an ice-blue handle and wide golden blade. Tlamus accepted the gift gladly.\n\nGharhet procured for her a Slug Rifle with bright orange plating, and Tlamus wore it proudly across her back.\n\nNext, Dhutus crafted a Shotgun, metal burnished deep as night with bright vents along the sides, and Tlamus brought it into battle.\n\nIn response, Gharhet bought a helm with thick plating and stout antlers the color of a sunset, and they were soon stained with the blood of Tlamus's foes.\n\nAnd Dhutus saw no end to this. Her shoulders ached from working the forge, and her hands were blistered by burns upon burns.\n\nSo Dhutus issued to Gharhet a challenge, and as he knew no one would raise the weapons of a coward, Gharhet accepted.\n\nThe next dawn found Dhutus on the battlefield waiting for her rival. On her shoulder was her finest weapon: a Rocket Launcher, its barrel a twisting column of seashell blue with gold trim, built as a gift for Tlamus but now wielded by its creator.\n\nFrom across the field, a figure strode forward to meet Dhutus\u2014but it was too wide to be Gharhet; too tall, too muscular. He had bought a champion to fight in his stead.\n\nAn orange sash was draped carelessly across her chest and dragged in the dust with each confident step. Studded orange leathers bound her massive arms and thighs. Strands of coral beads hung from her tusks.\n\nShe greeted Dhutus with a fist to her chest. \"I am Tlamus,\" she said, \"chosen of Gharhet.\"\n\nDhutus could not find her voice, and then Tlamus drew one of her beautiful, terrible weapons, and the rite was soon concluded.",
-                "itemHash": "2496242052",
-                "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/ee9bca2d130b03aeae890e35c31dd7dc.jpg",
-                "rarity": "Legendary",
-                "class": 3,
-                "statRolls": [],
-                "weaponPerks": [
-                    {
-                        "name": "Linear Compensator",
-                        "description": "This weapon's launch barrel is well-balanced.\n  \u2022  Slightly increases projectile speed\n  \u2022  Slightly increases blast radius\n  \u2022  Slightly increases stability",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/eab8eeedc70188ad3798b6ca84fbb7cb.png",
-                        "hashID": 1441682018,
-                        "weaponHash": 2496242052,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Alloy Casing",
-                        "description": "Reduces weight for faster reloads.\n  \u2022  Greatly increases reload speed\n  \u2022  Decreases stability",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/edbc74db634e0848209b885550c6c7a0.png",
-                        "hashID": 2985827016,
-                        "weaponHash": 2496242052,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Auto-Loading Holster",
-                        "description": "The holstered weapon is automatically reloaded after a short period of time.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/d355b1117307c9f187729249361cecc3.png",
-                        "hashID": 3300816228,
-                        "weaponHash": 2496242052,
-                        "isPerk": true,
-                        "isFavorablePerk": true
-                    },
-                    {
-                        "name": "Unrelenting",
-                        "description": "Rapidly defeating targets triggers health regeneration. Guardians and powerful combatants count as more than one kill.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/1fc52a711b40a4d867312c8aeadce262.png",
-                        "hashID": 3108830275,
-                        "weaponHash": 2496242052,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    }
-                ],
-                "exoticArmorPerk": null,
-                "legendWeaponFrame": {
-                    "name": "High-Impact Frame",
-                    "description": "Slow-firing and high-damage. This weapon is more accurate when stationary and aiming down sights.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/65fdde950b85bdd1e0383e1016a73661.png"
-                },
-                "legendWeaponDamageType": "Power",
-                "legendWeaponDamageElement": "Solar",
-                "masterworkData": {
-                    "name": "Velocity",
-                    "description": "Increases the speed of projectiles fired by this weapon.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/a87a9b98affcbdaf921af193158d4f49.jpg",
-                    "mwHash": 4105787909
-                }
-            },
-            {
-                "name": "Seventh Seraph CQC-12",
+                "name": "Xenoclast IV",
                 "type": "Legendary Shotgun",
                 "description": "",
-                "lore": "Word into law, held at gunpoint.",
+                "lore": "\"Nice chitin. It'd be a shame if someone broke it.\" \u2014Liu Feng",
                 "ExtLore": null,
-                "itemHash": "1821724780",
+                "itemHash": "2891672170",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/1a5fef325b5b89474523514a933a1a8b.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/74fd60316d24cd2fbb81d0df4009b1bc.jpg",
                 "rarity": "Legendary",
                 "class": 3,
                 "statRolls": [],
                 "weaponPerks": [
                     {
-                        "name": "Barrel Shroud",
-                        "description": "Balanced shotgun barrel.\n  \u2022  Increases stability\n  \u2022  Increases handling speed",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/7c81469db03f7111f8d248b54c83d7cf.png",
-                        "hashID": 1300023272,
-                        "weaponHash": 1821724780,
+                        "name": "Smallbore",
+                        "description": "Dual strength barrel.\n  \u2022  Increases range\n  \u2022  Increases stability",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/bc3d5d36c6b4627bdb8d37cd52711cf4.png",
+                        "hashID": 1482024992,
+                        "weaponHash": 2891672170,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Appended Mag",
-                        "description": "This weapon's magazine is built for higher capacity.\n  \u2022  Increases magazine size",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/9d8a7be4c2fef471a6fde38d02ab8dae.png",
-                        "hashID": 1087426260,
-                        "weaponHash": 1821724780,
+                        "name": "Extended Mag",
+                        "description": "This weapon has a greatly increased magazine size, but reloads much slower.\n  \u2022  Greatly increases magazine size\n  \u2022  Greatly decreases reload speed\n  \u2022  Increases airborne effectiveness",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/4cd73ae5b1bc1ae0afc7adb34c2f2df6.png",
+                        "hashID": 2420895100,
+                        "weaponHash": 2891672170,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Quickdraw",
-                        "description": "This weapon can be drawn unbelievably fast.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/b04cf9a75031115055678b71c3c58443.png",
-                        "hashID": 706527188,
-                        "weaponHash": 1821724780,
+                        "name": "Field Prep",
+                        "description": "Increased ammo reserves. Faster reload, stow, and ready when you're crouching.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/fd815414532978ad2e5decbfc416b9e4.png",
+                        "hashID": 2869569095,
+                        "weaponHash": 2891672170,
                         "isPerk": true,
-                        "isFavorablePerk": true
+                        "isFavorablePerk": false
                     },
                     {
-                        "name": "Snapshot Sights",
-                        "description": "Faster time to aim down sights.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/49df9d90b3f27bd5ec6a9b35f4c10def.png",
-                        "hashID": 957782887,
-                        "weaponHash": 1821724780,
+                        "name": "Trench Barrel",
+                        "description": "After a successful melee hit, this weapon gains increased damage, handling, and reload speed for a short duration\u2014or until three shots are fired.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/09ecf09e4cc4b0e087d8711d817c64b6.png",
+                        "hashID": 2360754333,
+                        "weaponHash": 2891672170,
                         "isPerk": true,
-                        "isFavorablePerk": true
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Vanguard's Vindication",
+                        "description": "Final blows with this weapon grant a small amount of health.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/712c038e553e04a40fe5cf84b5673d27.png",
+                        "hashID": 744217850,
+                        "weaponHash": 2891672170,
+                        "isPerk": true,
+                        "isFavorablePerk": false
                     }
                 ],
                 "exoticArmorPerk": null,
@@ -730,60 +600,60 @@
                     "icon": "https://www.bungie.net/common/destiny2_content/icons/530b400d5cec3bf6aca7c5efc46fea20.png"
                 },
                 "legendWeaponDamageType": "Energy",
-                "legendWeaponDamageElement": "Solar",
+                "legendWeaponDamageElement": "Arc",
                 "masterworkData": {
-                    "name": "Reload Speed",
-                    "description": "The time it takes to reload this weapon.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/18a68428b806cf726984ce79126eed65.jpg",
-                    "mwHash": 4283235143
+                    "name": "Handling",
+                    "description": "The speed with which the weapon can be readied and aimed.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/97161c247fc79bacad09d15d6e5ee7f2.jpg",
+                    "mwHash": 518224747
                 }
             },
             {
-                "name": "IKELOS_SR_v1.0.2",
+                "name": "Widow's Bite",
                 "type": "Legendary Sniper Rifle",
                 "description": "",
-                "lore": "Subroutine IKELOS: Status=reinitiated.\nAPOTHEOSIS: Status=active\u2026",
+                "lore": "I will outlive you.",
                 "ExtLore": null,
-                "itemHash": "1253087083",
+                "itemHash": "1271343896",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/1f23cab5d561537329f1263aea8cc215.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/314a687c8e0049f3cb6ae3989ef95b04.jpg",
                 "rarity": "Legendary",
                 "class": 3,
                 "statRolls": [],
                 "weaponPerks": [
                     {
-                        "name": "Extended Barrel",
-                        "description": "Weighty barrel extension.\n  \u2022  Increases range\n  \u2022  Decreases handling speed\n  \u2022  Moderately controls recoil",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/7c81469db03f7111f8d248b54c83d7cf.png",
-                        "hashID": 1467527085,
-                        "weaponHash": 1253087083,
+                        "name": "Corkscrew Rifling",
+                        "description": "Balanced barrel. \n  \u2022  Slightly increases range and stability\n  \u2022  Slightly increases handling speed",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/18cc75bf9a17bb80b5109f1b8909521f.png",
+                        "hashID": 4090651448,
+                        "weaponHash": 1271343896,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Steady Rounds",
-                        "description": "This magazine is optimized for recoil control.\n  \u2022  Greatly increases stability \n  \u2022  Slightly decreases range\n  \u2022  Increases airborne effectiveness",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/adaf4315dab749519c41a233e9954598.png",
-                        "hashID": 3177308360,
-                        "weaponHash": 1253087083,
+                        "name": "Tactical Mag",
+                        "description": "This weapon has multiple tactical improvements.\n  \u2022  Slightly increases stability\n  \u2022  Increases reload speed\n  \u2022  Slightly increases magazine size",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/9711e6d3de7a9cf2f844752992390a63.png",
+                        "hashID": 106909392,
+                        "weaponHash": 1271343896,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Feeding Frenzy",
-                        "description": "Each rapid kill with this weapon progressively increases reload speed for a short time.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/5838b4ef410895011edfed3eaf11641f.png",
-                        "hashID": 2779035018,
-                        "weaponHash": 1253087083,
+                        "name": "Firmly Planted",
+                        "description": "Increased accuracy, stability, and handling when firing while crouched.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/bc9da416fe98c79b59074403084765b7.png",
+                        "hashID": 280464955,
+                        "weaponHash": 1271343896,
                         "isPerk": true,
-                        "isFavorablePerk": false
+                        "isFavorablePerk": true
                     },
                     {
-                        "name": "Disruption Break",
-                        "description": "Breaking an enemy's shield with this weapon makes them more vulnerable to Kinetic damage for a brief period.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/5b83b3c3fc474c9716e54b4dfe4a862b.png",
-                        "hashID": 1683379515,
-                        "weaponHash": 1253087083,
+                        "name": "Quickdraw",
+                        "description": "This weapon can be drawn unbelievably fast.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/b04cf9a75031115055678b71c3c58443.png",
+                        "hashID": 706527188,
+                        "weaponHash": 1271343896,
                         "isPerk": true,
                         "isFavorablePerk": false
                     }
@@ -797,59 +667,162 @@
                 "legendWeaponDamageType": "Energy",
                 "legendWeaponDamageElement": "Solar",
                 "masterworkData": {
+                    "name": "Range",
+                    "description": "Increases the effective range of this weapon.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/b5dac54c0c768696460392d7d529166f.jpg",
+                    "mwHash": 150943607
+                }
+            },
+            {
+                "name": "Far Future",
+                "type": "Legendary Sniper Rifle",
+                "description": "",
+                "lore": "\"Distance is just a matter of timing.\" \u2014Crow",
+                "ExtLore": "Ixel : mutineer : Far-Reaching : murderer : Psion : prophet\n\n1 : the Tower burns : Fallen in the streets : screaming : the Hive Witch dissembles : crackling portal : treachery : Vex emerge : Zavala commands\u2014\n\n2 : the abandoned Tower : desiccated carcasses : wind : Dark spores : Traveler disappears : Pyramid overhead : a Voice behind the Darkness\u2014\n\n3 : the battered Tower : sizzling Arc : Psions burn : frigate crashes : Zavala dies : the Hive Witch comforts : sacrifice awakens : one-horn attacks : Cabal retreat\u2014\n\n4 :  the Tower in ruins : Legionaries patrol : torn banners : executions : a land tank rumbles : Fallen scavengers : transmission : the fleet is destroyed : Wrath of the Hive : we are extinct\u2014\n\n5: the Tower molders : the Hive Witch's worm : Ghosts at war : a Voice behind the Darkness : the Traveler abandoned us : Taken Cabal : a new Hive rejoices\u2014\n\n6 : the Tower is still : funeral procession : Zavala dies :  Zavala dies : Zavala dies : candles : quiet argument : how did they get in : the Witch Queen flees : they are coming\u2014\n\n7: the besieged Tower : trampled flowers : portraits : Zavala is dead : ataxia : wailing : our assassin : the Traveler overhead : the empress looks down : the Light is ours : Primus Ixel\u2014\n\nIxel : Primus : Far-Reaching : prophet : conqueror : hero",
+                "itemHash": "893527433",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/dc4fb0aa06a26229e0d90ac52589c1ec.jpg",
+                "rarity": "Legendary",
+                "class": 3,
+                "statRolls": [],
+                "weaponPerks": [
+                    {
+                        "name": "Full Bore",
+                        "description": "Barrel optimized for distance.\n  \u2022  Greatly increases range\n  \u2022  Decreases stability\n  \u2022  Slightly decreases handling speed",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/9307c5604f995d90ad5ed65281b64772.png",
+                        "hashID": 202670084,
+                        "weaponHash": 893527433,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Appended Mag",
+                        "description": "This weapon's magazine is built for higher capacity.\n  \u2022  Increases magazine size",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/9d8a7be4c2fef471a6fde38d02ab8dae.png",
+                        "hashID": 1087426260,
+                        "weaponHash": 893527433,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Slideshot",
+                        "description": "Sliding partially reloads this weapon's magazine and temporarily boosts range and stability.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/fa7ba2abcd8effd143e287668d7c865b.png",
+                        "hashID": 3161816588,
+                        "weaponHash": 893527433,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Thresh",
+                        "description": "Killing combatants with this weapon generates a small amount of Super energy.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/8ec196e722bd127d214e47efb82ba9bf.png",
+                        "hashID": 2726471870,
+                        "weaponHash": 893527433,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    }
+                ],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": {
+                    "name": "Adaptive Frame",
+                    "description": "A well-rounded grip, reliable and sturdy.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/ad56b0e83d31592d9984cdf2f392452a.png"
+                },
+                "legendWeaponDamageType": "Energy",
+                "legendWeaponDamageElement": "Solar",
+                "masterworkData": {
                     "name": "Stability",
                     "description": "How much or little recoil you will experience while firing the weapon.",
                     "icon": "https://www.bungie.net/common/destiny2_content/icons/b67fd36e419016be239506aee0b73716.jpg",
                     "mwHash": 1590375901
                 }
+            },
+            {
+                "name": "Honor's Edge",
+                "type": "Legendary Sword",
+                "description": "",
+                "lore": "\"Good leadership requires discernment: the art of finely dividing one subtle thing from another.\" \u2014Executor Hideo",
+                "ExtLore": null,
+                "itemHash": "2857348871",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/b17ce822f45b6f072cc9864d5600f8b9.jpg",
+                "rarity": "Legendary",
+                "class": 3,
+                "statRolls": [],
+                "weaponPerks": [
+                    {
+                        "name": "Hungry Edge",
+                        "description": "Increased sword ammo.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/524e24197c0e4d2c5a73f29e3a28e19b.png",
+                        "hashID": 436053704,
+                        "weaponHash": 2857348871,
+                        "isPerk": true,
+                        "isFavorablePerk": true
+                    },
+                    {
+                        "name": "Balanced Guard",
+                        "description": "Sword Guard has balanced overall defenses.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/af27236ce356d54af0037b9a4e52c356.png",
+                        "hashID": 52780822,
+                        "weaponHash": 2857348871,
+                        "isPerk": true,
+                        "isFavorablePerk": true
+                    },
+                    {
+                        "name": "Relentless Strikes",
+                        "description": "[Light Attack]  : Landing three light-attack hits within a short time grants Sword ammo.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/0619b0257fec929e5b6eeb5890c99c53.png",
+                        "hashID": 1749209109,
+                        "weaponHash": 2857348871,
+                        "isPerk": true,
+                        "isFavorablePerk": true
+                    },
+                    {
+                        "name": "Surrounded",
+                        "description": "This weapon gains bonus damage when three or more enemies are in close proximity.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/0dbd2b11fd1343c11b4559c7a72ae8da.png",
+                        "hashID": 3708227201,
+                        "weaponHash": 2857348871,
+                        "isPerk": true,
+                        "isFavorablePerk": true
+                    }
+                ],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": {
+                    "name": "Adaptive Frame",
+                    "description": "[Heavy Attack]  : Launch a heavy uppercut attack.\nHeavy attacks are stronger with full energy.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/ad56b0e83d31592d9984cdf2f392452a.png"
+                },
+                "legendWeaponDamageType": "Power",
+                "legendWeaponDamageElement": "Arc",
+                "masterworkData": {
+                    "name": "Impact",
+                    "description": "Increases the damage inflicted by each round.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/eece265650a2fb2e2be970328b58453c.jpg",
+                    "mwHash": 1486919755
+                }
             }
         ],
         "Warlock": {
             "Helmet": {
-                "name": "Pathfinder's Visor",
+                "name": "Xenos Vale IV",
                 "type": "Legendary Helmet",
                 "description": "",
-                "lore": "Clear mind and strong will serve as guides through the Ley Lines.",
-                "ExtLore": "NEW COVEN - I\n\nPetra stood at the bordering cliff's edge of the Divalian Mists, wrapped in a concealing vapor. Beside her, Illyn, Techeun Coven Mother. A deluge of water spewed from deep within the stone below; gentle tremors rippled through their bodies without notice. The pure sky above them tore like well-worn fabric as fronds of malignant Taken growth crept into the Dreaming City.\n\n\"They will be upon us soon. It was not enough to simply halt Oryx's advance,\" Petra said.\n\nShe had spent months of conversation building the kindling to an idea in Illyn's thoughts prior to the Battle of Saturn: a new Coven, a new class of sister recruits. Now, with the queen's flagship in ruins and the Coven missing several of its most skilled Techeuns, there was no longer the luxury of refusal.\n\n\"I can't hold the Reef with Corsairs alone. I can't search for the queen with looking glasses and a depleted armada. We need more Techeuns, Illyn. You know I'm right.\"\n\nIllyn shook her head. \"We are not weapons for the Queen's Wrath to command\u2026\"\n\nThe Coven's reluctance to forge the next link in the chain of their lineage was a strong one. Since the formation of Eleusinia and the exploitation of Riven, the Elder Techeuns had grown protective of their arts. Techniques and texts were kept close. Despite all that, Petra knew Illyn had always been listening to her words. She too had dreamt of the Harbinger's failure. Of Oryx Taking her sisters.\n\n\"\u2026We will snap shut the Ley Lines and seal the city,\" Illyn concluded.\n\n\"No!\" Petra retorted. \"The queen is lost and might still return.\" She turned to the Coven Mother. \"Of your seven, how many are still alive?\"\n\nPetra felt a mournful flame stoking beneath Illyn's visor. \"Precisely,\" Illyn said. \"We haven't the strength.\"\n\n\"Then heed my requests.\" Petra waved away the mist between them. \"Train more sisters.\"\n\nIllyn finally broke her gaze with the sky and scowled at Petra. \"We haven't the time. Training spans decades.\"\n\n\"Make. It. Work,\" Petra demanded before taking a breath and continuing. \"Illyn, I will do whatever you need. Please, can we work through this together?\"\n\nIllyn's head sunk. She leaned over the cliffside\u2014over the stream of plummeting mist\u2014and watched the flow of water drop into endlessness. \"Send me your candidates. I hope they are stronger than you were.\"",
-                "itemHash": "3642146012",
+                "lore": "It demands a swift and terrible response.",
+                "ExtLore": null,
+                "itemHash": "1702245537",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/2e92317bd7dfb9e1a70216f12ae3a561.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/da8a633b99d119d4e21269c7e28a24c5.jpg",
                 "rarity": "Legendary",
                 "class": 2,
                 "statRolls": [
-                    53,
-                    7,
-                    7,
-                    11,
-                    14,
+                    58,
+                    12,
+                    16,
                     2,
-                    12
-                ],
-                "weaponPerks": [],
-                "exoticArmorPerk": null,
-                "legendWeaponFrame": null,
-                "legendWeaponDamageType": null,
-                "legendWeaponDamageElement": null,
-                "masterworkData": null
-            },
-            "Arms": {
-                "name": "Pathfinder's Wraps",
-                "type": "Legendary Gauntlets",
-                "description": "",
-                "lore": "Place your palms to the dirt and form the path you wish to walk.",
-                "ExtLore": "WAYFINDING - II\n\nYlaia placed her hands on the focusing crystal once more. It had been months since she had seen the stars. Her view every day was instead of the same stone chamber she shared with twelve others; it doubled as both training ground and lodging for a new crop of Techeuns. The mustiness made Ylaia crave the open air of the Dreaming City's skyward turrets.\n\nShe imagined them piercing the sky like masts and drawing the clouds into sails. In her mind, the whole city sailed through the Ascendant Ocean, navigating the Ley Lines like currents. Ylaia placed herself there: a voyage, a turret crow's nest in search of distant land, ascendant anchors restraining cloud-sail billows against the wind of her will.\n\nShe tried to introduce that place to this one, to let them meet and exchange atmosphere.\n\n\"Make this real,\" she thought\u2026 but it was nothing more than thought. The concepts were familiar, but the execution was still foreign. Ylaia adjusted the crystal in her hands, as if the orientation mattered. Of all her sisters, only she still couldn't shape the Ley Lines.\n\n\"They're going to shift soon, you know,\" Austyn chided.\n\n\"I know,\" Ylaia spat back without looking. An explosion shook the room, raining plumes of dust over them and breaking her concentration.\n\n\"Damn it!\" Ylaia slammed a fist into the smooth stone and cast the crystal orb across the floor. \"Why are we training in a war zone?\"\n\nAustyn watched the crystal skip to the edge of the chamber. \"This place is built upon a crossroads of Ley Lines. If you can't align with them here\u2026\"\n\n\"Don't say it,\" Ylaia hissed as she stood to retrieve the crystal. \"I need to try again.\"\n\nAs she walked, the wall before her illuminated and split into a doorway. Petra Venj entered the chamber, haggard, soot dulling the sheen of her armor. Ylaia stopped in her tracks. She hid away her embarrassment despite knowing that Petra hadn't seen her cast away the focusing crystal.\n\nPetra's foot tapped the crystal. She bent and scooped it from the ground and looked to Ylaia's empty hands. \"Do not lose this. There aren't many left.\"\n\n\"My apologies. I\u2026 I need to try again.\"\n\nPetra scanned the faces of each of the thirteen would-be Techeuns before her. The creases beneath their eyes drew deeper from stress and lack of sleep. \"I had trouble just the same. Let me show you.\"",
-                "itemHash": "743529557",
-                "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/3d6c8bdfc214fd3db9a012e29cec9465.jpg",
-                "rarity": "Legendary",
-                "class": 2,
-                "statRolls": [
-                    56,
-                    6,
-                    11,
+                    17,
                     9,
-                    2,
-                    26,
                     2
                 ],
                 "weaponPerks": [],
@@ -859,24 +832,51 @@
                 "legendWeaponDamageElement": null,
                 "masterworkData": null
             },
-            "Chest": {
-                "name": "Pathfinder's Robe",
-                "type": "Legendary Chest Armor",
+            "Arms": {
+                "name": "Xenos Vale IV",
+                "type": "Legendary Gauntlets",
                 "description": "",
-                "lore": "Forged from the reinforced armor of fallen Corsairs to honor memories that they no longer can.",
-                "ExtLore": "DURESS - III\n\nSjari shifted on the wooden operating table. Why must she be the first?\n\nShe probed the jelly-like substance smeared across her forehead as Elder Kalli entered the room.\n\n\"Don't touch that. It's an antiseptic\u2026 and a binding agent,\" Kalli said, placing a sizeable blue-crystal-adorned mask next to an assortment of scalpels, hooks, and erosion stencils on her back table. Each tool was etched with ceremonial iconography, and freshly sharpened.\n\n\"Normally, it takes years to become an Adept among our ranks\u2026 but the Queen's Wrath believes time is short. If you survive, these augments will expedite your training and enhance your abilities.\"\n\nKalli turned away to work a mortar and pestle. \"You will need to learn to focus under duress. Remove your mind from this place. Sink into the cosmic, project out from yourself. There is no pain, no flesh, no nerves.\"\n\nSjari gripped the sides of the operating table and pressed her back flat, until no air existed between her and the surface beneath\u2014until she felt herself a part of it. She told herself to ignore the grinding of the pestle and thought about how Petra had taught her to use the physical as a transitionary conduit to the Ascendant.\n\n\"Drink this,\" Kalli ordered, handing Sjari a small cup of queensfoil tea.\n\nSjari opened her eyes and released her grip as her meditation broke. \"Yes, Elder sister. Give me a moment to focus, please,\" she pleaded, hastily gulping down the tea.\n\n\"You think my voice is sharper than this knife?\" Kalli asked, lifting the scalpel from her back table. \"Duress. You must push through it if you are to survive. Be strong, or you will die. This is your final test.\"\n\nSjari drank quickly and pressed herself to the table once more. She focused on her fingertips and the feel of the hand-worked wood. The grain formed diminutive pathways for her nails to trace; tiny patterns hidden away within the enormity that surrounded them, only revealed by shrinking one's perspective. She let herself drift.\n\nKalli threaded the thin metal edge directly through to the bone of Sjari's skull. A line of incision opened a wave of red. Searing penetration through the layers. Overwhelming electrified senses. They gave way to a calming sting in the discordant firing of nerves. A pattern. The texture. The split between what was and what could be.\n\nIn her mind's eye, Sjari saw the Ley Lines unfurl like budding petals of a living blossom. Nebula-like plumes of pollen. She let herself slip away until the pain of her flesh was only one of many choices before her.",
-                "itemHash": "2259629899",
+                "lore": "There is no City without the Warlocks.",
+                "ExtLore": null,
+                "itemHash": "2498588344",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/3fda173ede49f6e88868c71a717f9ce4.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/d6eeaa45318fb928ef27b7d7b9255832.jpg",
                 "rarity": "Legendary",
                 "class": 2,
                 "statRolls": [
-                    53,
-                    9,
-                    12,
+                    59,
                     6,
-                    8,
-                    11,
+                    20,
+                    6,
+                    2,
+                    2,
+                    23
+                ],
+                "weaponPerks": [],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": null,
+                "legendWeaponDamageType": null,
+                "legendWeaponDamageElement": null,
+                "masterworkData": null
+            },
+            "Chest": {
+                "name": "Xenos Vale IV",
+                "type": "Legendary Chest Armor",
+                "description": "",
+                "lore": "We were all strangers once. Even the Traveler.",
+                "ExtLore": null,
+                "itemHash": "2454114768",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/2e731d70ff906e959a8a616ea817a1e6.jpg",
+                "rarity": "Legendary",
+                "class": 2,
+                "statRolls": [
+                    62,
+                    2,
+                    16,
+                    12,
+                    15,
+                    10,
                     7
                 ],
                 "weaponPerks": [],
@@ -887,24 +887,24 @@
                 "masterworkData": null
             },
             "Legs": {
-                "name": "Pathfinder's Pants",
+                "name": "Xenos Vale IV",
                 "type": "Legendary Leg Armor",
                 "description": "",
-                "lore": "Step without ground. Leap without falling. Fly without wind.",
-                "ExtLore": "JOURNEY - IV\n\nAustyn sat in silence with eyes shut. Ley Lines swept over her in waves\u2014in pulses, which she slowly brought into alignment with her own. Entanglement. It was not the first time she had pressed herself into symbiosis with the Ascendant Plane. She'd been through the thoughts of all the sisters in her Coven. She had dreamt with Petra and harvested secrets from her, with the Queen's Wrath being none the wiser. Austyn knew they were meant to save Queen Mara Sov. They were meant to find her and restore the throne. She had been searching the Ley Lines for a path to the queen each night after her training.\n\nHer Coven sisters lay sleeping all around her body, but her mind flew through countless panes of prismatic glass. As they shattered, she flittered from one plane to the next, catching momentary glimpses of incommunicable wonder.\n\nIn the distant cosmos far ahead, Austyn saw a darkened haze of indecipherable noise. Somewhere nestled in the Ley Lines, this shadowed spot was growing. Austyn knew Mara Sov was distant. She knew the queen had obscured herself from her enemies. Austyn had felt a presence reach from the noise toward the Dreaming City more than once. Tonight, she would reach back.\n\nAustyn focused her will on a path to the distant noise and, as she did so, it was. The way was open, but still so far. She reached out with her physical body, placing a hand in the air before her and splitting the oxygen with her touch. She carved a slit in reality, through the molecules of the air, and the path anchored to it at her command.\n\nThe noise descended upon her, and instantly, she was at the precipice.\n\nHand pressed, frozen, paralyzed, and awash in insidious whispers that shredded the doorway into open nothing.\n\nIt tore her consciousness across the cosmos to a grand terrace of onyx swords and emerald flame reigning over a red harbor. Fingers reached like blades from distant hollows. Screaming noise upon noise. A lone figure stood on the terrace aside two empty thrones. Testing. Prodding. Tasting. Breeding war.\n\n\"Austyn!\" A familiar voice pried her back into the waking world. \"Austyn, are you all right?\"\n\nShe woke, soaked in sweat and heat. Petra Venj stood over her, gripping her shoulders.\n\nAustyn struggled to breathe. Her eyes met Petra's.\n\n\"Austyn?\"\n\nThey'd leave you behind if they knew what you just saw, she thought.\n\n\"Just a nightmare,\" Austyn reassured the Queen's Wrath. \"Thank you for waking me.\"",
-                "itemHash": "2319651767",
+                "lore": "The realm of the strange is the Warlock's home.",
+                "ExtLore": null,
+                "itemHash": "533855986",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/83dfbaf54dc00ca8a707d985e846e89e.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/329f2a511931f49a4799033b99846838.jpg",
                 "rarity": "Legendary",
                 "class": 2,
                 "statRolls": [
-                    47,
-                    6,
-                    8,
+                    62,
+                    2,
+                    18,
                     10,
-                    6,
-                    11,
-                    6
+                    7,
+                    10,
+                    15
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -914,14 +914,14 @@
                 "masterworkData": null
             },
             "Class Item": {
-                "name": "Pathfinder's Bond",
+                "name": "Xenos Vale Bond",
                 "type": "Legendary Warlock Bond",
                 "description": "",
-                "lore": "A beacon, like a flare, burning a sphere of safety in the night.",
-                "ExtLore": "THIRD-STRING WITCHES - V\n\nPetra watched Sedia preside over the thirteen of the new Coven. A mixture of pride and fearful anxiety knotted her stomach, as if the interior of her skin was being tugged into her gut by warm sinew strings. She held the shape of her smile until they had taken their positions within the Blind Well. Austyn, Ylaia, and Sjari formed the core of the party, with the others interlinking in an exterior circle. They situated themselves at key points around a thrumming Wayfinder's Compass that bent the air into wild chromatic slurries. The Well awakened.\n\nThey prepared their minds. Slipped into meditation. Communion in searching. Thirteen voices spoke as one, and then silence as the Well dropped into prisms of glass beneath the novice Coven's feet. Not but a moment ago, they thirteen stood within the Blind Well, hands and minds interlocked. Now they cascaded through a river of possibility, will, and intention.\n\nIt was not long before the connection was made. Queen Mara Sov's voice filled their thoughts, and they drew to it like gravity. The Coven sisters skipped between Ley Lines, ricocheting from time to place until they found themselves swirling in the whirlpool accretion of a brilliant celestine goddess. Their queen.\n\nNot far beyond it, Austyn again saw the noise.\n\nShe kept her eye upon it while each of her sisters reached out, until the image of Mara Sov manifested and her words found footing in understanding. They focused their will upon her words, and before them, a pale screen of fog and glass gave way into a distant Ley Line beyond Sol.\n\n\"You have done well, my Techeuns,\" said Mara, stepping from the nothing and into their presence. She placed her hand on the Wayfinder's Compass. \"Take me home.\"\n\nThe Coven turned their minds back to the Dreaming City, to safety, to Petra. But as they began their return journey through the Ascendant Plane and across the Ley Lines, they felt the presence of another watching. At the edges of the accretion, a din of distorted noise pursued them.\n\nMara glowered at Austyn before turning and raising her palms. With a single word, the Ley Line shattered behind them, sending a lance of energy through the heart of the noise as they sped away toward the Dreaming City. \"I will not suffer a bloodied mongrel at my heels,\" whispered Mara. \"Keep your focus. She will be back.\"\n\nAustyn could feel the noise encircling them again, as it had done to her that night in her bed. It would suffocate them in this dream.\n\nEach time the Coven shifted Ley Lines, so too did the noise. She knew they could not escape it, and through her, so did her sisters. It descended upon them, and as it grew closer, the noise manifested into whispers. Austyn's mind could think of nothing but one name: Xivu Arath.\n\nShe could see the Dreaming City, but the image wasn't clear. The sharpness of the connection was darkening. Her sisters felt her worry. They did not have the strength to escape. Their minds aligned on an action. Austyn grabbed the compass and placed it in Mara Sov's hands. \"We will ensure your arrival.\"\n\nEach sister shifted her thoughts from the Dreaming City to her own corner of the Ascendant Plane, and with a burst of will, they scattered themselves across the Ley Lines. The noise halted momentarily and split in every direction to follow them.\n\nQueen Mara Sov crashed to her feet as she connected with the floor of the Blind Well.\n\n\"My queen!\" Petra looked to the quickly sealing rift from which she fell. \"Where are the others?\"",
-                "itemHash": "616346210",
+                "lore": "New things are only strange until you behold them. Then they are even stranger.",
+                "ExtLore": "The bar's still missing its roof, and the air smells like rain. \n\nCayde-6 sits in the bar with his chair tipped, holding a shot of something acid green. He looks at you, counts the beads of sweat on Zavala's mug, and sighs. \"Are we doing this, or what? C'mon, I'm rusting.\" \n\nZavala straightens and clears his throat. \"The Vanguard will continue until we are no longer needed, but I can foresee the day when you will\u2026\" He pauses, searching your face. \n\nThe moment drags. Cayde juts his chin forward. Ikora hides a smile, then lifts her glass to you. \"When you will surpass us.\" \n\n\"Wait, what?\" Cayde's chair drops heavily. He leans forward. \"'Surpass' us? I didn't agree to that! This is a 'great job being a hero' party, not a 'Cayde is second-best' party.\" \n\nIkora winks at you. \"It's always been a 'Cayde is second-best' party.\"",
+                "itemHash": "1805830669",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/b6d202977d6970e2fa83305f4431620d.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/eef8a820320ae86b57565f6e078d346d.jpg",
                 "rarity": "Legendary",
                 "class": 2,
                 "statRolls": [
@@ -943,24 +943,24 @@
         },
         "Hunter": {
             "Helmet": {
-                "name": "Pathfinder's Helmet",
+                "name": "The Took Offense",
                 "type": "Legendary Helmet",
                 "description": "",
-                "lore": "Eyes open and keep to the horizon.",
-                "ExtLore": "NEW COVEN - I\n\nPetra stood at the bordering cliff's edge of the Divalian Mists, wrapped in a concealing vapor. Beside her, Illyn, Techeun Coven Mother. A deluge of water spewed from deep within the stone below; gentle tremors rippled through their bodies without notice. The pure sky above them tore like well-worn fabric as fronds of malignant Taken growth crept into the Dreaming City.\n\n\"They will be upon us soon. It was not enough to simply halt Oryx's  advance,\" Petra said.\n\nShe had spent months of conversation building the kindling to an idea in Illyn's thoughts prior to the Battle of Saturn: a new Coven, a new class of sister recruits. Now, with the queen's flagship in ruins and the Coven missing several of its most skilled Techeuns, there was no longer the luxury of refusal.\n\n\"I can't hold the Reef with Corsairs alone. I can't search for the queen with looking glasses and a depleted armada. We need more Techeuns, Illyn. You know I'm right.\"\n\nIllyn shook her head. \"We are not weapons for the Queen's Wrath to command\u2026\"\n\nThe Coven's reluctance to forge the next link in the chain of their lineage was a strong one. Since the formation of Eleusinia and the exploitation of Riven, the Elder Techeuns had grown protective of their arts. Techniques and texts were kept close. Despite all that, Petra knew Illyn had always been listening to her words. She too had dreamt of the Harbinger's failure. Of Oryx Taking her sisters.\n\n\"\u2026We will snap shut the Ley Lines and seal the city,\" Illyn concluded.\n\n\"No!\" Petra  retorted. \"The queen is lost and might still return.\" She turned to the Coven Mother. \"Of your seven, how many are still alive?\"\n\nPetra felt a mournful flame stoking beneath Illyn's visor. \"Precisely,\" Illyn said. \"We haven't the strength.\"\n\n\"Then heed my requests.\" Petra waved away the mist between them. \"Train more sisters.\"\n\nIllyn finally broke her gaze with the sky and scowled at Petra. \"We haven't the time. Training spans decades.\"\n\n\"Make. It. Work,\" Petra demanded before taking a breath and continuing. \"Illyn, I will do whatever you need. Please, can we work through this together?\"\n\nIllyn's head sunk. She leaned over the cliffside\u2014over the stream of plummeting mist\u2014and watched the flow of water drop into endlessness. \"Send me your candidates. I hope they are stronger than you were.\"",
-                "itemHash": "2957532337",
+                "lore": "Hunters are big on the \"outrageous fortune.\" Emphasis on outrage. And fortune.",
+                "ExtLore": null,
+                "itemHash": "1953621386",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/188ed4951b8428f0dfb950b6a06908be.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/3d88ad4b0ff87ea7c686b188f1e53ca2.jpg",
                 "rarity": "Legendary",
                 "class": 1,
                 "statRolls": [
-                    52,
-                    19,
-                    2,
-                    6,
-                    11,
-                    12,
-                    2
+                    62,
+                    7,
+                    10,
+                    14,
+                    14,
+                    7,
+                    10
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -970,24 +970,24 @@
                 "masterworkData": null
             },
             "Arms": {
-                "name": "Pathfinder's Grips",
+                "name": "The Took Offense",
                 "type": "Legendary Gauntlets",
                 "description": "",
-                "lore": "Place your fingers on the pulse of this place. Find rhythm, and synchronize.",
-                "ExtLore": "WAYFINDING - II\n\nYlaia placed her hands on the focusing crystal once more. It had been months since she had seen the stars. Her view every day was instead of the same stone chamber she shared with twelve others; it doubled as both training ground and lodging for a new crop of Techeuns. The mustiness made Ylaia crave the open air of the Dreaming City's skyward turrets.\n\nShe imagined them piercing the sky like masts and drawing the clouds into sails. In her mind, the whole city sailed through the Ascendant Ocean, navigating the Ley Lines like currents. Ylaia placed herself there: a voyage, a turret crow's nest in search of distant land, ascendant anchors restraining cloud-sail billows against the wind of her will.\n\nShe tried to introduce that place to this one, to let them meet and exchange atmosphere.\n\n\"Make this real,\" she thought\u2026 but it was nothing more than thought. The concepts were familiar, but the execution was still foreign. Ylaia adjusted the crystal in her hands, as if the orientation mattered. Of all her sisters, only she still couldn't shape the Ley Lines.\n\n\"They're going to shift soon, you know,\" Austyn chided.\n\n\"I know,\" Ylaia spat back without looking. An explosion shook the room, raining plumes of dust over them and breaking her concentration.\n\n\"Damn it!\" Ylaia slammed a fist into the smooth stone and cast the crystal orb across the floor. \"Why are we training in a war zone?\"\n\nAustyn watched the crystal skip to the edge of the chamber. \"This place is built upon a crossroads of Ley Lines. If you can't align with them here\u2026\"\n\n\"Don't say it,\" Ylaia hissed as she stood to retrieve the crystal. \"I need to try again.\"\n\nAs she walked, the wall before her illuminated and split into a doorway. Petra Venj entered the chamber, haggard, soot dulling the sheen of her armor. Ylaia stopped in her tracks. She hid away her embarrassment despite knowing that Petra hadn't seen her cast away the focusing crystal.\n\nPetra's foot tapped the crystal. She bent and scooped it from the ground and looked to Ylaia's empty hands. \"Do not lose this. There aren't many left.\"\n\n\"My apologies. I\u2026 I need to try again.\"\n\nPetra scanned the faces of each of the thirteen would-be Techeuns before her. The creases beneath their eyes drew deeper from stress and lack of sleep. \"I had trouble just the same. Let me show you.\"",
-                "itemHash": "1574187016",
+                "lore": "The best defense is offense, because then your enemy's dead. The second-best defense is good armor.",
+                "ExtLore": null,
+                "itemHash": "1959285715",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/d5be0cfbac425eb6715b7bbbf3ad02e1.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/2b1d71a9fbb1e8143d116b70bd314441.jpg",
                 "rarity": "Legendary",
                 "class": 1,
                 "statRolls": [
-                    54,
-                    14,
-                    2,
-                    10,
-                    20,
+                    62,
+                    16,
+                    8,
                     6,
-                    2
+                    12,
+                    14,
+                    6
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -997,24 +997,24 @@
                 "masterworkData": null
             },
             "Chest": {
-                "name": "Pathfinder's Tunic",
+                "name": "The Took Offense",
                 "type": "Legendary Chest Armor",
                 "description": "",
-                "lore": "Forged from the reinforced armor of fallen Corsairs to shepherd the lost as they no longer can.",
-                "ExtLore": "DURESS - III\n\nSjari shifted on the wooden operating table. Why must she be the first?\n\nShe probed the jelly-like substance smeared across her forehead as Elder Kalli entered the room.\n\n\"Don't touch that. It's an antiseptic\u2026 and a binding agent,\" Kalli said, placing a sizeable blue-crystal-adorned mask next to an assortment of scalpels, hooks, and erosion stencils on her back table. Each tool was etched with ceremonial iconography, and freshly sharpened.\n\n\"Normally, it takes years to become an Adept among our ranks\u2026 but the Queen's Wrath believes time is short. If you survive, these augments will expedite your training and enhance your abilities.\"\n\nKalli turned away to work a mortar and pestle. \"You will need to learn to focus under duress. Remove your mind from this place. Sink into the cosmic, project out from yourself. There is no pain, no flesh, no nerves.\"\n\nSjari gripped the sides of the operating table and pressed her back flat, until no air existed between her and the surface beneath\u2014until she felt herself a part of it. She told herself to ignore the grinding of the pestle and thought about how Petra had taught her to use the physical as a transitionary conduit to the Ascendant.\n\n\"Drink this,\" Kalli ordered, handing Sjari a small cup of queensfoil tea.\n\nSjari opened her eyes and released her grip as her meditation broke. \"Yes, Elder sister. Give me a moment to focus, please,\" she pleaded, hastily gulping down the tea.\n\n\"You think my voice is sharper than this knife?\" Kalli asked, lifting the scalpel from her back table. \"Duress. You must push through it if you are to survive. Be strong, or you will die. This is your final test.\"\n\nSjari drank quickly and pressed herself to the table once more. She focused on her fingertips and the feel of the hand-worked wood. The grain formed diminutive pathways for her nails to trace; tiny patterns hidden away within the enormity that surrounded them, only revealed by shrinking one's perspective. She let herself drift.\n\nKalli threaded the thin metal edge directly through to the bone of Sjari's skull. A line of incision opened a wave of red. Searing penetration through the layers. Overwhelming electrified senses. They gave way to a calming sting in the discordant firing of nerves. A pattern. The texture. The split between what was and what could be.\n\nIn her mind's eye, Sjari saw the Ley Lines unfurl like budding petals of a living blossom. Nebula-like plumes of pollen. She let herself slip away until the pain of her flesh was only one of many choices before her.",
-                "itemHash": "1049436160",
+                "lore": "It's all good fun\u2026 until it's not.",
+                "ExtLore": null,
+                "itemHash": "946526461",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/360ac13c3e83d2ab013e08ef9373e1e5.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/ed5ff280e9b77e5210cdeb6b0008eebb.jpg",
                 "rarity": "Legendary",
                 "class": 1,
                 "statRolls": [
-                    54,
-                    9,
+                    57,
+                    2,
+                    2,
+                    25,
                     12,
-                    6,
-                    13,
                     7,
-                    7
+                    9
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -1024,24 +1024,24 @@
                 "masterworkData": null
             },
             "Legs": {
-                "name": "Pathfinder's Legguards",
+                "name": "The Took Offense",
                 "type": "Legendary Leg Armor",
                 "description": "",
-                "lore": "Keep moving. Find the others. Stay alive.",
-                "ExtLore": "JOURNEY - IV\n\nAustyn sat in silence with eyes shut. Ley Lines swept over her in waves\u2014in pulses, which she slowly brought into alignment with her own. Entanglement. It was not the first time she had pressed herself into symbiosis with the Ascendant Plane. She'd been through the thoughts of all the sisters in her Coven. She had dreamt with Petra and harvested secrets from her, with the Queen's Wrath being none the wiser. Austyn knew they were meant to save Queen Mara Sov. They were meant to find her and restore the throne. She had been searching the Ley Lines for a path to the queen each night after her training.\n\nHer Coven sisters lay sleeping all around her body, but her mind flew through countless panes of prismatic glass. As they shattered, she flittered from one plane to the next, catching momentary glimpses of incommunicable wonder.\n\nIn the distant cosmos far ahead, Austyn saw a darkened haze of indecipherable noise. Somewhere nestled in the Ley Lines, this shadowed spot was growing. Austyn knew Mara Sov was distant. She knew the queen had obscured herself from her enemies. Austyn had felt a presence reach from the noise toward the Dreaming City more than once. Tonight, she would reach back.\n\nAustyn focused her will on a path to the distant noise and, as she did so, it was. The way was open, but still so far. She reached out with her physical body, placing a hand in the air before her and splitting the oxygen with her touch. She carved a slit in reality, through the molecules of the air, and the path anchored to it at her command.\n\nThe noise descended upon her, and instantly, she was at the precipice.\n\nHand pressed, frozen, paralyzed, and awash in insidious whispers that shredded the doorway into open nothing.\n\nIt tore her consciousness across the cosmos to a grand terrace of onyx swords and emerald flame reigning over a red harbor. Fingers reached like blades from distant hollows. Screaming noise upon noise. A lone figure stood on the terrace aside two empty thrones. Testing. Prodding. Tasting. Breeding war.\n\n\"Austyn!\" A familiar voice pried her back into the waking world. \"Austyn, are you all right?\"\n\nShe woke, soaked in sweat and heat. Petra Venj stood over her, gripping her shoulders.\n\nAustyn struggled to breathe. Her eyes met Petra's.\n\n\"Austyn?\"\n\nThey'd leave you behind if they knew what you just saw, she thought.\n\n\"Just a nightmare,\" Austyn reassured the Queen's Wrath. \"Thank you for waking me.\"",
-                "itemHash": "2675526370",
+                "lore": "\"Ten paces, sidearms or Hand Cannons only. Usually to the third rez. Do NOT target Ghosts.\" \u2014\"Duels for the Road\" by Cayde-6",
+                "ExtLore": null,
+                "itemHash": "1269679141",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/6cb0b491fbd586d8855d325a7c694bc4.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/87b33dad4a824ef15cfd280e15af0a6d.jpg",
                 "rarity": "Legendary",
                 "class": 1,
                 "statRolls": [
-                    53,
-                    8,
-                    6,
-                    12,
-                    11,
+                    62,
                     14,
-                    2
+                    9,
+                    8,
+                    9,
+                    8,
+                    14
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -1051,14 +1051,14 @@
                 "masterworkData": null
             },
             "Class Item": {
-                "name": "Pathfinder's Hood",
+                "name": "The Took Offense",
                 "type": "Legendary Hunter Cloak",
                 "description": "",
-                "lore": "A faithful companion to cover your flank.",
-                "ExtLore": "THIRD-STRING WITCHES - V\n\nPetra watched Sedia preside over the thirteen of the new Coven. A mixture of pride and fearful anxiety knotted her stomach, as if the interior of her skin was being tugged into her gut by warm sinew strings. She held the shape of her smile until they had taken their positions within the Blind Well. Austyn, Ylaia, and Sjari formed the core of the party, with the others interlinking in an exterior circle. They situated themselves at key points around a thrumming Wayfinder's Compass that bent the air into wild chromatic slurries. The Well awakened.\n\nThey prepared their minds. Slipped into meditation. Communion in searching. Thirteen voices spoke as one, and then silence as the Well dropped into prisms of glass beneath the novice Coven's feet. Not but a moment ago, they thirteen stood within the Blind Well, hands and minds interlocked. Now they cascaded through a river of possibility, will, and intention.\n\nIt was not long before the connection was made. Queen Mara Sov's voice filled their thoughts, and they drew to it like gravity. The Coven sisters skipped between Ley Lines, ricocheting from time to place until they found themselves swirling in the whirlpool accretion of a brilliant celestine goddess. Their queen.\n\nNot far beyond it, Austyn again saw the noise.\n\nShe kept her eye upon it while each of her sisters reached out, until the image of Mara Sov manifested and her words found footing in understanding. They focused their will upon her words, and before them, a pale screen of fog and glass gave way into a distant Ley Line beyond Sol.\n\n\"You have done well, my Techeuns,\" said Mara, stepping from the nothing and into their presence. She placed her hand on the Wayfinder's Compass. \"Take me home.\"\n\nThe Coven turned their minds back to the Dreaming City, to safety, to Petra. But as they began their return journey through the Ascendant Plane and across the Ley Lines, they felt the presence of another watching. At the edges of the accretion, a din of distorted noise pursued them.\n\nMara glowered at Austyn before turning and raising her palms. With a single word, the Ley Line shattered behind them, sending a lance of energy through the heart of the noise as they sped away toward the Dreaming City. \"I will not suffer a bloodied mongrel at my heels,\" whispered Mara. \"Keep your focus. She will be back.\"\n\nAustyn could feel the noise encircling them again, as it had done to her that night in her bed. It would suffocate them in this dream.\n\nEach time the Coven shifted Ley Lines, so too did the noise. She knew they could not escape it, and through her, so did her sisters. It descended upon them, and as it grew closer, the noise manifested into whispers. Austyn's mind could think of nothing but one name: Xivu Arath.\n\nShe could see the Dreaming City, but the image wasn't clear. The sharpness of the connection was darkening. Her sisters felt her worry. They did not have the strength to escape. Their minds aligned on an action. Austyn grabbed the compass and placed it in Mara Sov's hands. \"We will ensure your arrival.\"\n\nEach sister shifted her thoughts from the Dreaming City to her own corner of the Ascendant Plane, and with a burst of will, they scattered themselves across the Ley Lines. The noise halted momentarily and split in every direction to follow them.\n\nQueen Mara Sov crashed to her feet as she connected with the floor of the Blind Well.\n\n\"My queen!\" Petra looked to the quickly sealing rift from which she fell. \"Where are the others?\"",
-                "itemHash": "401152189",
+                "lore": "This armor may not be as thick as rhino hide, but it does smell better. That's something.",
+                "ExtLore": "The bar's still missing its roof, and the air smells like rain. \n\nCayde-6 sits in the bar with his chair tipped, holding a shot of something acid green. He looks at you, counts the beads of sweat on Zavala's mug, and sighs. \"Are we doing this, or what? C'mon, I'm rusting.\" \n\nZavala straightens and clears his throat. \"The Vanguard will continue until we are no longer needed, but I can foresee the day when you will\u2026\" He pauses, searching your face. \n\nThe moment drags. Cayde juts his chin forward. Ikora hides a smile, then lifts her glass to you. \"When you will surpass us.\" \n\n\"Wait, what?\" Cayde's chair drops heavily. He leans forward. \"'Surpass' us? I didn't agree to that! This is a 'great job being a hero' party, not a 'Cayde is second-best' party.\" \n\nIkora winks at you. \"It's always been a 'Cayde is second-best' party.\"",
+                "itemHash": "2408514352",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/0a0e36b83c748466152deafab0aa772c.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/9f617082c760d1e8abc2fbee9c50cc44.jpg",
                 "rarity": "Legendary",
                 "class": 1,
                 "statRolls": [
@@ -1080,50 +1080,23 @@
         },
         "Titan": {
             "Helmet": {
-                "name": "Pathfinder's Helm",
+                "name": "The Shelter in Place",
                 "type": "Legendary Helmet",
                 "description": "",
-                "lore": "If the sky is falling, shelter those beneath you.",
-                "ExtLore": "NEW COVEN - I\n\nPetra stood at the bordering cliff's edge of the Divalian Mists, wrapped in a concealing vapor. Beside her, Illyn, Techeun Coven Mother. A deluge of water spewed from deep within the stone below; gentle tremors rippled through their bodies without notice. The pure sky above them tore like well-worn fabric as fronds of malignant Taken growth crept into the Dreaming City.\n\n\"They will be upon us soon. It was not enough to simply halt Oryx's  advance,\" Petra said.\n\nShe had spent months of conversation building the kindling to an idea in Illyn's thoughts prior to the Battle of Saturn: a new Coven, a new class of sister recruits. Now, with the queen's flagship in ruins and the Coven missing several of its most skilled Techeuns, there was no longer the luxury of refusal.\n\n\"I can't hold the Reef with Corsairs alone. I can't search for the queen with looking glasses and a depleted armada. We need more Techeuns, Illyn. You know I'm right.\"\n\nIllyn shook her head. \"We are not weapons for the Queen's Wrath to command\u2026\"\n\nThe Coven's reluctance to forge the next link in the chain of their lineage was a strong one. Since the formation of Eleusinia and the exploitation of Riven, the Elder Techeuns had grown protective of their arts. Techniques and texts were kept close. Despite all that, Petra knew Illyn had always been listening to her words. She too had dreamt of the Harbinger's failure. Of Oryx Taking her sisters.\n\n\"\u2026We will snap shut the Ley Lines and seal the city,\" Illyn concluded.\n\n\"No!\" Petra retorted. \"The queen is lost and might still return.\" She turned to the Coven Mother. \"Of your seven, how many are still alive?\"\n\nPetra felt a mournful flame stoking beneath Illyn's visor. \"Precisely,\" Illyn said. \"We haven't the strength.\"\n\n\"Then heed my requests.\" Petra waved away the mist between them. \"Train more sisters.\"\n\nIllyn finally broke her gaze with the sky and scowled at Petra. \"We haven't the time. Training spans decades.\"\n\n\"Make. It. Work,\" Petra demanded before taking a breath and continuing. \"Illyn, I will do whatever you need. Please, can we work through this together?\"\n\nIllyn's head sunk. She leaned over the cliffside\u2014over the stream of plummeting mist\u2014and watched the flow of water drop into endlessness. \"Send me your candidates. I hope they are stronger than you were.\"",
-                "itemHash": "430504837",
+                "lore": "\"Where is your home? That is where you will fight the hardest.\" \u2014Zavala",
+                "ExtLore": null,
+                "itemHash": "4038429998",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/c8957feda7eef6e90385dd6b663c5e66.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/30f9c387a481d015176083a46e7d1275.jpg",
                 "rarity": "Legendary",
                 "class": 0,
                 "statRolls": [
-                    55,
+                    60,
                     12,
-                    2,
-                    13,
                     9,
-                    13,
-                    6
-                ],
-                "weaponPerks": [],
-                "exoticArmorPerk": null,
-                "legendWeaponFrame": null,
-                "legendWeaponDamageType": null,
-                "legendWeaponDamageElement": null,
-                "masterworkData": null
-            },
-            "Arms": {
-                "name": "Pathfinder's Gauntlets",
-                "type": "Legendary Gauntlets",
-                "description": "",
-                "lore": "Place yourself at the gate. Pry it open, and hold it for those who follow.",
-                "ExtLore": "WAYFINDING - II\n\nYlaia placed her hands on the focusing crystal once more. It had been months since she had seen the stars. Her view every day was instead of the same stone chamber she shared with twelve others; it doubled as both training ground and lodging for a new crop of Techeuns. The mustiness made Ylaia crave the open air of the Dreaming City's skyward turrets.\n\nShe imagined them piercing the sky like masts and drawing the clouds into sails. In her mind, the whole city sailed through the Ascendant Ocean, navigating the Ley Lines like currents. Ylaia placed herself there: a voyage, a turret crow's nest in search of distant land, ascendant anchors restraining cloud-sail billows against the wind of her will.\n\nShe tried to introduce that place to this one, to let them meet and exchange atmosphere.\n\n\"Make this real,\" she thought\u2026 but it was nothing more than thought. The concepts were familiar, but the execution was still foreign. Ylaia adjusted the crystal in her hands, as if the orientation mattered. Of all her sisters, only she still couldn't shape the Ley Lines.\n\n\"They're going to shift soon, you know,\" Austyn chided.\n\n\"I know,\" Ylaia spat back without looking. An explosion shook the room, raining plumes of dust over them and breaking her concentration.\n\n\"Damn it!\" Ylaia slammed a fist into the smooth stone and cast the crystal orb across the floor. \"Why are we training in a war zone?\"\n\nAustyn watched the crystal skip to the edge of the chamber. \"This place is built upon a crossroads of Ley Lines. If you can't align with them here\u2026\"\n\n\"Don't say it,\" Ylaia hissed as she stood to retrieve the crystal. \"I need to try again.\"\n\nAs she walked, the wall before her illuminated and split into a doorway. Petra Venj entered the chamber, haggard, soot dulling the sheen of her armor. Ylaia stopped in her tracks. She hid away her embarrassment despite knowing that Petra hadn't seen her cast away the focusing crystal.\n\nPetra's foot tapped the crystal. She bent and scooped it from the ground and looked to Ylaia's empty hands. \"Do not lose this. There aren't many left.\"\n\n\"My apologies. I\u2026 I need to try again.\"\n\nPetra scanned the faces of each of the thirteen would-be Techeuns before her. The creases beneath their eyes drew deeper from stress and lack of sleep. \"I had trouble just the same. Let me show you.\"",
-                "itemHash": "1211181652",
-                "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/eba35e6067cc18461db1ead9a183f798.jpg",
-                "rarity": "Legendary",
-                "class": 0,
-                "statRolls": [
-                    52,
-                    7,
-                    12,
-                    6,
-                    18,
-                    7,
+                    11,
+                    24,
+                    2,
                     2
                 ],
                 "weaponPerks": [],
@@ -1133,25 +1106,52 @@
                 "legendWeaponDamageElement": null,
                 "masterworkData": null
             },
-            "Chest": {
-                "name": "Pathfinder's Chestplate",
-                "type": "Legendary Chest Armor",
+            "Arms": {
+                "name": "The Shelter in Place",
+                "type": "Legendary Gauntlets",
                 "description": "",
-                "lore": "Forged from the reinforced armor of fallen Corsairs to carry the burden that they no longer can.",
-                "ExtLore": "DURESS - III\n\nSjari shifted on the wooden operating table. Why must she be the first?\n\nShe probed the jelly-like substance smeared across her forehead as Elder Kalli entered the room.\n\n\"Don't touch that. It's an antiseptic\u2026 and a binding agent,\" Kalli said, placing a sizeable blue-crystal-adorned mask next to an assortment of scalpels, hooks, and erosion stencils on her back table. Each tool was etched with ceremonial iconography, and freshly sharpened.\n\n\"Normally, it takes years to become an Adept among our ranks\u2026 but the Queen's Wrath believes time is short. If you survive, these augments will expedite your training and enhance your abilities.\"\n\nKalli turned away to work a mortar and pestle. \"You will need to learn to focus under duress. Remove your mind from this place. Sink into the cosmic, project out from yourself. There is no pain, no flesh, no nerves.\"\n\nSjari gripped the sides of the operating table and pressed her back flat, until no air existed between her and the surface beneath\u2014until she felt herself a part of it. She told herself to ignore the grinding of the pestle and thought about how Petra had taught her to use the physical as a transitionary conduit to the Ascendant.\n\n\"Drink this,\" Kalli ordered, handing Sjari a small cup of queensfoil tea.\n\nSjari opened her eyes and released her grip as her meditation broke. \"Yes, Elder sister. Give me a moment to focus, please,\" she pleaded, hastily gulping down the tea.\n\n\"You think my voice is sharper than this knife?\" Kalli asked, lifting the scalpel from her back table. \"Duress. You must push through it if you are to survive. Be strong, or you will die. This is your final test.\"\n\nSjari drank quickly and pressed herself to the table once more. She focused on her fingertips and the feel of the hand-worked wood. The grain formed diminutive pathways for her nails to trace; tiny patterns hidden away within the enormity that surrounded them, only revealed by shrinking one's perspective. She let herself drift.\n\nKalli threaded the thin metal edge directly through to the bone of Sjari's skull. A line of incision opened a wave of red. Searing penetration through the layers. Overwhelming electrified senses. They gave way to a calming sting in the discordant firing of nerves. A pattern. The texture. The split between what was and what could be.\n\nIn her mind's eye, Sjari saw the Ley Lines unfurl like budding petals of a living blossom. Nebula-like plumes of pollen. She let herself slip away until the pain of her flesh was only one of many choices before her.",
-                "itemHash": "2606405484",
+                "lore": "Some armor doesn't protect you so much as it just makes the dying slower.",
+                "ExtLore": null,
+                "itemHash": "768769183",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/71a63227bc00179a593c5855bfdaef7a.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/201720bfdb0712c00740c197ee1e953b.jpg",
                 "rarity": "Legendary",
                 "class": 0,
                 "statRolls": [
-                    56,
-                    7,
-                    16,
+                    63,
+                    14,
                     6,
-                    6,
-                    6,
-                    15
+                    12,
+                    2,
+                    12,
+                    17
+                ],
+                "weaponPerks": [],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": null,
+                "legendWeaponDamageType": null,
+                "legendWeaponDamageElement": null,
+                "masterworkData": null
+            },
+            "Chest": {
+                "name": "The Shelter in Place",
+                "type": "Legendary Chest Armor",
+                "description": "",
+                "lore": "This armor won't stop a Cabal round, but it'll buy you some time before you die.",
+                "ExtLore": null,
+                "itemHash": "1276048857",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/d83c1fce67417b4236040c173336d79e.jpg",
+                "rarity": "Legendary",
+                "class": 0,
+                "statRolls": [
+                    64,
+                    19,
+                    2,
+                    11,
+                    12,
+                    14,
+                    6
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -1161,24 +1161,24 @@
                 "masterworkData": null
             },
             "Legs": {
-                "name": "Pathfinder's Greaves",
+                "name": "The Shelter in Place",
                 "type": "Legendary Leg Armor",
                 "description": "",
-                "lore": "When your muscles burn and the path stretches on, turn your thoughts to how far you've come.",
-                "ExtLore": "JOURNEY - IV\n\nAustyn sat in silence with eyes shut. Ley Lines swept over her in waves\u2014in pulses, which she slowly brought into alignment with her own. Entanglement. It was not the first time she had pressed herself into symbiosis with the Ascendant Plane. She'd been through the thoughts of all the sisters in her Coven. She had dreamt with Petra and harvested secrets from her, with the Queen's Wrath being none the wiser. Austyn knew they were meant to save Queen Mara Sov. They were meant to find her and restore the throne. She had been searching the Ley Lines for a path to the queen each night after her training.\n\nHer Coven sisters lay sleeping all around her body, but her mind flew through countless panes of prismatic glass. As they shattered, she flittered from one plane to the next, catching momentary glimpses of incommunicable wonder.\n\nIn the distant cosmos far ahead, Austyn saw a darkened haze of indecipherable noise. Somewhere nestled in the Ley Lines, this shadowed spot was growing. Austyn knew Mara Sov was distant. She knew the queen had obscured herself from her enemies. Austyn had felt a presence reach from the noise toward the Dreaming City more than once. Tonight, she would reach back.\n\nAustyn focused her will on a path to the distant noise and, as she did so, it was. The way was open, but still so far. She reached out with her physical body, placing a hand in the air before her and splitting the oxygen with her touch. She carved a slit in reality, through the molecules of the air, and the path anchored to it at her command.\n\nThe noise descended upon her, and instantly, she was at the precipice.\n\nHand pressed, frozen, paralyzed, and awash in insidious whispers that shredded the doorway into open nothing.\n\nIt tore her consciousness across the cosmos to a grand terrace of onyx swords and emerald flame reigning over a red harbor. Fingers reached like blades from distant hollows. Screaming noise upon noise. A lone figure stood on the terrace aside two empty thrones. Testing. Prodding. Tasting. Breeding war.\n\n\"Austyn!\" A familiar voice pried her back into the waking world. \"Austyn, are you all right?\"\n\nShe woke, soaked in sweat and heat. Petra Venj stood over her, gripping her shoulders.\n\nAustyn struggled to breathe. Her eyes met Petra's.\n\n\"Austyn?\"\n\nThey'd leave you behind if they knew what you just saw, she thought.\n\n\"Just a nightmare,\" Austyn reassured the Queen's Wrath. \"Thank you for waking me.\"",
-                "itemHash": "1457343582",
+                "lore": "\"That each of us have many lives to give for the City is the Traveler's greatest gift.\" \u2014Zavala",
+                "ExtLore": null,
+                "itemHash": "3984883553",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/63c48e5dce79a9ff79d01a1bee8ad774.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/f4909fa738e38fcc0bc2653573ae1f43.jpg",
                 "rarity": "Legendary",
                 "class": 0,
                 "statRolls": [
-                    58,
+                    61,
+                    15,
+                    12,
                     2,
-                    19,
-                    6,
-                    2,
-                    2,
-                    27
+                    15,
+                    9,
+                    8
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -1188,14 +1188,14 @@
                 "masterworkData": null
             },
             "Class Item": {
-                "name": "Pathfinder's Mark",
+                "name": "Mark of Shelter",
                 "type": "Legendary Titan Mark",
                 "description": "",
-                "lore": "A sigil of solidarity between two cities.",
-                "ExtLore": "THIRD-STRING WITCHES - V\n\nPetra watched Sedia preside over the thirteen of the new Coven. A mixture of pride and fearful anxiety knotted her stomach, as if the interior of her skin was being tugged into her gut by warm sinew strings. She held the shape of her smile until they had taken their positions within the Blind Well. Austyn, Ylaia, and Sjari formed the core of the party, with the others interlinking in an exterior circle. They situated themselves at key points around a thrumming Wayfinder's Compass that bent the air into wild chromatic slurries. The Well awakened.\n\nThey prepared their minds. Slipped into meditation. Communion in searching. Thirteen voices spoke as one, and then silence as the Well dropped into prisms of glass beneath the novice Coven's feet. Not but a moment ago, they thirteen stood within the Blind Well, hands and minds interlocked. Now they cascaded through a river of possibility, will, and intention.\n\nIt was not long before the connection was made. Queen Mara Sov's voice filled their thoughts, and they drew to it like gravity. The Coven sisters skipped between Ley Lines, ricocheting from time to place until they found themselves swirling in the whirlpool accretion of a brilliant celestine goddess. Their queen.\n\nNot far beyond it, Austyn again saw the noise.\n\nShe kept her eye upon it while each of her sisters reached out, until the image of Mara Sov manifested and her words found footing in understanding. They focused their will upon her words, and before them, a pale screen of fog and glass gave way into a distant Ley Line beyond Sol.\n\n\"You have done well, my Techeuns,\" said Mara, stepping from the nothing and into their presence. She placed her hand on the Wayfinder's Compass. \"Take me home.\"\n\nThe Coven turned their minds back to the Dreaming City, to safety, to Petra. But as they began their return journey through the Ascendant Plane and across the Ley Lines, they felt the presence of another watching. At the edges of the accretion, a din of distorted noise pursued them.\n\nMara glowered at Austyn before turning and raising her palms. With a single word, the Ley Line shattered behind them, sending a lance of energy through the heart of the noise as they sped away toward the Dreaming City. \"I will not suffer a bloodied mongrel at my heels,\" whispered Mara. \"Keep your focus. She will be back.\"\n\nAustyn could feel the noise encircling them again, as it had done to her that night in her bed. It would suffocate them in this dream.\n\nEach time the Coven shifted Ley Lines, so too did the noise. She knew they could not escape it, and through her, so did her sisters. It descended upon them, and as it grew closer, the noise manifested into whispers. Austyn's mind could think of nothing but one name: Xivu Arath.\n\nShe could see the Dreaming City, but the image wasn't clear. The sharpness of the connection was darkening. Her sisters felt her worry. They did not have the strength to escape. Their minds aligned on an action. Austyn grabbed the compass and placed it in Mara Sov's hands. \"We will ensure your arrival.\"\n\nEach sister shifted her thoughts from the Dreaming City to her own corner of the Ascendant Plane, and with a burst of will, they scattered themselves across the Ley Lines. The noise halted momentarily and split in every direction to follow them.\n\nQueen Mara Sov crashed to her feet as she connected with the floor of the Blind Well.\n\n\"My queen!\" Petra looked to the quickly sealing rift from which she fell. \"Where are the others?\"",
-                "itemHash": "1010196641",
+                "lore": "Titans are both the shelter and the storm.",
+                "ExtLore": "The bar's still missing its roof, and the air smells like rain. \n\nCayde-6 sits in the bar with his chair tipped, holding a shot of something acid green. He looks at you, counts the beads of sweat on Zavala's mug, and sighs. \"Are we doing this, or what? C'mon, I'm rusting.\" \n\nZavala straightens and clears his throat. \"The Vanguard will continue until we are no longer needed, but I can foresee the day when you will\u2026\" He pauses, searching your face. \n\nThe moment drags. Cayde juts his chin forward. Ikora hides a smile, then lifts her glass to you. \"When you will surpass us.\" \n\n\"Wait, what?\" Cayde's chair drops heavily. He leans forward. \"'Surpass' us? I didn't agree to that! This is a 'great job being a hero' party, not a 'Cayde is second-best' party.\" \n\nIkora winks at you. \"It's always been a 'Cayde is second-best' party.\"",
+                "itemHash": "3014775444",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/5b277822ac496676a07a9d172631f029.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/be885c0fa19e10de1edda735adc973b8.jpg",
                 "rarity": "Legendary",
                 "class": 0,
                 "statRolls": [
