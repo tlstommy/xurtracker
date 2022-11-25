@@ -173,7 +173,7 @@ class main:
         #format url data    
         apiUrl = self.DestinyURLBase + "/Destiny2/Vendors/?components=402"
         self.apiResponse = self.get_api_request(apiUrl)
-
+        #print(self.apiResponse)
         #store the inventory of for sale items to be parsed 
         self.apiResponseJson = json.loads(self.apiResponse)
         self.forSaleItems = self.apiResponseJson["Response"]["sales"]["data"][list(self.apiResponseJson["Response"]["sales"]["data"].keys())[0]]["saleItems"]
