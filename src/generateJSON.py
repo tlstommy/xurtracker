@@ -235,7 +235,7 @@ class main:
             if itemIDs402[i] in socketIDs305:
                 currentAvailableItems.append(itemIDs402[i])
         
-        #print(currentAvailableItems)
+        print(currentAvailableItems)
         
 
 
@@ -247,7 +247,7 @@ class main:
                 IDtoWeaponHashDict[key]=value.get("itemHash")
 
 
-        #print(IDtoWeaponHashDict)
+        print(IDtoWeaponHashDict)
         
 
         #now get each individual weapons perks
@@ -285,7 +285,7 @@ class main:
                             "isFavorablePerk":False,
                         }
 
-                        #print(weaponRollTemplate["weaponHash"])
+                        print(weaponRollTemplate["weaponHash"])
 
                         #filter out unwanted perks
                         if(weaponRollTemplate["name"] != 'Empty Mod Socket' and weaponRollTemplate["name"] != '' and weaponRollTemplate["name"] != 'Tracker Disabled' and weaponRollTemplate["name"] != 'Default Shader' and weaponRollTemplate["name"] != 'Default Ornament' and weaponRollTemplate["name"] != 'Change Energy Type' and weaponRollTemplate["name"] !='Empty Catalyst Socket' and "catalyst" not in weaponRollTemplate["name"] and "Catalyst" not in weaponRollTemplate["name"]):
@@ -397,7 +397,7 @@ class main:
     async def bindStatToWeapon(self):
         for item in self.weaponsTemplatesList:
             weaponHash = item.get("itemHash")
-            #print(item.get("name"))
+            print(item.get("name"))
             for perk in self.weaponPerksTemplateList:
                 perkWHash = perk.get("weaponHash")
                 if weaponHash == str(perkWHash):
@@ -416,8 +416,8 @@ class main:
                             "mwHash":perk.get("hashID"),
                         }
                         item["masterworkData"] = masterworkTemplate
-                        #print(item)
-                        #print(masterworkTemplate)
+                        print(item)
+                        print(masterworkTemplate)
                         continue
 
                     #decode perk to see if its a "frame-related" perk
@@ -428,7 +428,7 @@ class main:
                             "description":data["displayProperties"].get("description"),
                             "icon":"https://www.bungie.net"+str(data["displayProperties"].get("icon")),
                         }
-                        #print("MATCH")
+                        print("MATCH")
                         continue
 
 
@@ -443,7 +443,7 @@ class main:
                     item["weaponPerks"].append(perk)
                     
 
-            #print(item)
+            print(item)
             #input()
    
                         
@@ -544,8 +544,8 @@ class main:
             statTotal = 0
             isExoticBool = False
             statDict = socketStatDict[item]["stats"]
-            #print(socketStatDict[item]["stats"])
-            #print(item)
+            print(socketStatDict[item]["stats"])
+            print(item)
             for key, val in statDict.items():
                 statTotal += val.get("value")
                 statTypeStr = self.decodeStatHash(int(key))
@@ -563,7 +563,7 @@ class main:
                 if statTypeStr == "Strength":
                     statsList[6] = int(val.get("value"))
             statsList[0] = statTotal
-            #print(statsList)
+            print(statsList)
 
 
 
@@ -572,25 +572,25 @@ class main:
 
             exArmorPerk = None
 
-            #print("[ID]   ",item)
-            #print("[HASH] ",IDtoArmorHashDict[item])
+            print("[ID]   ",item)
+            print("[HASH] ",IDtoArmorHashDict[item])
             stats = apiResponse304Json["Response"]["itemComponents"]["stats"]["data"].get(item)
             armorData = await self.decodeHash(IDtoArmorHashDict[item],"DestinyInventoryItemDefinition")
-            #print(stats)
-            #print(armorData)
+            print(stats)
+            print(armorData)
             
 
             #check if its an exotic armorpeice
             if(armorData["inventory"].get("tierTypeName") == "Exotic"):
                 #socketTypeHash:965959289
                 for key in armorData["sockets"]["socketEntries"]:
-                    #print(key)
-                    #print(key.get("socketTypeHash"))
+                    print(key)
+                    print(key.get("socketTypeHash"))
                     try:
                         armorSocketHash = await self.decodeHash(key.get("singleInitialItemHash"),"DestinyInventoryItemDefinition")
-                        #print(armorSocketHash["displayProperties"].get("name")) 
+                        print(armorSocketHash["displayProperties"].get("name")) 
                     except Exception as e:
-                        #print(e)
+                        print(e)
                         continue
 
 
@@ -612,7 +612,7 @@ class main:
                 armorLore = armorLore["displayProperties"].get("description")
 
             try:
-                #print("[HASH] ",IDtoArmorHashDict[item])
+                print("[HASH] ",IDtoArmorHashDict[item])
                 
                 armorType = armorData["itemTypeDisplayName"]
                 
@@ -732,7 +732,7 @@ class main:
         self.apiResponseJson = json.loads(self.apiResponse)
         
         
-        #print(self.apiResponseJson)
+        print(self.apiResponseJson)
 
         #store the inventory of for sale items to be parsed 
         self.forSaleItems = self.apiResponseJson["Response"]["sales"]["data"]
@@ -742,9 +742,9 @@ class main:
         await self.getWeapons()
         await self.bindJsonData()
 
-        #print(self.weaponPerksTemplateList)
+        print(self.weaponPerksTemplateList)
 
-        #print(self.weaponsTemplatesList)
+        print(self.weaponsTemplatesList)
 
         self.buildJSON(True)
         #close loop
