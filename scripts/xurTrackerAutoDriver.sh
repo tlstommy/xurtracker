@@ -8,3 +8,5 @@ git add /home/ubuntu/XurTracker/
 git commit -m "weekly update"
 git push
 echo committed!
+echo fallback attempt...
+bash /home/ubuntu/XurTracker/scripts/autocommit.sh

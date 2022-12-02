@@ -1,0 +1,2 @@
+tmux new-session -s serverSession
+tmux kill-session -t serverSession
