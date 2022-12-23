@@ -10,3 +10,5 @@ git push
 echo committed!
 echo fallback attempt...
 bash /home/ubuntu/XurTracker/scripts/autocommit.sh
+sudo rm /home/ubuntu/*.content
+sudo rm /home/ubuntu/manifest_zip

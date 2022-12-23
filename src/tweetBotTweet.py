@@ -182,14 +182,46 @@ class main:
             self.hashList.append(self.apiResponseJson["Response"]["sales"]["data"][list(self.apiResponseJson["Response"]["sales"]["data"].keys())[0]]["saleItems"][list(self.forSaleItems)[i]]["itemHash"])
             self.hashIDList.append(self.apiResponseJson["Response"]["sales"]["data"][list(self.apiResponseJson["Response"]["sales"]["data"].keys())[0]]["saleItems"][list(self.forSaleItems)[i]].get('vendorItemIndex'))
         #remove unwanted items and their ids
-        self.hashList.remove(3875551374)
-        self.hashList.remove(2125848607)
-        self.hashList.remove(3856705927)
-        self.hashList.remove(3654674561)
-        self.hashIDList.remove(0)
-        self.hashIDList.remove(31)
-        self.hashIDList.remove(32)
-        self.hashIDList.remove(597)
+        try:
+            self.hashList.remove(3875551374)
+        except ValueError as e:
+            print(f"ValueError: {e}")
+            pass
+        try:
+            self.hashList.remove(2125848607)
+        except ValueError as e:
+            print(f"ValueError: {e}")
+            pass
+        try:
+            self.hashList.remove(3856705927)
+        except ValueError as e:
+            print(f"ValueError: {e}")
+            pass
+        try:
+            self.hashList.remove(3654674561)
+        except ValueError as e:
+            print(f"ValueError: {e}")
+            pass
+        try:
+            self.hashIDList.remove(0)
+        except ValueError as e:
+            print(f"ValueError: {e}")
+            pass
+        try:
+            self.hashIDList.remove(31)
+        except ValueError as e:
+            print(f"ValueError: {e}")
+            pass
+        try:
+            self.hashIDList.remove(32)
+        except ValueError as e:
+            print(f"ValueError: {e}")
+            pass
+        try:
+            self.hashIDList.remove(597)
+        except ValueError as e:
+            print(f"ValueError: {e}")
+            pass
         await self.parseHash()
         self.tweet(True,debugTweet=False)
 
