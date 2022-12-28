@@ -1,2 +1,3 @@
 tmux new-session -s serverSession
+run webserver bash scrip[t]
 tmux kill-session -t serverSession
