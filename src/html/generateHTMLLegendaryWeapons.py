@@ -250,6 +250,7 @@ def setHtmlVals():
     <title>X&#251r Tracker // Weapons</title>
     <link rel="shortcut icon" href="https://pbs.twimg.com/profile_images/1586064167131385857/1mQC0kgE_400x400.png">
     <link rel="apple-touch-icon" sizes="192x192" href="https://pbs.twimg.com/profile_images/1586064167131385857/1mQC0kgE_400x400.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <meta charset="utf-8" ;>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--Bootstrap CDN CSS-->
@@ -285,9 +286,18 @@ def setHtmlVals():
                     </li>
                 </div>
                 <nav class="navbar-nav ms-auto">
-                    <a class="navbar-brand mb-0" href="https://twitter.com/XurTrack">
-                        <i class="fab-solid fab fa-twitter-square fa-2xl"></i>
-                    </a>
+                    <div>
+                        <a class="navbar-brand mb-0" href="#" target="_blank" rel="noopener noreferrer" data-bs-toggle="modal" data-bs-target="#infoModal">
+                            <i class="bi bi-question-circle" style="font-size: 2rem;" data-bs-toggle="tooltip"
+                            data-bs-html="true" data-bs-placement="bottom" title="X&#251r Tracker Help"></i>
+                        </a>
+                        <a class="navbar-brand mb-0" href="https://github.com/lulamae12/xurtracker.com" target="_blank" rel="noopener noreferrer">
+                            <i class="bi bi-github" style="font-size: 2rem;"></i>
+                        </a>
+                        <a class="navbar-brand mb-0" href="https://twitter.com/XurTrack">
+                            <i class="bi bi-twitter" style="font-size: 2rem; color: #0e1010;"></i>
+                        </a>
+                    </div>
                 </nav>
             </div>
         </div>
@@ -1005,6 +1015,34 @@ def setHtmlVals():
         <a class="text-white" href="https://www.bungie.net/7/en/User/Profile/254/10061778?bgn=Lulamae1">Lulamae1#6072</a>
     </div>
 </footer>
+<!--Help Modal -->
+<div class="modal fade" id="infoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="color:#000000">
+    <div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">X&#251r Tracker - Help</h5>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+                <i class="bi bi-x-lg"></i>
+            </span>
+        </button>
+        </div>
+        <div class="modal-body">
+            <h4>Thanks for using X&#251r Tracker!</h4>
+            <hr>
+            <p>
+                <h6>
+                    &#8226;Hover over an item for more information. <br><br>
+                    &#8226;Yellow borders indicate a favorable perk.<br><br>
+                    &#8226;Pages for each type of item (i.e. Exoitc Items, Legendary Weapons), offer more detailed data.<br><br>
+                    <br> Have an issue or suggestion? Please submit a new issue <a href="https://github.com/lulamae12/xurtracker.com/issues">here!</a>
+                    
+                </h6>
+            </p>
+        </div>
+    </div>
+    </div>
+</div>
 <script>
     var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
     var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {{
