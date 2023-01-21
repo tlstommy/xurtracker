@@ -341,8 +341,7 @@ def setHtmlVals():
                 <nav class="navbar-nav ms-auto">
                     <div>
                         <a class="navbar-brand mb-0" href="#" target="_blank" rel="noopener noreferrer" data-bs-toggle="modal" data-bs-target="#infoModal">
-                            <i class="bi bi-question-circle" style="font-size: 2rem;" data-bs-toggle="tooltip"
-                            data-bs-html="true" data-bs-placement="bottom" title="X&#251r Tracker Help"></i>
+                            <i class="bi bi-question-circle" style="font-size: 2rem;"></i>
                         </a>
                         <a class="navbar-brand mb-0" href="https://github.com/lulamae12/xurtracker.com" target="_blank" rel="noopener noreferrer">
                             <i class="bi bi-github" style="font-size: 2rem;"></i>
@@ -374,7 +373,7 @@ def setHtmlVals():
         <div class="toast-container position-fixed top-2 end-0 p-3">        
             <div class="toast" id="myToast" data-bs-delay="10000">
                 <div class="toast-header text-black">
-                    <strong class="me-auto" style="color: #000000;"><i class="bi-gift-fill"></i> Thanks for using X&#251r Tracker!</strong>
+                    <strong class="me-auto" style="color: #000000;">Thanks for using X&#251r Tracker!</strong>
                     <small><b>Tips</b></small>
                     <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
                 </div>
@@ -897,7 +896,7 @@ def setHtmlVals():
                             &#8226;Hover over an item for more information. <br><br>
                             &#8226;Yellow borders indicate a favorable perk.<br><br>
                             &#8226;Pages for each type of item (i.e. Exoitc Items, Legendary Weapons), offer more detailed data.<br><br>
-                            <br> Have an issue or suggestion? Please submit a new issue <a href="https://github.com/lulamae12/xurtracker.com/issues">here!</a>
+                            <br> Have an issue or suggestion? Please submit it <a href="https://github.com/lulamae12/xurtracker.com/issues">here!</a>
                             
                         </h6>
                     </p>
