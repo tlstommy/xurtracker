@@ -1,6 +1,8 @@
 #! /bin/sh
 
-git add /home/ubuntu/XurTracker/
-git commit -m "weekly update"
-git push
+git pull
+git add --all
+now=$(date)
+git commit -m "Auto-Commit at : $now"
+git push -u origin main
 echo committed!
