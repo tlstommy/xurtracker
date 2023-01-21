@@ -62,6 +62,29 @@ def buildExArmorStatTable(perks):
 
     return htmlStr
 
+def updateEnergyIcon(archetype,elemental,num):
+    
+    iconUrl = ""
+    damageString = ""
+
+
+    if(elemental == "Kinetic"):
+        iconUrl = "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_3385a924fd3ccb92c343ade19f19a370.png"
+        damageString = elemental
+    if(elemental == "Void"):
+        iconUrl = "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_ceb2f6197dccf3958bb31cc783eb97a0.png"
+        damageString = elemental +" "+archetype
+    if(elemental == "Arc"):
+        iconUrl = "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_092d066688b879c807c3b460afdd61e6.png"
+        damageString = elemental +" "+archetype
+    if(elemental == "Solar"):
+        iconUrl = "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_2a1773e10968f2d088b97c22b22bba9e.png"
+        damageString = elemental +" "+archetype
+    if(elemental == "Stasis"):
+        iconUrl = "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_530c4c3e7981dc2aefd24fd3293482bf.png"
+        damageString = elemental +" "+archetype
+    return iconUrl,damageString
+
 def buildLegendArmorStatTable(perks):
     htmlStr = """
                     <td class="text-center">{mob}</td>
@@ -127,6 +150,8 @@ def setHtmlVals():
     legendaryWeapon1Icon = data["Legendaries"]["Legendary weapons"][0]["icon"]
     legendaryWeapon1Lore = data["Legendaries"]["Legendary weapons"][0]["lore"].replace('"','&quot').replace("\u2014","</em><br><br>&#8212&nbsp;")
     legendaryWeapon1PerkTable = buildWeaponPerkTable(data["Legendaries"]["Legendary weapons"][0]["weaponPerks"])
+    legendaryWeapon1DamageType = data["Legendaries"]["Legendary weapons"][0]["legendWeaponDamageType"]
+    legendaryWeapon1DamageElement = data["Legendaries"]["Legendary weapons"][0]["legendWeaponDamageElement"]
 
     legendaryWeapon2Name = data["Legendaries"]["Legendary weapons"][1]["name"]
     legendaryWeapon2Type = data["Legendaries"]["Legendary weapons"][1]["type"].replace("Legendary ","")
@@ -134,6 +159,8 @@ def setHtmlVals():
     legendaryWeapon2Icon = data["Legendaries"]["Legendary weapons"][1]["icon"]
     legendaryWeapon2Lore = data["Legendaries"]["Legendary weapons"][1]["lore"].replace('"','&quot').replace("\u2014","</em><br><br>&#8212&nbsp;")
     legendaryWeapon2PerkTable = buildWeaponPerkTable(data["Legendaries"]["Legendary weapons"][1]["weaponPerks"])
+    legendaryWeapon2DamageType = data["Legendaries"]["Legendary weapons"][1]["legendWeaponDamageType"]
+    legendaryWeapon2DamageElement = data["Legendaries"]["Legendary weapons"][1]["legendWeaponDamageElement"]
 
     legendaryWeapon3Name = data["Legendaries"]["Legendary weapons"][2]["name"]
     legendaryWeapon3Type = data["Legendaries"]["Legendary weapons"][2]["type"].replace("Legendary ","")
@@ -141,6 +168,8 @@ def setHtmlVals():
     legendaryWeapon3Icon = data["Legendaries"]["Legendary weapons"][2]["icon"]
     legendaryWeapon3Lore = data["Legendaries"]["Legendary weapons"][2]["lore"].replace('"','&quot').replace("\u2014","</em><br><br>&#8212&nbsp;")
     legendaryWeapon3PerkTable = buildWeaponPerkTable(data["Legendaries"]["Legendary weapons"][2]["weaponPerks"])
+    legendaryWeapon3DamageType = data["Legendaries"]["Legendary weapons"][2]["legendWeaponDamageType"]
+    legendaryWeapon3DamageElement = data["Legendaries"]["Legendary weapons"][2]["legendWeaponDamageElement"]
 
     legendaryWeapon4Name = data["Legendaries"]["Legendary weapons"][3]["name"]
     legendaryWeapon4Type = data["Legendaries"]["Legendary weapons"][3]["type"].replace("Legendary ","")
@@ -148,6 +177,8 @@ def setHtmlVals():
     legendaryWeapon4Icon = data["Legendaries"]["Legendary weapons"][3]["icon"]
     legendaryWeapon4Lore = data["Legendaries"]["Legendary weapons"][3]["lore"].replace('"','&quot').replace("\u2014","</em><br><br>&#8212&nbsp;")
     legendaryWeapon4PerkTable = buildWeaponPerkTable(data["Legendaries"]["Legendary weapons"][3]["weaponPerks"])
+    legendaryWeapon4DamageType = data["Legendaries"]["Legendary weapons"][3]["legendWeaponDamageType"]
+    legendaryWeapon4DamageElement = data["Legendaries"]["Legendary weapons"][3]["legendWeaponDamageElement"]
 
     legendaryWeapon5Name = data["Legendaries"]["Legendary weapons"][4]["name"]
     legendaryWeapon5Type = data["Legendaries"]["Legendary weapons"][4]["type"].replace("Legendary ","")
@@ -155,6 +186,8 @@ def setHtmlVals():
     legendaryWeapon5Icon = data["Legendaries"]["Legendary weapons"][4]["icon"]
     legendaryWeapon5Lore = data["Legendaries"]["Legendary weapons"][4]["lore"].replace('"','&quot').replace("\u2014","</em><br><br>&#8212&nbsp;")
     legendaryWeapon5PerkTable = buildWeaponPerkTable(data["Legendaries"]["Legendary weapons"][4]["weaponPerks"])
+    legendaryWeapon5DamageType = data["Legendaries"]["Legendary weapons"][4]["legendWeaponDamageType"]
+    legendaryWeapon5DamageElement = data["Legendaries"]["Legendary weapons"][4]["legendWeaponDamageElement"]
 
     legendaryWeapon6Name = data["Legendaries"]["Legendary weapons"][5]["name"]
     legendaryWeapon6Type = data["Legendaries"]["Legendary weapons"][5]["type"].replace("Legendary ","")
@@ -162,6 +195,8 @@ def setHtmlVals():
     legendaryWeapon6Icon = data["Legendaries"]["Legendary weapons"][5]["icon"]
     legendaryWeapon6Lore = data["Legendaries"]["Legendary weapons"][5]["lore"].replace('"','&quot').replace("\u2014","</em><br><br>&#8212&nbsp;")
     legendaryWeapon6PerkTable = buildWeaponPerkTable(data["Legendaries"]["Legendary weapons"][5]["weaponPerks"])
+    legendaryWeapon6DamageType = data["Legendaries"]["Legendary weapons"][5]["legendWeaponDamageType"]
+    legendaryWeapon6DamageElement = data["Legendaries"]["Legendary weapons"][5]["legendWeaponDamageElement"]
 
     legendaryWeapon7Name = data["Legendaries"]["Legendary weapons"][6]["name"]
     legendaryWeapon7Type = data["Legendaries"]["Legendary weapons"][6]["type"].replace("Legendary ","")
@@ -169,6 +204,8 @@ def setHtmlVals():
     legendaryWeapon7Icon = data["Legendaries"]["Legendary weapons"][6]["icon"]
     legendaryWeapon7Lore = data["Legendaries"]["Legendary weapons"][6]["lore"].replace('"','&quot').replace("\u2014","</em><br><br>&#8212&nbsp;")
     legendaryWeapon7PerkTable = buildWeaponPerkTable(data["Legendaries"]["Legendary weapons"][6]["weaponPerks"])
+    legendaryWeapon7DamageType = data["Legendaries"]["Legendary weapons"][6]["legendWeaponDamageType"]
+    legendaryWeapon7DamageElement = data["Legendaries"]["Legendary weapons"][6]["legendWeaponDamageElement"]
 
     #warlock
     WarlockHelmetName = data["Legendaries"]["Warlock"]["Helmet"]["name"]
@@ -235,7 +272,34 @@ def setHtmlVals():
     TitanClassItemIcon = data["Legendaries"]["Titan"]["Class Item"]["icon"]
     TitanClassItemStatTable = buildLegendArmorStatTable(data["Legendaries"]["Titan"]["Class Item"])
 
-    
+    damageElementList = [legendaryWeapon1DamageElement,legendaryWeapon2DamageElement,legendaryWeapon3DamageElement,legendaryWeapon4DamageElement,legendaryWeapon5DamageElement,legendaryWeapon6DamageElement,legendaryWeapon7DamageElement]
+    damageTypeList = [legendaryWeapon1DamageType,legendaryWeapon2DamageType,legendaryWeapon3DamageType,legendaryWeapon4DamageType,legendaryWeapon5DamageType,legendaryWeapon6DamageType,legendaryWeapon7DamageType]
+    iconList = []
+    damageStrList = []
+
+    for i in range(len(damageElementList)):
+        iconUrl,damageStr = updateEnergyIcon(damageTypeList[i],damageElementList[i],i+1)
+        iconList.append(iconUrl)
+        damageStrList.append(damageStr)
+
+
+
+    legendaryWeapon1DamageTypeIcon = iconList[0]
+    legendaryWeapon2DamageTypeIcon = iconList[1]
+    legendaryWeapon3DamageTypeIcon = iconList[2]
+    legendaryWeapon4DamageTypeIcon = iconList[3]
+    legendaryWeapon5DamageTypeIcon = iconList[4]
+    legendaryWeapon6DamageTypeIcon = iconList[5]
+    legendaryWeapon7DamageTypeIcon = iconList[6]
+
+    legendaryWeapon1DamageElement = damageStrList[0]
+    legendaryWeapon2DamageElement = damageStrList[1]
+    legendaryWeapon3DamageElement = damageStrList[2]
+    legendaryWeapon4DamageElement = damageStrList[3]
+    legendaryWeapon5DamageElement = damageStrList[4]
+    legendaryWeapon6DamageElement = damageStrList[5]
+    legendaryWeapon7DamageElement = damageStrList[6]
+
     htmlTemp ="""<!DOCTYPE html>
     <html lang="en">
     <head>
@@ -505,7 +569,10 @@ def setHtmlVals():
                     
                     <div class="weaponData">
                         <b style="white-space: nowrap;">{legendaryWeapon1Name}</b>
-                        <p style="white-space: nowrap;">{legendaryWeapon1Type}</p>
+                        <p style="white-space: nowrap;"><img src="{legendaryWeapon1DamageTypeIcon}" width="20" height="20"
+                                        style="border:solid 0px yellow; border-radius: 40px;" data-bs-toggle="tooltip"
+                                        data-bs-html="true" data-bs-placement="left"
+                                        title="<p>This weapon deals {legendaryWeapon1DamageElement} damage.</p>"> {legendaryWeapon1Type}</p>
                         <br>
                         <table class="table-sm table-borderless">
                             <thead>
@@ -526,7 +593,10 @@ def setHtmlVals():
                     
                     <div class="weaponData">
                         <b style="white-space: nowrap;">{legendaryWeapon2Name}</b>
-                        <p style="white-space: nowrap;">{legendaryWeapon2Type}</p>
+                        <p style="white-space: nowrap;"><img src="{legendaryWeapon2DamageTypeIcon}" width="20" height="20"
+                                        style="border:solid 0px yellow; border-radius: 40px;" data-bs-toggle="tooltip"
+                                        data-bs-html="true" data-bs-placement="left"
+                                        title="<p>This weapon deals {legendaryWeapon2DamageElement} damage.</p>"> {legendaryWeapon2Type}</p>
                         <br>
                         <table class="table-sm table-borderless">
                             <thead>
@@ -547,7 +617,10 @@ def setHtmlVals():
                     
                     <div class="weaponData">
                         <b style="white-space: nowrap;">{legendaryWeapon3Name}</b>
-                        <p style="white-space: nowrap;">{legendaryWeapon3Type}</p>
+                        <p style="white-space: nowrap;"><img src="{legendaryWeapon3DamageTypeIcon}" width="20" height="20"
+                                        style="border:solid 0px yellow; border-radius: 40px;" data-bs-toggle="tooltip"
+                                        data-bs-html="true" data-bs-placement="left"
+                                        title="<p>This weapon deals {legendaryWeapon3DamageElement} damage.</p>"> {legendaryWeapon3Type}</p>
                         <br>
                         <table class="table-sm table-borderless">
                             <thead>
@@ -568,7 +641,10 @@ def setHtmlVals():
                     
                     <div class="weaponData">
                         <b style="white-space: nowrap;">{legendaryWeapon4Name}</b>
-                        <p style="white-space: nowrap;">{legendaryWeapon4Type}</p>
+                        <p style="white-space: nowrap;"><img src="{legendaryWeapon4DamageTypeIcon}" width="20" height="20"
+                                        style="border:solid 0px yellow; border-radius: 40px;" data-bs-toggle="tooltip"
+                                        data-bs-html="true" data-bs-placement="left"
+                                        title="<p>This weapon deals {legendaryWeapon4DamageElement} damage.</p>"> {legendaryWeapon4Type}</p>
                         <br>
                         <table class="table-sm table-borderless">
                             <thead>
@@ -589,7 +665,10 @@ def setHtmlVals():
                     
                     <div class="weaponData">
                         <b style="white-space: nowrap;">{legendaryWeapon5Name}</b>
-                        <p style="white-space: nowrap;">{legendaryWeapon5Type}</p>
+                        <p style="white-space: nowrap;"><img src="{legendaryWeapon5DamageTypeIcon}" width="20" height="20"
+                                        style="border:solid 0px yellow; border-radius: 40px;" data-bs-toggle="tooltip"
+                                        data-bs-html="true" data-bs-placement="left"
+                                        title="<p>This weapon deals {legendaryWeapon5DamageElement} damage.</p>"> {legendaryWeapon5Type}</p>
                         <br>
                         <table class="table-sm table-borderless">
                             <thead>
@@ -610,7 +689,10 @@ def setHtmlVals():
                     
                     <div class="weaponData">
                         <b style="white-space: nowrap;">{legendaryWeapon6Name}</b>
-                        <p style="white-space: nowrap;">{legendaryWeapon6Type}</p>
+                        <p style="white-space: nowrap;"><img src="{legendaryWeapon6DamageTypeIcon}" width="20" height="20"
+                                        style="border:solid 0px yellow; border-radius: 40px;" data-bs-toggle="tooltip"
+                                        data-bs-html="true" data-bs-placement="left"
+                                        title="<p>This weapon deals {legendaryWeapon6DamageElement} damage.</p>"> {legendaryWeapon6Type}</p>
                         <br>
                         <table class="table-sm table-borderless">
                             <thead>
@@ -631,8 +713,11 @@ def setHtmlVals():
                     
                     <div class="weaponData">
                         <b style="white-space: nowrap;">{legendaryWeapon7Name}</b>
-                        <p style="white-space: nowrap;">{legendaryWeapon7Type}</p>
-                        <br><br>
+                        <p style="white-space: nowrap;"><img src="{legendaryWeapon7DamageTypeIcon}" width="20" height="20"
+                                        style="border:solid 0px yellow; border-radius: 40px;" data-bs-toggle="tooltip"
+                                        data-bs-html="true" data-bs-placement="left"
+                                        title="<p>This weapon deals {legendaryWeapon7DamageElement} damage.</p>"> {legendaryWeapon7Type}</p>
+                        <br>
                         <table class="table-sm table-borderless">
                             <thead>
                                 <tr>
@@ -839,7 +924,27 @@ def setHtmlVals():
     TitanLegsIcon=TitanLegsIcon,TitanLegsName=TitanLegsName,TitanLegsStatTable=TitanLegsStatTable,
     TitanClassItemIcon=TitanClassItemIcon,TitanClassItemName=TitanClassItemName,TitanClassItemStatTable=TitanClassItemStatTable,legendaryWeapon1Lore=legendaryWeapon1Lore,legendaryWeapon2Lore=legendaryWeapon2Lore,legendaryWeapon3Lore=legendaryWeapon3Lore,
     legendaryWeapon4Lore=legendaryWeapon4Lore,legendaryWeapon5Lore=legendaryWeapon5Lore,legendaryWeapon6Lore = legendaryWeapon6Lore,legendaryWeapon7Lore=legendaryWeapon7Lore,
-    exoticWarlockLore=exoticWarlockLore,exoticHunterLore=exoticHunterLore,exoticTitanLore=exoticTitanLore,exoticWeaponLore=exoticWeaponLore)
+    exoticWarlockLore=exoticWarlockLore,exoticHunterLore=exoticHunterLore,exoticTitanLore=exoticTitanLore,exoticWeaponLore=exoticWeaponLore,legendaryWeapon1DamageTypeIcon=legendaryWeapon1DamageTypeIcon,
+                legendaryWeapon2DamageTypeIcon=legendaryWeapon2DamageTypeIcon,
+                legendaryWeapon3DamageTypeIcon=legendaryWeapon3DamageTypeIcon,
+                legendaryWeapon4DamageTypeIcon=legendaryWeapon4DamageTypeIcon,
+                legendaryWeapon5DamageTypeIcon=legendaryWeapon5DamageTypeIcon,
+                legendaryWeapon6DamageTypeIcon=legendaryWeapon6DamageTypeIcon,
+                legendaryWeapon7DamageTypeIcon=legendaryWeapon7DamageTypeIcon,
+                legendaryWeapon1DamageType=legendaryWeapon1DamageType,
+                legendaryWeapon1DamageElement=legendaryWeapon1DamageElement, 
+                legendaryWeapon2DamageType=legendaryWeapon2DamageType,
+                legendaryWeapon2DamageElement=legendaryWeapon2DamageElement,
+                legendaryWeapon3DamageType=legendaryWeapon3DamageType,
+                legendaryWeapon3DamageElement=legendaryWeapon3DamageElement, 
+                legendaryWeapon4DamageType=legendaryWeapon4DamageType,
+                legendaryWeapon4DamageElement=legendaryWeapon4DamageElement, 
+                legendaryWeapon5DamageType=legendaryWeapon5DamageType,
+                legendaryWeapon5DamageElement=legendaryWeapon5DamageElement,
+                legendaryWeapon6DamageType=legendaryWeapon6DamageType,
+                legendaryWeapon6DamageElement=legendaryWeapon6DamageElement,
+                legendaryWeapon7DamageType=legendaryWeapon7DamageType,
+                legendaryWeapon7DamageElement=legendaryWeapon7DamageElement,) 
 
     
     htmlTemp = cleanHTML(htmlTemp)
