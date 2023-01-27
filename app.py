@@ -51,8 +51,8 @@ def home():
 def main():
    today = date.today()
    currentUTCTime = datetime.datetime.utcnow().time().strftime("%H")
-   print(currentUTCTime)
-   print("TD:",today.weekday())
+   #print(currentUTCTime)
+   #print("TD:",today.weekday())
    if(today.weekday() <= 1 or today.weekday() >= 4):
       #do time checks
       if(today.weekday() == 4):

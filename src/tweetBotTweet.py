@@ -1,4 +1,5 @@
 import pydest,asyncio,aiohttp,json,requests,tweepy,random
+import time
 from datetime import date,timedelta
 from credentials import * 
 
@@ -141,18 +142,30 @@ class main:
                 #warlock
                 if(itemClass == 2):
                     self.exoticWarlock = jsonTemp["name"]
+                    if self.exoticWarlock == None:
+                        print("retry - Warlock")
+                        await self.getXurInventory(True)
                     #self.exoticWarlockTotalStat = self.getArmorStats(self.hashIDList[i])
                 #titan
                 elif(itemClass == 0):
                     self.exoticTitan = jsonTemp["name"]
+                    if self.exoticTitan == None:
+                        print("retry - Titan")
+                        await self.getXurInventory(True)
                     #self.exoticTitanTotalStat = self.getArmorStats(self.hashIDList[i])
                 #hunter
                 elif(itemClass == 1):
                     self.exoticHunter = jsonTemp["name"]
+                    if self.exoticHunter == None:
+                        print("retry - Hunter")
+                        await self.getXurInventory(True)
                     #self.exoticHunterTotalStat = self.getArmorStats(self.hashIDList[i])
                 #weapon
                 else:
                     self.exoticWeapon = jsonTemp["name"]
+                    if self.exoticWeapon == None:
+                        print("retry - weapon")
+                        await self.getXurInventory(True)
                 jsonObj.append(jsonTemp)
 
     #get data from api
@@ -232,5 +245,6 @@ def mainloop():
 
     TB = main(apiKey)
     loop.run_until_complete(TB.getXurInventory(True))
-
+#wait for api?
+#time.sleep(15)
 mainloop()

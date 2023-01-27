@@ -1,8 +1,8 @@
 {
-    "Location": "European Dead Zone",
+    "Location": "The Last City",
     "Planet": "Earth",
-    "Landing Zone": "Winding Cove",
-    "Week": "January 20, 2023",
+    "Landing Zone": "Tower Hangar",
+    "Week": "January 27, 2023",
     "Exotics": {
         "Exotic Engram": {
             "name": "Exotic Engram",
@@ -43,60 +43,60 @@
             "masterworkData": null
         },
         "Exotic Weapon": {
-            "name": "Vigilance Wing",
-            "type": "Exotic Pulse Rifle",
+            "name": "SUROS Regime",
+            "type": "Exotic Auto Rifle",
             "description": "",
-            "lore": "\"The eye remains open. The Lighthouse remains lit.\" \u2014Brother Vance",
-            "ExtLore": "\"What you hold was once a beacon. We came out of the shadows seeking those willing to join our search. We staged the trials in his name. It was once a reward for the chosen few\u2014 the ones who persevered when all seemed lost.\" \n\n \"It was forged as a testament to his resolve, to seek answers where no one else cared to look and to continue down the path so many fell blazing. In your hands is proof that those who earned its firepower never gave up and never lost their way. You may not know the legend of Osiris or ever dared our trials, but should we call on you, will you honor the heralds who earned this weapon's honor and continue the hunt?\" \n\n \u2013 Brother Vance, Disciple of Osiris",
-            "itemHash": "3628991659",
+            "lore": "Nostalgia as a weapon of war. Style as a hallmark of victory.",
+            "ExtLore": "Few weapons have withstood the test of time longer than the trusty SUROS Regime. This is Golden Age tech brought to life by the fastidious engineers at SUROS. Its smart-matter frame is prized among Guardians for both efficiency and rarity. Some things never fall out of fashion.",
+            "itemHash": "2856683562",
             "itemRating": null,
-            "icon": "https://www.bungie.net/common/destiny2_content/icons/5c6ce39544e7656d1a5bdafd7829443e.jpg",
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/c4327b4c697485c21bee1833d1075bf1.jpg",
             "rarity": "Exotic",
             "class": 3,
             "statRolls": [],
             "weaponPerks": [
                 {
-                    "name": "Harsh Truths",
-                    "description": "This weapon fires a 5-round burst. When a nearby ally is killed, gain health regeneration and increased movement speed.",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/030a8b87b4a48c92f304c773a58c8d8c.png",
-                    "hashID": 2307143135,
-                    "weaponHash": 3628991659,
+                    "name": "SUROS Legacy",
+                    "description": "The bottom half of each magazine deals bonus damage and has a chance to return health on kill.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/5b0fca14210628841671d02e81fc5516.png",
+                    "hashID": 944506345,
+                    "weaponHash": 2856683562,
                     "isPerk": true,
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Corkscrew Rifling",
-                    "description": "Balanced barrel. \n  \u2022  Slightly increases range and stability\n  \u2022  Slightly increases handling speed",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/18cc75bf9a17bb80b5109f1b8909521f.png",
-                    "hashID": 4090651448,
-                    "weaponHash": 3628991659,
+                    "name": "Hammer-Forged Rifling",
+                    "description": "Durable ranged barrel.\n  \u2022  Increases range",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/9acb073d4e85160f66f0d617d210cf61.png",
+                    "hashID": 3250034553,
+                    "weaponHash": 2856683562,
                     "isPerk": true,
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Alloy Magazine",
-                    "description": "Faster reloads when the magazine is empty.",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/932e7b84c233c6cc49a58058f8c5144d.png",
-                    "hashID": 1431678320,
-                    "weaponHash": 3628991659,
+                    "name": "Tactical Mag",
+                    "description": "This weapon has multiple tactical improvements.\n  \u2022  Slightly increases stability\n  \u2022  Increases reload speed\n  \u2022  Slightly increases magazine size",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/9711e6d3de7a9cf2f844752992390a63.png",
+                    "hashID": 106909392,
+                    "weaponHash": 2856683562,
                     "isPerk": true,
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Last Stand",
-                    "description": "Improved weapon performance and greatly increased recovery when its wielder is the last living member of a fireteam.",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/24be3f1006c65239172bbd44f849a896.png",
-                    "hashID": 4146729347,
-                    "weaponHash": 3628991659,
+                    "name": "Spinning Up",
+                    "description": "Holding down the trigger increases rate of fire.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/0603e7ac102509486839baea963995c1.png",
+                    "hashID": 1378047685,
+                    "weaponHash": 2856683562,
                     "isPerk": true,
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Composite Stock",
-                    "description": "This weapon has a versatile dual-purpose stock.\n  \u2022  Slightly increases stability\n  \u2022  Slightly increases handling speed",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/433673d0d64fd026c771612a6a9ff7f7.png",
-                    "hashID": 3465198467,
-                    "weaponHash": 3628991659,
+                    "name": "Hand-Laid Stock",
+                    "description": "This weapon is optimized for recoil control.\n  \u2022  Increases stability",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/93da84acac42c670c093b90224237e2b.png",
+                    "hashID": 990298390,
+                    "weaponHash": 2856683562,
                     "isPerk": true,
                     "isFavorablePerk": false
                 }
@@ -130,10 +130,10 @@
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Corkscrew Rifling",
-                    "description": "Balanced barrel. \n  \u2022  Slightly increases range and stability\n  \u2022  Slightly increases handling speed",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/18cc75bf9a17bb80b5109f1b8909521f.png",
-                    "hashID": 4090651448,
+                    "name": "Full Bore",
+                    "description": "Barrel optimized for distance.\n  \u2022  Greatly increases range\n  \u2022  Decreases stability\n  \u2022  Slightly decreases handling speed",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/9307c5604f995d90ad5ed65281b64772.png",
+                    "hashID": 202670084,
                     "weaponHash": 3856705927,
                     "isPerk": true,
                     "isFavorablePerk": false
@@ -148,19 +148,19 @@
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Moving Target",
-                    "description": "Increased movement speed and target acquisition when moving while aiming down sights.",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/274a7f773a1bec5feb48bda6d9ecaa10.png",
-                    "hashID": 588594999,
+                    "name": "Snapshot Sights",
+                    "description": "Faster time to aim down sights.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/49df9d90b3f27bd5ec6a9b35f4c10def.png",
+                    "hashID": 957782887,
                     "weaponHash": 3856705927,
                     "isPerk": true,
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Smooth Grip",
-                    "description": "This weapon is slightly easier to hold and aim.\n  \u2022  Slightly increases stability\n  \u2022  Slightly increases handling speed",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/327e627933a5b2dfdc9ee7c2f7a13e6b.png",
-                    "hashID": 3326204863,
+                    "name": "Textured Grip",
+                    "description": "The friction on this weapon's grip is particularly strong.\n  \u2022  Greatly increases handling speed\n  \u2022  Slightly decreases stability",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/cbe48e1decc292c61d296e0d3159a372.png",
+                    "hashID": 3917450714,
                     "weaponHash": 3856705927,
                     "isPerk": true,
                     "isFavorablePerk": false
@@ -195,31 +195,31 @@
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Full Bore",
-                    "description": "Barrel optimized for distance.\n  \u2022  Greatly increases range\n  \u2022  Decreases stability\n  \u2022  Slightly decreases handling speed",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/9307c5604f995d90ad5ed65281b64772.png",
-                    "hashID": 202670084,
+                    "name": "Chambered Compensator",
+                    "description": "Stable barrel attachment.\n  \u2022  Increases stability\n  \u2022  Moderately controls recoil\n  \u2022  Slightly decreases handling speed",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/376aa9bd8c392567f501012fc3b3d4d0.png",
+                    "hashID": 3661387068,
                     "weaponHash": 3654674561,
                     "isPerk": true,
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Accurized Rounds",
-                    "description": "This weapon can fire longer distances.\n  \u2022  Increases range",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/05e357cd152eb0f665ee986aaa3edc56.png",
-                    "hashID": 3142289711,
+                    "name": "Ricochet Rounds",
+                    "description": "Rounds ricochet off hard surfaces. \n  \u2022  Increases stability \n  \u2022  Slightly increases range",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/86e63358fefcb1666160259779594592.png",
+                    "hashID": 1885400500,
                     "weaponHash": 3654674561,
                     "isPerk": true,
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Vorpal Weapon",
-                    "description": "Increased damage against bosses, vehicles, and Guardians with their Super active.",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/6f82df3f2505654c266d2ee34c2a922d.png",
-                    "hashID": 1546637391,
+                    "name": "Outlaw",
+                    "description": "Precision kills greatly decrease reload time.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/22f478a5c757c128b7c367ddc42180ab.png",
+                    "hashID": 1168162263,
                     "weaponHash": 3654674561,
                     "isPerk": true,
-                    "isFavorablePerk": true
+                    "isFavorablePerk": false
                 },
                 {
                     "name": "Fitted Stock",
@@ -238,31 +238,31 @@
             "masterworkData": null
         },
         "Warlock Exotic": {
-            "name": "Transversive Steps",
-            "type": "Exotic Leg Armor",
+            "name": "Apotheosis Veil",
+            "type": "Exotic Helmet",
             "description": "",
-            "lore": "Your relationship with consistent spacetime is...tenuous at best.",
-            "ExtLore": "Tell me where you are! Account for Earth's rotation\u2014more than 1000 kilometers per hour\u2014your orbital velocity of 107,000 kph, your local stellar drift of 70,000 kph, your galactic orbital velocity of 792,000 kph, and our galactic drift relative to the cosmic microwave background of 1,300,000 kph. Also, account for your motion relative to me due to the accelerating expansion of space-time. \n\nDifficult, isn't it? But with the help of these handsome noetic devices you will find yourself deliciously and maddeningly aware of your ley velocities! Fired from an existence cannon through a whirling void the size of everything! \n\nAnd like any line of force, these vectors may be tapped, their obscene speeds diverted for your own use, although we recommend swapping them for comfortable boots before you socialize with the Merely Stationary.",
-            "itemHash": "138282166",
+            "lore": "Most helmets protect the mind from the universe. Not this one.",
+            "ExtLore": "\"There are those who see the Void as dark. It is the folly of the simple mind, unable to perceive the brilliant richness of nothingness. The Void is not only the absence of Light, but Dark. To harness the Void is to enter a state of tranquility, free from the clatter of ordinary matter.\nWear this Veil and feel the Void. It is not a force of malice, no more charitable or heinous than gravity. The Void is a tool to be wielded by the patient, nothing more and nothing less. If you respect the Void, then one day you too shall step upon this pristine realm.\"\n\u2014Unknown Voidwalker",
+            "itemHash": "1096253259",
             "itemRating": null,
-            "icon": "https://www.bungie.net/common/destiny2_content/icons/78874c268891725a68bdcc35432fec9e.jpg",
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/6f234606ab2e043388dfaeee946f854b.jpg",
             "rarity": "Exotic",
             "class": 2,
             "statRolls": [
-                65,
+                63,
+                6,
+                7,
+                18,
                 10,
-                13,
                 10,
-                15,
-                2,
-                15
+                12
             ],
             "weaponPerks": [],
             "exoticArmorPerk": [
                 {
-                    "name": "Strange Protractor",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/d2322bbcc6af2f2d9d96bf1c72e9957a.png",
-                    "desc": "Sprint speed increased. After a short time sprinting, your currently equipped weapon is automatically reloaded."
+                    "name": "Insatiable",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/72dd454b94ad8bce01c17eb55b30ea4f.png",
+                    "desc": "Immediately regenerate health, melee, grenade, and Rift energy upon activating your Super. Nearby allies recharge class abilities faster."
                 }
             ],
             "legendWeaponFrame": null,
@@ -271,31 +271,31 @@
             "masterworkData": null
         },
         "Hunter Exotic": {
-            "name": "Raiju's Harness",
-            "type": "Exotic Chest Armor",
+            "name": "Sealed Ahamkara Grasps",
+            "type": "Exotic Gauntlets",
             "description": "",
-            "lore": "To tame that which knows no master, one must bear the storm.",
-            "ExtLore": "Tohr sat atop a storm-shrouded hill, surrounded in distance by sea and mist. The Maelstrom hung overhead, birthed from Tohr's relinquishment. It had raged for years, just as it did before when Tohr had claimed the reigns and issued his challenge to Raiju's Maelstrom. \n\nClouds trundled at the storm's edge and forked bolts split through a central cumulonimbus supercell. Strikes of gnarled charge nipped scorch into the dirt with terrifying frequency as the sky rippled with lightning. Tohr's withered husk remained in meditative stillness, long dead, basking in the metronomic glow of each flashing termination. The armor around his corpse let slip a glint of light, pulsing like a guiding bannerette for thrill seekers. It had caught Tyv Lucine's eye many times.\n\nShe watched from the base, attempting to establish a safe route through the scattered fulmination. Salt-blasted dirt gave way underfoot, in places, while spindles of thatch-work glass weave held strong against her weight in others. She could feel static flow through the network of crystalline connections like conduits aching to reach out and touch the storm. Her Light shivered, welcoming the Arc surges that leapt up metal clasps on her boots, and she threw herself to another glossy foothold as a bolt dove to meet ground.\n\nThe Maelstrom calmed as she reached Tohr's body. A staff lay at his feet. The air was a screen of charged pressure around him, but Tyv knew how to find gaps. She knew how to bend away the lightning and loop Arc into itself. Lessons the Light had taught her. She slipped her hand through the barrier and lifted the plate from Tohr. She inhaled ozone and humidity and slid the Harness onto her shoulders.\n\nRoars thundered from overhead and bolts scattered across Tohr's hill. Tyv swept the staff off the ground and drove her Arc-Light into its form. The reigns were in hand; the challenge issued. She would bend the storm, and live as lightning made flesh.\n\n\n-Raiju's Legacy",
-            "itemHash": "2268523867",
+            "lore": "Plating the Ahamkara bones in silver helps to quiet the auditory hallucinations\u2026 o bearer mine.",
+            "ExtLore": "Few things can see the Light, but we are not blinded. \n\nThe Bearer seeks the truth, but what separates truth from fiction is fragile. \n\nA pair of truths and a single falsehood upon the Bearer we shall impart. \n\nBrother, ally once more, sends his regards. \n\nDreamer, awakened, the Bearer shall meet. \n\nLight fades, deep within the Prison.",
+            "itemHash": "1688602431",
             "itemRating": null,
-            "icon": "https://www.bungie.net/common/destiny2_content/icons/3a1b6b0ed4381607dc6e47d8c51758b3.jpg",
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/1f1c77866e270996058590849422f1d0.jpg",
             "rarity": "Exotic",
             "class": 1,
             "statRolls": [
                 61,
-                2,
-                12,
-                16,
-                9,
-                16,
-                6
+                3,
+                18,
+                10,
+                8,
+                6,
+                16
             ],
             "weaponPerks": [],
             "exoticArmorPerk": [
                 {
-                    "name": "Mobius Conduit",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/cb34f66eef00d26173d36377d305c6c0.png",
-                    "desc": "[Super]  : Deactivate Arc Staff early. Guarding with Arc Staff consumes energy more slowly when not attacking, and guarding does not consume extra Super energy."
+                    "name": "Nightmare Fuel",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/36ac137a3d8d9dc306291439c6c3bf7f.png",
+                    "desc": "Dealing melee damage reloads your currently equipped weapon. Provides a large benefit to the airborne effectiveness stat of all weapons for 5 seconds after dealing melee damage."
                 }
             ],
             "legendWeaponFrame": null,
@@ -304,31 +304,31 @@
             "masterworkData": null
         },
         "Titan Exotic": {
-            "name": "Armamentarium",
-            "type": "Exotic Chest Armor",
+            "name": "ACD/0 Feedback Fence",
+            "type": "Exotic Gauntlets",
             "description": "",
-            "lore": "For this, there is one remedy.",
-            "ExtLore": "True freedom is an iron-clad lock\nAnd the most useful key, a rock\nThe tastiest spice is hunger\nAnd the truest certainty\u2014wonder. \n\nThe best repair is but destruction, \nThe purest ignorance, instruction\nThe safest shelter is an offensive, \nAnd to fall in battle is true ascension\n\nBrothers and sisters, bear thy arms and be merry\nTo the front, to battle!\nDefeat is a sickness and we've found the cure",
-            "itemHash": "3874247549",
+            "lore": "The Active Contact Defense system uses warsat hull materials to store a retaliatory charge.",
+            "ExtLore": "In order to explain this, I need to explain Kessler Syndrome. As an Exo, I feel a duty to the machine to convey its original purpose. But first: ACD stands for Active Contact Defense. It is not an AC-DC Feedback Fence and it is not named for any work of pre-classical music. I am not winking. That is a malfunction. \n\nKessler Syndrome occurs when a planet's orbitals fill up with fast-moving debris, which strikes other debris and shatters it in a chain reaction. Soon you can't put up a satellite without it being shredded by a swarm of junk. To protect against debris, Golden Age warsats are shielded by a kinetic superconductor that transforms a punch into a charge. \n\nThanks to enemy action, we have a lot of downed warsats. With some tweaking, we can peel out the superconductor and produce a personal defense system. Like so.",
+            "itemHash": "2563444729",
             "itemRating": null,
-            "icon": "https://www.bungie.net/common/destiny2_content/icons/9482dc5d359231558d9ac7f70e5bbd86.jpg",
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/51fd51c3b825f132198ccbf02b4de7d2.jpg",
             "rarity": "Exotic",
             "class": 0,
             "statRolls": [
                 62,
-                22,
-                4,
-                3,
-                18,
-                9,
-                6
+                19,
+                10,
+                2,
+                16,
+                2,
+                13
             ],
             "weaponPerks": [],
             "exoticArmorPerk": [
                 {
-                    "name": "And Another Thing",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/2e745e0bcf95e0165fddca4523341509.png",
-                    "desc": "Gain an additional grenade charge."
+                    "name": "Fury Conductors",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/cac7d167de19879bbe166e601032cf1f.png",
+                    "desc": "Melee hits build energy. Being struck by a melee attack reduces incoming damage and unleashes the energy in a devastating explosion."
                 }
             ],
             "legendWeaponFrame": null,
@@ -339,266 +339,6 @@
     },
     "Legendaries": {
         "Legendary weapons": [
-            {
-                "name": "Whispering Slab",
-                "type": "Legendary Combat Bow",
-                "description": "",
-                "lore": "It sings of sorrows that have not yet come to pass.",
-                "ExtLore": "Eris Morn walks with slow, silent steps toward a haggard Drifter shoving small bags into larger ones. Dim and exhausted Motes lie scattered throughout the Derelict, slowly evaporating. She retrieves a Mote from the floor and shines her burning light over the cracked surface. The light struggles to leave the cracks. She lets the disintegrating Mote drop and shatter into dust against the floor grates. It chimes like resonate glass.\n\nThe Drifter whirls around to face the noise, almost losing his footing. He lets his hand slide off his holstered Trust as recognition washes over him. \"Ain't anybody ever tell you not to skulk? It's rude.\"\n\n\"Noted. Are you vacating?\"\n\n\"Road trip. How'd you get in here anyway?\"\n\n\"The airlock was open.\"\n\n\"Uh huh.\"\n\n\"If I said I were here to run in your rat race, would it change your tune?\"\n\n\"Uh huh\u2026\"\n\nEris drops her shoulders and approaches the Drifter. \"I want your help.\"\n\n\"Uh huh.\" His brow furrows with suspicion. \"Why? Didn't you save the universe yet?\" Drifter turns back to shoving bags in bags.\n\n\"It seems to be continually in peril. To be honest, I'm not sure I've helped.\"\n\nEris hands him a bag. \"I need your knowledge.\"\n\n\"You? No.\"\n\n\"I have had some troubling experiences as of late.\"\n\n\"Yeah, it's called life.\"\n\n\"I need to know,\" she says and hesitates, half-hearted restraint preceding sacrilege. \"Tell me how to interpret the Darkness.\"\n\n\"What am I, some crusty woo-woo sage? Beat it, kid. I'm packing.\"\n\n\"Do not ignore me,\" Eris says. Her voice is calm and piercing. \"We've both seen beneath the surface.\"\n\nDrifter drops the pack in his hand and picks a jade coin off his workbench.\n\n\"Asher is entrenched in his thinking,\" she says and gently places a palm down on the workbench beside them. \"Ikora\u2026 she tries. She hears, but she doesn't understand. No one is listening.\"\n\nDrifter pockets the coin and turns to face her. He stares deep. \"Experience. Hell of a thing.\" He looks down the gangway of the Derelict and through the gate that would take him to his Haul. \"Favors ain't free. I do this, you owe me.\"\n\nEris nods. Drifter swipes the workbench clean and pulls out a retractable seat for himself.\n\n\"How long you got?\"\n\nThe two sit. They speak. They listen. Linkages forged in Light and Dark of traded secrets as the Derelict hangs in orbit around the Earth. Pacts are made. Soon, there is only the silence of knowing left between them.\n\n\"Next time you fly over the Moon, dust your boots. Tracking that crap all over my floors.\"\n\nEris shakes her head and moves toward the airlock.\n\nDrifter yells after her, \"AND CALL NEXT TIME! I could've blown those fancy eyes straight out of your face.\"\n\n\"I'll try to be more mindful of your many eccentricities in the future.\"",
-                "itemHash": "211938782",
-                "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/e1a2005a56039adc4d0155905fec4876.jpg",
-                "rarity": "Legendary",
-                "class": 3,
-                "statRolls": [],
-                "weaponPerks": [
-                    {
-                        "name": "Agile Bowstring",
-                        "description": "Durable yet light bowstring.\n  \u2022  Greatly increases handling speed\n  \u2022  Slightly increases stability",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/f58a93d2728c6eaf17e971c006e8aa7c.png",
-                        "hashID": 3768438372,
-                        "weaponHash": 211938782,
-                        "isPerk": true,
-                        "isFavorablePerk": true
-                    },
-                    {
-                        "name": "Compact Arrow Shaft",
-                        "description": "Thinner arrows to increase nocking speed and weapon handling.\n  \u2022  Increases handling speed \n  \u2022  Increases reload speed",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/f2da76a272768d0233eaebe2cc79e098.png",
-                        "hashID": 16392701,
-                        "weaponHash": 211938782,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Quickdraw",
-                        "description": "This weapon can be drawn unbelievably fast.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/b04cf9a75031115055678b71c3c58443.png",
-                        "hashID": 706527188,
-                        "weaponHash": 211938782,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Opening Shot",
-                        "description": "Improved accuracy and range on the opening shot of attack.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/0fd9dbe1c09b8cc7d0be888c68ff4526.png",
-                        "hashID": 47981717,
-                        "weaponHash": 211938782,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    }
-                ],
-                "exoticArmorPerk": null,
-                "legendWeaponFrame": {
-                    "name": "Lightweight Frame",
-                    "description": "Recurve Bow. Draw quickly and move faster while this weapon is equipped. \n[Reload]  : Use while drawn to cancel the shot.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/0ce2f3a9046c3b1e2fc007d903563e66.png"
-                },
-                "legendWeaponDamageType": "Kinetic",
-                "legendWeaponDamageElement": "Kinetic",
-                "masterworkData": {
-                    "name": "Accuracy",
-                    "description": "How well shots fired by this weapon hit their target.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/8ebd558417d6c02e3ed2ffadc4bdbc48.jpg",
-                    "mwHash": 892374263
-                }
-            },
-            {
-                "name": "Truthteller",
-                "type": "Legendary Grenade Launcher",
-                "description": "",
-                "lore": "\"If we wish others to accept the grim reality, we must break through every comforting illusion.\" \u2014Arach Jalaal",
-                "ExtLore": null,
-                "itemHash": "1946491241",
-                "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/cc5101e4e22234770293284828519ae1.jpg",
-                "rarity": "Legendary",
-                "class": 3,
-                "statRolls": [],
-                "weaponPerks": [
-                    {
-                        "name": "Confined Launch",
-                        "description": "This weapon's launch parameters are particularly stable.\n  \u2022  Greatly increases stability\n  \u2022  Increases blast radius\n  \u2022  Decreases projectile speed",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/c9439f5d740d017dc9551a60a902c797.png",
-                        "hashID": 1844523823,
-                        "weaponHash": 1946491241,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Proximity Grenades",
-                        "description": "Grenades fired from this weapon have increased proximity detection but a decreased blast radius.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/88869f977fa3d145c1ece3e38c070bd2.png",
-                        "hashID": 409831596,
-                        "weaponHash": 1946491241,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Field Prep",
-                        "description": "Increased ammo reserves. Faster reload, stow, and ready when you're crouching.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/fd815414532978ad2e5decbfc416b9e4.png",
-                        "hashID": 2869569095,
-                        "weaponHash": 1946491241,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Disruption Break",
-                        "description": "Breaking an enemy's shield with this weapon makes them more vulnerable to Kinetic damage for a brief period.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/5b83b3c3fc474c9716e54b4dfe4a862b.png",
-                        "hashID": 1683379515,
-                        "weaponHash": 1946491241,
-                        "isPerk": true,
-                        "isFavorablePerk": true
-                    }
-                ],
-                "exoticArmorPerk": null,
-                "legendWeaponFrame": {
-                    "name": "Lightweight Frame",
-                    "description": "One-shot handheld Grenade Launcher with remote detonation. \n[Shoot]  : Fire; release to detonate.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/530b400d5cec3bf6aca7c5efc46fea20.png"
-                },
-                "legendWeaponDamageType": "Energy",
-                "legendWeaponDamageElement": "Void",
-                "masterworkData": {
-                    "name": "Handling",
-                    "description": "The speed with which the weapon can be readied and aimed.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/97161c247fc79bacad09d15d6e5ee7f2.jpg",
-                    "mwHash": 518224747
-                }
-            },
-            {
-                "name": "Berenger's Memory",
-                "type": "Legendary Grenade Launcher",
-                "description": "",
-                "lore": "Take your place among the company of heroes.",
-                "ExtLore": null,
-                "itemHash": "407621213",
-                "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/d330834cbda57c8e064afa07773bf73c.jpg",
-                "rarity": "Legendary",
-                "class": 3,
-                "statRolls": [],
-                "weaponPerks": [
-                    {
-                        "name": "Linear Compensator",
-                        "description": "This weapon's launch barrel is well-balanced.\n  \u2022  Slightly increases projectile speed\n  \u2022  Slightly increases blast radius\n  \u2022  Slightly increases stability",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/eab8eeedc70188ad3798b6ca84fbb7cb.png",
-                        "hashID": 1441682018,
-                        "weaponHash": 407621213,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Spike Grenades",
-                        "description": "Grenades fired from this weapon do increased damage on direct hits.\n  \u2022  Increases stability",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/c733f59957e33024af80e648729321ad.png",
-                        "hashID": 3301904089,
-                        "weaponHash": 407621213,
-                        "isPerk": true,
-                        "isFavorablePerk": true
-                    },
-                    {
-                        "name": "Quickdraw",
-                        "description": "This weapon can be drawn unbelievably fast.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/b04cf9a75031115055678b71c3c58443.png",
-                        "hashID": 706527188,
-                        "weaponHash": 407621213,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Auto-Loading Holster",
-                        "description": "The holstered weapon is automatically reloaded after a short period of time.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/d355b1117307c9f187729249361cecc3.png",
-                        "hashID": 3300816228,
-                        "weaponHash": 407621213,
-                        "isPerk": true,
-                        "isFavorablePerk": true
-                    }
-                ],
-                "exoticArmorPerk": null,
-                "legendWeaponFrame": {
-                    "name": "Rapid-Fire Frame",
-                    "description": "Deeper ammo reserves. Slightly faster reload when magazine is empty.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/0ab090e93e19da9e841b0f94c5ab7de6.png"
-                },
-                "legendWeaponDamageType": "Power",
-                "legendWeaponDamageElement": "Void",
-                "masterworkData": {
-                    "name": "Blast Radius",
-                    "description": "Increases the explosion radius of this weapon.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/60aaad1a22dda515de2a8dcc9133fc7e.jpg",
-                    "mwHash": 3928770367
-                }
-            },
-            {
-                "name": "Ignition Code",
-                "type": "Legendary Grenade Launcher",
-                "description": "",
-                "lore": "\"I can decode anything with a grenade launcher.\" \u2014Saint-14",
-                "ExtLore": "Ahrrha hauled a metal crate from the drop ship toward the haphazard Eliksni settlement. He moved slowly, matching the pace of his malnourished workmates. Though he had fasted during his trip, Ahrrha knew that his solid frame still made him stand out. He feared it would reveal him as the imposter and infiltrator he was, even while dressed as a House Salvation deserter.\n\nDuring the approach to Earth, Ahrrha had been overawed. The Last City looked like a perfect ripple of Light from above, dropped from the impassive form of the Great Machine. Ahrrha wondered for the first time in his life if the Spider was wrong about the Guardians.\n\nBut his misgivings evaporated as soon as he emerged from the drop ship. Rather than living in a gleaming city of crystal, the Eliksni were packed into the bombed-out ruins of a former war zone. The area they'd been \"given\" appeared to be on the verge of collapse. \n\nAhrrha sneered inwardly. Did the Guardians really believe that the Eliksni could be pacified so cheaply? That they were content to live under the boots of the Vanguard, gnawing at scraps? Perhaps it was true for fools like Misraaks, his Awoken-raised hatchling, and cowards like the Empty Weaver. \n\nBut the Spider's acquiescence would not be so easily bought. In fact, Ahrrha thought, the Spider could probably own this settlement within a year. The generosity and goodwill of House Light would soon crumble to greed and hubris, as they all did. And once Spider's syndicate had a foothold, they would make the Vanguard pay. In Glimmer, weapons, Ether, and blood.",
-                "itemHash": "304659313",
-                "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/392e194e5ca22ba379c482ecde77c029.jpg",
-                "rarity": "Legendary",
-                "class": 3,
-                "statRolls": [],
-                "weaponPerks": [
-                    {
-                        "name": "Linear Compensator",
-                        "description": "This weapon's launch barrel is well-balanced.\n  \u2022  Slightly increases projectile speed\n  \u2022  Slightly increases blast radius\n  \u2022  Slightly increases stability",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/eab8eeedc70188ad3798b6ca84fbb7cb.png",
-                        "hashID": 1441682018,
-                        "weaponHash": 304659313,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "High-Velocity Rounds",
-                        "description": "This weapon's projectiles are particularly light and quick.\n  \u2022  Increases projectile speed\n  \u2022  Increases reload speed",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/d541a7c35981cb9caceaf3736097adb9.png",
-                        "hashID": 2822142346,
-                        "weaponHash": 304659313,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Field Prep",
-                        "description": "Increased ammo reserves. Faster reload, stow, and ready when you're crouching.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/fd815414532978ad2e5decbfc416b9e4.png",
-                        "hashID": 2869569095,
-                        "weaponHash": 304659313,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Thresh",
-                        "description": "Killing combatants with this weapon generates a small amount of Super energy.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/8ec196e722bd127d214e47efb82ba9bf.png",
-                        "hashID": 2726471870,
-                        "weaponHash": 304659313,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    }
-                ],
-                "exoticArmorPerk": null,
-                "legendWeaponFrame": {
-                    "name": "Lightweight Frame",
-                    "description": "One-shot handheld Grenade Launcher with remote detonation. \n[Shoot]  : Fire; release to detonate.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/530b400d5cec3bf6aca7c5efc46fea20.png"
-                },
-                "legendWeaponDamageType": "Kinetic",
-                "legendWeaponDamageElement": "Kinetic",
-                "masterworkData": {
-                    "name": "Reload Speed",
-                    "description": "The time it takes to reload this weapon.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/18a68428b806cf726984ce79126eed65.jpg",
-                    "mwHash": 4283235143
-                }
-            },
             {
                 "name": "Dire Promise",
                 "type": "Legendary Hand Cannon",
@@ -613,19 +353,19 @@
                 "statRolls": [],
                 "weaponPerks": [
                     {
-                        "name": "TrueSight HCS",
-                        "description": "Balanced Hand Cannon sight.\n  \u2022  Slightly increases range\n  \u2022  Slightly increases stability\n  \u2022  Slightly increases handling speed",
+                        "name": "Fastdraw HCS",
+                        "description": "Agile Hand Cannon sight.\n  \u2022  Greatly increases handling speed\n  \u2022  Slightly increases stability",
                         "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/87eb658505fb3503265eb67cd7855c4c.png",
-                        "hashID": 1926090092,
+                        "hashID": 1926090094,
                         "weaponHash": 2742838701,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Armor-Piercing Rounds",
-                        "description": "Rounds cause extra damage to combatants' shields and overpenetrate targets. \n  \u2022  Slightly increases range",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/73b724a6839bb3e1db37742f7ed5249b.png",
-                        "hashID": 1968497646,
+                        "name": "Ricochet Rounds",
+                        "description": "Rounds ricochet off hard surfaces. \n  \u2022  Increases stability \n  \u2022  Slightly increases range",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/86e63358fefcb1666160259779594592.png",
+                        "hashID": 1885400500,
                         "weaponHash": 2742838701,
                         "isPerk": true,
                         "isFavorablePerk": false
@@ -640,10 +380,10 @@
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Under Pressure",
-                        "description": "Improved stability and accuracy as the magazine gets lower.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/7a88b6ed7519cb27fd608c5743ca20b1.png",
-                        "hashID": 1645158859,
+                        "name": "Swashbuckler",
+                        "description": "This weapon gains increased damage from melee kills and kills with this weapon.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/ef89b89410de618e9cfa353ff35125d8.png",
+                        "hashID": 4082225868,
                         "weaponHash": 2742838701,
                         "isPerk": true,
                         "isFavorablePerk": false
@@ -665,53 +405,248 @@
                 }
             },
             {
-                "name": "Enigma's Draw",
-                "type": "Legendary Sidearm",
+                "name": "Gridskipper",
+                "type": "Legendary Pulse Rifle",
                 "description": "",
-                "lore": "\"Indeed, I traffic in all kinds of secrets and mysteries. Weapons, as well.\" \u2014Lakshmi-2",
-                "ExtLore": null,
-                "itemHash": "1723380073",
+                "lore": "\"No stars overhead. Best not to look up.\" \u2014Amanda Holliday",
+                "ExtLore": "He heard something and snapped awake. There it was again: the skittering of clawed feet above him. In a moment, he had grabbed the Pulse Rifle from near the door and was outside.\n\nHe saw nothing but the lip of the tar paper roof against the undulating night sky. That didn't mean anything\u2014they could turn invisible. Everyone knew that. They could just be standing there, one or two, or a dozen, staring down at him.\n\nHe looked for shimmering outlines, but his vision was filled by the swaying grid of the dark purple night. He squinted as a ripple rolled high overhead, and the grid seemed to move closer, like an enormous sheet settling over the City.\n\nA wave of pressure pushed down, building in his sinuses. He pressed a hand to his eyes. A deep thrum filled his head, and he heard their claws on the walls all around him, their hissing laughter.\n\nHe turned toward the street, weapon raised. He felt his heart thudding in his chest and sweat beading on his back.\n\nAnother noise: someone pounding on glass behind him.\n\nHe spun and one of them was in his house, looking out at him through the window. His sweaty fingers fumbled to turn the safety off as it opened its mouth\u2014\n\n\"Dad,\" the Fallen shouted, \"you're standing in the garden!\"\n\nHe looked down dumbly. Cherry tomatoes were crushed beneath his bare feet.\n\nHis son yelled again, no longer a Fallen, merely irritated and half asleep. \"Come back inside!\"\n\nHands shaking, he stepped out of the garden. He fought the urge to look into the sky as he walked back to the house.",
+                "itemHash": "1621558458",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/7a59078e02d40f015d1b23815e977070.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/e448a8b6661c0d8a4894c8de3427cad5.jpg",
                 "rarity": "Legendary",
                 "class": 3,
                 "statRolls": [],
                 "weaponPerks": [
                     {
-                        "name": "QuickDot SAS",
-                        "description": "Agile Sidearm sight. \n  \u2022  Greatly increases handling speed\n  \u2022  Slightly increases stability",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/f4881d52b0c80356e9ccadb3ea681f8b.png",
-                        "hashID": 445755707,
-                        "weaponHash": 1723380073,
+                        "name": "Corkscrew Rifling",
+                        "description": "Balanced barrel. \n  \u2022  Slightly increases range and stability\n  \u2022  Slightly increases handling speed",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/18cc75bf9a17bb80b5109f1b8909521f.png",
+                        "hashID": 4090651448,
+                        "weaponHash": 1621558458,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Flared Magwell",
-                        "description": "Optimized for fast reloading.\n  \u2022  Slightly increases stability\n  \u2022  Greatly increases reload speed",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/ec1bca64fc9709678ea5c297c0e64c19.png",
-                        "hashID": 3230963543,
-                        "weaponHash": 1723380073,
+                        "name": "High-Caliber Rounds",
+                        "description": "Shots from this weapon knock the target back farther.\n  \u2022  Slightly increases range",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/f06239ee156ee70f99b48e8e1970dbca.png",
+                        "hashID": 1561002382,
+                        "weaponHash": 1621558458,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Zen Moment",
-                        "description": "Causing damage with this weapon reduces recoil over time.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/49958f356ea1df930888d15fe6539fe1.png",
-                        "hashID": 2387244414,
-                        "weaponHash": 1723380073,
+                        "name": "Killing Wind",
+                        "description": "Final blows grant increased mobility, weapon range, and handling for a short duration.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/28114b59ba79d4abd5ea978cbd00e665.png",
+                        "hashID": 2450788523,
+                        "weaponHash": 1621558458,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Rangefinder",
-                        "description": "Aiming this weapon increases its effective range and zoom magnification. Increased projectile velocity while aiming Rocket Launchers, Grenade Launchers, and Bows.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/cd4bc691a022136dc149e56ff4e04bf4.png",
-                        "hashID": 2846385770,
-                        "weaponHash": 1723380073,
+                        "name": "Frenzy",
+                        "description": "Being in combat for an extended time increases damage, handling, and reload for this weapon until you are out of combat.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/5f346569b07ad452768b16a255ebd168.png",
+                        "hashID": 4104185692,
+                        "weaponHash": 1621558458,
                         "isPerk": true,
                         "isFavorablePerk": true
+                    }
+                ],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": {
+                    "name": "Rapid-Fire Frame",
+                    "description": "Deeper ammo reserves. Slightly faster reload when magazine is empty.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/0ab090e93e19da9e841b0f94c5ab7de6.png"
+                },
+                "legendWeaponDamageType": "Energy",
+                "legendWeaponDamageElement": "Void",
+                "masterworkData": {
+                    "name": "Range",
+                    "description": "Increases the effective range of this weapon.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/b5dac54c0c768696460392d7d529166f.jpg",
+                    "mwHash": 150943607
+                }
+            },
+            {
+                "name": "Code Duello",
+                "type": "Legendary Rocket Launcher",
+                "description": "",
+                "lore": "An unfinished inscription runs along the barrel: \"Tlamus, she who\u2014\"",
+                "ExtLore": "There is a story of two weaponsmiths, both skilled at their trade.\n\nOne smith, Dhutus, worked with metals she pulled from the mountains herself. She tooled the rifling in her barrels with the steady hand of an artisan. Her dyes, cobalt and ichor, shone bright as beetleshell.\n\nThe other, Gharhet, came from the distant plains. He traded for his wares and sold them dear, and thus he amassed great wealth. He embellished his goods with a rich lacquer the color of flame.\n\nWhen the Primus called for the strongest warriors to serve, the district knew the fighter Tlamus\u2014who had broken all challengers with her keen aim and powerful frame\u2014would represent them. Both Dhutus and Gharhet wished to outfit her with their finest pieces, as having a warrior of her status wear their colors would bring them great honor.\n\nSo Dhutus forged Tlamus a mighty war axe with an ice-blue handle and wide golden blade. Tlamus accepted the gift gladly.\n\nGharhet procured for her a Slug Rifle with bright orange plating, and Tlamus wore it proudly across her back.\n\nNext, Dhutus crafted a Shotgun, metal burnished deep as night with bright vents along the sides, and Tlamus brought it into battle.\n\nIn response, Gharhet bought a helm with thick plating and stout antlers the color of a sunset, and they were soon stained with the blood of Tlamus's foes.\n\nAnd Dhutus saw no end to this. Her shoulders ached from working the forge, and her hands were blistered by burns upon burns.\n\nSo Dhutus issued to Gharhet a challenge, and as he knew no one would raise the weapons of a coward, Gharhet accepted.\n\nThe next dawn found Dhutus on the battlefield waiting for her rival. On her shoulder was her finest weapon: a Rocket Launcher, its barrel a twisting column of seashell blue with gold trim, built as a gift for Tlamus but now wielded by its creator.\n\nFrom across the field, a figure strode forward to meet Dhutus\u2014but it was too wide to be Gharhet; too tall, too muscular. He had bought a champion to fight in his stead.\n\nAn orange sash was draped carelessly across her chest and dragged in the dust with each confident step. Studded orange leathers bound her massive arms and thighs. Strands of coral beads hung from her tusks.\n\nShe greeted Dhutus with a fist to her chest. \"I am Tlamus,\" she said, \"chosen of Gharhet.\"\n\nDhutus could not find her voice, and then Tlamus drew one of her beautiful, terrible weapons, and the rite was soon concluded.",
+                "itemHash": "2496242052",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/ee9bca2d130b03aeae890e35c31dd7dc.jpg",
+                "rarity": "Legendary",
+                "class": 3,
+                "statRolls": [],
+                "weaponPerks": [
+                    {
+                        "name": "Hard Launch",
+                        "description": "This weapon's launch barrel is optimized for projectile speed.\n  \u2022  Greatly increases projectile speed\n  \u2022  Decreases stability\n  \u2022  Slightly decreases blast radius",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/823b8ae4f48bca3bb5586167c1666781.png",
+                        "hashID": 981914802,
+                        "weaponHash": 2496242052,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Implosion Rounds",
+                        "description": "This weapon's projectiles travel faster and have a controlled explosion.\n  \u2022  Increases projectile speed\n  \u2022  Greatly increases stability\n  \u2022  Decreases blast radius",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/2a0232f77cee68e2945d11808f5a1d96.png",
+                        "hashID": 3492396210,
+                        "weaponHash": 2496242052,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Field Prep",
+                        "description": "Increased ammo reserves. Faster reload, stow, and ready when you're crouching.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/fd815414532978ad2e5decbfc416b9e4.png",
+                        "hashID": 2869569095,
+                        "weaponHash": 2496242052,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Cluster Bomb",
+                        "description": "Rockets spawn cluster bombs upon detonation.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/26eb5d8ffd1c09e212ad2ea51ffd5ef9.png",
+                        "hashID": 1275731761,
+                        "weaponHash": 2496242052,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    }
+                ],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": {
+                    "name": "High-Impact Frame",
+                    "description": "Slow firing and high damage. This weapon is more accurate when stationary, moving slowly, and aiming down sights.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/65fdde950b85bdd1e0383e1016a73661.png"
+                },
+                "legendWeaponDamageType": "Power",
+                "legendWeaponDamageElement": "Solar",
+                "masterworkData": {
+                    "name": "Velocity",
+                    "description": "Increases the speed of projectiles fired by this weapon.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/a87a9b98affcbdaf921af193158d4f49.jpg",
+                    "mwHash": 4105787909
+                }
+            },
+            {
+                "name": "Seventh Seraph CQC-12",
+                "type": "Legendary Shotgun",
+                "description": "",
+                "lore": "Word into law, held at gunpoint.",
+                "ExtLore": null,
+                "itemHash": "1821724780",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/1a5fef325b5b89474523514a933a1a8b.jpg",
+                "rarity": "Legendary",
+                "class": 3,
+                "statRolls": [],
+                "weaponPerks": [
+                    {
+                        "name": "Smoothbore",
+                        "description": "Smooth shotgun barrel. Greatly increases range at the cost of more projectile spread.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/a85cb5a7011708991cfbadfb9823ade0.png",
+                        "hashID": 466087222,
+                        "weaponHash": 1821724780,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Appended Mag",
+                        "description": "This weapon's magazine is built for higher capacity.\n  \u2022  Increases magazine size",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/9d8a7be4c2fef471a6fde38d02ab8dae.png",
+                        "hashID": 1087426260,
+                        "weaponHash": 1821724780,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Auto-Loading Holster",
+                        "description": "The holstered weapon is automatically reloaded after a short period of time.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/d355b1117307c9f187729249361cecc3.png",
+                        "hashID": 3300816228,
+                        "weaponHash": 1821724780,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Vorpal Weapon",
+                        "description": "Increased damage against bosses, vehicles, and Guardians with their Super active.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/6f82df3f2505654c266d2ee34c2a922d.png",
+                        "hashID": 1546637391,
+                        "weaponHash": 1821724780,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    }
+                ],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": {
+                    "name": "Lightweight Frame",
+                    "description": "Superb handling. Move faster with this weapon equipped.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/530b400d5cec3bf6aca7c5efc46fea20.png"
+                },
+                "legendWeaponDamageType": "Energy",
+                "legendWeaponDamageElement": "Solar",
+                "masterworkData": {
+                    "name": "Reload Speed",
+                    "description": "The time it takes to reload this weapon.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/18a68428b806cf726984ce79126eed65.jpg",
+                    "mwHash": 4283235143
+                }
+            },
+            {
+                "name": "Fractethyst",
+                "type": "Legendary Shotgun",
+                "description": "",
+                "lore": "\"Imagine that as the last sound you hear.\" \u2014Petra Venj",
+                "ExtLore": "Amanda Holliday finished welding the new fluid catch to the underside of the Ether tanks with a satisfied grunt. She wriggled her way backwards into the corridor and bumped into the legs of the massive Eliksni who was crouched behind her.\n\n\"Mithrax!\" she scolded, pulling off her welding helmet.\n\n\"Amanda,\" Mithrax replied. \"You are unexpected, but welcome. You are improving our Ether tanks?\"\n\n\"I threw a fresh fluid catch on there, yeah,\" Amanda shrugged as she repacked her tools. \"It's nothing you couldn't do yourselves, but I was passing by.\"\n\nMithrax gazed across the Botza District for a moment. \"I find that unlikely,\" he said wryly.\n\nAmanda laughed. \"C'mon now. You know what they say about gift horses.\"\n\nMithrax cocked his head.\n\n\"Forget it,\" she said. \"So, how've y'all been doing down here? Since, y'know\u2026\" she trailed off.\n\n\"Since the Human and Vex attacks have ceased, we have been well,\" Mithrax said, standing to his full height as he pulled Amanda to her feet. \"With the Endless Night lifted, resources are more plentiful. I see your people and mine moving forward together.\"\n\n\"Yeah, it's nice,\" Amanda agreed. \"Things are happening now I wouldn't have dreamed of a few months ago. The other day, I saw a group of Eliksni at the Bazaar picking out Ghost shells!\" \n\nMithrax's laughter was a deep rumble. \"Yes, the empty shells are quite beautiful. Would you introduce me to your Ghost, Amanda? I would enjoy meeting them.\"\n\n\"Ooh, sorry,\" Amanda chuckled. She put two fingers to her wrist. \"Still got a pulse. No Ghost for me.\" \n\nMithrax balked. \"You are not a Lightbearer?\"\n\n\"Nope,\" she said, \"just a regular person.\"\n\nMithrax thought for a moment. \"To aid as you do without the gift of the Light\u2026\" he said, bringing a clawed hand to his chest and bowing. \"There is much my people would learn from you.\"\n\nAmanda shifted from one foot to the other and scratched at her neck. \"Afraid I ain't much of a teacher,\" she said quietly.\n\nMithrax smiled. \"I find that unlikely.\"",
+                "itemHash": "3184681056",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/a490a0c7deef34f14fbae4959a578f9e.jpg",
+                "rarity": "Legendary",
+                "class": 3,
+                "statRolls": [],
+                "weaponPerks": [
+                    {
+                        "name": "Smallbore",
+                        "description": "Dual strength barrel.\n  \u2022  Increases range\n  \u2022  Increases stability",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/bc3d5d36c6b4627bdb8d37cd52711cf4.png",
+                        "hashID": 1482024992,
+                        "weaponHash": 3184681056,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Assault Mag",
+                        "description": "This shotgun's magazine is optimized for quick combat.\n  \u2022  Greatly increases stability\n  \u2022  Increases rate of fire",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/4d0cb2e34dfd2ed102e03ca1f0809d37.png",
+                        "hashID": 791862061,
+                        "weaponHash": 3184681056,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Slideshot",
+                        "description": "Sliding partially reloads this weapon's magazine and temporarily boosts range and stability.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/fa7ba2abcd8effd143e287668d7c865b.png",
+                        "hashID": 3161816588,
+                        "weaponHash": 3184681056,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Trench Barrel",
+                        "description": "After a successful melee hit, this weapon gains increased damage, handling, and reload speed for a short duration\u2014or until three shots are fired.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/09ecf09e4cc4b0e087d8711d817c64b6.png",
+                        "hashID": 2360754333,
+                        "weaponHash": 3184681056,
+                        "isPerk": true,
+                        "isFavorablePerk": false
                     }
                 ],
                 "exoticArmorPerk": null,
@@ -721,7 +656,72 @@
                     "icon": "https://www.bungie.net/common/destiny2_content/icons/90c4f7f35c9d24f4add016722a78404e.png"
                 },
                 "legendWeaponDamageType": "Kinetic",
-                "legendWeaponDamageElement": "Kinetic",
+                "legendWeaponDamageElement": "Stasis",
+                "masterworkData": {
+                    "name": "Handling",
+                    "description": "The speed with which the weapon can be readied and aimed.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/97161c247fc79bacad09d15d6e5ee7f2.jpg",
+                    "mwHash": 518224747
+                }
+            },
+            {
+                "name": "Death Adder",
+                "type": "Legendary Submachine Gun",
+                "description": "",
+                "lore": "You will not see me coming.",
+                "ExtLore": null,
+                "itemHash": "2742490609",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/c3a17f22972259b393c584fbf84fda09.jpg",
+                "rarity": "Legendary",
+                "class": 3,
+                "statRolls": [],
+                "weaponPerks": [
+                    {
+                        "name": "Arrowhead Brake",
+                        "description": "Lightly vented barrel.\n  \u2022  Greatly controls recoil\n  \u2022  Increases handling speed",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/7a0a23f9622636cea92387d50d368333.png",
+                        "hashID": 839105230,
+                        "weaponHash": 2742490609,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Accurized Rounds",
+                        "description": "This weapon can fire longer distances.\n  \u2022  Increases range",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/05e357cd152eb0f665ee986aaa3edc56.png",
+                        "hashID": 3142289711,
+                        "weaponHash": 2742490609,
+                        "isPerk": true,
+                        "isFavorablePerk": true
+                    },
+                    {
+                        "name": "Hip-Fire Grip",
+                        "description": "Increases accuracy, stability, and precision hit targeting when firing from the hip.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/9f3c3ae1bddbed21af1cc6487338028e.png",
+                        "hashID": 1866048759,
+                        "weaponHash": 2742490609,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Quickdraw",
+                        "description": "This weapon can be drawn unbelievably fast.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/b04cf9a75031115055678b71c3c58443.png",
+                        "hashID": 706527188,
+                        "weaponHash": 2742490609,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    }
+                ],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": {
+                    "name": "Lightweight Frame",
+                    "description": "Superb handling. Move faster with this weapon equipped.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/530b400d5cec3bf6aca7c5efc46fea20.png"
+                },
+                "legendWeaponDamageType": "Energy",
+                "legendWeaponDamageElement": "Solar",
                 "masterworkData": {
                     "name": "Handling",
                     "description": "The speed with which the weapon can be readied and aimed.",
@@ -743,10 +743,10 @@
                 "statRolls": [],
                 "weaponPerks": [
                     {
-                        "name": "Chambered Compensator",
-                        "description": "Stable barrel attachment.\n  \u2022  Increases stability\n  \u2022  Moderately controls recoil\n  \u2022  Slightly decreases handling speed",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/376aa9bd8c392567f501012fc3b3d4d0.png",
-                        "hashID": 3661387068,
+                        "name": "Extended Barrel",
+                        "description": "Weighty barrel extension.\n  \u2022  Increases range\n  \u2022  Decreases handling speed\n  \u2022  Moderately controls recoil",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/7c81469db03f7111f8d248b54c83d7cf.png",
+                        "hashID": 1467527085,
                         "weaponHash": 3473290087,
                         "isPerk": true,
                         "isFavorablePerk": false
@@ -761,10 +761,10 @@
                         "isFavorablePerk": true
                     },
                     {
-                        "name": "Genesis",
-                        "description": "Breaking a combatant's shield with this weapon fills its magazine from reserves. Energy weapons regenerate ammo on hit when matching the damage type to the combatant's shield.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/e52e3441db003abe3aa2b8a2f7fda730.png",
-                        "hashID": 3096702027,
+                        "name": "Lead from Gold",
+                        "description": "Picking up Heavy ammo also grants ammo to this weapon.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/f271b1b0d4ae393cce12eb7c305f8d12.png",
+                        "hashID": 1556840489,
                         "weaponHash": 3473290087,
                         "isPerk": true,
                         "isFavorablePerk": false
@@ -806,24 +806,24 @@
         ],
         "Warlock": {
             "Helmet": {
-                "name": "Lightkin Cover",
+                "name": "Seventh Seraph Hood",
                 "type": "Legendary Helmet",
                 "description": "",
-                "lore": "\"It has been a long time since Eliksni looked up at the Great Machine with hope. It is an honor to live in this moment.\" \u2014Mithrax",
-                "ExtLore": "\"There is nothing here, and I have no fear of nothing.\"\n\nThe Splicer saw herself in a hundred places at once, then chose her favorite.",
-                "itemHash": "1245678091",
+                "lore": "\"How many of these damn things are there?\"  \u2014First Lieutenant Artur Voronin",
+                "ExtLore": "Chapter 1: Out for Delivery\n\nVoronin nearly dropped the munitions he was carrying, which would have been a disaster for everyone in the vicinity. Certainly not as bad as whatever calamity they were prepping for, but bad enough to warrant the panic that coursed through his body. He hated these kinds of assignments.\n\n\"Hey, Morozova!\" Voronin called out to his ranking officer between heavy gasps. \"Any idea where all these are going?\"\n\nMorozova carefully placed her container on the ground, as if she was laying a child to bed. \"No clue. Word just came from on high to double-time it, though. Something about Titan has got everyone spooked.\"\n\nVoronin removed his helmet and wiped the sweat from his brow. Titan? What the hell happened out there? Comms had been spotty and the orders that did get through were light on details: Procure munitions. Transpo munitions to coordinates provided. Stockpile munitions. Repeat. No HMMWVs either. This was meant to be low profile, staying off the roads.\n\nWhere was all this firepower going, and what were we going to do with it when it got there? Voronin picked up his container and his pace.\n\nHe trudged just shy of a click behind Morozova for what felt like hours. These containers were cumbersome and it was the height of the driest summer he could remember.\n\nWhen they reached their destination, they received a cursory greeting from Bykov, who was busy compiling a list of all the deliverables. Two soldiers, whom Voronin didn't recognize, were placing the containers in the mouth of a shaft that protruded from the ground. One punched in a command and the shipment vanished below the surface with a hollow pneumatic \"whoomp.\"\n\n\"Where does that go?\" Voronin asked. Bykov's brows drew together and his expression hardened. He returned to his list.\n\n\"Ready for the next round?\" Morozova posed with more spunk than Voronin could muster in a year.\n\n\"If we must.\"\n\nThe sky grew gray, and clouds formed overhead as they left. Procure, repeat.",
+                "itemHash": "1790943181",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/45093ae284cdc3504fd025fbc82d4e57.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/b20e30f35eed5d9df5446d9cf7a6d342.jpg",
                 "rarity": "Legendary",
                 "class": 2,
                 "statRolls": [
-                    56,
-                    12,
-                    2,
-                    16,
+                    63,
+                    7,
+                    20,
                     6,
-                    18,
-                    2
+                    11,
+                    2,
+                    17
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -833,24 +833,24 @@
                 "masterworkData": null
             },
             "Arms": {
-                "name": "Lightkin Gloves",
+                "name": "Seventh Seraph Gloves",
                 "type": "Legendary Gauntlets",
                 "description": "",
-                "lore": "\"I got no qualms with them shackin' up here, but you ask me, they're wild for lookin' up to that big ball in the sky again. Didn't end well the last time around. Fool me once and all that.\" \u2014The Drifter",
-                "ExtLore": "\"I can see the Light. I can feel its heat.\"\n\nThe Splicer drew the shivering hatchlings close, and they stretched as though they sat before a hearth.",
-                "itemHash": "3862902650",
+                "lore": "Not far now.",
+                "ExtLore": "Chapter 3: For a Friend\n\nVoronin found cover under uprooted trees and demolished vehicles as he made his way through the catastrophic weather. He could hardly believe he was still alive, bearing witness to the end of all things.\n\nThe storm encompassed the station, under siege from the elements. Civilians were being ushered toward the SMILE pods in droves as the lightning made its presence felt, igniting a nearby fuel supply. The explosion tore into the group, and as Voronin turned his head from the horror and the heat, he saw her. Roughly 250 meters away from the station. Morozova lay, singed and smoking, under rubble and ash.\n\nVoronin pulled up his sensorium, but the electromagnetic fields in the air reduced it to static. There was no way to know if she was still alive or salvageable. She had treated him with respect despite outranking him, and she had been there for him when his marriage went to hell\u2014\n\n\"We're all dead anyway,\" he thought and ran to her through the maelstrom of lightning and wind.\n\nAnd then he was there, pulling off his gloves and wiping ash and blood from her face, as the storm bore down upon him.\n\nAs he made peace with his mortality, just shy of 82 years old, the storm around them calmed. The lightning stopped. The wind died. At the station, the civilians' eyes were fixed on the sky, though Voronin was looking only at Morozova. She was breathing, barely. Her eyes opened and met his. A half-smile came across her lips, then froze as her eyes went past him and widened in awe.\n\nVoronin turned and found himself staring into the face of God.",
+                "itemHash": "2443609020",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/2de542cbf9f62de4993a33952bcfd6e9.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/8011fea65192a2b9b347a0dc322552f1.jpg",
                 "rarity": "Legendary",
                 "class": 2,
                 "statRolls": [
                     61,
+                    10,
+                    18,
+                    2,
                     14,
-                    12,
-                    2,
-                    22,
-                    2,
-                    9
+                    7,
+                    10
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -860,14 +860,14 @@
                 "masterworkData": null
             },
             "Chest": {
-                "name": "Lightkin Robes",
+                "name": "Seventh Seraph Robes",
                 "type": "Legendary Chest Armor",
                 "description": "",
-                "lore": "\"I once defended this city from the Fallen. As did many Lights no longer with us today. Now these walls shelter the House of Light. I could be bitter\u2026 but there's something poetic in that.\" \u2014Lord Shaxx",
-                "ExtLore": "\"I contain the stars, the sky, the clouds above.\"\n\nHis Gauntlet sprang to life, and the sky moved through him.",
-                "itemHash": "2146386894",
+                "lore": "Bereft of guidance and sanctuary.",
+                "ExtLore": "Chapter 2: Crashes\n\nThe first bolt of lightning sent static up Voronin's arm and filled the atmosphere around him with a pungent chlorine-like smell. His hand went to his chest without thinking, as if to make sure he was fully intact. His gaze shifted as a second bolt hit the ground near him, then another. He had never seen lightning so close before. Stunned, he stood his ground; while part of him knew he should be frightened for his life, he was more perplexed than afraid.\n\nThere was no rain. He looked toward the horizon, expecting clouds, expecting something, and only saw a shimmering curtain of blue lightning sifting toward him.\n\nHe raced for shelter in the surrounding field, abandoning his munitions container in the dust kicked up by his fevered stride. The strikes razed the ground, sparking wildfires and scorching stone. There was no logic to their timing, with bolts crashing so frequently, the sound of the thunder couldn't catch up.\n\nHe'd lost Morozova in the commotion. Already drained from hours spent hauling cargo, his mind recessed into primal instinct. RUN.\n\nSo he ran, doing his best to avoid the apocalypse that surrounded him. A call came through his earpiece as the ground quaked beneath him: \"\u2026 auxiliary evac station\u2026\" was all he could make out before a roar of thunder swallowed the transmission.\n\nHe knew he needed to head west toward the station. The wind picked up and blew him off his feet, and again he felt a moment of sheer amazement at the storm's sudden ferocity. He hit the ground hard and checked his sensorium. It was scrambled from all the sinuous electricity undulating through the air, but he could just barely make out his compass. West. He ran.",
+                "itemHash": "2503153700",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/7f20b3216a42f37f4b875303b8e2733e.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/62070ec88aeb3de7520257a3a576cf4d.jpg",
                 "rarity": "Legendary",
                 "class": 2,
                 "statRolls": [
@@ -875,8 +875,8 @@
                     25,
                     2,
                     2,
-                    16,
-                    2,
+                    12,
+                    6,
                     12
                 ],
                 "weaponPerks": [],
@@ -887,24 +887,24 @@
                 "masterworkData": null
             },
             "Legs": {
-                "name": "Lightkin Boots",
+                "name": "Seventh Seraph Boots",
                 "type": "Legendary Leg Armor",
                 "description": "",
-                "lore": "\"With the arrival of the Pyramids, and now these Eliksni joining us in the Last City, I can't help but feel like we haven't ever truly understood the war we're fighting. But I believe we are learning quickly now.\" \u2014Commander Zavala",
-                "ExtLore": "\"I can find peace in the silence.\"\n\nThey saw movement from within the ice and noticed the Splicer's eyes were following them.",
-                "itemHash": "1248864692",
+                "lore": "Salvation, at last.",
+                "ExtLore": "Chapter 4: Face to Face\n\nVoronin's mouth hung agape. His lungs forgot how to breathe. His heart rate accelerated, his stomach turned, and he weakly wondered if this was his transition to the afterlife. Somehow he found his footing and stood.\n\nThe Traveler, they called it. He had heard the stories from throughout the system, but never did he think he would live to see it. Now it was as though it was seeing him.\n\nHe took a step forward as if it would bring him closer to the oblate spheroid in the sky above him. He stumbled. The ground had gotten so hot under him, the rubber on his boots had melted. A banal thought cut through his awe\u2014\"Now I look like a fool in front of the Traveler\"\u2014and he was ashamed.\n\n\nThe sound of cracking thunder still echoed in the distance. That was when he noticed he was in the eye of the storm. It was wailing all around him, but calm in his general circumference. Surely this was the Traveler's doing. The great savior. He grabbed Morozova, unsure of how long this would last, and brought her to her feet. She was badly injured, bleeding from a wound on her leg.\n\n\"Stay with me.\" He said to Morozova and the Traveler at once. Only one of them listened. The Traveler was on the move, and the storm was returning.",
+                "itemHash": "1829417670",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/2b11c0cf39c71614a5e97862c4160020.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/05bbbc33ba8be5c7e56b5bac4b5fb492.jpg",
                 "rarity": "Legendary",
                 "class": 2,
                 "statRolls": [
-                    61,
-                    10,
+                    62,
                     2,
-                    20,
                     12,
-                    15,
-                    2
+                    18,
+                    9,
+                    14,
+                    7
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -914,14 +914,14 @@
                 "masterworkData": null
             },
             "Class Item": {
-                "name": "Lightkin Bond",
+                "name": "Seventh Seraph Bond",
                 "type": "Legendary Warlock Bond",
                 "description": "",
-                "lore": "\"My parents walked a hard road to get me to the Last City safely. They paid the price too. These Eliksni may be outsiders, but I see something familiar in 'em. Loss. Pain. Hope.\" \u2014Amanda Holliday",
-                "ExtLore": "// VANNET // CIVILIAN TERMINAL // ENCRYPTION ENABLED //\n\n// TRANSMISSION ORIGIN: EUROPA //\n\n// AUDIO CONVERSATION LOG\u2014TRANSLATION MODULE ACTIVE //\n\n// USER: @BOTZA-GUEST //\n\n// USER: @EURFOB //\n\n:: Thank you for using VANNET ::\n\n:: Your conversation may be recorded ::\n\n:: Connecting you with your party // EUROPA1@JOVIANFOB ::\n\n----------\n\n@EURFOB: Misraakskel knows what time it is on Europa, yes?\n\n@BOTZA-GUEST: My apologies, Variks.\n\n@EURFOB: No apologies. Own choices, yes? Do better.\n\n@EURFOB: What is Misraakskel seeking?\n\n@BOTZA-GUEST: Perspective.\n\n@EURFOB: [insect-like chattering]\n\n@BOTZA-GUEST:  I know. I am finding myself at odds with an Exo, a leader of humanity. She does not trust our kind, and I fear what may come of her intolerance.\n\n@EURFOB: Trust is earned, yes?\n\n@BOTZA-GUEST: This is different. Blunt. Cold.\n\n@BOTZA-GUEST: She does not wish to give trust. There is no transaction. Just\u2026 anger.\n\n@EURFOB: Variks knows this. Variks also remembers Misraakskel as a soft-shelled hatchling, always mewling. Always wishing to make friends, even with the older Dregs who would push him over.\n\n@EURFOB: Misraakskel, always trying.\n\n@BOTZA-GUEST: Is peace not worth trying for?\n\n@EURFOB: With those who accept peace in their hearts? Yes.\n\n@EURFOB: Some only know war. Only want war.\n\n@EURFOB: Not all battles can be won with words.\n\n@BOTZA-GUEST: Then, what? I cannot strike at her. It would confirm all of the Humans' worst fears.\n\n@EURFOB: This is where Misraakskel and Variks differ. But perhaps\u2026 also where we are similar.\n\n@EURFOB: Do you trust any of the Humans?\n\n@BOTZA-GUEST: Yes. Some.\n\n@EURFOB: With your life?\n\n[long silence]\n\n@BOTZA-GUEST: Some.\n\n@EURFOB: There is Misraakskel's perspective.\n\n@BOTZA-GUEST: Thank you, Variks.\n\n@EURFOB: Do not thank Variks yet. The day is long, but the night is longer.",
-                "itemHash": "2888835735",
+                "lore": "\"You can't leave me. Not like this.\" \u2014First Lieutenant Artur Voronin",
+                "ExtLore": "Chapter 5: Abhorrent Imperative\n\nVoronin tied his armband tight around her calf to cut off the blood flow from Morozova's gaping wound. He tried to keep her leg clean while the wind caked them with dirt and debris. Lightning was drawing closer. The sterile scent of ozone had returned and he knew he didn't have much time. \"COME BACK!\" he shouted hopelessly to the God. He hoisted Morozova up, supporting her on his shoulder, and pushed back against the elements that were conspiring against him.\n\nIt was 250 meters to the evac station. Every step was a battle of attrition. At this point, the thought of coldsleep sounded comforting. He just had to make it to the SMILE pods. The storm had other plans. A nearby HMMWV was struck by a wayward bolt and the explosion threw them back. He felt Morozova torn from his side as he landed, and the sound of his skull hitting stone was louder than the thunder had been. As blackness crept into his vision, he saw the Traveler in the sky, moving away, abandoning him.\n\n\u2026and then he was being dragged from the wreckage and violence onto a gurney. \"\u2026Morozova?\" he struggled out. He was met with an oxygen mask. His eyes darted, in search of some sign that Morozova was alive. Voronin couldn't decipher anything out of the pandemonium around him. \"I'm sorry,\" he thought to himself while cursing the orb in the sky for deserting him.\n\nThe last thing he remembered before they placed him into coldsleep was an explosion in the sky so bright it blinded him.",
+                "itemHash": "3246983801",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/e11b692ed40d761a6f960f3750e6b49e.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/c749042b3e2a902568f54bd0dff612b6.jpg",
                 "rarity": "Legendary",
                 "class": 2,
                 "statRolls": [
@@ -943,24 +943,24 @@
         },
         "Hunter": {
             "Helmet": {
-                "name": "Lightkin Mask",
+                "name": "Seventh Seraph Cowl",
                 "type": "Legendary Helmet",
                 "description": "",
-                "lore": "\"A Sacred Splicer can change much, but I never dreamed our lives would change so quickly.\" \u2014Mithrax",
-                "ExtLore": "\"A single moment of calm is all I need.\"\n\nHe drew his Gauntlet tight to his chest, and in his next breath, he was alone with his target.",
-                "itemHash": "30472172",
+                "lore": "\"How many of these damn things are there?\"  \u2014First Lieutenant Artur Voronin",
+                "ExtLore": "Chapter 1: Out for Delivery\n\nVoronin nearly dropped the munitions he was carrying, which would have been a disaster for everyone in the vicinity. Certainly not as bad as whatever calamity they were prepping for, but bad enough to warrant the panic that coursed through his body. He hated these kinds of assignments.\n\n\"Hey, Morozova!\" Voronin called out to his ranking officer between heavy gasps. \"Any idea where all these are going?\"\n\nMorozova carefully placed her container on the ground, as if she was laying a child to bed. \"No clue. Word just came from on high to double-time it, though. Something about Titan has got everyone spooked.\"\n\nVoronin removed his helmet and wiped the sweat from his brow. Titan? What the hell happened out there? Comms had been spotty and the orders that did get through were light on details: Procure munitions. Transpo munitions to coordinates provided. Stockpile munitions. Repeat. No HMMWVs either. This was meant to be low profile, staying off the roads.\n\nWhere was all this firepower going, and what were we going to do with it when it got there? Voronin picked up his container and his pace.\n\nHe trudged just shy of a click behind Morozova for what felt like hours. These containers were cumbersome and it was the height of the driest summer he could remember.\n\nWhen they reached their destination, they received a cursory greeting from Bykov, who was busy compiling a list of all the deliverables. Two soldiers, whom Voronin didn't recognize, were placing the containers in the mouth of a shaft that protruded from the ground. One punched in a command and the shipment vanished below the surface with a hollow pneumatic \"whoomp.\"\n\n\"Where does that go?\" Voronin asked. Bykov's brows drew together and his expression hardened. He returned to his list.\n\n\"Ready for the next round?\" Morozova posed with more spunk than Voronin could muster in a year.\n\n\"If we must.\"\n\nThe sky grew gray, and clouds formed overhead as they left. Procure, repeat.",
+                "itemHash": "2234841490",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/983fc844bd8b30c28a500b172041c35a.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/c21108959f8cfc04c1d2f55fb0d29a3c.jpg",
                 "rarity": "Legendary",
                 "class": 1,
                 "statRolls": [
-                    57,
+                    58,
+                    8,
+                    8,
+                    16,
+                    12,
                     2,
-                    13,
-                    14,
-                    14,
-                    7,
-                    7
+                    12
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -970,24 +970,24 @@
                 "masterworkData": null
             },
             "Arms": {
-                "name": "Lightkin Grips",
+                "name": "Seventh Seraph Grips",
                 "type": "Legendary Gauntlets",
                 "description": "",
-                "lore": "\"Long as they don't cross me, I'm everybody's friend. Thing is, I feel like I get crossed more'n most.\" \u2014The Drifter",
-                "ExtLore": "\"I am alight, but I will not be consumed.\"\n\nThe Splicer envisioned the fire in his hand, and he closed his fist around it.",
-                "itemHash": "3479737253",
+                "lore": "Not far now.",
+                "ExtLore": "Chapter 3: For a Friend\n\nVoronin found cover under uprooted trees and demolished vehicles as he made his way through the catastrophic weather. He could hardly believe he was still alive, bearing witness to the end of all things.\n\nThe storm encompassed the station, under siege from the elements. Civilians were being ushered toward the SMILE pods in droves as the lightning made its presence felt, igniting a nearby fuel supply. The explosion tore into the group, and as Voronin turned his head from the horror and the heat, he saw her. Roughly 250 meters away from the station. Morozova lay, singed and smoking, under rubble and ash.\n\nVoronin pulled up his sensorium, but the electromagnetic fields in the air reduced it to static. There was no way to know if she was still alive or salvageable. She had treated him with respect despite outranking him, and she had been there for him when his marriage went to hell\u2014\n\n\"We're all dead anyway,\" he thought and ran to her through the maelstrom of lightning and wind.\n\nAnd then he was there, pulling off his gloves and wiping ash and blood from her face, as the storm bore down upon him.\n\nAs he made peace with his mortality, just shy of 82 years old, the storm around them calmed. The lightning stopped. The wind died. At the station, the civilians' eyes were fixed on the sky, though Voronin was looking only at Morozova. She was breathing, barely. Her eyes opened and met his. A half-smile came across her lips, then froze as her eyes went past him and widened in awe.\n\nVoronin turned and found himself staring into the face of God.",
+                "itemHash": "2701297915",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/f9a93f1036c62814c97ac873968d5450.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/c0820c5f06024564a0dcc313122bcc6b.jpg",
                 "rarity": "Legendary",
                 "class": 1,
                 "statRolls": [
-                    67,
-                    7,
-                    20,
-                    6,
-                    12,
+                    63,
+                    2,
                     16,
-                    6
+                    13,
+                    8,
+                    9,
+                    15
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -997,24 +997,24 @@
                 "masterworkData": null
             },
             "Chest": {
-                "name": "Lightkin Vest",
+                "name": "Seventh Seraph Vest",
                 "type": "Legendary Chest Armor",
                 "description": "",
-                "lore": "\"A shield does as much damage as a sword if it is not protecting what you hold dear.\" \u2014Lord Shaxx",
-                "ExtLore": "\"Even in the dark, I still feel the spark of life within me.\"\n\nHis Gauntlet roared as he drew a wide circle in the air, and the rains began to fall.",
-                "itemHash": "3436655867",
+                "lore": "Bereft of guidance and sanctuary.",
+                "ExtLore": "Chapter 2: Crashes\n\nThe first bolt of lightning sent static up Voronin's arm and filled the atmosphere around him with a pungent chlorine-like smell. His hand went to his chest without thinking, as if to make sure he was fully intact. His gaze shifted as a second bolt hit the ground near him, then another. He had never seen lightning so close before. Stunned, he stood his ground; while part of him knew he should be frightened for his life, he was more perplexed than afraid.\n\nThere was no rain. He looked toward the horizon, expecting clouds, expecting something, and only saw a shimmering curtain of blue lightning sifting toward him.\n\nHe raced for shelter in the surrounding field, abandoning his munitions container in the dust kicked up by his fevered stride. The strikes razed the ground, sparking wildfires and scorching stone. There was no logic to their timing, with bolts crashing so frequently, the sound of the thunder couldn't catch up.\n\nHe'd lost Morozova in the commotion. Already drained from hours spent hauling cargo, his mind recessed into primal instinct. RUN.\n\nSo he ran, doing his best to avoid the apocalypse that surrounded him. A call came through his earpiece as the ground quaked beneath him: \"\u2026 auxiliary evac station\u2026\" was all he could make out before a roar of thunder swallowed the transmission.\n\nHe knew he needed to head west toward the station. The wind picked up and blew him off his feet, and again he felt a moment of sheer amazement at the storm's sudden ferocity. He hit the ground hard and checked his sensorium. It was scrambled from all the sinuous electricity undulating through the air, but he could just barely make out his compass. West. He ran.",
+                "itemHash": "4224643669",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/85337b52424d90ba4cd94b815c7cc00b.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/1bb28d8c468070aa13be3d472bd6dd5d.jpg",
                 "rarity": "Legendary",
                 "class": 1,
                 "statRolls": [
-                    57,
-                    8,
-                    12,
-                    9,
-                    12,
+                    60,
                     2,
-                    14
+                    9,
+                    19,
+                    17,
+                    7,
+                    6
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -1024,23 +1024,23 @@
                 "masterworkData": null
             },
             "Legs": {
-                "name": "Lightkin Strides",
+                "name": "Seventh Seraph Strides",
                 "type": "Legendary Leg Armor",
                 "description": "",
-                "lore": "\"I was asked if the City would protect the Traveler. I replied it is the Traveler who protects the City.\" \u2014Commander Zavala",
-                "ExtLore": "\"Amidst the chaos, I am a reservoir of silence.\"\n\nThe Splicer focused on her breathing, seized a moment of quiet, and sent it billowing across the battlefield.",
-                "itemHash": "3827066919",
+                "lore": "Salvation, at last.",
+                "ExtLore": "Chapter 4: Face to Face\n\nVoronin's mouth hung agape. His lungs forgot how to breathe. His heart rate accelerated, his stomach turned, and he weakly wondered if this was his transition to the afterlife. Somehow he found his footing and stood.\n\nThe Traveler, they called it. He had heard the stories from throughout the system, but never did he think he would live to see it. Now it was as though it was seeing him.\n\nHe took a step forward as if it would bring him closer to the oblate spheroid in the sky above him. He stumbled. The ground had gotten so hot under him, the rubber on his boots had melted. A banal thought cut through his awe\u2014\"Now I look like a fool in front of the Traveler\"\u2014and he was ashamed.\n\n\nThe sound of cracking thunder still echoed in the distance. That was when he noticed he was in the eye of the storm. It was wailing all around him, but calm in his general circumference. Surely this was the Traveler's doing. The great savior. He grabbed Morozova, unsure of how long this would last, and brought her to her feet. She was badly injured, bleeding from a wound on her leg.\n\n\"Stay with me.\" He said to Morozova and the Traveler at once. Only one of them listened. The Traveler was on the move, and the storm was returning.",
+                "itemHash": "1151338093",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/9d4c9d432082d8baa760f2d4b6720932.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/aef3af7d6885a820114f6b8549bc1391.jpg",
                 "rarity": "Legendary",
                 "class": 1,
                 "statRolls": [
-                    63,
-                    15,
+                    61,
                     2,
-                    15,
+                    2,
+                    29,
+                    20,
                     6,
-                    23,
                     2
                 ],
                 "weaponPerks": [],
@@ -1051,14 +1051,14 @@
                 "masterworkData": null
             },
             "Class Item": {
-                "name": "Lightkin Cloak",
+                "name": "Seventh Seraph Cloak",
                 "type": "Legendary Hunter Cloak",
                 "description": "",
-                "lore": "\"The way folks act toward the Eliksni shows you who they really are. Not sure if that's the worst or best part of this.\" \u2014Amanda Holliday",
-                "ExtLore": "// VANNET // CIVILIAN TERMINAL // ENCRYPTION ENABLED //\n\n// TRANSMISSION ORIGIN: EUROPA //\n\n// AUDIO CONVERSATION LOG\u2014TRANSLATION MODULE ACTIVE //\n\n// USER: @BOTZA-GUEST //\n\n// USER: @EURFOB //\n\n:: Thank you for using VANNET ::\n\n:: Your conversation may be recorded ::\n\n:: Connecting you with your party // EUROPA1@JOVIANFOB ::\n\n----------\n\n@BOTZA-GUEST: Light grace you. \n\n@EURFOB: Variks is relieved to hear you, Misraaks. You are there, beneath the Great Machine?\n\n@BOTZA-GUEST: Yes. Without your assistance, we would never have survived the Vex attack.\n\n@EURFOB: This is clear. And from this gratitude, you now speak in Human language during private correspondence? \n\n@BOTZA-GUEST: I follow custom, and I do not wish my hosts to think I hide my words from them.\n\n@EURFOB: How gracious. But Vex attacking you when House Salvation did? Curious, yes?\n\n@BOTZA-GUEST: I have not had much time to ponder it. \n\n@EURFOB:  How are the survivors? The hatchlings? Your daughter?\n\n@BOTZA-GUEST: They are all well. Eido is excited beyond words. She has dreamed of this day, but never believed it would come.\n\n@BOTZA-GUEST: Why did you not come with us?\n\n@EURFOB: The Great Machine has no business with Variks. Besides, who would keep an eye on Eramis?\n\n@BOTZA-GUEST: I thought she\u2014\n\n@EURFOB: Always the hatchling. Nothing is forever.\n\n@EURFOB: We know this.\n\n[long silence]\n\n@BOTZA-GUEST: I must go, Variks. There is much to do. \n\n@EURFOB: Walk quietly in your own shadow, Misraakskel.",
-                "itemHash": "1793372050",
+                "lore": "\"You can't leave me. Not like this.\" \u2014First Lieutenant Artur Voronin",
+                "ExtLore": "Chapter 5: Abhorrent Imperative\n\nVoronin tied his armband tight around her calf to cut off the blood flow from Morozova's gaping wound. He tried to keep her leg clean while the wind caked them with dirt and debris. Lightning was drawing closer. The sterile scent of ozone had returned and he knew he didn't have much time. \"COME BACK!\" he shouted hopelessly to the God. He hoisted Morozova up, supporting her on his shoulder, and pushed back against the elements that were conspiring against him.\n\nIt was 250 meters to the evac station. Every step was a battle of attrition. At this point, the thought of coldsleep sounded comforting. He just had to make it to the SMILE pods. The storm had other plans. A nearby HMMWV was struck by a wayward bolt and the explosion threw them back. He felt Morozova torn from his side as he landed, and the sound of his skull hitting stone was louder than the thunder had been. As blackness crept into his vision, he saw the Traveler in the sky, moving away, abandoning him.\n\n\u2026and then he was being dragged from the wreckage and violence onto a gurney. \"\u2026Morozova?\" he struggled out. He was met with an oxygen mask. His eyes darted, in search of some sign that Morozova was alive. Voronin couldn't decipher anything out of the pandemonium around him. \"I'm sorry,\" he thought to himself while cursing the orb in the sky for deserting him.\n\nThe last thing he remembered before they placed him into coldsleep was an explosion in the sky so bright it blinded him.",
+                "itemHash": "3346592680",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/c1786acc4e59828a3ed904db8554829d.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/364fdb5302f2778b9d7aac662af4226d.jpg",
                 "rarity": "Legendary",
                 "class": 1,
                 "statRolls": [
@@ -1080,23 +1080,23 @@
         },
         "Titan": {
             "Helmet": {
-                "name": "Lightkin Helm",
+                "name": "Seventh Seraph Helmet",
                 "type": "Legendary Helmet",
                 "description": "",
-                "lore": "\"Even below this night, the ground has been warmed by the Great Machine.\" \u2014Mithrax",
-                "ExtLore": "\"I will focus on the emptiness.\"\n\nHer Gauntlet hummed behind her shield, and later, they would swear she walked between the bullets.",
-                "itemHash": "4129456190",
+                "lore": "\"How many of these damn things are there?\"  \u2014First Lieutenant Artur Voronin",
+                "ExtLore": "Chapter 1: Out for Delivery\n\nVoronin nearly dropped the munitions he was carrying, which would have been a disaster for everyone in the vicinity. Certainly not as bad as whatever calamity they were prepping for, but bad enough to warrant the panic that coursed through his body. He hated these kinds of assignments.\n\n\"Hey, Morozova!\" Voronin called out to his ranking officer between heavy gasps. \"Any idea where all these are going?\"\nMorozova carefully placed her container on the ground, as if she was laying a child to bed. \"No clue. Word just came from on high to double-time it, though. Something about Titan has got everyone spooked.\"\n\nVoronin removed his helmet and wiped the sweat from his brow. Titan? What the hell happened out there? Comms had been spotty and the orders that did get through were light on details: Procure munitions. Transpo munitions to coordinates provided. Stockpile munitions. Repeat. No HMMWVs either. This was meant to be low profile, staying off the roads.\n\nWhere was all this firepower going, and what were we going to do with it when it got there? Voronin picked up his container and his pace.\n\nHe trudged just shy of a click behind Morozova for what felt like hours. These containers were cumbersome and it was the height of the driest summer he could remember.\n\nWhen they reached their destination, they received a cursory greeting from Bykov, who was busy compiling a list of all the deliverables. Two soldiers, whom Voronin didn't recognize, were placing the containers in the mouth of a shaft that protruded from the ground. One punched in a command and the shipment vanished below the surface with a hollow pneumatic \"whoomp.\"\n\n\"Where does that go?\" Voronin asked. Bykov's brows drew together and his expression hardened. He returned to his list.\n\n\"Ready for the next round?\" Morozova posed with more spunk than Voronin could muster in a year.\n\n\"If we must.\"\n\nThe sky grew gray, and clouds formed overhead as they left. Procure, repeat.",
+                "itemHash": "2021231310",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/ad8917bd37dafc0b98a7da22d1fd79cc.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/c863d293eb94a68b62c714cdf21abc1f.jpg",
                 "rarity": "Legendary",
                 "class": 0,
                 "statRolls": [
-                    60,
+                    62,
                     8,
                     16,
                     8,
+                    16,
                     12,
-                    14,
                     2
                 ],
                 "weaponPerks": [],
@@ -1107,24 +1107,24 @@
                 "masterworkData": null
             },
             "Arms": {
-                "name": "Lightkin Gauntlets",
+                "name": "Seventh Seraph Gauntlets",
                 "type": "Legendary Gauntlets",
                 "description": "",
-                "lore": "\"Enemies become allies, that's just how it goes. Hell, most of my dearest friends killed me at one point or another!\" \u2014The Drifter",
-                "ExtLore": "\"The flame of my will cannot be quenched.\"\n\nThe Splicer rose to her feet again, somehow stronger than before.",
-                "itemHash": "3399325807",
+                "lore": "Not far now.",
+                "ExtLore": "Chapter 3: For a Friend\n\nVoronin found cover under uprooted trees and demolished vehicles as he made his way through the catastrophic weather. He could hardly believe he was still alive, bearing witness to the end of all things.\n\nThe storm encompassed the station, under siege from the elements. Civilians were being ushered toward the SMILE pods in droves as the lightning made its presence felt, igniting a nearby fuel supply. The explosion tore into the group, and as Voronin turned his head from the horror and the heat, he saw her. Roughly 250 meters away from the station. Morozova lay, singed and smoking, under rubble and ash.\n\nVoronin pulled up his sensorium, but the electromagnetic fields in the air reduced it to static. There was no way to know if she was still alive or salvageable. She had treated him with respect despite outranking him, and she had been there for him when his marriage went to hell\u2014\n\n\"We're all dead anyway,\" he thought and ran to her through the maelstrom of lightning and wind.\n\nAnd then he was there, pulling off his gloves and wiping ash and blood from her face, as the storm bore down upon him.\n\nAs he made peace with his mortality, just shy of 82 years old, the storm around them calmed. The lightning stopped. The wind died. At the station, the civilians' eyes were fixed on the sky, though Voronin was looking only at Morozova. She was breathing, barely. Her eyes opened and met his. A half-smile came across her lips, then froze as her eyes went past him and widened in awe.\n\nVoronin turned and found himself staring into the face of God.",
+                "itemHash": "3046434751",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/31cda15a5a3dc3af7c884eef1b0e4a0c.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/eabb87ec28c4bcfcdf4e713ce9914326.jpg",
                 "rarity": "Legendary",
                 "class": 0,
                 "statRolls": [
-                    59,
-                    10,
-                    2,
-                    20,
+                    56,
+                    12,
+                    6,
                     9,
-                    11,
-                    7
+                    12,
+                    9,
+                    8
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -1134,24 +1134,24 @@
                 "masterworkData": null
             },
             "Chest": {
-                "name": "Lightkin Plate",
+                "name": "Seventh Seraph Plate",
                 "type": "Legendary Chest Armor",
                 "description": "",
-                "lore": "\"We have more in common than we may realize, or be willing to admit.\" \u2014Lord Shaxx",
-                "ExtLore": "\"I am lightning, energy unbound, but directed.\"\n\nThe Splicer felt the Arc energy crackling around him and joined with it.",
-                "itemHash": "3497822409",
+                "lore": "Bereft of guidance and sanctuary.",
+                "ExtLore": "Chapter 2: Crashes\n\nThe first bolt of lightning sent static up Voronin's arm and filled the atmosphere around him with a pungent chlorine-like smell. His hand went to his chest without thinking, as if to make sure he was fully intact. His gaze shifted as a second bolt hit the ground near him, then another. He had never seen lightning so close before. Stunned, he stood his ground; while part of him knew he should be frightened for his life, he was more perplexed than afraid.\n\nThere was no rain. He looked toward the horizon, expecting clouds, expecting something, and only saw a shimmering curtain of blue lightning sifting toward him.\n\nHe raced for shelter in the surrounding field, abandoning his munitions container in the dust kicked up by his fevered stride. The strikes razed the ground, sparking wildfires and scorching stone. There was no logic to their timing, with bolts crashing so frequently, the sound of the thunder couldn't catch up.\n\nHe'd lost Morozova in the commotion. Already drained from hours spent hauling cargo, his mind recessed into primal instinct. RUN.\n\nSo he ran, doing his best to avoid the apocalypse that surrounded him. A call came through his earpiece as the ground quaked beneath him: \"\u2026 auxiliary evac station\u2026\" was all he could make out before a roar of thunder swallowed the transmission.\n\nHe knew he needed to head west toward the station. The wind picked up and blew him off his feet, and again he felt a moment of sheer amazement at the storm's sudden ferocity. He hit the ground hard and checked his sensorium. It was scrambled from all the sinuous electricity undulating through the air, but he could just barely make out his compass. West. He ran.",
+                "itemHash": "630719097",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/f2f18c9620055ca549a941349608b1bb.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/90c39420e7fc21abc1fcda952752204a.jpg",
                 "rarity": "Legendary",
                 "class": 0,
                 "statRolls": [
-                    63,
-                    6,
-                    26,
+                    64,
+                    12,
+                    20,
                     2,
-                    6,
+                    22,
                     2,
-                    21
+                    6
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -1161,24 +1161,24 @@
                 "masterworkData": null
             },
             "Legs": {
-                "name": "Lightkin Greaves",
+                "name": "Seventh Seraph Greaves",
                 "type": "Legendary Leg Armor",
                 "description": "",
-                "lore": "\"Trust is built slowly, stone by stone. Like this City.\" \u2014Commander Zavala",
-                "ExtLore": "\"I can touch the cold without letting it in.\"\n\nThe Splicer envisioned the heat of battle and drew it into himself until there was nothing left but crystalline silence.",
-                "itemHash": "3973929105",
+                "lore": "Salvation, at last.",
+                "ExtLore": "Chapter 4: Face to Face\n\nVoronin's mouth hung agape. His lungs forgot how to breathe. His heart rate accelerated, his stomach turned, and he weakly wondered if this was his transition to the afterlife. Somehow he found his footing and stood.\n\nThe Traveler, they called it. He had heard the stories from throughout the system, but never did he think he would live to see it. Now it was as though it was seeing him.\n\nHe took a step forward as if it would bring him closer to the oblate spheroid in the sky above him. He stumbled. The ground had gotten so hot under him, the rubber on his boots had melted. A banal thought cut through his awe\u2014\"Now I look like a fool in front of the Traveler\"\u2014and he was ashamed.\n\n\nThe sound of cracking thunder still echoed in the distance. That was when he noticed he was in the eye of the storm. It was wailing all around him, but calm in his general circumference. Surely this was the Traveler's doing. The great savior. He grabbed Morozova, unsure of how long this would last, and brought her to her feet. She was badly injured, bleeding from a wound on her leg.\n\n\"Stay with me.\" He said to Morozova and the Traveler at once. Only one of them listened. The Traveler was on the move, and the storm was returning.",
+                "itemHash": "1967684865",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/a93e81a6d8165856843f3c16d1118bd2.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/0a0d6dbc0fab4d6d28c03f11be659d44.jpg",
                 "rarity": "Legendary",
                 "class": 0,
                 "statRolls": [
-                    55,
-                    9,
-                    2,
-                    17,
-                    13,
+                    64,
                     12,
-                    2
+                    20,
+                    2,
+                    22,
+                    2,
+                    6
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -1188,14 +1188,14 @@
                 "masterworkData": null
             },
             "Class Item": {
-                "name": "Lightkin Mark",
+                "name": "Seventh Seraph Mark",
                 "type": "Legendary Titan Mark",
                 "description": "",
-                "lore": "\"It ain't right to think wanting a better life for yourself and your kin is just a Human value.\" \u2014Amanda Holliday",
-                "ExtLore": "// VANNET // CIVILIAN TERMINAL // ENCRYPTION ENABLED //\n\n// TRANSMISSION ORIGIN: EUROPA //\n\n// CONVERSATION LOG\u2014TRANSLATION MODULE ACTIVE //\n\n// USER: @BOTZA-GUEST //\n\n// USER: @EURFOB //\n\n:: Thank you for using VANNET ::\n\n:: Your conversation may be recorded ::\n\n:: Connecting you with your party // EUROPA1@JOVIANFOB ::\n\n----------\n\n@EURFOB: Long day's grace, Misraakskel.\n\n@BOTZA-GUEST: Light bless you, Variks. Thank you for taking this time.\n\n@EURFOB: You sound troubled. Confide. Variks will listen.\n\n@BOTZA-GUEST: The Humans are\u2026 they are not as accepting as I had hoped. They cannot see us as anything but the things of their nightmares.\n\n@EURFOB: Are we not?\n\n@BOTZA-GUEST: I thought things would change.\n\n@EURFOB: Kell you may be, but you have much to learn about being a Kell yet, Misraaks. \n\n@EURFOB: Change does not come overnight. Not for Eliksni. Not for Humans. Change takes time, effort. Change hurts. Like first-molt.\n\n@BOTZA-GUEST: I suppose.\n\n@EURFOB: Suppose nothing. Misraakskel is too eager to forget the Wolves. Do you remember what it was like to kneel to the Queen of the Reef?\n\n@BOTZA-GUEST: I thought the Humans would be different.\n\n@EURFOB: Hope is hope, reality is reality. You cannot splice all things to be as you wish.\n\n@EURFOB: No shortcuts here.\n\n@EURFOB: No excuses, either. Not for Humans. Not for Eliksni.\n\n@BOTZA-GUEST: I miss your counsel. You should visit, when things calm. Stand beneath the Great Machine as you did in the time gone.\n\n@EURFOB: No.\n\n@EURFOB: No. Variks cannot. That is then. This is now. My river does not flow backwards.\n\n@BOTZA-GUEST: But\u2014\n\n@EURFOB: Enjoy your victories, Misraakskel. Do not let the pain of now overshadow the promise of tomorrow.\n\n@EURFOB: We should all be so lucky.",
-                "itemHash": "517124228",
+                "lore": "\"You can't leave me. Not like this.\" \u2014First Lieutenant Artur Voronin",
+                "ExtLore": "Chapter 5: Abhorrent Imperative\n\nVoronin tied his armband tight around her calf to cut off the blood flow from Morozova's gaping wound. He tried to keep her leg clean while the wind caked them with dirt and debris. Lightning was drawing closer. The sterile scent of ozone had returned and he knew he didn't have much time. \"COME BACK!\" he shouted hopelessly to the God. He hoisted Morozova up, supporting her on his shoulder, and pushed back against the elements that were conspiring against him.\n\nIt was 250 meters to the evac station. Every step was a battle of attrition. At this point, the thought of coldsleep sounded comforting. He just had to make it to the SMILE pods. The storm had other plans. A nearby HMMWV was struck by a wayward bolt and the explosion threw them back. He felt Morozova torn from his side as he landed, and the sound of his skull hitting stone was louder than the thunder had been. As blackness crept into his vision, he saw the Traveler in the sky, moving away, abandoning him.\n\n\u2026and then he was being dragged from the wreckage and violence onto a gurney. \"\u2026Morozova?\" he struggled out. He was met with an oxygen mask. His eyes darted, in search of some sign that Morozova was alive. Voronin couldn't decipher anything out of the pandemonium around him. \"I'm sorry,\" he thought to himself while cursing the orb in the sky for deserting him.\n\nThe last thing he remembered before they placed him into coldsleep was an explosion in the sky so bright it blinded him.",
+                "itemHash": "2369445684",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/84d3f231d0eca79e69caf34d7c2ac18e.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/ec7907dc874c360fb0fce0cf2fed83d8.jpg",
                 "rarity": "Legendary",
                 "class": 0,
                 "statRolls": [
