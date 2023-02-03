@@ -246,5 +246,5 @@ def mainloop():
     TB = main(apiKey)
     loop.run_until_complete(TB.getXurInventory(True))
 #wait for api?
-#time.sleep(15)
+time.sleep(30)
 mainloop()
