@@ -26,8 +26,23 @@ class main:
         self.membershipType = destinyMembershipType
         self.membershipId = destinyMembershipID
         self.characterIDWarlock = characterIDWarlock
-    def tweet(self,sendTweet,debugTweet):
-        
+    async def tweet(self,sendTweet,debugTweet):
+        #none checks
+        if self.exoticTitan == None:
+            print("rerunning tweet func..")
+            await self.getXurInventory(True)
+        if self.exoticWarlock == None:
+            print("rerunning tweet func..")
+            await self.getXurInventory(True)
+        if self.exoticHunter== None:
+            print("rerunning tweet func..")
+            await self.getXurInventory(True)
+        if self.exoticWeapon == None:
+            print("rerunning tweet func..")
+            await self.getXurInventory(True)
+
+
+
         locEmoji = ""
         #setup twitter auth
         auth = tweepy.OAuthHandler(consumer_key,consumer_secret)
@@ -63,7 +78,8 @@ class main:
         if(sendTweet):
             api.update_status(tweetStr)
         else:
-            print("bool is set to false.")
+            print("tweet:\n\n",tweetStr,"\n")
+            print("sendTweet bool is set to false.")
 
     def combineStats(self,itemId,jsonObj):
         statTotal = 0
@@ -138,34 +154,21 @@ class main:
                     "armorRating":None,
                 }
 
-
                 #warlock
                 if(itemClass == 2):
                     self.exoticWarlock = jsonTemp["name"]
-                    if self.exoticWarlock == None:
-                        print("retry - Warlock")
-                        await self.getXurInventory(True)
                     #self.exoticWarlockTotalStat = self.getArmorStats(self.hashIDList[i])
                 #titan
                 elif(itemClass == 0):
                     self.exoticTitan = jsonTemp["name"]
-                    if self.exoticTitan == None:
-                        print("retry - Titan")
-                        await self.getXurInventory(True)
                     #self.exoticTitanTotalStat = self.getArmorStats(self.hashIDList[i])
                 #hunter
                 elif(itemClass == 1):
                     self.exoticHunter = jsonTemp["name"]
-                    if self.exoticHunter == None:
-                        print("retry - Hunter")
-                        await self.getXurInventory(True)
                     #self.exoticHunterTotalStat = self.getArmorStats(self.hashIDList[i])
                 #weapon
                 else:
                     self.exoticWeapon = jsonTemp["name"]
-                    if self.exoticWeapon == None:
-                        print("retry - weapon")
-                        await self.getXurInventory(True)
                 jsonObj.append(jsonTemp)
 
     #get data from api
@@ -236,7 +239,7 @@ class main:
             print(f"ValueError: {e}")
             pass
         await self.parseHash()
-        self.tweet(True,debugTweet=False)
+        await self.tweet(sendTweet=True,debugTweet=False)
 
 def mainloop():
     #create and set new loop
@@ -246,5 +249,4 @@ def mainloop():
     TB = main(apiKey)
     loop.run_until_complete(TB.getXurInventory(True))
 #wait for api?
-time.sleep(10)
 mainloop()
