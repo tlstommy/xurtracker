@@ -3,6 +3,10 @@ import time
 from datetime import date,timedelta
 from credentials import * 
 
+SEND_TWEET = False;
+DEBUG_TWEET = False;
+
+
 class main:
     def __init__(self, apiKey):
         self.headerParameters = { "X-API-Key": API_KEY, "Authorization": f"Bearer {ACCESS_TOKEN}" }
@@ -239,7 +243,7 @@ class main:
             print(f"ValueError: {e}")
             pass
         await self.parseHash()
-        await self.tweet(sendTweet=True,debugTweet=False)
+        await self.tweet(sendTweet=SEND_TWEET,debugTweet=DEBUG_TWEET)
 
 def mainloop():
     #create and set new loop
