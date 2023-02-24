@@ -141,5 +141,5 @@ src/regenerateToken.py
 
 #logs
 cronlogs/*
-
+logger.txt
 *.content
