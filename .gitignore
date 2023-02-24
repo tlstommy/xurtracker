@@ -133,6 +133,7 @@ dmypy.json
 data/bearer_token.txt
 data/cert.pem
 data/key.pem
+data/sData.txt
 
 #credentials and oauth tokens
 src/credentials.py
