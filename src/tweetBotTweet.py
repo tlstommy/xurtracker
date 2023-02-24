@@ -74,6 +74,7 @@ class main:
         resetDate = resetDate.strftime("%B %d").replace(' 0', ' ')
         tweetStr = f"🌎  Xûr has arrived at the {self.location}!\n\n\n⚔️  {self.exoticWeapon}\n🛡  {self.exoticTitan}\n🛡  {self.exoticHunter}\n🛡  {self.exoticWarlock}\n\n\n\n🚀  Xûr will depart on {resetDate}.\n\nMore info at: https://xurtracker.com\n\n#Xur #Destiny  #Destiny2"
 
+        #tweetStr = "API TEST TWEET. please ignore thanks!"
         
         if(debugTweet):
             tweetStr += "\n"+str(random.random())
