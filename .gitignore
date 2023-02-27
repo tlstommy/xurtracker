@@ -143,3 +143,6 @@ src/regenerateToken.py
 cronlogs/*
 logger.txt
 *.content
+
+#config
+gunicorn.conf.py
