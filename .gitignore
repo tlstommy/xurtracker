@@ -128,6 +128,9 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+#tmp 
+
+src/tmp/*
 
 #private data and certs
 data/bearer_token.txt
