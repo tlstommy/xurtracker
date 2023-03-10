@@ -3,8 +3,8 @@ import time
 from datetime import date,timedelta
 from credentials import * 
 
-SEND_TWEET = True;
-DEBUG_TWEET = False;
+SEND_TWEET = True
+DEBUG_TWEET = False
 
 
 class main:
