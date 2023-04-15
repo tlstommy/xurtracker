@@ -77,6 +77,7 @@ class main:
         #tweetStr = "API TEST TWEET. please ignore thanks!"
         
         if(debugTweet):
+            tweetStr = "API TEST TWEET.\nplease ignore! \nthanks!"
             tweetStr += "\n"+str(random.random())
         
         #tweet

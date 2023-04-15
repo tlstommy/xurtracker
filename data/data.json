@@ -1,8 +1,8 @@
 {
-    "Location": "Arcadian Valley",
-    "Planet": "Nessus",
-    "Landing Zone": "Watcher's Grave",
-    "Week": "April 07, 2023",
+    "Location": "The Last City",
+    "Planet": "Earth",
+    "Landing Zone": "Tower Hangar",
+    "Week": "April 14, 2023",
     "Exotics": {
         "Exotic Engram": {
             "name": "Exotic Engram",
@@ -43,68 +43,59 @@
             "masterworkData": null
         },
         "Exotic Weapon": {
-            "name": "Sunshot",
-            "type": "Exotic Hand Cannon",
+            "name": "Black Talon",
+            "type": "Exotic Sword",
             "description": "",
-            "lore": "\"Can't outrun the sunrise.\" \u2014Liu Feng",
-            "ExtLore": "She bowed her head, heat shimmering from her fist. A silent salute to the Hive closing around her, their eyes forming a glowing jade ring. \n\nShe was a Sunbreaker. A mercenary from days before the City. Not like the new Lights from the Tower. She was weary. But there was no rest out here, where the City Lights didn't reach. She and her allies were committed to their arduous, solitary task. But they could always use more numbers. \n\nSometimes, they left trinkets for the City. Meant as challenge and bribe at once\u2014we offer you this. Come find us. \n\nShe had forged the Warlock gauntlets herself. Ouros laughed in her face when she told her their name. She wasn't very good at names. \n\nA gun. She would forge a gun, next. It would speak like her Hammer. And burn like fire. The ring of jade eyes closed on her. Liu Feng laughed, her arms open for a fiery embrace.",
-            "itemHash": "2907129557",
+            "lore": "\"His life brought peace to the Reef. His death brings a sword.\" \u2014Crows of the Black Hull",
+            "ExtLore": "Three months after the Taken War\u2026\n\nHallam found her in the washroom closest to the Black Hull entrance.\n\n\"We're going to be late.\"\n\nPetra sat on the sink, eyes dry, shoulders squared. \"I'm not going.\"\n\nHallam let his Paladin-straight posture relax a little. \"The Regent-Commander should probably attend the late prince's memorial. The Crows will want to see you. I hear they've commissioned a sword in his honor.\"\n\n\"If I go, it's as good as saying he's dead. As good as saying Mara's dead.\"\n\n\"Well,\" Hallam exhaled. \"Aren't they?\"\n\nPetra ground her teeth. Then: \"But I want people to believe.\"",
+            "itemHash": "3766045777",
             "itemRating": null,
-            "icon": "https://www.bungie.net/common/destiny2_content/icons/7e2480b7abb1091ad6fe981641fcfe92.jpg",
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/bf2ab15ec0780ed4e2cd2dfe193117a6.jpg",
             "rarity": "Exotic",
             "class": 3,
             "statRolls": [],
             "weaponPerks": [
                 {
-                    "name": "Sunburn",
-                    "description": "This weapon fires explosive rounds and highlights targets that take damage from Sunshot.",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/db547f33477ffb9cfc0958ce26fc213d.png",
-                    "hashID": 4045839491,
-                    "weaponHash": 2907129557,
+                    "name": "Crow's Wings",
+                    "description": "[Heavy Attack]  : Fire a heavy projectile attack. \nHeavy attacks are stronger with full energy.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/c986121b5bedadb6261d96bc51c681ad.png",
+                    "hashID": 4072668471,
+                    "weaponHash": 3766045777,
                     "isPerk": true,
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Chambered Compensator",
-                    "description": "Stable barrel attachment.\n  \u2022  Increases stability\n  \u2022  Moderately controls recoil\n  \u2022  Slightly decreases handling speed",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/376aa9bd8c392567f501012fc3b3d4d0.png",
-                    "hashID": 3661387068,
-                    "weaponHash": 2907129557,
+                    "name": "Tempered Edge",
+                    "description": "Increased sword damage and ammo.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/f4366b8df3efab997683662dfedc012a.png",
+                    "hashID": 938542991,
+                    "weaponHash": 3766045777,
                     "isPerk": true,
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Accurized Rounds",
-                    "description": "This weapon can fire longer distances.\n  \u2022  Increases range",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/05e357cd152eb0f665ee986aaa3edc56.png",
-                    "hashID": 3142289711,
-                    "weaponHash": 2907129557,
+                    "name": "Heavy Guard",
+                    "description": "Sword Guard has high overall defenses, but lowers charge rate.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/4f900a2b6e2b8d14e96e7e8afded72db.png",
+                    "hashID": 2349202967,
+                    "weaponHash": 3766045777,
                     "isPerk": true,
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Sun Blast",
-                    "description": "Targets killed with Sunshot explode in Solar energy.",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/0c3c3232c55d7847a0168c7643db2c04.png",
-                    "hashID": 4115637021,
-                    "weaponHash": 2907129557,
-                    "isPerk": true,
-                    "isFavorablePerk": false
-                },
-                {
-                    "name": "Textured Grip",
-                    "description": "The friction on this weapon's grip is particularly strong.\n  \u2022  Greatly increases handling speed\n  \u2022  Slightly decreases stability",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/cbe48e1decc292c61d296e0d3159a372.png",
-                    "hashID": 3917450714,
-                    "weaponHash": 2907129557,
+                    "name": "Tireless Blade",
+                    "description": "Sword ammo granted for every other powered sword kill.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/8d005d05d75b57fe0a78e2aa68519e68.png",
+                    "hashID": 2590710093,
+                    "weaponHash": 3766045777,
                     "isPerk": true,
                     "isFavorablePerk": false
                 }
             ],
             "exoticArmorPerk": null,
             "legendWeaponFrame": null,
-            "legendWeaponDamageType": "Energy",
-            "legendWeaponDamageElement": "Solar",
+            "legendWeaponDamageType": "Power",
+            "legendWeaponDamageElement": "Void",
             "masterworkData": null
         },
         "Hawkmoon": {
@@ -130,13 +121,13 @@
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Hammer-Forged Rifling",
-                    "description": "Durable ranged barrel.\n  \u2022  Increases range",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/9acb073d4e85160f66f0d617d210cf61.png",
-                    "hashID": 3250034553,
+                    "name": "Polygonal Rifling",
+                    "description": "Barrel optimized for recoil reduction.\n  \u2022  Increases stability",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/7cadd68b66ffd3bbedc09aa9c7ba6e03.png",
+                    "hashID": 1392496348,
                     "weaponHash": 3856705927,
                     "isPerk": true,
-                    "isFavorablePerk": true
+                    "isFavorablePerk": false
                 },
                 {
                     "name": "Alloy Magazine",
@@ -148,19 +139,19 @@
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Eye of the Storm",
-                    "description": "This weapon becomes more accurate and boosts handling as your health gets lower.",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/b7b11e976bc3f6ad84564b1d3d0d7423.png",
-                    "hashID": 699525795,
+                    "name": "Hip-Fire Grip",
+                    "description": "Increases accuracy, stability, and precision hit targeting when firing from the hip.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/9f3c3ae1bddbed21af1cc6487338028e.png",
+                    "hashID": 1866048759,
                     "weaponHash": 3856705927,
                     "isPerk": true,
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Polymer Grip",
-                    "description": "This weapon's grip is made of lighter material.\n  \u2022  Increases handling speed",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/19aebe82ba8950a933a3700f71ced472.png",
-                    "hashID": 862848869,
+                    "name": "Combat Grip",
+                    "description": "This weapon's recoil direction is more vertical.\n  \u2022  Greatly controls recoil",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/a5ff58a344799006cb7149f2ce881611.png",
+                    "hashID": 3438534621,
                     "weaponHash": 3856705927,
                     "isPerk": true,
                     "isFavorablePerk": false
@@ -195,28 +186,28 @@
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Arrowhead Brake",
-                    "description": "Lightly vented barrel.\n  \u2022  Greatly controls recoil\n  \u2022  Increases handling speed",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/7a0a23f9622636cea92387d50d368333.png",
-                    "hashID": 839105230,
+                    "name": "Fluted Barrel",
+                    "description": "Ultra-light barrel. \n  \u2022  Greatly increases handling speed\n  \u2022  Slightly increases stability",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/c2a4355c8db7eac12d6dec52d09a20fe.png",
+                    "hashID": 1840239774,
                     "weaponHash": 3654674561,
                     "isPerk": true,
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Ricochet Rounds",
-                    "description": "Rounds ricochet off hard surfaces. \n  \u2022  Increases stability \n  \u2022  Slightly increases range",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/86e63358fefcb1666160259779594592.png",
-                    "hashID": 1885400500,
+                    "name": "Armor-Piercing Rounds",
+                    "description": "Rounds cause extra damage to combatants' shields and overpenetrate targets. \n  \u2022  Slightly increases range",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/73b724a6839bb3e1db37742f7ed5249b.png",
+                    "hashID": 1968497646,
                     "weaponHash": 3654674561,
                     "isPerk": true,
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Subsistence",
-                    "description": "Defeating targets partially reloads the magazine from reserves.",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/03d774525048e5eb5b6899b37d418920.png",
-                    "hashID": 1820235745,
+                    "name": "Snapshot Sights",
+                    "description": "Faster time to aim down sights.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/49df9d90b3f27bd5ec6a9b35f4c10def.png",
+                    "hashID": 957782887,
                     "weaponHash": 3654674561,
                     "isPerk": true,
                     "isFavorablePerk": false
@@ -238,31 +229,31 @@
             "masterworkData": null
         },
         "Warlock Exotic": {
-            "name": "Transversive Steps",
-            "type": "Exotic Leg Armor",
+            "name": "Verity's Brow",
+            "type": "Exotic Helmet",
             "description": "",
-            "lore": "Your relationship with consistent spacetime is...tenuous at best.",
-            "ExtLore": "Tell me where you are! Account for Earth's rotation\u2014more than 1000 kilometers per hour\u2014your orbital velocity of 107,000 kph, your local stellar drift of 70,000 kph, your galactic orbital velocity of 792,000 kph, and our galactic drift relative to the cosmic microwave background of 1,300,000 kph. Also, account for your motion relative to me due to the accelerating expansion of space-time. \n\nDifficult, isn't it? But with the help of these handsome noetic devices you will find yourself deliciously and maddeningly aware of your ley velocities! Fired from an existence cannon through a whirling void the size of everything! \n\nAnd like any line of force, these vectors may be tapped, their obscene speeds diverted for your own use, although we recommend swapping them for comfortable boots before you socialize with the Merely Stationary.",
-            "itemHash": "138282166",
+            "lore": "\"The Hive do not see how we see. They look beyond, into the infinite. Into the dark.\"\n\n\u2014Eris Morn",
+            "ExtLore": "III: HERETIC \n\nThe Demon King's fury shook the heavens. \n\nIt was unforgivable. Oryx had communed with, consumed the worm. He was king. For Nokris to perform such a ritual was sacrilege. And to defy the Sword Logic? Heresy. \n\nNokris was cast out, his name removed from the World's Grave, the Books of Sorrow. In the king's rage, all memory of the unfavored son was obscured, all but one statue, defiant in its permanence. \n\nYet the unfavored son felt a calm. Removed from his father's kingdom, he was free. He would do what the Demon King could not. He would make his mark upon the universe. \n\nXol turned his dreadful eye to his priest. \n\n\u201cHear me, o dreadful worm. We will raise an army. We will die and be reborn in your name, feed you the souls of our enemies.\" \n\n\"State your claim.\" \n\n\"We take Mars.\"",
+            "itemHash": "2428181146",
             "itemRating": null,
-            "icon": "https://www.bungie.net/common/destiny2_content/icons/78874c268891725a68bdcc35432fec9e.jpg",
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/370fcdc370c73eb2d839253f76a1e826.jpg",
             "rarity": "Exotic",
             "class": 2,
             "statRolls": [
-                65,
-                16,
-                9,
-                7,
-                18,
+                60,
                 2,
-                13
+                19,
+                11,
+                12,
+                7,
+                9
             ],
             "weaponPerks": [],
             "exoticArmorPerk": [
                 {
-                    "name": "Strange Protractor",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/d2322bbcc6af2f2d9d96bf1c72e9957a.png",
-                    "desc": "Sprint speed increased. After a short time sprinting, your currently equipped weapon is automatically reloaded."
+                    "name": "The Fourth Magic",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/30bdc40be9ed4ea60635adade654c6b1.png",
+                    "desc": "Weapon final blows with a damage type matching your subclass energy grant Death Throes, which provides a grenade damage bonus and grants you grenade energy. When you have Death Throes and throw a grenade, nearby allies gain greatly increased grenade regeneration for a short time."
                 }
             ],
             "legendWeaponFrame": null,
@@ -271,31 +262,31 @@
             "masterworkData": null
         },
         "Hunter Exotic": {
-            "name": "The Dragon's Shadow",
-            "type": "Exotic Chest Armor",
+            "name": "Shards of Galanor",
+            "type": "Exotic Gauntlets",
             "description": "",
-            "lore": "\"It is my honor.\" \u2014Chalco Yong to Ikora Rey",
-            "ExtLore": "\"Find thy self.\" \u2014first dictate, first calling, The Hidden \n\"Know thy self.\" \u2014second dictate, first calling, The Hidden \n\"Destroy thy self.\" \u2014third dictate, first calling, The Hidden \n\"Shed thy self.\" \u2014fourth dictate, first calling, The Hidden \n\"Embrace a new skin.\" \u2014fifth dictate, first calling, The Hidden \n\"Become the many.\" \u2014sixth dictate, first calling, The Hidden \n\"We are as unseen. We are as death.\" \u2014final dictate, first calling, The Hidden",
-            "itemHash": "2766109874",
+            "lore": "\"Galanor is beyond my skill to repair.\"\n\"\u2026I can work with this.\"",
+            "ExtLore": "The Sword of Galanor: A Selected Bibliography\n\n\"The Blade of Cutting Flame,\" The Folktales of Mars, ed. Hoell Gar.\n\n\"\u2026and in the center of the pool was a creature of bronze and rust, with the head of a lizard and the body of a Human. Rust had fixed it in a position of supplication, with Galanor upon its upraised palms\u2026\"\n\n\"The Alliterative Galanor,\" Engram Orion 23.3.6.\n\n\"\u2026beneath the weeping way he waded/ face full of fire and fleeting fever/ as he gazed upon the gleaming Galanor\u2026\"\n\nA Theory of Golden Age Supermetals. Vivian Weyland.\n\n\"\u2026a means of printing sheets of carbon fiber threaded with veins of superhot liquid metal, resulting in a heat-conductive material that is still highly durable. Though its existence is generally accepted, the means by which it can be created or repaired are still lost to us\u2026\"\n\n\"Analysis of Venusian Salvage Dindrane-43-59,\" Cryptarch Yareli.\n\n\"\u2026an experimental satellite probe capable of entering the upper mantle of yellow stars, called Galaxy North, or known by the abbreviation GalaNor\u2026\"",
+            "itemHash": "691578979",
             "itemRating": null,
-            "icon": "https://www.bungie.net/common/destiny2_content/icons/5501d47a7916022c737494682c0c73ec.jpg",
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/3c9400f304fc1d7976d6f6784b21b85f.jpg",
             "rarity": "Exotic",
             "class": 1,
             "statRolls": [
-                64,
+                63,
+                3,
+                11,
+                19,
                 17,
-                10,
-                6,
-                14,
-                15,
+                11,
                 2
             ],
             "weaponPerks": [],
             "exoticArmorPerk": [
                 {
-                    "name": "Wraithmetal Mail",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/eacc7db368ca99d8fb1df8f860d11303.png",
-                    "desc": "Dodging reloads all weapons and increases both movement and weapon handling speeds for a brief time."
+                    "name": "Sharp Edges",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/052164f598ff1e351cf8f7d12990f04e.png",
+                    "desc": "Hits and kills with Blade Barrage will return Super energy after the Super ends."
                 }
             ],
             "legendWeaponFrame": null,
@@ -304,31 +295,31 @@
             "masterworkData": null
         },
         "Titan Exotic": {
-            "name": "Helm of Saint-14",
-            "type": "Exotic Helmet",
+            "name": "Antaeus Wards",
+            "type": "Exotic Leg Armor",
             "description": "",
-            "lore": "\"He walked out into the demon light. But at the end he was brighter.\" \u2014Paean to Saint-14",
-            "ExtLore": "//AUDIO UNAVAILABLE//\n//MAINTENANCE FRAME TRANSCRIPT FOLLOWS//\nSX: You know what they say about Titans.\nC6: They're loud and abrasive?\nSX: The good ones are all dead.\nC6: You don't know that Saint is dead.\nSX: The greatest Titan who ever lived just disappeared. Call it a hunch.\n[A generator roars.]\nC6: No one ever put down a Kell faster than he could. But man, he was a real weirdo.\nSX: Eccentricity was his strength.\nC6: Talking about the Speaker like you're related to him is eccentric. Claiming he's seen the future, that he fought Six Fronts fueled on the idea that some Guardian savior is coming? That's insane.\nSX: Belief is a hell of a thing.\nC6: Sure, yeah. One Guardian's going to fix everything. Kick Crota off the Moon. Make it look like us Vanguard know our head from our hindquarters. Hey, where are you going?\nSX: One of the new recruits from Old Russia I've had my eye on\u2014entering the Crucible for the first time.\nC6: Hey, maybe they're the one. We'll call 'em Crota's End.",
-            "itemHash": "106575079",
+            "lore": "Do you believe in the Gaiaforms, the energies within planets?",
+            "ExtLore": "Do you really believe there was no magic before the Traveler?\n\nMother Earth. Anima Mundi. World Soul. The ancients had it right\u2014they erred only in believing their first god would also be their last.\n\nThese planets, moons, and asteroids upon which we leave our footprints\u2014they have an energy of their own. Will. Breath. Soul.\n\nI call them Gaiaforms, though I admit the name suffers from terracentrism. One might instead say there is one Gaiaform, and one Areoform, and one Mercuriform, and one Venusiform, and so on. The greatest gaiaforms of our solar system are eight in number\u2014or, if you prefer, nine\u2014but asteroids and minor planets have them too. And in their sidereal generosity, these gaiaforms will protect us, if we ask them.\n\nPerhaps you think this sounds mad. But if it isn't true\u2026 then how do the Antaeus Wards work?",
+            "itemHash": "2423243921",
             "itemRating": null,
-            "icon": "https://www.bungie.net/common/destiny2_content/icons/e363d457b179de242b932e097cca6edd.jpg",
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/e9f3ca5b7e0853c963102f6d1cb35fb9.jpg",
             "rarity": "Exotic",
             "class": 0,
             "statRolls": [
-                65,
-                13,
+                62,
                 3,
-                17,
-                7,
                 19,
-                6
+                10,
+                6,
+                6,
+                18
             ],
             "weaponPerks": [],
             "exoticArmorPerk": [
                 {
-                    "name": "Starless Night",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/3baaf236fc4e53bf571548edde0eb122.png",
-                    "desc": "Targets that enter Ward of Dawn are blinded, while allies that pass through gain a Void overshield. Guarding with Sentinel Shield blinds nearby targets."
+                    "name": "Reflective Vents",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/9a68553b389a60865dd984121e25a06a.png",
+                    "desc": "Improved slide. Sliding after sprinting for a short time reflects incoming projectiles."
                 }
             ],
             "legendWeaponFrame": null,
@@ -340,255 +331,69 @@
     "Legendaries": {
         "Legendary weapons": [
             {
-                "name": "Interference VI",
-                "type": "Legendary Grenade Launcher",
+                "name": "Firefright",
+                "type": "Legendary Auto Rifle",
                 "description": "",
-                "lore": "Come between your enemies and their lives.",
-                "ExtLore": null,
-                "itemHash": "2257180473",
+                "lore": "What's the scariest part of a firefight? The whole damn thing.",
+                "ExtLore": "Siegfried's feet touch down on a metal grate ten fathoms deep into the Leviathan, where snaking tunnels split into many different directions. The room is large, empty, and dark. He cycles through the night vision and thermal imaging on his helm, then looks up to his fireteam.\n\nHe can see the shimmering Eliksni camouflage distort the shapes of his seven teammates as they descend the shaft above him on a carbon-weave line. He disables his own. In front of him sits the base of a robotic construct in the likeness of Calus. It is twice his height, and the bare mechanisms of its internal workings creak with age.\n\nFour Cabal Legionaries, two Eliksni Splicers, and a Praxic Sunsinger drop in behind Siegfried and deactivate their cloaks. The Splicers get to work establishing a connection with the automaton while the Legionaries make a perimeter at their back. Siegfried stands with them.\n\nThe Warlock does not take their eyes from the automaton.\n\n\"Splice\u2026 formed.\" One of the Eliksni turns to the Warlock and nods. The Warlock steps forward\u2014\n\n\"Thieves skulking through my Leviathan!\" The automaton bellows with Calus's voice and forcibly bats away a Splicer with a metallic hand. They crash into the adjacent wall and crumple into unconsciousness. The second Splicer leaps back and takes cover behind a Legionary as the Praxic Warlock unleashes a volley of celestial fire into the construct's face. In response, a steely fist bursts through the fire-smoke and crushes the Warlock into the floor.\n\nSiegfried turns toward the Legionaries and shouts, \"Contact!\"\n\nThe Cabal open up with slug rifles; munitions clang against the thick metal. The remaining Splicer aims for the construct's exposed machinery with their Arc pistol.\n\nSiegfried rushes forward, sliding to meet the automaton head on. He ignites in Solar flame and shoulder charges the construct into the chamber wall. He rolls under a retaliating fist and grabs the automaton's chassis, wrestling to spin its back to his fireteam.\n\nThe Sunsinger gasps, alive again. They grab the unconscious Eliksni and take a position amid the Legionaries, shouting, \"CONCENTRATE FIRE!\"\n\nWith one swift motion, the Praxic Warlock combusts brilliantly with Solar Radiance that emboldens the firing line of Cabal shooters and fills the Splicer's heart with courage. Heated slugs puncture and the Arc pistol finds its mark, shorting out one of the automaton's exposed knees.\n\nSlug rifles shred the construct's face as it crashes to the ground and frenetically crawls toward them, tearing metal from the floor with each scraping motion.\n\nThe Titan raises a hand, and in a burst of fiery might, summons a Devastator's maul. He brings the maul down into the automaton's back, demolishing it and sending molten shrapnel skidding across the floor.\n\nSiegfried looks to the Sunsinger, then the rest of the fireteam. \"Contact down\u2026 let's keep going.\"",
+                "itemHash": "2778013407",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/fc7c3c20ad5dfefeccafb4fddf151860.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/301aba833255d7529f32fac0274bf986.jpg",
                 "rarity": "Legendary",
                 "class": 3,
                 "statRolls": [],
                 "weaponPerks": [
                     {
-                        "name": "Linear Compensator",
-                        "description": "This weapon's launch barrel is well-balanced.\n  \u2022  Slightly increases projectile speed\n  \u2022  Slightly increases blast radius\n  \u2022  Slightly increases stability",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/eab8eeedc70188ad3798b6ca84fbb7cb.png",
-                        "hashID": 1441682018,
-                        "weaponHash": 2257180473,
+                        "name": "Arrowhead Brake",
+                        "description": "Lightly vented barrel.\n  \u2022  Greatly controls recoil\n  \u2022  Increases handling speed",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/7a0a23f9622636cea92387d50d368333.png",
+                        "hashID": 839105230,
+                        "weaponHash": 2778013407,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Spike Grenades",
-                        "description": "Grenades fired from this weapon do increased damage on direct hits.\n  \u2022  Increases stability",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/c733f59957e33024af80e648729321ad.png",
-                        "hashID": 3301904089,
-                        "weaponHash": 2257180473,
-                        "isPerk": true,
-                        "isFavorablePerk": true
-                    },
-                    {
-                        "name": "Clown Cartridge",
-                        "description": "Reloading this weapon randomly overfills it from reserves.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/a543c4450b70deb2d50ca3418c206397.png",
-                        "hashID": 2284787283,
-                        "weaponHash": 2257180473,
-                        "isPerk": true,
-                        "isFavorablePerk": true
-                    },
-                    {
-                        "name": "Full Court",
-                        "description": "Increases detonation damage as the projectile travels further before exploding.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/6d5acc4b07eefadc05db67c922b15fd5.png",
-                        "hashID": 2888557110,
-                        "weaponHash": 2257180473,
-                        "isPerk": true,
-                        "isFavorablePerk": true
-                    }
-                ],
-                "exoticArmorPerk": null,
-                "legendWeaponFrame": {
-                    "name": "Adaptive Frame",
-                    "description": "A well-rounded grip, reliable and sturdy.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/ad56b0e83d31592d9984cdf2f392452a.png"
-                },
-                "legendWeaponDamageType": "Power",
-                "legendWeaponDamageElement": "Arc",
-                "masterworkData": {
-                    "name": "Velocity",
-                    "description": "Increases the speed of projectiles fired by this weapon.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/a87a9b98affcbdaf921af193158d4f49.jpg",
-                    "mwHash": 4105787909
-                }
-            },
-            {
-                "name": "Truthteller",
-                "type": "Legendary Grenade Launcher",
-                "description": "",
-                "lore": "\"If we wish others to accept the grim reality, we must break through every comforting illusion.\" \u2014Arach Jalaal",
-                "ExtLore": null,
-                "itemHash": "1946491241",
-                "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/cc5101e4e22234770293284828519ae1.jpg",
-                "rarity": "Legendary",
-                "class": 3,
-                "statRolls": [],
-                "weaponPerks": [
-                    {
-                        "name": "Volatile Launch",
-                        "description": "This weapon is optimized for an especially explosive payload.\n  \u2022  Greatly increases blast radius\n  \u2022  Slightly decreases handling speed\n  \u2022  Slightly decreases projectile speed",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/402765b86ff7b1d97078ac43d5ca39ad.png",
-                        "hashID": 1478423395,
-                        "weaponHash": 1946491241,
+                        "name": "Extended Mag",
+                        "description": "This weapon has a greatly increased magazine size, but reloads much slower.\n  \u2022  Greatly increases magazine size\n  \u2022  Greatly decreases reload speed\n  \u2022  Increases airborne effectiveness",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/4cd73ae5b1bc1ae0afc7adb34c2f2df6.png",
+                        "hashID": 2420895100,
+                        "weaponHash": 2778013407,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Proximity Grenades",
-                        "description": "Grenades fired from this weapon have increased proximity detection but a decreased blast radius.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/88869f977fa3d145c1ece3e38c070bd2.png",
-                        "hashID": 409831596,
-                        "weaponHash": 1946491241,
+                        "name": "Hip-Fire Grip",
+                        "description": "Increases accuracy, stability, and precision hit targeting when firing from the hip.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/9f3c3ae1bddbed21af1cc6487338028e.png",
+                        "hashID": 1866048759,
+                        "weaponHash": 2778013407,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Field Prep",
-                        "description": "Increased ammo reserves. Faster reload, stow, and ready when you're crouching.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/fd815414532978ad2e5decbfc416b9e4.png",
-                        "hashID": 2869569095,
-                        "weaponHash": 1946491241,
+                        "name": "Surrounded",
+                        "description": "This weapon gains bonus damage when three or more enemies are in close proximity.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/0dbd2b11fd1343c11b4559c7a72ae8da.png",
+                        "hashID": 3708227201,
+                        "weaponHash": 2778013407,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Swashbuckler",
-                        "description": "This weapon gains increased damage from melee kills and kills with this weapon.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/ef89b89410de618e9cfa353ff35125d8.png",
-                        "hashID": 4082225868,
-                        "weaponHash": 1946491241,
+                        "name": "Extrovert",
+                        "description": "Final blows while near multiple combatants or near Nightmares restores health.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/c92f13735fb08df887bc670024a0d5a0.png",
+                        "hashID": 1250481499,
+                        "weaponHash": 2778013407,
                         "isPerk": true,
                         "isFavorablePerk": false
                     }
                 ],
                 "exoticArmorPerk": null,
                 "legendWeaponFrame": {
-                    "name": "Lightweight Frame",
-                    "description": "One-shot handheld Grenade Launcher with remote detonation. \n[Shoot]  : Fire; release to detonate.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/530b400d5cec3bf6aca7c5efc46fea20.png"
-                },
-                "legendWeaponDamageType": "Energy",
-                "legendWeaponDamageElement": "Void",
-                "masterworkData": {
-                    "name": "Handling",
-                    "description": "The speed with which the weapon can be readied and aimed.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/97161c247fc79bacad09d15d6e5ee7f2.jpg",
-                    "mwHash": 518224747
-                }
-            },
-            {
-                "name": "Dire Promise",
-                "type": "Legendary Hand Cannon",
-                "description": "",
-                "lore": "\"If you think this world ends well, you are mistaken.\" \u2014Arach Jalaal",
-                "ExtLore": null,
-                "itemHash": "2742838701",
-                "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/afb1990faab261adba4968982b40b05e.jpg",
-                "rarity": "Legendary",
-                "class": 3,
-                "statRolls": [],
-                "weaponPerks": [
-                    {
-                        "name": "TrueSight HCS",
-                        "description": "Balanced Hand Cannon sight.\n  \u2022  Slightly increases range\n  \u2022  Slightly increases stability\n  \u2022  Slightly increases handling speed",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/87eb658505fb3503265eb67cd7855c4c.png",
-                        "hashID": 1926090092,
-                        "weaponHash": 2742838701,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "High-Caliber Rounds",
-                        "description": "Shots from this weapon knock the target back farther.\n  \u2022  Slightly increases range",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/f06239ee156ee70f99b48e8e1970dbca.png",
-                        "hashID": 1561002382,
-                        "weaponHash": 2742838701,
-                        "isPerk": true,
-                        "isFavorablePerk": true
-                    },
-                    {
-                        "name": "Auto-Loading Holster",
-                        "description": "The holstered weapon is automatically reloaded after a short period of time.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/d355b1117307c9f187729249361cecc3.png",
-                        "hashID": 3300816228,
-                        "weaponHash": 2742838701,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Under Pressure",
-                        "description": "Improved stability and accuracy as the magazine gets lower.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/7a88b6ed7519cb27fd608c5743ca20b1.png",
-                        "hashID": 1645158859,
-                        "weaponHash": 2742838701,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    }
-                ],
-                "exoticArmorPerk": null,
-                "legendWeaponFrame": {
-                    "name": "Adaptive Frame",
-                    "description": "A well-rounded grip, reliable and sturdy.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/ad56b0e83d31592d9984cdf2f392452a.png"
-                },
-                "legendWeaponDamageType": "Kinetic",
-                "legendWeaponDamageElement": "Kinetic",
-                "masterworkData": {
-                    "name": "Stability",
-                    "description": "How much or little recoil you will experience while firing the weapon.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/b67fd36e419016be239506aee0b73716.jpg",
-                    "mwHash": 1590375901
-                }
-            },
-            {
-                "name": "Night Watch",
-                "type": "Legendary Scout Rifle",
-                "description": "",
-                "lore": "Sleep with both eyes open.",
-                "ExtLore": null,
-                "itemHash": "3504336176",
-                "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/80d323fcd119dc44fac22582b9bff2ee.jpg",
-                "rarity": "Legendary",
-                "class": 3,
-                "statRolls": [],
-                "weaponPerks": [
-                    {
-                        "name": "Extended Barrel",
-                        "description": "Weighty barrel extension.\n  \u2022  Increases range\n  \u2022  Decreases handling speed\n  \u2022  Moderately controls recoil",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/7c81469db03f7111f8d248b54c83d7cf.png",
-                        "hashID": 1467527085,
-                        "weaponHash": 3504336176,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Accurized Rounds",
-                        "description": "This weapon can fire longer distances.\n  \u2022  Increases range",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/05e357cd152eb0f665ee986aaa3edc56.png",
-                        "hashID": 3142289711,
-                        "weaponHash": 3504336176,
-                        "isPerk": true,
-                        "isFavorablePerk": true
-                    },
-                    {
-                        "name": "Rapid Hit",
-                        "description": "Rapid precision hits temporarily increase stability and reload speed.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/56f26a865c24a6a10cb4177794eb7788.png",
-                        "hashID": 247725512,
-                        "weaponHash": 3504336176,
-                        "isPerk": true,
-                        "isFavorablePerk": true
-                    },
-                    {
-                        "name": "Moving Target",
-                        "description": "Increased movement speed and target acquisition when moving while aiming down sights.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/274a7f773a1bec5feb48bda6d9ecaa10.png",
-                        "hashID": 588594999,
-                        "weaponHash": 3504336176,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    }
-                ],
-                "exoticArmorPerk": null,
-                "legendWeaponFrame": {
-                    "name": "Lightweight Frame",
-                    "description": "Superb handling. Move faster with this weapon equipped.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/530b400d5cec3bf6aca7c5efc46fea20.png"
+                    "name": "Precision Frame",
+                    "description": "This weapon's recoil pattern is more predictably vertical.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/90c4f7f35c9d24f4add016722a78404e.png"
                 },
                 "legendWeaponDamageType": "Kinetic",
                 "legendWeaponDamageElement": "Kinetic",
@@ -600,14 +405,14 @@
                 }
             },
             {
-                "name": "Seventh Seraph VY-7",
-                "type": "Legendary Submachine Gun",
+                "name": "Planck's Stride",
+                "type": "Legendary Machine Gun",
                 "description": "",
-                "lore": "No offense is too small to reprimand.",
-                "ExtLore": null,
-                "itemHash": "766323545",
+                "lore": "\"You may speak as freely as your willingness to take punishment.\" \u2014Pirate Lord Arask",
+                "ExtLore": "Triumphant Arask held the shimmering relic high over his head as he pushed through the glut of his cheering crew. \"Right where I said it would be,\" he shouted to roars of approval. Nothing to do now but secure it in his hideout and wait for Eramis's arrival.\n\n\"You,\" Arask said, pointing out a Dreg who stood at the edge of the scrum, trying desperately not to be noticed. The Dreg looked around in desperate confusion.\n\n\"You!\" Arask shouted again, striding toward the Dreg, who now tried unsuccessfully to melt into the crowd. \"You wagered against me bringing the relic back here, didn't you?\" Arask demanded, pushing the iridescent relic into the Dreg's face.\n\nThe miserable Dreg shrank and shook its head. \"N-no, I\u2014\" \n\n\"Tell me the truth,\" Arask said patiently. The eager crewmembers pressed in close.\n\nThe trembling Dreg closed his eyes and nodded miserably. \n\nArask frowned sympathetically. \"Say it,\" he sighed. \"Say it.\"\n\n\"I did,\" squeaked the Dreg, who buried his face in his hands.\n\nArask nodded and let the Dreg snivel quietly for a moment.\n\n\"The blunder booth,\" he commanded flatly. \n\nThe crew erupted in excited howling around him, then set upon the shrieking Dreg and carried him off for punishment.",
+                "itemHash": "820890091",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/0121437a6b2939d9e340443e8c5a4f46.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/5e8525d026d08cfd3b93efa87b3f5a70.jpg",
                 "rarity": "Legendary",
                 "class": 3,
                 "statRolls": [],
@@ -617,34 +422,173 @@
                         "description": "Lightly vented barrel.\n  \u2022  Greatly controls recoil\n  \u2022  Increases handling speed",
                         "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/7a0a23f9622636cea92387d50d368333.png",
                         "hashID": 839105230,
-                        "weaponHash": 766323545,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Accurized Rounds",
-                        "description": "This weapon can fire longer distances.\n  \u2022  Increases range",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/05e357cd152eb0f665ee986aaa3edc56.png",
-                        "hashID": 3142289711,
-                        "weaponHash": 766323545,
+                        "weaponHash": 820890091,
                         "isPerk": true,
                         "isFavorablePerk": true
                     },
                     {
-                        "name": "Pulse Monitor",
-                        "description": "Automatically reloads the magazine and improves weapon handling when wounded\u2014even when this weapon is stowed.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/8f55a0d8cd93d9830480239350c022b1.png",
-                        "hashID": 972757866,
-                        "weaponHash": 766323545,
+                        "name": "Alloy Magazine",
+                        "description": "Faster reloads when the magazine is empty.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/932e7b84c233c6cc49a58058f8c5144d.png",
+                        "hashID": 1431678320,
+                        "weaponHash": 820890091,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Vorpal Weapon",
-                        "description": "Increased damage against bosses, vehicles, and Guardians with their Super active.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/6f82df3f2505654c266d2ee34c2a922d.png",
-                        "hashID": 1546637391,
-                        "weaponHash": 766323545,
+                        "name": "Perpetual Motion",
+                        "description": "This weapon gains bonus stability, handling, and reload speed while the wielder is in motion.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/4aaf4030ba98b68791a8135464f9a289.png",
+                        "hashID": 1428297954,
+                        "weaponHash": 820890091,
+                        "isPerk": true,
+                        "isFavorablePerk": true
+                    },
+                    {
+                        "name": "One for All",
+                        "description": "Hitting three separate targets increases damage for a moderate duration.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/b7106e2123d59e57a1547bc006892ebc.png",
+                        "hashID": 4049631843,
+                        "weaponHash": 820890091,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Right Hook",
+                        "description": "Dealing melee damage gives this weapon increased target acquisition and range for a short period of time.\nDealing melee damage again extends the effect.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/106659d6a16404c05dbaba1d9de17a2a.png",
+                        "hashID": 3907865655,
+                        "weaponHash": 820890091,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    }
+                ],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": {
+                    "name": "Rapid-Fire Frame",
+                    "description": "Deeper ammo reserves. Slightly faster reload when magazine is empty.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/0ab090e93e19da9e841b0f94c5ab7de6.png"
+                },
+                "legendWeaponDamageType": "Power",
+                "legendWeaponDamageElement": "Arc",
+                "masterworkData": {
+                    "name": "Reload Speed",
+                    "description": "The time it takes to reload this weapon.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/18a68428b806cf726984ce79126eed65.jpg",
+                    "mwHash": 4283235143
+                }
+            },
+            {
+                "name": "Bad Omens",
+                "type": "Legendary Rocket Launcher",
+                "description": "",
+                "lore": "\"Can't avoid 'em. Trick is surviving 'em.\" \u2014The Drifter",
+                "ExtLore": null,
+                "itemHash": "991314988",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/8309d7c64b21a5c5e861379d0230d405.jpg",
+                "rarity": "Legendary",
+                "class": 3,
+                "statRolls": [],
+                "weaponPerks": [
+                    {
+                        "name": "Countermass",
+                        "description": "This weapon is weighted for vertical recoil.\n  \u2022  Greatly controls recoil\n  \u2022  Increases stability\n  \u2022  Increases handling speed",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/b1e34eabc2ad012b6258436e80705b49.png",
+                        "hashID": 3809316345,
+                        "weaponHash": 991314988,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "High-Velocity Rounds",
+                        "description": "This weapon's projectiles are particularly light and quick.\n  \u2022  Increases projectile speed\n  \u2022  Increases reload speed",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/d541a7c35981cb9caceaf3736097adb9.png",
+                        "hashID": 2822142346,
+                        "weaponHash": 991314988,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Snapshot Sights",
+                        "description": "Faster time to aim down sights.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/49df9d90b3f27bd5ec6a9b35f4c10def.png",
+                        "hashID": 957782887,
+                        "weaponHash": 991314988,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Kill Clip",
+                        "description": "Reloading after a kill grants increased damage.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/03e17b5e24aa08bebda6bcbd405b8ada.png",
+                        "hashID": 1015611457,
+                        "weaponHash": 991314988,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    }
+                ],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": {
+                    "name": "Aggressive Frame",
+                    "description": "High damage, high recoil.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/d1ff65162c4a9d54a9612d9874b9fa88.png"
+                },
+                "legendWeaponDamageType": "Power",
+                "legendWeaponDamageElement": "Void",
+                "masterworkData": {
+                    "name": "Blast Radius",
+                    "description": "Increases the explosion radius of this weapon.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/60aaad1a22dda515de2a8dcc9133fc7e.jpg",
+                    "mwHash": 3928770367
+                }
+            },
+            {
+                "name": "Royal Chase",
+                "type": "Legendary Scout Rifle",
+                "description": "",
+                "lore": "\"If anyone asks why you're out here, just reload.\" \u2014Devrim Kay",
+                "ExtLore": "VanNet/PRXC SCOUT WIDEBAND//:AudCHNL-33295, Public//:LogSkew-859128312785\n\nVGS-6: You still tracking that monster near Saturn? \n\nPXC-0: Yes. Nil-1 is holding position directly over Titan. On mark\u2026 uh, 27 hours. Rotating off in three. \n\nVGS-6: Long shift. You Praxic boys are cold. Regret your induction yet? \n\nPXC-0: It's not a problem. We don't sleep. \n\nVGS-6: Right. \n\n[Dead air.] \n\nVGS-6: I mean, you do sleep. \n\nPXC-0: Negative. \n\nVGS-6: Come on. I've met Guardians before. \n\nPXC-0: We do not. \n\nVGS-6: Don't make me call in the Gunny. \n\nPXC-0: Your Gunny would know better than to argue with the Order. \n\nVGS-6: Okay, listen JEFF. You're not THE Order. I don't give a sh\u2014\n\nPXC-0: Quiet. Energy rev spooling from the target\u2026\n\nVGS-6: What? You said it was basically dead. \n\nPXC-0: Basically\u2026 Verim, record this. Establish direct feed uplink with NavTAC. \n\nPXC-0-Verim: Uplink connectivity is spotty. Gravitational anomaly detec\u2014no it's collaps\u2014\n\n[Inaudible. Interference.] \n\n[Dead air. Silent minutes.] \n\nPXC-0: (Breathing heavily) NavTAC, return. Link reads as established\u2026 NavTAC, return. Telemetric positioning pins us on the opposing side of Saturn. Displacement reads as roughly 470,000km. Titan is\u2026 Titan is gone. This doesn't make any sense. \n\nPXC-0: NavTAC. Vanguard Recon, come in. Tower actual? Harriet, are you out there? \n\n[Signal Redacted] \n\n[Transmission Redacted]",
+                "itemHash": "2776503072",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/be6a19b5d38768dc872aa7a32ba4c096.jpg",
+                "rarity": "Legendary",
+                "class": 3,
+                "statRolls": [],
+                "weaponPerks": [
+                    {
+                        "name": "Fluted Barrel",
+                        "description": "Ultra-light barrel. \n  \u2022  Greatly increases handling speed\n  \u2022  Slightly increases stability",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/c2a4355c8db7eac12d6dec52d09a20fe.png",
+                        "hashID": 1840239774,
+                        "weaponHash": 2776503072,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Extended Mag",
+                        "description": "This weapon has a greatly increased magazine size, but reloads much slower.\n  \u2022  Greatly increases magazine size\n  \u2022  Greatly decreases reload speed\n  \u2022  Increases airborne effectiveness",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/4cd73ae5b1bc1ae0afc7adb34c2f2df6.png",
+                        "hashID": 2420895100,
+                        "weaponHash": 2776503072,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "No Distractions",
+                        "description": "Aiming this weapon for a short period reduces flinch.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/a5adc38b39f910897be1548c7dd0c270.png",
+                        "hashID": 2866798147,
+                        "weaponHash": 2776503072,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Threat Detector",
+                        "description": "Increased reload, stability, and handling when enemies are in close proximity.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/1cc8d4604d29dfe5bdc321b4c2681bfb.png",
+                        "hashID": 4071163871,
+                        "weaponHash": 2776503072,
                         "isPerk": true,
                         "isFavorablePerk": false
                     }
@@ -656,33 +600,98 @@
                     "icon": "https://www.bungie.net/common/destiny2_content/icons/90c4f7f35c9d24f4add016722a78404e.png"
                 },
                 "legendWeaponDamageType": "Energy",
-                "legendWeaponDamageElement": "Arc",
+                "legendWeaponDamageElement": "Void",
                 "masterworkData": {
-                    "name": "Stability",
-                    "description": "How much or little recoil you will experience while firing the weapon.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/b67fd36e419016be239506aee0b73716.jpg",
-                    "mwHash": 1590375901
+                    "name": "Reload Speed",
+                    "description": "The time it takes to reload this weapon.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/18a68428b806cf726984ce79126eed65.jpg",
+                    "mwHash": 4283235143
                 }
             },
             {
-                "name": "Extraordinary Rendition",
-                "type": "Legendary Submachine Gun",
+                "name": "Enigma's Draw",
+                "type": "Legendary Sidearm",
                 "description": "",
-                "lore": "\"My warriors fight not for themselves, or even me, but for each other.\" \u2014Empress Caiatl",
-                "ExtLore": "[Report by VanNet encrypted router]\n\nMy friend and first, I know Her Royal Tuskiness is not my assignment, but I couldn't help but catch the following exchange on my latest trip to you-know-where. If anything, it's good for a laugh. Don't let our favorite Praxic wear you down to a nub. If she gives you grief, you give her a swift kick from me. \u2014C.Y.\n\n[Attached transcript.]\n\n\n\nRECORD: 30.10.15.C.Y.Report\nIDENTITIES: Advisor Taurun [A.T.], Empress Caiatl [E.C.], The Spider [T.S.]\nFILE//HID_CLASSIFIED//AUDIO\n\n[A.T.] The connection is made. Let the imperial record show that, on this day, the great Empress Caiatl, ascendant of Calus, slayer of Umun'arath, convened via radio message with the Spider of the Tangled Shore, formerly of the House of\u2014\n\n[E.C.] Enough, Taurun. The scribes can add whatever flourishes they wish after the fact.\n\n[T.S.] Yes, let's not waste time. I know you have more important matters to attend to. Matters that I would be happy to help with\u2026 in my own small way.\n\n[E.C.] I would no sooner seek aid from you than a war beast would from a bog-tick. Do you know how many thieves I've had to excise from my ranks? They debased themselves. Crawling about our proving grounds. Refashioning battle-trash into weapons. All because you tempted them with a flash of Glimmer.\n\n[T.S.] Ha! Me? Tempt them? It's all I can do to keep them from flooding the market.\n\n[E.C.] This is not my first time dealing with war profiteers, insect. Though, if I squash you thoroughly enough, it may be my last.\n\n[T.S.] And here I thought I was doing you a charity, promoting Cabal entrepreneurship. I was told the empire was low on funds.\n\n[E.C.] Is that so?\n\n[T.S.] Your Majesty, I don't know what advice you've been getting from your imperial hangers-on, but\u2014\n\n[A.T.] How dare you\u2014\n\n[E.C.] Quiet.\n\n[T.S.] But things are different here in the Sol system. Smash and conquer\u2014like so many traditions of old Torobatl\u2014won't get you far. Ghaul found that out the hard way. The remnants of his Red Legion have learned to adapt.\n\n[T.S.] Let me know if you'd like to do the same. I'd even go against my own custom and consider a payment plan.\n\n[E.C.] How generous. But it seems I have no need. As you've revealed, I have untapped resources at my disposal.\n\n[T.S.] Whichever ones have survived your purge, yes. But weapons are not my most valuable wares, not by a long shot. If you're anything like your father, you'll be far more interested in the information I have to offer.\n\n[E.C.] Send your coordinates. We can discuss face-to-face. But tread lightly. I've yet to decide whether you're worth my mercy.\n\n[T.S.] Oh, I'm honored to host Her Imperial Highness on my humble Shore. It's no palatial estate, but we insects are just happy to have a place to call home.\n\n[End transmission.]",
-                "itemHash": "1097616550",
+                "lore": "\"Indeed, I traffic in all kinds of secrets and mysteries. Weapons, as well.\" \u2014Lakshmi-2",
+                "ExtLore": null,
+                "itemHash": "1723380073",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/af13824d850fbd921b1c7c517224bbcd.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/7a59078e02d40f015d1b23815e977070.jpg",
                 "rarity": "Legendary",
                 "class": 3,
                 "statRolls": [],
                 "weaponPerks": [
                     {
-                        "name": "Corkscrew Rifling",
-                        "description": "Balanced barrel. \n  \u2022  Slightly increases range and stability\n  \u2022  Slightly increases handling speed",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/18cc75bf9a17bb80b5109f1b8909521f.png",
-                        "hashID": 4090651448,
-                        "weaponHash": 1097616550,
+                        "name": "Shortspec SAS",
+                        "description": "Balanced Sidearm sight. \n  \u2022  Slightly increases stability\n  \u2022  Slightly increases handling speed\n  \u2022  Slightly increases range",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/f4881d52b0c80356e9ccadb3ea681f8b.png",
+                        "hashID": 445755705,
+                        "weaponHash": 1723380073,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Extended Mag",
+                        "description": "This weapon has a greatly increased magazine size, but reloads much slower.\n  \u2022  Greatly increases magazine size\n  \u2022  Greatly decreases reload speed\n  \u2022  Increases airborne effectiveness",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/4cd73ae5b1bc1ae0afc7adb34c2f2df6.png",
+                        "hashID": 2420895100,
+                        "weaponHash": 1723380073,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Opening Shot",
+                        "description": "Improved accuracy and range on the opening shot of attack.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/0fd9dbe1c09b8cc7d0be888c68ff4526.png",
+                        "hashID": 47981717,
+                        "weaponHash": 1723380073,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Swashbuckler",
+                        "description": "This weapon gains increased damage from melee kills and kills with this weapon.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/ef89b89410de618e9cfa353ff35125d8.png",
+                        "hashID": 4082225868,
+                        "weaponHash": 1723380073,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    }
+                ],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": {
+                    "name": "Precision Frame",
+                    "description": "This weapon's recoil pattern is more predictably vertical.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/90c4f7f35c9d24f4add016722a78404e.png"
+                },
+                "legendWeaponDamageType": "Kinetic",
+                "legendWeaponDamageElement": "Kinetic",
+                "masterworkData": {
+                    "name": "Handling",
+                    "description": "The speed with which the weapon can be readied and aimed.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/97161c247fc79bacad09d15d6e5ee7f2.jpg",
+                    "mwHash": 518224747
+                }
+            },
+            {
+                "name": "Brigand's Law",
+                "type": "Legendary Sidearm",
+                "description": "",
+                "lore": "A glutton for punishment.",
+                "ExtLore": "Val'aug pondered the elaborate sidearm in her hand. She had taken it from the Dreg currently pinned to the ground, squirming beneath her massive boot. During her time in the Red Legion, she'd envied the ornamented weapons of the Fallen. But now, holding this scavenger's pistol in her hand, she suddenly yearned for the reassuring heft of standard-issue Cabal weaponry. \n\nWhen Val'aug defected to start her own company, she imagined the glory and profit that awaited her. She imagined inscribing her name across the history of the Sol system. She imagined true freedom.\n\nBut the reality of her pirate fiefdom was less satisfying than she had anticipated. Her headquarters? A filthy hovel carved into the side of an asteroid. Her arsenal? A patchwork of discarded weapons in various states of disrepair. And her crew? Thieves and cutthroats who would try to usurp her at the slightest display of weakness. So much for freedom.\n\nOver the years, her thirst for glory was replaced by the grim need to maintain order\u2014to keep what little she had from the claws of her fickle \"allies.\" Including the pathetic Dreg now pressed against the barren asteroid. \n\nTrue, he was just a small-time cheat, acting out of simple desperation. But out here, there were no allowances for clemency, regardless of infraction. There was no room for justice in a place like this\u2014only punishment.  \n\nShe chambered a round in the Dreg's pistol and sighed.",
+                "itemHash": "1298815317",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/fd0ab24156d8b1a7fff7e8caa4027e11.jpg",
+                "rarity": "Legendary",
+                "class": 3,
+                "statRolls": [],
+                "weaponPerks": [
+                    {
+                        "name": "Arrowhead Brake",
+                        "description": "Lightly vented barrel.\n  \u2022  Greatly controls recoil\n  \u2022  Increases handling speed",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/7a0a23f9622636cea92387d50d368333.png",
+                        "hashID": 839105230,
+                        "weaponHash": 1298815317,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
@@ -691,90 +700,99 @@
                         "description": "This weapon's magazine is built for higher capacity.\n  \u2022  Increases magazine size",
                         "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/9d8a7be4c2fef471a6fde38d02ab8dae.png",
                         "hashID": 1087426260,
-                        "weaponHash": 1097616550,
+                        "weaponHash": 1298815317,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Outlaw",
-                        "description": "Precision kills greatly decrease reload time.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/22f478a5c757c128b7c367ddc42180ab.png",
-                        "hashID": 1168162263,
-                        "weaponHash": 1097616550,
+                        "name": "Killing Wind",
+                        "description": "Final blows grant increased mobility, weapon range, and handling for a short duration.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/28114b59ba79d4abd5ea978cbd00e665.png",
+                        "hashID": 2450788523,
+                        "weaponHash": 1298815317,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Rampage",
-                        "description": "Kills with this weapon temporarily grant increased damage. Stacks 3x.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/e9aa2f479812bfabc8d48effde384737.png",
-                        "hashID": 3425386926,
-                        "weaponHash": 1097616550,
+                        "name": "Voltshot",
+                        "description": "Reloading this weapon after defeating a target overcharges this weapon for a short period of time, causing it to jolt on its next hit.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/e6a9671086dbd70567f453ccdc696997.png",
+                        "hashID": 2173046394,
+                        "weaponHash": 1298815317,
                         "isPerk": true,
                         "isFavorablePerk": true
+                    },
+                    {
+                        "name": "Right Hook",
+                        "description": "Dealing melee damage gives this weapon increased target acquisition and range for a short period of time.\nDealing melee damage again extends the effect.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/106659d6a16404c05dbaba1d9de17a2a.png",
+                        "hashID": 3907865655,
+                        "weaponHash": 1298815317,
+                        "isPerk": true,
+                        "isFavorablePerk": false
                     }
                 ],
                 "exoticArmorPerk": null,
                 "legendWeaponFrame": {
-                    "name": "Aggressive Frame",
-                    "description": "High damage, high recoil.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/d1ff65162c4a9d54a9612d9874b9fa88.png"
+                    "name": "Rapid-Fire Frame",
+                    "description": "Full Auto. Deeper ammo reserves. Slightly faster reload when magazine is empty.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/0ab090e93e19da9e841b0f94c5ab7de6.png"
                 },
-                "legendWeaponDamageType": "Kinetic",
-                "legendWeaponDamageElement": "Kinetic",
+                "legendWeaponDamageType": "Energy",
+                "legendWeaponDamageElement": "Arc",
                 "masterworkData": {
-                    "name": "Stability",
-                    "description": "How much or little recoil you will experience while firing the weapon.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/b67fd36e419016be239506aee0b73716.jpg",
-                    "mwHash": 1590375901
+                    "name": "Range",
+                    "description": "Increases the effective range of this weapon.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/b5dac54c0c768696460392d7d529166f.jpg",
+                    "mwHash": 150943607
                 }
             },
             {
-                "name": "Widow's Bite",
+                "name": "Distant Tumulus",
                 "type": "Legendary Sniper Rifle",
                 "description": "",
-                "lore": "I will outlive you.",
+                "lore": "\"Who will speak for us when we are gone?\" \u2014Arach Jalaal",
                 "ExtLore": null,
-                "itemHash": "1271343896",
+                "itemHash": "2807687156",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/314a687c8e0049f3cb6ae3989ef95b04.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/021304d331fc0e74344ca4516fc6ce6a.jpg",
                 "rarity": "Legendary",
                 "class": 3,
                 "statRolls": [],
                 "weaponPerks": [
                     {
-                        "name": "Corkscrew Rifling",
-                        "description": "Balanced barrel. \n  \u2022  Slightly increases range and stability\n  \u2022  Slightly increases handling speed",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/18cc75bf9a17bb80b5109f1b8909521f.png",
-                        "hashID": 4090651448,
-                        "weaponHash": 1271343896,
+                        "name": "Arrowhead Brake",
+                        "description": "Lightly vented barrel.\n  \u2022  Greatly controls recoil\n  \u2022  Increases handling speed",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/7a0a23f9622636cea92387d50d368333.png",
+                        "hashID": 839105230,
+                        "weaponHash": 2807687156,
                         "isPerk": true,
-                        "isFavorablePerk": false
+                        "isFavorablePerk": true
                     },
                     {
                         "name": "Accurized Rounds",
                         "description": "This weapon can fire longer distances.\n  \u2022  Increases range",
                         "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/05e357cd152eb0f665ee986aaa3edc56.png",
                         "hashID": 3142289711,
-                        "weaponHash": 1271343896,
+                        "weaponHash": 2807687156,
                         "isPerk": true,
                         "isFavorablePerk": true
                     },
                     {
-                        "name": "Slideshot",
-                        "description": "Sliding partially reloads this weapon's magazine and temporarily boosts range and stability.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/fa7ba2abcd8effd143e287668d7c865b.png",
-                        "hashID": 3161816588,
-                        "weaponHash": 1271343896,
+                        "name": "Dragonfly",
+                        "description": "Precision kills create an elemental damage explosion.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/8fe8293ba02002f69bfa052a0c44223f.png",
+                        "hashID": 2848615171,
+                        "weaponHash": 2807687156,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Quickdraw",
-                        "description": "This weapon can be drawn unbelievably fast.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/b04cf9a75031115055678b71c3c58443.png",
-                        "hashID": 706527188,
-                        "weaponHash": 1271343896,
+                        "name": "Snapshot Sights",
+                        "description": "Faster time to aim down sights.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/49df9d90b3f27bd5ec6a9b35f4c10def.png",
+                        "hashID": 957782887,
+                        "weaponHash": 2807687156,
                         "isPerk": true,
                         "isFavorablePerk": false
                     }
@@ -788,33 +806,33 @@
                 "legendWeaponDamageType": "Energy",
                 "legendWeaponDamageElement": "Solar",
                 "masterworkData": {
-                    "name": "Range",
-                    "description": "Increases the effective range of this weapon.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/b5dac54c0c768696460392d7d529166f.jpg",
-                    "mwHash": 150943607
+                    "name": "Handling",
+                    "description": "The speed with which the weapon can be readied and aimed.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/97161c247fc79bacad09d15d6e5ee7f2.jpg",
+                    "mwHash": 518224747
                 }
             }
         ],
         "Warlock": {
             "Helmet": {
-                "name": "Tusked Allegiance Hood",
+                "name": "Wild Hunt Hood",
                 "type": "Legendary Helmet",
                 "description": "",
-                "lore": "\"They have succeeded, somehow. But they will succeed no longer.\" \u2014Empress Caiatl",
-                "ExtLore": "AGAIN.\n\nSok'tol, Fifth of the Light, felt flame surge through his body as he was resurrected. \n\nHe became aware of many things at once: the altar beneath him. The roaring of Acolytes. The powerful grip on his shoulders, which even now began to crack under the pressure. \n\nAbove him, a trio of Wizards held his Ghost tight, its bleached shell ensnared by ebony tendrils of controlling spellcraft. It pulled against the bonds but could do nothing but look down at him helplessly.\n\nSING OF HER LIES. SPEAK OF HER TRUTHS.\n\nThe voice was everywhere. As Sok'tol strained to sit up, something slammed him down, pounding his chitinous skull into the stone again and again. He screeched as the bony frill surrounding his face splintered and snapped loose. He felt his jaw dislodge, felt his own teeth crush against his face, felt himself crack and shatter.\n\nBlackness. And then\u2014\n\nAGAIN.\n\nAs his shell knit and restored soulfire flowed anew, Sok'tol, Fifth of the Light, shuddered awake. \n\nThe Acolytes roared again. They crowded the altar, surrounded by a haze of green. Sok'tol peered upward at the Ogre pinning him against the altar. \n\nIt tightened its grip on his shoulders, claws crackling with wrathful energy. It shook its massive head, crowned in an emerald corona, and bellowed in a voice that was not its own:\n\nYOUR STRENGTH BECOMES MINE. AS WILL HERS. SPEAK.\n\nSok'tol concentrated the Light in his armored hand and began to form a grenade, but the shrieking Acolytes reached forward and tore his fingers apart in their claws. \n\nSok'tol bared his teeth and hissed up at the Ogre, whose eyes rolled with fury as a blast of soulfire erupted from its mouth. Sok'tol opened his jaws to howl as he was obliterated.\n\nBlackness. And then\u2014\n\nAGAIN.",
-                "itemHash": "849255710",
+                "lore": "Listen to the wind blow.",
+                "ExtLore": "I\n\nThe Awoken skulked through dead Dregs, picking at exhausted canisters like a carrion dog. She had done this each first week, of each month, since her revival beneath the grave-heap in the bowels of the Shore's fighting pits. She was knocked down many times that day, and many more in the short year; she had borne the Light but found the ritual of righting oneself uplifting. The clawing repetition to breach unspoiled air taught that persistence rewards. Over time with the Light, panicked bloody defeats instead became swift victories and acclaim. Clumsy and unrefined, it was enough to win battles with flashy results.\n\nGlitz drew attention to the verboten fighting ring. Its coordinators had not informed the Spider of the Syndicate's contributions to its stores of Ether, nor their discovery of another unclaimed Lightbearer. Instead, they had chosen to pocket cuts and remain silent. They sought to quiet the rumors and retain the flow. In their haste to dispatch her and trap her Ghost, they taught Trihn to devour and the Void freed her mind. Her short stint of bouts mystified in mythos over the months since her escape, but her name wouldn't fade from their memory. The ring still required dismantling.\n\nTwo days ago, she pressed beyond the Tangled Shore and its watchful baron, into the no man's land between Awoken borders and lawless drifting slag-rock. Trihn hunted vengeance, and Ether: her first nourishment; invigorating habitual nostalgia. The scattered Eliksni that remained throughout the system held little nothing as the bulk of many Houses' stores were consolidated on Europa, or less so within Spider's hold. Trihn had no ship to leave the Shore, but neither did her betrayer. She was happy to make do here.\n\n\"Proximity beacon is still picking up noise.\" Trihn's Ghost, Shakto, swiveled to her. \"Looks like your old pit buddy's tip was trustworthy.\"\n\nTrihn nodded in acknowledgement as Shakto transferred the information to her tac-band. He continued, \"They're fast, but not far away. Although\u2026 there isn't much cover in that area.\"\n\nThe Lightbearer scanned the projection from her forearm. \"Fast, yes. Must be Pikes; can't be on foot. Prepare mine. We can catch them before it gets dark.\"\n\n\"They'll hear us coming if we get too close.\"\n\n\"And?\" Trihn whipped back mustard-colored robes to straighten two short Eliksni-style scabbards at her hips before mounting her Pike. A thundercrack sent her into the astral wind.\n\nShakto compiled into existence in a holstered seat in the chassis, set just above the Pike's maneuvering apparatus. The front scoop sloped groundward from him like a trunk, fashioned with tusks and themed of an old Earth beast.\n\n\"We're not even sure if they're Fallen, just that something moved through the trip line.\"\n\n\"What besides Eliksni Pikes moves that fast?\"\n\nHer voice was clear through their direct channel.\n\n\"Scorn\u2026 on Pikes.\"\n\n\"Their numbers are scant.\" She navigated connection points between drifting chunks of land. Rubble drifted against the pull of gravity. \"And they don't come out this far. It's one of his crews.\"\n\n\"Driksys already wants you dead.\"\n\n\"You're making my point.\"",
+                "itemHash": "251310542",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/2d1dfafd48ba030e50f09a0ee43611ac.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/c03f14a9ef3ec853e58fd1d835289e0d.jpg",
                 "rarity": "Legendary",
                 "class": 2,
                 "statRolls": [
-                    50,
-                    11,
-                    6,
-                    7,
+                    61,
+                    12,
+                    16,
                     2,
-                    18,
-                    6
+                    20,
+                    2,
+                    9
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -824,24 +842,24 @@
                 "masterworkData": null
             },
             "Arms": {
-                "name": "Tusked Allegiance Gloves",
+                "name": "Wild Hunt Gloves",
                 "type": "Legendary Gauntlets",
                 "description": "",
-                "lore": "\"Bonds are forged on the battlefield and broken at the War Table.\" \u2014Empress Caiatl",
-                "ExtLore": "Crow was already reloading when the strange Hive's lifeless body crashed to the forest floor.\n\nGlint flew toward the corpse without a word. Crow pretended not to notice and kept walking through the woods. He's been in a mood all day, Glint thought with a static sigh. He could use some time alone.\n\nWhen he reached the Hive, Glint resisted the absurd reflex to scan it for compatibility. Instead, he simply assessed, noting the strong arms that could handle the recoil from heavy weapons; the thick shell, built to absorb all manner of firepower; the remains of a bony shield that sizzled nearby, powerful enough to protect\u2014\n\nThe space next to Glint fluctuated as a bone-white Hive Ghost appeared. \n\nThe two froze warily in midair.\n\n\"Hey,\" the Hive Ghost whispered after a moment. \"It's okay.\" Its voice was surprisingly soft. \n\nIts green eye flickered reassuringly and it began to focus Light.\n\nGlint bobbed unsteadily. Crow was fifty yards off, moving carefully through the trees. \"You shouldn't\u2014\"\n\n\"It'll be all right,\" it said and hovered lower to the ground, pouring Light into the fallen Hive. The surrounding ferns trembled with the sudden flow of energy.\n\n\"Wait,\" Glint pressed. But the Ghost ignored him as the thick armor of the Hive began to reform. \n\n\"Crow!\" Glint screamed, \"Crow, here!\" And he flew to him without turning back.",
-                "itemHash": "119228495",
+                "lore": "Tug at the threads of causality.",
+                "ExtLore": "II\n\n\"I'm saying it's a fight we can avoid right now. The Spider doesn't give them much.\" Shakto wanted to say it wasn't enough to die over, but he had seen her starved husk enough times to know that wasn't true. Sustenance was always enough to die over. And for her, hurting the ring was enough to spend a hundred lives.\n\n\"Enough for us. Enough to hurt Driksys even if he isn't there. The Ether stops, the loyalty stops, the fights stop.\"\n\n\"He might not have come in person. Even so, Driksys serves Avrok.\" Shakto ballooned the volume of his voice in her comms, buzzing her helmet and sending ringing through her ears. \"We shouldn't hit him directly. Not yet. It would draw attention from the Spider.\"\n\nTrihn clunked the base of her hand against her helmet to kill the rattle. \"If we only ever did what you condoned, we'd have half the armory and a sliver of the knowledge.\" She cut the Pike's engine atop a ridge overlooking a shanty encampment in the gulley below.\n\n\"It's not about that,\" Shakto said, dismounting.\n\nSix Pikes were parked in a group below, engines still flexing as metal cooled. One of the Spider's spined Servitors slumped in a cornered heap near a vertical jut of rock. It shimmered hypnotically with power cutting in and out.\n\n\"That's odd,\" Shakto said as he floated forward. Dull atmospheric glow gave way to stars and empty space behind him. Trihn dismounted and spoke without looking at him.\n\n\"More is more.\"\n\n\"If there's a servitor here, it's serious.\"\n\n\"Driksys. That's an upper Associate's Pyke.\"\n\n\"It might be Avrok's, or one of the others. Okay, Trihn. If Spider gets wind you're robbing him, killing his Associates, he'll send the Enforcer. We do not want that.\"\n\n\"Only if they live.\"\n\n\"Who do you think comes looking if they don't? You're not ready for that kind of fight.\"\n\nShe knelt and surveyed the empty camp. \"Then we wait and see who turns out.\"\n\nIt was morning before movement broke the droning stillness. Trihn felt her eyelids bobbing, flickering momentary dreams in zoetrope staccato between glimpses of light washing over the horizon.\n\n\"There.\" Shakto's tone nudged above the ambient tectonic groan of the Reef.\n\nTrihn creaked forward to peer over the ridge. In the gulley below, an Eliksni Captain adorned in bent and snapped quills dragged itself by a single arm across the dirt. Ether gas and fluid gurgled from damaged lines across its mask and equipment rig.\n\n\"That's not Driksys.\" Trihn's words were half-caste disappointment and relief.\n\n\"No.\"\n\n\"Still one of his though. I recognize the red-tipped quills.\"\n\n\"A subordinate. This is better for us.\"\n\n\"What happened?\"\n\n\"No perimeter trips or weapons discharges that I'm aware of,\" Shakto chirped with a tinge of befuddlement.\n\n\"Can you tell who?\"\n\n\"From here? With their face in the dirt?\"\n\n Trihn stood and brushed her robes. \"I'm going to get a closer look.\"",
+                "itemHash": "1276513983",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/84f3af9a7d1330844c80e8f4d152cc18.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/44ae6508672d532173245288e092997a.jpg",
                 "rarity": "Legendary",
                 "class": 2,
                 "statRolls": [
-                    53,
+                    61,
+                    19,
                     7,
-                    20,
                     2,
+                    13,
                     2,
-                    12,
-                    10
+                    18
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -851,24 +869,24 @@
                 "masterworkData": null
             },
             "Chest": {
-                "name": "Tusked Allegiance Robes",
+                "name": "Wild Hunt Vestment",
                 "type": "Legendary Chest Armor",
                 "description": "",
-                "lore": "\"Were the Light a glory to be earned, the Cabal would have claimed it long ago.\" \u2014Empress Caiatl",
-                "ExtLore": "Mithrax delicately pushed the low curtain aside as he entered the bedroom.\n\nTall shelves crowded him, cluttered with relics from Mercury and beyond: piles of intricate scrolls, silver hourglasses that turned of their own accord, ceramic pots of red soil sprouting delicate metallic vines beneath glass domes. An enormous feathered mantle was mounted carefully on a wooden stand and crowned with a birdlike cowl.\n\nThe hulking form of Saint-14 sat in a wooden chair facing the bed where, impossibly small beneath the blankets, rested the man known as Osiris.\n\nMithrax rapped politely on the doorframe.\n\n\"My friend,\" Saint-14 said. \"It is good of you to come.\"\n\nMithrax approached Saint and bowed. \"It is an honor to be invited,\" he said. \"These visits are pleasant to me.\" \n\nHe held out the covered dish he was carrying in his lower arms, but Saint's eyes remained fixed on Osiris. \n\nThe Titan took a ragged breath. His voice was a hoarse whisper: \"Could the Psion machine\u2026 connect my mind with his? So that I might share his dreams?\"\n\nMithrax felt useless. He spoke softly: \"The Psion tells me the subject must have residual activity for a reading, and Osiris has been asleep very long. Besides, the connection you seek joins the Light of one being to the Light of another, and Osiris is\u2014\"\n\n\"Lightless, yes,\" Saint finished flatly. He leaned forward in his chair, his elbows on his knees, hands clasped before him. He was silent for some time.\n\n\"I will let him sleep alone,\" Saint finally said, and caressed Osiris's hand with impossible tenderness. \"When he wakes, we will dream together once more.\"\n\nHe adjusted the blankets, stood, and nodded toward the covered dish Mithrax still clutched awkwardly.\n\n\"I am hoping that is not more eggplant,\" he said.\n\nMithrax coughed on his Ether. \"The eggplant is most nourishing,\" he protested weakly, and Saint groaned.",
-                "itemHash": "3465627817",
+                "lore": "\"I've studied the enemies of the Light, and I don't know what lured us to that ruin in Old Chicago and killed all those Guardians. But, I know it was hunting us.\" \u2014Shayura, Awoken Warlock",
+                "ExtLore": "III\n\nThe encampment was several days old, formed from a few dirty tents huddled around a handful of unpacked crates and two sealed ones. The entranced Servitor had dimmed, and foul-smelling liquid spilled from punctures and rutted gashes in its plating. Trihn looked the machine over curiously. It was an oddity this far from the Shore, and to be left unprotected was even stranger.\n\nToppled in the dirt, an Arc spear tip drew her eye to an open case of digging tools, high-tensile strength line, and respirator filters\u2014 and just beyond: the wheezing Captain. Trihn scooped the spear from the ground and walked the few short steps to him.\n\n\"What name do you go by, cur of Driksys?\" Her Eliksni was of the Shore, a crudeform result of the elegant language diluted by Sol-domestic phrases and pronunciations.\n\nThe Captain thrashed and rolled onto its back, snapping quills like kindling. It propped itself on rough-hewn fleshy stubs to extend its reach and swiped at her with its single remaining arm. Froth spilled from its cracked mask, and underneath a broken section at the brow-line, a maddened eye fixated on her.\n\n\"What's wrong with him?\"\n\n Shakto materialized at Trihn's side. \"I don't know. Presenting physiology is Fallen, but altered. Something in the Ether?\"\n\n\"Whatever they called you, your life is mine now.\" The Lightbearer drove the Arc spear into the Captain's chest with one measured thrust. \"We'll keep doing this until he has no subordinates. He'll be forced to deal with us eventually.\"\n\nTrihn swiped a spent Ether canister from the Captain and held it up to the light. \"Shakto.\"\n\n\"Looks clean to me,\" the Ghost said after a focused scan.\n\nTrihn tossed the canister to shatter on the ground and moved back to the unopened crates. She cracked off one of the lids with the spear and set both aside. Just short of a dozen full fragile vials containing delicate blue jostled within soft packaging. Save a few with froth percolating through worn seals, the Ether swished like plasma-fluid surf inside the glass. \"They wouldn't leave this much unattended.\"\n\nShakto followed the dirt-dragged trail back from the Captain to a curve in the stony walls of the gulley. The trail led him to a narrow separation in the rock face. \"Trihn.\"\n\nIt was enough space to contort her body through. Scrapes ran from the edges of the split into a slithering dark tunnel. Trihn took a stone from the ground and rolled it in her hands, coaxing condensed smoothness from it with palms of Void-Light. She flicked the glowing sphere into the separation and watched it roll a few meters along a line before it skipped over the edge and fell steeply out of sight.\n\n\"You think it fell straight through the Reef?\"\n\n\"I'd say no. That rope goes somewhere.\"\n\nTrihn squeezed shallow breaths into her lungs with each shuffling step. It was all the stone pressing on her ribs would allow. She closed her eyes to keep instinctual panic in check and lurched forward with a final step to meet the precipice. The walls opened; her lungs filled. Line dangled beneath her feet. She grabbed the line and tested the solidity of the ground-spike holding it in place.\n\n\"Shakto, I'm going down.\"\n\nSeveral meters deep in the darkness, buzzing spelunking lights set a grizzly scene aglow. Three Vandals, two Dregs, and a Captain lay slain and lifeless and ripped agape\u2014some residually twitching from Arc blade cuts. Near the Captain, two severed arms bled pools. A third arm, prosthetic, was pinned to an adjacent stone wall with a spear. Her breath trembled. She knew this violence. It was the only thing the pits had ever offered her.\n\n\"What did you find?\" Shakto's voice reverberated down the shaft, preceding his descent.",
+                "itemHash": "317220729",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/853f72d236c5127aadfde00b93ed8fe2.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/541f5899ad7b21eef937836aae15fbd1.jpg",
                 "rarity": "Legendary",
                 "class": 2,
                 "statRolls": [
-                    51,
-                    12,
+                    65,
+                    19,
+                    6,
                     7,
-                    7,
-                    2,
-                    13,
-                    10
+                    9,
+                    8,
+                    16
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -878,24 +896,24 @@
                 "masterworkData": null
             },
             "Legs": {
-                "name": "Tusked Allegiance Boots",
+                "name": "Wild Hunt Boots",
                 "type": "Legendary Leg Armor",
                 "description": "",
-                "lore": "\"We stand with the Vanguard. No outside force will break what we have wrought.\" \u2014Empress Caiatl",
-                "ExtLore": "Bask materialized near a low wall and zipped to where Jolur had collapsed. The Ghost began to focus his Light when incoming fire sent him spinning to the ground.\n\n\"What did I tell you about dying in the open?\" the little Ghost cried in frustration. Determined, he rose into the air, but the Hive Knight was already charging across the Trostland cobblestones.\n\nA sudden explosion of Void energy took the Knight by surprise, but it dodged the pulsing shockwaves of a Vortex Grenade. A tall Warlock in a worn green robe loped from the treeline and slid to a stop before Bask. She hastily formed a ball of Light in her palm and slammed it into the ground. Delicate wisps of energy began to rise from the soil.\n\n\"That's not gonna help!\" Bask whirred angrily.\n\nThe Warlock stood, sheltering Bask with her body as he resumed his focus on Jolur. The Knight screeched and resumed fire. A volley of Shredder bolts doubled the Warlock over, but the energy seeping from the rift gave her the strength to keep standing. \n\n\"Thanks,\" said Bask sheepishly.\n\n\"Don't mention it,\" she said, gritting her teeth through the gunfire. \n\nA blinding burst of energy surged as Jolur rose to his feet, body shimmering with Light. He braced himself and lobbed an orb of unstable energy that reduced the Knight to howling ash on impact. \n\n\"Appreciate the assist,\" Jolur said to Bask and the Warlock as he brushed dirt from his decrepit boots. \"These guys are stronger than I thought, but it's nothing a Nova Bomb can't handle.\"\n\nThe Warlock inspected the damage to her robe. \"What's going on with these Hive?\"\n\n\"I don't know,\" Jolur said. \"Lord Saladin sent a group of us down to figure out\u2014\"\n\nAnother blinding burst of energy surged nearby. The Knight rose to its feet, body shimmering with Light. \n\nThe Guardians stood frozen in horror. \n\n\"Since when can they do that?\" Bask squeaked, and the fight began in earnest.",
-                "itemHash": "693728753",
+                "lore": "Tread softly.",
+                "ExtLore": "IV\n\nIn the middle of the chaos, a lone metallic structure groaned as Trihn stood in deathly quiet, piecing together the sequence of events. The structure's form was slender, shapely, and one she had not seen before. It bent in lines that were lost within each other's paths; interconnected without sacrificing distinction. It drew her in. Trihn stepped forward and ungloved her hand. She pressed her palm to the onyx-colored metal spires. Something quivered within, and came alive.\n\n\"What are you?\" she would ask, over the concerned interjections of her Ghost. The Answer, it would reply to her, alone. At least, the first time. The day had drawn long into the night and she had left the cavity, paced in the encampment, and returned many times to the onyx spires. She would prod. It would weave the riposte. Power, in many shapes. Purpose. Time. Meaning. Any trait the ambitious could muster, it would ennoble with standing. It would taper the meat. Lean the fat. Deglaze the waste to flavor the cut. A protean horror of trim. It struck awe. Glory incarnate, made tangible within the beholder.\n\nIt showed her the heap that she clawed life from. It showed her the betrayal Driksys coated her opponent's blades with. It showed her tools they meant to rip apart her Ghost with. It dug out the many beatings her bones still remembered, and the blood ran red into her eyes. The anger. The validating need for vengeance. It showed her a head set upon a pike.\n\nMore.\n\nMore.\n\nMore.\n\nThat night she dreamed of the pit. If this living metal thing could lead her to Driksys, the way forward was clear. Shakto said it was taller now. A head above its previous size. She had thought that metal does not grow; it is only reshaped or reduced, but upon reflection, had come to accept aggregation was growth. Trihn returned with tools retrieved from her Pike: some gifts, some collected from marks that no longer needed them, all worn from extended use. Dilution fluid ransacked from the parked Pikes would steady the process. Three canisters of Ether swiped from the encampment dangled around her neck in a makeshift sling while the rest were left stowed in her vehicle's saddlebags. Shakto didn't need to warn her of the danger. It had killed her before. Her first victory, her first reward. It would give her the strength. It would focus her mind. The Ghost would await her return above ground.\n\nShe laid the tools before the spindled onyx structure.\n\nFine silk rolled in soft leather kept them from the dirt.\n\nTraced the cloud-chromed instruments with steady pupils.\n\nWiped clean with oil and cloth.\n\nPrepared Light to staunch her invigoration should it turn grisly.\n\nConnected the pitted dispersal gauge with transparent clean line.\n\nCapped line with a fine and untarnished gold barb.\n\nDrew thick sapphiric fluid, appropriately diluted.\n\nPinched skin at the thigh beneath fresh wraps.\n\nFlesh to onyx.\n\nInduced.\n\nCold prickling stung her veins. Muscles tensed and bulged against the sheaths of Light she had bound them in to keep from bursting. Her bones creaked under Ether-bolstered thew. She licked away flavor from her lips, exhalent tinged of briny nitrogen, and shivered. As her body stabilized and the tremors climbed, Trihn's head reflexively craned upward and outstretched her neck. Her mind electrified. Her spine bent at the brim of buckling.",
+                "itemHash": "197764097",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/c1efda8fe1cdd34b01c289faa4a8078d.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/12223314827ca67d191c276af9a7bd53.jpg",
                 "rarity": "Legendary",
                 "class": 2,
                 "statRolls": [
-                    49,
-                    11,
-                    6,
-                    7,
+                    63,
+                    24,
                     2,
-                    13,
-                    10
+                    6,
+                    10,
+                    12,
+                    9
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -905,14 +923,14 @@
                 "masterworkData": null
             },
             "Class Item": {
-                "name": "Tusked Allegiance Bond",
+                "name": "Wild Hunt Bond",
                 "type": "Legendary Warlock Bond",
                 "description": "",
-                "lore": "\"I do not sit and theologize my enemies. I crush them.\" \u2014Empress Caiatl",
-                "ExtLore": "The huddled Guardians fell into shocked silence as Commander Zavala's silhouette loomed over the table.\n\nA hooded figure sat, suddenly enveloped by the shadow, and leaned backward until his head bumped against Zavala's chestplate. He tilted his chin up and craned his neck to fix Zavala with an upside-down smile. \n\nHis hood fell back. \"What's with the face, Big Blue?\" Drifter said. \"Somebody's gotta teach 'em how to play offense.\"\n\n\"Get this out of my Tower.\" There was iron in the Titan's voice. \n\nAn old fear split Drifter's face. He leaned forward, swept the contents of the table into his knapsack\u2014tangled cables, a red lens, shards of bone, a green eye spinning madly in a jar of thick fluid\u2014and left without a word.",
-                "itemHash": "950963812",
+                "lore": "Remember your oath.",
+                "ExtLore": "V\n\nHer spirit awakened from dull normality; she saw the glistening maelstrom engulfing the living onyx before her. She heard clarity in the purring mirth emitting from the stone. Three times she had done this, the last leaving several fractures in the bones of her hands. The stone played out her vengeance in a thousand different ways. She studied each path that left Driksys dead and forgotten. She studied those that showed her failure. But there were gaps, and she always needed more. Trihn drew upon the second vial with her golden needle.\n\nIt struck as if bottled lightning. She peeled back the layers. She witnessed it, knew now that the onyx stone had not risen, but was thrust into the floor like a plunging blade. A bannerette in claim. A needlepoint finger. It sold the simple answers in exchange for mental frippery, the unused space between thoughts. A buried name to be revealed.\n\nSuggesting,\n\nthen asking,\n\ninsisting,\n\nimpellent.\n\nEmbedded.\n\nIt tore her consciousness across the cosmos to a grand terrace of onyx Swords, hilted in emerald flame and overlooking darkened systems. A glint in the distance. A world? A name? A promise offered and dragged in Sisyphean humor as voices from the black edges of space converged in laughter. A lone figure stood on the terrace aside two empty thrones. A host of mouths split down the centerline of its form. They screamed with countless voices. Their harmonious epiphany dragged the buried name from the depths, from the pit, from the heap, to the surface.\n\nIt was the only truth before her, and with it, Trihn drowned in regret.\n\nTrihn opened her eyes to Shakto nudging her head. It took every ounce of restraint to keep her blade sheathed. It was the fright, she thought. She hadn't expected him.\n\n\"You were muttering a name.\" He waited for her response.\n\nShe sat up in the dim cavern before the cryptolith and quickly scooted back several paces. Her muscles ached and every small motion splintered pain through torn tendons and micro-fractured bones beneath her skin.\n\n\"What?\" A pulsing irritant was raging inside her head. It wasn't the Ether. This was different.\n\n\"Do you remember the name?\" Shakto moved back to her side and began restoring her injuries.\n\n\"Something is coming here.\" Trihn turned to her Ghost. \"I don't.\"\n\n\"Xivu Arath.\" Shakto saw no recognition in his Lightbearer's eyes, but Trihn felt the name nestle into the small unused crevices of her mind. It had taken hold.\n\nIn the day's journey back to the mainland of the Shore, the name would spread, making war on her thoughts. Trihn would dream of Driksys, always, only to awaken with dug-in fingernails drawing blood from her palms or to find herself alone wailing into the night on some desolate mote of rock. She had been separated from Shakto twice like this before they found a remedy: death. Revival kept the name at bay, but only for so long. She came to know the name through its persistence. Xivu Arath. It would knock her down many times, but she had always found the ritual of righting oneself uplifting. This would not bury her, for she still had much to do.",
+                "itemHash": "2055947316",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/6ff87b8d3dfb5880c794259b2ac64f26.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/c16956a4b2456275f39089fd6e8e7317.jpg",
                 "rarity": "Legendary",
                 "class": 2,
                 "statRolls": [
@@ -934,24 +952,24 @@
         },
         "Hunter": {
             "Helmet": {
-                "name": "Tusked Allegiance Mask",
+                "name": "Wild Hunt Mask",
                 "type": "Legendary Helmet",
                 "description": "",
-                "lore": "\"When I look at them, I see myself staring back.\" \u2014Crow",
-                "ExtLore": "AGAIN.\n\nSok'tol, Fifth of the Light, felt flame surge through his body as he was resurrected. \n\nHe became aware of many things at once: the altar beneath him. The roaring of Acolytes. The powerful grip on his shoulders, which even now began to crack under the pressure. \n\nAbove him, a trio of Wizards held his Ghost tight, its bleached shell ensnared by ebony tendrils of controlling spellcraft. It pulled against the bonds but could do nothing but look down at him helplessly.\n\nSING OF HER LIES. SPEAK OF HER TRUTHS.\n\nThe voice was everywhere. As Sok'tol strained to sit up, something slammed him down, pounding his chitinous skull into the stone again and again. He screeched as the bony frill surrounding his face splintered and snapped loose. He felt his jaw dislodge, felt his own teeth crush against his face, felt himself crack and shatter.\n\nBlackness. And then\u2014\n\nAGAIN.\n\nAs his shell knit and restored soulfire flowed anew, Sok'tol, Fifth of the Light, shuddered awake. \n\nThe Acolytes roared again. They crowded the altar, surrounded by a haze of green. Sok'tol peered upward at the Ogre pinning him against the altar. \n\nIt tightened its grip on his shoulders, claws crackling with wrathful energy. It shook its massive head, crowned in an emerald corona, and bellowed in a voice that was not its own:\n\nYOUR STRENGTH BECOMES MINE. AS WILL HERS. SPEAK.\n\nSok'tol concentrated the Light in his armored hand and began to form a grenade, but the shrieking Acolytes reached forward and tore his fingers apart in their claws. \n\nSok'tol bared his teeth and hissed up at the Ogre, whose eyes rolled with fury as a blast of soulfire erupted from its mouth. Sok'tol opened his jaws to howl as he was obliterated.\n\nBlackness. And then\u2014\n\nAGAIN.",
-                "itemHash": "2516879931",
+                "lore": "Be ever vigilant.",
+                "ExtLore": "I\n\n\"Welcome, my wily new friend. Your compatriots spoke quite highly of you. Your propensity for\u2026 live capture.\"\n\n\"My compatriots gab.\" Gaelin-4's eyes flickered from Fallen, to Spider, to Fallen before lingering on a man in the back-shadowed wall to Spider's left. \"I guess as long as they're all good words, it's fine.\"\n\n\"Better to be spoken of than not at all, no?\" Spider touched curled fingers to his rebreather as if to block his tiny inhalations of anticipation.\n\nGaelin-4 heard shifting at his back and spotted two associates leaning against the wall behind him. They sported Wire Rifles and Short Daggers on their harnesses. \"Depends\u2026 This bounty from Arrha; mark is a month in the wind.\"\n\nLaughter blustered from the hulking Eliksni's mouth. \"Your ilk, always so direct. Down to business. I like that\u2026 that acumen.\" The Spider gestured forward with his lower arms, and an associate plunked a small metal crate before Gaelin-4. \"I assure you, they are still very much in the neighborhood.\"\n\nThe associate unclasped the lid. Two Golden Age era bottles of amber liquid nestled in padded cloth glistened in the lair's uneven lighting. The shadowed man behind Spider bent forward for a better view.\n\nGaelin-4 approached and lifted the craft-glass bottle. \"For me?\" He asked with a smirk. \"This must be a crap job.\"\n\n\"Directly from my private selection. A motivation to return my quarry, alive\u2014in addition, of course, to a generous Sapphire Wire reward.\"\n\n\"'Motivation' suggests they wouldn't cooperate if asked.\"\n\n\"Oh, I'm sure they would\u2026 if they were able.\" Spider leans forward. \"You're hunting a Wrathborn.\"\n\nGaelin-4's head tipped upward to meet Spider's gaze. \"Why don't you just send your Enforcer after it?\"\n\n\"A man only has so many hours in the day. Attention is required elsewhere, and this is a personal matter.\" The syndicate boss turned each of his four hands over one after the other. \"However, you will be using an invention of his. Clever, but keep that to yourself. Compliments get away from him.\"\n\n\"Alive?\" Gaelin-4 turned the bottle in his hand.\n\n\"That's right. This particular mark caused irreparable damage to something very close to my benevolent heart. Restitutions are in order.\" Spider brandished a jagged, shivering smile.\n\n\"And I need your flunkies stepping on my heels?\"\n\n\"Assisting you. Nivviks and Vynriis know the details and have experience in these matters. They will take you to the site of the attack.\"\n\n \"I hear you folk empty your marbles when you get too close to those things.\"\n\n\"This particular mark has begun to wander to greener pastures. No cryptolith in sight.\"\n\nGaelin-4 bobbed his head, processing the information. \"Keep your wire. I want the beast whelp.\"\n\nSpider's bristled momentarily as he considered the terms. \"That wouldn't be fair, but I could live with it\u2014 if you tell me who dropped you that little crumb.\"\n\n\"When the job's done and tender exchanges hands, I will.\"\n\n\"Keeping me in suspense; I'm not a patient Spider.\"\n\n\"I don't expect to be long.\" Gaelin-4 leaned toward his tagalongs, dropping words for the Fallen to pick up. \"You're with me, Dreglings.\"\n\nNivviks hissed and said something in Eliksni to Vynriis before moving. She nodded to Spider and shouldered her rifle, then fell in line.\n\nThe Exo's eyes flicked to the man in the shadows. \"Exile,\" he said, bending his head in a courteous nod.\n\n\"Mind your business, Guardian.\" The man's voice was even and measured. \"And good luck.\"\n\nGaelin-4 smiled, took his Transfiguration from the doorman. \"Osiris,\" he muttered under his breath as he crossed the exit. \"I knew it.\"",
+                "itemHash": "4079117607",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/de25c4672fedaa2b0f345caa77409fc7.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/e27a6646181cd8205850a02b7f0b9f2a.jpg",
                 "rarity": "Legendary",
                 "class": 1,
                 "statRolls": [
-                    49,
-                    8,
-                    6,
-                    11,
-                    8,
+                    58,
+                    17,
+                    2,
+                    9,
+                    9,
                     10,
-                    6
+                    11
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -961,24 +979,24 @@
                 "masterworkData": null
             },
             "Arms": {
-                "name": "Tusked Allegiance Grips",
+                "name": "Wild Hunt Grasps",
                 "type": "Legendary Gauntlets",
                 "description": "",
-                "lore": "\"I don't think any of us will be the same when this is over.\" \u2014Crow",
-                "ExtLore": "Crow was already reloading when the strange Hive's lifeless body crashed to the forest floor.\n\nGlint flew toward the corpse without a word. Crow pretended not to notice and kept walking through the woods. He's been in a mood all day, Glint thought with a static sigh. He could use some time alone.\n\nWhen he reached the Hive, Glint resisted the absurd reflex to scan it for compatibility. Instead, he simply assessed, noting the strong arms that could handle the recoil from heavy weapons; the thick shell, built to absorb all manner of firepower; the remains of a bony shield that sizzled nearby, powerful enough to protect\u2014\n\nThe space next to Glint fluctuated as a bone-white Hive Ghost appeared. \n\nThe two froze warily in midair.\n\n\"Hey,\" the Hive Ghost whispered after a moment. \"It's okay.\" Its voice was surprisingly soft. \n\nIts green eye flickered reassuringly and it began to focus Light.\n\nGlint bobbed unsteadily. Crow was fifty yards off, moving carefully through the trees. \"You shouldn't\u2014\"\n\n\"It'll be all right,\" it said and hovered lower to the ground, pouring Light into the fallen Hive. The surrounding ferns trembled with the sudden flow of energy.\n\n\"Wait,\" Glint pressed. But the Ghost ignored him as the thick armor of the Hive began to reform. \n\n\"Crow!\" Glint screamed, \"Crow, here!\" And he flew to him without turning back.",
-                "itemHash": "4017738218",
+                "lore": "Strike like a serpent.",
+                "ExtLore": "II\n\n\"Not sure I needed you two to find this.\" Gaelin-4 dismounted his Sparrow. He pulled down his hood and drew Transfiguration to his eye. The cindering wreckage of an exploded ground transport was marred with dull green spinnerets of thin smoke. Warped metal littered the site, which consisted of a compacted road surrounded by craggy outcroppings of rock. The transport itself was pried open and half-full of melted slag. Cooling runs of igneous magma drooped through still-molten floor of the transport. He surveyed the frantic scuttling footprints throughout the area.\n\nThe two Fallen with him cut their Pike engines and sat waiting for the Guardian to make a move. Each Pike toted a small package of supplies: Nivviks with Lure and extract. Vynriis with Ether and extra ammunition cells. Both carrying multiple Web Mines.\n\nGaelin-4 slung his rifle and looked to the Fallen. Nivviks gestured forward with his dominant arms. \"After you, yes?\"\n\nThe Exo made his way into the site. The two trappers followed.\n\n\"Security unit.\" Nivviks held up a frame's head. \"Bad job.\"\n\n\"How aggressive have you made them? Anything that would incite the Wrathborn to move away from its shrine?\"\n\nNivviks pried an eye from the frame's socket and pocketed it. \"Insight? No, recorder is broken.\" The Fallen chittered with laughter and let the head clunk in the dirt.\n\nVynriis snickered. The Exo was not amused.\n\n\"It's an oddity to stray from their shrine, savvy? Something drew it out.\" Gaelin looked to Vynriis.\n\n\"Yes, but,\" Vynriis formed the words with care, \"territorial expansion.\"\n\n\"Not so set in ways as Guardians,\" Nivviks said, walking passed Gaelin-4. \"Age makes them bolder\u2014it would seem.\"\n\nGaelin ignored the preceding remark. \"There are newer retreads in the tracks,\" he said, tracing freshly overturned dirt against old torrefied patches. \"It has returned before. It will again.\"\n\n\"Oh? The Guardian thinks this?\" Nivviks looked to the transport's melted chassis.\n\n\"The Guardian does. Predators mark new territory with a kill. It'll be back; make sure no one challenged their claim. Try to keep up, Spiderling.\"\n\n\"I will.\" Nivviks craned his neck to peer into the burst transport. \"Soulfire, I smell it.\"\n\n\"Is that what your boss was transporting? Could have caused the explosion.\"\n\n \"No,\" Vynriis's response was quick and sharp. \"Exotic flora.\"\n\n\"You speak too freely!\" Nivviks chastised her in Eliksni. He quickly contorted his face into a smile toward Gaelin-4 before switching languages. \"It is private matter, yes? Sensitive. No questions.\"\n\n\"Motive is important.\" Gaelin's eyes flicked between the two Fallen.\n\n\"No. Only capture is important.\"\n\n\"Fine. At any rare, no flower survived this.\" The Exo knelt in the dirt and unfurled his fingers into an open palm. \"Old blood here, but no bodies.\"\n\nA Ghost materialized and silently scanned the stained ground. \"Fallen. Traces of Ether and\u2026 Cabal oil?\"\n\nGaelin turned to his escorts. \"There were associates on this convoy?\"\n\n\"Always\u2026\" Nivviks eyed Gaelin's Ghost as it dematerialized into the Exo's hand.\n\nVynriis nudged Nivviks and spoke. \"They take bodies. Don't know why.\" She added, \"Cabal oil unexpected.\"\n\n\"Rumor is Calus has a ship snagging Scorn from the Reef. You're sure it was Wrathborn?\"\n\n\"Assuredly,\" Nivviks said, locking eyes with Gaelin-4. \"Good riddance to Scorn.\"\n\n\"Cabal're just as susceptible as you are.\"\n\n\"It would seem, yes\u2026\" Nivviks crouched near Gaelin.\n\n\"Camp?\" asked Vynriis as she joined the huddle.\n\nGaelin nodded. \"Build a fire\u2026 and plant the Lure.\"\n\n\"Trap instead?\" Vynriis looked to Nivviks. \"Why we're here. No surprise with fire.\"\n\n\"Let me worry about that. Just build the fire.\"\n\nNivviks stood. \"Build yourself, Light-wielder.\"",
+                "itemHash": "2025716654",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/03c0c92cba8e0a7ae1cf5fc3ef5e9beb.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/8bbdebfb13f81e6b53a0b4148f82ed90.jpg",
                 "rarity": "Legendary",
                 "class": 1,
                 "statRolls": [
-                    52,
+                    60,
+                    13,
+                    2,
                     16,
-                    9,
-                    2,
-                    2,
-                    10,
-                    13
+                    7,
+                    12,
+                    10
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -988,24 +1006,24 @@
                 "masterworkData": null
             },
             "Chest": {
-                "name": "Tusked Allegiance Vest",
+                "name": "Wild Hunt Vest",
                 "type": "Legendary Chest Armor",
                 "description": "",
-                "lore": "\"If they're truly worthy, if it's something they deserve, let them prove it.\" \u2014Crow",
-                "ExtLore": "Mithrax delicately pushed the low curtain aside as he entered the bedroom.\n\nTall shelves crowded him, cluttered with relics from Mercury and beyond: piles of intricate scrolls, silver hourglasses that turned of their own accord, ceramic pots of red soil sprouting delicate metallic vines beneath glass domes. An enormous feathered mantle was mounted carefully on a wooden stand and crowned with a birdlike cowl.\n\nThe hulking form of Saint-14 sat in a wooden chair facing the bed where, impossibly small beneath the blankets, rested the man known as Osiris.\n\nMithrax rapped politely on the doorframe.\n\n\"My friend,\" Saint-14 said. \"It is good of you to come.\"\n\nMithrax approached Saint and bowed. \"It is an honor to be invited,\" he said. \"These visits are pleasant to me.\" \n\nHe held out the covered dish he was carrying in his lower arms, but Saint's eyes remained fixed on Osiris. \n\nThe Titan took a ragged breath. His voice was a hoarse whisper: \"Could the Psion machine\u2026 connect my mind with his? So that I might share his dreams?\"\n\nMithrax felt useless. He spoke softly: \"The Psion tells me the subject must have residual activity for a reading, and Osiris has been asleep very long. Besides, the connection you seek joins the Light of one being to the Light of another, and Osiris is\u2014\"\n\n\"Lightless, yes,\" Saint finished flatly. He leaned forward in his chair, his elbows on his knees, hands clasped before him. He was silent for some time.\n\n\"I will let him sleep alone,\" Saint finally said, and caressed Osiris's hand with impossible tenderness. \"When he wakes, we will dream together once more.\"\n\nHe adjusted the blankets, stood, and nodded toward the covered dish Mithrax still clutched awkwardly.\n\n\"I am hoping that is not more eggplant,\" he said.\n\nMithrax coughed on his Ether. \"The eggplant is most nourishing,\" he protested weakly, and Saint groaned.",
-                "itemHash": "4144240158",
+                "lore": "\"We tracked the thing all the way to the ruins of Old Chicago, down into the tombs. We weren't hunting it. It was luring us.\" \u2014Aisha, Human Hunter",
+                "ExtLore": "III\n\nDust whipped across the Tangled Shore as nebulous clouds rolled and torrented overhead. It wasn't clear to Gaelin-4 where exactly wind was generated in the Reef, but it howled just the same. The three huntsmen lay on tattered mats in the dirt, backs to each other and the sky, in a triad. From two of their backs: matte black quills bent in the wind. The third's back was shrouded under a faded tan cloak, tent-poled by the quiver extending from his Orpheus Rig hip plate. Their vehicles: lashed down under camouflaged covers.\n\nShimmering flames licked the interior of the burnt-out transport. The engine oil they used for fuel turned the blaze a violet hue.\n\n\"I'll draw it to the Void tether. Once it's snared, we can spring your Arc-cage.\"\n\n\"The Guardian does not want Web Mines? Highly effective.\" Vynriis gestured to her covered Pike.\n\n\"I don't need anything exploding while I'm securing the cage.\"\n\n\"If the Guardian says so,\" Nivviks replied, checking the bolt on his Wire Rifle.\n\n\"Just don't shoot me in the back.\"\n\n\"If the Guardian says so\u2026\"\n\nGaelin-4 sighed. \"Enough shop.\"\n\nHours of night drift by slowly. The violet fire began to burn down.\n\n\"Does the Guardian enjoy Spider's employment?\"\n\n\"I'm a freelancer. Payment is my employer, not Spider.\"\n\n\"Likewise,\" Vynriis said cheerily. \"Somewhat\u2026\"\n\n\"Oh yeah? He pay you well?\"\n\n\"Well enough,\" Nivviks replied. \"Work well, pay well. Start your own work.\"\n\n\"And Spider supports that sort of entrepreneurial spirit?\" Gaelin-4 asked.\n\n\"Payment flows upward, and the Spider looks elsewhere. All is made well,\" Nivviks said.\n\n\"Do you know who that man back there was, in your Spider's lair?\"\n\n \"No,\" Vynriis answered.\n\n\"Do not care.\" Nivviks added.\n\n\"Osiris. You should know. Ever heard of Six Fronts?\"\n\n\"Many times, from Guardians who speak of little else than their victories.\" Nivviks adjusted his posture.\n\n\"I think I can speak to it. I was there,\" said Gaelin.\n\n\"I was not,\" interjected Vynriis. \"Vynriis knows only the Shore.\"\n\n\"Do they tell you all Fallen died that day? No Guardians? Convenient,\" Nivviks cackled.\n\nGaelin-4 rolled to his side to look at Nivviks. \"You saying otherwise?\"\n\nNivviks turned to face him. \"Yes. I remember the fronts. I remember Red War. I remember Earth. I remember Riis. I remember before the Great Machine lifted you up.\"\n\nVynriis listened to the two without moving.\n\n\"You're older than I thought. I'm sure you'd agree things were simpler then. You knew who was good, and who was bad. I miss those times. Now\u2026 it's a mess.\"\n\n\"Simple?\" Nivviks laughed in Gaelin's face. \"Life was never simple, but suffering makes the mind narrow. Changes what we see. Survival makes many enemies. We know this truth.\"\n\n\"Alive for so long. You killed your fair share of our people,\" Gaelin said bluntly.\n\n\"And you, ours,\" Nivviks replied. \"Now we are not killing. Is this not simple?\"\n\nGaelin thought for a moment. \"Past can be hard to forget.\"\n\n\"Yes, but Guardians have the gift of time,\" Vynriis said quietly.\n\n\"Your heroes, our nightmares,\" Nivviks said. \"Osiris. We had a different name. He is\u2026 not so intimidating now.\"\n\n\"I wouldn't say that to his face. You should be thanking him.\" Gaelin-4 rolled back to his original position.\n\n\"Thanking today, cursing at the fronts. Perspectives change, yes?\" Nivviks said, rolling back as well.\n\n\"I guess. Without Osiris, we could be on a completely different timeline\u2026 or worse.\"\n\n\"Yes\u2026 this one is preferable. Many prosper. No problems here.\"\n\n \"You being sarcastic?\"\n\n\"If the Guardian says so.\"",
+                "itemHash": "1458739906",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/28412d7de1bef58cf9542f0d07ba234f.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/8f144e518a080788027e42527e7e3b26.jpg",
                 "rarity": "Legendary",
                 "class": 1,
                 "statRolls": [
-                    54,
+                    61,
+                    15,
                     12,
-                    14,
                     2,
-                    2,
-                    6,
-                    18
+                    10,
+                    12,
+                    10
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -1015,24 +1033,24 @@
                 "masterworkData": null
             },
             "Legs": {
-                "name": "Tusked Allegiance Strides",
+                "name": "Wild Hunt Strides",
                 "type": "Legendary Leg Armor",
                 "description": "",
-                "lore": "\"Glint says to keep moving. That's how you know something's wrong.\" \u2014Crow",
-                "ExtLore": "Bask materialized near a low wall and zipped to where Jolur had collapsed. The Ghost began to focus his Light when incoming fire sent him spinning to the ground.\n\n\"What did I tell you about dying in the open?\" the little Ghost cried in frustration. Determined, he rose into the air, but the Hive Knight was already charging across the Trostland cobblestones.\n\nA sudden explosion of Void energy took the Knight by surprise, but it dodged the pulsing shockwaves of a Vortex Grenade. A tall Warlock in a worn green robe loped from the treeline and slid to a stop before Bask. She hastily formed a ball of Light in her palm and slammed it into the ground. Delicate wisps of energy began to rise from the soil.\n\n\"That's not gonna help!\" Bask whirred angrily.\n\nThe Warlock stood, sheltering Bask with her body as he resumed his focus on Jolur. The Knight screeched and resumed fire. A volley of Shredder bolts doubled the Warlock over, but the energy seeping from the rift gave her the strength to keep standing. \n\n\"Thanks,\" said Bask sheepishly.\n\n\"Don't mention it,\" she said, gritting her teeth through the gunfire. \n\nA blinding burst of energy surged as Jolur rose to his feet, body shimmering with Light. He braced himself and lobbed an orb of unstable energy that reduced the Knight to howling ash on impact. \n\n\"Appreciate the assist,\" Jolur said to Bask and the Warlock as he brushed dirt from his decrepit boots. \"These guys are stronger than I thought, but it's nothing a Nova Bomb can't handle.\"\n\nThe Warlock inspected the damage to her robe. \"What's going on with these Hive?\"\n\n\"I don't know,\" Jolur said. \"Lord Saladin sent a group of us down to figure out\u2014\"\n\nAnother blinding burst of energy surged nearby. The Knight rose to its feet, body shimmering with Light. \n\nThe Guardians stood frozen in horror. \n\n\"Since when can they do that?\" Bask squeaked, and the fight began in earnest.",
-                "itemHash": "3056950148",
+                "lore": "Move in silence.",
+                "ExtLore": "IV\n\nVynriis was the first to spot movement. Twenty meters, against the horizon. A lumbering hulk of muscle and high-density Cabal plating indolently ascended a stone column in her firing line. It huffed air deeply, leapt forward, and impacted the ground with dead-weight grace on two armored trunks. The tremor ran through her bones.\n\nThe trio swapped to close-band comms. \"Beast in sights.\"\n\nGaelin-4 and Nivviks slowly crawled to her side, taking care not to draw attention in the quiet night. The beast was Cabal all right, red-paint-scraped armor of the Legion buckled against an outpouring of muscle and blistering flesh. From its back and stomach, bladed tendril mutations slithered through gaps in the armor. Its hands were fused in an ever-grip around two massive cleavers that ploughed trenches in the soil as it trundled toward the flames.\n\n\"It appears\u2026 abnormal for a Wrathborn,\" Vynriis noted.\n\n\"Old. Perhaps one of the first. An escapee of the Crow's?\" Nivviks mused. \"Preventable. Spider will be displeased.\"\n\nThe Wrathborn Gladiator tore into the wrecked transport. Licks of flame seared its exposed meat without notice, and remnant oil set the Gladiator's cleavers alight in patches.\n\n\"I'll handle this. Excuse me.\" Gaelin-4 stood and strode directly toward the Wrathborn. It lurched to face him and loosed a tortured bellow. Gaelin snapped a smoke bomb into his hand with a flicker of Void Light and flung it into the Wrathborn's mouth. After a muted pop, dull purple smoke poured from its head, and the Wrathborn reeled in the fumes; bloodcurdling shrieks cast plumes of smoke like clouds against the starry backdrop.\n\nGaelin knelt and shouldered Transfiguration. He sent four heavy Arc rounds that cracked splits in the Wrathborn's helm. It howled and stampeded towards him; tendrils lance-hooked into the dirt to rip its body forward faster. It tripped the Shadowshot he had set. Void Light tethered the Wrathborn, anchoring it at the core of its existence. The beast whiplashed and lost its footing; face struck floor\u2014shattering its helmet.\n\n The mad thing rose, smoke billowing from its nostrils like a hellion. It wrenched with every fiber of strength, veins bursting to break.\n\n\"Keep pullin' like that and you'll tire yourself out.\" Gaelin-4 sauntered around the Wrathborn, darting stake-points into the ground to form the Arc-cage's cornerstones. He pulled the third from his belt when he felt something snap within him. It broke the Void tether?\n\nFrom the dying smoke launched a tendril. He ducked it and saw the fiery blade just quick enough to roll over it and into invisibility. He flicked another smoke bomb into his hand and struck the beast between the eyes. It flailed and sent tendrils in his direction. Gaelin rolled back and came up, rifle forward. He dropped the first two and began to reposition when the ground erupted beneath him. A tendril pierced his thigh and dangled him in the air as two more drove at his head and chest. He cracked a spike grenade against his knee. The stick sputtered and beamed with Void Light. He severed the oncoming tendrils with the beam, and they gushed soulfire like a fissured dam.\n\nThe torrent incinerated the grenade and half of Gaelin-4's right arm. His rifle fell. Before the thought to reach became action, the Wrathborn slammed the Exo to the floor and pinned his leg. Gaelin's breath tremored. It raised its horrid cleavers. He drew Lonesome from under his cloak and shot the thing in the eye. It cast him across the site and through a stony point protruding from the ground. Shards of broken rock cascaded around the Guardian. Gaelin clutched a puncture in his chest, a barb of stone protruded from it. The throw had shattered his hip. He was unable to stand, and it was getting dimmer. A shadow in his vision. Lightning wires overhead. Pressure.",
+                "itemHash": "238284968",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/64729f49945eb945b64922e9b017b237.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/604daf49203f75e2922d0bc3af8ee94c.jpg",
                 "rarity": "Legendary",
                 "class": 1,
                 "statRolls": [
-                    50,
-                    7,
+                    62,
+                    15,
                     2,
-                    17,
-                    7,
-                    11,
-                    6
+                    14,
+                    16,
+                    13,
+                    2
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -1042,14 +1060,14 @@
                 "masterworkData": null
             },
             "Class Item": {
-                "name": "Tusked Allegiance Cloak",
+                "name": "Wild Hunt Cloak",
                 "type": "Legendary Hunter Cloak",
                 "description": "",
-                "lore": "\"You'd think I'd understand it better than anyone, right? But I don't understand anything anymore.\" \u2014Crow",
-                "ExtLore": "The huddled Guardians fell into shocked silence as Commander Zavala's silhouette loomed over the table.\n\nA hooded figure sat, suddenly enveloped by the shadow, and leaned backward until his head bumped against Zavala's chestplate. He tilted his chin up and craned his neck to fix Zavala with an upside-down smile. \n\nHis hood fell back. \"What's with the face, Big Blue?\" Drifter said. \"Somebody's gotta teach 'em how to play offense.\"\n\n\"Get this out of my Tower.\" There was iron in the Titan's voice. \n\nAn old fear split Drifter's face. He leaned forward, swept the contents of the table into his knapsack\u2014tangled cables, a red lens, shards of bone, a green eye spinning madly in a jar of thick fluid\u2014and left without a word.",
-                "itemHash": "3473867303",
+                "lore": "Hide in shadow.",
+                "ExtLore": "V\n\nGaelin-4 inhaled sharply. He sat up and flexed his limbs.\n\nHis ghost floated before him. \"It was a lucky hit.\"\n\n\"Aren't they all?\" Gaelin stood and brushed himself off. \"Appreciated, Clip.\"\n\n\"Wire Rifles made it run before things got too bad.\" The Ghost dipped in a nod and dematerialized.\n\n\"Before?\" Gaelin-4 turned around. Nivviks and Vynriis sat several paces away in pensive observation. \"Those rifles jam or something?\"\n\n\"Guardian requested to handle situation.\" Nivviks clacked his jaw. \"Went as intended, yes?\"\n\nGaelin glared at Nivviks, but the Fallen simply stepped forward and offered a hand to help him stand.\n\n\"Kept the Guardian's body from being dragged away. Saved pretty rifle,\" Vynriis said, placing Transfiguration in the Exo's hands.\n\nGaelin's glare relaxed as he locked eyes with Vynriis and conferred a mute look of thanks.\n\n\"Quarry is on the move. Unwise to return to an expecting Spider with empty hands.\" Nivviks took a long breath from an Ether canister. \"What will the Guardian do?\"\n\n\"How long was I out?\"\n\n\"Not long\u2026 minutes,\" Vynriis replied.\n\nGaelin closed his eyes and concentrated. He felt his prey still tethered to his Light, marked by traces of the Void. Nivviks was right: it was close. \"We hunt.\"\n\n\"Ah\u2026\" Nivviks stood. \"Fortunate that we wounded Wrathborn,\" he said, pointing to a trail of fluid.\n\nGaelin-4 looked to the dim afterglow of the quenched fuel fire, to the fresh trail before them. \"I defer to you, old timer.\"\n\n\"Good\u2026 yes. Try to keep up,\" Nivviks chittered. He pulled a transponder from his belt. \"Tracking shot. Useful. Not far on Pikes\u2026 or flimsy Guardian bird.\"\n\nGaelin-4 mounted his flimsy Guardian bird. \"By all means, lead.\"\n\nThey followed the trail in silence. Nivviks led, then Gaelin-4, then Vynriis. They had encircled him like a tenderfoot calf. He had underestimated the Wrathborn's resilience. Made a fool of himself to show up a couple Fallen on a dead rock\u2014but a breakage heals stronger if it's set right.\n\nThey closed the distance quickly. The Wrathborn's lair was a small cave hovel with a bend just passed the entrance. He could almost see the creature's breath through the stone, feel its movements.\n\n\"Does the Guardian wish for Web Mines?\" Vynriis held a mine out to Gaelin sheepishly.\n\nGaelin took it. \"Let's line the entrance, Vynriis.\"\n\n\"How many?\"\n\n\"All of them. We overwhelm it at the choke, then tether and spike it down.\"\n\nNivviks nodded. \"Draw it out. We will keep its tails from killing you\u2026 again.\"\n\n\"Appreciated. Guess I'll be bait.\"\n\nGaelin-4 entered the cave and saw the Wrathborn caressing a tendril rooted in its back. Before it, a shrine of black twisted spines. They had begun to harden and gain a translucent metallic sheen, increasingly stained by drippings as his eye wandered higher. The missing associates hung impaled at their apex as tarnished crowns. The spines fed upon them, and Gaelin could see the planted stems weaving together at the base. The Wrathborn yanked the tendril from its back and planted it. They quivered. A hint of a voice. Gaelin would look upon them no longer.\n\nHe formed a vortex of Void in his palm and slung it beneath the Wrathborn. It stumbled backward as the grenade burned away. Behind it, the Fallen bodies disintegrated, but the spires remained unscathed and thirsty. The Wrathborn turned to pursue him, ripping at the ground, ceiling, and walls for holds.\n\nThe Guardian ran and dove over a line of Web Mines at the cave mouth. He cloaked as the Wrathborn was barraged by their spheres of Arc disruption.\n\nNivviks and Vynriis pelted the beast with Wire Rifle shots, fending off tendrils and drawing attention from Gaelin-4. The Guardian nocked a Void-Light bolt and cast his Shadowshot into the Wrathborn's chest, drawing its limbs in with crushing gravity. The trio drew Arc-cage stake-points and flung them into position around the incapacitated Wrathborn. As the last stake made connection, the Arc-cage sprung and shocked the beast into unconscious submission.\n\nMorning light trickled over the horizon as the three finished tying down the cage for transfer.\n\n\"Better this time,\" Nivviks croaked. \"Cave is unsettling.\"\n\n\"Web Mines were a good idea,\" the Guardian replied. He sighed. \"I strongly advise you demo that cave.\"\n\n\"Agreed. I will call for a Ketch.\" Nivviks stepped away, shouting back, \"Enjoy your liquor and whelp.\"\n\nGaelin-4 smirked.\n\nVynriis checked the cage's seals and looked to Gaelin. \"What will the Guardian call his War Beast?\"\n\n\"Castus.\"\n\n\"A good hound.\"",
+                "itemHash": "1148770067",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/d3688e3a9bd3c6ac167655e44b5f374c.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/658bbbcdfc21d1efde3a45be6049acf7.jpg",
                 "rarity": "Legendary",
                 "class": 1,
                 "statRolls": [
@@ -1071,24 +1089,24 @@
         },
         "Titan": {
             "Helmet": {
-                "name": "Tusked Allegiance Helmet",
+                "name": "Wild Hunt Helm",
                 "type": "Legendary Helmet",
                 "description": "",
-                "lore": "\"They are an insult, a stain that's our duty to wash away.\" \u2014Lord Saladin",
-                "ExtLore": "AGAIN.\n\nSok'tol, Fifth of the Light, felt flame surge through his body as he was resurrected. \n\nHe became aware of many things at once: the altar beneath him. The roaring of Acolytes. The powerful grip on his shoulders, which even now began to crack under the pressure. \n\nAbove him, a trio of Wizards held his Ghost tight, its bleached shell ensnared by ebony tendrils of controlling spellcraft. It pulled against the bonds but could do nothing but look down at him helplessly.\n\nSING OF HER LIES. SPEAK OF HER TRUTHS.\n\nThe voice was everywhere. As Sok'tol strained to sit up, something slammed him down, pounding his chitinous skull into the stone again and again. He screeched as the bony frill surrounding his face splintered and snapped loose. He felt his jaw dislodge, felt his own teeth crush against his face, felt himself crack and shatter.\n\nBlackness. And then\u2014\n\nAGAIN.\n\nAs his shell knit and restored soulfire flowed anew, Sok'tol, Fifth of the Light, shuddered awake. \n\nThe Acolytes roared again. They crowded the altar, surrounded by a haze of green. Sok'tol peered upward at the Ogre pinning him against the altar. \n\nIt tightened its grip on his shoulders, claws crackling with wrathful energy. It shook its massive head, crowned in an emerald corona, and bellowed in a voice that was not its own:\n\nYOUR STRENGTH BECOMES MINE. AS WILL HERS. SPEAK.\n\nSok'tol concentrated the Light in his armored hand and began to form a grenade, but the shrieking Acolytes reached forward and tore his fingers apart in their claws. \n\nSok'tol bared his teeth and hissed up at the Ogre, whose eyes rolled with fury as a blast of soulfire erupted from its mouth. Sok'tol opened his jaws to howl as he was obliterated.\n\nBlackness. And then\u2014\n\nAGAIN.",
-                "itemHash": "2240729575",
+                "lore": "Never lose focus.",
+                "ExtLore": "I\n\n\"Cousin Zavala. Ikora.\" Petra Venj's image shone on screen in the Commander's office. Curtains drawn; it was one of few dim sources providing light to the room. \"Condolences are not enough.\"\n\n\"The worlds may be gone, but their gravity remains\u2026 in more ways than one.\" Zavala cleared his throat. \"How can the Vanguard be of assistance to the Queen's Wrath?\"\n\nIkora bowed her head in acknowledgement but did not look up from her datapad. Her eyes scoured intelligence reports from Europa, the Tangled Shore, Luna, beyond the pale, the list went on.\n\n\"I'm afraid my news won't improve the mood.\" Petra took a deep breath. \"What I'm about to divulge to you is privileged information. It cannot leave our confidence.\"\n\nIkora's attention broke from her datapad. \"Is that so? Information related to the Reef Queen's broadcast?\"\n\n\"A separate one sent afterward, entrusted to me. I thought it best we compare notes.\"\n\n\"Curious.\" Ikora lowered her datapad. \"We do not have the authority to simply deny the Consensus pertinent information.\" Her voice was metronomic in its cadence\u2014each word selected with care.\n\n\"Unilateral command decisions are admissible during wartime, provided I were supplied with evidence enough to do so.\" Zavala glanced to Ikora before continuing. \"Give me something, Petra. Why have you called?\"\n\n\"The Cabal Empire is on the move.\"\n\n\"That is concerning,\" Ikora said, finally relinquishing her datapad to power down on Zavala's desk.\n\nIndignation twitched across Zavala's brow. \"How many times must we bury them?\"\n\n\"Potentially once more, Commander.\"\n\n\"'Empire' implies their forces have coalesced around central leadership. Does the Queen's Wrath have a name?\"\n\n\"Only rumors. Fully decrypting the Cabal's latest transmission cipher is proving tricky. However, a new phrase has entered their lexicon.\"\n\n\"What do you mean?\" Zavala inquired.\n\n\"From the few sequences we've cracked, it would seem they are combating something. A disease, of Hive origin.\"\n\nIkora eyed the datapad. \"Petra, a Hidden report details an encounter with an afflicted beast in Soriks's Cut. It bled soulfire.\"\n\n\"Osiris can confirm increased Hive activity throughout the system.\" The Commander looked to Ikora, then to Petra. \"Let's get ahead of this.\"\n\n\"Yes, I've spoken to Osiris. The Techeuns have heard the Hive whispering to each other of conquest. Corsairs push into their broodholds to investigate, but\u2026 if I'm honest, access has become increasingly difficult.\"\n\n\"You think this is linked to the Cabal Empire's newfound coordination?\" Zavala asked.\n\n\"Descriptions of the ailment are incomplete, but align with what we're seeing on the ground here.\"\n\n\"An interstellar illness?\" Ikora's voice was hushed. \"At that distance, they would need a bridging point between us.\"\n\n\"Or a nexus,\" Zavala said.\n\n\"A throne world might do.\" Petra's brow furrowed in thought. \"The Blind Well has been misbehaving.\"\n\n\"Petra.\" Ikora looked celestial, eyes like quicksilver. \"Red-sky morning. Full of dread. Recite it to the Techeuns.\"\n\n\"Foreboding. I'll relay the message; does it have a meaning?\"\n\n\"A dream. Maybe nothing, but\u2026\" She saw that Petra understood.\n\n\"You say the Hive are more active?\" Zavala interjected. \"They're up to something.\"\n\n\"More violent, if that's imaginable. They seek out fights when before their actions showed tact.\" Petra's mind went to motive. \"The Darkness has them in a frenzy.\"\n\n\"New marching orders? Perhaps we could apply additional firepower to your investigation,\" Zavala offered.\n\n\"A Guardian embedded under my command?\"\n\n\"To a point,\" Ikora modified.\n\n\"It would save many lives. May I request someone who wouldn't destroy everything?\"\n\n\"Who did you have in mind?\" Zavala ran a list in his head. \"We're short on available Guardians.\"\n\n\"Did Sloane make it home?\" Petra asked. \"She seems capable.\"\n\n\"She's indisposed.\" Ikora looked to Zavala with firm eyes. \"Aunor's Striker docked his ship here last night. He's fresh, available.\"\n\n\"Is this agreeable?\"\n\n\"The Reef is thankful for any assistance the City can offer. We stand against this together, cousin. Vanguard Rey.\"\n\n\"Indeed.\"\n\nIkora nodded.\n\nPetra's image disconnected.\n\n\"You're quite fond of making friends lately,\" poked Ikora.\n\n\"So many brigands in our midst these days; I believe I've learned the value of making deals,\" Zavala spoke with subtle impact. \"With what we've seen from our spearhead on Europa, what they did\u2026 strong alliances can be built on the back of honored agreements.\"\n\n\"We are of one mind on that. We should keep this operation between us.\"\n\n\"Inform your Striker of his new deployment. I would like a name and a file. It's odd for me not to know a Titan in this City.\"",
+                "itemHash": "3887272785",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/22c0386f31bfcee2b5f2c86be52be4ab.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/31418ea0659028284c872b9339e7664c.jpg",
                 "rarity": "Legendary",
                 "class": 0,
                 "statRolls": [
-                    50,
-                    6,
-                    12,
-                    8,
-                    8,
-                    10,
-                    6
+                    61,
+                    7,
+                    2,
+                    22,
+                    7,
+                    14,
+                    9
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -1098,24 +1116,24 @@
                 "masterworkData": null
             },
             "Arms": {
-                "name": "Tusked Allegiance Gauntlets",
+                "name": "Wild Hunt Gauntlets",
                 "type": "Legendary Gauntlets",
                 "description": "",
-                "lore": "\"If this is a test, we shall not fail.\" \u2014Lord Saladin",
-                "ExtLore": "Crow was already reloading when the strange Hive's lifeless body crashed to the forest floor.\n\nGlint flew toward the corpse without a word. Crow pretended not to notice and kept walking through the woods. He's been in a mood all day, Glint thought with a static sigh. He could use some time alone.\n\nWhen he reached the Hive, Glint resisted the absurd reflex to scan it for compatibility. Instead, he simply assessed, noting the strong arms that could handle the recoil from heavy weapons; the thick shell, built to absorb all manner of firepower; the remains of a bony shield that sizzled nearby, powerful enough to protect\u2014\n\nThe space next to Glint fluctuated as a bone-white Hive Ghost appeared. \n\nThe two froze warily in midair.\n\n\"Hey,\" the Hive Ghost whispered after a moment. \"It's okay.\" Its voice was surprisingly soft. \n\nIts green eye flickered reassuringly and it began to focus Light.\n\nGlint bobbed unsteadily. Crow was fifty yards off, moving carefully through the trees. \"You shouldn't\u2014\"\n\n\"It'll be all right,\" it said and hovered lower to the ground, pouring Light into the fallen Hive. The surrounding ferns trembled with the sudden flow of energy.\n\n\"Wait,\" Glint pressed. But the Ghost ignored him as the thick armor of the Hive began to reform. \n\n\"Crow!\" Glint screamed, \"Crow, here!\" And he flew to him without turning back.",
-                "itemHash": "187431790",
+                "lore": "Strike relentlessly.",
+                "ExtLore": "II\n\nA monolithic ivory tower pierced the distant horizon. Siegfried, first Striker Titan of the Praxic Order, sat across from The Queen's Wrath and two bodyguards. Their skimmer-craft glided through the dazzling amethyst architecture and swooping fog-ridden tunnels of the Dreaming City. Crystalline reflections danced through the cabin around them like rainbow-mist flares, catching sheen off Siegfried's polished Dunemarchers.\n\n\"I've never seen this road.\"\n\n\"That doesn't surprise me. Much of the city remains inscrutable to prying eyes,\" Petra Venj chuckled. \"You've visited before?\"\n\n\"Once or twice. Is that Rheasilvia through the fog?\" Siegfried removed his helmet and hung it on the Invective slotted beside his seat. A thick flaxen braid ran down the midsection of his head, fading into stubbled sides that fed a sumptuous beard.\n\n\"It is.\" Petra looked the man over. \"That's not a common fashion for a Guardian.\"\n\n\"Grew in during the Red War. It took a liking to me.\" Siegfried stroked his chin. \"Will your soldiers be ready to move once we arrive?\"\n\n\"At nightfall.\" Her hand was outstretched, holding field notes. \"You understand what you're facing?\"\n\nSiegfried took them and slid the note packet into his breastplate beneath a Cormorant Seal. \"Innumerable Hive.\"\n\n\"Yes, and particularly vicious ones.\"\n\n\"That has always been my experience.\" Siegfried smiled. \"I'm sure your Corsairs will allow no harm to come to me. I will do the same for them.\"\n\n\"They'll be relieved to have a Guardian leading the charge.\"\n\n\"My briefing mentioned fauna being afflicted by a pervasive infestation?\"\n\nPetra kept the worry from her face. \"Recently sapient beings have begun to show symptoms as well.\"\n\n\"It's spreading.\" The Praxic Titan leaned forward. \"How have you combated this?\"\n\n\"Intelligence suggests the Hive congregate around some sort of relic. We believe it is the affliction's point of origin.\" Petra pointed to his breastplate. \"Your notes provide more details.\"\n\n\"It is my understanding I am not to destroy this relic. Why?\"\n\n\"'Whatever the Hive bow to in the dark: secure it, intact,'\" she quoted. \"It represents too many unknowns to discard without examination.\"\n\n\"That is not my perspective. The Hive exist to purge or be purged. I say we oblige them.\" Siegfried turned to The Queen's Wrath. \"My feelings aside, you are the commanding officer of this expedition. I will comply.\"\n\n\"Do so with care. You alone are cleared to approach the relic. My Corsairs don't enjoy the protection of the Light, and I want them keeping a safe distance once the nest is clear.\"\n\n\"Very well. Still, know my recommendation to the Vanguard will only be in support of eradication or containment.\"\n\n\"The Reef will take note of their opinions. For now, I imagine the Vanguard are rather focused on Europa. At least, if what I hear from Eris is accurate.\"\n\n\"Eris Morn is a traitor.\" Siegfried's voice was stern, his eyes locked with Petra's.\n\n Her lip convulsed in a silent snarl. \"The information she shares would suggest otherwise.\" Petra turned away from Siegfried as the skimmer-craft dipped beneath the fog. She thought of Eris's last letter, the sighting of Variks. Pieces in motion. Coats turning or bisected. Wartime nuances. \"Maybe this deployment will be good for you.\"\n\n\"Anywhere my Light can send shadows into retreat is a good deployment.\"",
+                "itemHash": "2545401128",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/7e6eec696c04a072c00c4aa2d0eef762.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/d2e47d92ce2367bb0a46c9ff99362aef.jpg",
                 "rarity": "Legendary",
                 "class": 0,
                 "statRolls": [
-                    47,
+                    57,
+                    21,
+                    6,
+                    2,
                     6,
                     13,
-                    6,
-                    6,
-                    10,
-                    6
+                    9
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -1125,24 +1143,24 @@
                 "masterworkData": null
             },
             "Chest": {
-                "name": "Tusked Allegiance Plate",
+                "name": "Wild Hunt Plate",
                 "type": "Legendary Chest Armor",
                 "description": "",
-                "lore": "\"I believed not that the Light was good, but that there is goodness in those who defend it. I still do.\" \u2014Lord Saladin",
-                "ExtLore": "Mithrax delicately pushed the low curtain aside as he entered the bedroom.\n\nTall shelves crowded him, cluttered with relics from Mercury and beyond: piles of intricate scrolls, silver hourglasses that turned of their own accord, ceramic pots of red soil sprouting delicate metallic vines beneath glass domes. An enormous feathered mantle was mounted carefully on a wooden stand and crowned with a birdlike cowl.\n\nThe hulking form of Saint-14 sat in a wooden chair facing the bed where, impossibly small beneath the blankets, rested the man known as Osiris.\n\nMithrax rapped politely on the doorframe.\n\n\"My friend,\" Saint-14 said. \"It is good of you to come.\"\n\nMithrax approached Saint and bowed. \"It is an honor to be invited,\" he said. \"These visits are pleasant to me.\" \n\nHe held out the covered dish he was carrying in his lower arms, but Saint's eyes remained fixed on Osiris. \n\nThe Titan took a ragged breath. His voice was a hoarse whisper: \"Could the Psion machine\u2026 connect my mind with his? So that I might share his dreams?\"\n\nMithrax felt useless. He spoke softly: \"The Psion tells me the subject must have residual activity for a reading, and Osiris has been asleep very long. Besides, the connection you seek joins the Light of one being to the Light of another, and Osiris is\u2014\"\n\n\"Lightless, yes,\" Saint finished flatly. He leaned forward in his chair, his elbows on his knees, hands clasped before him. He was silent for some time.\n\n\"I will let him sleep alone,\" Saint finally said, and caressed Osiris's hand with impossible tenderness. \"When he wakes, we will dream together once more.\"\n\nHe adjusted the blankets, stood, and nodded toward the covered dish Mithrax still clutched awkwardly.\n\n\"I am hoping that is not more eggplant,\" he said.\n\nMithrax coughed on his Ether. \"The eggplant is most nourishing,\" he protested weakly, and Saint groaned.",
-                "itemHash": "438108034",
+                "lore": "\"This thing we were hunting, it was smart. Scary smart. It trapped us in the tombs below Old Chicago; picked off the other fireteams one by one.\" \u2014Reed-7, Exo Titan",
+                "ExtLore": "III\n\nDusk set over the Dreaming City. Six Corsairs sporting Tigerspite Rifles made final checks on their gear. Movement became still salutes as Petra and Siegfried approached the staging ground. Just ahead, nestled in the Divalian Mists, menaced a fetid pit trimmed in Hive bio-growth. Frenetic inhuman whispers echoed from within like hoarse cords screaming.\n\nField holos displayed maps of twisting tunnelways all orbiting one central chasm. Within the nest, a point flagged their objective. Approach markers tracked the most direct path through.\n\n\"At ease, Corsairs. This is Siegfried. He is here to assist you in flushing the Hive from this nest and reclaiming our land. Inside, he is in command. My guard and I will hold this forward station. You all know what to do. For the Queen.\" Petra pivoted to allow Siegfried the floor. \"Titan.\"\n\n\"Well met, Awoken of the Reef. The Vanguard stands with you. I am the spearhead. Advance on me and we will prevail.\" Siegfried donned his helmet. \"I will not fail you.\"\n\nThe fireteam embarked, and in the subterranean ever-dark, the Hive descended upon them. Droves of Thrall choked the tunnels as gunfire deluge hammered from behind rallying barricades without pause. Siegfried lit the hollow with brilliant Arc fulmination, and rounds found targets. Claws drew blood and rent armor, but neither Titan nor Corsair wavered. Seven entered and seven stood. With each break in the flood, they took ground under cover of storm.\n\nSiegfried arced through the filth like a deadly spark. Each charge scattered the opposition, leaving only crackling chitin, expended shells, and galvanized ozone.\n\nSoulfire fumes fouled the air as reinforcements phased into ritual circles. Acolytes loped to flank the Titan only to be cut off by Corsair suppressing fire. Siegfried faced down a towering Knight with a man-hewing blade. He formed two flashbangs in his fists and lunged with a blinding combo. The Knight shrieked, narrowly missing Siegfried's head with its cleaver. The Titan launched forward, and the fiend fell to the rolling tempest. Labored breathing was the only sound that remained. The Titan looked to a blocked tunnelway in the floor before them.\n\nSlick Hive excretion lined the chasm ahead. \"This must be their sanctum.\" Siegfried's palm pulsed with Light. The faint silhouette of a Ghost popped in and out of existence. \"Yes. This is it. Fall back and form a perimeter. If I don't return, you are to retreat.\"\n\n Siegfried ripped through the mucus-seal and slid into the dim cavern. Foul fluid trickled from the ceiling in drips and spattered in pools at his feet. A monument of gore writhed before him. Soft tendrils convulsed around a jaundiced grim glow. They grew from the twisted base of an eviscerated Knight\u2014its back and ribs pulled through its split abdomen, bending inside-out in half-completed metamorphosis.\n\n\"You vile thing.\" Siegfried walked slowly, his sight focused on the grotesque shrine. The Knight's eyes followed his every step. He was mere meters from the horror when the earth burst on either side of him. Two Ogres stumbled from chitin-covered sacs he had mistaken for walls. He drew his Invective and with well-placed blasts, dispatched the first. Siegfried turned to the second, but it was already upon him. It batted him into a cavern wall and wailed as energy beamed from its eye.\n\nSiegfried raised a towering barricade just as the Ogre unleashed its hellish gaze. Cracks webbed through the Light wall. Siegfried braced it with both hands. The Ogre shook the ground as it bore down on him. The Titan readied himself to clash, lightning welling in his bones.\n\n Movement in the distance. [CRACK] The Ogre's head snapped sideways from a forceful hit. Siegfried followed the sound to a figure perched in the mouth of a tunnel opposite of him. The Ogre turned and roared\u2014 [CRACK] Its head blew back, oozing from a raw wound. Three more shots followed from the figure, bringing the Ogre to its knees. The man looked at Siegfried and performed a small bow. The Titan dispersed his shield and seized the Ogre by the neck. He slammed the wounded thing to the ground and brought both fists down with a bolt of electricity and a killing blow. The Titan turned to confront his rescuer but saw only an empty tunnel.\n\nIt was early morning before Siegfried surfaced again. Petra stood stone-still in the camp.\n\n\"I retrieved your samples. You should know that anything I removed regenerated\u2026\" Siegfried lowered his voice. \"\u2026I believe this was a germinal site. Either lady luck is with us, or this was an ambitious expansion off a larger site.\"\n\n\"We're never lucky,\" Petra replied grimly. \"I'll begin narrowing down options for our next strike.\"\n\n\"That line of thinking will be reflected in my report to the Vanguard.\"\n\n\"You've done more than enough for today, Sir Titan. Rest. Tomorrow we'll take the samples to the Techeuns. I'm sure they'll have plenty to say.\"",
+                "itemHash": "3351935136",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/71109086e1bb1a6ec42467fe58e607ff.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/d2905560ed1b6e903da1060e60970d72.jpg",
                 "rarity": "Legendary",
                 "class": 0,
                 "statRolls": [
-                    50,
-                    14,
-                    12,
+                    60,
+                    19,
+                    7,
                     2,
-                    6,
-                    6,
-                    10
+                    13,
+                    12,
+                    7
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -1152,24 +1170,24 @@
                 "masterworkData": null
             },
             "Legs": {
-                "name": "Tusked Allegiance Greaves",
+                "name": "Wild Hunt Greaves",
                 "type": "Legendary Leg Armor",
                 "description": "",
-                "lore": "\"Meet them head-on. Let us see whose Light burns more brightly.\" \u2014Lord Saladin",
-                "ExtLore": "Bask materialized near a low wall and zipped to where Jolur had collapsed. The Ghost began to focus his Light when incoming fire sent him spinning to the ground.\n\n\"What did I tell you about dying in the open?\" the little Ghost cried in frustration. Determined, he rose into the air, but the Hive Knight was already charging across the Trostland cobblestones.\n\nA sudden explosion of Void energy took the Knight by surprise, but it dodged the pulsing shockwaves of a Vortex Grenade. A tall Warlock in a worn green robe loped from the treeline and slid to a stop before Bask. She hastily formed a ball of Light in her palm and slammed it into the ground. Delicate wisps of energy began to rise from the soil.\n\n\"That's not gonna help!\" Bask whirred angrily.\n\nThe Warlock stood, sheltering Bask with her body as he resumed his focus on Jolur. The Knight screeched and resumed fire. A volley of Shredder bolts doubled the Warlock over, but the energy seeping from the rift gave her the strength to keep standing. \n\n\"Thanks,\" said Bask sheepishly.\n\n\"Don't mention it,\" she said, gritting her teeth through the gunfire. \n\nA blinding burst of energy surged as Jolur rose to his feet, body shimmering with Light. He braced himself and lobbed an orb of unstable energy that reduced the Knight to howling ash on impact. \n\n\"Appreciate the assist,\" Jolur said to Bask and the Warlock as he brushed dirt from his decrepit boots. \"These guys are stronger than I thought, but it's nothing a Nova Bomb can't handle.\"\n\nThe Warlock inspected the damage to her robe. \"What's going on with these Hive?\"\n\n\"I don't know,\" Jolur said. \"Lord Saladin sent a group of us down to figure out\u2014\"\n\nAnother blinding burst of energy surged nearby. The Knight rose to its feet, body shimmering with Light. \n\nThe Guardians stood frozen in horror. \n\n\"Since when can they do that?\" Bask squeaked, and the fight began in earnest.",
-                "itemHash": "2270509928",
+                "lore": "Outrun your prey.",
+                "ExtLore": "IV\n\nThe night felt all too rushed, and morning so soon. Siegfried ached. He couldn't remember the last time he had been sore after a fight.\n\n\"Good morning, sir.\" Siegfried's Ghost, Ogden, hovered over the samples the Titan had taken. \"The sorcery these dullards are using is extremely unstable.\"\n\n\"I asked you to stay away from that. It's desecrated.\" Siegfried swiped the samples into his satchel from the gear rack in his tent. \"In truth, I'd prefer you remained stowed until we departed.\"\n\n\"You were not so rude as a boy, you know.\" The Ghost squinted at his Titan. \"When I express concern, Master Siegfried tells me not to fret. Could I not say the same?\"\n\n\"Different times, old friend. Now my body's a fair bit cheaper to replace than yours,\" Siegfried joked.\n\n\"Fine point, sir.\"\n\nThe journey to the Techeuns was silent and uncomfortable. He met Petra in the cabin nose-deep in papers. Hoarse screams buried in the hard-blown fog. The Reef was shifting. She had requested his presence but informed him he would not be allowed inside the Temple. Ridiculous. Why was he here? Siegfried's thoughts were abuzz with distortion. Chaos. He followed Petra's march to the Temple chambers, the satchel of samples gripped tightly in his hand. She must have her reasons.  Her secrets. The stairways seemed endless and Siegfried could not shake the image from the cavern. That macabre ritual. He tried to think of anything else.\n\n\"Are there any other Guardians operating in this area?\" Siegfried questioned.\n\n\"Guardians come and go, but I haven't noticed anything unusual, if that's what you mean.\"\n\n\"Nothing you aren't telling me?\"\n\n\"I have no reason to lie to you, Titan.\"\n\n\"I saw a man.\"\n\nPetra stopped walking. The Temple door was only a few steps away. \"Is there more?\"\n\n\"He was Awoken. He bore the Spider's sigil\u2014\"\n\n\"Where did you see this man?\"\n\n\"During your operation.\" Siegfried paused. \"He gunned down an ogre in my defense and fled.\"\n\n\"Noble for a Syndicate fly.\"\n\n\"I know you fraternize with the Spider.\" Siegfried watched her.\n\nPetra looked taken aback for a moment, then composed. \"Do you know why spiders build webs, Titan?\"\n\n\"I don't concern myself with such things.\"\n\n\"They enjoy control. Entrapment. The helplessness. Pulling strings in their small, little corners. Let them be, watched but undisturbed, and they catch other pests. Worse pests.\" Petra strode forward and placed a hand on the door. \"Maybe it's time to check his web.\" The other held out for the satchel. \"I'll look into it.\"\n\nSiegfried placed it in her hand. \"I eagerly await your findings.\"\n\n\"The Techeuns may need your account.\" Petra smirked to herself, \"I give you dominion over these stairs. Stand guard, Sir Titan. Patrol if you'd like.\"\n\nKalli, Sedia, and Shuro Chi awaited the Queen's Wrath. They placed the specimens each in a sealed containment vessel. They assessed them one by one. They prepared their minds. Slipped into meditation.\n\nTooth, blood, and bone from the sacrificial Knight. Coagulated Soulfire. Shaved tissue of the writhe.\n\nCommunion in searching.Three voices speak as one.Noise upon noise.Eleusinia drowning.\n\nA terrace of emerald flame above a red harborFingers reach like blades from distant hollowsTestingProddingTastingBreeding war.\n\nA dream is offered.\n\nRED SKY: They carry a brand in the consciousness of their tissues.\n\nMORNING: Individual existences all touched in chorus.\n\nFULL OF DREAD: Xivu Arath. Avatar of War.\n\nMore. So much more.\n\nThey witnessed it all.\n\nPetra wished she had not.\n\nSiegfried sat lost in thought, seated on the steps. He didn't like the idea of relying on witchcraft, especially that which he was unable to observe. If nothing else, it could at least be faster.\n\nThe door opened behind him. Petra's face showed signs of fatigue. \"I'm sorry to keep you waiting. Return to the staging ground. I'll join you in the morning. There is still much to discuss here.\" She considered Siegfried for a moment. \"Tell the Vanguard Ikora's dream had merit. I'll be in contact.\"\n\nSiegfried sighed and stood. \"I see my account of the situation was not necessary.\"\n\nHe felt lighter now, moving down the stairs. Sharp even, as he entered the skimmer. Siegfried wasn't sure if it was the peace of an empty cabin or the security of a troop carrier escorting him. The satchel he had left with Petra. None of his concern. He removed his helmet and took a deep breath. He let his mind drift as he watched the beauty of the Strand pass. The grand gateway above him. The fabled crystalline wall standing against the fog. The wall. Atop the wall. Perched like a buzzard.\n\nIt was him.\n\nSomething hovered with him, glinting in the light.\n\n\"There he is again!\" barked Siegfried. He flung the door open and leapt without waiting for the skimmer to slow. The Titan soared through the air on Light, surging forward in an electrified dash before sliding into a full sprint. He crested the hill above the crystalline wall soon enough. Motion dragged into the shoreline mist. Siegfried pursued it.",
+                "itemHash": "3180809346",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/ab3bf165529d5860e1d7818863f66fff.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/9268583c4416341a5d80c9a8a2b49bc9.jpg",
                 "rarity": "Legendary",
                 "class": 0,
                 "statRolls": [
-                    49,
-                    19,
+                    61,
+                    16,
                     2,
-                    6,
-                    6,
-                    10,
-                    6
+                    12,
+                    9,
+                    12,
+                    10
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -1179,14 +1197,14 @@
                 "masterworkData": null
             },
             "Class Item": {
-                "name": "Tusked Allegiance Mark",
+                "name": "Wild Hunt Mark",
                 "type": "Legendary Titan Mark",
                 "description": "",
-                "lore": "\"We are what we survive. They will not be the Guardians.\" \u2014Lord Saladin",
-                "ExtLore": "The huddled Guardians fell into shocked silence as Commander Zavala's silhouette loomed over the table.\n\nA hooded figure sat, suddenly enveloped by the shadow, and leaned backward until his head bumped against Zavala's chestplate. He tilted his chin up and craned his neck to fix Zavala with an upside-down smile. \n\nHis hood fell back. \"What's with the face, Big Blue?\" Drifter said. \"Somebody's gotta teach 'em how to play offense.\"\n\n\"Get this out of my Tower.\" There was iron in the Titan's voice. \n\nAn old fear split Drifter's face. He leaned forward, swept the contents of the table into his knapsack\u2014tangled cables, a red lens, shards of bone, a green eye spinning madly in a jar of thick fluid\u2014and left without a word.",
-                "itemHash": "3957071315",
+                "lore": "Show your pride.",
+                "ExtLore": "V\n\nThe Titan peered into empty mist.\n\n\"Damn,\" Siegfried said flatly. He turned around.\n\nA barrel in his bare face. A hooded Awoken behind it, with features obscured by a thin shawl wrap from the eyes down. \"Stop. Following. Me.\"\n\nSiegfried raised his hands. His Ghost materialized. \"Stay back, Ogden!\" the Praxic Striker called out.\n\n\"Now see here!\" Ogden shouted, \"I will not watch two brothers of the Light do battle. Calm yourselves!\"\n\nA second Ghost materialized. \"Glint. Be careful,\" whispered the figure.\n\n\"We're all on the same side here,\" Glint said meekly.\n\nA Corsair stepped through the mist, rifle pointed at the hooded figure. \"Lay down your arms and come peacefully.\"\n\n\"Oh no.\" Glint looked to the hooded man. \"Wait, Cro\u2014mh.\"\n\nHeat flashed from the hooded man's free hand.\n\n\"'Crome,' is it?\" Siegfried inquired. \"Never heard of you.\"\n\n\"Crome\" spun and threw a crude Solar blade, splitting the Corsair's rifle and slashing his hand. Siegfried moved to disarm; he caught Crome's turning jaw with an electrified fist, but missed the gun. Crome floundered back several paces and dove into the mists.\n\n\"What a disrespectful man,\" Ogden shouted. \"That kind of conduct cannot be allowed.\"\n\n\"I'll put a stop to it,\" Siegfried assured him.\n\nSilhouettes stumbled through fog. Ghosts dematerialized. Corsair radios muddled with chatter. Crome skulked until quiet surrounded him, interrupted by a small burst of propulsion in the mist.\n\nSiegfried was far above him, plummeting through the mist like a coiled storm. Crome glanced upward and took off sprinting. The Striker's fists shattered the ground behind him in thunderous havoc. Crome darted away and twisted, landing on his feet with Dire Promise ready. Siegfried bolted directly toward Crome like living lightning. Each fanned shot from the man's cannon was struck down by bolts arcing from the Titan. Siegfried led with a shoulder. Crome dashed around him and brought Solar flame to form in his hand\u2014\n\n\"Too slow!\" Siegfried whipped a crackling elbow into Crome's stomach and blocked the counterattack. The Titan delivered a knee to the man's ribs that chained into three lightning-fast strikes across the Hunter's body\u2014ending in a thundercrack blow to the temple.\n\nCrome grunted and struggled to maintain his footing.\n\nSiegfried stood emblazoned in voltaic fury. \"You're outclassed.\"\n\n \"I'm pretty good at taking punishment,\" Crome jabbed through clenched, bloodied teeth.\n\n\"Surrender. I won't ask again.\"\n\n\"I can't do that. I'm here to hel\u2014\"\n\nSiegfried charged without hesitation, but Crome was ready this time. Instead of retreating, he leapt forward with a searing blade. Siegfried caught his wrist millimeters before the blade made contact but lost his footing. They grappled in the dirt. Siegfried pried the knife from Crome's hand.\n\n\"Enjoy that,\" Crome said, skidding away from the Titan with a kick to the midsection. The blade turned molten and engulfed Siegfried in a fiery explosion.\n\nThe Striker rose from the blast-cloud, coughing. \"Damned knives\u2026\" Crome was quickly disappearing into the mist.\n\n\"Enough running!\" His voice erupted as he slammed electrified fists into the ground. The shockwave rippled through the dirt and tripped the running Hunter. Siegfried took a step forward. The Hunter rolled to face him, gun red-hot. A beam of Solar destruction sizzled through the mist, clipping Siegfried's pauldron before he could react and knocking him to the floor.\n\nSiegfried could hear the Corsairs nearby. Disoriented and livid, the Titan found his feet, but not his foe. The Hunter was gone. No amount of searching with the Corsairs would change that, but Siegfried kept them looking all through the night just the same.",
+                "itemHash": "2279193565",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/a6d66ae6bb20f5590598aab4327076a2.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/a9c5e507639dde4eef50db99bd133148.jpg",
                 "rarity": "Legendary",
                 "class": 0,
                 "statRolls": [
