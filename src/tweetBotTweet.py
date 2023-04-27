@@ -30,6 +30,22 @@ class main:
         self.membershipType = destinyMembershipType
         self.membershipId = destinyMembershipID
         self.characterIDWarlock = characterIDWarlock
+    
+    async def debugTweetOveride(self):
+        input("WARNING! DEBUG TWEET ON!\n\n\n")
+        input("")
+        auth = tweepy.OAuthHandler(consumer_key,consumer_secret)
+        auth.set_access_token(access_token,access_token_secret)
+        api = tweepy.API(auth)
+        try:
+            api.verify_credentials()
+        except Exception as e:
+            print("Error during authentication")
+            print(e)
+        tweetStr = "API TEST TWEET.\nplease ignore! \nthanks!"
+        tweetStr += "\n"+str(random.random())
+        api.update_status(tweetStr)
+
     async def tweet(self,sendTweet,debugTweet):
         #none checks
         if self.exoticTitan == None:
@@ -254,5 +270,8 @@ def mainloop():
 
     TB = main(apiKey)
     loop.run_until_complete(TB.getXurInventory(True))
-#wait for api?
+    
+    #for debug
+    #loop.run_until_complete(TB.debugTweetOveride())
+
 mainloop()
