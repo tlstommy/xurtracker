@@ -1,7 +1,7 @@
 #server for flask
 #Thomas Logan Smith
 
-from flask import Flask, render_template
+from flask import Flask, render_template, send_from_directory, request
 import datetime
 from datetime import date
 import json 
@@ -12,6 +12,10 @@ D2_RESET_TIME_UTC = 17
 app = Flask(__name__)
 app.config['TEMPLATES_AUTO_RELOAD'] = True
 
+@app.route('/robots.txt')
+@app.route('/sitemap.xml')
+def static_from_root():
+    return send_from_directory(app.static_folder, request.path[1:])
 
 
 @app.route('/exotics')
@@ -77,5 +81,5 @@ def main():
       return xurStatus()
    #return render_template('xur_gone.html')
 if __name__ == '__main__':
-   app.run(ssl_context=('/home/ubuntu/XurTracker/data/cert.pem', '/home/ubuntu/XurTracker/data/key.pem'))
+   app.run(ssl_context=('/home/ubuntu/XurTracker/data/cert.pem', '/home/ubuntu/XurTracker/data/key.pem'),static_folder='static')
    
