@@ -134,6 +134,7 @@ src/tmp/*
 
 #private data and certs
 data/bearer_token.txt
+data/refresh_token.txt
 data/cert.pem
 data/key.pem
 data/sData.txt
