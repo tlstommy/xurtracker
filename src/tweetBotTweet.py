@@ -67,23 +67,23 @@ class main:
         #setup twitter auth
         auth = tweepy.OAuthHandler(consumer_key,consumer_secret)
         auth.set_access_token(access_token,access_token_secret)
-        api = tweepy.API(auth)
+        twitterApi = tweepy.API(auth)
         try:
-            api.verify_credentials()
+            twitterApi.verify_credentials()
         except Exception as e:
             print("Error during authentication")
             print(e)
 
         #determine location
         if(self.location == "Tower Hangar"):
-            api.update_profile(location="The Last City")
-            api.update_profile_banner(filename="/home/ubuntu/XurTracker/imgs/towerHanger.jpg") 
+            twitterApi.update_profile(location="The Last City")
+            twitterApi.update_profile_banner(filename="/home/ubuntu/XurTracker/imgs/towerHanger.jpg") 
         if(self.location == "Winding Cove"):
-            api.update_profile(location="European Dead Zone")
-            api.update_profile_banner(filename="/home/ubuntu/XurTracker/imgs/windingCove.jpg")     
+            twitterApi.update_profile(location="European Dead Zone")
+            twitterApi.update_profile_banner(filename="/home/ubuntu/XurTracker/imgs/windingCove.jpg")     
         if(self.location == "Watcher's Grave"):
-            api.update_profile(location="Nessus")
-            api.update_profile_banner(filename="/home/ubuntu/XurTracker/imgs/watchersGrave.jpg")
+            twitterApi.update_profile(location="Nessus")
+            twitterApi.update_profile_banner(filename="/home/ubuntu/XurTracker/imgs/watchersGrave.jpg")
 
         #calculate reset date    
         resetDate = date.today() + timedelta((1-date.today().weekday()) % 7 )
@@ -98,7 +98,7 @@ class main:
         
         #tweet
         if(sendTweet):
-            api.update_status(tweetStr)
+            twitterApi.update_status(tweetStr)
         else:
             print("tweet:\n\n",tweetStr,"\n")
             print("sendTweet bool is set to false.")
