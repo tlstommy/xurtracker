@@ -141,9 +141,6 @@ data/sData.txt
 
 #credentials and oauth tokens
 src/credentials.py
-src/regenerateToken.py
-src/refreshBearerToken.py
-src/generateBearerToken.py
 
 #logs
 cronlogs/*
