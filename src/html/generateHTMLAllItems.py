@@ -44,15 +44,15 @@ def buildExArmorStatTable(perks):
                             <td>{rec}</td>
                           </tr>
                           <tr>
-                            <th scope="row"><img src="https://www.bungie.net/common/destiny2_content/icons/ca62128071dc254fe75891211b98b237.png" width="40" height="40" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Discipline"></th>
+                            <th scope="row"><img src="https://www.bungie.net/common/destiny2_content/icons/79be2d4adef6a19203f7385e5c63b45b.png" width="40" height="40" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Discipline"></th>
                             <td>{dis}</td>
                           </tr>
                           <tr>
-                            <th scope="row"><img src="https://www.bungie.net/common/destiny2_content/icons/59732534ce7060dba681d1ba84c055a6.png" width="40" height="40" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Intellect"></th>
+                            <th scope="row"><img src="https://www.bungie.net/common/destiny2_content/icons/d1c154469670e9a592c9d4cbdcae5764.png" width="40" height="40" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Intellect"></th>
                             <td>{inte}</td>
                           </tr>
                           <tr>
-                            <th scope="row"><img src="https://www.bungie.net/common/destiny2_content/icons/c7eefc8abbaa586eeab79e962a79d6ad.png" width="40" height="40" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Strength"></th>
+                            <th scope="row"><img src="https://www.bungie.net/common/destiny2_content/icons/ea5af04ccd6a3470a44fd7bb0f66e2f7.png" width="40" height="40" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Strength"></th>
                             <td>{stre}</td>
                           </tr>
                           <tr>
@@ -460,7 +460,7 @@ def setHtmlVals():
                     <br>
                     <h5>Hawkmoon</h5>
                     <hr>
-                    <img src="https://www.bungie.net/common/destiny2_content/icons/bc462cdde2fa00c808ff4f15802cb3b4.jpg" class="img" alt="hawkmoon"  data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="<p>Stalk thy prey and let loose thy talons upon the Darkness.</p>">
+                    <img src="https://www.bungie.net/common/destiny2_content/icons/cef1290d58a2d94d1437e1e569fa7996.jpg" class="img" alt="hawkmoon"  data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="<p>Stalk thy prey and let loose thy talons upon the Darkness.</p>">
                     <div class="weaponData">
                         <b>Hawkmoon</b>
                         <p>Hand Cannon</p>
@@ -481,7 +481,7 @@ def setHtmlVals():
                     <br>
                     <h5>Dead Man's Tale</h5>
                     <hr>
-                    <img src="https://www.bungie.net/common/destiny2_content/icons/67634d7a01d7dca3aef90b4612d58489.jpg" class="img" alt="DMT" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="<p>&quotLong, short, they all end the same way. &quot<br>\u2014Katabasis</p>">
+                    <img src="https://www.bungie.net/common/destiny2_content/icons/cfc2c246cfd404d749fffbfe3ae3dfec.jpg" class="img" alt="DMT" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="<p>&quotLong, short, they all end the same way. &quot<br>\u2014Katabasis</p>">
                     
                     <div class="weaponData">
                         <b>Dead Man's Tale</b>
@@ -765,9 +765,9 @@ def setHtmlVals():
                                     <th scope="col"><img src="https://www.bungie.net/common/destiny2_content/icons/e26e0e93a9daf4fdd21bf64eb9246340.png" width="40" height="40" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="Mobility"></th>
                                     <th scope="col"><img src="https://www.bungie.net/common/destiny2_content/icons/202ecc1c6febeb6b97dafc856e863140.png" width="40" height="40" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="Resilience"></th>
                                     <th scope="col"><img src="https://www.bungie.net/common/destiny2_content/icons/128eee4ee7fc127851ab32eac6ca91cf.png" width="40" height="40" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="Recovery"></th>
-                                    <th scope="col"><img src="https://www.bungie.net/common/destiny2_content/icons/ca62128071dc254fe75891211b98b237.png" width="40" height="40" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="Discipline"></th>
-                                    <th scope="col"><img src="https://www.bungie.net/common/destiny2_content/icons/59732534ce7060dba681d1ba84c055a6.png" width="40" height="40" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="Intellect"></th>
-                                    <th scope="col"><img src="https://www.bungie.net/common/destiny2_content/icons/c7eefc8abbaa586eeab79e962a79d6ad.png" width="40" height="40" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="Strength"></th>
+                                    <th scope="col"><img src="https://www.bungie.net/common/destiny2_content/icons/79be2d4adef6a19203f7385e5c63b45b.png" width="40" height="40" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="Discipline"></th>
+                                    <th scope="col"><img src="https://www.bungie.net/common/destiny2_content/icons/d1c154469670e9a592c9d4cbdcae5764.png" width="40" height="40" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="Intellect"></th>
+                                    <th scope="col"><img src="https://www.bungie.net/common/destiny2_content/icons/ea5af04ccd6a3470a44fd7bb0f66e2f7.png" width="40" height="40" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="Strength"></th>
                                     
                                 </tr>
                             </thead>
@@ -803,9 +803,9 @@ def setHtmlVals():
                                     <th scope="col"><img src="https://www.bungie.net/common/destiny2_content/icons/e26e0e93a9daf4fdd21bf64eb9246340.png" width="40" height="40" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="Mobility"></th>
                                     <th scope="col"><img src="https://www.bungie.net/common/destiny2_content/icons/202ecc1c6febeb6b97dafc856e863140.png" width="40" height="40" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="Resilience"></th>
                                     <th scope="col"><img src="https://www.bungie.net/common/destiny2_content/icons/128eee4ee7fc127851ab32eac6ca91cf.png" width="40" height="40" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="Recovery"></th>
-                                    <th scope="col"><img src="https://www.bungie.net/common/destiny2_content/icons/ca62128071dc254fe75891211b98b237.png" width="40" height="40" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="Discipline"></th>
-                                    <th scope="col"><img src="https://www.bungie.net/common/destiny2_content/icons/59732534ce7060dba681d1ba84c055a6.png" width="40" height="40" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="Intellect"></th>
-                                    <th scope="col"><img src="https://www.bungie.net/common/destiny2_content/icons/c7eefc8abbaa586eeab79e962a79d6ad.png" width="40" height="40" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="Strength"></th>
+                                    <th scope="col"><img src="https://www.bungie.net/common/destiny2_content/icons/79be2d4adef6a19203f7385e5c63b45b.png" width="40" height="40" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="Discipline"></th>
+                                    <th scope="col"><img src="https://www.bungie.net/common/destiny2_content/icons/d1c154469670e9a592c9d4cbdcae5764.png" width="40" height="40" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="Intellect"></th>
+                                    <th scope="col"><img src="https://www.bungie.net/common/destiny2_content/icons/ea5af04ccd6a3470a44fd7bb0f66e2f7.png" width="40" height="40" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="Strength"></th>
                                     
                                 </tr>
                             </thead>
@@ -841,9 +841,9 @@ def setHtmlVals():
                                     <th scope="col"><img src="https://www.bungie.net/common/destiny2_content/icons/e26e0e93a9daf4fdd21bf64eb9246340.png" width="40" height="40" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="Mobility"></th>
                                     <th scope="col"><img src="https://www.bungie.net/common/destiny2_content/icons/202ecc1c6febeb6b97dafc856e863140.png" width="40" height="40" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="Resilience"></th>
                                     <th scope="col"><img src="https://www.bungie.net/common/destiny2_content/icons/128eee4ee7fc127851ab32eac6ca91cf.png" width="40" height="40" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="Recovery"></th>
-                                    <th scope="col"><img src="https://www.bungie.net/common/destiny2_content/icons/ca62128071dc254fe75891211b98b237.png" width="40" height="40" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="Discipline"></th>
-                                    <th scope="col"><img src="https://www.bungie.net/common/destiny2_content/icons/59732534ce7060dba681d1ba84c055a6.png" width="40" height="40" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="Intellect"></th>
-                                    <th scope="col"><img src="https://www.bungie.net/common/destiny2_content/icons/c7eefc8abbaa586eeab79e962a79d6ad.png" width="40" height="40" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="Strength"></th>
+                                    <th scope="col"><img src="https://www.bungie.net/common/destiny2_content/icons/79be2d4adef6a19203f7385e5c63b45b.png" width="40" height="40" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="Discipline"></th>
+                                    <th scope="col"><img src="https://www.bungie.net/common/destiny2_content/icons/d1c154469670e9a592c9d4cbdcae5764.png" width="40" height="40" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="Intellect"></th>
+                                    <th scope="col"><img src="https://www.bungie.net/common/destiny2_content/icons/ea5af04ccd6a3470a44fd7bb0f66e2f7.png" width="40" height="40" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="top" title="Strength"></th>
                                     
                                 </tr>
                             </thead>

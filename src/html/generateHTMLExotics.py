@@ -43,15 +43,15 @@ def buildExArmorStatTable(perks):
                             <td><b>{rec}</b></td>
                           </tr>
                           <tr>
-                            <th scope="row"><img src="https://www.bungie.net/common/destiny2_content/icons/ca62128071dc254fe75891211b98b237.png" width="40" height="40"> Armor Discipline Rating</th>
+                            <th scope="row"><img src="https://www.bungie.net/common/destiny2_content/icons/79be2d4adef6a19203f7385e5c63b45b.png" width="40" height="40"> Armor Discipline Rating</th>
                             <td><b>{dis}</b></td>
                           </tr>
                           <tr>
-                            <th scope="row"><img src="https://www.bungie.net/common/destiny2_content/icons/59732534ce7060dba681d1ba84c055a6.png" width="40" height="40"> Armor Intellect Rating</th>
+                            <th scope="row"><img src="https://www.bungie.net/common/destiny2_content/icons/d1c154469670e9a592c9d4cbdcae5764.png" width="40" height="40"> Armor Intellect Rating</th>
                             <td><b>{inte}</b></td>
                           </tr>
                           <tr>
-                            <th scope="row"><img src="https://www.bungie.net/common/destiny2_content/icons/c7eefc8abbaa586eeab79e962a79d6ad.png" width="40" height="40"> Armor Strength Rating</th>
+                            <th scope="row"><img src="https://www.bungie.net/common/destiny2_content/icons/ea5af04ccd6a3470a44fd7bb0f66e2f7.png" width="40" height="40"> Armor Strength Rating</th>
                             <td><b>{stre}</b></td>
                           </tr>
                           <tr>
@@ -307,10 +307,10 @@ def setHtmlVals():
                 <table class="table table-borderless" style="color: #ffffff;">
                     <thead>
                         <tr>
-                            <th><img src="https://www.bungie.net/common/destiny2_content/icons/bc462cdde2fa00c808ff4f15802cb3b4.jpg"
+                            <th><img src="https://www.bungie.net/common/destiny2_content/icons/cef1290d58a2d94d1437e1e569fa7996.jpg"
                                     class="img" width="100px" alt="exotic-warlock"></th>
                             <th style="vertical-align:middle;"><img
-                                    src="https://www.bungie.net/common/destiny2_content/icons/db83b69527ca8373f2803386e3d0a086.png"
+                                    src="https://www.bungie.net/common/destiny2_content/icons/243f5529bbd845871803181958599473.png"
                                     class="img" alt="exotic-warlock-perk" width="75" data-bs-toggle="tooltip"
                                     data-bs-offset="100,0" data-bs-html="true" data-bs-placement="bottom"
                                     title="<p>Final blows and precision hits with Hawkmoon grant stacks of Paracausal Charge. The final round in the magazine deals bonus damage based on the number of stacks. Stowing Hawkmoon on the final round removes this bonus.</p>"></img>
@@ -400,10 +400,10 @@ def setHtmlVals():
                 <table class="table table-borderless" style="color: #ffffff;">
                     <thead>
                         <tr>
-                            <th><img src="https://www.bungie.net/common/destiny2_content/icons/67634d7a01d7dca3aef90b4612d58489.jpg"
+                            <th><img src="https://www.bungie.net/common/destiny2_content/icons/cfc2c246cfd404d749fffbfe3ae3dfec.jpg"
                                     class="img" width="100px" alt="exotic-warlock"></th>
                             <th style="vertical-align:middle;"><img
-                                    src="https://www.bungie.net/common/destiny2_content/icons/0e171b3269c4796acad0c0b11c7fbc27.png"
+                                    src="https://www.bungie.net/common/destiny2_content/icons/4dfb2a51e3f93e72f9bf576118c8c785.png"
                                     class="img" alt="exotic-warlock-perk" width="75" data-bs-toggle="tooltip"
                                     data-bs-offset="100,0" data-bs-html="true" data-bs-placement="bottom"
                                     title="<p>Chaining precision hits grants bonus damage and quickens reload speed.</p>"></img>

@@ -337,7 +337,7 @@ def setHtmlVals():
                             </tr>
                             <tr>
                                 <th scope="row" style="vertical-align: middle;">
-                                    <img src="https://www.bungie.net/common/destiny2_content/icons/ca62128071dc254fe75891211b98b237.png"
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/79be2d4adef6a19203f7385e5c63b45b.png"
                                         class="img" alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip"
                                         data-bs-html="true" data-bs-placement="left"
                                         title="Discipline<br>Decreases cooldown of grenade abilities."></img>
@@ -355,7 +355,7 @@ def setHtmlVals():
 
                             <tr>
                                 <th scope="row" style="vertical-align: middle;">
-                                    <img src="https://www.bungie.net/common/destiny2_content/icons/59732534ce7060dba681d1ba84c055a6.png"
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/d1c154469670e9a592c9d4cbdcae5764.png"
                                         class="img" alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip"
                                         data-bs-html="true" data-bs-placement="left"
                                         title="Intellect<br>Decreases cooldown of Super abilities."></img>
@@ -372,7 +372,7 @@ def setHtmlVals():
                             </tr>
                             <tr>
                                 <th scope="row" style="vertical-align: middle;">
-                                    <img src="https://www.bungie.net/common/destiny2_content/icons/c7eefc8abbaa586eeab79e962a79d6ad.png"
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/ea5af04ccd6a3470a44fd7bb0f66e2f7.png"
                                         class="img" alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip"
                                         data-bs-html="true" data-bs-placement="left"
                                         title="Strength<br>Decreases cooldown of melee abilities."></img>
@@ -526,7 +526,7 @@ def setHtmlVals():
                             </tr>
                             <tr>
                                 <th scope="row" style="vertical-align: middle;">
-                                    <img src="https://www.bungie.net/common/destiny2_content/icons/ca62128071dc254fe75891211b98b237.png"
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/79be2d4adef6a19203f7385e5c63b45b.png"
                                         class="img" alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip"
                                         data-bs-html="true" data-bs-placement="left"
                                         title="Discipline<br>Decreases cooldown of grenade abilities."></img>
@@ -544,7 +544,7 @@ def setHtmlVals():
 
                             <tr>
                                 <th scope="row" style="vertical-align: middle;">
-                                    <img src="https://www.bungie.net/common/destiny2_content/icons/59732534ce7060dba681d1ba84c055a6.png"
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/d1c154469670e9a592c9d4cbdcae5764.png"
                                         class="img" alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip"
                                         data-bs-html="true" data-bs-placement="left"
                                         title="Intellect<br>Decreases cooldown of Super abilities."></img>
@@ -561,7 +561,7 @@ def setHtmlVals():
                             </tr>
                             <tr>
                                 <th scope="row" style="vertical-align: middle;">
-                                    <img src="https://www.bungie.net/common/destiny2_content/icons/c7eefc8abbaa586eeab79e962a79d6ad.png"
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/ea5af04ccd6a3470a44fd7bb0f66e2f7.png"
                                         class="img" alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip"
                                         data-bs-html="true" data-bs-placement="left"
                                         title="Strength<br>Decreases cooldown of melee abilities."></img>
@@ -701,7 +701,7 @@ def setHtmlVals():
                             </tr>
                             <tr>
                                 <th scope="row" style="vertical-align: middle;">
-                                    <img src="https://www.bungie.net/common/destiny2_content/icons/ca62128071dc254fe75891211b98b237.png"
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/79be2d4adef6a19203f7385e5c63b45b.png"
                                         class="img" alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip"
                                         data-bs-html="true" data-bs-placement="left"
                                         title="Discipline<br>Decreases cooldown of grenade abilities."></img>
@@ -719,7 +719,7 @@ def setHtmlVals():
 
                             <tr>
                                 <th scope="row" style="vertical-align: middle;">
-                                    <img src="https://www.bungie.net/common/destiny2_content/icons/59732534ce7060dba681d1ba84c055a6.png"
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/d1c154469670e9a592c9d4cbdcae5764.png"
                                         class="img" alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip"
                                         data-bs-html="true" data-bs-placement="left"
                                         title="Intellect<br>Decreases cooldown of Super abilities."></img>
@@ -736,7 +736,7 @@ def setHtmlVals():
                             </tr>
                             <tr>
                                 <th scope="row" style="vertical-align: middle;">
-                                    <img src="https://www.bungie.net/common/destiny2_content/icons/c7eefc8abbaa586eeab79e962a79d6ad.png"
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/ea5af04ccd6a3470a44fd7bb0f66e2f7.png"
                                         class="img" alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip"
                                         data-bs-html="true" data-bs-placement="left"
                                         title="Strength<br>Decreases cooldown of melee abilities."></img>
@@ -874,7 +874,7 @@ def setHtmlVals():
                             </tr>
                             <tr>
                                 <th scope="row" style="vertical-align: middle;">
-                                    <img src="https://www.bungie.net/common/destiny2_content/icons/ca62128071dc254fe75891211b98b237.png"
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/79be2d4adef6a19203f7385e5c63b45b.png"
                                         class="img" alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip"
                                         data-bs-html="true" data-bs-placement="left"
                                         title="Discipline<br>Decreases cooldown of grenade abilities."></img>
@@ -892,7 +892,7 @@ def setHtmlVals():
 
                             <tr>
                                 <th scope="row" style="vertical-align: middle;">
-                                    <img src="https://www.bungie.net/common/destiny2_content/icons/59732534ce7060dba681d1ba84c055a6.png"
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/d1c154469670e9a592c9d4cbdcae5764.png"
                                         class="img" alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip"
                                         data-bs-html="true" data-bs-placement="left"
                                         title="Intellect<br>Decreases cooldown of Super abilities."></img>
@@ -909,7 +909,7 @@ def setHtmlVals():
                             </tr>
                             <tr>
                                 <th scope="row" style="vertical-align: middle;">
-                                    <img src="https://www.bungie.net/common/destiny2_content/icons/c7eefc8abbaa586eeab79e962a79d6ad.png"
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/ea5af04ccd6a3470a44fd7bb0f66e2f7.png"
                                         class="img" alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip"
                                         data-bs-html="true" data-bs-placement="left"
                                         title="Strength<br>Decreases cooldown of melee abilities."></img>
@@ -1049,7 +1049,7 @@ def setHtmlVals():
                             </tr>
                             <tr>
                                 <th scope="row" style="vertical-align: middle;">
-                                    <img src="https://www.bungie.net/common/destiny2_content/icons/ca62128071dc254fe75891211b98b237.png"
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/79be2d4adef6a19203f7385e5c63b45b.png"
                                         class="img" alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip"
                                         data-bs-html="true" data-bs-placement="left"
                                         title="Discipline<br>Decreases cooldown of grenade abilities."></img>
@@ -1067,7 +1067,7 @@ def setHtmlVals():
 
                             <tr>
                                 <th scope="row" style="vertical-align: middle;">
-                                    <img src="https://www.bungie.net/common/destiny2_content/icons/59732534ce7060dba681d1ba84c055a6.png"
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/d1c154469670e9a592c9d4cbdcae5764.png"
                                         class="img" alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip"
                                         data-bs-html="true" data-bs-placement="left"
                                         title="Intellect<br>Decreases cooldown of Super abilities."></img>
@@ -1084,7 +1084,7 @@ def setHtmlVals():
                             </tr>
                             <tr>
                                 <th scope="row" style="vertical-align: middle;">
-                                    <img src="https://www.bungie.net/common/destiny2_content/icons/c7eefc8abbaa586eeab79e962a79d6ad.png"
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/ea5af04ccd6a3470a44fd7bb0f66e2f7.png"
                                         class="img" alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip"
                                         data-bs-html="true" data-bs-placement="left"
                                         title="Strength<br>Decreases cooldown of melee abilities."></img>
@@ -1220,7 +1220,7 @@ def setHtmlVals():
                             </tr>
                             <tr>
                                 <th scope="row" style="vertical-align: middle;">
-                                    <img src="https://www.bungie.net/common/destiny2_content/icons/ca62128071dc254fe75891211b98b237.png"
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/79be2d4adef6a19203f7385e5c63b45b.png"
                                         class="img" alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip"
                                         data-bs-html="true" data-bs-placement="left"
                                         title="Discipline<br>Decreases cooldown of grenade abilities."></img>
@@ -1238,7 +1238,7 @@ def setHtmlVals():
 
                             <tr>
                                 <th scope="row" style="vertical-align: middle;">
-                                    <img src="https://www.bungie.net/common/destiny2_content/icons/59732534ce7060dba681d1ba84c055a6.png"
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/d1c154469670e9a592c9d4cbdcae5764.png"
                                         class="img" alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip"
                                         data-bs-html="true" data-bs-placement="left"
                                         title="Intellect<br>Decreases cooldown of Super abilities."></img>
@@ -1255,7 +1255,7 @@ def setHtmlVals():
                             </tr>
                             <tr>
                                 <th scope="row" style="vertical-align: middle;">
-                                    <img src="https://www.bungie.net/common/destiny2_content/icons/c7eefc8abbaa586eeab79e962a79d6ad.png"
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/ea5af04ccd6a3470a44fd7bb0f66e2f7.png"
                                         class="img" alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip"
                                         data-bs-html="true" data-bs-placement="left"
                                         title="Strength<br>Decreases cooldown of melee abilities."></img>

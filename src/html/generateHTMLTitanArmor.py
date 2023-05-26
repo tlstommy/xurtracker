@@ -316,7 +316,7 @@ def setHtmlVals():
                             </tr>
                             <tr>
                                 <th scope="row" style="vertical-align: middle;">
-                                    <img src="https://www.bungie.net/common/destiny2_content/icons/ca62128071dc254fe75891211b98b237.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Discipline<br>Decreases cooldown of grenade abilities."></img>
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/79be2d4adef6a19203f7385e5c63b45b.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Discipline<br>Decreases cooldown of grenade abilities."></img>
                                 </th>
                                 <td style="vertical-align: middle;">
                                     <h5>+{exoticTitanStatsList[4]}</h5>
@@ -330,7 +330,7 @@ def setHtmlVals():
 
                             <tr>
                                 <th scope="row" style="vertical-align: middle;">
-                                    <img src="https://www.bungie.net/common/destiny2_content/icons/59732534ce7060dba681d1ba84c055a6.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Intellect<br>Decreases cooldown of Super abilities."></img>
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/d1c154469670e9a592c9d4cbdcae5764.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Intellect<br>Decreases cooldown of Super abilities."></img>
                                 </th>
                                 <td style="vertical-align: middle;">
                                     <h5>+{exoticTitanStatsList[5]}</h5>
@@ -343,7 +343,7 @@ def setHtmlVals():
                             </tr>
                             <tr>
                                 <th scope="row" style="vertical-align: middle;">
-                                    <img src="https://www.bungie.net/common/destiny2_content/icons/c7eefc8abbaa586eeab79e962a79d6ad.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Strength<br>Decreases cooldown of melee abilities."></img>
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/ea5af04ccd6a3470a44fd7bb0f66e2f7.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Strength<br>Decreases cooldown of melee abilities."></img>
                                 </th>
                                 <td style="vertical-align: middle;">
                                     <h5>+{exoticTitanStatsList[6]}</h5>
@@ -461,7 +461,7 @@ def setHtmlVals():
                                 </tr>
                                 <tr>
                                     <th scope="row" style="vertical-align: middle;">
-                                        <img src="https://www.bungie.net/common/destiny2_content/icons/ca62128071dc254fe75891211b98b237.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Discipline<br>Decreases cooldown of grenade abilities."></img>
+                                        <img src="https://www.bungie.net/common/destiny2_content/icons/79be2d4adef6a19203f7385e5c63b45b.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Discipline<br>Decreases cooldown of grenade abilities."></img>
                                     </th>
                                     <td style="vertical-align: middle;">
                                         <h5>+{titanHelmetStatsList[4]}</h5>
@@ -475,7 +475,7 @@ def setHtmlVals():
     
                                 <tr>
                                     <th scope="row" style="vertical-align: middle;">
-                                        <img src="https://www.bungie.net/common/destiny2_content/icons/59732534ce7060dba681d1ba84c055a6.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Intellect<br>Decreases cooldown of Super abilities."></img>
+                                        <img src="https://www.bungie.net/common/destiny2_content/icons/d1c154469670e9a592c9d4cbdcae5764.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Intellect<br>Decreases cooldown of Super abilities."></img>
                                     </th>
                                     <td style="vertical-align: middle;">
                                         <h5>+{titanHelmetStatsList[5]}</h5>
@@ -488,7 +488,7 @@ def setHtmlVals():
                                 </tr>
                                 <tr>
                                     <th scope="row" style="vertical-align: middle;">
-                                        <img src="https://www.bungie.net/common/destiny2_content/icons/c7eefc8abbaa586eeab79e962a79d6ad.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Strength<br>Decreases cooldown of melee abilities."></img>
+                                        <img src="https://www.bungie.net/common/destiny2_content/icons/ea5af04ccd6a3470a44fd7bb0f66e2f7.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Strength<br>Decreases cooldown of melee abilities."></img>
                                     </th>
                                     <td style="vertical-align: middle;">
                                         <h5>+{titanHelmetStatsList[6]}</h5>
@@ -595,7 +595,7 @@ def setHtmlVals():
                             </tr>
                             <tr>
                                 <th scope="row" style="vertical-align: middle;">
-                                    <img src="https://www.bungie.net/common/destiny2_content/icons/ca62128071dc254fe75891211b98b237.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Discipline<br>Decreases cooldown of grenade abilities."></img>
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/79be2d4adef6a19203f7385e5c63b45b.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Discipline<br>Decreases cooldown of grenade abilities."></img>
                                 </th>
                                 <td style="vertical-align: middle;">
                                     <h5>+{titanArmsStatsList[4]}</h5>
@@ -609,7 +609,7 @@ def setHtmlVals():
 
                             <tr>
                                 <th scope="row" style="vertical-align: middle;">
-                                    <img src="https://www.bungie.net/common/destiny2_content/icons/59732534ce7060dba681d1ba84c055a6.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Intellect<br>Decreases cooldown of Super abilities."></img>
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/d1c154469670e9a592c9d4cbdcae5764.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Intellect<br>Decreases cooldown of Super abilities."></img>
                                 </th>
                                 <td style="vertical-align: middle;">
                                     <h5>+{titanArmsStatsList[5]}</h5>
@@ -622,7 +622,7 @@ def setHtmlVals():
                             </tr>
                             <tr>
                                 <th scope="row" style="vertical-align: middle;">
-                                    <img src="https://www.bungie.net/common/destiny2_content/icons/c7eefc8abbaa586eeab79e962a79d6ad.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Strength<br>Decreases cooldown of melee abilities."></img>
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/ea5af04ccd6a3470a44fd7bb0f66e2f7.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Strength<br>Decreases cooldown of melee abilities."></img>
                                 </th>
                                 <td style="vertical-align: middle;">
                                     <h5>+{titanArmsStatsList[6]}</h5>
@@ -727,7 +727,7 @@ def setHtmlVals():
                             </tr>
                             <tr>
                                 <th scope="row" style="vertical-align: middle;">
-                                    <img src="https://www.bungie.net/common/destiny2_content/icons/ca62128071dc254fe75891211b98b237.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Discipline<br>Decreases cooldown of grenade abilities."></img>
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/79be2d4adef6a19203f7385e5c63b45b.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Discipline<br>Decreases cooldown of grenade abilities."></img>
                                 </th>
                                 <td style="vertical-align: middle;">
                                     <h5>+{titanChestStatsList[4]}</h5>
@@ -741,7 +741,7 @@ def setHtmlVals():
 
                             <tr>
                                 <th scope="row" style="vertical-align: middle;">
-                                    <img src="https://www.bungie.net/common/destiny2_content/icons/59732534ce7060dba681d1ba84c055a6.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Intellect<br>Decreases cooldown of Super abilities."></img>
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/d1c154469670e9a592c9d4cbdcae5764.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Intellect<br>Decreases cooldown of Super abilities."></img>
                                 </th>
                                 <td style="vertical-align: middle;">
                                     <h5>+{titanChestStatsList[5]}</h5>
@@ -754,7 +754,7 @@ def setHtmlVals():
                             </tr>
                             <tr>
                                 <th scope="row" style="vertical-align: middle;">
-                                    <img src="https://www.bungie.net/common/destiny2_content/icons/c7eefc8abbaa586eeab79e962a79d6ad.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Strength<br>Decreases cooldown of melee abilities."></img>
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/ea5af04ccd6a3470a44fd7bb0f66e2f7.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Strength<br>Decreases cooldown of melee abilities."></img>
                                 </th>
                                 <td style="vertical-align: middle;">
                                     <h5>+{titanChestStatsList[6]}</h5>
@@ -861,7 +861,7 @@ def setHtmlVals():
                             </tr>
                             <tr>
                                 <th scope="row" style="vertical-align: middle;">
-                                    <img src="https://www.bungie.net/common/destiny2_content/icons/ca62128071dc254fe75891211b98b237.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Discipline<br>Decreases cooldown of grenade abilities."></img>
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/79be2d4adef6a19203f7385e5c63b45b.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Discipline<br>Decreases cooldown of grenade abilities."></img>
                                 </th>
                                 <td style="vertical-align: middle;">
                                     <h5>+{titanLegsStatsList[4]}</h5>
@@ -875,7 +875,7 @@ def setHtmlVals():
 
                             <tr>
                                 <th scope="row" style="vertical-align: middle;">
-                                    <img src="https://www.bungie.net/common/destiny2_content/icons/59732534ce7060dba681d1ba84c055a6.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Intellect<br>Decreases cooldown of Super abilities."></img>
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/d1c154469670e9a592c9d4cbdcae5764.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Intellect<br>Decreases cooldown of Super abilities."></img>
                                 </th>
                                 <td style="vertical-align: middle;">
                                     <h5>+{titanLegsStatsList[5]}</h5>
@@ -888,7 +888,7 @@ def setHtmlVals():
                             </tr>
                             <tr>
                                 <th scope="row" style="vertical-align: middle;">
-                                    <img src="https://www.bungie.net/common/destiny2_content/icons/c7eefc8abbaa586eeab79e962a79d6ad.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Strength<br>Decreases cooldown of melee abilities."></img>
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/ea5af04ccd6a3470a44fd7bb0f66e2f7.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Strength<br>Decreases cooldown of melee abilities."></img>
                                 </th>
                                 <td style="vertical-align: middle;">
                                     <h5>+{titanLegsStatsList[6]}</h5>
@@ -993,7 +993,7 @@ def setHtmlVals():
                             </tr>
                             <tr>
                                 <th scope="row" style="vertical-align: middle;">
-                                    <img src="https://www.bungie.net/common/destiny2_content/icons/ca62128071dc254fe75891211b98b237.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Discipline<br>Decreases cooldown of grenade abilities."></img>
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/79be2d4adef6a19203f7385e5c63b45b.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Discipline<br>Decreases cooldown of grenade abilities."></img>
                                 </th>
                                 <td style="vertical-align: middle;">
                                     <h5>+{titanMarkStatsList[4]}</h5>
@@ -1007,7 +1007,7 @@ def setHtmlVals():
 
                             <tr>
                                 <th scope="row" style="vertical-align: middle;">
-                                    <img src="https://www.bungie.net/common/destiny2_content/icons/59732534ce7060dba681d1ba84c055a6.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Intellect<br>Decreases cooldown of Super abilities."></img>
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/d1c154469670e9a592c9d4cbdcae5764.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Intellect<br>Decreases cooldown of Super abilities."></img>
                                 </th>
                                 <td style="vertical-align: middle;">
                                     <h5>+{titanMarkStatsList[5]}</h5>
@@ -1020,7 +1020,7 @@ def setHtmlVals():
                             </tr>
                             <tr>
                                 <th scope="row" style="vertical-align: middle;">
-                                    <img src="https://www.bungie.net/common/destiny2_content/icons/c7eefc8abbaa586eeab79e962a79d6ad.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Strength<br>Decreases cooldown of melee abilities."></img>
+                                    <img src="https://www.bungie.net/common/destiny2_content/icons/ea5af04ccd6a3470a44fd7bb0f66e2f7.png" class="img"alt="exotic-warlock-perk" width="50" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="Strength<br>Decreases cooldown of melee abilities."></img>
                                 </th>
                                 <td style="vertical-align: middle;">
                                     <h5>+{titanMarkStatsList[6]}</h5>
