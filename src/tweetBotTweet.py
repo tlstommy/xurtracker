@@ -65,26 +65,19 @@ class main:
 
         locEmoji = ""
         #setup twitter auth
-        auth = tweepy.OAuthHandler(consumer_key,consumer_secret)
-        auth.set_access_token(access_token,access_token_secret)
-        twitterApi = tweepy.API(auth)
+        
+        client = tweepy.Client(
+            consumer_key=consumer_key, consumer_secret=consumer_secret,
+            access_token=access_token, access_token_secret=access_token_secret
+        )
         try:
-            twitterApi.verify_credentials()
+            client.verify_credentials()
         except Exception as e:
             print("Error during authentication")
             print(e)
 
         #determine location
-        if(self.location == "Tower Hangar"):
-            twitterApi.update_profile(location="The Last City")
-            twitterApi.update_profile_banner(filename="/home/ubuntu/XurTracker/imgs/towerHanger.jpg") 
-        if(self.location == "Winding Cove"):
-            twitterApi.update_profile(location="European Dead Zone")
-            twitterApi.update_profile_banner(filename="/home/ubuntu/XurTracker/imgs/windingCove.jpg")     
-        if(self.location == "Watcher's Grave"):
-            twitterApi.update_profile(location="Nessus")
-            twitterApi.update_profile_banner(filename="/home/ubuntu/XurTracker/imgs/watchersGrave.jpg")
-
+        
         #calculate reset date    
         resetDate = date.today() + timedelta((1-date.today().weekday()) % 7 )
         resetDate = resetDate.strftime("%B %d").replace(' 0', ' ')
@@ -98,7 +91,7 @@ class main:
         
         #tweet
         if(sendTweet):
-            twitterApi.update_status(tweetStr)
+            client.create_tweet(text=str(tweetStr))
         else:
             print("tweet:\n\n",tweetStr,"\n")
             print("sendTweet bool is set to false.")
