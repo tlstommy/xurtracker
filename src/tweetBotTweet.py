@@ -63,21 +63,33 @@ class main:
 
 
 
-        locEmoji = ""
-        #setup twitter auth
+
+        #setup twitter auth for v2 and v1 endpoints
         
         client = tweepy.Client(
             consumer_key=consumer_key, consumer_secret=consumer_secret,
             access_token=access_token, access_token_secret=access_token_secret
         )
-        try:
-            client.verify_credentials()
-        except Exception as e:
-            print("Error during authentication")
-            print(e)
 
-        #determine location
-        
+        authV1 = tweepy.OAuth1UserHandler(
+            consumer_key=consumer_key, consumer_secret=consumer_secret,
+            access_token=access_token, access_token_secret=access_token_secret
+        )
+        clientV1 = tweepy.API(authV1)
+
+       
+        #update profile statuses
+
+        if(self.location == "Tower Hangar"):
+            clientV1.update_profile(location="The Last City")
+            clientV1.update_profile_banner(filename="/home/ubuntu/XurTracker/imgs/towerHanger.jpg") 
+        if(self.location == "Winding Cove"):
+            clientV1.update_profile(location="European Dead Zone")
+            clientV1.update_profile_banner(filename="/home/ubuntu/XurTracker/imgs/windingCove.jpg")     
+        if(self.location == "Watcher's Grave"):
+            clientV1.update_profile(location="Nessus")
+            clientV1.update_profile_banner(filename="/home/ubuntu/XurTracker/imgs/watchersGrave.jpg")
+
         #calculate reset date    
         resetDate = date.today() + timedelta((1-date.today().weekday()) % 7 )
         resetDate = resetDate.strftime("%B %d").replace(' 0', ' ')
@@ -91,7 +103,8 @@ class main:
         
         #tweet
         if(sendTweet):
-            client.create_tweet(text=str(tweetStr))
+            print(tweetStr)
+            #client.create_tweet(text=str(tweetStr))
         else:
             print("tweet:\n\n",tweetStr,"\n")
             print("sendTweet bool is set to false.")
