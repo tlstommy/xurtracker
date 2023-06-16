@@ -4,8 +4,6 @@ from datetime import date,timedelta
 from credentials import * 
 
 SEND_TWEET = True
-DEBUG_TWEET = False
-
 
 class main:
     def __init__(self, apiKey):
@@ -31,22 +29,7 @@ class main:
         self.membershipId = destinyMembershipID
         self.characterIDWarlock = characterIDWarlock
     
-    async def debugTweetOveride(self):
-        input("WARNING! DEBUG TWEET ON!\n\n\n")
-        input("")
-        auth = tweepy.OAuthHandler(consumer_key,consumer_secret)
-        auth.set_access_token(access_token,access_token_secret)
-        api = tweepy.API(auth)
-        try:
-            api.verify_credentials()
-        except Exception as e:
-            print("Error during authentication")
-            print(e)
-        tweetStr = "API TEST TWEET.\nplease ignore! \nthanks!"
-        tweetStr += "\n"+str(random.random())
-        api.update_status(tweetStr)
-
-    async def tweet(self,sendTweet,debugTweet):
+    async def tweet(self,sendTweet):
         #none checks
         if self.exoticTitan == None:
             print("rerunning tweet func..")
@@ -60,9 +43,6 @@ class main:
         if self.exoticWeapon == None:
             print("rerunning tweet func..")
             await self.getXurInventory(True)
-
-
-
 
         #setup twitter auth for v2 and v1 endpoints
         
@@ -79,13 +59,14 @@ class main:
 
        
         #update profile statuses
-
         if(self.location == "Tower Hangar"):
             clientV1.update_profile(location="The Last City")
             clientV1.update_profile_banner(filename="/home/ubuntu/XurTracker/imgs/towerHanger.jpg") 
+        
         if(self.location == "Winding Cove"):
             clientV1.update_profile(location="European Dead Zone")
             clientV1.update_profile_banner(filename="/home/ubuntu/XurTracker/imgs/windingCove.jpg")     
+        
         if(self.location == "Watcher's Grave"):
             clientV1.update_profile(location="Nessus")
             clientV1.update_profile_banner(filename="/home/ubuntu/XurTracker/imgs/watchersGrave.jpg")
@@ -95,16 +76,9 @@ class main:
         resetDate = resetDate.strftime("%B %d").replace(' 0', ' ')
         tweetStr = f"🌎  Xûr has arrived at the {self.location}!\n\n\n⚔️  {self.exoticWeapon}\n🛡  {self.exoticTitan}\n🛡  {self.exoticHunter}\n🛡  {self.exoticWarlock}\n\n\n\n🚀  Xûr will depart on {resetDate}.\n\nMore info at: https://xurtracker.com\n\n#Xur #Destiny  #Destiny2"
 
-        #tweetStr = "API TEST TWEET. please ignore thanks!"
-        
-        if(debugTweet):
-            tweetStr = "API TEST TWEET.\nplease ignore! \nthanks!"
-            tweetStr += "\n"+str(random.random())
-        
         #tweet
         if(sendTweet):
-            print(tweetStr)
-            #client.create_tweet(text=str(tweetStr))
+            client.create_tweet(text=str(tweetStr))
         else:
             print("tweet:\n\n",tweetStr,"\n")
             print("sendTweet bool is set to false.")
@@ -137,7 +111,7 @@ class main:
         elif xurVendorLoc == 2:
             self.location = "Watcher's Grave"
 
-    #Make an GET request to api and return json
+    #Make a GET request to api and return json
     def get_api_request(self, url):
         try:
                 #get api request and parse to json
@@ -146,6 +120,7 @@ class main:
         except aiohttp.client_exceptions.ClientResponseError as e:
             print("ERROR: Could not connect to Bungie.net Endpoint\n",e)
         return jsonResponse
+    
     #create a json file from all of the collected data
     def buildJSON(self):
         JSONTemplate = {
@@ -171,7 +146,7 @@ class main:
             
             #if item is exotic
             if decodedObj["inventory"]["tierType"] == 6:
-                #decodedObj = await self.decodeHash(self.hashList[i],"DestinyInventoryItemDefinition")
+                
                 name = decodedObj["displayProperties"]["name"]
                 type = decodedObj["itemTypeDisplayName"]
                 itemClass = decodedObj["classType"]
@@ -185,15 +160,15 @@ class main:
                 #warlock
                 if(itemClass == 2):
                     self.exoticWarlock = jsonTemp["name"]
-                    #self.exoticWarlockTotalStat = self.getArmorStats(self.hashIDList[i])
+                    
                 #titan
                 elif(itemClass == 0):
                     self.exoticTitan = jsonTemp["name"]
-                    #self.exoticTitanTotalStat = self.getArmorStats(self.hashIDList[i])
+                    
                 #hunter
                 elif(itemClass == 1):
                     self.exoticHunter = jsonTemp["name"]
-                    #self.exoticHunterTotalStat = self.getArmorStats(self.hashIDList[i])
+                    
                 #weapon
                 else:
                     self.exoticWeapon = jsonTemp["name"]
@@ -214,18 +189,21 @@ class main:
     async def getXurInventory(self,getLoc):
         if(getLoc):
             self.getLocation()
+
         #format url data    
         apiUrl = self.DestinyURLBase + "/Destiny2/Vendors/?components=402"
         self.apiResponse = self.get_api_request(apiUrl)
-        #print(self.apiResponse)
+        
         #store the inventory of for sale items to be parsed 
         self.apiResponseJson = json.loads(self.apiResponse)
         self.forSaleItems = self.apiResponseJson["Response"]["sales"]["data"][list(self.apiResponseJson["Response"]["sales"]["data"].keys())[0]]["saleItems"]
+        
         #add each hash and id to hashlists
         for i in range(len(self.forSaleItems)):
             self.hashList.append(self.apiResponseJson["Response"]["sales"]["data"][list(self.apiResponseJson["Response"]["sales"]["data"].keys())[0]]["saleItems"][list(self.forSaleItems)[i]]["itemHash"])
             self.hashIDList.append(self.apiResponseJson["Response"]["sales"]["data"][list(self.apiResponseJson["Response"]["sales"]["data"].keys())[0]]["saleItems"][list(self.forSaleItems)[i]].get('vendorItemIndex'))
-        #remove unwanted items and their ids
+        
+        #remove unwanted items via their hash
         try:
             self.hashList.remove(3875551374)
         except ValueError as e:
@@ -266,8 +244,9 @@ class main:
         except ValueError as e:
             print(f"ValueError: {e}")
             pass
+        
         await self.parseHash()
-        await self.tweet(sendTweet=SEND_TWEET,debugTweet=DEBUG_TWEET)
+        await self.tweet(sendTweet=SEND_TWEET)
 
 def mainloop():
     #create and set new loop
@@ -276,8 +255,5 @@ def mainloop():
 
     TB = main(apiKey)
     loop.run_until_complete(TB.getXurInventory(True))
-    
-    #for debug
-    #loop.run_until_complete(TB.debugTweetOveride())
 
 mainloop()
