@@ -705,8 +705,8 @@ def setHtmlVals():
                 <h2 style="text-align: center;">Exotic Cipher
                     <hr>
                 </h2>
-                <img src="https://www.bungie.net/common/destiny2_content/icons/7f9e6e79bb7a8ce59de9258a7d674af2.jpg"
-                    class="img" alt="exotic-engram">
+                <img src="https://www.bungie.net/common/destiny2_content/icons/9970631fe1052642c268132dfc30e16b.jpg"
+                    class="img" alt="exotic-cipher">
                 <div class="armorData">
                     <b>A Question</b>
                     <p>Complete activities in Vanguard, Crucible, or Gambit playlists to earn an Exotic Cipher</p>
@@ -782,7 +782,7 @@ def setHtmlVals():
                 <h2 style="text-align: center;">Exotic Engram
                     <hr>
                 </h2>
-                <img src="https://www.bungie.net/common/destiny2_content/icons/ee21b5bc72f9e48366c9addff163a187.png"
+                <img src="https://www.bungie.net/common/destiny2_content/icons/3e6a698e1a8a5fb446fdcbf1e63c5269.png"
                     class="img" alt="exotic-engram">
                 <div class="armorData">
                     <b>Exotic Engram</b>
