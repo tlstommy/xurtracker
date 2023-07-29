@@ -1,5 +1,27 @@
 #! /bin/sh
 
+
+
+<<comment
+example using regen html command
+
+
+>> sudo bash xurTrackerDriver.sh -m generate -c html
+generate mode
+generate mode - html
+[Regenerated all_items.html]
+[Regenerated exotic_items.html]
+[Regenerated legendary_weapons.html]
+[Regenerated hunter_armor.html]
+[Regenerated titan_armor.html]
+[Regenerated warlock_armor.html]
+[regenerated all html files]
+comment
+
+
+
+
+
 #help menu function
 Help()
 {
