@@ -1,8 +1,8 @@
 {
-    "Location": "The Last City",
+    "Location": "European Dead Zone",
     "Planet": "Earth",
-    "Landing Zone": "Tower Hangar",
-    "Week": "July 07, 2023",
+    "Landing Zone": "Winding Cove",
+    "Week": "July 28, 2023",
     "Exotics": {
         "Exotic Engram": {
             "name": "Exotic Engram",
@@ -43,67 +43,67 @@
             "masterworkData": null
         },
         "Exotic Weapon": {
-            "name": "Coldheart",
-            "type": "Exotic Trace Rifle",
+            "name": "The Wardcliff Coil",
+            "type": "Exotic Rocket Launcher",
             "description": "",
-            "lore": "The latest Omolon engineering leverages liquid fuel as coolant to keep weapon systems at biting subzero temperatures.",
-            "ExtLore": "The Golden Age. Our shining history. The height from which we fell. Once, everything we had was borrowed from the past. Since the Collapse we have struggled to reclaim even a scrap of what our ancestors once took for granted. Over the years, Omolon has perfected the art of salvaging Golden Age technologies and repurposing them into effective Guardian weaponry. \n\nBut Coldheart is something new. \n\nWe didn't find Coldheart. We didn't adapt it or recycle it. We created it. Its liquid ammo, which doubles as its coolant, is a game-changer on its own\u2014never mind Coldheart's first-of-its-kind laser-powered trace weaponry.  \n\nWith Coldheart, we at Omolon are saying: we want more than to simply reclaim the Golden Age. We want to surpass it.",
-            "itemHash": "1345867571",
+            "lore": "Ingenuity. Desperation. A haphazard prototype of terrible power. Such were the factors at play in the Wardcliff Incident.",
+            "ExtLore": "HAMIT'S LOG. The lead is good, but so are the Fallen tracking me. I swear on my Ghost there's a hundred camped outside. I'm cornered in the lab and they're using Shanks to run me out of ammunition. War cultist, arm thyself; at least it's a weapons lab. This, er, rustic device was once an experimental axion emitter, which sprays weird particles to light up the basement of the universe. Right here I've coupled the emitter to some catacaustic quark-gluon coils, which will not, due to my scrupulous safety checking, create a strangelet that devours the Earth. I cook up some pain in there, the microverse decays, and the result comes out here. If it doesn't work, well, please name the crater after me.",
+            "itemHash": "1508896098",
             "itemRating": null,
-            "icon": "https://www.bungie.net/common/destiny2_content/icons/2a2a95b819312fc6fef728911cfd6fa2.jpg",
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/06d12929d1866159aca5cdb60282f908.jpg",
             "rarity": "Exotic",
             "class": 3,
             "statRolls": [],
             "weaponPerks": [
                 {
-                    "name": "Cold Fusion",
-                    "description": "This weapon shoots a steady cold-fusion-powered Arc laser, dealing more damage the longer it remains on a target.",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/94cfe5855682f84c7a42118b8335dcaf.png",
-                    "hashID": 1036269296,
-                    "weaponHash": 1345867571,
+                    "name": "Mad Scientist",
+                    "description": "This weapon fires a volley of rockets.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/37b8b2948487e3cd7b912e07ebaa1059.png",
+                    "hashID": 2473404935,
+                    "weaponHash": 1508896098,
                     "isPerk": true,
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Extended Barrel",
-                    "description": "Weighty barrel extension.\n  \u2022  Increases range\n  \u2022  Decreases handling speed\n  \u2022  Moderately controls recoil",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/d9e5e8fa07a84c29252b78b0e7b3106d.png",
-                    "hashID": 1467527085,
-                    "weaponHash": 1345867571,
+                    "name": "Volatile Launch",
+                    "description": "This weapon is optimized for an especially explosive payload.\n  \u2022  Greatly increases blast radius\n  \u2022  Slightly decreases handling speed\n  \u2022  Slightly decreases projectile speed",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/d255c9140cf640cfc820f995d1c1e96a.png",
+                    "hashID": 1478423395,
+                    "weaponHash": 1508896098,
                     "isPerk": true,
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Enhanced Battery",
-                    "description": "Strong battery life.\n  \u2022  Increases magazine size",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/0ee59b61e99c52c85c2ea18ab705f700.png",
-                    "hashID": 2680121939,
-                    "weaponHash": 1345867571,
+                    "name": "Extended Mag",
+                    "description": "This weapon has a greatly increased magazine size, but reloads much slower.\n  \u2022  Greatly increases magazine size\n  \u2022  Greatly decreases reload speed\n  \u2022  Increases airborne effectiveness",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/66cfea124e24e73cca1ce6370b44ca7e.png",
+                    "hashID": 2420895100,
+                    "weaponHash": 1508896098,
                     "isPerk": true,
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Longest Winter",
-                    "description": "Periodically generates Ionic Traces while in its high-damage state.",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/dc14d2cc3f34c60b114955332a733d56.png",
-                    "hashID": 2482418662,
-                    "weaponHash": 1345867571,
+                    "name": "Mechanized Autoloader",
+                    "description": "This weapon automatically reloads on ammo pickup.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/fc20c5992b1467f23e34d7350be8305a.png",
+                    "hashID": 1178686995,
+                    "weaponHash": 1508896098,
                     "isPerk": true,
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Hand-Laid Stock",
-                    "description": "This weapon is optimized for recoil control.\n  \u2022  Increases stability",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/11fe23229c61287c89916f094b26652f.png",
-                    "hashID": 990298390,
-                    "weaponHash": 1345867571,
+                    "name": "Composite Stock",
+                    "description": "This weapon has a versatile dual-purpose stock.\n  \u2022  Slightly increases stability\n  \u2022  Slightly increases handling speed",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/7c616b3d2d0e97bf8948b1371b3007bb.png",
+                    "hashID": 3465198467,
+                    "weaponHash": 1508896098,
                     "isPerk": true,
                     "isFavorablePerk": false
                 }
             ],
             "exoticArmorPerk": null,
             "legendWeaponFrame": null,
-            "legendWeaponDamageType": "Energy",
+            "legendWeaponDamageType": "Power",
             "legendWeaponDamageElement": "Arc",
             "masterworkData": null
         },
@@ -130,10 +130,10 @@
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Hammer-Forged Rifling",
-                    "description": "Durable ranged barrel.\n  \u2022  Increases range",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/2b9eb6d4489cffc18c10223279198bcc.png",
-                    "hashID": 3250034553,
+                    "name": "Arrowhead Brake",
+                    "description": "Lightly vented barrel.\n  \u2022  Greatly controls recoil\n  \u2022  Increases handling speed",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/8f7fb54687aa52a9c2595d90ce9c9417.png",
+                    "hashID": 839105230,
                     "weaponHash": 3856705927,
                     "isPerk": true,
                     "isFavorablePerk": false
@@ -148,10 +148,10 @@
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Eye of the Storm",
-                    "description": "This weapon becomes more accurate and boosts handling as your health gets lower.",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/8f4755f9068959b26b8829641e5725ad.png",
-                    "hashID": 699525795,
+                    "name": "Opening Shot",
+                    "description": "Improved accuracy and range on the opening shot of attack.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/276e8ce23910c6ee2a6b88b076a2004c.png",
+                    "hashID": 47981717,
                     "weaponHash": 3856705927,
                     "isPerk": true,
                     "isFavorablePerk": false
@@ -195,37 +195,37 @@
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Smallbore",
-                    "description": "Dual strength barrel.\n  \u2022  Increases range\n  \u2022  Increases stability",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/7d1bb6a623f14959a47156ee71acfc3a.png",
-                    "hashID": 1482024992,
+                    "name": "Corkscrew Rifling",
+                    "description": "Balanced barrel. \n  \u2022  Slightly increases range and stability\n  \u2022  Slightly increases handling speed",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/7730e1732ed7ef91afce50277639c493.png",
+                    "hashID": 4090651448,
                     "weaponHash": 3654674561,
                     "isPerk": true,
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Ricochet Rounds",
-                    "description": "Rounds ricochet off hard surfaces. \n  \u2022  Increases stability \n  \u2022  Slightly increases range",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/0a494d0442b32aff8c30d8b2b53561bd.png",
-                    "hashID": 1885400500,
+                    "name": "High-Caliber Rounds",
+                    "description": "Shots from this weapon knock the target back farther.\n  \u2022  Slightly increases range",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/9d1c49edb2d2b24c74067742c09fd5a5.png",
+                    "hashID": 1561002382,
                     "weaponHash": 3654674561,
                     "isPerk": true,
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Vorpal Weapon",
-                    "description": "Increased damage against bosses, vehicles, and Guardians with their Super active.",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/bc5130b227ee577f2678ec2d2c97bf4a.png",
-                    "hashID": 1546637391,
+                    "name": "Outlaw",
+                    "description": "Precision kills greatly decrease reload time.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/382df469a091c33e190ee583b64923e8.png",
+                    "hashID": 1168162263,
                     "weaponHash": 3654674561,
                     "isPerk": true,
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Fitted Stock",
-                    "description": "This stock makes the weapon stable but heavy\n  \u2022  Increases stability\n  \u2022  Moderately controls recoil\n  \u2022  Slightly decreases handling speed",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/a23363ab49857b303f2cfa238fe5045c.png",
-                    "hashID": 4259401308,
+                    "name": "Composite Stock",
+                    "description": "This weapon has a versatile dual-purpose stock.\n  \u2022  Slightly increases stability\n  \u2022  Slightly increases handling speed",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/7c616b3d2d0e97bf8948b1371b3007bb.png",
+                    "hashID": 3465198467,
                     "weaponHash": 3654674561,
                     "isPerk": true,
                     "isFavorablePerk": false
@@ -238,31 +238,31 @@
             "masterworkData": null
         },
         "Warlock Exotic": {
-            "name": "Wings of Sacred Dawn",
-            "type": "Exotic Chest Armor",
+            "name": "Winter's Guile",
+            "type": "Exotic Gauntlets",
             "description": "",
-            "lore": "There will come a day when the light will never fade.",
-            "ExtLore": "The Parable of the Venging Fire, as interpreted by Pujari \n \nA young Warlock travels to her mentor, seeking the truth of the Praxic Fire. A wildfire rages in a valley nearby. Her mentor points to the billowing smoke, saying, \"This is the Praxic Fire. Go, and learn what you can.\" \n\nAnd the student returns to her teacher, saying, \"Master, the fire does not ask, the fire acts. That is the truth.\" \n\nHer mentor laughs, and the flames leave the sky from the valley and surround the teacher, and the wind blows the smoke away. \n\nThe old Warlock, now wreathed in flame with great outstretched wings, says, \"The heart of the Praxic Fire is the Warlock. Without the Warlock, fire does not ask or act. Be the fire, or be smoke on the wind.\" \n\nThe cowering student stands, her palms closing into fists.",
-            "itemHash": "370930766",
+            "lore": "\"I know you.\" \u2014Lord Felwinter",
+            "ExtLore": "\"Listen to me very carefully. They're coming for you. They'll ask you for a name. Your name is Felwinter.'\" \n\"I don't think that's my name.\" \n\"I know. Say it anyway.\" \n\"Why can't I remember my name? I always remember my name. Something's wrong. Was I damaged in Crypt processing?\" \n\"I don't know anything about the Deep Stone Crypt. Before my time.\" \n\"What the hell are you?\" \n\"You don't trust me.\" \n\"No.\" \n\"You will.\" \n\"You're a very presumptuous little drone. What makes you think that?\" \n\"No one else will help you. It's kill or die out there.\"",
+            "itemHash": "3844826443",
             "itemRating": null,
-            "icon": "https://www.bungie.net/common/destiny2_content/icons/97eadd6736bd5146bc28ff6d14bb2d8e.jpg",
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/0c586f183b821e16dd9b696c8e871d2b.jpg",
             "rarity": "Exotic",
             "class": 2,
             "statRolls": [
                 67,
-                17,
                 10,
-                7,
                 12,
-                15,
-                6
+                12,
+                10,
+                6,
+                17
             ],
             "weaponPerks": [],
             "exoticArmorPerk": [
                 {
-                    "name": "Tome of Dawn",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/bca803e50002410309460be0966fabe9.png",
-                    "desc": "When Dawnblade is equipped, aiming weapons while you're midair suspends you there for a short time, improving airborne accuracy, reducing incoming flinch, and granting damage resistance. Weapon hits extend this effect's duration. Provides a large benefit to the airborne effectiveness stat of all weapons."
+                    "name": "Warlord's Sigil",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/afb8bae64742a8633975b1bc85c98923.png",
+                    "desc": "Eliminating enemies with melee attacks increases your melee damage."
                 }
             ],
             "legendWeaponFrame": null,
@@ -271,31 +271,31 @@
             "masterworkData": null
         },
         "Hunter Exotic": {
-            "name": "Wormhusk Crown",
-            "type": "Exotic Helmet",
+            "name": "Gwisin Vest",
+            "type": "Exotic Chest Armor",
             "description": "",
-            "lore": "We strive to know infinity, and sharpen our minds on the whetstone of the impossible.",
-            "ExtLore": "I: A MIND LIKE A BLADE \n\nThe second son. The disowned. Spawned into this world as a lesser being, so unlike the warrior-son, Crota. But one must not only sharpen their blade. \n\nBehold Nokris. \n\nA mind can also be a weapon. There is power in wisdom, in knowledge. \n\nThere is much to be known. And he would know all. \n\nThe ageless volumes and apocrypha, all consumed voraciously, feeding the mind of the lesser. Driven by a different kind of Sword Logic, he let the stories of the world fill the void just as the worm feeds. \n\nFrom the womb of unholy knowledge, Nokris's plan was born. He knew his strength lies in his mind, in his magic. But how to prove himself to his father, the proud, dreadful demon-warrior? \n\nNokris is not the first. \n\nHe sought power. He sought knowledge. He sought the worm.",
-            "itemHash": "3562696927",
+            "lore": "\"The Traveler called me back. Told me my work on this side isn't done yet.\" \u2014Seong-Do Whiteclaw",
+            "ExtLore": "There is no self to kill;\nThere is no end to life.\nThe choices were made by someone else;\nThe one who was who we were.\nWe return, estranged, to act on them.\nWe must stay unseen, like the ghosts we are:\nTake flight from the sun of living folk.\nTake the Ghost you were given\u2014\nEnd the cycle that gave you birth;\nEnd those who killed you first.",
+            "itemHash": "1474735276",
             "itemRating": null,
-            "icon": "https://www.bungie.net/common/destiny2_content/icons/791e1be2a37d4deff98d660f2d90c158.jpg",
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/ae4ee7545ea763ea935f6386d8743361.jpg",
             "rarity": "Exotic",
             "class": 1,
             "statRolls": [
-                66,
-                17,
-                8,
-                7,
-                6,
+                64,
+                21,
+                11,
                 2,
-                26
+                13,
+                15,
+                2
             ],
             "weaponPerks": [],
             "exoticArmorPerk": [
                 {
-                    "name": "Burning Souls",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/16f43c6fbb972bdc24764a59aacc8161.png",
-                    "desc": "Dodging gives a small health and shield bump."
+                    "name": "Roving Assassin",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/16e8d034dc489095e8ab84a9540835aa.png",
+                    "desc": "Each Spectral Blades kill you make before going into stealth will restore more of your Super energy."
                 }
             ],
             "legendWeaponFrame": null,
@@ -304,31 +304,31 @@
             "masterworkData": null
         },
         "Titan Exotic": {
-            "name": "Stronghold",
-            "type": "Exotic Gauntlets",
+            "name": "Khepri's Horn",
+            "type": "Exotic Helmet",
             "description": "",
-            "lore": "I am a shield unto myself.",
-            "ExtLore": "This is how it went.\n\nWe decide to knock off a little piece of Warlord territory. Scary lady calls herself the Wake owns this spot. I can't take a name like that seriously, but she's got that hoarder instinct, like me, so she keeps her villages well-provisioned.\n\nWell-provisioned with an amateur security detail. Easy pickings for my crew.\n\nSo it starts with me, right? I get us in. I set it up, blow open the doors, and then I hand it off to Otto when the cavalry comes.\n\nNow Otto's a Sword man. He's all about \"craft.\" Technique. Precision. It's disgusting, but I don't care how he does it, as long as it gets done, so I just let him do it. And Otto does it so beautifully that, when he's done, you're standing there holding your guts in your hands and thanking him for the show.\n\nI slip into the supply bunker real fast and quiet, and Otto covers me. He's waiting for them when they find us, and he makes them stop short. Huge guy, Otto. A giant with a Sword and the meanest looking gauntlet on his arm you ever did see.\n\nHe takes out about ten guys armed with Rifles so fast, so smooth, that they don't even see me going for the goods. One minute we're surrounded, and then we're the only suckers left standing.",
-            "itemHash": "2240152949",
+            "lore": "\"I pushed the sun. I can push you, too.\" \u2014Inscription inside the helm",
+            "ExtLore": "The Hunter leaned on the sill of the broken window, poking at the upended beetle lightly with the barrel of her gun, rocking it little by little until it got its footing and flipped itself. As it crawled away, the crouching Titan pushed himself up, grunting as he did.\n\"I was worried you'd shoot it for a sec. The poor guy.\"\n\"Nah, I'd not do that to ya. You know what they say about Titans.\"\n\"What do they say about Titans?\"\n\"Uh, well, you know\u2026\"\nHe crossed his arms, and a faint sparkle like coals burning out shimmered across him. \"Tell me.\"\nShe raised her hands in surrender. \"All right. It's a joke so don't knock me for this one. 'Titans are like beetles, impervious until they've been knocked on their back.' Erm, all in good taste, of course.\"\nThe Titan cracked a smile and then began to laugh. \"I see why Hunters wear that beetle armor then!\"",
+            "itemHash": "2384488862",
             "itemRating": null,
-            "icon": "https://www.bungie.net/common/destiny2_content/icons/94ea4f627e75d7f1d71304057c569c4f.jpg",
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/c7da6c00a574bbadaec01099a3134626.jpg",
             "rarity": "Exotic",
             "class": 0,
             "statRolls": [
-                67,
+                66,
+                14,
+                18,
+                3,
+                14,
                 2,
-                20,
-                11,
-                16,
-                2,
-                16
+                15
             ],
             "weaponPerks": [],
             "exoticArmorPerk": [
                 {
-                    "name": "Clenched Fist",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/c10f29eba7f5e4eda1be088c46a4dc14.png",
-                    "desc": "Maximizes guard stats on equipped Swords. You take reduced damage while blocking with a Sword. Rapidly damaging targets after blocking shots with a Sword grants restoration for a duration determined by the number of shots blocked."
+                    "name": "Solar Rampart",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/784bd1d46cc9bd60e1d510e915aedb04.png",
+                    "desc": "Solar final blows recharge your Barricade, which unleashes a blast of Solar energy that scorches targets when summoned."
                 }
             ],
             "legendWeaponFrame": null,
@@ -340,79 +340,14 @@
     "Legendaries": {
         "Legendary weapons": [
             {
-                "name": "Whispering Slab",
-                "type": "Legendary Combat Bow",
-                "description": "",
-                "lore": "It sings of sorrows that have not yet come to pass.",
-                "ExtLore": "Eris Morn walks with slow, silent steps toward a haggard Drifter shoving small bags into larger ones. Dim and exhausted Motes lie scattered throughout the Derelict, slowly evaporating. She retrieves a Mote from the floor and shines her burning light over the cracked surface. The light struggles to leave the cracks. She lets the disintegrating Mote drop and shatter into dust against the floor grates. It chimes like resonate glass.\n\nThe Drifter whirls around to face the noise, almost losing his footing. He lets his hand slide off his holstered Trust as recognition washes over him. \"Ain't anybody ever tell you not to skulk? It's rude.\"\n\n\"Noted. Are you vacating?\"\n\n\"Road trip. How'd you get in here anyway?\"\n\n\"The airlock was open.\"\n\n\"Uh huh.\"\n\n\"If I said I were here to run in your rat race, would it change your tune?\"\n\n\"Uh huh\u2026\"\n\nEris drops her shoulders and approaches the Drifter. \"I want your help.\"\n\n\"Uh huh.\" His brow furrows with suspicion. \"Why? Didn't you save the universe yet?\" Drifter turns back to shoving bags in bags.\n\n\"It seems to be continually in peril. To be honest, I'm not sure I've helped.\"\n\nEris hands him a bag. \"I need your knowledge.\"\n\n\"You? No.\"\n\n\"I have had some troubling experiences as of late.\"\n\n\"Yeah, it's called life.\"\n\n\"I need to know,\" she says and hesitates, half-hearted restraint preceding sacrilege. \"Tell me how to interpret the Darkness.\"\n\n\"What am I, some crusty woo-woo sage? Beat it, kid. I'm packing.\"\n\n\"Do not ignore me,\" Eris says. Her voice is calm and piercing. \"We've both seen beneath the surface.\"\n\nDrifter drops the pack in his hand and picks a jade coin off his workbench.\n\n\"Asher is entrenched in his thinking,\" she says and gently places a palm down on the workbench beside them. \"Ikora\u2026 she tries. She hears, but she doesn't understand. No one is listening.\"\n\nDrifter pockets the coin and turns to face her. He stares deep. \"Experience. Hell of a thing.\" He looks down the gangway of the Derelict and through the gate that would take him to his Haul. \"Favors ain't free. I do this, you owe me.\"\n\nEris nods. Drifter swipes the workbench clean and pulls out a retractable seat for himself.\n\n\"How long you got?\"\n\nThe two sit. They speak. They listen. Linkages forged in Light and Dark of traded secrets as the Derelict hangs in orbit around the Earth. Pacts are made. Soon, there is only the silence of knowing left between them.\n\n\"Next time you fly over the Moon, dust your boots. Tracking that crap all over my floors.\"\n\nEris shakes her head and moves toward the airlock.\n\nDrifter yells after her, \"AND CALL NEXT TIME! I could've blown those fancy eyes straight out of your face.\"\n\n\"I'll try to be more mindful of your many eccentricities in the future.\"",
-                "itemHash": "211938782",
-                "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/ff8b7820f127aab0e82e170739cdb6d0.jpg",
-                "rarity": "Legendary",
-                "class": 3,
-                "statRolls": [],
-                "weaponPerks": [
-                    {
-                        "name": "High Tension String",
-                        "description": "Tightly strung bow.\n  \u2022  Greatly increases accuracy\n  \u2022  Slightly slower draw time\n  \u2022  Slightly decreases stability",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/347e9dbe7a237097160dcf797bcac19a.png",
-                        "hashID": 3371775011,
-                        "weaponHash": 211938782,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Fiberglass Arrow Shaft",
-                        "description": "Heavy and consistent. \n  \u2022  Greatly increases accuracy\n  \u2022  Slightly decreases stability",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/6c976951bad73f6645cf909496e5171b.png",
-                        "hashID": 3429800428,
-                        "weaponHash": 211938782,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Quickdraw",
-                        "description": "This weapon can be drawn unbelievably fast.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/6893bb2c7ec7d13cb0d91ec9dd8b6500.png",
-                        "hashID": 706527188,
-                        "weaponHash": 211938782,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Demolitionist",
-                        "description": "Kills with this weapon generate grenade energy. Activating your grenade ability reloads this weapon from reserves.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/da009697110e06b65d6f827b3b6d5f70.png",
-                        "hashID": 3523296417,
-                        "weaponHash": 211938782,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    }
-                ],
-                "exoticArmorPerk": null,
-                "legendWeaponFrame": {
-                    "name": "Lightweight Frame",
-                    "description": "Recurve Bow. Draw quickly and move faster while this weapon is equipped. \n[Reload]  : Use while drawn to cancel the shot.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/b57de72ef16609f38557f1739e43b9c7.png"
-                },
-                "legendWeaponDamageType": "Kinetic",
-                "legendWeaponDamageElement": "Kinetic",
-                "masterworkData": {
-                    "name": "Accuracy",
-                    "description": "How well shots fired by this weapon hit their target.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/2101f7f148c5685ac32774a9fce91f62.jpg",
-                    "mwHash": 892374263
-                }
-            },
-            {
-                "name": "Cold Denial",
+                "name": "Gridskipper",
                 "type": "Legendary Pulse Rifle",
                 "description": "",
-                "lore": "A familiar tool in the face of failure.",
-                "ExtLore": "The Wizard floats horizontally, inches off the ground, restrained by a mesh cocoon that ripples with Arc energy. The restraints crackle and hiss as the Hive lieutenant struggles. The Warlock glances uneasily at her captive.\n\n\"Guardian is insult. Sword Logic is death to weakness. Death to sick. Keep alive weakness makes weakness alive,\" the Wizard says and then rattles off a thick stream of guttural sounds that the Guardian's Ghost can't translate. The Warlock assumes they're curses.\n\n\"You're lucky we disagree. We value more than just brute strength. We value all the things that make strength worth having. Like ingenuity. Or kindness. Or friendship,\" the Guardian says. She scans the horizon uneasily. It's been over thirty minutes since her fireteam last checked in. \"I wouldn't expect you to understand.\"\n\nThe Wizard clacks his teeth in disdain. \"Kill makes all nothing. Dead kindness nothing. Dead friend nothing. Kill is highest.\"\n\n\"Well then, I should probably shoot you right now,\" the Guardian snaps at her prisoner. Her fireteam's prolonged absence is making her edgy. \"Is that what you want?\"\n\n\"Yes. You kill now. Is Logic.\" The Wizard shows no fear.\n\nThe Guardian shakes her head. \"You lot are the worst.\"\n\nWhere the hell are they?",
-                "itemHash": "1216130969",
+                "lore": "\"No stars overhead. Best not to look up.\" \u2014Amanda Holliday",
+                "ExtLore": "He heard something and snapped awake. There it was again: the skittering of clawed feet above him. In a moment, he had grabbed the Pulse Rifle from near the door and was outside.\n\nHe saw nothing but the lip of the tar paper roof against the undulating night sky. That didn't mean anything\u2014they could turn invisible. Everyone knew that. They could just be standing there, one or two, or a dozen, staring down at him.\n\nHe looked for shimmering outlines, but his vision was filled by the swaying grid of the dark purple night. He squinted as a ripple rolled high overhead, and the grid seemed to move closer, like an enormous sheet settling over the City.\n\nA wave of pressure pushed down, building in his sinuses. He pressed a hand to his eyes. A deep thrum filled his head, and he heard their claws on the walls all around him, their hissing laughter.\n\nHe turned toward the street, weapon raised. He felt his heart thudding in his chest and sweat beading on his back.\n\nAnother noise: someone pounding on glass behind him.\n\nHe spun and one of them was in his house, looking out at him through the window. His sweaty fingers fumbled to turn the safety off as it opened its mouth\u2014\n\n\"Dad,\" the Fallen shouted, \"you're standing in the garden!\"\n\nHe looked down dumbly. Cherry tomatoes were crushed beneath his bare feet.\n\nHis son yelled again, no longer a Fallen, merely irritated and half asleep. \"Come back inside!\"\n\nHands shaking, he stepped out of the garden. He fought the urge to look into the sky as he walked back to the house.",
+                "itemHash": "1621558458",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/1203c8504e03912f8f032de77973b7d6.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/dadacb5b9a019bc2c9c639ee00ab2881.jpg",
                 "rarity": "Legendary",
                 "class": 3,
                 "statRolls": [],
@@ -422,46 +357,46 @@
                         "description": "Stable barrel attachment.\n  \u2022  Increases stability\n  \u2022  Moderately controls recoil\n  \u2022  Slightly decreases handling speed",
                         "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/0b451cbccc7f11f6aec9c153e59474cb.png",
                         "hashID": 3661387068,
-                        "weaponHash": 1216130969,
+                        "weaponHash": 1621558458,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Extended Mag",
-                        "description": "This weapon has a greatly increased magazine size, but reloads much slower.\n  \u2022  Greatly increases magazine size\n  \u2022  Greatly decreases reload speed\n  \u2022  Increases airborne effectiveness",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/66cfea124e24e73cca1ce6370b44ca7e.png",
-                        "hashID": 2420895100,
-                        "weaponHash": 1216130969,
+                        "name": "High-Caliber Rounds",
+                        "description": "Shots from this weapon knock the target back farther.\n  \u2022  Slightly increases range",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/9d1c49edb2d2b24c74067742c09fd5a5.png",
+                        "hashID": 1561002382,
+                        "weaponHash": 1621558458,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Feeding Frenzy",
-                        "description": "Each rapid kill with this weapon progressively increases reload speed for a short time.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/89d7e65f5ebe8d291ea96f128765921d.png",
-                        "hashID": 2779035018,
-                        "weaponHash": 1216130969,
+                        "name": "Tunnel Vision",
+                        "description": "Reloading after defeating a target greatly increases target acquisition and aim down sight speed for a short duration.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/ab0837be56c8d5cfc474acd4f3f9c7ac.png",
+                        "hashID": 2946784966,
+                        "weaponHash": 1621558458,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Swashbuckler",
-                        "description": "This weapon gains increased damage from melee kills and kills with this weapon.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/42631a4aff4432e794529a5a707eba61.png",
-                        "hashID": 4082225868,
-                        "weaponHash": 1216130969,
+                        "name": "Multikill Clip",
+                        "description": "Reloading grants increased damage based on the number of rapid kills made beforehand.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/3749921a74a378259228d5e989459311.png",
+                        "hashID": 2458213969,
+                        "weaponHash": 1621558458,
                         "isPerk": true,
                         "isFavorablePerk": false
                     }
                 ],
                 "exoticArmorPerk": null,
                 "legendWeaponFrame": {
-                    "name": "High-Impact Frame",
-                    "description": "Slow firing and high damage. This weapon is more accurate when stationary, moving slowly, and aiming down sights.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/34573143849cf910d2381554bb57a10d.png"
+                    "name": "Rapid-Fire Frame",
+                    "description": "Deeper ammo reserves. Slightly faster reload when magazine is empty.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/801d62d1f9783bee81d5700c54c24fda.png"
                 },
-                "legendWeaponDamageType": "Kinetic",
-                "legendWeaponDamageElement": "Kinetic",
+                "legendWeaponDamageType": "Energy",
+                "legendWeaponDamageElement": "Void",
                 "masterworkData": {
                     "name": "Range",
                     "description": "Increases the effective range of this weapon.",
@@ -470,63 +405,63 @@
                 }
             },
             {
-                "name": "Hoosegow",
+                "name": "Bad Omens",
                 "type": "Legendary Rocket Launcher",
                 "description": "",
-                "lore": "Cause a stir.",
+                "lore": "\"Can't avoid 'em. Trick is surviving 'em.\" \u2014The Drifter",
                 "ExtLore": null,
-                "itemHash": "3669616453",
+                "itemHash": "991314988",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/7237fd2c64473782ef3807593aa9bb5e.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/333efe05470527ba4272fbbcc5127eed.jpg",
                 "rarity": "Legendary",
                 "class": 3,
                 "statRolls": [],
                 "weaponPerks": [
                     {
-                        "name": "Hard Launch",
-                        "description": "This weapon's launch barrel is optimized for projectile speed.\n  \u2022  Greatly increases projectile speed\n  \u2022  Decreases stability\n  \u2022  Slightly decreases blast radius",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/8bedf618841b334417b8f95c2aa35d57.png",
-                        "hashID": 981914802,
-                        "weaponHash": 3669616453,
+                        "name": "Countermass",
+                        "description": "This weapon is weighted for vertical recoil.\n  \u2022  Greatly controls recoil\n  \u2022  Increases stability\n  \u2022  Increases handling speed",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/6fda396e0f2fa3c2eceac79e39f9c44b.png",
+                        "hashID": 3809316345,
+                        "weaponHash": 991314988,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Alloy Casing",
-                        "description": "Reduces weight for faster reloads.\n  \u2022  Greatly increases reload speed\n  \u2022  Decreases stability",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/e02a542e5162c002112c21b6fdf2e86b.png",
-                        "hashID": 2985827016,
-                        "weaponHash": 3669616453,
+                        "name": "Black Powder",
+                        "description": "This weapon's explosives are more effective.\n  \u2022  Slightly increases blast radius\n  \u2022  Decreases stability",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/19deadeab109c6a2907900d6fe0d6142.png",
+                        "hashID": 1996142143,
+                        "weaponHash": 991314988,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Auto-Loading Holster",
-                        "description": "The holstered weapon is automatically reloaded after a short period of time.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/e4262099a1c2cea78b48a6680c5248c9.png",
-                        "hashID": 3300816228,
-                        "weaponHash": 3669616453,
+                        "name": "Field Prep",
+                        "description": "Increased ammo reserves. Faster reload, stow, and ready when you're crouching.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/4ee1ecaead6fe2de1a2cab07f8b7be3f.png",
+                        "hashID": 2869569095,
+                        "weaponHash": 991314988,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Cluster Bomb",
-                        "description": "Rockets spawn cluster bombs upon detonation.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/37974e92bb4f48bd438ba4757f5df851.png",
-                        "hashID": 1275731761,
-                        "weaponHash": 3669616453,
+                        "name": "Kill Clip",
+                        "description": "Reloading after a kill grants increased damage.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/0afd4799427004b2d8170ab213a2ef0c.png",
+                        "hashID": 1015611457,
+                        "weaponHash": 991314988,
                         "isPerk": true,
                         "isFavorablePerk": false
                     }
                 ],
                 "exoticArmorPerk": null,
                 "legendWeaponFrame": {
-                    "name": "Adaptive Frame",
-                    "description": "A well-rounded grip, reliable and sturdy.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/967fb4abc6ab98f74639d6c08e5f56ee.png"
+                    "name": "Aggressive Frame",
+                    "description": "High damage, high recoil.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/64209c4fd20513b33109c374179d0958.png"
                 },
                 "legendWeaponDamageType": "Power",
-                "legendWeaponDamageElement": "Arc",
+                "legendWeaponDamageElement": "Void",
                 "masterworkData": {
                     "name": "Blast Radius",
                     "description": "Increases the explosion radius of this weapon.",
@@ -535,14 +470,14 @@
                 }
             },
             {
-                "name": "Night Watch",
-                "type": "Legendary Scout Rifle",
+                "name": "Seventh Seraph VY-7",
+                "type": "Legendary Submachine Gun",
                 "description": "",
-                "lore": "Sleep with both eyes open.",
+                "lore": "No offense is too small to reprimand.",
                 "ExtLore": null,
-                "itemHash": "3504336176",
+                "itemHash": "766323545",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/e9592c20d3ccff66c72d0dc10edc8665.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/fe0719bf8795d862c6a6beb87d4d0af7.jpg",
                 "rarity": "Legendary",
                 "class": 3,
                 "statRolls": [],
@@ -552,99 +487,34 @@
                         "description": "Weighty barrel extension.\n  \u2022  Increases range\n  \u2022  Decreases handling speed\n  \u2022  Moderately controls recoil",
                         "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/d9e5e8fa07a84c29252b78b0e7b3106d.png",
                         "hashID": 1467527085,
-                        "weaponHash": 3504336176,
+                        "weaponHash": 766323545,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Appended Mag",
-                        "description": "This weapon's magazine is built for higher capacity.\n  \u2022  Increases magazine size",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/d9f468cce26fe35d9db413e2f8451127.png",
-                        "hashID": 1087426260,
-                        "weaponHash": 3504336176,
+                        "name": "Extended Mag",
+                        "description": "This weapon has a greatly increased magazine size, but reloads much slower.\n  \u2022  Greatly increases magazine size\n  \u2022  Greatly decreases reload speed\n  \u2022  Increases airborne effectiveness",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/66cfea124e24e73cca1ce6370b44ca7e.png",
+                        "hashID": 2420895100,
+                        "weaponHash": 766323545,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Outlaw",
-                        "description": "Precision kills greatly decrease reload time.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/382df469a091c33e190ee583b64923e8.png",
-                        "hashID": 1168162263,
-                        "weaponHash": 3504336176,
+                        "name": "Fourth Time's the Charm",
+                        "description": "Rapidly landing precision hits will return two rounds to the magazine.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/a5edd4e751e1aa34bf8328a63b121e71.png",
+                        "hashID": 1354429876,
+                        "weaponHash": 766323545,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Multikill Clip",
-                        "description": "Reloading grants increased damage based on the number of rapid kills made beforehand.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/3749921a74a378259228d5e989459311.png",
-                        "hashID": 2458213969,
-                        "weaponHash": 3504336176,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    }
-                ],
-                "exoticArmorPerk": null,
-                "legendWeaponFrame": {
-                    "name": "Lightweight Frame",
-                    "description": "Superb handling. Move faster with this weapon equipped.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/6db8cd21c2b3e6fffeb6f111d6c70dd2.png"
-                },
-                "legendWeaponDamageType": "Kinetic",
-                "legendWeaponDamageElement": "Kinetic",
-                "masterworkData": {
-                    "name": "Range",
-                    "description": "Increases the effective range of this weapon.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/95af3923bdbdf11438504ddeb498afe8.jpg",
-                    "mwHash": 150943607
-                }
-            },
-            {
-                "name": "Fractethyst",
-                "type": "Legendary Shotgun",
-                "description": "",
-                "lore": "\"Imagine that as the last sound you hear.\" \u2014Petra Venj",
-                "ExtLore": "Amanda Holliday finished welding the new fluid catch to the underside of the Ether tanks with a satisfied grunt. She wriggled her way backwards into the corridor and bumped into the legs of the massive Eliksni who was crouched behind her.\n\n\"Mithrax!\" she scolded, pulling off her welding helmet.\n\n\"Amanda,\" Mithrax replied. \"You are unexpected, but welcome. You are improving our Ether tanks?\"\n\n\"I threw a fresh fluid catch on there, yeah,\" Amanda shrugged as she repacked her tools. \"It's nothing you couldn't do yourselves, but I was passing by.\"\n\nMithrax gazed across the Botza District for a moment. \"I find that unlikely,\" he said wryly.\n\nAmanda laughed. \"C'mon now. You know what they say about gift horses.\"\n\nMithrax cocked his head.\n\n\"Forget it,\" she said. \"So, how've y'all been doing down here? Since, y'know\u2026\" she trailed off.\n\n\"Since the Human and Vex attacks have ceased, we have been well,\" Mithrax said, standing to his full height as he pulled Amanda to her feet. \"With the Endless Night lifted, resources are more plentiful. I see your people and mine moving forward together.\"\n\n\"Yeah, it's nice,\" Amanda agreed. \"Things are happening now I wouldn't have dreamed of a few months ago. The other day, I saw a group of Eliksni at the Bazaar picking out Ghost shells!\" \n\nMithrax's laughter was a deep rumble. \"Yes, the empty shells are quite beautiful. Would you introduce me to your Ghost, Amanda? I would enjoy meeting them.\"\n\n\"Ooh, sorry,\" Amanda chuckled. She put two fingers to her wrist. \"Still got a pulse. No Ghost for me.\" \n\nMithrax balked. \"You are not a Lightbearer?\"\n\n\"Nope,\" she said, \"just a regular person.\"\n\nMithrax thought for a moment. \"To aid as you do without the gift of the Light\u2026\" he said, bringing a clawed hand to his chest and bowing. \"There is much my people would learn from you.\"\n\nAmanda shifted from one foot to the other and scratched at her neck. \"Afraid I ain't much of a teacher,\" she said quietly.\n\nMithrax smiled. \"I find that unlikely.\"",
-                "itemHash": "3184681056",
-                "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/9feb11833613f20e0e9bab915c4fa47a.jpg",
-                "rarity": "Legendary",
-                "class": 3,
-                "statRolls": [],
-                "weaponPerks": [
-                    {
-                        "name": "Corkscrew Rifling",
-                        "description": "Balanced barrel. \n  \u2022  Slightly increases range and stability\n  \u2022  Slightly increases handling speed",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/7730e1732ed7ef91afce50277639c493.png",
-                        "hashID": 4090651448,
-                        "weaponHash": 3184681056,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Appended Mag",
-                        "description": "This weapon's magazine is built for higher capacity.\n  \u2022  Increases magazine size",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/d9f468cce26fe35d9db413e2f8451127.png",
-                        "hashID": 1087426260,
-                        "weaponHash": 3184681056,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Full Auto Trigger System",
-                        "description": "Holding down the trigger will fire this weapon at full auto.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/85059dae97dea2121091a0f787e20985.png",
-                        "hashID": 2117683199,
-                        "weaponHash": 3184681056,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Thresh",
-                        "description": "Killing combatants with this weapon generates a small amount of Super energy.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/7f9dcf3bd4a8a4e0d2d0922827f038c9.png",
-                        "hashID": 2726471870,
-                        "weaponHash": 3184681056,
+                        "name": "Dragonfly",
+                        "description": "Precision kills create an elemental damage explosion.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/c87b03bb6d56b393f8582e128b337332.png",
+                        "hashID": 2848615171,
+                        "weaponHash": 766323545,
                         "isPerk": true,
                         "isFavorablePerk": false
                     }
@@ -655,13 +525,13 @@
                     "description": "This weapon's recoil pattern is more predictably vertical.",
                     "icon": "https://www.bungie.net/common/destiny2_content/icons/e9dd736124e8ef94048901a279a5bb18.png"
                 },
-                "legendWeaponDamageType": "Kinetic",
-                "legendWeaponDamageElement": "Stasis",
+                "legendWeaponDamageType": "Energy",
+                "legendWeaponDamageElement": "Arc",
                 "masterworkData": {
-                    "name": "Handling",
-                    "description": "The speed with which the weapon can be readied and aimed.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/d2e1ab2542f585d025fb4cc1a3885164.jpg",
-                    "mwHash": 518224747
+                    "name": "Stability",
+                    "description": "How much or little recoil you will experience while firing the weapon.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/c345c1b985997a4e2730ea3919b45359.jpg",
+                    "mwHash": 1590375901
                 }
             },
             {
@@ -696,19 +566,19 @@
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Overflow",
-                        "description": "Picking up Special or Heavy ammo automatically loads this weapon beyond normal capacity.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/3165fec56b59363fa974a11f5730f4ec.png",
-                        "hashID": 3643424744,
+                        "name": "Zen Moment",
+                        "description": "Causing damage with this weapon reduces recoil and flinch over time.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/9650a58cd3a439bf3b53a53dbc8122a0.png",
+                        "hashID": 2387244414,
                         "weaponHash": 1097616550,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Tap the Trigger",
-                        "description": "Grants a short period of increased stability and accuracy on initial trigger pull.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/a7840da2970b4137a333fb187477dfe0.png",
-                        "hashID": 1890422124,
+                        "name": "Thresh",
+                        "description": "Killing combatants with this weapon generates a small amount of Super energy.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/7f9dcf3bd4a8a4e0d2d0922827f038c9.png",
+                        "hashID": 2726471870,
                         "weaponHash": 1097616550,
                         "isPerk": true,
                         "isFavorablePerk": false
@@ -730,60 +600,125 @@
                 }
             },
             {
-                "name": "Path of Least Resistance",
-                "type": "Legendary Trace Rifle",
+                "name": "IKELOS_SR_v1.0.3",
+                "type": "Legendary Sniper Rifle",
                 "description": "",
-                "lore": "No charge greater.",
-                "ExtLore": "Eramis always looks Scorn in their eyes.\n\n\"She does it to assert dominance,\" she once heard one of her subordinates say. Rather than correct them, she let the rumor take root, and grow wild and fierce.\n \nThere is no one left that she trusts enough to share the truth: Eramis always looks Scorn in their eyes because she's desperate to see some faint flicker of the Eliksni they were before.\n\nThe first time the Witness presents her with Phyris\u2014with whom Eramis fought alongside in life\u2014she wills her expression into something that resembles Human steel.\n \n\"A gift,\" claims the Witness, but Eramis cannot find her voice\u2014not even to feign gratitude. She reaches up, grazes claws against the side of the Eliksni's face, and searches for any sign of her friend.\n\nYet all she sees in Phyris's eyes is her own reflection, glassy and alien.\n\nEramis wants to scream; part of her is grateful when Phyris sinks teeth into the flesh of her forearm, giving her an excuse.\n\nOne that doesn't make her appear weak.",
-                "itemHash": "2827764482",
+                "lore": "Subroutine IKELOS: Status=reinitiated.\nAPOTHEOSIS: Status=active\u2026",
+                "ExtLore": null,
+                "itemHash": "2302346155",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/67a21e21a9b9e21e696a7ef61ea7974c.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/45b7c7363d99e2b15f0edd3681e28d59.jpg",
                 "rarity": "Legendary",
                 "class": 3,
                 "statRolls": [],
                 "weaponPerks": [
                     {
-                        "name": "Chambered Compensator",
-                        "description": "Stable barrel attachment.\n  \u2022  Increases stability\n  \u2022  Moderately controls recoil\n  \u2022  Slightly decreases handling speed",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/0b451cbccc7f11f6aec9c153e59474cb.png",
-                        "hashID": 3661387068,
-                        "weaponHash": 2827764482,
+                        "name": "Full Bore",
+                        "description": "Barrel optimized for distance.\n  \u2022  Greatly increases range\n  \u2022  Decreases stability\n  \u2022  Slightly decreases handling speed",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/40a4bdcf0f5a4e492927f9569eaf529d.png",
+                        "hashID": 202670084,
+                        "weaponHash": 2302346155,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Ionized Battery",
-                        "description": "Large heavy battery.\n  \u2022  Greatly increases magazine size\n  \u2022  Greatly decreases reload speed",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/a278b79aba1d341d2a070c0e48d9129a.png",
-                        "hashID": 1483536627,
-                        "weaponHash": 2827764482,
+                        "name": "Appended Mag",
+                        "description": "This weapon's magazine is built for higher capacity.\n  \u2022  Increases magazine size",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/d9f468cce26fe35d9db413e2f8451127.png",
+                        "hashID": 1087426260,
+                        "weaponHash": 2302346155,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Stats for All",
-                        "description": "Hitting three separate targets increases weapon handling, stability, reload, and range for a moderate duration.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/8aadd7fd25c2b1e9f3fc7f4411a97ea4.png",
-                        "hashID": 1583705720,
-                        "weaponHash": 2827764482,
+                        "name": "Fragile Focus",
+                        "description": "This weapon gains bonus range until your shield is destroyed. The bonus returns once your shield has regenerated to full strength.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/3d2e945cc3d38e88c87ee3e2687b612a.png",
+                        "hashID": 2451262963,
+                        "weaponHash": 2302346155,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "One for All",
-                        "description": "Hitting three separate targets increases damage for a moderate duration.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/b1bce269c3cd21393131b4f5cffae692.png",
-                        "hashID": 4049631843,
-                        "weaponHash": 2827764482,
+                        "name": "Incandescent",
+                        "description": "Defeating a target spreads scorch to those nearby.\nMore powerful combatants and opposing Guardians cause scorch in a larger radius.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/22ed4a2cd5a0eb129a14ce77db49373f.png",
+                        "hashID": 4293542123,
+                        "weaponHash": 2302346155,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    }
+                ],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": {
+                    "name": "Rapid-Fire Frame",
+                    "description": "Deeper ammo reserves. Slightly faster reload when magazine is empty.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/801d62d1f9783bee81d5700c54c24fda.png"
+                },
+                "legendWeaponDamageType": "Energy",
+                "legendWeaponDamageElement": "Solar",
+                "masterworkData": {
+                    "name": "Stability",
+                    "description": "How much or little recoil you will experience while firing the weapon.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/c345c1b985997a4e2730ea3919b45359.jpg",
+                    "mwHash": 1590375901
+                }
+            },
+            {
+                "name": "Sole Survivor",
+                "type": "Legendary Sniper Rifle",
+                "description": "",
+                "lore": "Names mean nothing to the dead.",
+                "ExtLore": null,
+                "itemHash": "1150492185",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/5c0add624d949376e044cf6b70ef213b.jpg",
+                "rarity": "Legendary",
+                "class": 3,
+                "statRolls": [],
+                "weaponPerks": [
+                    {
+                        "name": "Arrowhead Brake",
+                        "description": "Lightly vented barrel.\n  \u2022  Greatly controls recoil\n  \u2022  Increases handling speed",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/8f7fb54687aa52a9c2595d90ce9c9417.png",
+                        "hashID": 839105230,
+                        "weaponHash": 1150492185,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Ambush",
-                        "description": "Improves range, handling, and damage against combatants during the opening moments of an engagement.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/a727dccb4a2b0c94bf4eadb8abd5ae95.png",
-                        "hashID": 192157151,
-                        "weaponHash": 2827764482,
+                        "name": "Extended Mag",
+                        "description": "This weapon has a greatly increased magazine size, but reloads much slower.\n  \u2022  Greatly increases magazine size\n  \u2022  Greatly decreases reload speed\n  \u2022  Increases airborne effectiveness",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/66cfea124e24e73cca1ce6370b44ca7e.png",
+                        "hashID": 2420895100,
+                        "weaponHash": 1150492185,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Outlaw",
+                        "description": "Precision kills greatly decrease reload time.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/382df469a091c33e190ee583b64923e8.png",
+                        "hashID": 1168162263,
+                        "weaponHash": 1150492185,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Focused Fury",
+                        "description": "Dealing half of the magazine as precision damage grants this weapon bonus damage. The shot count is reset whenever the weapon is reloaded or stowed.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/15fb47018719c99ae37d10f794bc957e.png",
+                        "hashID": 2896038713,
+                        "weaponHash": 1150492185,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Disaster Plan",
+                        "description": "Picking up ammunition increases this weapon's flinch resistance and range, which lasts until it is fired again.\n\nSwords gain a large increase to charge rate instead.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/32fd1da58165d07b35d320e2bd6f0de5.png",
+                        "hashID": 1004814308,
+                        "weaponHash": 1150492185,
                         "isPerk": true,
                         "isFavorablePerk": false
                     }
@@ -802,28 +737,102 @@
                     "icon": "https://www.bungie.net/common/destiny2_content/icons/d2e1ab2542f585d025fb4cc1a3885164.jpg",
                     "mwHash": 518224747
                 }
+            },
+            {
+                "name": "Just in Case",
+                "type": "Legendary Sword",
+                "description": "",
+                "lore": "Even contingencies need contingencies.",
+                "ExtLore": null,
+                "itemHash": "1139727256",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/760f7b8c9dd92a11104edc72a692bc78.jpg",
+                "rarity": "Legendary",
+                "class": 3,
+                "statRolls": [],
+                "weaponPerks": [
+                    {
+                        "name": "Jagged Edge",
+                        "description": "Increased damage at the cost of sword ammo.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/d9a508b43ae6935d68fc5030c90b5b4a.png",
+                        "hashID": 3666208348,
+                        "weaponHash": 1139727256,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Enduring Guard",
+                        "description": "Sword Guard has maximized efficiency and high endurance, but low resistance.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/f41732ca49953994397e5ab50fdc3a2e.png",
+                        "hashID": 599007201,
+                        "weaponHash": 1139727256,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Unrelenting",
+                        "description": "Rapidly defeating targets triggers health regeneration. Guardians and powerful combatants count as more than one kill.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/1e5843177c71ae3f2a4770d01a2f3813.png",
+                        "hashID": 3108830275,
+                        "weaponHash": 1139727256,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Incandescent",
+                        "description": "Defeating a target spreads scorch to those nearby.\nMore powerful combatants and opposing Guardians cause scorch in a larger radius.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/22ed4a2cd5a0eb129a14ce77db49373f.png",
+                        "hashID": 4293542123,
+                        "weaponHash": 1139727256,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Disaster Plan",
+                        "description": "Picking up ammunition increases this weapon's flinch resistance and range, which lasts until it is fired again.\n\nSwords gain a large increase to charge rate instead.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/32fd1da58165d07b35d320e2bd6f0de5.png",
+                        "hashID": 1004814308,
+                        "weaponHash": 1139727256,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    }
+                ],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": {
+                    "name": "Adaptive Frame",
+                    "description": "[Heavy Attack]  : Launch a heavy uppercut attack.\nHeavy attacks are stronger with full energy.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/967fb4abc6ab98f74639d6c08e5f56ee.png"
+                },
+                "legendWeaponDamageType": "Power",
+                "legendWeaponDamageElement": "Solar",
+                "masterworkData": {
+                    "name": "Impact",
+                    "description": "Increases the damage inflicted by each round.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/f2354558ad75fb2527155f0f58c2dcc3.jpg",
+                    "mwHash": 1486919755
+                }
             }
         ],
         "Warlock": {
             "Helmet": {
-                "name": "Ketchkiller's Hood",
+                "name": "Anti-Extinction Hood",
                 "type": "Legendary Helmet",
                 "description": "",
-                "lore": "\"Every crew needs a captain. Otherwise, who'd take all the credit?\" \u2014Drifter",
-                "ExtLore": "The Ether Tank, Eliksni Quarter, Last City\n\u2014\u2014\n\nWhat's that, Guardian? You want to hear about the old crews from someone who was there?\n\nYou think I was around for the Whirlwind? Ha! I'm a few molts shy. No, I hatched into the House of Wolves. You know the story\u2014and if not, I don't have the time to explain it to you.\n\nBut I trade in information. I ran with some tough crowds in the past, maybe knew someone who knew someone\u2026 you get the idea. So I know a fair bit about those crews.\n\nFor them, every puff of Ether came at someone's expense. Your best bet was to be stronger than the next crew over\u2014and when things were especially bad, stronger than whoever was in the cot next to yours.\n\nSo they got strong. And remember, they didn't have Void or Solar like you do; they had claws. Blades. When they killed, it was without hesitation, and when they died, there was no coming back. \n\nYou Guardians, with your little Ghosts hovering nearby, you have the luxury of kindness\u2014that was never an option for the old crews. They were like anyone else; they were cruel, but you needed to be cruel to survive in those days.\n\nAnd they're not \"back,\" like I hear Misraaks saying; they never left. You're up against the ones who stayed alive all this time. The ones who learned how to survive. How to sacrifice. How to take what they need, whatever the cost.\n\n\u2026and speaking of cost, I'm not seeing any more Glimmer in your account. I think we're done talking.",
-                "itemHash": "738153648",
+                "lore": "\"Isolation is not good for the Arach. Our enemies often accuse us of madness, and we cannot give them grounds. One must trust others.\" \u2014The Book of Departures, Canto III",
+                "ExtLore": null,
+                "itemHash": "245450812",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/13149c273506ee426d066ba2ee82af46.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/8c51e0e79ff89bfd9560301f131ade3f.jpg",
                 "rarity": "Legendary",
                 "class": 2,
                 "statRolls": [
-                    53,
-                    7,
-                    6,
+                    62,
                     12,
-                    2,
-                    16,
-                    10
+                    14,
+                    6,
+                    14,
+                    10,
+                    6
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -833,24 +842,24 @@
                 "masterworkData": null
             },
             "Arms": {
-                "name": "Ketchkiller's Gloves",
+                "name": "Anti-Extinction Gloves",
                 "type": "Legendary Gauntlets",
                 "description": "",
-                "lore": "\"Those other fellas got more hands than you, so make sure you're holdin' bigger guns.\" \u2014Drifter",
-                "ExtLore": "Eliksni Quarter, Last City\n\u2014\u2014\n\nThe old crews! Yes, I have gathered much information about them in the past weeks. In fact, I have just finished going over my notes!\n\nThe old crews rose in the wake of the Whirlwind, during what we Eliksni refer to as the Long Drift\u2014the span of time between the fall of Riis and our arrival in the Sol system. I believe the equivalent period would be your Dark Ages, though Riis did not have Risen, or Iron Lords. Instead, we had the crews. As you can imagine, this period was quite lawless, as the stability and abundance of Riis was no more. This resulted in what I believe is called a zero-sum game: a situation in which every gain or advantage is earned at the expense of another. \n\nSeveral fearsome individuals rose to great power and authoritative prominence at that time; the Eliksni word for them translates to \"Ketchkiller,\" meaning one who boards and wrests control of enemy ships. These Ketchkillers commanded great fleets and raided many supply routes, procuring objects of historic or intrinsic value along the way. It is exciting to wonder what treasures they accumulated beyond those we've recovered already!\n\nMany crews were abolished or disbanded over time, but those that survived did so through great hardship\u2014they are formidable indeed. But then, so is the Vanguard, and its Guardians.\n\nThank you for asking about my research into the old crews and their significance. It is always a pleasure to talk about it. After all, what use is knowledge if it is not shared?",
-                "itemHash": "535937281",
+                "lore": "\"The possibility of return is slender but present. That, however, is a decision for the future.\" \u2014The Book of Departures, Canto VII",
+                "ExtLore": null,
+                "itemHash": "1600224949",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/88e131846c3b5623ef0f10a67b210f63.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/76d9924987275c2ef5292b3e57087a4c.jpg",
                 "rarity": "Legendary",
                 "class": 2,
                 "statRolls": [
-                    53,
-                    6,
-                    15,
+                    62,
                     7,
+                    23,
+                    2,
                     6,
                     6,
-                    13
+                    18
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -860,24 +869,24 @@
                 "masterworkData": null
             },
             "Chest": {
-                "name": "Ketchkiller's Robes",
+                "name": "Anti-Extinction Robes",
                 "type": "Legendary Chest Armor",
                 "description": "",
-                "lore": "\"Sail quick so you don't get caught\u2026 and have a thick hull if you do.\" \u2014Drifter",
-                "ExtLore": "The Annex, Last City\n\u2014\u2014\n\nThe old crews? Ain't much I can tell you that you couldn't get from Rahool, but I can't blame you if you'd rather stay awake for the whole story, heheh. C'mon, loosen up, hero! If you think a grim expression is all it takes to move up through the Vanguard\u2026 well, you may have something there.\n\nOkay, I'll start at the beginning. The Traveler chose the Eliksni and everything was great over in Riis, until it wasn't. The Whirlwind happened, the Pyramids showed up, the Traveler took off through space, and from what I gather, it wasn't a pretty scene. \n\nEramis was there for it. And\u2014credit where it's due\u2014she picked herself up, grabbed a crew, and went after the Traveler. She cut through everything in her way, dead set on hunting it down. \n\nAnd she wasn't the only one with that idea. Whole fleets of ships chased the Traveler. Lawless days. Hopeless days. \n\n\u2026See, I was here for the Dark Ages. And when there's nothing but loss around you planetside, you can still find a rooftop, sit in a snowfield. You can go into a forest and find a moment of quiet\u2014a little scrap of peace.\n\nAin't like that on a ship. Things go from bad to worse, you just have to face it. And Eramis did. That takes a gutful of grit.\n\nNow, don't think I'm writin' love poems to the Shipstealer over here\u2014we find her, I'm drawing down quick as you are. \n\nBut if the big old Traveler blasted outta the sky tomorrow? You bet your entire vault we'd chase after it. We'd be the new crews, going after something we knew in our bones was ours, not stopping for anyone or anything that got in our way.\n\nAnd we'd still think of ourselves as heroes, wouldn't we?",
-                "itemHash": "3833868247",
+                "lore": "\"We are not a faction but a movement. At heart, we desire survival for all. This point is poorly understood.\" \u2014The Book of Departures, Canto XII",
+                "ExtLore": null,
+                "itemHash": "3373566763",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/cd3a96232f4a597f1c0d84459ac5b067.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/34b909d51760922907526ecf2c8c3882.jpg",
                 "rarity": "Legendary",
                 "class": 2,
                 "statRolls": [
-                    52,
-                    10,
-                    9,
+                    64,
+                    15,
                     7,
-                    6,
-                    14,
-                    6
+                    10,
+                    15,
+                    2,
+                    15
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -887,24 +896,24 @@
                 "masterworkData": null
             },
             "Legs": {
-                "name": "Ketchkiller's Boots",
+                "name": "Anti-Extinction Boots",
                 "type": "Legendary Leg Armor",
                 "description": "",
-                "lore": "\"Cut anchor if things get messy. There's always another score.\" \u2014Drifter",
-                "ExtLore": "House Salvation Ketch, Themis Cluster\n\u2014\u2014\n\nWe are raiders and cutthroats, killing each other for bare survival. But what else could we have become? You can't speak of us\u2014the old crews and their infamy\u2014without speaking of the Whirlwind.\n\nLike hatchlings chittering for their mother, we were abandoned. Weak. Left to die. You all know what came after. We lived. We lived, and all we had were our lives. \n\nGreat Houses fell, and from their ruins rose the crews. We followed the traitor Machine to this system and found the Humans just as soft and weak as we had been; as reliant, helpless, and blind as the Machine had made us. But the Humans had taken it from us, and so they would pay with everything they had.\n\nAnd now? Now we remain where others have failed. Enemy ships quaver at the sight of our banners. They break against our hulls. And when we pick them clean of all they have, we find other prey and do the same.\n\nWe know the truth in this system: we are only as strong as those we kill.",
-                "itemHash": "2030782835",
+                "lore": "\"The role of Arach is not a gift, not an honor, but a curse and a pledge of service. Many seek it nevertheless.\" \u2014The Book of Departures, Canto I",
+                "ExtLore": null,
+                "itemHash": "3176347031",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/28e82bd8b50c785413e25fa2486cce6b.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/2bfd3d3f3d4c4ac50beff0196b3a4b18.jpg",
                 "rarity": "Legendary",
                 "class": 2,
                 "statRolls": [
-                    48,
-                    13,
-                    7,
+                    65,
                     6,
-                    6,
+                    16,
                     10,
-                    6
+                    2,
+                    20,
+                    11
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -914,14 +923,14 @@
                 "masterworkData": null
             },
             "Class Item": {
-                "name": "Ketchkiller's Bond",
+                "name": "Stella Incognita Bond",
                 "type": "Legendary Warlock Bond",
                 "description": "",
-                "lore": "\"The pirates hold nothin' back when they fight. Can you match that?\" \u2014Drifter",
-                "ExtLore": "Eliksni Quarter, Last City\n\u2014\u2014\n\nWhat makes a House? It is a good question, and one that many Eliksni do not think on often enough.\n\nFor Humans, a house is a place. But for Eliksni, a House is a family. It has a culture. A philosophy of living, shared by all.\n\nThat is why the House of Light survived, even when we fled Europa. Even after the Shipstealer took all we had. We were bound not by place or possessions, but as family.\n\nCryptarch Matsuo asked me why the old crews are not considered Houses. It is a wise question. One that, perhaps, does not have a singular answer. \n\nI think it is because those who lead the old crews do not wish to be true Kells. A Kell is responsible for the safety and prosperity of their House. It is an honor, and a burden.\n\nThose you call Pirate Lords wish only to take\u2014they give nothing, even to their own people. Each raider is responsible only for themselves. A crew is expendable\u2026 a family is not.\n\nThe old crews live a sad life. One best left in the past.",
-                "itemHash": "1667220390",
+                "lore": "\"At the point of decision, the Arach must lead us to safety in the midst of the unknown.\" \u2014The Book of Departures, Canto II",
+                "ExtLore": null,
+                "itemHash": "1730282946",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/78ffb1aaa9fe8c9ce444c34ea43b0642.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/e305eb202513a871953170f2db359a79.jpg",
                 "rarity": "Legendary",
                 "class": 2,
                 "statRolls": [
@@ -943,24 +952,24 @@
         },
         "Hunter": {
             "Helmet": {
-                "name": "Ketchkiller's Mask",
+                "name": "Anti-Extinction Mask",
                 "type": "Legendary Helmet",
                 "description": "",
-                "lore": "\"A smart captain keeps one eye on their own back.\" \u2014Spider",
-                "ExtLore": "The Ether Tank, Eliksni Quarter, Last City\n\u2014\u2014\n\nWhat's that, Guardian? You want to hear about the old crews from someone who was there?\n\nYou think I was around for the Whirlwind? Ha! I'm a few molts shy. No, I hatched into the House of Wolves. You know the story\u2014and if not, I don't have the time to explain it to you.\n\nBut I trade in information. I ran with some tough crowds in the past, maybe knew someone who knew someone\u2026 you get the idea. So I know a fair bit about those crews.\n\nFor them, every puff of Ether came at someone's expense. Your best bet was to be stronger than the next crew over\u2014and when things were especially bad, stronger than whoever was in the cot next to yours.\n\nSo they got strong. And remember, they didn't have Void or Solar like you do; they had claws. Blades. When they killed, it was without hesitation, and when they died, there was no coming back. \n\nYou Guardians, with your little Ghosts hovering nearby, you have the luxury of kindness\u2014that was never an option for the old crews. They were like anyone else; they were cruel, but you needed to be cruel to survive in those days.\n\nAnd they're not \"back,\" like I hear Misraaks saying; they never left. You're up against the ones who stayed alive all this time. The ones who learned how to survive. How to sacrifice. How to take what they need, whatever the cost.\n\n\u2026and speaking of cost, I'm not seeing any more Glimmer in your account. I think we're done talking.",
-                "itemHash": "1095145125",
+                "lore": "\"Let us describe the art of mapping a dream. First, all former dreams must be crushed. This makes the ink with which we draw.\" \u2014The Book of Departures, Canto III",
+                "ExtLore": null,
+                "itemHash": "102368695",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/779bb71087bc382dd6894e485c278469.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/34eb6ec0835cd5cd353cd4d8c83efa9a.jpg",
                 "rarity": "Legendary",
                 "class": 1,
                 "statRolls": [
-                    57,
+                    63,
+                    6,
+                    23,
+                    2,
+                    18,
                     7,
-                    2,
-                    20,
-                    20,
-                    2,
-                    6
+                    7
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -970,24 +979,24 @@
                 "masterworkData": null
             },
             "Arms": {
-                "name": "Ketchkiller's Grips",
+                "name": "Anti-Extinction Grasps",
                 "type": "Legendary Gauntlets",
                 "description": "",
-                "lore": "\"Being captain just means everyone has a reason to want you gone.\" \u2014Spider",
-                "ExtLore": "Eliksni Quarter, Last City\n\u2014\u2014\n\nThe old crews! Yes, I have gathered much information about them in the past weeks. In fact, I have just finished going over my notes!\n\nThe old crews rose in the wake of the Whirlwind, during what we Eliksni refer to as the Long Drift\u2014the span of time between the fall of Riis and our arrival in the Sol system. I believe the equivalent period would be your Dark Ages, though Riis did not have Risen, or Iron Lords. Instead, we had the crews. As you can imagine, this period was quite lawless, as the stability and abundance of Riis was no more. This resulted in what I believe is called a zero-sum game: a situation in which every gain or advantage is earned at the expense of another. \n\nSeveral fearsome individuals rose to great power and authoritative prominence at that time; the Eliksni word for them translates to \"Ketchkiller,\" meaning one who boards and wrests control of enemy ships. These Ketchkillers commanded great fleets and raided many supply routes, procuring objects of historic or intrinsic value along the way. It is exciting to wonder what treasures they accumulated beyond those we've recovered already!\n\nMany crews were abolished or disbanded over time, but those that survived did so through great hardship\u2014they are formidable indeed. But then, so is the Vanguard, and its Guardians.\n\nThank you for asking about my research into the old crews and their significance. It is always a pleasure to talk about it. After all, what use is knowledge if it is not shared?",
-                "itemHash": "1834245236",
+                "lore": "\"As birds are touched by a sudden and invisible instinct to fly to safer ground, so are we.\" \u2014The Book of Departures, Canto VII",
+                "ExtLore": null,
+                "itemHash": "3470850110",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/d9878c7f0881c21ec5af2afcd808c241.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/bd1d6ec1615c1b658a1a0734c2c741e6.jpg",
                 "rarity": "Legendary",
                 "class": 1,
                 "statRolls": [
-                    55,
-                    7,
-                    7,
-                    12,
-                    7,
-                    20,
-                    2
+                    65,
+                    16,
+                    6,
+                    10,
+                    17,
+                    2,
+                    14
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -997,24 +1006,24 @@
                 "masterworkData": null
             },
             "Chest": {
-                "name": "Ketchkiller's Vest",
+                "name": "Anti-Extinction Vest",
                 "type": "Legendary Chest Armor",
                 "description": "",
-                "lore": "\"Make sure any flag you fight under is worth dying for.\" \u2014Spider",
-                "ExtLore": "The Annex, Last City\n\u2014\u2014\n\nThe old crews? Ain't much I can tell you that you couldn't get from Rahool, but I can't blame you if you'd rather stay awake for the whole story, heheh. C'mon, loosen up, hero! If you think a grim expression is all it takes to move up through the Vanguard\u2026 well, you may have something there.\n\nOkay, I'll start at the beginning. The Traveler chose the Eliksni and everything was great over in Riis, until it wasn't. The Whirlwind happened, the Pyramids showed up, the Traveler took off through space, and from what I gather, it wasn't a pretty scene. \n\nEramis was there for it. And\u2014credit where it's due\u2014she picked herself up, grabbed a crew, and went after the Traveler. She cut through everything in her way, dead set on hunting it down. \n\nAnd she wasn't the only one with that idea. Whole fleets of ships chased the Traveler. Lawless days. Hopeless days. \n\n\u2026See, I was here for the Dark Ages. And when there's nothing but loss around you planetside, you can still find a rooftop, sit in a snowfield. You can go into a forest and find a moment of quiet\u2014a little scrap of peace.\n\nAin't like that on a ship. Things go from bad to worse, you just have to face it. And Eramis did. That takes a gutful of grit.\n\nNow, don't think I'm writin' love poems to the Shipstealer over here\u2014we find her, I'm drawing down quick as you are. \n\nBut if the big old Traveler blasted outta the sky tomorrow? You bet your entire vault we'd chase after it. We'd be the new crews, going after something we knew in our bones was ours, not stopping for anyone or anything that got in our way.\n\nAnd we'd still think of ourselves as heroes, wouldn't we?",
-                "itemHash": "92499596",
+                "lore": "\"Our fundamental principle, to which all the Arachs must swear, is emigration.\" \u2014The Book of Departures, Canto I",
+                "ExtLore": null,
+                "itemHash": "3304105970",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/7d0a7e92d4f3d071dddc3ea54c877d29.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/193ab9494434826dd7da405db5a57efd.jpg",
                 "rarity": "Legendary",
                 "class": 1,
                 "statRolls": [
-                    50,
-                    17,
-                    6,
+                    62,
                     2,
-                    8,
-                    11,
-                    6
+                    18,
+                    10,
+                    2,
+                    20,
+                    10
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -1024,24 +1033,24 @@
                 "masterworkData": null
             },
             "Legs": {
-                "name": "Ketchkiller's Strides",
+                "name": "Anti-Extinction Legs",
                 "type": "Legendary Leg Armor",
                 "description": "",
-                "lore": "\"Keep two knives in your belt, in case you can't get your point across with one.\" \u2014Spider",
-                "ExtLore": "House Salvation Ketch, Themis Cluster\n\u2014\u2014\n\nWe are raiders and cutthroats, killing each other for bare survival. But what else could we have become? You can't speak of us\u2014the old crews and their infamy\u2014without speaking of the Whirlwind.\n\nLike hatchlings chittering for their mother, we were abandoned. Weak. Left to die. You all know what came after. We lived. We lived, and all we had were our lives. \n\nGreat Houses fell, and from their ruins rose the crews. We followed the traitor Machine to this system and found the Humans just as soft and weak as we had been; as reliant, helpless, and blind as the Machine had made us. But the Humans had taken it from us, and so they would pay with everything they had.\n\nAnd now? Now we remain where others have failed. Enemy ships quaver at the sight of our banners. They break against our hulls. And when we pick them clean of all they have, we find other prey and do the same.\n\nWe know the truth in this system: we are only as strong as those we kill.",
-                "itemHash": "2121983870",
+                "lore": "\"Some Arachs turn from their path and embrace the Earth as home. One and all, they are bitterly disappointed.\" \u2014The Book of Departures, Canto XII",
+                "ExtLore": null,
+                "itemHash": "3890232472",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/459b5f4d5bbf4c5dd0028b366be79068.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/e3891f47b90fe478e5cf94d7b1cd6061.jpg",
                 "rarity": "Legendary",
                 "class": 1,
                 "statRolls": [
-                    50,
-                    6,
+                    67,
+                    30,
                     2,
-                    19,
-                    6,
-                    11,
-                    6
+                    2,
+                    14,
+                    2,
+                    17
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -1051,14 +1060,14 @@
                 "masterworkData": null
             },
             "Class Item": {
-                "name": "Ketchkiller's Cloak",
+                "name": "Stella Incognita Cloak",
                 "type": "Legendary Hunter Cloak",
                 "description": "",
-                "lore": "\"Keep a radio hidden on you\u2026 and hope you never need it.\" \u2014Spider",
-                "ExtLore": "Eliksni Quarter, Last City\n\u2014\u2014\n\nWhat makes a House? It is a good question, and one that many Eliksni do not think on often enough.\n\nFor Humans, a house is a place. But for Eliksni, a House is a family. It has a culture. A philosophy of living, shared by all.\n\nThat is why the House of Light survived, even when we fled Europa. Even after the Shipstealer took all we had. We were bound not by place or possessions, but as family.\n\nCryptarch Matsuo asked me why the old crews are not considered Houses. It is a wise question. One that, perhaps, does not have a singular answer. \n\nI think it is because those who lead the old crews do not wish to be true Kells. A Kell is responsible for the safety and prosperity of their House. It is an honor, and a burden.\n\nThose you call Pirate Lords wish only to take\u2014they give nothing, even to their own people. Each raider is responsible only for themselves. A crew is expendable\u2026 a family is not.\n\nThe old crews live a sad life. One best left in the past.",
-                "itemHash": "2325223873",
+                "lore": "\"One day an Arach, triumphant, will oversee a mass departure. The Arach's purpose thus turns from persuasion to selection. Our future home must be chosen with care.\" \u2014The Book of Departures, Canto II",
+                "ExtLore": null,
+                "itemHash": "3940923523",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/3232ea73e486a2e740ef30462d63f3ec.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/de7bf6652a4dbb95c2e22751d2251da5.jpg",
                 "rarity": "Legendary",
                 "class": 1,
                 "statRolls": [
@@ -1080,24 +1089,24 @@
         },
         "Titan": {
             "Helmet": {
-                "name": "Ketchkiller's Helmet",
+                "name": "Anti-Extinction Helm",
                 "type": "Legendary Helmet",
                 "description": "",
-                "lore": "\"Even from the deck of a Ketch, your Light can shatter the stars.\" \u2014Mithrax",
-                "ExtLore": "The Ether Tank, Eliksni Quarter, Last City\n\u2014\u2014\n\nWhat's that, Guardian? You want to hear about the old crews from someone who was there?\n\nYou think I was around for the Whirlwind? Ha! I'm a few molts shy. No, I hatched into the House of Wolves. You know the story\u2014and if not, I don't have the time to explain it to you.\n\nBut I trade in information. I ran with some tough crowds in the past, maybe knew someone who knew someone\u2026 you get the idea. So I know a fair bit about those crews.\n\nFor them, every puff of Ether came at someone's expense. Your best bet was to be stronger than the next crew over\u2014and when things were especially bad, stronger than whoever was in the cot next to yours.\n\nSo they got strong. And remember, they didn't have Void or Solar like you do; they had claws. Blades. When they killed, it was without hesitation, and when they died, there was no coming back. \n\nYou Guardians, with your little Ghosts hovering nearby, you have the luxury of kindness\u2014that was never an option for the old crews. They were like anyone else; they were cruel, but you needed to be cruel to survive in those days.\n\nAnd they're not \"back,\" like I hear Misraaks saying; they never left. You're up against the ones who stayed alive all this time. The ones who learned how to survive. How to sacrifice. How to take what they need, whatever the cost.\n\n\u2026and speaking of cost, I'm not seeing any more Glimmer in your account. I think we're done talking.",
-                "itemHash": "859087913",
+                "lore": "\"Friends and families must be cast aside if they do not perceive the truth. Such ties bind us more tightly than gravity.\" \u2014The Book of Departures, Canto III",
+                "ExtLore": null,
+                "itemHash": "669535051",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/7aaf2f87d0ad3cf4627bcfad2b7e3e97.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/3ca68f2b095894a2faf519ebfc65add5.jpg",
                 "rarity": "Legendary",
                 "class": 0,
                 "statRolls": [
-                    52,
+                    64,
+                    10,
+                    15,
+                    7,
+                    10,
                     2,
-                    18,
-                    6,
-                    12,
-                    12,
-                    2
+                    20
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -1107,24 +1116,24 @@
                 "masterworkData": null
             },
             "Arms": {
-                "name": "Ketchkiller's Gauntlets",
+                "name": "Anti-Extinction Gauntlets",
                 "type": "Legendary Gauntlets",
                 "description": "",
-                "lore": "\"Steer your ship true, as trust is rare among the deep stars.\" \u2014Mithrax",
-                "ExtLore": "Eliksni Quarter, Last City\n\u2014\u2014\n\nThe old crews! Yes, I have gathered much information about them in the past weeks. In fact, I have just finished going over my notes!\n\nThe old crews rose in the wake of the Whirlwind, during what we Eliksni refer to as the Long Drift\u2014the span of time between the fall of Riis and our arrival in the Sol system. I believe the equivalent period would be your Dark Ages, though Riis did not have Risen, or Iron Lords. Instead, we had the crews. As you can imagine, this period was quite lawless, as the stability and abundance of Riis was no more. This resulted in what I believe is called a zero-sum game: a situation in which every gain or advantage is earned at the expense of another. \n\nSeveral fearsome individuals rose to great power and authoritative prominence at that time; the Eliksni word for them translates to \"Ketchkiller,\" meaning one who boards and wrests control of enemy ships. These Ketchkillers commanded great fleets and raided many supply routes, procuring objects of historic or intrinsic value along the way. It is exciting to wonder what treasures they accumulated beyond those we've recovered already!\n\nMany crews were abolished or disbanded over time, but those that survived did so through great hardship\u2014they are formidable indeed. But then, so is the Vanguard, and its Guardians.\n\nThank you for asking about my research into the old crews and their significance. It is always a pleasure to talk about it. After all, what use is knowledge if it is not shared?",
-                "itemHash": "2945464224",
+                "lore": "\"The instinct to migrate comes to many at once, without warning. Unlike birds, we must make preparations\u2014we must make our own wings.\" \u2014The Book of Departures, Canto VII",
+                "ExtLore": null,
+                "itemHash": "2862198970",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/2b7d488d9c583483d1a099215ac263e3.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/e77ac61d31e429a9f98b52adde0b0a3e.jpg",
                 "rarity": "Legendary",
                 "class": 0,
                 "statRolls": [
-                    55,
-                    6,
+                    65,
+                    10,
                     2,
-                    18,
-                    16,
-                    7,
-                    6
+                    19,
+                    30,
+                    2,
+                    2
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -1134,24 +1143,24 @@
                 "masterworkData": null
             },
             "Chest": {
-                "name": "Ketchkiller's Plate",
+                "name": "Anti-Extinction Plate",
                 "type": "Legendary Chest Armor",
                 "description": "",
-                "lore": "\"You will face cutlass and cannon fire\u2026 nothing you need fear.\" \u2014Mithrax",
-                "ExtLore": "The Annex, Last City\n\u2014\u2014\n\nThe old crews? Ain't much I can tell you that you couldn't get from Rahool, but I can't blame you if you'd rather stay awake for the whole story, heheh. C'mon, loosen up, hero! If you think a grim expression is all it takes to move up through the Vanguard\u2026 well, you may have something there.\n\nOkay, I'll start at the beginning. The Traveler chose the Eliksni and everything was great over in Riis, until it wasn't. The Whirlwind happened, the Pyramids showed up, the Traveler took off through space, and from what I gather, it wasn't a pretty scene. \n\nEramis was there for it. And\u2014credit where it's due\u2014she picked herself up, grabbed a crew, and went after the Traveler. She cut through everything in her way, dead set on hunting it down. \n\nAnd she wasn't the only one with that idea. Whole fleets of ships chased the Traveler. Lawless days. Hopeless days. \n\n\u2026See, I was here for the Dark Ages. And when there's nothing but loss around you planetside, you can still find a rooftop, sit in a snowfield. You can go into a forest and find a moment of quiet\u2014a little scrap of peace.\n\nAin't like that on a ship. Things go from bad to worse, you just have to face it. And Eramis did. That takes a gutful of grit.\n\nNow, don't think I'm writin' love poems to the Shipstealer over here\u2014we find her, I'm drawing down quick as you are. \n\nBut if the big old Traveler blasted outta the sky tomorrow? You bet your entire vault we'd chase after it. We'd be the new crews, going after something we knew in our bones was ours, not stopping for anyone or anything that got in our way.\n\nAnd we'd still think of ourselves as heroes, wouldn't we?",
-                "itemHash": "130618344",
+                "lore": "\"To be selected as an Arach, one must have a clear vision of the future and its horrors.\" \u2014The Book of Departures, Canto I",
+                "ExtLore": null,
+                "itemHash": "1557512974",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/1e27ae58f2f2b67d941e00299c8ac166.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/20af8ec85d35ba4d2ffc1eb089bfebc5.jpg",
                 "rarity": "Legendary",
                 "class": 0,
                 "statRolls": [
-                    57,
-                    17,
+                    62,
+                    6,
+                    23,
                     2,
                     6,
-                    16,
-                    2,
-                    14
+                    10,
+                    15
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -1161,24 +1170,24 @@
                 "masterworkData": null
             },
             "Legs": {
-                "name": "Ketchkiller's Greaves",
+                "name": "Anti-Extinction Greaves",
                 "type": "Legendary Leg Armor",
                 "description": "",
-                "lore": "\"Tread your path with honor, as a true Lightbearer.\" \u2014Mithrax",
-                "ExtLore": "House Salvation Ketch, Themis Cluster\n\u2014\u2014\n\nWe are raiders and cutthroats, killing each other for bare survival. But what else could we have become? You can't speak of us\u2014the old crews and their infamy\u2014without speaking of the Whirlwind.\n\nLike hatchlings chittering for their mother, we were abandoned. Weak. Left to die. You all know what came after. We lived. We lived, and all we had were our lives. \n\nGreat Houses fell, and from their ruins rose the crews. We followed the traitor Machine to this system and found the Humans just as soft and weak as we had been; as reliant, helpless, and blind as the Machine had made us. But the Humans had taken it from us, and so they would pay with everything they had.\n\nAnd now? Now we remain where others have failed. Enemy ships quaver at the sight of our banners. They break against our hulls. And when we pick them clean of all they have, we find other prey and do the same.\n\nWe know the truth in this system: we are only as strong as those we kill.",
-                "itemHash": "1640403802",
+                "lore": "\"Even for the faithless Arach, there is hope. While there is space on the ships, none shall be turned away.\" \u2014The Book of Departures, Canto XII",
+                "ExtLore": null,
+                "itemHash": "248161012",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/2d9e2a3fdeaf2bce46c2a0401215adda.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/3c9dd0874c5f637df50a0eae21b90b03.jpg",
                 "rarity": "Legendary",
                 "class": 0,
                 "statRolls": [
-                    58,
-                    14,
-                    12,
+                    64,
                     2,
-                    2,
-                    12,
-                    16
+                    22,
+                    10,
+                    10,
+                    10,
+                    10
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -1188,14 +1197,14 @@
                 "masterworkData": null
             },
             "Class Item": {
-                "name": "Ketchkiller's Mark",
+                "name": "Stella Incognita Mark",
                 "type": "Legendary Titan Mark",
                 "description": "",
-                "lore": "\"Not all deserve your protection, but all will have it.\" \u2014Mithrax",
-                "ExtLore": "Eliksni Quarter, Last City\n\u2014\u2014\n\nWhat makes a House? It is a good question, and one that many Eliksni do not think on often enough.\n\nFor Humans, a house is a place. But for Eliksni, a House is a family. It has a culture. A philosophy of living, shared by all.\n\nThat is why the House of Light survived, even when we fled Europa. Even after the Shipstealer took all we had. We were bound not by place or possessions, but as family.\n\nCryptarch Matsuo asked me why the old crews are not considered Houses. It is a wise question. One that, perhaps, does not have a singular answer. \n\nI think it is because those who lead the old crews do not wish to be true Kells. A Kell is responsible for the safety and prosperity of their House. It is an honor, and a burden.\n\nThose you call Pirate Lords wish only to take\u2014they give nothing, even to their own people. Each raider is responsible only for themselves. A crew is expendable\u2026 a family is not.\n\nThe old crews live a sad life. One best left in the past.",
-                "itemHash": "1832715717",
+                "lore": "\"In choosing the site of a new home, consider not only natural resources and environmental dangers, but also the fuel levels of your ships.\" \u2014The Book of Departures, Canto II",
+                "ExtLore": null,
+                "itemHash": "1875607511",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/e6a0427545d77a5f8c1783680ed4ed7d.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/a44edec8b86445e0f8325f8335171984.jpg",
                 "rarity": "Legendary",
                 "class": 0,
                 "statRolls": [
