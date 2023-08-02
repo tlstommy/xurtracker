@@ -74,7 +74,8 @@ class main:
         #calculate reset date    
         resetDate = date.today() + timedelta((1-date.today().weekday()) % 7 )
         resetDate = resetDate.strftime("%B %d").replace(' 0', ' ')
-        tweetStr = f"🌎  Xûr has arrived at the {self.location}!\n\n\n⚔️  {self.exoticWeapon}\n🛡  {self.exoticTitan}\n🛡  {self.exoticHunter}\n🛡  {self.exoticWarlock}\n\n\n\n🚀  Xûr will depart on {resetDate}.\n\nMore info at: https://xurtracker.com\n\n#Xur #Destiny  #Destiny2"
+        resetDateOrdinaled = self.addOrdinal(resetDate) 
+        tweetStr = f"🌎  Xûr has arrived at the {self.location}!\n\n\n⚔️  {self.exoticWeapon}\n🛡  {self.exoticTitan}\n🛡  {self.exoticHunter}\n🛡  {self.exoticWarlock}\n\n\n\n🚀  Xûr will depart on {resetDateOrdinaled}.\n\nMore info at: https://xurtracker.com\n\n#Xur #Destiny  #Destiny2"
 
         #tweet
         if(sendTweet):
@@ -185,6 +186,23 @@ class main:
 
         return jsonResponse
 
+    #add endings like st or th to the date
+    def addOrdinal(self,date):
+        rawDate = int(date.split(" ")[1])
+        rawDateOnes = rawDate % 10
+        #deal with most of the th endings first
+        if rawDate <= 20 and rawDate > 3:
+            suffix = "th"
+        elif rawDateOnes == 1:
+            suffix = "st"
+        elif rawDateOnes == 2:
+            suffix = "nd"
+        elif rawDateOnes == 3:
+            suffix = "rd"
+        else:
+            suffix = "th"
+        
+        return date+suffix
 
     async def getXurInventory(self,getLoc):
         if(getLoc):
