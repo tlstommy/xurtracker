@@ -107,7 +107,7 @@ def setHtmlVals():
 <html lang="en">
 <head>
     <title>X&#251r Tracker // Hunter</title>
-        <link rel="shortcut icon" href="../static/favicon.ico">
+    <link rel="shortcut icon" href="../static/favicon.ico">
     <link rel="apple-touch-icon" sizes="192x192" href="../static/favicon.ico">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="canonical" href="https://www.xurtracker.com/hunter"/>
