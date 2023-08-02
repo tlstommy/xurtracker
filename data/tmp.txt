@@ -1,4 +1,4 @@
 tmux kill-session -t serverSession && tmux new-session -s serverSession
 tmux attach-session -t serverSession
-run webserver bash scrip[t]
+run webserver bash script
 tmux kill-session -t serverSession
