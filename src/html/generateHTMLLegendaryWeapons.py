@@ -321,16 +321,6 @@ def setHtmlVals():
             background: transparent;
         }}
     </style>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y64WQ82WSS"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() {{ dataLayer.push(arguments); }}
-        gtag('js', new Date());
-
-        gtag('config', 'G-Y64WQ82WSS');
-    </script>
-
 </head>
 
 <body style="background-color:  #000000; overflow: auto;"></body>
