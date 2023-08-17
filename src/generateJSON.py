@@ -431,16 +431,7 @@ class main:
                             "icon":"https://www.bungie.net"+str(data["displayProperties"].get("icon")),
                         }
                         print("MATCH")
-                        continue
-
-
-
-
-
-
-
-
-                    #bind perks
+                        continue       
                     
                     item["weaponPerks"].append(perk)
                     
