@@ -67,7 +67,6 @@ class main:
         #weapons
         self.ExoticWeapon = None
         self.ExoticHawkmoon = None
-        self.ExoticDeadMansTale = None
 
         #the regular weapons that xur sells
         self.LegendaryWeapons = []
@@ -132,9 +131,6 @@ class main:
             #is hawkmoon
             if item["itemHash"] == "3856705927":
                 self.ExoticHawkmoon = item
-            #is Dmt
-            if item["itemHash"] == "3654674561":
-                self.ExoticDeadMansTale = item
             #is general exotic
             if item["itemHash"] != "3654674561" and item["itemHash"] != "3856705927" and item["rarity"] == "Exotic":
                 self.ExoticWeapon = item
@@ -151,7 +147,6 @@ class main:
                         "Exotic Quest":self.ExoticQuest,
                         "Exotic Weapon":self.ExoticWeapon,
                         "Hawkmoon":self.ExoticHawkmoon,
-                        "Dead Mans Tale":self.ExoticDeadMansTale,
                         "Warlock Exotic":self.WarlockExotic,
                         "Hunter Exotic":self.HunterExotic,
                         "Titan Exotic":self.TitanExotic,
