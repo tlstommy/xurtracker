@@ -127,8 +127,6 @@ def setHtmlVals():
     exoticWeaponPerkTable = buildWeaponPerkTable(data["Exotics"]["Exotic Weapon"]["weaponPerks"])
     hawkmoonWeaponPerkTable = buildWeaponPerkTable(data["Exotics"]["Hawkmoon"]["weaponPerks"])
     hawkmoonRating = data["Exotics"]["Hawkmoon"]["itemRating"]
-    deadMansTalePerkTable = buildWeaponPerkTable(data["Exotics"]["Dead Mans Tale"]["weaponPerks"])
-    deadMansTaleRating = data["Exotics"]["Dead Mans Tale"]["itemRating"]
     exoticWarlockStatTable = buildExArmorStatTable(data["Exotics"]["Warlock Exotic"])
     exoticWarlockName = data["Exotics"]["Warlock Exotic"]["name"]
     exoticWarlockType = data["Exotics"]["Warlock Exotic"]["type"].replace("Exotic ","")
@@ -462,29 +460,6 @@ def setHtmlVals():
                             </thead>
                             <tbody>
                                 {hawkmoonWeaponPerkTable}
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-6" style="height:fit-content;">
-                    <br>
-                    <h5>Dead Man's Tale</h5>
-                    <hr>
-                    <img src="https://www.bungie.net/common/destiny2_content/icons/cfc2c246cfd404d749fffbfe3ae3dfec.jpg" class="img" alt="DMT" data-bs-toggle="tooltip" data-bs-html="true" data-bs-placement="left" title="<p>&quotLong, short, they all end the same way. &quot<br>\u2014Katabasis</p>">
-                    
-                    <div class="weaponData">
-                        <b>Dead Man's Tale</b>
-                        
-                        <p>Scout Rifle</p>
-                        <br>
-                        <table class="table-sm table-borderless">
-                            <thead>
-                                <tr>
-                                <th scope="col" style="white-space: nowrap; max-width: 50px;">Weapon Perks</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                {deadMansTalePerkTable}
                             </tbody>
                         </table>
                     </div>
@@ -925,8 +900,7 @@ def setHtmlVals():
     </body>
     </html>""".format(week=week,landingZone=landingZone,location=location,planet=planet,exoticWeaponIcon=exoticWeaponIcon,
     exoticWeaponName=exoticWeaponName,exoticWeaponType=exoticWeaponType,exoticWeaponPerkTable=exoticWeaponPerkTable,
-    hawkmoonWeaponPerkTable=hawkmoonWeaponPerkTable,hawkmoonRating=hawkmoonRating,deadMansTalePerkTable=deadMansTalePerkTable,
-    deadMansTaleRating=deadMansTaleRating,exoticWarlockIcon=exoticWarlockIcon,exoticWarlockName=exoticWarlockName,exoticWarlockType=exoticWarlockType,
+    hawkmoonWeaponPerkTable=hawkmoonWeaponPerkTable,hawkmoonRating=hawkmoonRating,exoticWarlockIcon=exoticWarlockIcon,exoticWarlockName=exoticWarlockName,exoticWarlockType=exoticWarlockType,
     exoticWarlockStatTable=exoticWarlockStatTable,exoticHunterIcon=exoticHunterIcon,exoticHunterName=exoticHunterName,exoticHunterType=exoticHunterType,
     exoticHunterStatTable=exoticHunterStatTable,exoticTitanIcon=exoticTitanIcon,exoticTitanName=exoticTitanName,exoticTitanType=exoticTitanType,
     exoticTitanStatTable=exoticTitanStatTable,legendaryWeapon1Icon=legendaryWeapon1Icon,legendaryWeapon1Name=legendaryWeapon1Name,legendaryWeapon1Type=legendaryWeapon1Type,legendaryWeapon1PerkTable = legendaryWeapon1PerkTable,legendaryWeapon1Rating=legendaryWeapon1Rating,

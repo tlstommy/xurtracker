@@ -103,8 +103,6 @@ def setHtmlVals():
     exoticWeaponPerkTable = buildWeaponPerkTable(data["Exotics"]["Exotic Weapon"]["weaponPerks"])
     hawkmoonWeaponPerkTable = buildWeaponPerkTable(data["Exotics"]["Hawkmoon"]["weaponPerks"])
     hawkmoonRating = data["Exotics"]["Hawkmoon"]["itemRating"]
-    deadMansTalePerkTable = buildWeaponPerkTable(data["Exotics"]["Dead Mans Tale"]["weaponPerks"])
-    deadMansTaleRating = data["Exotics"]["Dead Mans Tale"]["itemRating"]
     exoticWarlockStatTable = buildExArmorStatTable(data["Exotics"]["Warlock Exotic"])
     exoticWarlockName = data["Exotics"]["Warlock Exotic"]["name"]
     exoticWarlockType = data["Exotics"]["Warlock Exotic"]["type"].replace("Exotic ","")
@@ -234,7 +232,7 @@ def setHtmlVals():
         <div class="row justify-content-around" style="word-break:normal; width: 100%;">
             <hr>
             <br>
-            <div class="col-lg-4 col-md-12">
+            <div class="col-lg-5 col-md-12">
                 <br>
                 <table class="table table-borderless" style="color: #ffffff;">
                     <thead>
@@ -294,7 +292,7 @@ def setHtmlVals():
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-5 col-md-6">
                 <br>
                 <table class="table table-borderless" style="color: #ffffff;">
                     <thead>
@@ -385,104 +383,6 @@ def setHtmlVals():
                     </div>
                 </div>
                 <br>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <br>
-                <table class="table table-borderless" style="color: #ffffff;">
-                    <thead>
-                        <tr>
-                            <th><img src="https://www.bungie.net/common/destiny2_content/icons/cfc2c246cfd404d749fffbfe3ae3dfec.jpg"
-                                    class="img" width="100px" alt="exotic-warlock"></th>
-                            <th style="vertical-align:middle;"><img
-                                    src="https://www.bungie.net/common/destiny2_content/icons/4dfb2a51e3f93e72f9bf576118c8c785.png"
-                                    class="img" alt="exotic-warlock-perk" width="75" data-bs-toggle="tooltip"
-                                    data-bs-offset="100,0" data-bs-html="true" data-bs-placement="bottom"
-                                    title="<p>Chaining precision hits grants bonus damage and quickens reload speed.</p>"></img>
-                            </th>
-                            <th style="vertical-align:middle;">
-                                <h4>Cranial Spike</h4>
-                            </th>
-                        </tr>
-                    </thead>
-                </table>
-                <div class="weaponData">
-                    <h4>Dead Man's Tale</h4>
-                    <p>Scout Rifle<br></p>
-                    <div class="d-flex p-4 justify-content-start" style="height: 96px;">
-                        <i>&quotLong, short, they all end the same way. &quot<br>&#8212;Katabasis</i>
-                    </div>
-                    <br>
-                    <table class="table-sm table-borderless" style="height: 300px;">
-                        <thead>
-                            <tr>
-                                <th scope="col" style="white-space: nowrap; max-width: 50px;">Weapon Perks</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {deadMansTalePerkTable}
-                        </tbody>
-                    </table>
-                    <br>
-                    <div class="accordion" id="DMTLore">
-                        <div class="accordion-item" style="background-color: #0e1010; border-color: #ffffff;">
-                            <h2 class="accordion-header" id="headingThree"
-                                style="background-color: #0e1010; border-color: #ffffff;">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    style="background-color: #0e1010; color: #ffffff;" data-bs-target="#collapseThree"
-                                    aria-expanded="true" aria-controls="collapseThree">
-                                    Weapon Lore
-                                </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p>
-                                    <h2>Dead Man's Tale</h2>
-                                    <hr>
-                                    <p>Gaelin-4's war beast leads us through balmy Venusian jungle. Our rifles low, our
-                                        Ghosts high in the canopy like sentry drones.<br><br>"My vehicle is old. Needs
-                                        maintenance. Been running too long without cutting the engine," I
-                                        say.<br><br>Gaelin sends me a sideways look. "That shipwright still around? She
-                                        used to make cider in the autumn. I swear,
-                                        she kept us like a pack of strays."<br><br>I sigh. "No, I mean this thing." I
-                                        run my hand over my body. "Besides, you know I can't go back there." I
-                                        straighten the leather wrap around my Tex-foundry rifle.<br><br>"You know I
-                                        literally tune myself, right?" asks the Exo Hunter.<br><br>"Why? You're
-                                        immortal."<br><br>"And you're not?"<br><br>"I know, but I'm&#8230 slower. I feel
-                                        slower."<br><br>"Uh huh."<br><br>"Just not like what I used to feel like.
-                                        Not&#8230 spry. Not up here either." I tap my helmet.<br><br>"Tragedy. I feel
-                                        for you. Have Gilgamesh tune you then."<br><br>I chuckle. "Yeah&#8230 he'd love
-                                        that."<br><br>"You two having issues again?"<br><br>I shake my head in a stiff,
-                                        narrow lie. "You think we come back the same every time?"<br><br>"I do. Straight
-                                        from the manufacturer ," Gaelin-4 says.<br><br>"Sometimes I get the
-                                        feeling&#8230 something's different."<br><br>Gaelin stops and squints at
-                                        me.<br><br>I dip my head and let my hood fall forward. "Nothing I can put my
-                                        finger on, just little things. Adjustments."<br><br>"You think he's changing
-                                        you?" Gaelin's voice sounds more serious than surprised.<br><br>I wait too long
-                                        to answer. It's not because I don't know my answer, but because I want to feel
-                                        like I still doubt it. I raise my head. Gaelin meets my eyes and looks up to the
-                                        canopy.<br><br>He leans his shoulder into me and drops his voice to a whisper.
-                                        "My Clip's a good one, but you need to realize Ghosts don't know anything.
-                                        Nobody does. They're just like us. They get curious. They question. If you think
-                                        something's coming unwound, you need to sit down and talk it
-                                        out."<br><br>"Wait&#8230 did Clip change yo&#8212"<br><br>"Please," Gaelin
-                                        scoffs. "You're paranoid." He turns to keep walking and calls back, "Life
-                                        changes you. Same with them. I'm the only one that stays the
-                                        same."<br><br>Gaelin raises a fist and we stop. His war beast sniffs the air and
-                                        turns us east. We continue walking.<br><br>"What'd you name the
-                                        beast?"<br><br>"Castus."<br><br>"You've been reading too many of the Spider's
-                                        books ."<br><br>"Some of 'em are good."<br><br>I laugh. "Aren't you the man that
-                                        said anything you got tying you down can be made into a noose?"<br><br>"Yeah,
-                                        some time ago."<br><br>"You've been taking a lot of jobs with him ? Those
-                                        Fallen?"<br><br>"You're one to talk, Emperor's lackey . Some of those Eliksni
-                                        aren't so bad."</p>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
         <br>
@@ -866,8 +766,7 @@ def setHtmlVals():
 
 </html>""".format(week=week,landingZone=landingZone,location=location,planet=planet,exoticWeaponIcon=exoticWeaponIcon,
     exoticWeaponName=exoticWeaponName,exoticWeaponType=exoticWeaponType,exoticWeaponPerkTable=exoticWeaponPerkTable,
-    hawkmoonWeaponPerkTable=hawkmoonWeaponPerkTable,hawkmoonRating=hawkmoonRating,deadMansTalePerkTable=deadMansTalePerkTable,
-    deadMansTaleRating=deadMansTaleRating,exoticWarlockIcon=exoticWarlockIcon,exoticWarlockName=exoticWarlockName,exoticWarlockType=exoticWarlockType,
+    hawkmoonWeaponPerkTable=hawkmoonWeaponPerkTable,hawkmoonRating=hawkmoonRating,exoticWarlockIcon=exoticWarlockIcon,exoticWarlockName=exoticWarlockName,exoticWarlockType=exoticWarlockType,
     exoticWarlockStatTable=exoticWarlockStatTable,exoticHunterIcon=exoticHunterIcon,exoticHunterName=exoticHunterName,exoticHunterType=exoticHunterType,
     exoticHunterStatTable=exoticHunterStatTable,exoticTitanIcon=exoticTitanIcon,exoticTitanName=exoticTitanName,exoticTitanType=exoticTitanType,
     exoticTitanStatTable=exoticTitanStatTable,exoticWarlockLore=exoticWarlockLore,exoticHunterLore=exoticHunterLore,exoticTitanLore=exoticTitanLore,exoticWeaponLore=exoticWeaponLore,
