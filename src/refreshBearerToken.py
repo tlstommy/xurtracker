@@ -1,3 +1,5 @@
+#https://d2bearer.tlstommy.com/
+
 import requests
 from credentials import *
 
