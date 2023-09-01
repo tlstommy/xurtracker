@@ -298,13 +298,14 @@ def setHtmlVals():
     legendaryWeapon6DamageElement = damageStrList[5]
     legendaryWeapon7DamageElement = damageStrList[6]
 
-    htmlTemp ="""<!DOCTYPE html>
+    htmlTemp ="""
+    <!DOCTYPE html>
     <html lang="en">
     <head>
     <link rel="shortcut icon" href="../static/favicon.ico">
     <link rel="apple-touch-icon" sizes="192x192" href="../static/favicon.ico">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <link rel="canonical" href="https://www.xurtracker.com/all"/>
+    <link rel="canonical" href="https://www.xurtracker.com/"/>
     <title>X&#251r Tracker // All Items</title>
     <meta charset="utf-8";>
     <meta name="description" content="Tracks Destiny 2's X&#251r location and Inventory.">

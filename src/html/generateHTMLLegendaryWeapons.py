@@ -244,9 +244,8 @@ def setHtmlVals():
 
     htmlTemp ="""
     <!DOCTYPE html>
-<html lang="en">
-
-<head>
+    <html lang="en">
+    <head>
     <title>X&#251r Tracker // Weapons</title>
     <link rel="shortcut icon" href="../static/favicon.ico">
     <link rel="apple-touch-icon" sizes="192x192" href="../static/favicon.ico">
