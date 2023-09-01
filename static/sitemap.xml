@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>https://xurtracker.com</loc>
+        <loc>https://xurtracker.com/</loc>
         <lastmod>2023-05-02</lastmod>
         <changefreq>always</changefreq>
         <priority>1.0</priority>
@@ -32,13 +32,13 @@
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://www.xurtracker.com/all</loc>
+        <loc>https://xurtracker.com/all</loc>
         <lastmod>2023-05-02</lastmod>
         <changefreq>always</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://www.xurtracker.com/hunter</loc>
+        <loc>https://xurtracker.com/hunter</loc>
         <lastmod>2023-05-02</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
