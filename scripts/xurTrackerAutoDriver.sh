@@ -9,6 +9,7 @@ cd /home/ubuntu/XurTracker/
 /usr/bin/git add .
 /usr/bin/git commit -m "automated weekly update"
 /usr/bin/git push -u origin master
+/usr/bin/git push
 echo committed!
 echo fallback attempt...
 sudo bash /home/ubuntu/XurTracker/scripts/autocommit.sh

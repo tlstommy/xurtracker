@@ -1,8 +1,8 @@
 {
-    "Location": "European Dead Zone",
-    "Planet": "Earth",
-    "Landing Zone": "Winding Cove",
-    "Week": "September 01, 2023",
+    "Location": "Arcadian Valley",
+    "Planet": "Nessus",
+    "Landing Zone": "Watcher's Grave",
+    "Week": "September 08, 2023",
     "Exotics": {
         "Exotic Engram": {
             "name": "Exotic Engram",
@@ -43,68 +43,68 @@
             "masterworkData": null
         },
         "Exotic Weapon": {
-            "name": "Prometheus Lens",
-            "type": "Exotic Trace Rifle",
+            "name": "Crimson",
+            "type": "Exotic Hand Cannon",
             "description": "",
-            "lore": "\"Cryptarchs made a crystal that starts fires? Get me one. I don't care how you do it. Go!\" \u2014Cayde-6",
-            "ExtLore": "How's it work? Ha! The underlying principles are quite simple, really. The gun's pyreliophorite crystal\u2014\n\nPyreliophorite? It's an Ionian crystal which bears some resemblance to rudimentary perovskite, which is, as you should know, a crystal with unique photovoltaic properties\u2014\n\nPhotovoltaic? It means \"regarding the conversion of light into electricity.\"\n\nNo, no, the gun doesn't create electricity; the gun induces an external combustion reaction. It's perovskite that\u2014\n\nI just explained the perovskite! If you'd stop interrupting\u2014\n\nWait. I remember you. You're one of Cayde's Hunters! Get out of here! Shoo! The Cryptarchy wants nothing to do with you!",
-            "itemHash": "19024058",
+            "lore": "According to official Vanguard policy, this weapon does not exist.",
+            "ExtLore": "\"This is crazy! You don't need this thing. I can heal you; that's my whole job.\"\n\"I thought your job was to state the obvious.\"\n\"What?\"\n\"Oh, come on. Ever since you found me, it's been, 'Watch out, Fallen ahead!' when they're right in front of me. Or, my favorite: 'Seems like the door's locked.' Is it? Really? I couldn't tell. And when it's not that, you say I need to be more self-sufficient in case we lose the Light again. So here's my answer. Here's the remedy.\"\n\"I was just trying to help.\"",
+            "itemHash": "3437746471",
             "itemRating": null,
-            "icon": "https://www.bungie.net/common/destiny2_content/icons/76817c6b9ad482a19a180819fbe85def.jpg",
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/5a7cb122bf2e8968a68cee59ef93b23d.jpg",
             "rarity": "Exotic",
             "class": 3,
             "statRolls": [],
             "weaponPerks": [
                 {
-                    "name": "Prismatic Inferno",
-                    "description": "Fires a Solar trace beam that creates a field of heat energy that grows as the weapon is fired. Sustained damage applies scorch to the target.",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/ea46e3015259c7bc0d98020eb1889c2a.png",
-                    "hashID": 571267712,
-                    "weaponHash": 19024058,
+                    "name": "Banned Weapon",
+                    "description": "This weapon fires a 3-round burst.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/b091bd256d8ff0881f12bb87e4d7db52.png",
+                    "hashID": 1030990989,
+                    "weaponHash": 3437746471,
                     "isPerk": true,
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Chambered Compensator",
-                    "description": "Stable barrel attachment.\n  \u2022  Increases stability\n  \u2022  Moderately controls recoil\n  \u2022  Slightly decreases handling speed",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/0b451cbccc7f11f6aec9c153e59474cb.png",
-                    "hashID": 3661387068,
-                    "weaponHash": 19024058,
+                    "name": "Smallbore",
+                    "description": "Dual strength barrel.\n  \u2022  Increases range\n  \u2022  Increases stability",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/7d1bb6a623f14959a47156ee71acfc3a.png",
+                    "hashID": 1482024992,
+                    "weaponHash": 3437746471,
                     "isPerk": true,
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Projection Fuse",
-                    "description": "Distance optimizations.\n  \u2022  Increases range",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/eaa6fcec699a88e768782068d5e509e1.png",
-                    "hashID": 2969185026,
-                    "weaponHash": 19024058,
+                    "name": "Accurized Rounds",
+                    "description": "This weapon can fire longer distances.\n  \u2022  Increases range",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/d85024478504205359c7fb52dbc4f6b6.png",
+                    "hashID": 3142289711,
+                    "weaponHash": 3437746471,
                     "isPerk": true,
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Flame Refraction",
-                    "description": "Kills with this weapon return a fraction of the ammo used to the magazine from reserves, extending the beam's duration.",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/cea9d1532966f264c68d0e3c59b9eb28.png",
-                    "hashID": 3470828242,
-                    "weaponHash": 19024058,
+                    "name": "Cruel Remedy",
+                    "description": "Kills with this weapon heal the wielder. Precision kills also refill the magazine.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/06c295c5e4f7604c1f2ae3914d9a3ba5.png",
+                    "hashID": 2383960413,
+                    "weaponHash": 3437746471,
                     "isPerk": true,
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Composite Stock",
-                    "description": "This weapon has a versatile dual-purpose stock.\n  \u2022  Slightly increases stability\n  \u2022  Slightly increases handling speed",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/7c616b3d2d0e97bf8948b1371b3007bb.png",
-                    "hashID": 3465198467,
-                    "weaponHash": 19024058,
+                    "name": "Heavy Grip",
+                    "description": "This grip is weighted for recoil control.\n  \u2022  Increases stability\n  \u2022  Decreases handling speed",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/02a60561b11d9abee82741981af12a3f.png",
+                    "hashID": 1012699414,
+                    "weaponHash": 3437746471,
                     "isPerk": true,
                     "isFavorablePerk": false
                 }
             ],
             "exoticArmorPerk": null,
             "legendWeaponFrame": null,
-            "legendWeaponDamageType": "Energy",
-            "legendWeaponDamageElement": "Solar",
+            "legendWeaponDamageType": "Kinetic",
+            "legendWeaponDamageElement": "Kinetic",
             "masterworkData": null
         },
         "Hawkmoon": {
@@ -130,10 +130,10 @@
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Full Bore",
-                    "description": "Barrel optimized for distance.\n  \u2022  Greatly increases range\n  \u2022  Decreases stability\n  \u2022  Slightly decreases handling speed",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/40a4bdcf0f5a4e492927f9569eaf529d.png",
-                    "hashID": 202670084,
+                    "name": "Corkscrew Rifling",
+                    "description": "Balanced barrel. \n  \u2022  Slightly increases range and stability\n  \u2022  Slightly increases handling speed",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/7730e1732ed7ef91afce50277639c493.png",
+                    "hashID": 4090651448,
                     "weaponHash": 3856705927,
                     "isPerk": true,
                     "isFavorablePerk": false
@@ -148,10 +148,10 @@
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Eye of the Storm",
-                    "description": "This weapon becomes more accurate and boosts handling as your health gets lower.",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/8f4755f9068959b26b8829641e5725ad.png",
-                    "hashID": 699525795,
+                    "name": "Rangefinder",
+                    "description": "Aiming this weapon increases its effective range and zoom magnification. Increased projectile velocity while aiming Rocket Launchers, Grenade Launchers, and Bows.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/74270d52bec24f1f5f4c987f5f37fce9.png",
+                    "hashID": 2846385770,
                     "weaponHash": 3856705927,
                     "isPerk": true,
                     "isFavorablePerk": false
@@ -173,31 +173,31 @@
             "masterworkData": null
         },
         "Warlock Exotic": {
-            "name": "Getaway Artist",
-            "type": "Exotic Gauntlets",
+            "name": "Crown of Tempests",
+            "type": "Exotic Helmet",
             "description": "",
-            "lore": "Keep the engine running.",
-            "ExtLore": "If Thalia is lightning, Ayrin is thunder. You hear him coming, and he likes it that way. He's got a kitbashed heavy bomber that he pulled out of a trash fire. The engine goes THUT-THUT-THUT-THUT, just these big, stupid-sounding percussive booms, and it's like all monsters, man, the noise this thing makes can stop your blood cold.\n\nSo. Otto and I load the supplies into the back, and Thalia hops into the passenger seat.\n\nThe chumps that run out to stop us are babies. That's the kicker with Warlords\u2014other than ours, there's not a Ghost in sight here. Just civilians who can barely hold their guns without wetting their pants, who can't aim worth a damn, who stick their necks out for the bad guys with eternal life. Real geniuses.\n\nBoo-hoo.\n\nGuess what? We got hungry, too. We starved, too. So when there was food, we took it, and if the Warlords put cannon fodder in our way to slow us down, that wasn't my fault. Wasn't our fault.\n\nAnyway, Ayrin. He stands up in the open-roof cockpit and whoops, and the little devil on his shoulder, a crackling ball of Arc energy, spits bullets behind him. Mows down the idiots as they run straight into the line of fire, like lemmings. And Ayrin doesn't need to shoot anything himself, but he does. For fun.\n\nWhen he gets enough target practice, and Otto and I are on board, he lets his little blue buddy handle the rest, and he tears out of there like a bat out of hell.\n\nSee? We were a well-oiled machine. A perfect team. We could've kept on like that for centuries.",
-            "itemHash": "3084282676",
+            "lore": "Mighty are they of the stormcloud thrones, and quick to anger, but bounteous to those whom they love.",
+            "ExtLore": "\"This is written that you may understand. The time of kings is long since gone from this world. Yes, their reign does linger\u2014these shallow, frightened, aged men, clinging to their grand delusions of relevance in a world that has long since passed them by. But their reign is a lie, a fleeting charade that will crumble beneath the weight of their greed. In the end, though they may conquer the lands and seas and the fragile flesh upon which they trample, their empires will collapse and their graves will beckon. And the crowns of old will find new heads to bear the weight of their power. And the strong will be made to suffer as their weakness is brought to light.\" \n\n\u2014Author Unknown",
+            "itemHash": "3381022969",
             "itemRating": null,
-            "icon": "https://www.bungie.net/common/destiny2_content/icons/a2350076ae19cf474a88a0c2a440c93f.jpg",
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/1e807547133b3d2e1ea680858cf09176.jpg",
             "rarity": "Exotic",
             "class": 2,
             "statRolls": [
-                68,
+                67,
+                8,
+                2,
+                25,
+                2,
                 10,
-                3,
-                23,
-                15,
-                10,
-                7
+                20
             ],
             "weaponPerks": [],
             "exoticArmorPerk": [
                 {
-                    "name": "Dynamic Duo",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/21f908e327196879aaa3f22a42229dc2.png",
-                    "desc": "[Grenade]  : Convert your Arc grenade into a Arc Soul and become amplified. The Arc Soul functions as an autonomous turret."
+                    "name": "Conduction Tines",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/00d4bd4093297b236bcb4d3e866f15b0.png",
+                    "desc": "Arc ability or jolt final blows increase the recharge rate of your Arc abilities and extend the duration of Stormtrance."
                 }
             ],
             "legendWeaponFrame": null,
@@ -206,31 +206,31 @@
             "masterworkData": null
         },
         "Hunter Exotic": {
-            "name": "Orpheus Rig",
+            "name": "Gemini Jester",
             "type": "Exotic Leg Armor",
             "description": "",
-            "lore": "Never, ever, look back.",
-            "ExtLore": "Quantis Rhee has almost forgotten what colors are. For months, she has prowled the deep, shadowed catacombs of Nessus\u2014the places where the inexorable Vex burrowed into the rogue planet and replaced natural life with a cold, inhuman labyrinth. \n\nLight is scarce in this place. But Quantis knows how to find it\u2014how to feel for the un-ripples of the Void, to draw Light from the infinities between spaces. She knows how to roll black holes between her fingertips, and how to nock her bow with the inescapable gravities of the universe. \n\nSoon Quantis will leave this place, return to the City, report her findings. See colors again. But that won't last long. She is a Nightstalker. Out here\u2014balanced upon the infinitesimal knife's edge\u2014is where she truly belongs.",
-            "itemHash": "193869523",
+            "lore": "\"I love making people laugh. And by 'people,' I mean me. Haha!\" \"Haha! Me!\"",
+            "ExtLore": "He quietly giggled as he stood blocking my exit, almost as if to taunt me. I start to push my way past but the blasted fool pulls hard on my ear, swiftly takes a step back, and presents his rump in a jesting dance. Not willing to get pulled into his game, I ignore his blatant attempts at a farce and continue forward. Abrupt shrills of frenzied laughter break out as I feel the full force of his boot on my backside. I cannot ignore his flagrant mockery. I reel around, take hold of his collar and clock him full force. Behind me, in the distance, I hear hysterical laughter. Confused, I whirl my head back to see a jaunty man skipping off. I look back at my hands to find them empty. That jester has taken me for a fool.",
+            "itemHash": "1163283805",
             "itemRating": null,
-            "icon": "https://www.bungie.net/common/destiny2_content/icons/4abdc33a8ff869fc7bdcbdc83fbaba01.jpg",
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/9b9cf3c53c26c364532bfda3dd372827.jpg",
             "rarity": "Exotic",
             "class": 1,
             "statRolls": [
-                64,
-                14,
-                14,
-                6,
+                68,
+                17,
                 2,
-                14,
-                14
+                15,
+                22,
+                2,
+                10
             ],
             "weaponPerks": [],
             "exoticArmorPerk": [
                 {
-                    "name": "Uncanny Arrows",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/392cc994318808b9f3b2bcbec7f285c3.png",
-                    "desc": "Provides ability energy for each target tethered by Deadfall anchors. Moebius Quiver has an additional shot."
+                    "name": "Misdirection",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/ec0f49f1d1ac107ff075d74f710153f9.png",
+                    "desc": "Dodging disorients nearby enemies and temporarily removes their radar."
                 }
             ],
             "legendWeaponFrame": null,
@@ -239,31 +239,31 @@
             "masterworkData": null
         },
         "Titan Exotic": {
-            "name": "Hallowfire Heart",
-            "type": "Exotic Chest Armor",
+            "name": "Helm of Saint-14",
+            "type": "Exotic Helmet",
             "description": "",
-            "lore": "\"You who seek the Forge: your journey will be long, but your destination is closer than you think.\" \u2014Ouros",
-            "ExtLore": "\"Commander, as best we can tell, they're all gone. Somehow the Legion found their outpost, and the Hunters say Centurions still hold the ruins. This was the last text transmission we got before the signal died.\" \n\u2014Sloane \n\n\"The fire burned within us. Not by choice, not because we sought the flame. But because there was no other way. \n\n\"When you stood before the Forge, there was no doubt. No fear. Not even anger. \n\n\"My order stood for generations. We held against the shadow, bearing a weapon that seared flesh and melted bone. \n\n\"And now we stand at the end. May history remember the Forge. Remember the Hammer. Remember the Sunbreakers.\" \n\n\u2014Ouros, Third and Final Empyreal Magistrate of the Sunbreaker",
-            "itemHash": "1192890598",
+            "lore": "\"He walked out into the demon light. But at the end he was brighter.\" \u2014Paean to Saint-14",
+            "ExtLore": "//AUDIO UNAVAILABLE//\n//MAINTENANCE FRAME TRANSCRIPT FOLLOWS//\nSX: You know what they say about Titans.\nC6: They're loud and abrasive?\nSX: The good ones are all dead.\nC6: You don't know that Saint is dead.\nSX: The greatest Titan who ever lived just disappeared. Call it a hunch.\n[A generator roars.]\nC6: No one ever put down a Kell faster than he could. But man, he was a real weirdo.\nSX: Eccentricity was his strength.\nC6: Talking about the Speaker like you're related to him is eccentric. Claiming he's seen the future, that he fought Six Fronts fueled on the idea that some Guardian savior is coming? That's insane.\nSX: Belief is a hell of a thing.\nC6: Sure, yeah. One Guardian's going to fix everything. Kick Crota off the Moon. Make it look like us Vanguard know our head from our hindquarters. Hey, where are you going?\nSX: One of the new recruits from Old Russia I've had my eye on\u2014entering the Crucible for the first time.\nC6: Hey, maybe they're the one. We'll call 'em Crota's End.",
+            "itemHash": "106575079",
             "itemRating": null,
-            "icon": "https://www.bungie.net/common/destiny2_content/icons/8aacd27b76e68afe6287a3984adeb601.jpg",
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/00da519dfd936447edd44bd0e472d229.jpg",
             "rarity": "Exotic",
             "class": 0,
             "statRolls": [
                 68,
-                4,
-                7,
+                2,
                 23,
-                16,
-                6,
-                12
+                11,
+                2,
+                17,
+                13
             ],
             "weaponPerks": [],
             "exoticArmorPerk": [
                 {
-                    "name": "Sunfire Furnace",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/7066c741806a4c30d4987a63f5b3b2d9.png",
-                    "desc": "Solar takedowns while standing in a Sunspot create a Sunspot. Greatly improves recharge rate of your Solar abilities while your Super is charged. Provides a small benefit to the airborne effectiveness stat of all weapons."
+                    "name": "Starless Night",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/d4a23b232372815d738f5009e8da29d4.png",
+                    "desc": "Targets that enter Ward of Dawn are blinded, while allies that pass through gain a Void overshield. Guarding with Sentinel Shield blinds nearby targets."
                 }
             ],
             "legendWeaponFrame": null,
@@ -275,209 +275,79 @@
     "Legendaries": {
         "Legendary weapons": [
             {
-                "name": "Ignition Code",
+                "name": "Deafening Whisper",
                 "type": "Legendary Grenade Launcher",
                 "description": "",
-                "lore": "\"I can decode anything with a grenade launcher.\" \u2014Saint-14",
-                "ExtLore": "Ahrrha hauled a metal crate from the drop ship toward the haphazard Eliksni settlement. He moved slowly, matching the pace of his malnourished workmates. Though he had fasted during his trip, Ahrrha knew that his solid frame still made him stand out. He feared it would reveal him as the imposter and infiltrator he was, even while dressed as a House Salvation deserter.\n\nDuring the approach to Earth, Ahrrha had been overawed. The Last City looked like a perfect ripple of Light from above, dropped from the impassive form of the Great Machine. Ahrrha wondered for the first time in his life if the Spider was wrong about the Guardians.\n\nBut his misgivings evaporated as soon as he emerged from the drop ship. Rather than living in a gleaming city of crystal, the Eliksni were packed into the bombed-out ruins of a former war zone. The area they'd been \"given\" appeared to be on the verge of collapse. \n\nAhrrha sneered inwardly. Did the Guardians really believe that the Eliksni could be pacified so cheaply? That they were content to live under the boots of the Vanguard, gnawing at scraps? Perhaps it was true for fools like Misraaks, his Awoken-raised hatchling, and cowards like the Empty Weaver. \n\nBut the Spider's acquiescence would not be so easily bought. In fact, Ahrrha thought, the Spider could probably own this settlement within a year. The generosity and goodwill of House Light would soon crumble to greed and hubris, as they all did. And once Spider's syndicate had a foothold, they would make the Vanguard pay. In Glimmer, weapons, Ether, and blood.",
-                "itemHash": "304659313",
+                "lore": "\"The right message is loud at any volume.\" \u2014Osiris",
+                "ExtLore": "The Acolyte shuffles amidst the carnage of the battlefield. It lopes blithely beneath the impassive statues of Awoken Techeuns, unable to make the abstract connection between the memorials and the stiffening corpses.\n\nIt sorts through all materials with equal interest: blood-stained cloth, stone rubble, burnt paper, viscera. It examines an empty bandolier. It chews on a clump of hair. It does not consider the taste.\n\nThe Acolyte rolls over the upper half of a corpse bisected by Tulkor's void eyes. Unlike other enemies, this one clutches a thick black tube. Not flesh, but metal. It pauses.\n\nWeapon?\n\nIts grasps the tube and pulls, prying the tube from the enemy's rigid fingers. It remembers hearing the tube roar. Seeing explosions stagger The Ferocity of Xivu Arath. \n\nWeapon. \n\nFor the first time since the assault began, the Acolyte glimpses the Final Shape. With this weapon, the Acolyte could ascend. It could impose Logic. This weapon could destroy\u2014\n\nIts incipient thought is interrupted by a hollow crunch. \n\nThe Acolyte's eyes go dim. It slumps to the ground as a Knight dislodges its sword from the Acolyte's skull. It tosses away its subordinate's corpse with one hand and picks up the grenade launcher with the other.\n\nA fine weapon. Worthy of a Knight of Xivu Arath.",
+                "itemHash": "981718087",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/42cd2f0993f9bb0f79461aba1801b105.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/cb5fb2271f520ff9e9a757a4f27fce00.jpg",
                 "rarity": "Legendary",
                 "class": 3,
                 "statRolls": [],
                 "weaponPerks": [
                     {
-                        "name": "Countermass",
-                        "description": "This weapon is weighted for vertical recoil.\n  \u2022  Greatly controls recoil\n  \u2022  Increases stability\n  \u2022  Increases handling speed",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/6fda396e0f2fa3c2eceac79e39f9c44b.png",
-                        "hashID": 3809316345,
-                        "weaponHash": 304659313,
+                        "name": "Volatile Launch",
+                        "description": "This weapon is optimized for an especially explosive payload.\n  \u2022  Greatly increases blast radius\n  \u2022  Slightly decreases handling speed\n  \u2022  Slightly decreases projectile speed",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/d255c9140cf640cfc820f995d1c1e96a.png",
+                        "hashID": 1478423395,
+                        "weaponHash": 981718087,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Disorienting Grenades",
-                        "description": "Detonation has a brief disorienting effect. \n  \u2022  Greatly decreases blast radius",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/f31c68952868e70325b992a4783db908.png",
-                        "hashID": 3032599245,
-                        "weaponHash": 304659313,
+                        "name": "High-Velocity Rounds",
+                        "description": "This weapon's projectiles are particularly light and quick.\n  \u2022  Increases projectile speed\n  \u2022  Increases reload speed",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/2a2b757cd73305126990cd19ad011a2c.png",
+                        "hashID": 2822142346,
+                        "weaponHash": 981718087,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Field Prep",
-                        "description": "Increased ammo reserves. Faster reload, stow, and ready when you're crouching.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/4ee1ecaead6fe2de1a2cab07f8b7be3f.png",
-                        "hashID": 2869569095,
-                        "weaponHash": 304659313,
+                        "name": "Moving Target",
+                        "description": "Increased movement speed and target acquisition when moving while aiming down sights.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/40b591eae7f122fdf1cfca21fc6f6c0f.png",
+                        "hashID": 588594999,
+                        "weaponHash": 981718087,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Vorpal Weapon",
-                        "description": "Increased damage against bosses, vehicles, and Guardians with their Super active.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/bc5130b227ee577f2678ec2d2c97bf4a.png",
-                        "hashID": 1546637391,
-                        "weaponHash": 304659313,
+                        "name": "Auto-Loading Holster",
+                        "description": "The holstered weapon is automatically reloaded after a short period of time.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/e4262099a1c2cea78b48a6680c5248c9.png",
+                        "hashID": 3300816228,
+                        "weaponHash": 981718087,
                         "isPerk": true,
                         "isFavorablePerk": false
                     }
                 ],
                 "exoticArmorPerk": null,
                 "legendWeaponFrame": {
-                    "name": "Lightweight Frame",
-                    "description": "One-shot handheld Grenade Launcher with remote detonation. \n[Shoot]  : Fire; release to detonate.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/6db8cd21c2b3e6fffeb6f111d6c70dd2.png"
+                    "name": "Wave Frame",
+                    "description": "One-shot handheld Grenade Launcher. Projectiles release a wave of energy when they contact the ground.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/30428876335fdd1e164128b9e5a6e4ad.png"
                 },
-                "legendWeaponDamageType": "Kinetic",
-                "legendWeaponDamageElement": "Kinetic",
+                "legendWeaponDamageType": "Energy",
+                "legendWeaponDamageElement": "Void",
                 "masterworkData": {
-                    "name": "Reload Speed",
-                    "description": "The time it takes to reload this weapon.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/e3a74e6dd4c520ea17eb1fdaf2128213.jpg",
-                    "mwHash": 4283235143
+                    "name": "Blast Radius",
+                    "description": "Increases the explosion radius of this weapon.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/cb114512a0710cab990fb8d5b4af91c6.jpg",
+                    "mwHash": 3928770367
                 }
             },
             {
-                "name": "True Prophecy",
-                "type": "Legendary Hand Cannon",
+                "name": "Retrofit Escapade",
+                "type": "Legendary Machine Gun",
                 "description": "",
-                "lore": "\"Some claim to know the future better than we do. Listen carefully. Then ask yourself: do their words ring true or false?\" \u2014Lakshmi-2",
-                "ExtLore": null,
-                "itemHash": "2742838700",
+                "lore": "Double down for one last job.",
+                "ExtLore": "\"This is it! This is where legends are made!\" Ana bellows into an enormous, empty room lined with gloss-paneled walls. A single console plinth rises from the floor. \n\nShe turns to an underwhelmed Elsie. \"Shaxx would yell that whenever we stepped into a new Crucible arena. Now they're all simulated here.\"\n\n\"What else can it simulate?\" Elsie asks, hands at the console, mind opening to possibilities.\n\n\"A lot of things, I guess. You have to tell it what to make, and the directions need to be pretty clear, like a blueprint,\" Ana explains.\n\n\"Do you remember\u2014\" Elsie catches herself. \"Here, let me show you something.\" She pulls a thin cable from her wrist plate and inserts it into the console, uploading her own blueprint.\n\nThe room digitizes briefly before solidifying into a small, nondescript sporting court. In place of the console is a countertop fitted with an oval disk of brass, etched with grooves forming orbital paths around a loose brass orb.\n\n\"This is a game called 'Sacra,'\" Elsie says, fingers deftly running along the grooves. She taps the orb, which ascends and floats into the middle of the court. Red lines fizzle into the air around it, each one tracing a different path. Elsie swipes a brass groove, and a holographic pebble appears at her fingertips.\n\n\"That orb has its own gravity. You get five stones to throw into orbit. The goal is to align all five in a stack at an intersection point; then they'll fuse together. If they survive an orbit like that, you win.\"\n\nAna taps her chin. \"Seems pretty math heavy.\"\n\n\"Math is one winning strategy. Rhythm is another,\" Elsie says. \"Striking an opponent's stone head on destroys both. Anything else is just a nudge.\"\n\n\"All right, sis. Buckle up\u2026 because I'm gonna kick your custom-made butt.\"\n\nElsie cringes. \"Thinking you have some instinctual skills locked away?\"\n\n\"I fly a spaceship every day. I can do orbits.\"\n\nThey play over and over, becoming increasingly competitive, increasingly matched. \n\nStill, each game ends in Elsie's favor. And each grates on Ana more than the last. She howls in frustration.\n\n\"We can stop,\" Elsie offers.\n\n\"One more.\"\n\nThey reset.\n\nThe sisters trace orbital paths and send their pebbles along them. On her fifth, Ana spots an opening and throws. Her stones' orbits align into a Sacra stack.\n\n\"I WON!\" Ana bursts into the air amid the swirls of red.\n\nElsie eyes her own slow-moving stone approaching Ana's stack. \"Have you?\" \n\nShe points as it gently drifts onto a collision course, hitting and scattering Ana's pebbles.\n\n\"Damn it!\" Ana sinks to the ground, pressing her face into her palms before lying flat on her back. \"Am I at least better at this than I used to be?\" she grumbles.\n\nElsie steps beside Ana, then slowly lies down by her side. \"No. You're exactly as bad as you used to be.\"\n\nElsie's smile breaks first. Then Ana's, reluctantly.\n\nQuiet contentment. Spontaneous\u2026 and genuine.\n\n\"But\u2026 this is better than it was before.\"",
+                "itemHash": "3103325054",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/1a4382dd6c3cbc134f2d276c0ff63c7e.jpg",
-                "rarity": "Legendary",
-                "class": 3,
-                "statRolls": [],
-                "weaponPerks": [
-                    {
-                        "name": "TrueSight HCS",
-                        "description": "Balanced Hand Cannon sight.\n  \u2022  Slightly increases range\n  \u2022  Slightly increases stability\n  \u2022  Slightly increases handling speed",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/388a2235cfe0a6d9449aec30f8e962cd.png",
-                        "hashID": 1926090092,
-                        "weaponHash": 2742838700,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Accurized Rounds",
-                        "description": "This weapon can fire longer distances.\n  \u2022  Increases range",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/d85024478504205359c7fb52dbc4f6b6.png",
-                        "hashID": 3142289711,
-                        "weaponHash": 2742838700,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Overflow",
-                        "description": "Picking up Special or Heavy ammo automatically loads this weapon beyond normal capacity.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/3165fec56b59363fa974a11f5730f4ec.png",
-                        "hashID": 3643424744,
-                        "weaponHash": 2742838700,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Timed Payload",
-                        "description": "Projectiles attached to enemies explode after a short delay.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/1d53281172f2568e4c840409f4151771.png",
-                        "hashID": 1954620775,
-                        "weaponHash": 2742838700,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    }
-                ],
-                "exoticArmorPerk": null,
-                "legendWeaponFrame": {
-                    "name": "Aggressive Frame",
-                    "description": "High damage, high recoil. Optimized for long-distance shooting.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/64209c4fd20513b33109c374179d0958.png"
-                },
-                "legendWeaponDamageType": "Kinetic",
-                "legendWeaponDamageElement": "Kinetic",
-                "masterworkData": {
-                    "name": "Reload Speed",
-                    "description": "The time it takes to reload this weapon.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/e3a74e6dd4c520ea17eb1fdaf2128213.jpg",
-                    "mwHash": 4283235143
-                }
-            },
-            {
-                "name": "Corsair's Wrath",
-                "type": "Legendary Linear Fusion Rifle",
-                "description": "",
-                "lore": "\"We are only briefly Awoken. The rest of existence is an eternal dream.\" \u2014Sedia",
-                "ExtLore": "The Corsair reloaded behind her improvised barricade as Shredder rounds sizzled overhead. She wished she had better cover. The Hall of Names hadn't been constructed with defense in mind\u2014apparently nobody dreamed the Awoken would be assaulted here. \n\nShe reloaded her fusion rifle and assessed their situation. It was dire. Unless Leona Bryl's team managed to roll up the Hive's southern flank, her squad would be overrun. At least the Hall of Names was a fitting place for a last stand. \n\nShe was six rounds short of a full clip. She turned to her left to ask Lira for extra ammo, only to discover her teammate slumped over, blue skin already going grey. The thick purple ichor of a soulfire round oozed from the hole in her chest. The Corsair gritted her teeth and looted Lira's kit for ammo. \n\nThe Corsair finished reloading and popped her head back over the barricade. She downed three loping Acolytes in quick succession before even noticing the ogre looming in the background. It was enormous\u2014at least seven meters high. She unloaded her fusion rifle into its face, trying to burrow rounds through its armored hide. She managed to blow off a chunk of its upper jaw before her rifle clicked empty. \n\nThe Corsair dove back behind her barricade, ammo spent. She looked around the Hall for the last time, admiring the elegant statues, her chest swelling with bittersweet pride. The faces of her people, Techeuns and Queens, presiding over the battle. She remembered what Sedia had said to her long ago, before things got out of control: \"We are only briefly Awoken. The rest of our existence is an eternal dream. And in that dream, we will all\u2014\"",
-                "itemHash": "2714022207",
-                "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/b493fc12f672531508a226b7321cba59.jpg",
-                "rarity": "Legendary",
-                "class": 3,
-                "statRolls": [],
-                "weaponPerks": [
-                    {
-                        "name": "Fluted Barrel",
-                        "description": "Ultra-light barrel. \n  \u2022  Greatly increases handling speed\n  \u2022  Slightly increases stability",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/260eba9dd149dbb94b1306c9ed4dd8db.png",
-                        "hashID": 1840239774,
-                        "weaponHash": 2714022207,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Ionized Battery",
-                        "description": "Large heavy battery.\n  \u2022  Greatly increases magazine size\n  \u2022  Greatly decreases reload speed",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/a278b79aba1d341d2a070c0e48d9129a.png",
-                        "hashID": 1483536627,
-                        "weaponHash": 2714022207,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "No Distractions",
-                        "description": "Aiming this weapon for a short period reduces flinch.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/3f6534e7fd934e0ecfeb1cac9da9c97f.png",
-                        "hashID": 2866798147,
-                        "weaponHash": 2714022207,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Demolitionist",
-                        "description": "Kills with this weapon generate grenade energy. Activating your grenade ability reloads this weapon from reserves.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/da009697110e06b65d6f827b3b6d5f70.png",
-                        "hashID": 3523296417,
-                        "weaponHash": 2714022207,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    }
-                ],
-                "exoticArmorPerk": null,
-                "legendWeaponFrame": {
-                    "name": "Precision Frame",
-                    "description": "Fires a long-range precision energy bolt. This weapon's recoil pattern is more predictably vertical.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/e9dd736124e8ef94048901a279a5bb18.png"
-                },
-                "legendWeaponDamageType": "Power",
-                "legendWeaponDamageElement": "Solar",
-                "masterworkData": {
-                    "name": "Charge Time",
-                    "description": "The time in milliseconds before a weapon fires.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/0ab7e72f178dbec85d531cc7eae34571.jpg",
-                    "mwHash": 3353797898
-                }
-            },
-            {
-                "name": "Sailspy Pitchglass",
-                "type": "Legendary Linear Fusion Rifle",
-                "description": "",
-                "lore": "There are shapes on the horizon not yet meant to be seen.",
-                "ExtLore": "Iriks has good eyes, yes. One on top right dull, filmy, not so good. But others very good. Sharp.\n\nIriks waits. Motionless. Tastes the thin wind. Rate of speed. Leads target. Takes the shot.\n\nIriks does not miss. Enemies panic. Again. Again. Quiet.\n\nIriks sends in his crew. Watches through the scope. One claims more than their share.\n\nIriks teaches. Body falls. Lesson learned. Quiet again.\n\nIriks watches his crew open the chest. One holds the treasure high in shaking claws.\n\nIriks sees the dark glass. Sees the object floating inside. Recognizes. Tightens grip. Holds breath.\n\nIriks knows what Eramis seeks. Knows what it is worth. Knows what she will pay.\n\nIriks will take the shot.",
-                "itemHash": "1184309824",
-                "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/9a5310787d6f53729b0814b9ecfdb487.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/77a78edd73b7f6bfcf7d1c9a93a27979.jpg",
                 "rarity": "Legendary",
                 "class": 3,
                 "statRolls": [],
@@ -487,81 +357,7 @@
                         "description": "Lightly vented barrel.\n  \u2022  Greatly controls recoil\n  \u2022  Increases handling speed",
                         "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/8f7fb54687aa52a9c2595d90ce9c9417.png",
                         "hashID": 839105230,
-                        "weaponHash": 1184309824,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Ionized Battery",
-                        "description": "Large heavy battery.\n  \u2022  Greatly increases magazine size\n  \u2022  Greatly decreases reload speed",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/a278b79aba1d341d2a070c0e48d9129a.png",
-                        "hashID": 1483536627,
-                        "weaponHash": 1184309824,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Rapid Hit",
-                        "description": "Rapid precision hits temporarily increase stability and reload speed.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/de22847fa94634a487758041887bcdaa.png",
-                        "hashID": 247725512,
-                        "weaponHash": 1184309824,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Voltshot",
-                        "description": "Reloading this weapon after defeating a target overcharges this weapon for a short period of time, causing it to jolt on its next hit.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/a71ffb1cb221ea64fa77ab473f8a3a61.png",
-                        "hashID": 2173046394,
-                        "weaponHash": 1184309824,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Right Hook",
-                        "description": "Dealing melee damage gives this weapon increased target acquisition and range for a short period of time.\nDealing melee damage again extends the effect.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/067828985c3d34507def4eb53b12cf4e.png",
-                        "hashID": 3907865655,
-                        "weaponHash": 1184309824,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    }
-                ],
-                "exoticArmorPerk": null,
-                "legendWeaponFrame": {
-                    "name": "Precision Frame",
-                    "description": "Fires a long-range precision energy bolt. This weapon's recoil pattern is more predictably vertical.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/e9dd736124e8ef94048901a279a5bb18.png"
-                },
-                "legendWeaponDamageType": "Power",
-                "legendWeaponDamageElement": "Arc",
-                "masterworkData": {
-                    "name": "Reload Speed",
-                    "description": "The time it takes to reload this weapon.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/e3a74e6dd4c520ea17eb1fdaf2128213.jpg",
-                    "mwHash": 4283235143
-                }
-            },
-            {
-                "name": "Jian 7 Rifle",
-                "type": "Legendary Pulse Rifle",
-                "description": "",
-                "lore": "Come, brothers and sisters! Let us make way for the new ruler!",
-                "ExtLore": null,
-                "itemHash": "1162247618",
-                "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/ba32a8a560bc8626723c2a273764a980.jpg",
-                "rarity": "Legendary",
-                "class": 3,
-                "statRolls": [],
-                "weaponPerks": [
-                    {
-                        "name": "SRO-52 Ocular",
-                        "description": "SUROS ranged combat scope. Long zoom. \n  \u2022  Greatly increases range\n  \u2022  Decreases handling speed",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/d39e277cab12145e4e1615b00177363e.png",
-                        "hashID": 360593481,
-                        "weaponHash": 1162247618,
+                        "weaponHash": 3103325054,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
@@ -570,90 +366,34 @@
                         "description": "This weapon has a greatly increased magazine size, but reloads much slower.\n  \u2022  Greatly increases magazine size\n  \u2022  Greatly decreases reload speed\n  \u2022  Increases airborne effectiveness",
                         "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/66cfea124e24e73cca1ce6370b44ca7e.png",
                         "hashID": 2420895100,
-                        "weaponHash": 1162247618,
+                        "weaponHash": 3103325054,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Disruption Break",
-                        "description": "Breaking an enemy's shield with this weapon makes them more vulnerable to Kinetic damage for a brief period.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/45b57ce27fa0213218c7cb8f2253c517.png",
-                        "hashID": 1683379515,
-                        "weaponHash": 1162247618,
+                        "name": "Feeding Frenzy",
+                        "description": "Each rapid kill with this weapon progressively increases reload speed for a short time.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/89d7e65f5ebe8d291ea96f128765921d.png",
+                        "hashID": 2779035018,
+                        "weaponHash": 3103325054,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Outlaw",
-                        "description": "Precision kills greatly decrease reload time.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/382df469a091c33e190ee583b64923e8.png",
-                        "hashID": 1168162263,
-                        "weaponHash": 1162247618,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    }
-                ],
-                "exoticArmorPerk": null,
-                "legendWeaponFrame": {
-                    "name": "Adaptive Frame",
-                    "description": "A well-rounded grip, reliable and sturdy.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/967fb4abc6ab98f74639d6c08e5f56ee.png"
-                },
-                "legendWeaponDamageType": "Energy",
-                "legendWeaponDamageElement": "Arc",
-                "masterworkData": {
-                    "name": "Range",
-                    "description": "Increases the effective range of this weapon.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/95af3923bdbdf11438504ddeb498afe8.jpg",
-                    "mwHash": 150943607
-                }
-            },
-            {
-                "name": "Gridskipper",
-                "type": "Legendary Pulse Rifle",
-                "description": "",
-                "lore": "\"No stars overhead. Best not to look up.\" \u2014Amanda Holliday",
-                "ExtLore": "He heard something and snapped awake. There it was again: the skittering of clawed feet above him. In a moment, he had grabbed the Pulse Rifle from near the door and was outside.\n\nHe saw nothing but the lip of the tar paper roof against the undulating night sky. That didn't mean anything\u2014they could turn invisible. Everyone knew that. They could just be standing there, one or two, or a dozen, staring down at him.\n\nHe looked for shimmering outlines, but his vision was filled by the swaying grid of the dark purple night. He squinted as a ripple rolled high overhead, and the grid seemed to move closer, like an enormous sheet settling over the City.\n\nA wave of pressure pushed down, building in his sinuses. He pressed a hand to his eyes. A deep thrum filled his head, and he heard their claws on the walls all around him, their hissing laughter.\n\nHe turned toward the street, weapon raised. He felt his heart thudding in his chest and sweat beading on his back.\n\nAnother noise: someone pounding on glass behind him.\n\nHe spun and one of them was in his house, looking out at him through the window. His sweaty fingers fumbled to turn the safety off as it opened its mouth\u2014\n\n\"Dad,\" the Fallen shouted, \"you're standing in the garden!\"\n\nHe looked down dumbly. Cherry tomatoes were crushed beneath his bare feet.\n\nHis son yelled again, no longer a Fallen, merely irritated and half asleep. \"Come back inside!\"\n\nHands shaking, he stepped out of the garden. He fought the urge to look into the sky as he walked back to the house.",
-                "itemHash": "1621558458",
-                "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/dadacb5b9a019bc2c9c639ee00ab2881.jpg",
-                "rarity": "Legendary",
-                "class": 3,
-                "statRolls": [],
-                "weaponPerks": [
-                    {
-                        "name": "Fluted Barrel",
-                        "description": "Ultra-light barrel. \n  \u2022  Greatly increases handling speed\n  \u2022  Slightly increases stability",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/260eba9dd149dbb94b1306c9ed4dd8db.png",
-                        "hashID": 1840239774,
-                        "weaponHash": 1621558458,
+                        "name": "Frenzy",
+                        "description": "Being in combat for an extended time increases damage, handling, and reload for this weapon until you are out of combat.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/23e06f4ced1b3e6476f342978ff5bb37.png",
+                        "hashID": 4104185692,
+                        "weaponHash": 3103325054,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "High-Caliber Rounds",
-                        "description": "Shots from this weapon knock the target back farther.\n  \u2022  Slightly increases range",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/9d1c49edb2d2b24c74067742c09fd5a5.png",
-                        "hashID": 1561002382,
-                        "weaponHash": 1621558458,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Moving Target",
-                        "description": "Increased movement speed and target acquisition when moving while aiming down sights.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/40b591eae7f122fdf1cfca21fc6f6c0f.png",
-                        "hashID": 588594999,
-                        "weaponHash": 1621558458,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Thresh",
-                        "description": "Killing combatants with this weapon generates a small amount of Super energy.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/7f9dcf3bd4a8a4e0d2d0922827f038c9.png",
-                        "hashID": 2726471870,
-                        "weaponHash": 1621558458,
+                        "name": "Ambush",
+                        "description": "Improves range, handling, and damage against combatants during the opening moments of an engagement.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/a727dccb4a2b0c94bf4eadb8abd5ae95.png",
+                        "hashID": 192157151,
+                        "weaponHash": 3103325054,
                         "isPerk": true,
                         "isFavorablePerk": false
                     }
@@ -664,43 +404,108 @@
                     "description": "Deeper ammo reserves. Slightly faster reload when magazine is empty.",
                     "icon": "https://www.bungie.net/common/destiny2_content/icons/801d62d1f9783bee81d5700c54c24fda.png"
                 },
-                "legendWeaponDamageType": "Energy",
+                "legendWeaponDamageType": "Power",
                 "legendWeaponDamageElement": "Void",
                 "masterworkData": {
-                    "name": "Range",
-                    "description": "Increases the effective range of this weapon.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/95af3923bdbdf11438504ddeb498afe8.jpg",
-                    "mwHash": 150943607
+                    "name": "Reload Speed",
+                    "description": "The time it takes to reload this weapon.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/e3a74e6dd4c520ea17eb1fdaf2128213.jpg",
+                    "mwHash": 4283235143
                 }
             },
             {
-                "name": "Seventh Seraph CQC-12",
-                "type": "Legendary Shotgun",
+                "name": "Code Duello",
+                "type": "Legendary Rocket Launcher",
                 "description": "",
-                "lore": "Word into law, held at gunpoint.",
-                "ExtLore": null,
-                "itemHash": "1821724780",
+                "lore": "An unfinished inscription runs along the barrel: \"Tlamus, she who\u2014\"",
+                "ExtLore": "There is a story of two weaponsmiths, both skilled at their trade.\n\nOne smith, Dhutus, worked with metals she pulled from the mountains herself. She tooled the rifling in her barrels with the steady hand of an artisan. Her dyes, cobalt and ichor, shone bright as beetleshell.\n\nThe other, Gharhet, came from the distant plains. He traded for his wares and sold them dear, and thus he amassed great wealth. He embellished his goods with a rich lacquer the color of flame.\n\nWhen the Primus called for the strongest warriors to serve, the district knew the fighter Tlamus\u2014who had broken all challengers with her keen aim and powerful frame\u2014would represent them. Both Dhutus and Gharhet wished to outfit her with their finest pieces, as having a warrior of her status wear their colors would bring them great honor.\n\nSo Dhutus forged Tlamus a mighty war axe with an ice-blue handle and wide golden blade. Tlamus accepted the gift gladly.\n\nGharhet procured for her a Slug Rifle with bright orange plating, and Tlamus wore it proudly across her back.\n\nNext, Dhutus crafted a Shotgun, metal burnished deep as night with bright vents along the sides, and Tlamus brought it into battle.\n\nIn response, Gharhet bought a helm with thick plating and stout antlers the color of a sunset, and they were soon stained with the blood of Tlamus's foes.\n\nAnd Dhutus saw no end to this. Her shoulders ached from working the forge, and her hands were blistered by burns upon burns.\n\nSo Dhutus issued to Gharhet a challenge, and as he knew no one would raise the weapons of a coward, Gharhet accepted.\n\nThe next dawn found Dhutus on the battlefield waiting for her rival. On her shoulder was her finest weapon: a Rocket Launcher, its barrel a twisting column of seashell blue with gold trim, built as a gift for Tlamus but now wielded by its creator.\n\nFrom across the field, a figure strode forward to meet Dhutus\u2014but it was too wide to be Gharhet; too tall, too muscular. He had bought a champion to fight in his stead.\n\nAn orange sash was draped carelessly across her chest and dragged in the dust with each confident step. Studded orange leathers bound her massive arms and thighs. Strands of coral beads hung from her tusks.\n\nShe greeted Dhutus with a fist to her chest. \"I am Tlamus,\" she said, \"chosen of Gharhet.\"\n\nDhutus could not find her voice, and then Tlamus drew one of her beautiful, terrible weapons, and the rite was soon concluded.",
+                "itemHash": "2496242052",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/12b9f844cf2aa0ef460f596cb912ee39.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/e331c2975fd1cdf02901a48abc111d17.jpg",
                 "rarity": "Legendary",
                 "class": 3,
                 "statRolls": [],
                 "weaponPerks": [
                     {
-                        "name": "Rifled Barrel",
-                        "description": "Ranged shotgun barrel.\n  \u2022  Increases range\n  \u2022  Greatly decreases handling speed",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/79d5f1f469d3290cfb849f4b3e6fc16b.png",
-                        "hashID": 1332244541,
-                        "weaponHash": 1821724780,
+                        "name": "Confined Launch",
+                        "description": "This weapon's launch parameters are particularly stable.\n  \u2022  Greatly increases stability\n  \u2022  Increases blast radius\n  \u2022  Decreases projectile speed",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/0a783b44bf9fc49b4bed0a93dfa21d5d.png",
+                        "hashID": 1844523823,
+                        "weaponHash": 2496242052,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Steady Rounds",
-                        "description": "This magazine is optimized for recoil control.\n  \u2022  Greatly increases stability \n  \u2022  Slightly decreases range\n  \u2022  Increases airborne effectiveness",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/6c6e1cc341487a8afd0b0c714a229255.png",
-                        "hashID": 3177308360,
-                        "weaponHash": 1821724780,
+                        "name": "High-Velocity Rounds",
+                        "description": "This weapon's projectiles are particularly light and quick.\n  \u2022  Increases projectile speed\n  \u2022  Increases reload speed",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/2a2b757cd73305126990cd19ad011a2c.png",
+                        "hashID": 2822142346,
+                        "weaponHash": 2496242052,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Surplus",
+                        "description": "Increases handling, reload speed, and stability for each fully charged ability.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/a4c054c3547840300b9ce7ef11b7b6fc.png",
+                        "hashID": 3436462433,
+                        "weaponHash": 2496242052,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Frenzy",
+                        "description": "Being in combat for an extended time increases damage, handling, and reload for this weapon until you are out of combat.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/23e06f4ced1b3e6476f342978ff5bb37.png",
+                        "hashID": 4104185692,
+                        "weaponHash": 2496242052,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    }
+                ],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": {
+                    "name": "High-Impact Frame",
+                    "description": "Slow firing and high damage. This weapon is more accurate when stationary, moving slowly, and aiming down sights.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/34573143849cf910d2381554bb57a10d.png"
+                },
+                "legendWeaponDamageType": "Power",
+                "legendWeaponDamageElement": "Solar",
+                "masterworkData": {
+                    "name": "Velocity",
+                    "description": "Increases the speed of projectiles fired by this weapon.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/bbb5b083694aa6b15904ddad69a41ae1.jpg",
+                    "mwHash": 4105787909
+                }
+            },
+            {
+                "name": "Tears of Contrition",
+                "type": "Legendary Scout Rifle",
+                "description": "",
+                "lore": "Message transmission successful // Message deleted without opening // Resend?",
+                "ExtLore": "Mara Sov can feel her twin's heartbeat in the chest of the man now known as Crow. She dreams, sometimes, of gathering him in an embrace like she did when they were children. Of one ear pressed to his sternum, listening\u2026\n\n\"I'm sorry,\" she imagines she would say. \"For everything. I was wrong.\"\n\nBut Mara has been afforded no such opportunity, and on nights like tonight\u2014when she stares across the infinite void of space, alone\u2014she reminds herself that her brother's absence is what he desires. It's also what she deserves.\n\n\"My queen,\" a familiar voice murmurs from behind her. Mara turns to find Petra's figure cutting a harsh silhouette in her doorway. \n\n\"Where is he?\" Mara asks.\n\n\"The Leviathan.\" Shadows obscure Petra's face, making it impossible to read, and for a moment, Mara understands how others must often feel in her own presence. \"Eris tells me he sees himself there. He sees Uldren.\"\n\n\"I know,\" says Mara. Because of course she knows. She feels Crow's suffering as intensely as she feels the beating of his heart.\n\n\"You want to go to him,\" Petra states plainly. \"You shouldn't.\" Something steely has entered her voice; Mara recognizes it as a warning.\n\n\"I know that too.\" Mara turns back to the twinkling ocean of stars but focuses on the vast nothingness beyond it. \"Good night, Petra.\"\n\n\"Good night, my queen.\" Petra's retreating footsteps fade away, and Mara is alone again. \n\nNo, she thinks, not alone. She and her brother are together, even when they are apart. That is enough.\n\nIt must be.",
+                "itemHash": "1366394399",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/b5bb55de6a6dacea23cb63626e06580f.jpg",
+                "rarity": "Legendary",
+                "class": 3,
+                "statRolls": [],
+                "weaponPerks": [
+                    {
+                        "name": "Chambered Compensator",
+                        "description": "Stable barrel attachment.\n  \u2022  Increases stability\n  \u2022  Moderately controls recoil\n  \u2022  Slightly decreases handling speed",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/0b451cbccc7f11f6aec9c153e59474cb.png",
+                        "hashID": 3661387068,
+                        "weaponHash": 1366394399,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Appended Mag",
+                        "description": "This weapon's magazine is built for higher capacity.\n  \u2022  Increases magazine size",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/d9f468cce26fe35d9db413e2f8451127.png",
+                        "hashID": 1087426260,
+                        "weaponHash": 1366394399,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
@@ -709,16 +514,238 @@
                         "description": "The holstered weapon is automatically reloaded after a short period of time.",
                         "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/e4262099a1c2cea78b48a6680c5248c9.png",
                         "hashID": 3300816228,
-                        "weaponHash": 1821724780,
+                        "weaponHash": 1366394399,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Snapshot Sights",
-                        "description": "Faster time to aim down sights.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/ce16c9e2cbd73bb548af3e15bdfc7177.png",
-                        "hashID": 957782887,
-                        "weaponHash": 1821724780,
+                        "name": "Mulligan",
+                        "description": "Missing a shot has a chance to return ammo directly to the magazine.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/8ca9b9caef4c4c5c0c19d3be25be3755.png",
+                        "hashID": 3513791699,
+                        "weaponHash": 1366394399,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Extrovert",
+                        "description": "Final blows while near multiple combatants or near Nightmares restores health.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/0e8f9374f41cca37c52fce1695184e18.png",
+                        "hashID": 1250481499,
+                        "weaponHash": 1366394399,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    }
+                ],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": {
+                    "name": "Precision Frame",
+                    "description": "This weapon's recoil pattern is more predictably vertical.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/e9dd736124e8ef94048901a279a5bb18.png"
+                },
+                "legendWeaponDamageType": "Kinetic",
+                "legendWeaponDamageElement": "Kinetic",
+                "masterworkData": {
+                    "name": "Handling",
+                    "description": "The speed with which the weapon can be readied and aimed.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/d2e1ab2542f585d025fb4cc1a3885164.jpg",
+                    "mwHash": 518224747
+                }
+            },
+            {
+                "name": "Tarnished Mettle",
+                "type": "Legendary Scout Rifle",
+                "description": "",
+                "lore": "Survival is the better part of valor.",
+                "ExtLore": "Vrisk had been lying under his crewmate's corpse for the better part of an hour. His body ached from lack of Ether, but he dared not pull from his rebreather for fear of discovery. \n\nBesides, if he survived, there would be enough to sate his hunger a dozen times over.\n\nHe and Krilix had been calibrating the landing struts on the crew's Ketch when the ambush hit. A long-range scout rifle slug punched through Krilix in the opening salvo, ripping a fist-sized hole in his chest. He fell on top of Vrisk in a heap of gore as a barrage of gunfire rained down on their position. \n\nVrisk could have shrugged off the Wretch's body and seized his Arc Spear to retaliate. Instead, he simply lay beneath his dying crewmate and let the battle play out. \n\nAfter the shooting stopped, Vrisk listened to their assailants ransack the ship. A mix of guttural Cabal barks and familiar Eliksni chatter marked them as a competing crew, eager to claim the bounty set forth by the reawakened Shipstealer.\n\nBut Vrisk knew what their attackers did not: the relic they sought was not on the Ketch, or even on this planet. It was hidden in a safehouse deep within the asteroid belt beyond Mars. Once Vrisk found the courage to emerge from his hiding place, he would take the relic to Eramiskel himself and claim the reward for his own.\n\nBut there was time for that. For now, the Dreg let the weight and warmth of his dead companion press him into a peaceful slumber, where he dreamed of better days to come.",
+                "itemHash": "2218569744",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/f99ec44d9df503cc358acd45ea863d74.jpg",
+                "rarity": "Legendary",
+                "class": 3,
+                "statRolls": [],
+                "weaponPerks": [
+                    {
+                        "name": "Arrowhead Brake",
+                        "description": "Lightly vented barrel.\n  \u2022  Greatly controls recoil\n  \u2022  Increases handling speed",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/8f7fb54687aa52a9c2595d90ce9c9417.png",
+                        "hashID": 839105230,
+                        "weaponHash": 2218569744,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Accurized Rounds",
+                        "description": "This weapon can fire longer distances.\n  \u2022  Increases range",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/d85024478504205359c7fb52dbc4f6b6.png",
+                        "hashID": 3142289711,
+                        "weaponHash": 2218569744,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Demolitionist",
+                        "description": "Kills with this weapon generate grenade energy. Activating your grenade ability reloads this weapon from reserves.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/da009697110e06b65d6f827b3b6d5f70.png",
+                        "hashID": 3523296417,
+                        "weaponHash": 2218569744,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Focused Fury",
+                        "description": "Dealing half of the magazine as precision damage grants this weapon bonus damage. The shot count is reset whenever the weapon is reloaded or stowed.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/15fb47018719c99ae37d10f794bc957e.png",
+                        "hashID": 2896038713,
+                        "weaponHash": 2218569744,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Right Hook",
+                        "description": "Dealing melee damage gives this weapon increased target acquisition and range for a short period of time.\nDealing melee damage again extends the effect.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/067828985c3d34507def4eb53b12cf4e.png",
+                        "hashID": 3907865655,
+                        "weaponHash": 2218569744,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    }
+                ],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": {
+                    "name": "Lightweight Frame",
+                    "description": "Superb handling. Move faster with this weapon equipped.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/6db8cd21c2b3e6fffeb6f111d6c70dd2.png"
+                },
+                "legendWeaponDamageType": "Energy",
+                "legendWeaponDamageElement": "Arc",
+                "masterworkData": {
+                    "name": "Stability",
+                    "description": "How much or little recoil you will experience while firing the weapon.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/c345c1b985997a4e2730ea3919b45359.jpg",
+                    "mwHash": 1590375901
+                }
+            },
+            {
+                "name": "No Reprieve",
+                "type": "Legendary Shotgun",
+                "description": "",
+                "lore": "Sometimes mercy is worse.",
+                "ExtLore": "Alaaks, the Beast Tamer looks down at the Dreg kneeling at her feet. His two arms are spread in supplication.\n\n\"Forgiveness,\" he wheezes.\n\nHe is begging, whining like a scolded animal. Even her war beasts wouldn't grovel so.\n\nThere is silence but for the familiar thrum of her Ketch and the rasping sound of the war beasts' breath as they doze behind her.\n\nAlaaks taps a claw against her rebreather, then snorts and shakes her head. The Dreg starts to tremble as the Pirate Lord snaps her fingers and her war beasts stir, rising to their feet and stretching lazily before coming to their mistress's side.\n\n\"The cache on Europa was lost because of your incompetence,\" she says to the Dreg. \"Now Misraaks will come for us.\"\n\nThe war beasts' teeth gleam in the low light. Their claws scrape against the grated floors. Their hides bear the brand of her flag. They are loyal. They are hungry.\n\n\"Mercy,\" the Dreg whispers. He is quiet. Quavering.\n\n\"This IS mercy, Prydis,\" Alaaks says, her voice lowering. \"You haven't faced Misraaks. I have. He knows no mercy or forgiveness.\"\n\nAlaaks hisses a command to her pack, then folds her four arms over her chest. Her war beasts' salivating smiles split wide as they advance.",
+                "itemHash": "2531963421",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/8fc1ebb348ac04359092ee43d4c51ebb.jpg",
+                "rarity": "Legendary",
+                "class": 3,
+                "statRolls": [],
+                "weaponPerks": [
+                    {
+                        "name": "Arrowhead Brake",
+                        "description": "Lightly vented barrel.\n  \u2022  Greatly controls recoil\n  \u2022  Increases handling speed",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/8f7fb54687aa52a9c2595d90ce9c9417.png",
+                        "hashID": 839105230,
+                        "weaponHash": 2531963421,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Assault Mag",
+                        "description": "This shotgun's magazine is optimized for quick combat.\n  \u2022  Greatly increases stability\n  \u2022  Increases rate of fire",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/953cfdeb2703978b1ab449b991b98989.png",
+                        "hashID": 791862061,
+                        "weaponHash": 2531963421,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Surplus",
+                        "description": "Increases handling, reload speed, and stability for each fully charged ability.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/a4c054c3547840300b9ce7ef11b7b6fc.png",
+                        "hashID": 3436462433,
+                        "weaponHash": 2531963421,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Focused Fury",
+                        "description": "Dealing half of the magazine as precision damage grants this weapon bonus damage. The shot count is reset whenever the weapon is reloaded or stowed.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/15fb47018719c99ae37d10f794bc957e.png",
+                        "hashID": 2896038713,
+                        "weaponHash": 2531963421,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Right Hook",
+                        "description": "Dealing melee damage gives this weapon increased target acquisition and range for a short period of time.\nDealing melee damage again extends the effect.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/067828985c3d34507def4eb53b12cf4e.png",
+                        "hashID": 3907865655,
+                        "weaponHash": 2531963421,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    }
+                ],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": {
+                    "name": "Pinpoint Slug Frame",
+                    "description": "Fires a single-slug round. This weapon's recoil pattern is more predictably vertical.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/e9dd736124e8ef94048901a279a5bb18.png"
+                },
+                "legendWeaponDamageType": "Kinetic",
+                "legendWeaponDamageElement": "Stasis",
+                "masterworkData": {
+                    "name": "Stability",
+                    "description": "How much or little recoil you will experience while firing the weapon.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/c345c1b985997a4e2730ea3919b45359.jpg",
+                    "mwHash": 1590375901
+                }
+            },
+            {
+                "name": "Death Adder",
+                "type": "Legendary Submachine Gun",
+                "description": "",
+                "lore": "You will not see me coming.",
+                "ExtLore": null,
+                "itemHash": "2742490609",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/242ccfe000ba534300e916a9d08b62f8.jpg",
+                "rarity": "Legendary",
+                "class": 3,
+                "statRolls": [],
+                "weaponPerks": [
+                    {
+                        "name": "Arrowhead Brake",
+                        "description": "Lightly vented barrel.\n  \u2022  Greatly controls recoil\n  \u2022  Increases handling speed",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/8f7fb54687aa52a9c2595d90ce9c9417.png",
+                        "hashID": 839105230,
+                        "weaponHash": 2742490609,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Extended Mag",
+                        "description": "This weapon has a greatly increased magazine size, but reloads much slower.\n  \u2022  Greatly increases magazine size\n  \u2022  Greatly decreases reload speed\n  \u2022  Increases airborne effectiveness",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/66cfea124e24e73cca1ce6370b44ca7e.png",
+                        "hashID": 2420895100,
+                        "weaponHash": 2742490609,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Feeding Frenzy",
+                        "description": "Each rapid kill with this weapon progressively increases reload speed for a short time.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/89d7e65f5ebe8d291ea96f128765921d.png",
+                        "hashID": 2779035018,
+                        "weaponHash": 2742490609,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Disruption Break",
+                        "description": "Breaking an enemy's shield with this weapon makes them more vulnerable to Kinetic damage for a brief period.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/45b57ce27fa0213218c7cb8f2253c517.png",
+                        "hashID": 1683379515,
+                        "weaponHash": 2742490609,
                         "isPerk": true,
                         "isFavorablePerk": false
                     }
@@ -732,33 +759,33 @@
                 "legendWeaponDamageType": "Energy",
                 "legendWeaponDamageElement": "Solar",
                 "masterworkData": {
-                    "name": "Reload Speed",
-                    "description": "The time it takes to reload this weapon.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/e3a74e6dd4c520ea17eb1fdaf2128213.jpg",
-                    "mwHash": 4283235143
+                    "name": "Handling",
+                    "description": "The speed with which the weapon can be readied and aimed.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/d2e1ab2542f585d025fb4cc1a3885164.jpg",
+                    "mwHash": 518224747
                 }
             }
         ],
         "Warlock": {
             "Helmet": {
-                "name": "Warmind's Avatar Headpiece",
+                "name": "Substitutional Alloy Hood",
                 "type": "Legendary Helmet",
                 "description": "",
-                "lore": "Trust him.",
-                "ExtLore": "\"He is not compromised!\"\n\nSaint-14's voice echoes off the walls of Ikora's study. It would be hoarse if he weren't an Exo\u2014they've been arguing for over an hour.\n\nIkora crosses her arms over her chest. \"We can't know that for sure.\"\n\n\"You can't,\" Saint fires back, \"but I can. I see it in him. The frustration, the guilt, the pain. Osiris is telling the truth about his visions!\"\n\n\"I don't doubt that he is,\" Ikora replies, a note of frustration creeping into her own voice. \"But my Hidden turned their eyes to Neptune and found nothing. I can't ignore the possibility that Savath\u00fbn planted those visions in his head to misdirect us.\"\n\n\"So, you ignore his warnings instead?\" Saint asks pointedly. \"Send your spies for a quick glance and then bury their findings in a drawer? Is every word Osiris speaks forever tainted by the Witch Queen?\"\n\nIkora says nothing in response. The silence drags on until Saint grumbles to himself and turns to leave.\n\n\"Saint,\" Ikora calls after him, warmer than before. \"Osiris needs to rest. Please keep an eye on him.\"\n\n\"Why?\" Saint asks without looking back. \"I'm sure your Hidden have enough eyes on him as it is.\"\n\nHe leaves before Ikora can say another word.\n\nAlone in her study, she reaches into a drawer and pulls out a stack of papers: documents she had once been ordered to destroy but had instead preserved.\n\nOsiris's prophecies, from a time when she trusted his every word.",
-                "itemHash": "2974824815",
+                "lore": "Time is an ocean, vast without shore.",
+                "ExtLore": null,
+                "itemHash": "377757362",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/edcaaadf8f5fc75ae8e4095e26abbc96.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/afad0c213e66ab2834f4eaa73c26478b.jpg",
                 "rarity": "Legendary",
                 "class": 2,
                 "statRolls": [
-                    51,
-                    18,
+                    67,
+                    30,
                     2,
-                    6,
-                    17,
-                    6,
-                    2
+                    2,
+                    2,
+                    21,
+                    10
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -768,24 +795,24 @@
                 "masterworkData": null
             },
             "Arms": {
-                "name": "Warmind's Avatar Gloves",
+                "name": "Substitutional Alloy Gloves",
                 "type": "Legendary Gauntlets",
                 "description": "",
-                "lore": "Caught alone in a tangled web.",
-                "ExtLore": "Osiris pulls the hood of his oversized cloak forward. Though he hopes to pass through the Botza District unnoticed, the sharp beak protruding from his shadowy hood betrays his disguise. Eliksni passersby stare at him with suspicion.\n\nThe erstwhile Warlock slips into a darkened corner of The Ether Tank, where the barroom floor bustles with both Human and Eliksni gamblers, who wager whether the Warmind Rasputin will be restored, and how many civilians it will kill if revived. On the far side of the room, Spider lords over the scene with satisfaction. Osiris watches him, intent on finding a way to discretely question him regarding Neptune. The Eliksni crime boss has cultivated a different set of informants than the Hidden, and Osiris needs intel from the widest net possible.\n\nSuddenly, Osiris feels the hair on the back of his neck stand up. Though he no longer has his Light, centuries of training have left his intuition as sharp as ever. He merges into a crowd of karaoke enthusiasts and surveys the room.\n\nStanding just inside the tavern entrance is another cloaked figure. Though their disguise is far more plausible than his own, Osiris can clearly identify the Praxic Warlock, Aunor Mahal. Osiris curses under his breath. \n\nHe retreats through the back entrance into the chill of the night. Osiris feels the darkness close in around him and wonders who among his former allies still trusts him. \n\nGiven everything, he wonders whether he should still trust himself.",
-                "itemHash": "1259550198",
+                "lore": "We shall rise before we die, and die before we have risen.",
+                "ExtLore": null,
+                "itemHash": "844110491",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/ab0b9286605babb3553f60e3424fb635.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/4312acdef7710b744f62e34fbc470437.jpg",
                 "rarity": "Legendary",
                 "class": 2,
                 "statRolls": [
-                    52,
-                    12,
-                    8,
+                    65,
                     6,
-                    2,
-                    22,
-                    2
+                    20,
+                    7,
+                    14,
+                    6,
+                    12
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -795,24 +822,24 @@
                 "masterworkData": null
             },
             "Chest": {
-                "name": "Warmind's Avatar Robes",
+                "name": "Substitutional Alloy Robes",
                 "type": "Legendary Chest Armor",
                 "description": "",
-                "lore": "Surrounded by shadows.",
-                "ExtLore": "Construction scaffolding casts geometric shadows across damp alleyways. Work is still being done to repair the damage caused by Ghaul's invasion, and it is here in this place where rats scurry in the absence of citizens and where Osiris lies in wait. \n\nHe had been here once before, nestled in a crack at the foot of the Schnell building, cupping his hands to his face to hold back the dark tide of necrotic fluid pulsing from his\u2014\n\nNo. That was Savath\u00fbn. But still, the shadows remember him, and he remembers their embrace.\n\nOsiris stirs from his reverie the moment his pursuer enters the alley. He can see her shadow cast across the wall, penned in by the scaffolding's negative space. It is an optical illusion of a prison, a trick of the eye. Aunor Mahal notices the configuration and appreciates the symbolism of walking into a spider's web just before Osiris lunges from the darkness, grabbing her by the collar of her robe to slam her up against the opposite wall.\n\nAunor grunts on impact, her gaze trailing down to Osiris's trembling hands holding fistfuls of fabric. While his stare is ferocious, his strength is lacking. She lets him hold her there against the wall, and the moment he realizes he's being pitied, Osiris releases her and takes a step back.\n\n\"Your mind is still sharp,\" Aunor opines. It stings his pride, makes his jaw clench. \"What did you think was going to happen next? I'm not going to fight you.\" She looks him up and down. \"It wouldn't be sporting.\"\n\n\"I remember the day you were raised,\" Osiris says with hushed strength. \"Curled up beneath a ruined bus, screaming for help. Too terrified to listen to your Ghost, too frightened to hold the gun it had nudged under the wreck for you.\"\n\nAunor sucks in a breath through her teeth and smooths the front of her robe. \"I'm not here to hunt you,\" she clarifies. \"I'm here to keep you safe.\" \n\n\"From yourself\" is implied. To that, Osiris has no retort. He reconsiders his surroundings and his actions and shrinks away with regret.",
-                "itemHash": "2710316218",
+                "lore": "For our salvation, the universe shall be remade.",
+                "ExtLore": null,
+                "itemHash": "3680920565",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/c1995524ff277c6024c7ea755493292e.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/a5a111aaa0f48e7ba2195eb667f71ede.jpg",
                 "rarity": "Legendary",
                 "class": 2,
                 "statRolls": [
-                    53,
+                    65,
+                    12,
                     2,
-                    22,
-                    2,
-                    6,
-                    2,
-                    19
+                    18,
+                    17,
+                    14,
+                    2
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -822,24 +849,24 @@
                 "masterworkData": null
             },
             "Legs": {
-                "name": "Warmind's Avatar Pants",
+                "name": "Substitutional Alloy Boots",
                 "type": "Legendary Leg Armor",
                 "description": "",
-                "lore": "Searching for here and now.",
-                "ExtLore": "Every instinct tells Osiris to fight. And yet\u2026\n\n\"I'm glad you could make it,\" is the warm greeting that Saladin Forge gives to Osiris as he steps into a study aboard the Ascendancy Flagship Eligos Lex V. Cabal architecture blends with rustic Human furnishings that would not look out of place in the Iron Temple. Tea is already steeping when Osiris joins Saladin at the table, the aroma of black Assam bringing back ancient sense memories.\n\n\"I assume your tastes haven't changed much,\" Saladin says, gesturing to the tea.\n\n\"Did Ikora ask you to check on me?\" Osiris asks, and realizes how defensive it sounds the moment it leaves his mouth. He masks his bitter regret by taking a sip of the too-hot tea.\n\n\"No. I wanted to check on an old friend.\" Saladin sits forward, cradling his own cup without lifting it from the table. \"But I see you survived a Lightless encounter with not one but two Hive gods. I'd say you're doing better than most.\"\n\nThe pride in Saladin's voice makes Osiris's stomach turn. Not out of uneasiness, but out of shame. And yet, Saladin's certainty isn't patronizing. It's not in his nature to be.\n\n\"You're content here?\" Osiris deflects. \"Among the Cabal?\"\n\nSaladin shrugs away his question. \"Contentment is a luxury neither of us can afford. I am here. That's what matters. My place is here now, and humanity is better for it.\" A moment of silence hangs over the two, and Saladin is the first to brave that space. \"How long has it been since you and I took tea together?\"\n\n\"I can't even remember,\" Osiris says. \"So long ago that it feels like a dream.\" Then, quieter: \"Jolder was there.\"\n\nSaladin says nothing, focusing instead on his rippling reflection in the teacup. \n\n\"I should not have mentioned her name,\" Osiris adds softly.\n\n\"No.\" Saladin's response is swift and firm. \"I don't want Jolder's memory to fade like so many others. It may hurt to remember, but that pain reminds us that we lived.\"",
-                "itemHash": "2471829328",
+                "lore": "Remade until the disease has been cleansed.",
+                "ExtLore": null,
+                "itemHash": "4013678605",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/3b3a3501794a5d0ab24f26315ec935f4.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/19a68d178f7f8893c3859576375f93ff.jpg",
                 "rarity": "Legendary",
                 "class": 2,
                 "statRolls": [
-                    56,
+                    65,
+                    12,
+                    18,
                     2,
-                    24,
+                    17,
                     2,
-                    2,
-                    9,
-                    17
+                    14
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -849,14 +876,14 @@
                 "masterworkData": null
             },
             "Class Item": {
-                "name": "Warmind's Avatar Bond",
+                "name": "Substitutional Alloy Bond",
                 "type": "Legendary Warlock Bond",
                 "description": "",
-                "lore": "Let him find what he needs.",
-                "ExtLore": "Datapads are stacked atop handwritten field reports stacked upon leatherbound tomes. They rest in a spot of sunlight spilling through a round window draped with linen curtains dyed sunset hues and framed by crawling ivy and wisteria.\n\nOsiris stoops over the table, half in the beam of afternoon light and half out. An audio log plays on one of the tablets, with subtitles to translate the speaker's tongue of Ulurant:\n\n<<ATMOSPHERIC COMPOSITION HYDROGEN, HELIUM, METHANE. SCANS SHOW NO ACTIVE STRUCTURES OR CIVILIZATIONS.>>\n\nOsiris clenches one hand into a trembling fist, then scrubs forward in the log.\n\n<<STARSHIP TRANSIT CORRIDORS NEAR PLANETARY BODY ARE NON-EXISTENT. LACK OF HABITATION IDEAL FOR CONCEALING CIVILIAN FLEET. NO SIGNS OF PRIOR HUMAN HABITATION. >>\n\nCursing, Osiris sweeps the tablet off the table along with the books and notes. A scream rises from his mouth, and as he turns in rage, he locks eyes with Saint. Fury burns away to a cool ember of shame the moment Saint steps from the kitchen doorway. His partner is not dressed in armor, a sight few ever see. Instead, his broad shoulders are concealed by a loose poncho of magenta and lilac bearing embroidered bird patterns spun by Eliksni hands.\n\nSaint approaches and gently cups Osiris's face in his hands. The gesture causes the tension to melt away, and Osiris rests a cheek against Saint's fingers.\n\n\"Why are you so angry?\" Saint asks, his voice gentle and reassuring. It isn't so much a question as it is an exercise.\n\n\"I'm afraid,\" Osiris whispers into Saint's palm. \"That Ikora is right. That I\u2014That I'm\u2014\" It takes time for Osiris to make his fear real with words, but Saint gives it to him. \n\n\"\u2026That I'm broken.\"\n\nSaint pulls Osiris to his chest in a firm embrace, then presses a kiss to the top of his head. \"You are not a teacup,\" he whispers against the shorter man's scalp.  \"People do not break, and you are not broken.\" Osiris rests his forehead against Saint's chest, at once feeling humbled and secure.\n\nThe embrace lingers for as long as Osiris needs it, and when he finally does lean back enough to look up into Saint's eyes, he asks, \"Then what am I?\"\n\nTo which Saint simply replies, \"You are enough.\"",
-                "itemHash": "1934312075",
+                "lore": "And the cleanse shall beget an ocean.",
+                "ExtLore": null,
+                "itemHash": "2761292744",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/14e2407f7c43178297165abaf29ecf2e.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/c430c10ce77cde25ca4c731c71c82931.jpg",
                 "rarity": "Legendary",
                 "class": 2,
                 "statRolls": [
@@ -878,77 +905,23 @@
         },
         "Hunter": {
             "Helmet": {
-                "name": "Warmind's Avatar Mask",
+                "name": "Substitutional Alloy Mask",
                 "type": "Legendary Helmet",
                 "description": "",
-                "lore": "Trust him.",
-                "ExtLore": "\"He is not compromised!\"\n\nSaint-14's voice echoes off the walls of Ikora's study. It would be hoarse if he weren't an Exo\u2014they've been arguing for over an hour.\n\nIkora crosses her arms over her chest. \"We can't know that for sure.\"\n\n\"You can't,\" Saint fires back, \"but I can. I see it in him. The frustration, the guilt, the pain. Osiris is telling the truth about his visions!\"\n\n\"I don't doubt that he is,\" Ikora replies, a note of frustration creeping into her own voice. \"But my Hidden turned their eyes to Neptune and found nothing. I can't ignore the possibility that Savath\u00fbn planted those visions in his head to misdirect us.\"\n\n\"So, you ignore his warnings instead?\" Saint asks pointedly. \"Send your spies for a quick glance and then bury their findings in a drawer? Is every word Osiris speaks forever tainted by the Witch Queen?\"\n\nIkora says nothing in response. The silence drags on until Saint grumbles to himself and turns to leave.\n\n\"Saint,\" Ikora calls after him, warmer than before. \"Osiris needs to rest. Please keep an eye on him.\"\n\n\"Why?\" Saint asks without looking back. \"I'm sure your Hidden have enough eyes on him as it is.\"\n\nHe leaves before Ikora can say another word.\n\nAlone in her study, she reaches into a drawer and pulls out a stack of papers: documents she had once been ordered to destroy but had instead preserved.\n\nOsiris's prophecies, from a time when she trusted his every word.",
-                "itemHash": "648266032",
+                "lore": "Time is an ocean, vast without shore.",
+                "ExtLore": null,
+                "itemHash": "4070722289",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/6c24a0a6dd0f3913979a4089b6b8af27.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/6adaaf9cff448f6c71b7323a2fea6bcf.jpg",
                 "rarity": "Legendary",
                 "class": 1,
                 "statRolls": [
-                    49,
-                    17,
-                    6,
+                    63,
+                    19,
+                    10,
                     2,
-                    12,
+                    28,
                     2,
-                    10
-                ],
-                "weaponPerks": [],
-                "exoticArmorPerk": null,
-                "legendWeaponFrame": null,
-                "legendWeaponDamageType": null,
-                "legendWeaponDamageElement": null,
-                "masterworkData": null
-            },
-            "Arms": {
-                "name": "Warmind's Avatar Vambraces",
-                "type": "Legendary Gauntlets",
-                "description": "",
-                "lore": "Caught alone in a tangled web.",
-                "ExtLore": "Osiris pulls the hood of his oversized cloak forward. Though he hopes to pass through the Botza District unnoticed, the sharp beak protruding from his shadowy hood betrays his disguise. Eliksni passersby stare at him with suspicion.\n\nThe erstwhile Warlock slips into a darkened corner of The Ether Tank, where the barroom floor bustles with both Human and Eliksni gamblers, who wager whether the Warmind Rasputin will be restored, and how many civilians it will kill if revived. On the far side of the room, Spider lords over the scene with satisfaction. Osiris watches him, intent on finding a way to discretely question him regarding Neptune. The Eliksni crime boss has cultivated a different set of informants than the Hidden, and Osiris needs intel from the widest net possible.\n\nSuddenly, Osiris feels the hair on the back of his neck stand up. Though he no longer has his Light, centuries of training have left his intuition as sharp as ever. He merges into a crowd of karaoke enthusiasts and surveys the room.\n\nStanding just inside the tavern entrance is another cloaked figure. Though their disguise is far more plausible than his own, Osiris can clearly identify the Praxic Warlock, Aunor Mahal. Osiris curses under his breath. \n\nHe retreats through the back entrance into the chill of the night. Osiris feels the darkness close in around him and wonders who among his former allies still trusts him. \n\nGiven everything, he wonders whether he should still trust himself.",
-                "itemHash": "446049665",
-                "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/f33b356e3ed81db101be3e41d4ee405f.jpg",
-                "rarity": "Legendary",
-                "class": 1,
-                "statRolls": [
-                    53,
-                    9,
-                    2,
-                    16,
-                    7,
-                    6,
-                    13
-                ],
-                "weaponPerks": [],
-                "exoticArmorPerk": null,
-                "legendWeaponFrame": null,
-                "legendWeaponDamageType": null,
-                "legendWeaponDamageElement": null,
-                "masterworkData": null
-            },
-            "Chest": {
-                "name": "Warmind's Avatar Vest",
-                "type": "Legendary Chest Armor",
-                "description": "",
-                "lore": "Surrounded by shadows.",
-                "ExtLore": "Construction scaffolding casts geometric shadows across damp alleyways. Work is still being done to repair the damage caused by Ghaul's invasion, and it is here in this place where rats scurry in the absence of citizens and where Osiris lies in wait. \n\nHe had been here once before, nestled in a crack at the foot of the Schnell building, cupping his hands to his face to hold back the dark tide of necrotic fluid pulsing from his\u2014\n\nNo. That was Savath\u00fbn. But still, the shadows remember him, and he remembers their embrace.\n\nOsiris stirs from his reverie the moment his pursuer enters the alley. He can see her shadow cast across the wall, penned in by the scaffolding's negative space. It is an optical illusion of a prison, a trick of the eye. Aunor Mahal notices the configuration and appreciates the symbolism of walking into a spider's web just before Osiris lunges from the darkness, grabbing her by the collar of her robe to slam her up against the opposite wall.\n\nAunor grunts on impact, her gaze trailing down to Osiris's trembling hands holding fistfuls of fabric. While his stare is ferocious, his strength is lacking. She lets him hold her there against the wall, and the moment he realizes he's being pitied, Osiris releases her and takes a step back.\n\n\"Your mind is still sharp,\" Aunor opines. It stings his pride, makes his jaw clench. \"What did you think was going to happen next? I'm not going to fight you.\" She looks him up and down. \"It wouldn't be sporting.\"\n\n\"I remember the day you were raised,\" Osiris says with hushed strength. \"Curled up beneath a ruined bus, screaming for help. Too terrified to listen to your Ghost, too frightened to hold the gun it had nudged under the wreck for you.\"\n\nAunor sucks in a breath through her teeth and smooths the front of her robe. \"I'm not here to hunt you,\" she clarifies. \"I'm here to keep you safe.\" \n\n\"From yourself\" is implied. To that, Osiris has no retort. He reconsiders his surroundings and his actions and shrinks away with regret.",
-                "itemHash": "4116381015",
-                "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/41fb322d6fb964058ea8c864315f7f83.jpg",
-                "rarity": "Legendary",
-                "class": 1,
-                "statRolls": [
-                    59,
-                    6,
-                    12,
-                    8,
-                    15,
-                    16,
                     2
                 ],
                 "weaponPerks": [],
@@ -958,25 +931,79 @@
                 "legendWeaponDamageElement": null,
                 "masterworkData": null
             },
-            "Legs": {
-                "name": "Warmind's Avatar Legguards",
-                "type": "Legendary Leg Armor",
+            "Arms": {
+                "name": "Substitutional Alloy Grips",
+                "type": "Legendary Gauntlets",
                 "description": "",
-                "lore": "Searching for here and now.",
-                "ExtLore": "Every instinct tells Osiris to fight. And yet\u2026\n\n\"I'm glad you could make it,\" is the warm greeting that Saladin Forge gives to Osiris as he steps into a study aboard the Ascendancy Flagship Eligos Lex V. Cabal architecture blends with rustic Human furnishings that would not look out of place in the Iron Temple. Tea is already steeping when Osiris joins Saladin at the table, the aroma of black Assam bringing back ancient sense memories.\n\n\"I assume your tastes haven't changed much,\" Saladin says, gesturing to the tea.\n\n\"Did Ikora ask you to check on me?\" Osiris asks, and realizes how defensive it sounds the moment it leaves his mouth. He masks his bitter regret by taking a sip of the too-hot tea.\n\n\"No. I wanted to check on an old friend.\" Saladin sits forward, cradling his own cup without lifting it from the table. \"But I see you survived a Lightless encounter with not one but two Hive gods. I'd say you're doing better than most.\"\n\nThe pride in Saladin's voice makes Osiris's stomach turn. Not out of uneasiness, but out of shame. And yet, Saladin's certainty isn't patronizing. It's not in his nature to be.\n\n\"You're content here?\" Osiris deflects. \"Among the Cabal?\"\n\nSaladin shrugs away his question. \"Contentment is a luxury neither of us can afford. I am here. That's what matters. My place is here now, and humanity is better for it.\" A moment of silence hangs over the two, and Saladin is the first to brave that space. \"How long has it been since you and I took tea together?\"\n\n\"I can't even remember,\" Osiris says. \"So long ago that it feels like a dream.\" Then, quieter: \"Jolder was there.\"\n\nSaladin says nothing, focusing instead on his rippling reflection in the teacup. \n\n\"I should not have mentioned her name,\" Osiris adds softly.\n\n\"No.\" Saladin's response is swift and firm. \"I don't want Jolder's memory to fade like so many others. It may hurt to remember, but that pain reminds us that we lived.\"",
-                "itemHash": "1940895219",
+                "lore": "We shall rise before we die, and die before we have risen.",
+                "ExtLore": null,
+                "itemHash": "2687273800",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/f80804044e92948caaf41a4bddb29b71.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/196eacf6d1661cad9c23d8f13938496c.jpg",
                 "rarity": "Legendary",
                 "class": 1,
                 "statRolls": [
-                    54,
+                    67,
                     2,
-                    22,
+                    30,
                     2,
+                    17,
+                    2,
+                    14
+                ],
+                "weaponPerks": [],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": null,
+                "legendWeaponDamageType": null,
+                "legendWeaponDamageElement": null,
+                "masterworkData": null
+            },
+            "Chest": {
+                "name": "Substitutional Alloy Vest",
+                "type": "Legendary Chest Armor",
+                "description": "",
+                "lore": "For our salvation, the universe shall be remade.",
+                "ExtLore": null,
+                "itemHash": "2657028416",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/58343794447a5ebc5fb8ef852be2915c.jpg",
+                "rarity": "Legendary",
+                "class": 1,
+                "statRolls": [
+                    64,
+                    10,
+                    10,
+                    11,
                     6,
-                    9,
-                    13
+                    2,
+                    25
+                ],
+                "weaponPerks": [],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": null,
+                "legendWeaponDamageType": null,
+                "legendWeaponDamageElement": null,
+                "masterworkData": null
+            },
+            "Legs": {
+                "name": "Substitutional Alloy Strides",
+                "type": "Legendary Leg Armor",
+                "description": "",
+                "lore": "Remade until the disease has been cleansed.",
+                "ExtLore": null,
+                "itemHash": "3364258850",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/87d8d864bf80fefa4ca34e2a6946cd68.jpg",
+                "rarity": "Legendary",
+                "class": 1,
+                "statRolls": [
+                    63,
+                    19,
+                    10,
+                    2,
+                    10,
+                    12,
+                    10
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -986,14 +1013,14 @@
                 "masterworkData": null
             },
             "Class Item": {
-                "name": "Warmind's Avatar Cloak",
+                "name": "Substitutional Alloy Cloak",
                 "type": "Legendary Hunter Cloak",
                 "description": "",
-                "lore": "Let him find what he needs.",
-                "ExtLore": "Datapads are stacked atop handwritten field reports stacked upon leatherbound tomes. They rest in a spot of sunlight spilling through a round window draped with linen curtains dyed sunset hues and framed by crawling ivy and wisteria.\n\nOsiris stoops over the table, half in the beam of afternoon light and half out. An audio log plays on one of the tablets, with subtitles to translate the speaker's tongue of Ulurant:\n\n<<ATMOSPHERIC COMPOSITION HYDROGEN, HELIUM, METHANE. SCANS SHOW NO ACTIVE STRUCTURES OR CIVILIZATIONS.>>\n\nOsiris clenches one hand into a trembling fist, then scrubs forward in the log.\n\n<<STARSHIP TRANSIT CORRIDORS NEAR PLANETARY BODY ARE NON-EXISTENT. LACK OF HABITATION IDEAL FOR CONCEALING CIVILIAN FLEET. NO SIGNS OF PRIOR HUMAN HABITATION. >>\n\nCursing, Osiris sweeps the tablet off the table along with the books and notes. A scream rises from his mouth, and as he turns in rage, he locks eyes with Saint. Fury burns away to a cool ember of shame the moment Saint steps from the kitchen doorway. His partner is not dressed in armor, a sight few ever see. Instead, his broad shoulders are concealed by a loose poncho of magenta and lilac bearing embroidered bird patterns spun by Eliksni hands.\n\nSaint approaches and gently cups Osiris's face in his hands. The gesture causes the tension to melt away, and Osiris rests a cheek against Saint's fingers.\n\n\"Why are you so angry?\" Saint asks, his voice gentle and reassuring. It isn't so much a question as it is an exercise.\n\n\"I'm afraid,\" Osiris whispers into Saint's palm. \"That Ikora is right. That I\u2014That I'm\u2014\" It takes time for Osiris to make his fear real with words, but Saint gives it to him. \n\n\"\u2026That I'm broken.\"\n\nSaint pulls Osiris to his chest in a firm embrace, then presses a kiss to the top of his head. \"You are not a teacup,\" he whispers against the shorter man's scalp. \"People do not break, and you are not broken.\" Osiris rests his forehead against Saint's chest, at once feeling humbled and secure.\n\nThe embrace lingers for as long as Osiris needs it, and when he finally does lean back enough to look up into Saint's eyes, he asks, \"Then what am I?\"\n\nTo which Saint simply replies, \"You are enough.\"",
-                "itemHash": "1949733158",
+                "lore": "And the cleanse shall beget an ocean.",
+                "ExtLore": null,
+                "itemHash": "1584183805",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/c77de0063f8d75f41394ce2553cf3d4b.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/b62782884d52676b6671c6be4b50bbac.jpg",
                 "rarity": "Legendary",
                 "class": 1,
                 "statRolls": [
@@ -1015,49 +1042,22 @@
         },
         "Titan": {
             "Helmet": {
-                "name": "Warmind's Avatar Helm",
+                "name": "Substitutional Alloy Helm",
                 "type": "Legendary Helmet",
                 "description": "",
-                "lore": "Trust him.",
-                "ExtLore": "\"He is not compromised!\"\n\nSaint-14's voice echoes off the walls of Ikora's study. It would be hoarse if he weren't an Exo\u2014they've been arguing for over an hour.\n\nIkora crosses her arms over her chest. \"We can't know that for sure.\"\n\n\"You can't,\" Saint fires back, \"but I can. I see it in him. The frustration, the guilt, the pain. Osiris is telling the truth about his visions!\"\n\n\"I don't doubt that he is,\" Ikora replies, a note of frustration creeping into her own voice. \"But my Hidden turned their eyes to Neptune and found nothing. I can't ignore the possibility that Savath\u00fbn planted those visions in his head to misdirect us.\"\n\n\"So, you ignore his warnings instead?\" Saint asks pointedly. \"Send your spies for a quick glance and then bury their findings in a drawer? Is every word Osiris speaks forever tainted by the Witch Queen?\"\n\nIkora says nothing in response. The silence drags on until Saint grumbles to himself and turns to leave.\n\n\"Saint,\" Ikora calls after him, warmer than before. \"Osiris needs to rest. Please keep an eye on him.\"\n\n\"Why?\" Saint asks without looking back. \"I'm sure your Hidden have enough eyes on him as it is.\"\n\nHe leaves before Ikora can say another word.\n\nAlone in her study, she reaches into a drawer and pulls out a stack of papers: documents she had once been ordered to destroy but had instead preserved.\n\nOsiris's prophecies, from a time when she trusted his every word.",
-                "itemHash": "1059446290",
+                "lore": "Time is an ocean, vast without shore.",
+                "ExtLore": null,
+                "itemHash": "695795213",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/a562d4f5b217ebb346a666244c48fd27.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/56af09d038dc4cb73373d045ba791c09.jpg",
                 "rarity": "Legendary",
                 "class": 0,
                 "statRolls": [
-                    49,
-                    10,
+                    66,
                     2,
-                    10,
                     2,
+                    28,
                     16,
-                    9
-                ],
-                "weaponPerks": [],
-                "exoticArmorPerk": null,
-                "legendWeaponFrame": null,
-                "legendWeaponDamageType": null,
-                "legendWeaponDamageElement": null,
-                "masterworkData": null
-            },
-            "Arms": {
-                "name": "Warmind's Avatar Gauntlets",
-                "type": "Legendary Gauntlets",
-                "description": "",
-                "lore": "Caught alone in a tangled web.",
-                "ExtLore": "Osiris pulls the hood of his oversized cloak forward. Though he hopes to pass through the Botza District unnoticed, the sharp beak protruding from his shadowy hood betrays his disguise. Eliksni passersby stare at him with suspicion.\n\nThe erstwhile Warlock slips into a darkened corner of The Ether Tank, where the barroom floor bustles with both Human and Eliksni gamblers, who wager whether the Warmind Rasputin will be restored, and how many civilians it will kill if revived. On the far side of the room, Spider lords over the scene with satisfaction. Osiris watches him, intent on finding a way to discretely question him regarding Neptune. The Eliksni crime boss has cultivated a different set of informants than the Hidden, and Osiris needs intel from the widest net possible.\n\nSuddenly, Osiris feels the hair on the back of his neck stand up. Though he no longer has his Light, centuries of training have left his intuition as sharp as ever. He merges into a crowd of karaoke enthusiasts and surveys the room.\n\nStanding just inside the tavern entrance is another cloaked figure. Though their disguise is far more plausible than his own, Osiris can clearly identify the Praxic Warlock, Aunor Mahal. Osiris curses under his breath. \n\nHe retreats through the back entrance into the chill of the night. Osiris feels the darkness close in around him and wonders who among his former allies still trusts him. \n\nGiven everything, he wonders whether he should still trust himself.",
-                "itemHash": "1525902715",
-                "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/a3b2be57d7f34a7f3337456b304fc7a5.jpg",
-                "rarity": "Legendary",
-                "class": 0,
-                "statRolls": [
-                    50,
-                    2,
-                    22,
-                    2,
-                    6,
                     6,
                     12
                 ],
@@ -1068,25 +1068,52 @@
                 "legendWeaponDamageElement": null,
                 "masterworkData": null
             },
-            "Chest": {
-                "name": "Warmind's Avatar Chestplate",
-                "type": "Legendary Chest Armor",
+            "Arms": {
+                "name": "Substitutional Alloy Gauntlets",
+                "type": "Legendary Gauntlets",
                 "description": "",
-                "lore": "Surrounded by shadows.",
-                "ExtLore": "Construction scaffolding casts geometric shadows across damp alleyways. Work is still being done to repair the damage caused by Ghaul's invasion, and it is here in this place where rats scurry in the absence of citizens and where Osiris lies in wait. \n\nHe had been here once before, nestled in a crack at the foot of the Schnell building, cupping his hands to his face to hold back the dark tide of necrotic fluid pulsing from his\u2014\n\nNo. That was Savath\u00fbn. But still, the shadows remember him, and he remembers their embrace.\n\nOsiris stirs from his reverie the moment his pursuer enters the alley. He can see her shadow cast across the wall, penned in by the scaffolding's negative space. It is an optical illusion of a prison, a trick of the eye. Aunor Mahal notices the configuration and appreciates the symbolism of walking into a spider's web just before Osiris lunges from the darkness, grabbing her by the collar of her robe to slam her up against the opposite wall.\n\nAunor grunts on impact, her gaze trailing down to Osiris's trembling hands holding fistfuls of fabric. While his stare is ferocious, his strength is lacking. She lets him hold her there against the wall, and the moment he realizes he's being pitied, Osiris releases her and takes a step back.\n\n\"Your mind is still sharp,\" Aunor opines. It stings his pride, makes his jaw clench. \"What did you think was going to happen next? I'm not going to fight you.\" She looks him up and down. \"It wouldn't be sporting.\"\n\n\"I remember the day you were raised,\" Osiris says with hushed strength. \"Curled up beneath a ruined bus, screaming for help. Too terrified to listen to your Ghost, too frightened to hold the gun it had nudged under the wreck for you.\"\n\nAunor sucks in a breath through her teeth and smooths the front of her robe. \"I'm not here to hunt you,\" she clarifies. \"I'm here to keep you safe.\" \n\n\"From yourself\" is implied. To that, Osiris has no retort. He reconsiders his surroundings and his actions and shrinks away with regret.",
-                "itemHash": "839296981",
+                "lore": "We shall rise before we die, and die before we have risen.",
+                "ExtLore": null,
+                "itemHash": "1348357884",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/0d6e7171f595f3c0fd99ea62e3e58f2b.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/cffb665af48da334d7cf3e9b49d49cbe.jpg",
                 "rarity": "Legendary",
                 "class": 0,
                 "statRolls": [
-                    52,
-                    13,
-                    11,
+                    65,
+                    6,
+                    7,
+                    20,
+                    20,
                     2,
-                    11,
-                    8,
-                    7
+                    10
+                ],
+                "weaponPerks": [],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": null,
+                "legendWeaponDamageType": null,
+                "legendWeaponDamageElement": null,
+                "masterworkData": null
+            },
+            "Chest": {
+                "name": "Substitutional Alloy Plate",
+                "type": "Legendary Chest Armor",
+                "description": "",
+                "lore": "For our salvation, the universe shall be remade.",
+                "ExtLore": null,
+                "itemHash": "2742760292",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/bc61069b3cedbfb8fbc4b7773b34d60d.jpg",
+                "rarity": "Legendary",
+                "class": 0,
+                "statRolls": [
+                    65,
+                    18,
+                    2,
+                    12,
+                    2,
+                    10,
+                    21
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -1096,24 +1123,24 @@
                 "masterworkData": null
             },
             "Legs": {
-                "name": "Warmind's Avatar Legplates",
+                "name": "Substitutional Alloy Greaves",
                 "type": "Legendary Leg Armor",
                 "description": "",
-                "lore": "Searching for here and now.",
-                "ExtLore": "Every instinct tells Osiris to fight. And yet\u2026\n\n\"I'm glad you could make it,\" is the warm greeting that Saladin Forge gives to Osiris as he steps into a study aboard the Ascendancy Flagship Eligos Lex V. Cabal architecture blends with rustic Human furnishings that would not look out of place in the Iron Temple. Tea is already steeping when Osiris joins Saladin at the table, the aroma of black Assam bringing back ancient sense memories.\n\n\"I assume your tastes haven't changed much,\" Saladin says, gesturing to the tea.\n\n\"Did Ikora ask you to check on me?\" Osiris asks, and realizes how defensive it sounds the moment it leaves his mouth. He masks his bitter regret by taking a sip of the too-hot tea.\n\n\"No. I wanted to check on an old friend.\" Saladin sits forward, cradling his own cup without lifting it from the table. \"But I see you survived a Lightless encounter with not one but two Hive gods. I'd say you're doing better than most.\"\n\nThe pride in Saladin's voice makes Osiris's stomach turn. Not out of uneasiness, but out of shame. And yet, Saladin's certainty isn't patronizing. It's not in his nature to be.\n\n\"You're content here?\" Osiris deflects. \"Among the Cabal?\"\n\nSaladin shrugs away his question. \"Contentment is a luxury neither of us can afford. I am here. That's what matters. My place is here now, and humanity is better for it.\" A moment of silence hangs over the two, and Saladin is the first to brave that space. \"How long has it been since you and I took tea together?\"\n\n\"I can't even remember,\" Osiris says. \"So long ago that it feels like a dream.\" Then, quieter: \"Jolder was there.\"\n\nSaladin says nothing, focusing instead on his rippling reflection in the teacup. \n\n\"I should not have mentioned her name,\" Osiris adds softly.\n\n\"No.\" Saladin's response is swift and firm. \"I don't want Jolder's memory to fade like so many others. It may hurt to remember, but that pain reminds us that we lived.\"",
-                "itemHash": "4270910189",
+                "lore": "Remade until the disease has been cleansed.",
+                "ExtLore": null,
+                "itemHash": "351285766",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/e08f4f4667019b62a921adbf1b950063.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/3dd9c0ef8fcec26fd519965f6ad8c33d.jpg",
                 "rarity": "Legendary",
                 "class": 0,
                 "statRolls": [
-                    52,
+                    64,
                     2,
-                    22,
-                    2,
+                    12,
                     18,
                     2,
-                    6
+                    15,
+                    15
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -1123,14 +1150,14 @@
                 "masterworkData": null
             },
             "Class Item": {
-                "name": "Warmind's Avatar Mark",
+                "name": "Substitutional Alloy Mark",
                 "type": "Legendary Titan Mark",
                 "description": "",
-                "lore": "Let him find what he needs.",
-                "ExtLore": "Datapads are stacked atop handwritten field reports stacked upon leatherbound tomes. They rest in a spot of sunlight spilling through a round window draped with linen curtains dyed sunset hues and framed by crawling ivy and wisteria.\n\nOsiris stoops over the table, half in the beam of afternoon light and half out. An audio log plays on one of the tablets, with subtitles to translate the speaker's tongue of Ulurant:\n\n<<ATMOSPHERIC COMPOSITION HYDROGEN, HELIUM, METHANE. SCANS SHOW NO ACTIVE STRUCTURES OR CIVILIZATIONS.>>\n\nOsiris clenches one hand into a trembling fist, then scrubs forward in the log.\n\n<<STARSHIP TRANSIT CORRIDORS NEAR PLANETARY BODY ARE NON-EXISTENT. LACK OF HABITATION IDEAL FOR CONCEALING CIVILIAN FLEET. NO SIGNS OF PRIOR HUMAN HABITATION. >>\n\nCursing, Osiris sweeps the tablet off the table along with the books and notes. A scream rises from his mouth, and as he turns in rage, he locks eyes with Saint. Fury burns away to a cool ember of shame the moment Saint steps from the kitchen doorway. His partner is not dressed in armor, a sight few ever see. Instead, his broad shoulders are concealed by a loose poncho of magenta and lilac bearing embroidered bird patterns spun by Eliksni hands.\n\nSaint approaches and gently cups Osiris's face in his hands. The gesture causes the tension to melt away, and Osiris rests a cheek against Saint's fingers.\n\n\"Why are you so angry?\" Saint asks, his voice gentle and reassuring. It isn't so much a question as it is an exercise.\n\n\"I'm afraid,\" Osiris whispers into Saint's palm. \"That Ikora is right. That I\u2014That I'm\u2014\" It takes time for Osiris to make his fear real with words, but Saint gives it to him. \n\n\"\u2026That I'm broken.\"\n\nSaint pulls Osiris to his chest in a firm embrace, then presses a kiss to the top of his head. \"You are not a teacup,\" he he whispers against the shorter man's scalp.  \"People do not break, and you are not broken.\" Osiris rests his forehead against Saint's chest, at once feeling humbled and secure.\n\nThe embrace lingers for as long as Osiris needs it, and when he finally does lean back enough to look up into Saint's eyes, he asks, \"Then what am I?\"\n\nTo which Saint simply replies, \"You are enough.\"",
-                "itemHash": "4256213288",
+                "lore": "And the cleanse shall beget an ocean.",
+                "ExtLore": null,
+                "itemHash": "3911047865",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/20608967f7d674365058cad83dc80004.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/c28404fd497fabd205efe6a14a908dd2.jpg",
                 "rarity": "Legendary",
                 "class": 0,
                 "statRolls": [
