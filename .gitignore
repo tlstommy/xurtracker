@@ -150,3 +150,4 @@ logger.txt
 #config
 gunicorn.conf.py
 data/tmp.txt
+data/tmp.txt
