@@ -40,6 +40,6 @@ class APIPrediction(Resource):
         return jsonify(
             week=str(self.getWeeksSince(date(2020,11,13))),
             id=self.getID(),
-            date=str(date.today())
+            date=str(date.today().strftime("%m-%d-%Y"))
 
         )
