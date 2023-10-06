@@ -26,8 +26,7 @@ class APIPrediction(Resource):
         file = open("/home/ubuntu/XurTracker/data/data.json","r")
         data = json.load(file)
         file.close()
-        self.location = data["Location"]
-
+        self.location = data["Landing Zone"]
         if self.location == "The Last City":
             return 0
         elif self.location == "Winding Cove":
