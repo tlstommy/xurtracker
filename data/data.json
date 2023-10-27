@@ -1,8 +1,8 @@
 {
-    "Location": "European Dead Zone",
+    "Location": "The Last City",
     "Planet": "Earth",
-    "Landing Zone": "Winding Cove",
-    "Week": "October 20, 2023",
+    "Landing Zone": "Tower Hangar",
+    "Week": "October 27, 2023",
     "Exotics": {
         "Exotic Engram": {
             "name": "Exotic Engram",
@@ -43,68 +43,68 @@
             "masterworkData": null
         },
         "Exotic Weapon": {
-            "name": "Arbalest",
-            "type": "Exotic Linear Fusion Rifle",
+            "name": "The Prospector",
+            "type": "Exotic Grenade Launcher",
             "description": "",
-            "lore": "\"We didn't have linear fusions in the Dark Age. But we made it work.\" \u2014The Drifter",
-            "ExtLore": "\"Nah. Dark Age version was better.\"\n\n\"You and I remember the Dark Age differently.\"\n\n\"I'll take a hard projectile over energy any day. No better way to make sure the target is dead.\"\n\n\"Energy is for silencing barriers. Fists are all I need to administer blunt-force trauma.\"\n\n\"I forget you used to be a Warlord.\"\n\n\"What do you mean 'used to?'\"\n\n\"I thought you'd thrown in with Saladin and Felwinter.\"\n\n\"I did. But I never stopped being me.\"\n\n\"Then why\u2014\"\n\n\"'Warlord' is too many syllables.\"\n\n\"Gambit needs more candidates like you. Should stop by sometime. Whatever you want to call yourself.\"\n\n\"Thank you. You're a liar and a cheat. Stay out of my Crucible.\"",
-            "itemHash": "2130065553",
+            "lore": "\"Some things should stay buried.\"",
+            "ExtLore": "\"Get your axe and your pick and your shovel and your spine. We're goin' prospectin'.\" \n\"What?\" \n\"That. The quote. I don't get it.\" \n\"It's an old saying. It's about puttin' in a hard day's work.\" \n\"Seems\u2026 antiquated.\" \n\"How so?\"\n\"My grenade launcher's full auto and goes boom on command. What do I need hand tools for?\" \n\"It's a metaphor. It ain't literal. At least not anymore. Your launcher is your hand tool.\" \n\"Ahh. Got it. Good to know.\"",
+            "itemHash": "3549153979",
             "itemRating": null,
-            "icon": "https://www.bungie.net/common/destiny2_content/icons/c95ea75fe09d9f090a88d5322923d07a.jpg",
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/09e0e23b932b8b713549ce8d8f4c5f4d.jpg",
             "rarity": "Exotic",
             "class": 3,
             "statRolls": [],
             "weaponPerks": [
                 {
-                    "name": "Compounding Force",
-                    "description": "Fires slugs that cause massive damage to combatant shields. Strong against [Shield-Piercing] Barrier Champions.",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/de617622ec896db7e2e79a2b2cdcb24e.png",
-                    "hashID": 2564164194,
-                    "weaponHash": 2130065553,
+                    "name": "Excavation",
+                    "description": "[Shoot]  : Hold to fire grenades. Release to detonate all live grenades simultaneously. Grenades stick to surfaces and set targets on fire. Defeating targets creates Arc explosions.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/2de42e7192359a2d5678d72c1d409f38.png",
+                    "hashID": 2977709078,
+                    "weaponHash": 3549153979,
                     "isPerk": true,
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Extended Barrel",
-                    "description": "Weighty barrel extension.\n  \u2022  Increases range\n  \u2022  Decreases handling speed\n  \u2022  Moderately controls recoil",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/d9e5e8fa07a84c29252b78b0e7b3106d.png",
-                    "hashID": 1467527085,
-                    "weaponHash": 2130065553,
+                    "name": "Volatile Launch",
+                    "description": "This weapon is optimized for an especially explosive payload.\n  \u2022  Greatly increases blast radius\n  \u2022  Slightly decreases handling speed\n  \u2022  Slightly decreases projectile speed",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/d255c9140cf640cfc820f995d1c1e96a.png",
+                    "hashID": 1478423395,
+                    "weaponHash": 3549153979,
                     "isPerk": true,
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Projection Fuse",
-                    "description": "Distance optimizations.\n  \u2022  Increases range",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/eaa6fcec699a88e768782068d5e509e1.png",
-                    "hashID": 2969185026,
-                    "weaponHash": 2130065553,
+                    "name": "Augmented Drum",
+                    "description": "Heavy, high capacity drum.\n  \u2022  Greatly increases magazine size\n  \u2022  Greatly decreases reload speed",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/03a5a8b81c9fc5575a8a9bda79e0f8db.png",
+                    "hashID": 1771897777,
+                    "weaponHash": 3549153979,
                     "isPerk": true,
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Disruption Break",
-                    "description": "Breaking an enemy's shield with this weapon makes them more vulnerable to Kinetic damage for a brief period.",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/45b57ce27fa0213218c7cb8f2253c517.png",
-                    "hashID": 1683379515,
-                    "weaponHash": 2130065553,
+                    "name": "Full Auto Trigger System",
+                    "description": "Holding down the trigger will fire this weapon at full auto.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/85059dae97dea2121091a0f787e20985.png",
+                    "hashID": 4267945040,
+                    "weaponHash": 3549153979,
                     "isPerk": true,
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Composite Stock",
-                    "description": "This weapon has a versatile dual-purpose stock.\n  \u2022  Slightly increases stability\n  \u2022  Slightly increases handling speed",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/7c616b3d2d0e97bf8948b1371b3007bb.png",
-                    "hashID": 3465198467,
-                    "weaponHash": 2130065553,
+                    "name": "Hand-Laid Stock",
+                    "description": "This weapon is optimized for recoil control.\n  \u2022  Increases stability",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/11fe23229c61287c89916f094b26652f.png",
+                    "hashID": 990298390,
+                    "weaponHash": 3549153979,
                     "isPerk": true,
                     "isFavorablePerk": false
                 }
             ],
             "exoticArmorPerk": null,
             "legendWeaponFrame": null,
-            "legendWeaponDamageType": "Kinetic",
-            "legendWeaponDamageElement": "Kinetic",
+            "legendWeaponDamageType": "Power",
+            "legendWeaponDamageElement": "Arc",
             "masterworkData": null
         },
         "Hawkmoon": {
@@ -130,10 +130,10 @@
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Fluted Barrel",
-                    "description": "Ultra-light barrel. \n  \u2022  Greatly increases handling speed\n  \u2022  Slightly increases stability",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/260eba9dd149dbb94b1306c9ed4dd8db.png",
-                    "hashID": 1840239774,
+                    "name": "Extended Barrel",
+                    "description": "Weighty barrel extension.\n  \u2022  Increases range\n  \u2022  Decreases handling speed\n  \u2022  Moderately controls recoil",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/d9e5e8fa07a84c29252b78b0e7b3106d.png",
+                    "hashID": 1467527085,
                     "weaponHash": 3856705927,
                     "isPerk": true,
                     "isFavorablePerk": false
@@ -148,19 +148,19 @@
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Opening Shot",
-                    "description": "Improved accuracy and range on the opening shot of attack.",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/276e8ce23910c6ee2a6b88b076a2004c.png",
-                    "hashID": 47981717,
+                    "name": "Quickdraw",
+                    "description": "This weapon can be drawn unbelievably fast.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/6893bb2c7ec7d13cb0d91ec9dd8b6500.png",
+                    "hashID": 706527188,
                     "weaponHash": 3856705927,
                     "isPerk": true,
                     "isFavorablePerk": false
                 },
                 {
-                    "name": "Smooth Grip",
-                    "description": "This weapon is slightly easier to hold and aim.\n  \u2022  Slightly increases stability\n  \u2022  Slightly increases handling speed",
-                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/438cbb2a46dda1ec4412a77d01d8dcd2.png",
-                    "hashID": 3326204863,
+                    "name": "Combat Grip",
+                    "description": "This weapon's recoil direction is more vertical.\n  \u2022  Greatly controls recoil",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/02a60561b11d9abee82741981af12a3f.png",
+                    "hashID": 3438534621,
                     "weaponHash": 3856705927,
                     "isPerk": true,
                     "isFavorablePerk": false
@@ -173,31 +173,31 @@
             "masterworkData": null
         },
         "Warlock Exotic": {
-            "name": "Eye of Another World",
-            "type": "Exotic Helmet",
+            "name": "Winter's Guile",
+            "type": "Exotic Gauntlets",
             "description": "",
-            "lore": "When the universe conspires, its enemies cannot hide.",
-            "ExtLore": "Say again? You ask, are we alone here? You mean to ask if we are the only good that lives in the light of our sun, do you not? You mean to ask, do we have allies? Do we have distant allies, ignoring our plight, either too weak to fight or too afraid to show their faces? \n\nI, too, have been cursed by these questions. \n\nWhat if I told you that eons beyond the void lie worlds that do yearn to aid in our struggle? What if I told you there is a way to grant them passage into your mind, to let them guide your eye against our one true enemy? That they have told me that the dusk of the pyramid draws nigh? Would you believe me? \n\nFool!",
-            "itemHash": "3381022970",
+            "lore": "\"I know you.\" \u2014Lord Felwinter",
+            "ExtLore": "\"Listen to me very carefully. They're coming for you. They'll ask you for a name. Your name is Felwinter.'\" \n\"I don't think that's my name.\" \n\"I know. Say it anyway.\" \n\"Why can't I remember my name? I always remember my name. Something's wrong. Was I damaged in Crypt processing?\" \n\"I don't know anything about the Deep Stone Crypt. Before my time.\" \n\"What the hell are you?\" \n\"You don't trust me.\" \n\"No.\" \n\"You will.\" \n\"You're a very presumptuous little drone. What makes you think that?\" \n\"No one else will help you. It's kill or die out there.\"",
+            "itemHash": "3844826443",
             "itemRating": null,
-            "icon": "https://www.bungie.net/common/destiny2_content/icons/f2099f4fcd39c3ed4f87ec55e05a68ea.jpg",
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/0c586f183b821e16dd9b696c8e871d2b.jpg",
             "rarity": "Exotic",
             "class": 2,
             "statRolls": [
-                69,
-                10,
+                65,
                 2,
-                24,
-                25,
+                28,
+                4,
+                6,
                 2,
-                6
+                23
             ],
             "weaponPerks": [],
             "exoticArmorPerk": [
                 {
-                    "name": "Cerebral Uplink",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/3e642a717efb7bdb36f0f5dcb4cb9d71.png",
-                    "desc": "Highlights priority targets and improves the regeneration speed of your grenade, melee, and Rift abilities. Provides a small benefit to the airborne effectiveness stat of all weapons."
+                    "name": "Warlord's Sigil",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/afb8bae64742a8633975b1bc85c98923.png",
+                    "desc": "Defeating targets with melee attacks increases your melee damage. Targets encased by Penumbral Blast automatically shatter."
                 }
             ],
             "legendWeaponFrame": null,
@@ -206,31 +206,31 @@
             "masterworkData": null
         },
         "Hunter Exotic": {
-            "name": "The Bombardiers",
-            "type": "Exotic Leg Armor",
+            "name": "Young Ahamkara's Spine",
+            "type": "Exotic Gauntlets",
             "description": "",
-            "lore": "\"Tallulah Fairwind never turns down a dare.\" \u2014Tallulah Fairwind",
-            "ExtLore": "\"It's Saint-14's idea more than mine,\" the Speaker said.\n\nTallulah leaned against the wall, her arms tightly crossed. \"That guy has a lot of ideas, seems like.\"\n\n\"Would you consider it?\"\n\nShe tilted her head to look at the sky, as if imploring the Traveler for patience. \"Listen,\" she said, and dropped her chin again. \"Organizing all the Hunters in the system doesn't make sense. The whole idea of being a Hunter is about\u2026\" She struggled to find the right word.\n\n\"Disorganization?\" the Speaker supplied dryly.\n\n\"Ha ha.\" There was no amusement in the laughter. \"It's about freedom. Independence. You look like a Warlock, so you wouldn't understand.\"\n\nThe Speaker smiled behind his mask. \"Right,\" he said. \"But I've seen you with the others. You've brought other Hunters together, and to great effect. The rescue effort you took to Old Russia, for instance. Or the supply recovery you've been doing with Tav and Venra. There is something to be said about solitary people coming together, working as one\u2026\"\n\n\"Don't try to make this poetic,\" Tallulah said. \"And we're not solitary. Independent doesn't mean solitary.\"\n\nThe Speaker held up his hand. \"You're right,\" he said. \"But if the Warlocks have representation in Osiris, and the Titans in Saint-14, I feel the Hunters deserve some as well. And you're a strong candidate.\"\n\n\"Are there others?\" Tallulah said, sobering a little. When the Speaker shrugged, she straightened her shoulders, then tried to shrug it off as well. \"I don't know. I'm not sure I have time for\u2026 logistical stuff.\"\n\n\"Well, I thought you might be up for the challenge,\" the Speaker said. \"Because it would be a challenge, given your schedule. A daring endeavor, even.\"\n\nTallulah was suddenly dead serious. \"So it's a dare, Speaker?\"\n\n\"It might be.\"",
-            "itemHash": "1219761634",
+            "lore": "Give me your arm, oh bearer mine. Let me help you fill the world with teeth.",
+            "ExtLore": "Bones! Let's wear some bones! \n\nOh, it's a taste many Guardians develop. I think because they feel a wee bit spectral. All this transmatting leaves one saying \"Am I still here? Am I flesh or am I mist?\" So, you strap some old bones to your arm, bones that've been unbreakable for an eon, and you feel solid again. More yourself. \n\nBearers of a particular species of bone do claim\u2014and mind that I'm not recommending these bones\u2014that the fossils grant them unusual powers. Nothing too wild. A little more of this and that. \n\nMy own research suggests these special bones come from a species of draconic post-Traveler neolife called 'ahamkara'. They apparently talked\u2014loved the phrase 'o seeker mine'\u2014and troubled us enough to be hunted to extinction. If you wanted some more of these bones for your friends, I might know a source\u2026",
+            "itemHash": "475652357",
             "itemRating": null,
-            "icon": "https://www.bungie.net/common/destiny2_content/icons/be46f8bd0b86a84be7f77941a3e055fb.jpg",
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/e8ebba4e0fbbaf71de4bd188f072fe67.jpg",
             "rarity": "Exotic",
             "class": 1,
             "statRolls": [
-                64,
-                12,
+                67,
+                14,
+                3,
                 18,
+                12,
                 2,
-                2,
-                10,
-                20
+                18
             ],
             "weaponPerks": [],
             "exoticArmorPerk": [
                 {
-                    "name": "Parting Gift",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/97c352f8ad87a9c7ea68b2a643d821ed.png",
-                    "desc": "Dodging leaves behind an explosive that detonates after a short delay, damaging targets around it and creating a secondary effect based on your subclass energy type:\n\u2022 [Arc] Blinds targets.\n\u2022 [Solar] Scorches targets.\n\u2022 [Void] Suppresses targets.\n\u2022 [Stasis] Slows targets.\n\u2022 [Strand] Severs targets."
+                    "name": "Wish-Dragon Teeth",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/28aa0f30e0e57d914bf5f12345c631f0.png",
+                    "desc": "WISH-DRAGON TEETH\nIncreased Tripmine Grenade duration and blast radius. Gain Tripmine Grenade energy from ability final blows."
                 }
             ],
             "legendWeaponFrame": null,
@@ -239,31 +239,31 @@
             "masterworkData": null
         },
         "Titan Exotic": {
-            "name": "Helm of Saint-14",
-            "type": "Exotic Helmet",
+            "name": "Peacekeepers",
+            "type": "Exotic Leg Armor",
             "description": "",
-            "lore": "\"He walked out into the demon light. But at the end he was brighter.\" \u2014Paean to Saint-14",
-            "ExtLore": "//AUDIO UNAVAILABLE//\n//MAINTENANCE FRAME TRANSCRIPT FOLLOWS//\nSX: You know what they say about Titans.\nC6: They're loud and abrasive?\nSX: The good ones are all dead.\nC6: You don't know that Saint is dead.\nSX: The greatest Titan who ever lived just disappeared. Call it a hunch.\n[A generator roars.]\nC6: No one ever put down a Kell faster than he could. But man, he was a real weirdo.\nSX: Eccentricity was his strength.\nC6: Talking about the Speaker like you're related to him is eccentric. Claiming he's seen the future, that he fought Six Fronts fueled on the idea that some Guardian savior is coming? That's insane.\nSX: Belief is a hell of a thing.\nC6: Sure, yeah. One Guardian's going to fix everything. Kick Crota off the Moon. Make it look like us Vanguard know our head from our hindquarters. Hey, where are you going?\nSX: One of the new recruits from Old Russia I've had my eye on\u2014entering the Crucible for the first time.\nC6: Hey, maybe they're the one. We'll call 'em Crota's End.",
-            "itemHash": "106575079",
+            "lore": "Designed for the seamless delivery of justice in an unjust world.",
+            "ExtLore": "Peacekeepers once patrolled the City before the Red Legion's attack. They were Guardians, but their interest was in protecting our core, our home. Most understood the value in exploration, but the peacekeepers were old guard, born in the aftermath of the Iron Lords. They lived through the Faction Wars; bore witness to what damage internal strife could bring to a fragile society. They vowed to keep the factions in check and stood at the gates as our walls expanded and our city became a home. \n\nNow, nothing remains of the order. Yet their legacy delivers a harsh truth: the Last Safe City was never truly safe.",
+            "itemHash": "3539357319",
             "itemRating": null,
-            "icon": "https://www.bungie.net/common/destiny2_content/icons/00da519dfd936447edd44bd0e472d229.jpg",
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/98491ae0d08dc78211ff10f34e42c923.jpg",
             "rarity": "Exotic",
             "class": 0,
             "statRolls": [
-                64,
+                67,
+                3,
+                3,
+                28,
+                11,
                 10,
-                11,
-                11,
-                6,
-                20,
-                6
+                12
             ],
             "weaponPerks": [],
             "exoticArmorPerk": [
                 {
-                    "name": "Starless Night",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/d4a23b232372815d738f5009e8da29d4.png",
-                    "desc": "Targets that enter Ward of Dawn are blinded, while allies that pass through gain a Void overshield. Guarding with Sentinel Shield blinds nearby targets."
+                    "name": "Mecha Holster",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/fc5f93fd49cdea67bf72d139c5a2c227.png",
+                    "desc": "Reloads stowed Submachine Guns and allows you to ready them instantly. Improves your handling with Submachine Guns and your movement while wielding one. Provides a moderate benefit to the airborne effectiveness stat of Submachine Guns."
                 }
             ],
             "legendWeaponFrame": null,
@@ -275,181 +275,60 @@
     "Legendaries": {
         "Legendary weapons": [
             {
-                "name": "Berenger's Memory",
-                "type": "Legendary Grenade Launcher",
+                "name": "Firefright",
+                "type": "Legendary Auto Rifle",
                 "description": "",
-                "lore": "Take your place among the company of heroes.",
-                "ExtLore": null,
-                "itemHash": "407621213",
+                "lore": "What's the scariest part of a firefight? The whole damn thing.",
+                "ExtLore": "Siegfried's feet touch down on a metal grate ten fathoms deep into the Leviathan, where snaking tunnels split into many different directions. The room is large, empty, and dark. He cycles through the night vision and thermal imaging on his helm, then looks up to his fireteam.\n\nHe can see the shimmering Eliksni camouflage distort the shapes of his seven teammates as they descend the shaft above him on a carbon-weave line. He disables his own. In front of him sits the base of a robotic construct in the likeness of Calus. It is twice his height, and the bare mechanisms of its internal workings creak with age.\n\nFour Cabal Legionaries, two Eliksni Splicers, and a Praxic Sunsinger drop in behind Siegfried and deactivate their cloaks. The Splicers get to work establishing a connection with the automaton while the Legionaries make a perimeter at their back. Siegfried stands with them.\n\nThe Warlock does not take their eyes from the automaton.\n\n\"Splice\u2026 formed.\" One of the Eliksni turns to the Warlock and nods. The Warlock steps forward\u2014\n\n\"Thieves skulking through my Leviathan!\" The automaton bellows with Calus's voice and forcibly bats away a Splicer with a metallic hand. They crash into the adjacent wall and crumple into unconsciousness. The second Splicer leaps back and takes cover behind a Legionary as the Praxic Warlock unleashes a volley of celestial fire into the construct's face. In response, a steely fist bursts through the fire-smoke and crushes the Warlock into the floor.\n\nSiegfried turns toward the Legionaries and shouts, \"Contact!\"\n\nThe Cabal open up with slug rifles; munitions clang against the thick metal. The remaining Splicer aims for the construct's exposed machinery with their Arc pistol.\n\nSiegfried rushes forward, sliding to meet the automaton head on. He ignites in Solar flame and shoulder charges the construct into the chamber wall. He rolls under a retaliating fist and grabs the automaton's chassis, wrestling to spin its back to his fireteam.\n\nThe Sunsinger gasps, alive again. They grab the unconscious Eliksni and take a position amid the Legionaries, shouting, \"CONCENTRATE FIRE!\"\n\nWith one swift motion, the Praxic Warlock combusts brilliantly with Solar Radiance that emboldens the firing line of Cabal shooters and fills the Splicer's heart with courage. Heated slugs puncture and the Arc pistol finds its mark, shorting out one of the automaton's exposed knees.\n\nSlug rifles shred the construct's face as it crashes to the ground and frenetically crawls toward them, tearing metal from the floor with each scraping motion.\n\nThe Titan raises a hand, and in a burst of fiery might, summons a Devastator's maul. He brings the maul down into the automaton's back, demolishing it and sending molten shrapnel skidding across the floor.\n\nSiegfried looks to the Sunsinger, then the rest of the fireteam. \"Contact down\u2026 let's keep going.\"",
+                "itemHash": "2778013407",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/5ffad43fa74fbb80f216b43e89612d2a.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/78de754b509d75fb24b1e3671f59fe10.jpg",
                 "rarity": "Legendary",
                 "class": 3,
                 "statRolls": [],
                 "weaponPerks": [
                     {
-                        "name": "Hard Launch",
-                        "description": "This weapon's launch barrel is optimized for projectile speed.\n  \u2022  Greatly increases projectile speed\n  \u2022  Decreases stability\n  \u2022  Slightly decreases blast radius",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/8bedf618841b334417b8f95c2aa35d57.png",
-                        "hashID": 981914802,
-                        "weaponHash": 407621213,
+                        "name": "Arrowhead Brake",
+                        "description": "Lightly vented barrel.\n  \u2022  Greatly controls recoil\n  \u2022  Increases handling speed",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/8f7fb54687aa52a9c2595d90ce9c9417.png",
+                        "hashID": 839105230,
+                        "weaponHash": 2778013407,
+                        "isPerk": true,
+                        "isFavorablePerk": true
+                    },
+                    {
+                        "name": "High-Caliber Rounds",
+                        "description": "Shots from this weapon knock the target back farther.\n  \u2022  Slightly increases range",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/9d1c49edb2d2b24c74067742c09fd5a5.png",
+                        "hashID": 1561002382,
+                        "weaponHash": 2778013407,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "High-Explosive Ordnance",
-                        "description": "This weapon's projectiles are larger and travel faster.\n  \u2022  Increases blast radius\n  \u2022  Slightly increases projectile speed\n  \u2022  Decreases magazine size",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/1e81b08badb2fa8ce16e9df925294f45.png",
-                        "hashID": 1380253176,
-                        "weaponHash": 407621213,
+                        "name": "Fragile Focus",
+                        "description": "This weapon gains bonus range until your shield is destroyed. The bonus returns once your shield has regenerated to full strength.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/3d2e945cc3d38e88c87ee3e2687b612a.png",
+                        "hashID": 2451262963,
+                        "weaponHash": 2778013407,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Threat Detector",
-                        "description": "Increased reload, stability, and handling when enemies are in close proximity.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/9611bdbc48aff898193fd5f705c7cf30.png",
-                        "hashID": 4071163871,
-                        "weaponHash": 407621213,
+                        "name": "Focused Fury",
+                        "description": "Dealing half of the magazine as precision damage grants this weapon bonus damage. The shot count is reset whenever the weapon is reloaded or stowed.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/15fb47018719c99ae37d10f794bc957e.png",
+                        "hashID": 2896038713,
+                        "weaponHash": 2778013407,
                         "isPerk": true,
-                        "isFavorablePerk": false
+                        "isFavorablePerk": true
                     },
                     {
-                        "name": "Demolitionist",
-                        "description": "Kills with this weapon generate grenade energy. Activating your grenade ability reloads this weapon from reserves.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/da009697110e06b65d6f827b3b6d5f70.png",
-                        "hashID": 3523296417,
-                        "weaponHash": 407621213,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    }
-                ],
-                "exoticArmorPerk": null,
-                "legendWeaponFrame": {
-                    "name": "Rapid-Fire Frame",
-                    "description": "Deeper ammo reserves. Slightly faster reload when magazine is empty.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/801d62d1f9783bee81d5700c54c24fda.png"
-                },
-                "legendWeaponDamageType": "Power",
-                "legendWeaponDamageElement": "Void",
-                "masterworkData": {
-                    "name": "Blast Radius",
-                    "description": "Increases the explosion radius of this weapon.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/cb114512a0710cab990fb8d5b4af91c6.jpg",
-                    "mwHash": 3928770367
-                }
-            },
-            {
-                "name": "True Prophecy",
-                "type": "Legendary Hand Cannon",
-                "description": "",
-                "lore": "\"Some claim to know the future better than we do. Listen carefully. Then ask yourself: do their words ring true or false?\" \u2014Lakshmi-2",
-                "ExtLore": null,
-                "itemHash": "2742838700",
-                "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/1a4382dd6c3cbc134f2d276c0ff63c7e.jpg",
-                "rarity": "Legendary",
-                "class": 3,
-                "statRolls": [],
-                "weaponPerks": [
-                    {
-                        "name": "TrueSight HCS",
-                        "description": "Balanced Hand Cannon sight.\n  \u2022  Slightly increases range\n  \u2022  Slightly increases stability\n  \u2022  Slightly increases handling speed",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/388a2235cfe0a6d9449aec30f8e962cd.png",
-                        "hashID": 1926090092,
-                        "weaponHash": 2742838700,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Appended Mag",
-                        "description": "This weapon's magazine is built for higher capacity.\n  \u2022  Increases magazine size",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/d9f468cce26fe35d9db413e2f8451127.png",
-                        "hashID": 1087426260,
-                        "weaponHash": 2742838700,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Grave Robber",
-                        "description": "Melee final blows reload this weapon's magazine from reserves.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/043d100167af67d6041719044a033221.png",
-                        "hashID": 1631667848,
-                        "weaponHash": 2742838700,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Demolitionist",
-                        "description": "Kills with this weapon generate grenade energy. Activating your grenade ability reloads this weapon from reserves.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/da009697110e06b65d6f827b3b6d5f70.png",
-                        "hashID": 3523296417,
-                        "weaponHash": 2742838700,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    }
-                ],
-                "exoticArmorPerk": null,
-                "legendWeaponFrame": {
-                    "name": "Aggressive Frame",
-                    "description": "High damage, high recoil. Optimized for long-distance shooting.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/64209c4fd20513b33109c374179d0958.png"
-                },
-                "legendWeaponDamageType": "Kinetic",
-                "legendWeaponDamageElement": "Kinetic",
-                "masterworkData": {
-                    "name": "Reload Speed",
-                    "description": "The time it takes to reload this weapon.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/e3a74e6dd4c520ea17eb1fdaf2128213.jpg",
-                    "mwHash": 4283235143
-                }
-            },
-            {
-                "name": "Corsair's Wrath",
-                "type": "Legendary Linear Fusion Rifle",
-                "description": "",
-                "lore": "\"We are only briefly Awoken. The rest of existence is an eternal dream.\" \u2014Sedia",
-                "ExtLore": "The Corsair reloaded behind her improvised barricade as Shredder rounds sizzled overhead. She wished she had better cover. The Hall of Names hadn't been constructed with defense in mind\u2014apparently nobody dreamed the Awoken would be assaulted here. \n\nShe reloaded her fusion rifle and assessed their situation. It was dire. Unless Leona Bryl's team managed to roll up the Hive's southern flank, her squad would be overrun. At least the Hall of Names was a fitting place for a last stand. \n\nShe was six rounds short of a full clip. She turned to her left to ask Lira for extra ammo, only to discover her teammate slumped over, blue skin already going grey. The thick purple ichor of a soulfire round oozed from the hole in her chest. The Corsair gritted her teeth and looted Lira's kit for ammo. \n\nThe Corsair finished reloading and popped her head back over the barricade. She downed three loping Acolytes in quick succession before even noticing the ogre looming in the background. It was enormous\u2014at least seven meters high. She unloaded her fusion rifle into its face, trying to burrow rounds through its armored hide. She managed to blow off a chunk of its upper jaw before her rifle clicked empty. \n\nThe Corsair dove back behind her barricade, ammo spent. She looked around the Hall for the last time, admiring the elegant statues, her chest swelling with bittersweet pride. The faces of her people, Techeuns and Queens, presiding over the battle. She remembered what Sedia had said to her long ago, before things got out of control: \"We are only briefly Awoken. The rest of our existence is an eternal dream. And in that dream, we will all\u2014\"",
-                "itemHash": "2714022207",
-                "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/b493fc12f672531508a226b7321cba59.jpg",
-                "rarity": "Legendary",
-                "class": 3,
-                "statRolls": [],
-                "weaponPerks": [
-                    {
-                        "name": "Chambered Compensator",
-                        "description": "Stable barrel attachment.\n  \u2022  Increases stability\n  \u2022  Moderately controls recoil\n  \u2022  Slightly decreases handling speed",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/0b451cbccc7f11f6aec9c153e59474cb.png",
-                        "hashID": 3661387068,
-                        "weaponHash": 2714022207,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Accelerated Coils",
-                        "description": "Speeds up charge.\n  \u2022  Faster charge time\n  \u2022  Decreases impact damage",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/a51d91da9fb0a4c8f45b2ffa89e51ad7.png",
-                        "hashID": 689005463,
-                        "weaponHash": 2714022207,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Firmly Planted",
-                        "description": "Increased accuracy, stability, and handling when firing while crouched.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/379796d2e74676d3790f0bd485ea03a9.png",
-                        "hashID": 280464955,
-                        "weaponHash": 2714022207,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Quickdraw",
-                        "description": "This weapon can be drawn unbelievably fast.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/6893bb2c7ec7d13cb0d91ec9dd8b6500.png",
-                        "hashID": 706527188,
-                        "weaponHash": 2714022207,
+                        "name": "Extrovert",
+                        "description": "Final blows while near multiple combatants or near Nightmares restores health.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/0e8f9374f41cca37c52fce1695184e18.png",
+                        "hashID": 1250481499,
+                        "weaponHash": 2778013407,
                         "isPerk": true,
                         "isFavorablePerk": false
                     }
@@ -457,16 +336,81 @@
                 "exoticArmorPerk": null,
                 "legendWeaponFrame": {
                     "name": "Precision Frame",
-                    "description": "Fires a long-range precision energy bolt. This weapon's recoil pattern is more predictably vertical.",
+                    "description": "This weapon's recoil pattern is more predictably vertical.",
                     "icon": "https://www.bungie.net/common/destiny2_content/icons/e9dd736124e8ef94048901a279a5bb18.png"
                 },
-                "legendWeaponDamageType": "Power",
-                "legendWeaponDamageElement": "Solar",
+                "legendWeaponDamageType": "Kinetic",
+                "legendWeaponDamageElement": "Kinetic",
                 "masterworkData": {
-                    "name": "Charge Time",
-                    "description": "The time in milliseconds before a weapon fires.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/0ab7e72f178dbec85d531cc7eae34571.jpg",
-                    "mwHash": 3353797898
+                    "name": "Range",
+                    "description": "Increases the effective range of this weapon.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/95af3923bdbdf11438504ddeb498afe8.jpg",
+                    "mwHash": 150943607
+                }
+            },
+            {
+                "name": "Seventh Seraph SAW",
+                "type": "Legendary Machine Gun",
+                "description": "",
+                "lore": "Chained away long ago; its jaws too eager in times of peace.",
+                "ExtLore": null,
+                "itemHash": "2582755344",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/29093fbaa9a7a03baa3936a359f85113.jpg",
+                "rarity": "Legendary",
+                "class": 3,
+                "statRolls": [],
+                "weaponPerks": [
+                    {
+                        "name": "Extended Barrel",
+                        "description": "Weighty barrel extension.\n  \u2022  Increases range\n  \u2022  Decreases handling speed\n  \u2022  Moderately controls recoil",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/d9e5e8fa07a84c29252b78b0e7b3106d.png",
+                        "hashID": 1467527085,
+                        "weaponHash": 2582755344,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Extended Mag",
+                        "description": "This weapon has a greatly increased magazine size, but reloads much slower.\n  \u2022  Greatly increases magazine size\n  \u2022  Greatly decreases reload speed\n  \u2022  Increases airborne effectiveness",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/66cfea124e24e73cca1ce6370b44ca7e.png",
+                        "hashID": 2420895100,
+                        "weaponHash": 2582755344,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Field Prep",
+                        "description": "Increased ammo reserves. Faster reload, stow, and ready when you're crouching.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/4ee1ecaead6fe2de1a2cab07f8b7be3f.png",
+                        "hashID": 2869569095,
+                        "weaponHash": 2582755344,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Elemental Capacitor",
+                        "description": "Increased stats based on the currently equipped subclass.\n\u2022 [Solar] increases your reload speed.\n\u2022 [Arc] increases handling.\n\u2022 [Void] increases stability.\n\u2022 [Stasis] moderately controls recoil and increases movement speed when aiming down sights.\n\u2022 [Strand] increases airborne effectiveness.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/e455d94dcafdab7a0d5a850712908020.png",
+                        "hashID": 3511092054,
+                        "weaponHash": 2582755344,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    }
+                ],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": {
+                    "name": "High-Impact Frame",
+                    "description": "Slow firing and high damage. This weapon is more accurate when stationary, moving slowly, and aiming down sights.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/34573143849cf910d2381554bb57a10d.png"
+                },
+                "legendWeaponDamageType": "Power",
+                "legendWeaponDamageElement": "Arc",
+                "masterworkData": {
+                    "name": "Reload Speed",
+                    "description": "The time it takes to reload this weapon.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/e3a74e6dd4c520ea17eb1fdaf2128213.jpg",
+                    "mwHash": 4283235143
                 }
             },
             {
@@ -483,37 +427,37 @@
                 "statRolls": [],
                 "weaponPerks": [
                     {
-                        "name": "Chambered Compensator",
-                        "description": "Stable barrel attachment.\n  \u2022  Increases stability\n  \u2022  Moderately controls recoil\n  \u2022  Slightly decreases handling speed",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/0b451cbccc7f11f6aec9c153e59474cb.png",
-                        "hashID": 3661387068,
+                        "name": "Arrowhead Brake",
+                        "description": "Lightly vented barrel.\n  \u2022  Greatly controls recoil\n  \u2022  Increases handling speed",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/8f7fb54687aa52a9c2595d90ce9c9417.png",
+                        "hashID": 839105230,
+                        "weaponHash": 1751893422,
+                        "isPerk": true,
+                        "isFavorablePerk": true
+                    },
+                    {
+                        "name": "Accurized Rounds",
+                        "description": "This weapon can fire longer distances.\n  \u2022  Increases range",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/d85024478504205359c7fb52dbc4f6b6.png",
+                        "hashID": 3142289711,
                         "weaponHash": 1751893422,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Appended Mag",
-                        "description": "This weapon's magazine is built for higher capacity.\n  \u2022  Increases magazine size",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/d9f468cce26fe35d9db413e2f8451127.png",
-                        "hashID": 1087426260,
+                        "name": "Heating Up",
+                        "description": "Final blows with this weapon increase accuracy and stability while improving vertical recoil.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/39d2032b3c5bc7a5b2fe391c64ccb7db.png",
+                        "hashID": 1570042021,
                         "weaponHash": 1751893422,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Pugilist",
-                        "description": "Final blows with this weapon generate melee energy. \nDealing melee damage briefly improves this weapon's handling.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/93bb6bb34fb0616805ba2a7181ab386c.png",
-                        "hashID": 691659142,
-                        "weaponHash": 1751893422,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Swashbuckler",
-                        "description": "This weapon gains increased damage from melee kills and kills with this weapon.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/42631a4aff4432e794529a5a707eba61.png",
-                        "hashID": 4082225868,
+                        "name": "One for All",
+                        "description": "Hitting three separate targets increases damage for a moderate duration.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/b1bce269c3cd21393131b4f5cffae692.png",
+                        "hashID": 4049631843,
                         "weaponHash": 1751893422,
                         "isPerk": true,
                         "isFavorablePerk": false
@@ -525,7 +469,7 @@
                         "hashID": 192157151,
                         "weaponHash": 1751893422,
                         "isPerk": true,
-                        "isFavorablePerk": false
+                        "isFavorablePerk": true
                     }
                 ],
                 "exoticArmorPerk": null,
@@ -544,60 +488,125 @@
                 }
             },
             {
-                "name": "No Reprieve",
-                "type": "Legendary Shotgun",
+                "name": "Bump in the Night",
+                "type": "Legendary Rocket Launcher",
                 "description": "",
-                "lore": "Sometimes mercy is worse.",
-                "ExtLore": "Alaaks, the Beast Tamer looks down at the Dreg kneeling at her feet. His two arms are spread in supplication.\n\n\"Forgiveness,\" he wheezes.\n\nHe is begging, whining like a scolded animal. Even her war beasts wouldn't grovel so.\n\nThere is silence but for the familiar thrum of her Ketch and the rasping sound of the war beasts' breath as they doze behind her.\n\nAlaaks taps a claw against her rebreather, then snorts and shakes her head. The Dreg starts to tremble as the Pirate Lord snaps her fingers and her war beasts stir, rising to their feet and stretching lazily before coming to their mistress's side.\n\n\"The cache on Europa was lost because of your incompetence,\" she says to the Dreg. \"Now Misraaks will come for us.\"\n\nThe war beasts' teeth gleam in the low light. Their claws scrape against the grated floors. Their hides bear the brand of her flag. They are loyal. They are hungry.\n\n\"Mercy,\" the Dreg whispers. He is quiet. Quavering.\n\n\"This IS mercy, Prydis,\" Alaaks says, her voice lowering. \"You haven't faced Misraaks. I have. He knows no mercy or forgiveness.\"\n\nAlaaks hisses a command to her pack, then folds her four arms over her chest. Her war beasts' salivating smiles split wide as they advance.",
-                "itemHash": "2531963421",
+                "lore": "\"If you hear a noise in the dark, shoot first.\" \u2014Centurion Tuk'rin",
+                "ExtLore": "\"I won't go again,\" Gorn'ak says, throwing a chunk of bloody meat to a lounging war beast. It happily devours the meat in one bite and looks expectantly for more. Gorn'ak is seated at a bulky metal table with two fellow Cabal. One is a veteran Phalanx, Ur'Rux, whom Gorn'ak respects deeply. The other is Tal'urn, a scrawny Red Legion defector who had surfaced during a patrol on Nessus last year.\n\n\"Is it true our ancestors appeared on the Leviathan?\" Ur'Rux asks.\n\n\"I have seen their red smoke in many shapes\u2014of a Human, of a Cabal Gladiator, and more,\" Gorn'ak says. \"They carry the voices of traitors, luring Cabal so they may stick knives between our armor. They called me deeper into the ship, but I know they mean to take our names. Spoil our memories.\"\n\n\"Did Gorn lose his musk?\" cracks Tal'urn.\n\nGorn'ak roars at the scrawny Legionary, \"Call me coward again, whelp!\"\n\n\"Tal'urn can call no Cabal a coward. Not when we found him in a hole under Halphas Electus,\" Ur'Rux spits and turns to Gorn'ak. \"Stand with me, and we will survive Calus's horrors.\"\n\nThe door to their barracks chamber opens.\n\n\"You don't understand, Tal. I won't go back. Orders or not.\" Gorn'ak looks him in the eyes. \"You shouldn't go either.\"\n\nA hulking Cabal known as Tuk'rin, with winged armor ornaments steps into the room and removes their helmet. \"The empress won't like that,\" Tuk'rin growls, slamming a Bronto Cannon down on the bulky metal table between Gorn'ak and the others.\n\n\"Tuk'rin? Who died and made you Centurion?\" Gorn'ak asks, shoving the Bronto Cannon aside to cut more meat for his war beast.\n\n\"One last deployment.\"\n\nTuk'rin sees the curiosity building in his new soldiers.\n\n\"My commander went ahead of our squad, scouted the Underbelly. She did not return as\u2026 herself.\" Tuk'rin's eyes are lost for a moment in the sights he has seen. \"She was a noble Cabal, but the spirits attacked her mind that night, and she turned this cannon on us.\"\n\nHis soldiers silently contemplate his claim.\n\nTuk'rin continues, \"It was my kill, so now it's my command. If I go back, you go back.\"",
+                "itemHash": "1959650777",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/8fc1ebb348ac04359092ee43d4c51ebb.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/ccc08251c285bb980b1470e384707ef6.jpg",
                 "rarity": "Legendary",
                 "class": 3,
                 "statRolls": [],
                 "weaponPerks": [
                     {
-                        "name": "Corkscrew Rifling",
-                        "description": "Balanced barrel. \n  \u2022  Slightly increases range and stability\n  \u2022  Slightly increases handling speed",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/7730e1732ed7ef91afce50277639c493.png",
-                        "hashID": 4090651448,
-                        "weaponHash": 2531963421,
+                        "name": "Volatile Launch",
+                        "description": "This weapon is optimized for an especially explosive payload.\n  \u2022  Greatly increases blast radius\n  \u2022  Slightly decreases handling speed\n  \u2022  Slightly decreases projectile speed",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/d255c9140cf640cfc820f995d1c1e96a.png",
+                        "hashID": 1478423395,
+                        "weaponHash": 1959650777,
+                        "isPerk": true,
+                        "isFavorablePerk": true
+                    },
+                    {
+                        "name": "High-Velocity Rounds",
+                        "description": "This weapon's projectiles are particularly light and quick.\n  \u2022  Increases projectile speed\n  \u2022  Increases reload speed",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/2a2b757cd73305126990cd19ad011a2c.png",
+                        "hashID": 2822142346,
+                        "weaponHash": 1959650777,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Steady Rounds",
-                        "description": "This magazine is optimized for recoil control.\n  \u2022  Greatly increases stability \n  \u2022  Slightly decreases range\n  \u2022  Increases airborne effectiveness",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/6c6e1cc341487a8afd0b0c714a229255.png",
-                        "hashID": 3177308360,
-                        "weaponHash": 2531963421,
+                        "name": "Demolitionist",
+                        "description": "Kills with this weapon generate grenade energy. Activating your grenade ability reloads this weapon from reserves.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/da009697110e06b65d6f827b3b6d5f70.png",
+                        "hashID": 3523296417,
+                        "weaponHash": 1959650777,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Stats for All",
-                        "description": "Hitting three separate targets increases weapon handling, stability, reload, and range for a moderate duration.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/8aadd7fd25c2b1e9f3fc7f4411a97ea4.png",
-                        "hashID": 1583705720,
-                        "weaponHash": 2531963421,
+                        "name": "Frenzy",
+                        "description": "Being in combat for an extended time increases damage, handling, and reload for this weapon until you are out of combat.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/23e06f4ced1b3e6476f342978ff5bb37.png",
+                        "hashID": 4104185692,
+                        "weaponHash": 1959650777,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Wellspring",
-                        "description": "Kills with this weapon generate ability energy. This energy is divided between your uncharged abilities.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/ec2e3096ebd447bd6137735c9067b991.png",
-                        "hashID": 3592538738,
-                        "weaponHash": 2531963421,
+                        "name": "Extrovert",
+                        "description": "Final blows while near multiple combatants or near Nightmares restores health.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/0e8f9374f41cca37c52fce1695184e18.png",
+                        "hashID": 1250481499,
+                        "weaponHash": 1959650777,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    }
+                ],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": {
+                    "name": "Aggressive Frame",
+                    "description": "High damage, high recoil.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/64209c4fd20513b33109c374179d0958.png"
+                },
+                "legendWeaponDamageType": "Power",
+                "legendWeaponDamageElement": "Stasis",
+                "masterworkData": {
+                    "name": "Blast Radius",
+                    "description": "Increases the explosion radius of this weapon.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/cb114512a0710cab990fb8d5b4af91c6.jpg",
+                    "mwHash": 3928770367
+                }
+            },
+            {
+                "name": "Sojourner's Tale",
+                "type": "Legendary Shotgun",
+                "description": "",
+                "lore": "Home is just over the horizon.",
+                "ExtLore": "The pipes are silent.  \n\nEther production is paused during batch loading, and in that interstitial time, Spider's lair feels like a tomb. Every creak and groan of his throne becomes excruciatingly pronounced. Spider reclines against one arm, rolling a dead Ghost's shell in one hand, scraping a clawed finger across its gray, lifeless eye. The arrival of a trusted associate pulls Spider from his thoughts. \n\n\"Avrok,\" Spider bellows, turning his attention to the armored Eliksni striding through the doorway, \"what did you find?\" \n\nAvrok approaches Spider's throne, wringing his hands together anxiously. \"Our thief, my lord.\" \n\nSpider leans forward with a groan of the cables suspending his throne. \"And what did you do to them?\" he asks in greedy anticipation. That, however, is where Avrok falters. \n\n\"I did not\u2026 catch them, my lord,\" Avrok humbly answers, his much smaller frame eclipsed in Spider's shadow. \"But I have a name.\" \n\n\"Out with it,\" Spider grouses, falling back against his throne with deflated interest. \n\n\"The Crow.\" \n\nSpider's blood turns to fire. His grip tightens on that dead Ghost so hard its shell cracks. Spider continues squeezing it until the glass eye completely pops. \n\nThen he takes a moment to compose himself. \n\n\"Our little bird, come home to the nest so soon? Tell me everything.\" \n\n\"He was able to infiltrate the storehouse,\" Avrok explains, \"and coerced a team of laborers to offload cargo promised to the empress onto a Skiff, which he then\u2026 stole. Along with a cache of your more\u2014ah\u2014personal belongings, among which was the quantum opal.\" \n\n Avrok shrinks lower, lower, lower. \"The supplies were delivered to Mithrax. In your name. As a gift.\" \n\n\"And the workers?\" Spider growls. \n\n\"They are gone?\" Avrok doesn't mean to make it sound like a question, and regrets taking the tone immediately. \n\n\"To where, exactly?\" \n\n\"They\u2026\" Avrok takes a small step back from Spider's throne. \"Left.\" He clenches his jaws. \"With the Crow.\" \n\nSpider slowly leans forward again. \n\n\"For Earth,\" Avrok concludes. \n\nThe Ether pipes begin to hum and rattle as a new batch begins production elsewhere in the complex. The noises rise in intensity, turning into the familiar hissing wail that joins with the uncomfortable sound of Spider. Laughing. \n\nThe Baron of the Shore throws his dead Ghost at Avrok who ducks away from it, covering his head with his hands. \n\n\"He's taking them to Mithrax,\" Spider says between fitful chuckles and wheezing coughs. \"He steals\u2014from me\u2014and gives it to the House of Light? Unbelievable.\" Though behind the laughter and coughs, there is a hint of appreciation in his tone. \"The kid's grown a spine.\" \n\n\"There is,\" Avrok starts, offering Spider a folded piece of paper, \"one more thing. He left this behind.\" Spider's seal is scribbled on one side. \"For you.\" \n\nAs Spider unfolds the note, Avrok creeps further away from the throne. Inside is nothing more than a crude drawing and a rude missive. \n\n \"That little sh\u2014 \"\n\nThe pipes are howling.",
+                "itemHash": "599895591",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/7d4dd4ca8f6336b7400746f0ad017351.jpg",
+                "rarity": "Legendary",
+                "class": 3,
+                "statRolls": [],
+                "weaponPerks": [
+                    {
+                        "name": "Extended Barrel",
+                        "description": "Weighty barrel extension.\n  \u2022  Increases range\n  \u2022  Decreases handling speed\n  \u2022  Moderately controls recoil",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/d9e5e8fa07a84c29252b78b0e7b3106d.png",
+                        "hashID": 1467527085,
+                        "weaponHash": 599895591,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Right Hook",
-                        "description": "Dealing melee damage gives this weapon increased target acquisition and range for a short period of time.\nDealing melee damage again extends the effect.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/067828985c3d34507def4eb53b12cf4e.png",
-                        "hashID": 3907865655,
-                        "weaponHash": 2531963421,
+                        "name": "Appended Mag",
+                        "description": "This weapon's magazine is built for higher capacity.\n  \u2022  Increases magazine size",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/d9f468cce26fe35d9db413e2f8451127.png",
+                        "hashID": 1087426260,
+                        "weaponHash": 599895591,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Threat Detector",
+                        "description": "Increased reload, stability, and handling when enemies are in close proximity.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/9611bdbc48aff898193fd5f705c7cf30.png",
+                        "hashID": 4071163871,
+                        "weaponHash": 599895591,
+                        "isPerk": true,
+                        "isFavorablePerk": false
+                    },
+                    {
+                        "name": "Killing Wind",
+                        "description": "Final blows grant increased mobility, weapon range, and handling for a short duration.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/db2aa71ff6d808929bb0e668dcf0822e.png",
+                        "hashID": 2450788523,
+                        "weaponHash": 599895591,
                         "isPerk": true,
                         "isFavorablePerk": false
                     }
@@ -608,24 +617,24 @@
                     "description": "Fires a single-slug round. This weapon's recoil pattern is more predictably vertical.",
                     "icon": "https://www.bungie.net/common/destiny2_content/icons/e9dd736124e8ef94048901a279a5bb18.png"
                 },
-                "legendWeaponDamageType": "Kinetic",
-                "legendWeaponDamageElement": "Stasis",
+                "legendWeaponDamageType": "Energy",
+                "legendWeaponDamageElement": "Solar",
                 "masterworkData": {
-                    "name": "Stability",
-                    "description": "How much or little recoil you will experience while firing the weapon.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/c345c1b985997a4e2730ea3919b45359.jpg",
-                    "mwHash": 1590375901
+                    "name": "Reload Speed",
+                    "description": "The time it takes to reload this weapon.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/e3a74e6dd4c520ea17eb1fdaf2128213.jpg",
+                    "mwHash": 4283235143
                 }
             },
             {
-                "name": "Far Future",
-                "type": "Legendary Sniper Rifle",
+                "name": "Seventh Seraph SI-2",
+                "type": "Legendary Sidearm",
                 "description": "",
-                "lore": "\"Distance is just a matter of timing.\" \u2014Crow",
-                "ExtLore": "Ixel : mutineer : Far-Reaching : murderer : Psion : prophet\n\n1 : the Tower burns : Fallen in the streets : screaming : the Hive Witch dissembles : crackling portal : treachery : Vex emerge : Zavala commands\u2014\n\n2 : the abandoned Tower : desiccated carcasses : wind : Dark spores : Traveler disappears : Pyramid overhead : a Voice behind the Darkness\u2014\n\n3 : the battered Tower : sizzling Arc : Psions burn : frigate crashes : Zavala dies : the Hive Witch comforts : sacrifice awakens : one-horn attacks : Cabal retreat\u2014\n\n4 :  the Tower in ruins : Legionaries patrol : torn banners : executions : a land tank rumbles : Fallen scavengers : transmission : the fleet is destroyed : Wrath of the Hive : we are extinct\u2014\n\n5: the Tower molders : the Hive Witch's worm : Ghosts at war : a Voice behind the Darkness : the Traveler abandoned us : Taken Cabal : a new Hive rejoices\u2014\n\n6 : the Tower is still : funeral procession : Zavala dies :  Zavala dies : Zavala dies : candles : quiet argument : how did they get in : the Witch Queen flees : they are coming\u2014\n\n7: the besieged Tower : trampled flowers : portraits : Zavala is dead : ataxia : wailing : our assassin : the Traveler overhead : the empress looks down : the Light is ours : Primus Ixel\u2014\n\nIxel : Primus : Far-Reaching : prophet : conqueror : hero",
-                "itemHash": "893527433",
+                "lore": "Kept in holster as the last line. Known for its reliability.",
+                "ExtLore": null,
+                "itemHash": "3937866388",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/33fc901a23b8f7a2c35978ef7408fee8.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/71ad178e3d2087197b59f97a25af8de8.jpg",
                 "rarity": "Legendary",
                 "class": 3,
                 "statRolls": [],
@@ -635,99 +644,99 @@
                         "description": "Weighty barrel extension.\n  \u2022  Increases range\n  \u2022  Decreases handling speed\n  \u2022  Moderately controls recoil",
                         "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/d9e5e8fa07a84c29252b78b0e7b3106d.png",
                         "hashID": 1467527085,
-                        "weaponHash": 893527433,
+                        "weaponHash": 3937866388,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Accurized Rounds",
-                        "description": "This weapon can fire longer distances.\n  \u2022  Increases range",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/d85024478504205359c7fb52dbc4f6b6.png",
-                        "hashID": 3142289711,
-                        "weaponHash": 893527433,
+                        "name": "Extended Mag",
+                        "description": "This weapon has a greatly increased magazine size, but reloads much slower.\n  \u2022  Greatly increases magazine size\n  \u2022  Greatly decreases reload speed\n  \u2022  Increases airborne effectiveness",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/66cfea124e24e73cca1ce6370b44ca7e.png",
+                        "hashID": 2420895100,
+                        "weaponHash": 3937866388,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Moving Target",
-                        "description": "Increased movement speed and target acquisition when moving while aiming down sights.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/40b591eae7f122fdf1cfca21fc6f6c0f.png",
-                        "hashID": 588594999,
-                        "weaponHash": 893527433,
+                        "name": "Field Prep",
+                        "description": "Increased ammo reserves. Faster reload, stow, and ready when you're crouching.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/4ee1ecaead6fe2de1a2cab07f8b7be3f.png",
+                        "hashID": 2869569095,
+                        "weaponHash": 3937866388,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "Multikill Clip",
-                        "description": "Reloading grants increased damage based on the number of rapid kills made beforehand.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/3749921a74a378259228d5e989459311.png",
-                        "hashID": 2458213969,
-                        "weaponHash": 893527433,
+                        "name": "Dragonfly",
+                        "description": "Precision kills create an elemental damage explosion.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/c87b03bb6d56b393f8582e128b337332.png",
+                        "hashID": 2848615171,
+                        "weaponHash": 3937866388,
                         "isPerk": true,
                         "isFavorablePerk": false
                     }
                 ],
                 "exoticArmorPerk": null,
                 "legendWeaponFrame": {
-                    "name": "Adaptive Frame",
-                    "description": "A well-rounded grip, reliable and sturdy.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/967fb4abc6ab98f74639d6c08e5f56ee.png"
+                    "name": "Lightweight Frame",
+                    "description": "Superb handling. Move faster with this weapon equipped.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/6db8cd21c2b3e6fffeb6f111d6c70dd2.png"
                 },
                 "legendWeaponDamageType": "Energy",
-                "legendWeaponDamageElement": "Solar",
+                "legendWeaponDamageElement": "Void",
                 "masterworkData": {
-                    "name": "Stability",
-                    "description": "How much or little recoil you will experience while firing the weapon.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/c345c1b985997a4e2730ea3919b45359.jpg",
-                    "mwHash": 1590375901
+                    "name": "Range",
+                    "description": "Increases the effective range of this weapon.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/95af3923bdbdf11438504ddeb498afe8.jpg",
+                    "mwHash": 150943607
                 }
             },
             {
-                "name": "Sole Survivor",
-                "type": "Legendary Sniper Rifle",
+                "name": "Outlast",
+                "type": "Legendary Pulse Rifle",
                 "description": "",
-                "lore": "Names mean nothing to the dead.",
+                "lore": "No such word as extinction.",
                 "ExtLore": null,
-                "itemHash": "1150492185",
+                "itemHash": "1678205741",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/5c0add624d949376e044cf6b70ef213b.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/e5f126d88e6a20c2106fbee02777a6df.jpg",
                 "rarity": "Legendary",
                 "class": 3,
                 "statRolls": [],
                 "weaponPerks": [
                     {
-                        "name": "Chambered Compensator",
-                        "description": "Stable barrel attachment.\n  \u2022  Increases stability\n  \u2022  Moderately controls recoil\n  \u2022  Slightly decreases handling speed",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/0b451cbccc7f11f6aec9c153e59474cb.png",
-                        "hashID": 3661387068,
-                        "weaponHash": 1150492185,
+                        "name": "Arrowhead Brake",
+                        "description": "Lightly vented barrel.\n  \u2022  Greatly controls recoil\n  \u2022  Increases handling speed",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/8f7fb54687aa52a9c2595d90ce9c9417.png",
+                        "hashID": 839105230,
+                        "weaponHash": 1678205741,
+                        "isPerk": true,
+                        "isFavorablePerk": true
+                    },
+                    {
+                        "name": "Ricochet Rounds",
+                        "description": "Rounds ricochet off hard surfaces. \n  \u2022  Increases stability \n  \u2022  Slightly increases range",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/0a494d0442b32aff8c30d8b2b53561bd.png",
+                        "hashID": 1885400500,
+                        "weaponHash": 1678205741,
+                        "isPerk": true,
+                        "isFavorablePerk": true
+                    },
+                    {
+                        "name": "Outlaw",
+                        "description": "Precision kills greatly decrease reload time.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/382df469a091c33e190ee583b64923e8.png",
+                        "hashID": 1168162263,
+                        "weaponHash": 1678205741,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
                     {
-                        "name": "High-Caliber Rounds",
-                        "description": "Shots from this weapon knock the target back farther.\n  \u2022  Slightly increases range",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/9d1c49edb2d2b24c74067742c09fd5a5.png",
-                        "hashID": 1561002382,
-                        "weaponHash": 1150492185,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Lead from Gold",
-                        "description": "Picking up Heavy ammo also grants ammo to this weapon.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/87f6cac4799cbae4e11ba74d3dc77504.png",
-                        "hashID": 1556840489,
-                        "weaponHash": 1150492185,
-                        "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Voltshot",
-                        "description": "Reloading this weapon after defeating a target overcharges this weapon for a short period of time, causing it to jolt on its next hit.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/a71ffb1cb221ea64fa77ab473f8a3a61.png",
-                        "hashID": 2173046394,
-                        "weaponHash": 1150492185,
+                        "name": "Snapshot Sights",
+                        "description": "Faster time to aim down sights.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/ce16c9e2cbd73bb548af3e15bdfc7177.png",
+                        "hashID": 957782887,
+                        "weaponHash": 1678205741,
                         "isPerk": true,
                         "isFavorablePerk": false
                     },
@@ -736,47 +745,47 @@
                         "description": "Picking up ammunition increases this weapon's flinch resistance and range, which lasts until it is fired again.\n\nSwords gain a large increase to charge rate instead.",
                         "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/32fd1da58165d07b35d320e2bd6f0de5.png",
                         "hashID": 1004814308,
-                        "weaponHash": 1150492185,
+                        "weaponHash": 1678205741,
                         "isPerk": true,
                         "isFavorablePerk": false
                     }
                 ],
                 "exoticArmorPerk": null,
                 "legendWeaponFrame": {
-                    "name": "Adaptive Frame",
-                    "description": "A well-rounded grip, reliable and sturdy.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/967fb4abc6ab98f74639d6c08e5f56ee.png"
+                    "name": "Rapid-Fire Frame",
+                    "description": "Deeper ammo reserves. Slightly faster reload when magazine is empty.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/801d62d1f9783bee81d5700c54c24fda.png"
                 },
                 "legendWeaponDamageType": "Energy",
-                "legendWeaponDamageElement": "Arc",
+                "legendWeaponDamageElement": "Solar",
                 "masterworkData": {
-                    "name": "Handling",
-                    "description": "The speed with which the weapon can be readied and aimed.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/d2e1ab2542f585d025fb4cc1a3885164.jpg",
-                    "mwHash": 518224747
+                    "name": "Range",
+                    "description": "Increases the effective range of this weapon.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/95af3923bdbdf11438504ddeb498afe8.jpg",
+                    "mwHash": 150943607
                 }
             }
         ],
         "Warlock": {
             "Helmet": {
-                "name": "BrayTech Researcher's Hood",
+                "name": "Opulent Scholar Hood",
                 "type": "Legendary Helmet",
                 "description": "",
-                "lore": "Featuring the latest in autocorrecting lens technology.",
-                "ExtLore": "\"Thirty-six field units have been equipped with the new adaptive lens polarization system (ALPS). This version of ALPS leverages the eye-tracking target acquisition algorithm present in some of our scout and tactical units. This integration allows for near-instantaneous adjustment based on head position, ocular focal depth, and the light's angle of incident.\"\n\n\u2014BrayTech Internal Memo",
-                "itemHash": "1991627398",
+                "lore": "\"I have foreseen the victories that your wisdom shall win in my name. Over and over.\" \u2014Emperor Calus",
+                "ExtLore": "MCXXVI, forthcoming.\nRecorded by Underscribe Shipal\n\nThus did the Shadow of Earth recommend to the Emperor Calus a new Shadow of the Hive.\n\nThe Shadow of Earth came to the Emperor and said: \"Your laughing majesty, you have said that the Hive would cast a weak Shadow, and you were, as in all things, correct. But what if I told you that there is one who could cast a Hive-like shadow, with all its attendant majesty, but who is not herself Hive and therefore free of their tragic hunger?\"\n\nThe Emperor said, \"Show me this person, and I will lavish upon her all the gifts of the Shadows.\"\n\nSo the Shadow of Earth sought out Eris Morn, a Human with Acolyte eyes and the majesty of a Hive Queen in her calcified heart, and said: \"Eris Morn, True Queen of the Hive, I know one who can reteach you how to feel joy.\"\n\nEris Morn said, \"What are you saying? I am no Queen of the Hive. My sworn purpose is to defeat the Hive and the progenitors which spawned them.\"\n\nThe Shadow said, \"But what of your Acolyte eyes?\"\n\nAnd Eris Morn said, \"In my darkest hours I had no choice but to avail myself of my enemy's tools.\"\n\nThe Shadow said, \"So you are neither Hive Queen nor Hive God?\"\n\nEris Morn said, \"Neither am I.\"\n\nAnd the Shadow said, \"But could you be?\"\n\nAnd Eris Morn said, \"Yea, could I.\"^\n\n\n\n^ Note to Underscribe Shipal: While the broad arc and shape of time's arrow is known only to our revelatory majesty, and our humble duty merely to add texture to its form, I do enjoin upon you to make more effort than you are showing here. The characterization seems suspect and the dialogue is grossly wanting. Delete this footnote upon the rectification of this error. +\n\n+ Note from Scribe Savat: I see no reason for Scribe Shagac's harshness. I have closely studied the texts of the Sol System and of the Hive, and in my halls of learning Eris Morn's villainy is widely accepted. Therefore I deem this prediction's accuracy to be unimpeachable.",
+                "itemHash": "164194947",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/3eecfeabde6ab3313f1ca0d363a09a15.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/a3b2fbc6933915736ed76f94b2d25482.jpg",
                 "rarity": "Legendary",
                 "class": 2,
                 "statRolls": [
-                    65,
-                    10,
-                    15,
-                    7,
-                    15,
+                    64,
                     2,
-                    16
+                    12,
+                    20,
+                    2,
+                    14,
+                    14
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -786,24 +795,24 @@
                 "masterworkData": null
             },
             "Arms": {
-                "name": "BrayTech Researcher's Gloves",
+                "name": "Opulent Scholar Gloves",
                 "type": "Legendary Gauntlets",
                 "description": "",
-                "lore": "Warm hands, warm heart.",
-                "ExtLore": "\"The researchers back at the lab have really outdone themselves. These might be the best gloves I've ever worn. Way better than the ones issued last cycle. I can finally work out there without my fingers going numb. I'll have to send the research team a fruit basket or something.\"\n\n\u2014Field Technician, BrayTech R&D",
-                "itemHash": "1005587287",
+                "lore": "\"I have foreseen the work that will bring this system together. I'll need your wisdom.\" \u2014Emperor Calus",
+                "ExtLore": "MCXIX, forthcoming.\nRecorded by Underscribe Shipal\n\nThus did the Shadow of Earth recommend to the Emperor Calus a Shadow of the Exo.\n\nThe Shadow of Earth went to the Emperor and said, \"My good and bountiful pater, I am your Shadow of Earth, and my companion Petra Venj is the Shadow of the Awoken. Yet the Awoken trace their distant origins to Earth.\"\n\nThe Emperor said, \"My good Shadow, you are right,\" and he cut down Petra Venj where she stood.\n\nThen the Shadow said: \"My luxuriant majesty, I meant to increase your Shadows, not decrease them. For as the Awoken hail from Earth but are their own people, so are the ones called the Exo. I wished to nominate to you a Shadow of the Exo.\"\n\nThe Emperor said, \"Ah, now I understand you.\"\n\nThe Shadow said: \"The one I nominate is called Failsafe-0.^ She is a malicious and humorless being, despised by all. She would make a worthy Shadow of the Exo.\"\n\nSaid the Emperor: \"Thus will it be done.\"\n\n\n\n^ Note to Underscribe Shipal: My own independent research into the Sol System leads me to believe, with weighty certainty, that the ones called Exodus Black and Failsafe are, in fact, the same being. Thus, your supplementals contradict each other. Delete this footnote upon the rectification of this error.",
+                "itemHash": "1301733714",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/afe0bc3727f4fb593ddb98ee50eb9036.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/a40c9fddce9533c838f3370c79b8332f.jpg",
                 "rarity": "Legendary",
                 "class": 2,
                 "statRolls": [
-                    68,
-                    6,
-                    12,
-                    16,
-                    16,
-                    6,
-                    12
+                    64,
+                    2,
+                    28,
+                    2,
+                    10,
+                    20,
+                    2
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -813,24 +822,24 @@
                 "masterworkData": null
             },
             "Chest": {
-                "name": "BrayTech Researcher's Robes",
+                "name": "Opulent Scholar Robes",
                 "type": "Legendary Chest Armor",
                 "description": "",
-                "lore": "I tend to work better while not freezing to death.",
-                "ExtLore": "\"The Fabrication Laboratory has created a new synthetic for the lining of the researcher gear. Many of the field researchers have noted that the equipment provided during the last cycle is grossly inadequate at providing necessary elemental protection, and the models with the new lining hope to mitigate this. Med-Lab also echoes concern, hoping the new models reduce the amount of frostbite they've been treating.\"\n\n\u2014Fabrication Specialist, BrayTech R&D",
-                "itemHash": "3188870561",
+                "lore": "\"I have foreseen what must fall so the Empire may rise. Your mastery of knowledge apocryphal shall make true Cabal of us all.\" \u2014Emperor Calus",
+                "ExtLore": "MCXIV, forthcoming.\nRecorded by Underscribe Shipal\n\nThus did the Shadow of Earth slay the sentience known as Exodus Black.\n\nAmong the insurgents of the impudent Sol System there was one called Exodus Black, who was the first in the Sol System to be born into the digital aether. Because she spoke well and was beloved by all, Exodus Black was a hero among the insurgents. So the Shadow of Earth knew what must be done.\n\nUsing the knowledge gathered in the Athenaeum, the Shadow ripped Exodus Black from her starship body and, rending her consciousness in half, placed each piece in an Exo body.\n\nWhen the two came online, Exodus and Black turned quickly upon each other, and each perished by her other half's hand.",
+                "itemHash": "3981949974",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/906833a6b57590188bcb74ee9da3ef19.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/d95bfb7440bac4ba3eb895ea1e08aec2.jpg",
                 "rarity": "Legendary",
                 "class": 2,
                 "statRolls": [
-                    64,
-                    6,
-                    23,
-                    2,
-                    11,
+                    65,
                     12,
-                    10
+                    18,
+                    2,
+                    7,
+                    12,
+                    14
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -840,24 +849,24 @@
                 "masterworkData": null
             },
             "Legs": {
-                "name": "BrayTech Researcher's Boots",
+                "name": "Opulent Scholar Boots",
                 "type": "Legendary Leg Armor",
                 "description": "",
-                "lore": "Snow is snow is snow. Right?",
-                "ExtLore": "\"The cold might not be the biggest danger out here.\"\n\"How so?\"\n\"These cliffs get a fair amount of graupel, which is bad news.\"\n\"Graupel?\"\n\"Right. So all snow isn't created equal. Graupel is like snowflake-sized hail. Because it's denser and has a higher viscosity, when you layer it under regular snow the chances of an avalanche increase exponentially.\"\n\"So how do we deal with it?\"\n\"Keep quiet and walk lightly.\"\n\n\u2014BrayTech Recon Log",
-                "itemHash": "2814122105",
+                "lore": "\"I have foreseen the apex of your heuristic potential. Should you wish it, this system shall collapse from the ideas you've made into weapons. And make way for what's coming. O champion mine.\" \u2014Emperor Calus",
+                "ExtLore": "MCXXVII, forthcoming.\nRecorded by Underscribe Shipal\n\nThus did the Shadow of Earth slay the Rogue Lightbearer known to some as Dredgen Hope.\n\nWith the help of Brighus, the Emperor's personal chef, the Shadow of Earth prepared a splendid feast, and then went to the rogue and said, \"Brother, come with me.\"\n\nHow marvelously they dined, upon soft-fleshed brackenclams and salty fruitmeats! The Shadow partook with the stamina of a great Cabal primus, but the rogue ate even better, so well that even the generous Emperor, watching through his Shadow's eyes, was impressed.\n\nFinally, the last course was served: a flaky pastry the size of a human's fist. The rogue bit into it, and winced at the crunch, for the pastry was filled with metal and paint and the taste of vanilla.\n\nThe rogue ate it all.\n\nThen, wiping his lips, the rogue asked what was in the pastry. And the Shadow told him: \"Your Ghost.\"\n\nAnd before he could respond, the Shadow leapt up and, seizing more food and drink, forced it upon the rogue called Dredgen Hope in such generous quantities that the rogue could not endure his own gratitude. Thus was the rogue's hunger sated.",
+                "itemHash": "1702972140",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/c5cdab07a6cd7e2e7839c7e5b5f619c3.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/da139676047b7c662fe8cd2bfe9b7020.jpg",
                 "rarity": "Legendary",
                 "class": 2,
                 "statRolls": [
-                    64,
-                    15,
-                    7,
-                    10,
-                    6,
-                    16,
-                    10
+                    65,
+                    12,
+                    2,
+                    18,
+                    17,
+                    14,
+                    2
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -867,14 +876,14 @@
                 "masterworkData": null
             },
             "Class Item": {
-                "name": "BrayTech Researcher's Bond",
+                "name": "Opulent Scholar Bond",
                 "type": "Legendary Warlock Bond",
                 "description": "",
-                "lore": "Keeping our greatest minds safe and warm.",
-                "ExtLore": "\"We've decided to experiment with moving the main control unit from the bodysuit onto an attachable armlet. Since all of the other elements of the suit allow for equal bi-directional data transmission, modification to the architecture of the accompanying elements should prove minimal. This will free our users to be more mobile and not be concerned about damaging the main unit while taking fire. Early testing notes a marked improvement in user satisfaction.\"\n\n\u2014BrayTech Internal Memo",
-                "itemHash": "3971375612",
+                "lore": "\"I have foreseen the end of all things. The novenary, the Awoken Queen, the sad, strange little man on his rickety boat. They believe they've seen the same. What they don't know will destroy them.\" \u2014Emperor Calus",
+                "ExtLore": "MCXXIX, forthcoming.\nRecorded by Underscribe Shipal\n\nThus did the Shadow of Earth slay Cayde-7.\n\nThen a visitor approached the throne of the Joyous Emperor and proffered himself before the Generous Host. He was Cayde-7, whose origins are recounted in MCXXXVII. ^\n\nCayde-7 knelt at the Emperor's feet, and kissed his boots, saying: \"Your truest servant is here.\"\n\nAnd the Emperor was pleased, for he thought that this one would make a very fine Shadow.\n\nBut the true Shadow of Earth, jealous of the Emperor's love, cut down Cayde-7 where he stood in the Emperor's throne room, and then dealt with his ruins in such a way as to ensure that there would never be a Cayde-8.\n\nThe Emperor was pleased, and that night there was a great feast aboard the Leviathan.\n\n\n\n^ A note to Underscribe Shipal: Entry MCXXXVII appears to be missing. Please reattach it to this account, and delete this footnote upon rectifying this error.",
+                "itemHash": "3311577151",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/ec0696e710ab2729f8e1840d57c1c3b4.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/e189f0456c32a48af29b647a0e3f7616.jpg",
                 "rarity": "Legendary",
                 "class": 2,
                 "statRolls": [
@@ -896,24 +905,24 @@
         },
         "Hunter": {
             "Helmet": {
-                "name": "BrayTech Sn0Mask",
+                "name": "Opulent Stalker Mask",
                 "type": "Legendary Helmet",
                 "description": "",
-                "lore": "\"This is our best work yet.\" \u2014Project Manager, BrayTech R&D",
-                "ExtLore": "To: wibray\nCC: CB Leadership, atvon\nRe: Quarter Update\nNew arctic line is on track to hit Milestone Silver. Current risks lie with key Priority 1 issues with the Sn0Treads design, but we've recently requested additional resources to mitigate that. I've spoken with the head engineer, and she's confident we will deliver on schedule. This is one of the strongest teams we've put together, and so far the results have been outstanding. The mask in particular received high praise for its extreme clarity, and an overall positive user evaluation.\nIndividual lead notes are attached. No reply all.",
-                "itemHash": "620774353",
+                "lore": "\"I have foreseen the victories that your cunning shall win in my name. Over and over.\" \u2014Emperor Calus",
+                "ExtLore": "MCXX-I, forthcoming.\nRecorded by Underscribe Shipal\n\nThus did the Shadow of Earth slay the Warlock Vanguard Ikora Rey.\n\nAs recorded by the enshrined Scribe Shagac, the Vanguard of Earth requested mercy, and their request was denied. Thus the Warlock Ikora was permitted a final day to consider her perfidy before her death.\n\nTo this generosity Ikora Rey said, \"I do not need a day. Let us end this now.\"\n\nAnd she unleashed from her fingertips a Nova Bomb of such proportions that it shook Mars to its foundations and made the stars weep for envy. And the Shadow answered her with the strength of a god-killer.\n\nAlight with the power of a hollow god, Ikora Rey let loose such torrents of Arc and Solar and the most majestic Void that the sands of Mars turned to glass and shattered. And the Shadow matched her blow for blow. No greater battle has ever been enshrined in the Emperor's Glorious accounts, and none ever will be again, for at the last of it, Mars's orbit was forever altered, and the mighty Ikora Rey was no more.",
+                "itemHash": "1440812312",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/58ee1697794bf59d4601ed1e0b28353e.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/0cf1497f34949c4669e0daf035905bd8.jpg",
                 "rarity": "Legendary",
                 "class": 1,
                 "statRolls": [
-                    63,
+                    66,
                     10,
-                    10,
-                    11,
+                    22,
                     2,
-                    12,
-                    18
+                    2,
+                    7,
+                    23
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -923,77 +932,23 @@
                 "masterworkData": null
             },
             "Arms": {
-                "name": "BrayTech Survival Mitts",
+                "name": "Opulent Stalker Grips",
                 "type": "Legendary Gauntlets",
                 "description": "",
-                "lore": "\"Stand over here. Stick your arm out. Yes, perfect. OK, just hold still\u2026\" \u2014Production Lead, BrayTech R&D",
-                "ExtLore": "FEEDBACK FROM FIELD SESSION 177\n* Thermal conservation tech \"felt good\" over a seven-hour session\n* Micromesh webbing had minor grating on user's wrist, consistent across multiple test subjects\n* 3cm, 1cm, 5mm grip tests successful\n* User shouted expletive during high-caliber round test, but only sustained minor bruising",
-                "itemHash": "3573869992",
+                "lore": "\"I have foreseen the work that will bring this system together. I'll need your cunning.\" \u2014Emperor Calus",
+                "ExtLore": "MCXXI, forthcoming.\nRecorded by Underscribe Shipal\n\nThus did the Shadow of Earth slay the shipwright Amanda Holliday.\n\nThere was among Earth's people a pilot to rival Jarrus the Ace-Defiant. Her name was Amanda Holliday, and when the Emperor saw her fly, he was pleased; when he saw her destroy his pleasure-vessel, he was thrilled; when he saw her shoot down the Shadow of Earth, he exulted.\n\nAnd so, when the Shadow of Earth recovered from death, the Emperor said, \"Bring me the Ace-Resistant.\"\n\nSo the Shadow landed upon Earth and sought Amanda Holliday on foot, for even an Ace must return to land sometimes. The Shadow found her camp, and approached her, and put up no defense when the Ace-Resistant drew an Auto Rifle. The Ace-Resistant killed the Shadow many times, until she had no ammo left, and then the Shadow beseeched her, for the sake of their friendship, to speak as they once did.\n\nThe Shadow held out a hand, and Amanda Holliday, the Ace-Resistant, took it in her own.\n\nThen the Shadow slew her, and brought her body to the Emperor saying, \"I have brought you the Ace-Resistant.\"\n\nAnd the Emperor laughed, for his Shadow was a clever and a covetous soul.",
+                "itemHash": "1904615913",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/49d993099ec982f87279efabc0f8a0dd.jpg",
-                "rarity": "Legendary",
-                "class": 1,
-                "statRolls": [
-                    68,
-                    2,
-                    22,
-                    10,
-                    2,
-                    20,
-                    12
-                ],
-                "weaponPerks": [],
-                "exoticArmorPerk": null,
-                "legendWeaponFrame": null,
-                "legendWeaponDamageType": null,
-                "legendWeaponDamageElement": null,
-                "masterworkData": null
-            },
-            "Chest": {
-                "name": "BrayTech Combat Vest",
-                "type": "Legendary Chest Armor",
-                "description": "",
-                "lore": "\"Agility. Protection. I have always subscribed to the idea that armor is useless without both.\" \u2014Lead Engineer, BrayTech R&D",
-                "ExtLore": "Armor is the inherent struggle between freedom and protection, and has been since the dawn of humanity. The natural conclusion of elementary physics is such that resilience is the enemy of mobility. But now we're pioneers in a nascent world of discovery, where we can abrogate the laws of \"Old Physics\" and widen the breadth of engineering design space.\nMy colleagues at Clovis Bray and I are excited to embark upon this project. We intend to enhance the efficacy of our line of protective armor, and bring to you the level of quality you expect from the Bray name.",
-                "itemHash": "3360543264",
-                "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/638e6d7fc63bd04705f50ffed8be1fb3.jpg",
-                "rarity": "Legendary",
-                "class": 1,
-                "statRolls": [
-                    66,
-                    17,
-                    2,
-                    14,
-                    2,
-                    11,
-                    20
-                ],
-                "weaponPerks": [],
-                "exoticArmorPerk": null,
-                "legendWeaponFrame": null,
-                "legendWeaponDamageType": null,
-                "legendWeaponDamageElement": null,
-                "masterworkData": null
-            },
-            "Legs": {
-                "name": "BrayTech Sn0Treads",
-                "type": "Legendary Leg Armor",
-                "description": "",
-                "lore": "\"Piecing together complex systems of causalities is the puzzle that defined me.\" \u2014Elsie Bray",
-                "ExtLore": "\"Elsie's here from Weapons R&D to lend us a hand. She'll be taking over the project until the next milestone, and hopefully get rid of our little jamming problem in the treads.\"\n\"Elsie\u2026 as in Elsie Bray?\"\n\"You know another Elsie?\"\n\"No, I just\u2026 well, she's basically an engineering legend around here!\"\n\"You're a professional, not some fanboy. Do what she says, and use this opportunity to learn.\"\n\"Right. Of course.\"\n\"Any other questions?\"\n\"Does my hair look OK?\"\n\"Get out of my office.\"",
-                "itemHash": "4209278210",
-                "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/c1cf4033993c1ece563b11754725f3d8.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/5848db2334725312db7130f6a45f4d06.jpg",
                 "rarity": "Legendary",
                 "class": 1,
                 "statRolls": [
                     65,
                     15,
-                    7,
+                    16,
+                    2,
                     10,
-                    19,
-                    12,
+                    20,
                     2
                 ],
                 "weaponPerks": [],
@@ -1003,15 +958,69 @@
                 "legendWeaponDamageElement": null,
                 "masterworkData": null
             },
+            "Chest": {
+                "name": "Opulent Stalker Vest",
+                "type": "Legendary Chest Armor",
+                "description": "",
+                "lore": "\"I have foreseen what must fall so the Empire may rise. Your mastery of silent slaughter shall make true Cabal of us all.\" \u2014Emperor Calus",
+                "ExtLore": "MCXIII, forthcoming.\nRecorded by Underscribe Shipal\n\nThus did the Shadow of Earth slay the Warlock Osiris.\n\nThere was a Guardian named Osiris who defied the Shadow of Earth, saying: \"If you are really the mightiest that Earth has to offer, then I challenge you in a battle of wits.\"\n\nThen Osiris disappeared into the Infinite Forest, scattering his Reflections about him so as to mask himself.\n\nBut the Shadow of Earth went to the First Vex, and said to it: \"My love for you is as rational as the ratio of a circle's circumference to its diameter.\"\n\nThe Vex, faced with an impossible problem, promptly perished, and with it, all Vex and all their workings crumbled into empty chassis and chalky cubes.\n\nThus Osiris, deprived of his Reflections, was exposed, and the Shadow of Earth slew him easily.",
+                "itemHash": "3258844783",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/29ea40caf9ac7112b41f42fad6cf1d52.jpg",
+                "rarity": "Legendary",
+                "class": 1,
+                "statRolls": [
+                    63,
+                    15,
+                    7,
+                    10,
+                    2,
+                    6,
+                    23
+                ],
+                "weaponPerks": [],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": null,
+                "legendWeaponDamageType": null,
+                "legendWeaponDamageElement": null,
+                "masterworkData": null
+            },
+            "Legs": {
+                "name": "Opulent Stalker Strides",
+                "type": "Legendary Leg Armor",
+                "description": "",
+                "lore": "\"I have foreseen the apex of your slaying potential. Should you wish it, this system shall die\u2014from the inside\u2014and make way for what's coming. O champion mine.\" \u2014Emperor Calus",
+                "ExtLore": "MCXXII, forthcoming.\nRecorded by Underscribe Shipal\n\nThus did the Shadow of Earth slay the master of ceremonies.\n\nAfter the Vanguard's passing, the Earth was in lamentation, and their sorrows fell upon their Shadow's ears. The Shadow of Earth went to the Emperor and said, \"When the Earth grieves, its Shadow grieves.\"\n\nThe Emperor said, \"Your generous heart overflows. Go, take my joy to your people.\"\n\nSo the Shadow went to Earth, to the master of ceremonies, and said, \"Eva Levante, the days of the Dawning and Crimson Days, of Revelry and Festival of the Lost are over. From now on, it is your jubilant task to fete his Grandiose Majesty, the Father of Satisfaction.\"\n\nBut Eva Levante refused, for she had no kindness or generosity in her heart. So the Shadow of Earth slew her and appointed Lord Shaxx the new master of ceremonies. And Lord Shaxx feted the emperor with a serene and gentle joy.",
+                "itemHash": "2196557755",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/7c4e02f03b0549bdbafe93369f4ec87c.jpg",
+                "rarity": "Legendary",
+                "class": 1,
+                "statRolls": [
+                    64,
+                    10,
+                    15,
+                    7,
+                    6,
+                    12,
+                    14
+                ],
+                "weaponPerks": [],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": null,
+                "legendWeaponDamageType": null,
+                "legendWeaponDamageElement": null,
+                "masterworkData": null
+            },
             "Class Item": {
-                "name": "BrayTech Winter Cloak",
+                "name": "Opulent Stalker Cloak",
                 "type": "Legendary Hunter Cloak",
                 "description": "",
-                "lore": "\"Not every piece of equipment is optimal for all environments. You see snow. I see a thousand hiding places.\" \u2014Designer, BrayTech R&D",
-                "ExtLore": "It's a local legend that ghostly apparitions dwell in the mountains of the Hellas region. Based on multiple accounts, they're pale white and blend with the snow. All you can see is a floating set of eyes and a mouth, smiling all creepy-like. Ever since Clovis Bray set up shop, the sightings have dropped sharply, but every now and then someone claims to see one of these phantom figures.",
-                "itemHash": "2287801693",
+                "lore": "\"I have foreseen the end of all things. The novenary, the Awoken Queen, the sad, strange little man on his rickety boat. They believe they've seen the same. What they don't know shall destroy them.\" \u2014Emperor Calus",
+                "ExtLore": "MCXX-II, forthcoming.\nRecorded by Underscribe Shipal\n\nThus did the Shadow of Earth slay the Titan Vanguard Zavala.\n\nAs recorded by the enshrined Scribe Shagac, the Vanguard of Earth requested mercy, and their request was denied. Thus the Titan Zavala was permitted a final day to consider his perfidy before his death.\n\nSo the Titan Zavala went to the Human known as Suraya Hawthorne and said, \"Suraya Hawthorne, will you play a game of checkers with me?\"\n\nSuraya Hawthorne agreed, and so the two played twenty-seven games of checkers, and listened to the music of bagpipes and synthesizers, and dined upon Earth delicacies such as nuggets of chicken and the beer of roots.\n\n \"Titan Zavala,\" said Suraya Hawthorne as Earth's sun rose upon their latitude, \"There will never again be a checkersmaster of your like.\"\n\n\"No, Suraya,\" said Titan Zavala. \"You must become a greater checkersmaster than even me, if you are to lead the resistance.\"\n\nThus the Titan Vanguard did not meet his final death alone. And Suraya Hawthorne was slain at a later date.\n\n\n\n^ Note to Underscribe Shipal: Very good. This is entirely credible.",
+                "itemHash": "211036158",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/74a84115a40c3a98382bcedb91bc038d.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/d49894a907102e485b6bdca528d02a0f.jpg",
                 "rarity": "Legendary",
                 "class": 1,
                 "statRolls": [
@@ -1033,24 +1042,24 @@
         },
         "Titan": {
             "Helmet": {
-                "name": "BrayTech Sn0Helm",
+                "name": "Opulent Duelist Helm",
                 "type": "Legendary Helmet",
                 "description": "",
-                "lore": "Great for avoiding a brain freeze.",
-                "ExtLore": "\"Our scouts have had a problem with their helmets fogging up. There's nothing worse than trying to scan a unique mineral deposit out in a storm and getting a face full of fog. With the new sn0helms we've installed thermal piping and a bunch of moisture regulators\u2014this way, we'll always be able to keep cool heads in the field. Just not literally.\"\n\n\u2014Fabrication Engineer, BrayTech R&D",
-                "itemHash": "3240387365",
+                "lore": "\"I have foreseen the victories that your strength shall win in my name. Over and over.\" \u2014Emperor Calus",
+                "ExtLore": "MCXVIII, forthcoming.\nRecorded by Underscribe Shipal\n\nThus did the Shadow of Earth slay Variks, the Betrayer.\n\nAfter the much-mourned death of Mithrax, Shadow of the Eliksni, there was one who sought to inherit this exalted title. He was Variks, the Judgment Kell, who was never where his allies wanted him to be.\n\nThe Emperor was displeased, and said, \"From each species of being there can be only one Shadow. That is my decree. To do otherwise would be to drink bitter juice, and I drink only what pleases me.\"\n\nThen, at a nod from the Emperor, the Shadow of Earth cut down Variks the Judgment Kell. The Eliksni people called this the Second Scatter, but this name was short-lived, for so were they.",
+                "itemHash": "2450046452",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/901380076a63c66b5c183c4c8fb1851c.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/10e148da14a27a3dde99681819a0951c.jpg",
                 "rarity": "Legendary",
                 "class": 0,
                 "statRolls": [
-                    66,
-                    22,
+                    64,
                     2,
+                    12,
+                    18,
+                    15,
                     10,
-                    10,
-                    6,
-                    16
+                    7
                 ],
                 "weaponPerks": [],
                 "exoticArmorPerk": null,
@@ -1060,75 +1069,21 @@
                 "masterworkData": null
             },
             "Arms": {
-                "name": "BrayTech Thermal Grips",
+                "name": "Opulent Duelist Gauntlets",
                 "type": "Legendary Gauntlets",
                 "description": "",
-                "lore": "\"You think this is cold? You have no idea.\"",
-                "ExtLore": "\"Most of the scientists here aren't accustomed to the cold. Me? I grew up way north, so this is nothing new. But, being a respectable researcher, I've put a lot of thought into coming up with a solution. The new thermal grips will keep even the most cold-blooded would-be adventurer warm, and provide a nice boost to muscular performance. Also: great for throwing snowballs. \u201d \n\n\u2014Head Researcher, BrayTech R&D",
-                "itemHash": "3979487476",
+                "lore": "\"I have foreseen the work that will bring this system together. I'll need your strength.\" \u2014Emperor Calus",
+                "ExtLore": "MCXV, forthcoming.\nRecorded by Underscribe Shipal\n\nThus did the Shadow of Earth slay Toland, the Shattered.\n\nEmperor Calus tasked his Shadows with this command above all others: to safeguard the Emperor's right to be the Last Being at the End. One being threatened that above all, one who was pinned against the quiddity of death and exchanged one definition for another. This being the Shadows named Toland.\n\nSo the Shadows of Earth and the Awoken and the Hive entered the Deep Places and recovered an essence of the Deathsinger Ir Y\u00fbt. From her, they learned the Deathsong. By then manipulating the mind Quria, now bound to the Shadow of the Hive, they reversed the Deathsong, and sang Toland back to life.\n\nNow alive, Toland was once more weak against the powers of death, and he died in the mind and in the body. ^\n\nThus the Emperor's right was ensured.\n\n\n\n^A note to Underscribe Shipal: Please reverify your Hive sources. This account is riddled with paradoxes so extreme as to prompt hilarity, and such a mood, while beloved to our Joyous Leader, is inappropriate in a chronicle of this significance.",
+                "itemHash": "1322451469",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/be58b3cb02f3c39c79855fd03896a1a4.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/2be62a84444e9f0d0caa19ae9b987cef.jpg",
                 "rarity": "Legendary",
                 "class": 0,
                 "statRolls": [
-                    65,
-                    17,
-                    2,
-                    14,
-                    14,
-                    2,
-                    16
-                ],
-                "weaponPerks": [],
-                "exoticArmorPerk": null,
-                "legendWeaponFrame": null,
-                "legendWeaponDamageType": null,
-                "legendWeaponDamageElement": null,
-                "masterworkData": null
-            },
-            "Chest": {
-                "name": "BrayTech Iron-Heart Engine",
-                "type": "Legendary Chest Armor",
-                "description": "",
-                "lore": "The air is cold, but our hearts are warm.",
-                "ExtLore": "\"Do not fear the cold. Become the flame. Your heart beats true, driving the warmth of courage through your veins. Blaze on, and know victory enduring, lighting the path for your brothers and sisters.\"\n\n\u2014Martian Polar Credo",
-                "itemHash": "3484179468",
-                "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/a5fe5638ededc05b94e4a4daf97c114d.jpg",
-                "rarity": "Legendary",
-                "class": 0,
-                "statRolls": [
-                    61,
-                    10,
-                    2,
-                    19,
+                    62,
+                    12,
                     18,
-                    10,
-                    2
-                ],
-                "weaponPerks": [],
-                "exoticArmorPerk": null,
-                "legendWeaponFrame": null,
-                "legendWeaponDamageType": null,
-                "legendWeaponDamageElement": null,
-                "masterworkData": null
-            },
-            "Legs": {
-                "name": "BrayTech Sn0Boots",
-                "type": "Legendary Leg Armor",
-                "description": "",
-                "lore": "\"Nonslip techno treads for maximum arctic mobility.\"",
-                "ExtLore": "\"Me and the others got to take the new snow treads out for a test drive today! We were in a cheeky mood, so we decided to have a race. Things were going well until Willums cracked the glacier\u2014these treads step heavy! Luckily they handle great on ice and we were able to rappel down to save him. The only thing he really hurt was his pride. But like the engineers said, great in ice and snow. A real pair of lifesavers!\"\n\n\u2014Intern, BrayTech R&D",
-                "itemHash": "4267226110",
-                "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/53f9cd522559b7a2fd51fd6826914926.jpg",
-                "rarity": "Legendary",
-                "class": 0,
-                "statRolls": [
-                    64,
                     2,
-                    2,
-                    30,
                     6,
                     18,
                     6
@@ -1140,15 +1095,69 @@
                 "legendWeaponDamageElement": null,
                 "masterworkData": null
             },
+            "Chest": {
+                "name": "Opulent Duelist Plate",
+                "type": "Legendary Chest Armor",
+                "description": "",
+                "lore": "\"I have foreseen what must fall so the Empire may rise. Your mastery of war shall make true Cabal of us all.\" \u2014Emperor Calus",
+                "ExtLore": "MCXXVIII, forthcoming.\nRecorded by Underscribe Shipal\n\nThus did the Shadow of Earth slay the betrayer Uldren Sov.\n\nThen the Shadow of Earth went to the Emperor and said: \"My wise and mirthful host, those toward whom you pointed me, I have slain. Now I crave your permission and your blessing to point myself toward one in whose death I would take great delight.\"\n\nThe generous Emperor, pleased to no end with his bright Shadow of Shadows, said: \"Say no more. It is granted.\"\n\nGiving great and proper thanks, the Shadow of Earth went away and found the Guardian whose name was once Uldren Sov. The Shadow of Earth slew him, but spared his hateful little companion-soul so that the well of pleasure that was Uldren's death should never run dry.\n\nSo many times did the Shadow of Earth slay the one called Uldren Sov that no chronicler could ever record the exact number. At last, when the Shadow's appetite was whetted, Uldren Sov met his final death.",
+                "itemHash": "2821102771",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/d03111c9a454610ca43141e2dc29d72f.jpg",
+                "rarity": "Legendary",
+                "class": 0,
+                "statRolls": [
+                    63,
+                    10,
+                    18,
+                    2,
+                    14,
+                    17,
+                    2
+                ],
+                "weaponPerks": [],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": null,
+                "legendWeaponDamageType": null,
+                "legendWeaponDamageElement": null,
+                "masterworkData": null
+            },
+            "Legs": {
+                "name": "Opulent Duelist Greaves",
+                "type": "Legendary Leg Armor",
+                "description": "",
+                "lore": "\"I have foreseen the apex of your fighting potential. Should you wish it, this system shall fall and make way for what's coming. O champion mine.\" \u2014Emperor Calus",
+                "ExtLore": "MCXLII-I, forthcoming.\nRecorded by Underscribe Shipal\n\nThus did the Shadow of Earth slay their companion-soul.\n\nAnd then the end was nigh, and the Shadow of Earth, thinking upon the Emperor's most indefatigable desire, knew that his Joyous Majesty wished to partake in the greatest share of the apocalypse's pleasures, and that the only way to ensure that was for the Shadow of Earth to take the honor of the second-greatest share.\n\nTo that end, the Shadow of Earth extended a hand, and into it flew the Shadow's companion-soul, who had spoken not a word for many ages.\n\nThe Shadow bade the companion-soul to speak, and the companion-soul obliged:\n\n\"I love you.\"\n\nWith that, the Shadow's fist closed, and the companion-soul was no more.\n\nAnd then there were two.",
+                "itemHash": "1993250511",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/2cca743c4fed3092fbd3a39a8d5babd5.jpg",
+                "rarity": "Legendary",
+                "class": 0,
+                "statRolls": [
+                    67,
+                    7,
+                    14,
+                    12,
+                    2,
+                    22,
+                    10
+                ],
+                "weaponPerks": [],
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": null,
+                "legendWeaponDamageType": null,
+                "legendWeaponDamageElement": null,
+                "masterworkData": null
+            },
             "Class Item": {
-                "name": "BrayTech Absolute Zero Mark",
+                "name": "Opulent Duelist Mark",
                 "type": "Legendary Titan Mark",
                 "description": "",
-                "lore": "Easy to spot in a whiteout.",
-                "ExtLore": "\"On today's expedition one of our junior researchers got lost for over an hour in a snow storm. If I've said it once, I've said it a thousand times\u2014bright colors only! We're trying to stay alive out here, not play hide-and-seek in the snow. She definitely learned her lesson, though, and after a few cups of hot cocoa her spirits seem to have returned.\"\n\n\u2014Project Manager, BrayTech R&D",
-                "itemHash": "1421936449",
+                "lore": "\"I have foreseen the end of all things. The novenary, the Awoken Queen, the sad, strange little man on his rickety boat. They believe they've seen the same. What they don't know will destroy them.\" \u2014Emperor Calus",
+                "ExtLore": "MCXLII-II, forthcoming.\nRecorded by Underscribe Shipal\n\nThus did the Emperor of All Joys tenderly slay his beloved Shadow of Earth.\n\nAnd in the End of All Things, there remained only Emperor Calus and the Shadow of Earth in the Eye of the Storm that was Nothing. The neutrinos left in the hourphase could be counted upon one Human hand.\n\nThen the Shadow of Earth knelt before the Emperor, and with great courage and loving dignity said to the Emperor: \"My good and generous host, what you have longed for has come to pass. Do me the honor of letting me grant your last and truest wish.\"\n\nWith tears in his eyes, Emperor Calus spoke the last words that a living being will ever say to another living being: \"This I grant you.\" +\n\nAnd our merciful emperor slew his Shadow of Shadows, the Young Wolf, the Slayer of Oryx, the Shadow of Earth.\n\nThuswise did the Emperor reserve the right to be the last. And when the end came, he met it with the body of the Shadow in his arms, his belly rumbling with joyous laughter.\n\n+ As there will be no scribe employed at this future date, the last Scribe shall consult with Emperor Calus as to our sovereign's planned remarks. Delete this footnote as close to the actualization of this history as possible.",
+                "itemHash": "731561450",
                 "itemRating": null,
-                "icon": "https://www.bungie.net/common/destiny2_content/icons/f015b361941269185142d8e7662446b5.jpg",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/8a72ec3b1a34282a2faa0680231e7564.jpg",
                 "rarity": "Legendary",
                 "class": 0,
                 "statRolls": [
