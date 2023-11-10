@@ -27,7 +27,8 @@ class APIPrediction(Resource):
         data = json.load(file)
         file.close()
         self.location = data["Landing Zone"]
-        if self.location == "The Last City":
+
+        if self.location == "Tower Hangar":
             return 0
         elif self.location == "Winding Cove":
             return 1
