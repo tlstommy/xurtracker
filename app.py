@@ -13,6 +13,7 @@ from resources.apiPrediction import APIPrediction
 from resources.apiExoticWeapons import APIExoticWeapons
 from resources.apiLocation import APILocation
 from resources.apiDates import APIDates
+from resources.apiData import APIData
 from resources.apiArmor import APIArmor
 from resources.apiLegendaryWeapons import APILegendaryWeapons
 from resources.apiExotics import APIExotics
@@ -33,6 +34,7 @@ limiter.init_app(app)
 #api routes
 
 api.add_resource(APIPrediction, '/api/prediction-data')
+api.add_resource(APIData, '/api/get-data')
 #api.add_resource(APIExotics, '/api/exotics')
 #api.add_resource(APIArmor, '/api/armor')
 #api.add_resource(APILocation, '/api/location')
