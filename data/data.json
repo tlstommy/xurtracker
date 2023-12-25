@@ -2,7 +2,7 @@
     "Location": "European Dead Zone",
     "Planet": "Earth",
     "Landing Zone": "Winding Cove",
-    "Week": "December 22, 2023",
+    "Week": "December 25, 2023",
     "Exotics": {
         "Exotic Engram": {
             "name": "Exotic Engram",
@@ -51,6 +51,7 @@
             "itemHash": "1345867571",
             "itemRating": null,
             "icon": "https://www.bungie.net/common/destiny2_content/icons/2a2a95b819312fc6fef728911cfd6fa2.jpg",
+            "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/1345867571.jpg",
             "rarity": "Exotic",
             "class": 3,
             "statRolls": [],
@@ -116,6 +117,7 @@
             "itemHash": "3856705927",
             "itemRating": null,
             "icon": "https://www.bungie.net/common/destiny2_content/icons/cef1290d58a2d94d1437e1e569fa7996.jpg",
+            "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/3856705927.jpg",
             "rarity": "Exotic",
             "class": 3,
             "statRolls": [],
@@ -181,6 +183,7 @@
             "itemHash": "2822465023",
             "itemRating": null,
             "icon": "https://www.bungie.net/common/destiny2_content/icons/885fcf7b139b369cb47f4548f1fb658f.jpg",
+            "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/2822465023.jpg",
             "rarity": "Exotic",
             "class": 2,
             "statRolls": [
@@ -214,6 +217,7 @@
             "itemHash": "1321354573",
             "itemRating": null,
             "icon": "https://www.bungie.net/common/destiny2_content/icons/a7c3ee955c5e8b1c20122206d1bf60ff.jpg",
+            "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/1321354573.jpg",
             "rarity": "Exotic",
             "class": 1,
             "statRolls": [
@@ -247,6 +251,7 @@
             "itemHash": "241462142",
             "itemRating": null,
             "icon": "https://www.bungie.net/common/destiny2_content/icons/9f51bbad83aeb142eb56d9faf7440662.jpg",
+            "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/241462142.jpg",
             "rarity": "Exotic",
             "class": 0,
             "statRolls": [
@@ -283,6 +288,7 @@
                 "itemHash": "211938782",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/ff8b7820f127aab0e82e170739cdb6d0.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/211938782.jpg",
                 "rarity": "Legendary",
                 "class": 3,
                 "statRolls": [],
@@ -348,6 +354,7 @@
                 "itemHash": "35794111",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/98230117d6f5b26b013956e8c47fe606.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/35794111.jpg",
                 "rarity": "Legendary",
                 "class": 3,
                 "statRolls": [],
@@ -413,6 +420,7 @@
                 "itemHash": "3075224551",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/e0df639eada0df235be88d40962a3a3c.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/3075224551.jpg",
                 "rarity": "Legendary",
                 "class": 3,
                 "statRolls": [],
@@ -478,6 +486,7 @@
                 "itemHash": "2492081469",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/217a45eb720f6d16ef2843833ce404e8.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/2492081469.jpg",
                 "rarity": "Legendary",
                 "class": 3,
                 "statRolls": [],
@@ -543,6 +552,7 @@
                 "itemHash": "3472875143",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/5f9ef662f62e33de2a7b9b314e262394.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/3472875143.jpg",
                 "rarity": "Legendary",
                 "class": 3,
                 "statRolls": [],
@@ -608,6 +618,7 @@
                 "itemHash": "1622998472",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/6495d6a04cc9e7c0515b27b26ad8be60.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/1622998472.jpg",
                 "rarity": "Legendary",
                 "class": 3,
                 "statRolls": [],
@@ -673,6 +684,7 @@
                 "itemHash": "4096943616",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/62b153037ece258f9ed606b3d3787fad.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/4096943616.jpg",
                 "rarity": "Legendary",
                 "class": 3,
                 "statRolls": [],
@@ -749,6 +761,7 @@
                 "itemHash": "149949001",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/2c8f4936410042ae18451ed014f33993.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/149949001.jpg",
                 "rarity": "Legendary",
                 "class": 2,
                 "statRolls": [
@@ -776,6 +789,7 @@
                 "itemHash": "1853444544",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/92a4f483f21b2830284e682177149198.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/1853444544.jpg",
                 "rarity": "Legendary",
                 "class": 2,
                 "statRolls": [
@@ -803,6 +817,7 @@
                 "itemHash": "817757576",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/9abbcf159e1cda62b145f4b38438ee24.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/817757576.jpg",
                 "rarity": "Legendary",
                 "class": 2,
                 "statRolls": [
@@ -830,6 +845,7 @@
                 "itemHash": "548384250",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/b20d8ba9411e6e60e6782cd255d14327.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/548384250.jpg",
                 "rarity": "Legendary",
                 "class": 2,
                 "statRolls": [
@@ -857,6 +873,7 @@
                 "itemHash": "2519855077",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/e351ff91b04f0b47ea7f639d7e7b7f79.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/2519855077.jpg",
                 "rarity": "Legendary",
                 "class": 2,
                 "statRolls": [
@@ -886,6 +903,7 @@
                 "itemHash": "3585812448",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/76e659c98997497519bb269b0d48e054.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/3585812448.jpg",
                 "rarity": "Legendary",
                 "class": 1,
                 "statRolls": [
@@ -913,6 +931,7 @@
                 "itemHash": "1193359281",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/aaaef3a0fdae23ccaa6e3037f1c80351.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/1193359281.jpg",
                 "rarity": "Legendary",
                 "class": 1,
                 "statRolls": [
@@ -940,6 +959,7 @@
                 "itemHash": "161082855",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/a976d858f4d9df122e61eb433edfb982.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/161082855.jpg",
                 "rarity": "Legendary",
                 "class": 1,
                 "statRolls": [
@@ -967,6 +987,7 @@
                 "itemHash": "1024612099",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/2741831b4e7c49776562176529319cd9.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/1024612099.jpg",
                 "rarity": "Legendary",
                 "class": 1,
                 "statRolls": [
@@ -994,6 +1015,7 @@
                 "itemHash": "876580598",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/271ae883f478e28f6fdf44b68f3dbee5.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/876580598.jpg",
                 "rarity": "Legendary",
                 "class": 1,
                 "statRolls": [
@@ -1023,6 +1045,7 @@
                 "itemHash": "4182737364",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/94bbfca68a668f255fe9608bc88e5758.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/4182737364.jpg",
                 "rarity": "Legendary",
                 "class": 0,
                 "statRolls": [
@@ -1050,6 +1073,7 @@
                 "itemHash": "3013565805",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/30e3283d0c2377f001b1f8a57a44647f.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/3013565805.jpg",
                 "rarity": "Legendary",
                 "class": 0,
                 "statRolls": [
@@ -1077,6 +1101,7 @@
                 "itemHash": "479000083",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/4b0ff3dde383a35fbb4fde06d08bf865.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/479000083.jpg",
                 "rarity": "Legendary",
                 "class": 0,
                 "statRolls": [
@@ -1104,6 +1129,7 @@
                 "itemHash": "3259907375",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/5e00a70172d5761e47d081675b03c5ad.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/3259907375.jpg",
                 "rarity": "Legendary",
                 "class": 0,
                 "statRolls": [
@@ -1131,6 +1157,7 @@
                 "itemHash": "3108883530",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/61f49429957966d96436615e0d1e9363.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/3108883530.jpg",
                 "rarity": "Legendary",
                 "class": 0,
                 "statRolls": [
