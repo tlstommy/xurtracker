@@ -374,6 +374,7 @@ class main:
                 "legendWeaponDamageType":damageTypeHash.get("shortTitle"),
                 "legendWeaponDamageElement":elementData["displayProperties"].get("name"),
                 "masterworkData":None,
+                "damageTypeIcon":"https://www.bungie.net"+str(elementData["displayProperties"].get("icon")),
             }
             
             if(jsonTemplate.get("rarity") != "Exotic"):

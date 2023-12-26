@@ -2,7 +2,7 @@
     "Location": "European Dead Zone",
     "Planet": "Earth",
     "Landing Zone": "Winding Cove",
-    "Week": "December 25, 2023",
+    "Week": "December 26, 2023",
     "Exotics": {
         "Exotic Engram": {
             "name": "Exotic Engram",
@@ -106,7 +106,8 @@
             "legendWeaponFrame": null,
             "legendWeaponDamageType": "Energy",
             "legendWeaponDamageElement": "Arc",
-            "masterworkData": null
+            "masterworkData": null,
+            "damageTypeIcon": "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_092d066688b879c807c3b460afdd61e6.png"
         },
         "Hawkmoon": {
             "name": "Hawkmoon",
@@ -172,7 +173,8 @@
             "legendWeaponFrame": null,
             "legendWeaponDamageType": "Kinetic",
             "legendWeaponDamageElement": "Kinetic",
-            "masterworkData": null
+            "masterworkData": null,
+            "damageTypeIcon": "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_3385a924fd3ccb92c343ade19f19a370.png"
         },
         "Warlock Exotic": {
             "name": "Felwinter's Helm",
@@ -343,7 +345,8 @@
                     "description": "How well shots fired by this weapon hit their target.",
                     "icon": "https://www.bungie.net/common/destiny2_content/icons/2101f7f148c5685ac32774a9fce91f62.jpg",
                     "mwHash": 892374263
-                }
+                },
+                "damageTypeIcon": "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_3385a924fd3ccb92c343ade19f19a370.png"
             },
             {
                 "name": "Temptation's Hook",
@@ -409,7 +412,8 @@
                     "description": "Increases the damage inflicted by each round.",
                     "icon": "https://www.bungie.net/common/destiny2_content/icons/f2354558ad75fb2527155f0f58c2dcc3.jpg",
                     "mwHash": 1486919755
-                }
+                },
+                "damageTypeIcon": "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_092d066688b879c807c3b460afdd61e6.png"
             },
             {
                 "name": "Threaded Needle",
@@ -475,7 +479,8 @@
                     "description": "The time it takes to reload this weapon.",
                     "icon": "https://www.bungie.net/common/destiny2_content/icons/e3a74e6dd4c520ea17eb1fdaf2128213.jpg",
                     "mwHash": 4283235143
-                }
+                },
+                "damageTypeIcon": "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_ceb2f6197dccf3958bb31cc783eb97a0.png"
             },
             {
                 "name": "The Number",
@@ -541,7 +546,8 @@
                     "description": "Increases the effective range of this weapon.",
                     "icon": "https://www.bungie.net/common/destiny2_content/icons/95af3923bdbdf11438504ddeb498afe8.jpg",
                     "mwHash": 150943607
-                }
+                },
+                "damageTypeIcon": "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_092d066688b879c807c3b460afdd61e6.png"
             },
             {
                 "name": "Wolftone Draw",
@@ -607,7 +613,8 @@
                     "description": "The time in milliseconds it takes to draw an arrow. Release an arrow when fully drawn for maximum damage and speed.",
                     "icon": "https://www.bungie.net/common/destiny2_content/icons/2609297fc7fc32156373e1f539bf5f96.jpg",
                     "mwHash": 2203506848
-                }
+                },
+                "damageTypeIcon": "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_092d066688b879c807c3b460afdd61e6.png"
             },
             {
                 "name": "Vulpecula",
@@ -673,7 +680,8 @@
                     "description": "The speed with which the weapon can be readied and aimed.",
                     "icon": "https://www.bungie.net/common/destiny2_content/icons/d2e1ab2542f585d025fb4cc1a3885164.jpg",
                     "mwHash": 518224747
-                }
+                },
+                "damageTypeIcon": "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_530c4c3e7981dc2aefd24fd3293482bf.png"
             },
             {
                 "name": "Explosive Personality",
@@ -748,7 +756,8 @@
                     "description": "Increases the explosion radius of this weapon.",
                     "icon": "https://www.bungie.net/common/destiny2_content/icons/cb114512a0710cab990fb8d5b4af91c6.jpg",
                     "mwHash": 3928770367
-                }
+                },
+                "damageTypeIcon": "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_2a1773e10968f2d088b97c22b22bba9e.png"
             }
         ],
         "Warlock": {
