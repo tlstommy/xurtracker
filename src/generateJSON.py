@@ -18,6 +18,8 @@ class main:
         self.destinyURLBase = "https://www.bungie.net/Platform"
         self.vendorHash = "2190858386" #xur
 
+        self.combinedPerksJson = None
+
         self.apiResponse = None
         self.apiResponseJson = None
         self.location = None
@@ -199,7 +201,68 @@ class main:
         if xurVendorLoc == 2:
             self.planet = "Nessus"
             self.location = "Arcadian Valley"
-            self.landingZone = "Watcher's Grave" 
+            self.landingZone = "Watcher's Grave"
+
+    #combines a list of sockets and plugs together
+    def socketPlugs(self, socketJSON, plugJSON):
+        # Convert JSON if they are not already
+        if isinstance(socketJSON, str):
+            socketJSON = json.loads(socketJSON)
+        if isinstance(plugJSON, str):
+            plugJSON = json.loads(plugJSON)
+
+        # Extracting the relevant data from the JSON
+        sockets = socketJSON["Response"]["itemComponents"]["sockets"]["data"]
+        plugs = plugJSON["Response"]["itemComponents"]["reusablePlugs"]["data"]
+
+        combined_data = {}
+
+        # Iterate through the sockets data and combine with plugs data
+        for item_id, socket_info in sockets.items():
+            seen_hashes = set()  # Set to track seen hashes
+            hashes = []
+
+            # Function to add hash if not seen
+            def add_hash(hash_value):
+                if hash_value not in seen_hashes:
+                    seen_hashes.add(hash_value)
+                    hashes.append({"hash": hash_value})
+
+            # Add hashes from sockets
+            for socket in socket_info["sockets"]:
+                if "plugHash" in socket and socket["isEnabled"]:
+                    add_hash(socket["plugHash"])
+                
+            # Add hashes from plugs
+            if item_id in plugs:
+                for plug_slot, plug_list in plugs[item_id]["plugs"].items():
+                    for plug in plug_list:
+                        if plug["enabled"]:
+                            add_hash(plug["plugItemHash"])
+
+            combined_data[item_id] = {"hashes": hashes}
+
+        return combined_data
+
+    #sorts weapon perks so that grouped perks are next to eachother
+    def perkSort(self,perkList):
+
+        newPerkListDict = {}
+
+        #group by subtypes
+        for perk in perkList:
+            perkType = perk["perkSubType"]
+            if perkType not in newPerkListDict:
+                newPerkListDict[perkType] = []
+            newPerkListDict[perkType].append(perk)
+
+        newPerkList = []
+
+        for perkType, perks in newPerkListDict.items():
+            newPerkList.extend(perks)
+
+        return newPerkList
+
 
     async def getWeaponPerks(self):
 
@@ -210,10 +273,20 @@ class main:
         currentAvailableItems = []
         weaponPerkList = []
         
+        
+        
+        
         #item sockets
         apiUrl305 = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{characterIDWarlock}/Vendors/{self.vendorHash}/?components=305"
         apiResponse305 = self.get_api_request(apiUrl305)
         apiResponse305Json = json.loads(apiResponse305)
+
+        #itemplugs
+        apiUrl310 = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{characterIDWarlock}/Vendors/{self.vendorHash}/?components=310"
+        apiResponse310 = self.get_api_request(apiUrl310)
+        apiResponse310Json = json.loads(apiResponse310)
+        combinedPerkJson = self.socketPlugs(apiResponse305Json,apiResponse310Json)
+
 
         #item ids
         apiUrl402 = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{characterIDWarlock}/Vendors/{self.vendorHash}/?components=402"
@@ -245,51 +318,70 @@ class main:
         print(IDtoWeaponHashDict)
         
 
+
         #now get each individual weapons perks
-   
-        for key, values in apiResponse305Json["Response"]["itemComponents"]["sockets"]["data"].items():
+
+        print(self.combinedPerksJson.items())
+        
+
+        for key, values in self.combinedPerksJson.items():
             
-            socketList = values.get("sockets")
-            for item in socketList:
+            hashList = values.get("hashes")
+            
+            for item in hashList:
+                
                 if(key in currentAvailableItems):   
+                    
+                    isArmor = False
                     try:
+                        plugHashVal = item["hash"]
+                    except KeyError as e:
+                        print("keyerror plughash: ",e)
+                        continue
+                    print(plugHashVal)    
+                    decodedPlug = await self.decodeHash(plugHashVal,"DestinyInventoryItemDefinition")
+                    print(decodedPlug)
 
-                        isArmor = False
-                        plugHashVal = item["plugHash"]
+                    
+                    
+                    #check if armor or not
+                    decodedWeaponHash = await self.decodeHash(IDtoWeaponHashDict[key],"DestinyInventoryItemDefinition")
 
-                        decodedPlug = await self.decodeHash(plugHashVal,"DestinyInventoryItemDefinition")
+                    #if it is the armor type
+                    if(decodedWeaponHash.get("itemType") == 2):
+                        continue
 
+                    #make sure its a trait of sometype
+                    perkType = decodedPlug.get("itemTypeDisplayName")
+                    if perkType == "":
+                        continue
+                    
 
-                        #check if armor or not
-                        decodedWeaponHash = await self.decodeHash(IDtoWeaponHashDict[key],"DestinyInventoryItemDefinition")
+                    perkSubType = decodedPlug["plug"].get("plugCategoryIdentifier")
 
-                        #if it is the armor type
-                        if(decodedWeaponHash.get("itemType") == 2):
-                            continue
+                    #weapon Perk template
+                    weaponRollTemplate = {
+                        "name":decodedPlug["displayProperties"].get("name"),
+                        "description":decodedPlug["displayProperties"].get("description"),
+                        "perkIcon":"https://www.bungie.net"+str(decodedPlug["displayProperties"].get("icon")),
+                        "hashID":decodedPlug.get("hash"),
+                        "weaponHash":IDtoWeaponHashDict[key],
+                        "isPerk":True,
+                        "isFavorablePerk":False,
+                        "perkType":perkType,
+                        "perkSubType":perkSubType,
+                    }
 
-                            
+                    print(weaponRollTemplate["weaponHash"])
 
-                        #weapon Perk template
-                        weaponRollTemplate = {
-                            "name":decodedPlug["displayProperties"].get("name"),
-                            "description":decodedPlug["displayProperties"].get("description"),
-                            "perkIcon":"https://www.bungie.net"+str(decodedPlug["displayProperties"].get("icon")),
-                            "hashID":decodedPlug.get("hash"),
-                            "weaponHash":IDtoWeaponHashDict[key],
-                            "isPerk":True,
-                            "isFavorablePerk":False,
-                        }
-
-                        print(weaponRollTemplate["weaponHash"])
-
-                        #filter out unwanted perks
-                        if(weaponRollTemplate["name"] != 'Empty Mod Socket' and weaponRollTemplate["name"] != '' and weaponRollTemplate["name"] != 'Tracker Disabled' and weaponRollTemplate["name"] != 'Default Shader' 
-                            and weaponRollTemplate["name"] != 'Default Ornament' and weaponRollTemplate["name"] != 'Change Energy Type' and weaponRollTemplate["name"] !='Empty Catalyst Socket' and "catalyst" not in weaponRollTemplate["name"]
-                            and "Catalyst" not in weaponRollTemplate["name"] and weaponRollTemplate["name"] != "Rasputin's Arsenal" and weaponRollTemplate["name"] != "Kill Tracker" and weaponRollTemplate["name"] != "Empty Memento Socket" and weaponRollTemplate["name"] != "Empty Weapon Level Boost Socket" and weaponRollTemplate["name"] != "Empty Deepsight Socket"):
-                            weaponRollTemplate["isFavorablePerk"] = self.rateWeaponPerks(IDtoWeaponHashDict[key],decodedPlug["displayProperties"].get("name"))
-                            self.weaponPerksTemplateList.append(weaponRollTemplate)
-                    except KeyError:
-                        pass
+                    #filter out unwanted perks
+                    if(weaponRollTemplate["name"] != 'Empty Mod Socket' and weaponRollTemplate["name"] != '' and weaponRollTemplate["name"] != 'Tracker Disabled' and weaponRollTemplate["name"] != 'Default Shader' 
+                        and weaponRollTemplate["name"] != 'Default Ornament' and weaponRollTemplate["name"] != 'Change Energy Type' and weaponRollTemplate["name"] !='Empty Catalyst Socket' and "catalyst" not in weaponRollTemplate["name"]
+                        and "Catalyst" not in weaponRollTemplate["name"] and weaponRollTemplate["name"] != "Rasputin's Arsenal" and weaponRollTemplate["name"] != "Kill Tracker" and weaponRollTemplate["name"] != "Empty Memento Socket" and weaponRollTemplate["name"] != "Empty Weapon Level Boost Socket" and weaponRollTemplate["name"] != "Empty Deepsight Socket"):
+                        weaponRollTemplate["isFavorablePerk"] = self.rateWeaponPerks(IDtoWeaponHashDict[key],decodedPlug["displayProperties"].get("name"))
+                        self.weaponPerksTemplateList.append(weaponRollTemplate)
+                    
+                        
     #pull community perk rating data
     def grabPerks(self,weaponHash):
         favorablePerks = []
@@ -369,6 +461,7 @@ class main:
                 "class":weaponHashData.get("classType"), 
                 "statRolls":[],
                 "weaponPerks":[],
+                "originTrait":None,
                 "exoticArmorPerk":None,
                 "legendWeaponFrame":None,
                 "legendWeaponDamageType":damageTypeHash.get("shortTitle"),
@@ -394,10 +487,16 @@ class main:
 
     
     async def bindStatToWeapon(self):
+
+        
+
+
+
         for item in self.weaponsTemplatesList:
             weaponHash = item.get("itemHash")
             print(item.get("name"))
             for perk in self.weaponPerksTemplateList:
+                
                 perkWHash = perk.get("weaponHash")
                 if weaponHash == str(perkWHash):
 
@@ -430,11 +529,25 @@ class main:
                         print("MATCH")
                         continue       
                     
-                    item["weaponPerks"].append(perk)
                     
+                    
+                    #append origin traits if present
+                    if perk.get("perkSubType") == "origins":
+                        item["originTrait"] = perk
+                        continue
+                        
+                    
+                    
+                    item["weaponPerks"].append(perk)
 
-            print(item)
-            #input()
+                    
+            
+
+
+            #group perks on the item
+            item["weaponPerks"] = self.perkSort(item["weaponPerks"])
+            
+            
    
                         
 
@@ -713,18 +826,30 @@ class main:
     #https://bungie-net.github.io/multi/schema_Destiny-Definitions-DestinyInventoryItemDefinition.html#schema_Destiny-Definitions-DestinyInventoryItemDefinition
     
     async def getXurInventory(self,charID):
+        
 
+        #do this first before everything
         apiUrl = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{charID}/Vendors/{self.vendorHash}/?components=402"        #format url data
         self.apiResponse = self.get_api_request(apiUrl)
-        #do this first before everything
-
 
         #store into a dict
         self.apiResponseJson = json.loads(self.apiResponse)
         
         
-        print(self.apiResponseJson)
+        #print(self.apiResponseJson)
 
+
+        #store perk info
+        apiUrl305 = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{characterIDWarlock}/Vendors/{self.vendorHash}/?components=305"
+        apiResponse305 = self.get_api_request(apiUrl305)
+    
+        apiUrl310 = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{characterIDWarlock}/Vendors/{self.vendorHash}/?components=310"
+        apiResponse310 = self.get_api_request(apiUrl310)
+        
+        self.combinedPerksJson = self.socketPlugs(apiResponse305,apiResponse310)
+
+        #print(self.combinedPerksJson)
+        #input("\n")
         #store the inventory of for sale items to be parsed 
         self.forSaleItems = self.apiResponseJson["Response"]["sales"]["data"]
         await self.getArmor(self.warlockCharacterID,"warlock")
@@ -750,4 +875,5 @@ def mainloop():
     #init class
     XI = main(API_KEY)
     loop.run_until_complete(XI.getXurInventory(characterIDWarlock))
+
 mainloop()
