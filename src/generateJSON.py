@@ -359,6 +359,9 @@ class main:
 
                     perkSubType = decodedPlug["plug"].get("plugCategoryIdentifier")
 
+
+                    #get ivestment stats for perk
+
                     #weapon Perk template
                     weaponRollTemplate = {
                         "name":decodedPlug["displayProperties"].get("name"),
@@ -370,6 +373,7 @@ class main:
                         "isFavorablePerk":False,
                         "perkType":perkType,
                         "perkSubType":perkSubType,
+                        "perkInvestmentStats":decodedPlug.get("investmentStats")
                     }
 
                     print(weaponRollTemplate["weaponHash"])

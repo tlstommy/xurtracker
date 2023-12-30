@@ -65,7 +65,8 @@
                     "isPerk": true,
                     "isFavorablePerk": false,
                     "perkType": "Intrinsic",
-                    "perkSubType": "intrinsics"
+                    "perkSubType": "intrinsics",
+                    "perkInvestmentStats": []
                 },
                 {
                     "name": "Extended Barrel",
@@ -76,7 +77,24 @@
                     "isPerk": true,
                     "isFavorablePerk": false,
                     "perkType": "Barrel",
-                    "perkSubType": "barrels"
+                    "perkSubType": "barrels",
+                    "perkInvestmentStats": [
+                        {
+                            "statTypeHash": 943549884,
+                            "value": -10,
+                            "isConditionallyActive": false
+                        },
+                        {
+                            "statTypeHash": 1240592695,
+                            "value": 10,
+                            "isConditionallyActive": false
+                        },
+                        {
+                            "statTypeHash": 2715839340,
+                            "value": 10,
+                            "isConditionallyActive": false
+                        }
+                    ]
                 },
                 {
                     "name": "Extended Mag",
@@ -87,7 +105,24 @@
                     "isPerk": true,
                     "isFavorablePerk": false,
                     "perkType": "Magazine",
-                    "perkSubType": "magazines"
+                    "perkSubType": "magazines",
+                    "perkInvestmentStats": [
+                        {
+                            "statTypeHash": 3871231066,
+                            "value": 30,
+                            "isConditionallyActive": false
+                        },
+                        {
+                            "statTypeHash": 4188031367,
+                            "value": -20,
+                            "isConditionallyActive": false
+                        },
+                        {
+                            "statTypeHash": 2714457168,
+                            "value": 10,
+                            "isConditionallyActive": false
+                        }
+                    ]
                 },
                 {
                     "name": "For the Empire",
@@ -98,7 +133,8 @@
                     "isPerk": true,
                     "isFavorablePerk": false,
                     "perkType": "Trait",
-                    "perkSubType": "frames"
+                    "perkSubType": "frames",
+                    "perkInvestmentStats": []
                 },
                 {
                     "name": "Short-Action Stock",
@@ -109,7 +145,14 @@
                     "isPerk": true,
                     "isFavorablePerk": false,
                     "perkType": "Stock",
-                    "perkSubType": "stocks"
+                    "perkSubType": "stocks",
+                    "perkInvestmentStats": [
+                        {
+                            "statTypeHash": 943549884,
+                            "value": 15,
+                            "isConditionallyActive": false
+                        }
+                    ]
                 }
             ],
             "originTrait": null,
@@ -143,7 +186,8 @@
                     "isPerk": true,
                     "isFavorablePerk": false,
                     "perkType": "Intrinsic",
-                    "perkSubType": "intrinsics"
+                    "perkSubType": "intrinsics",
+                    "perkInvestmentStats": []
                 },
                 {
                     "name": "Smallbore",
@@ -154,7 +198,19 @@
                     "isPerk": true,
                     "isFavorablePerk": false,
                     "perkType": "Barrel",
-                    "perkSubType": "barrels"
+                    "perkSubType": "barrels",
+                    "perkInvestmentStats": [
+                        {
+                            "statTypeHash": 155624089,
+                            "value": 7,
+                            "isConditionallyActive": false
+                        },
+                        {
+                            "statTypeHash": 1240592695,
+                            "value": 7,
+                            "isConditionallyActive": false
+                        }
+                    ]
                 },
                 {
                     "name": "Alloy Magazine",
@@ -165,7 +221,8 @@
                     "isPerk": true,
                     "isFavorablePerk": false,
                     "perkType": "Magazine",
-                    "perkSubType": "magazines"
+                    "perkSubType": "magazines",
+                    "perkInvestmentStats": []
                 },
                 {
                     "name": "Killing Wind",
@@ -176,7 +233,8 @@
                     "isPerk": true,
                     "isFavorablePerk": false,
                     "perkType": "Trait",
-                    "perkSubType": "frames"
+                    "perkSubType": "frames",
+                    "perkInvestmentStats": []
                 },
                 {
                     "name": "Textured Grip",
@@ -187,7 +245,19 @@
                     "isPerk": true,
                     "isFavorablePerk": false,
                     "perkType": "Grip",
-                    "perkSubType": "grips"
+                    "perkSubType": "grips",
+                    "perkInvestmentStats": [
+                        {
+                            "statTypeHash": 155624089,
+                            "value": -5,
+                            "isConditionallyActive": false
+                        },
+                        {
+                            "statTypeHash": 943549884,
+                            "value": 15,
+                            "isConditionallyActive": false
+                        }
+                    ]
                 }
             ],
             "originTrait": null,
@@ -326,7 +396,24 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Blade",
-                        "perkSubType": "blades"
+                        "perkSubType": "blades",
+                        "perkInvestmentStats": [
+                            {
+                                "statTypeHash": 3871231066,
+                                "value": 20,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 925767036,
+                                "value": 20,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 4043523819,
+                                "value": 0,
+                                "isConditionallyActive": false
+                            }
+                        ]
                     },
                     {
                         "name": "Tempered Edge",
@@ -337,7 +424,24 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Blade",
-                        "perkSubType": "blades"
+                        "perkSubType": "blades",
+                        "perkInvestmentStats": [
+                            {
+                                "statTypeHash": 3871231066,
+                                "value": 10,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 925767036,
+                                "value": 10,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 4043523819,
+                                "value": 3,
+                                "isConditionallyActive": false
+                            }
+                        ]
                     },
                     {
                         "name": "Burst Guard",
@@ -348,7 +452,34 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Guard",
-                        "perkSubType": "guards"
+                        "perkSubType": "guards",
+                        "perkInvestmentStats": [
+                            {
+                                "statTypeHash": 2762071195,
+                                "value": 0,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 209426660,
+                                "value": 80,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 155624089,
+                                "value": 80,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 1931675084,
+                                "value": 0,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 3736848092,
+                                "value": 0,
+                                "isConditionallyActive": false
+                            }
+                        ]
                     },
                     {
                         "name": "Swordmaster's Guard",
@@ -359,7 +490,39 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Guard",
-                        "perkSubType": "guards"
+                        "perkSubType": "guards",
+                        "perkInvestmentStats": [
+                            {
+                                "statTypeHash": 3022301683,
+                                "value": 10,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 209426660,
+                                "value": 10,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 155624089,
+                                "value": 10,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 2961396640,
+                                "value": 10,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 1931675084,
+                                "value": 40,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 3736848092,
+                                "value": 40,
+                                "isConditionallyActive": false
+                            }
+                        ]
                     },
                     {
                         "name": "Energy Transfer",
@@ -370,7 +533,8 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Trait",
-                        "perkSubType": "frames"
+                        "perkSubType": "frames",
+                        "perkInvestmentStats": []
                     },
                     {
                         "name": "Flash Counter",
@@ -381,7 +545,8 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Trait",
-                        "perkSubType": "frames"
+                        "perkSubType": "frames",
+                        "perkInvestmentStats": []
                     }
                 ],
                 "originTrait": null,
@@ -419,7 +584,24 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Barrel",
-                        "perkSubType": "barrels"
+                        "perkSubType": "barrels",
+                        "perkInvestmentStats": [
+                            {
+                                "statTypeHash": 155624089,
+                                "value": 10,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 2715839340,
+                                "value": 10,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 943549884,
+                                "value": -5,
+                                "isConditionallyActive": false
+                            }
+                        ]
                     },
                     {
                         "name": "Corkscrew Rifling",
@@ -430,7 +612,24 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Barrel",
-                        "perkSubType": "barrels"
+                        "perkSubType": "barrels",
+                        "perkInvestmentStats": [
+                            {
+                                "statTypeHash": 155624089,
+                                "value": 5,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 1240592695,
+                                "value": 5,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 943549884,
+                                "value": 5,
+                                "isConditionallyActive": false
+                            }
+                        ]
                     },
                     {
                         "name": "Accurized Rounds",
@@ -441,7 +640,14 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Magazine",
-                        "perkSubType": "magazines"
+                        "perkSubType": "magazines",
+                        "perkInvestmentStats": [
+                            {
+                                "statTypeHash": 1240592695,
+                                "value": 10,
+                                "isConditionallyActive": false
+                            }
+                        ]
                     },
                     {
                         "name": "Appended Mag",
@@ -452,7 +658,14 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Magazine",
-                        "perkSubType": "magazines"
+                        "perkSubType": "magazines",
+                        "perkInvestmentStats": [
+                            {
+                                "statTypeHash": 3871231066,
+                                "value": 20,
+                                "isConditionallyActive": false
+                            }
+                        ]
                     },
                     {
                         "name": "Subsistence",
@@ -463,7 +676,8 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Trait",
-                        "perkSubType": "frames"
+                        "perkSubType": "frames",
+                        "perkInvestmentStats": []
                     },
                     {
                         "name": "Unrelenting",
@@ -474,7 +688,8 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Trait",
-                        "perkSubType": "frames"
+                        "perkSubType": "frames",
+                        "perkInvestmentStats": []
                     }
                 ],
                 "originTrait": null,
@@ -512,7 +727,24 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Launcher Barrel",
-                        "perkSubType": "tubes"
+                        "perkSubType": "tubes",
+                        "perkInvestmentStats": [
+                            {
+                                "statTypeHash": 155624089,
+                                "value": 5,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 2523465841,
+                                "value": 5,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 3614673599,
+                                "value": 5,
+                                "isConditionallyActive": false
+                            }
+                        ]
                     },
                     {
                         "name": "Smart Drift Control",
@@ -523,7 +755,29 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Launcher Barrel",
-                        "perkSubType": "tubes"
+                        "perkSubType": "tubes",
+                        "perkInvestmentStats": [
+                            {
+                                "statTypeHash": 155624089,
+                                "value": 10,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 2523465841,
+                                "value": 5,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 2715839340,
+                                "value": 15,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 943549884,
+                                "value": 10,
+                                "isConditionallyActive": false
+                            }
+                        ]
                     },
                     {
                         "name": "Proximity Grenades",
@@ -534,7 +788,14 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Magazine",
-                        "perkSubType": "magazines_gl"
+                        "perkSubType": "magazines_gl",
+                        "perkInvestmentStats": [
+                            {
+                                "statTypeHash": 3614673599,
+                                "value": -20,
+                                "isConditionallyActive": false
+                            }
+                        ]
                     },
                     {
                         "name": "Spike Grenades",
@@ -545,7 +806,14 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Magazine",
-                        "perkSubType": "magazines_gl"
+                        "perkSubType": "magazines_gl",
+                        "perkInvestmentStats": [
+                            {
+                                "statTypeHash": 155624089,
+                                "value": 10,
+                                "isConditionallyActive": false
+                            }
+                        ]
                     },
                     {
                         "name": "Slideshot",
@@ -556,7 +824,8 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Trait",
-                        "perkSubType": "frames"
+                        "perkSubType": "frames",
+                        "perkInvestmentStats": []
                     },
                     {
                         "name": "Thresh",
@@ -567,7 +836,8 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Trait",
-                        "perkSubType": "frames"
+                        "perkSubType": "frames",
+                        "perkInvestmentStats": []
                     }
                 ],
                 "originTrait": null,
@@ -605,7 +875,24 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Launcher Barrel",
-                        "perkSubType": "tubes"
+                        "perkSubType": "tubes",
+                        "perkInvestmentStats": [
+                            {
+                                "statTypeHash": 155624089,
+                                "value": 15,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 2523465841,
+                                "value": -10,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 3614673599,
+                                "value": 10,
+                                "isConditionallyActive": false
+                            }
+                        ]
                     },
                     {
                         "name": "Linear Compensator",
@@ -616,7 +903,24 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Launcher Barrel",
-                        "perkSubType": "tubes"
+                        "perkSubType": "tubes",
+                        "perkInvestmentStats": [
+                            {
+                                "statTypeHash": 155624089,
+                                "value": 5,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 2523465841,
+                                "value": 5,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 3614673599,
+                                "value": 5,
+                                "isConditionallyActive": false
+                            }
+                        ]
                     },
                     {
                         "name": "Augmented Drum",
@@ -627,7 +931,19 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Magazine",
-                        "perkSubType": "magazines_gl"
+                        "perkSubType": "magazines_gl",
+                        "perkInvestmentStats": [
+                            {
+                                "statTypeHash": 3871231066,
+                                "value": 30,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 4188031367,
+                                "value": -20,
+                                "isConditionallyActive": false
+                            }
+                        ]
                     },
                     {
                         "name": "Mini Frags",
@@ -638,7 +954,24 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Magazine",
-                        "perkSubType": "magazines_gl"
+                        "perkSubType": "magazines_gl",
+                        "perkInvestmentStats": [
+                            {
+                                "statTypeHash": 3871231066,
+                                "value": 20,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 4188031367,
+                                "value": 10,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 3614673599,
+                                "value": -10,
+                                "isConditionallyActive": false
+                            }
+                        ]
                     },
                     {
                         "name": "Impulse Amplifier",
@@ -649,7 +982,8 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Trait",
-                        "perkSubType": "frames"
+                        "perkSubType": "frames",
+                        "perkInvestmentStats": []
                     },
                     {
                         "name": "Disruption Break",
@@ -660,7 +994,8 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Trait",
-                        "perkSubType": "frames"
+                        "perkSubType": "frames",
+                        "perkInvestmentStats": []
                     }
                 ],
                 "originTrait": null,
@@ -698,7 +1033,19 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Barrel",
-                        "perkSubType": "barrels"
+                        "perkSubType": "barrels",
+                        "perkInvestmentStats": [
+                            {
+                                "statTypeHash": 2715839340,
+                                "value": 30,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 943549884,
+                                "value": 10,
+                                "isConditionallyActive": false
+                            }
+                        ]
                     },
                     {
                         "name": "Full Bore",
@@ -709,7 +1056,24 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Barrel",
-                        "perkSubType": "barrels"
+                        "perkSubType": "barrels",
+                        "perkInvestmentStats": [
+                            {
+                                "statTypeHash": 155624089,
+                                "value": -10,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 1240592695,
+                                "value": 15,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 943549884,
+                                "value": -5,
+                                "isConditionallyActive": false
+                            }
+                        ]
                     },
                     {
                         "name": "Accurized Rounds",
@@ -720,7 +1084,14 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Magazine",
-                        "perkSubType": "magazines"
+                        "perkSubType": "magazines",
+                        "perkInvestmentStats": [
+                            {
+                                "statTypeHash": 1240592695,
+                                "value": 10,
+                                "isConditionallyActive": false
+                            }
+                        ]
                     },
                     {
                         "name": "Extended Mag",
@@ -731,7 +1102,24 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Magazine",
-                        "perkSubType": "magazines"
+                        "perkSubType": "magazines",
+                        "perkInvestmentStats": [
+                            {
+                                "statTypeHash": 3871231066,
+                                "value": 30,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 4188031367,
+                                "value": -20,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 2714457168,
+                                "value": 10,
+                                "isConditionallyActive": false
+                            }
+                        ]
                     },
                     {
                         "name": "Steady Hands",
@@ -742,7 +1130,8 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Trait",
-                        "perkSubType": "frames"
+                        "perkSubType": "frames",
+                        "perkInvestmentStats": []
                     },
                     {
                         "name": "Headstone",
@@ -753,7 +1142,8 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Trait",
-                        "perkSubType": "frames"
+                        "perkSubType": "frames",
+                        "perkInvestmentStats": []
                     }
                 ],
                 "originTrait": {
@@ -765,7 +1155,8 @@
                     "isPerk": true,
                     "isFavorablePerk": false,
                     "perkType": "Origin Trait",
-                    "perkSubType": "origins"
+                    "perkSubType": "origins",
+                    "perkInvestmentStats": []
                 },
                 "exoticArmorPerk": null,
                 "legendWeaponFrame": {
@@ -801,7 +1192,24 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Barrel",
-                        "perkSubType": "barrels"
+                        "perkSubType": "barrels",
+                        "perkInvestmentStats": [
+                            {
+                                "statTypeHash": 155624089,
+                                "value": 5,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 1240592695,
+                                "value": 5,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 943549884,
+                                "value": 5,
+                                "isConditionallyActive": false
+                            }
+                        ]
                     },
                     {
                         "name": "Hammer-Forged Rifling",
@@ -812,7 +1220,14 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Barrel",
-                        "perkSubType": "barrels"
+                        "perkSubType": "barrels",
+                        "perkInvestmentStats": [
+                            {
+                                "statTypeHash": 1240592695,
+                                "value": 10,
+                                "isConditionallyActive": false
+                            }
+                        ]
                     },
                     {
                         "name": "Extended Mag",
@@ -823,7 +1238,24 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Magazine",
-                        "perkSubType": "magazines"
+                        "perkSubType": "magazines",
+                        "perkInvestmentStats": [
+                            {
+                                "statTypeHash": 3871231066,
+                                "value": 30,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 4188031367,
+                                "value": -20,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 2714457168,
+                                "value": 10,
+                                "isConditionallyActive": false
+                            }
+                        ]
                     },
                     {
                         "name": "Accurized Rounds",
@@ -834,7 +1266,14 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Magazine",
-                        "perkSubType": "magazines"
+                        "perkSubType": "magazines",
+                        "perkInvestmentStats": [
+                            {
+                                "statTypeHash": 1240592695,
+                                "value": 10,
+                                "isConditionallyActive": false
+                            }
+                        ]
                     },
                     {
                         "name": "Triple Tap",
@@ -845,7 +1284,8 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Trait",
-                        "perkSubType": "frames"
+                        "perkSubType": "frames",
+                        "perkInvestmentStats": []
                     },
                     {
                         "name": "Headstone",
@@ -856,7 +1296,8 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Trait",
-                        "perkSubType": "frames"
+                        "perkSubType": "frames",
+                        "perkInvestmentStats": []
                     }
                 ],
                 "originTrait": {
@@ -868,7 +1309,8 @@
                     "isPerk": true,
                     "isFavorablePerk": false,
                     "perkType": "Origin Trait",
-                    "perkSubType": "origins"
+                    "perkSubType": "origins",
+                    "perkInvestmentStats": []
                 },
                 "exoticArmorPerk": null,
                 "legendWeaponFrame": {
@@ -904,7 +1346,24 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Barrel",
-                        "perkSubType": "barrels"
+                        "perkSubType": "barrels",
+                        "perkInvestmentStats": [
+                            {
+                                "statTypeHash": 155624089,
+                                "value": 10,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 2715839340,
+                                "value": 10,
+                                "isConditionallyActive": false
+                            },
+                            {
+                                "statTypeHash": 943549884,
+                                "value": -5,
+                                "isConditionallyActive": false
+                            }
+                        ]
                     },
                     {
                         "name": "Polygonal Rifling",
@@ -915,7 +1374,14 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Barrel",
-                        "perkSubType": "barrels"
+                        "perkSubType": "barrels",
+                        "perkInvestmentStats": [
+                            {
+                                "statTypeHash": 155624089,
+                                "value": 10,
+                                "isConditionallyActive": false
+                            }
+                        ]
                     },
                     {
                         "name": "Enhanced Battery",
@@ -926,7 +1392,14 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Battery",
-                        "perkSubType": "batteries"
+                        "perkSubType": "batteries",
+                        "perkInvestmentStats": [
+                            {
+                                "statTypeHash": 3871231066,
+                                "value": 20,
+                                "isConditionallyActive": false
+                            }
+                        ]
                     },
                     {
                         "name": "Particle Repeater",
@@ -937,7 +1410,14 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Battery",
-                        "perkSubType": "batteries"
+                        "perkSubType": "batteries",
+                        "perkInvestmentStats": [
+                            {
+                                "statTypeHash": 155624089,
+                                "value": 10,
+                                "isConditionallyActive": false
+                            }
+                        ]
                     },
                     {
                         "name": "Shoot to Loot",
@@ -948,7 +1428,8 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Trait",
-                        "perkSubType": "frames"
+                        "perkSubType": "frames",
+                        "perkInvestmentStats": []
                     },
                     {
                         "name": "Harmony",
@@ -959,7 +1440,8 @@
                         "isPerk": true,
                         "isFavorablePerk": false,
                         "perkType": "Trait",
-                        "perkSubType": "frames"
+                        "perkSubType": "frames",
+                        "perkInvestmentStats": []
                     }
                 ],
                 "originTrait": {
@@ -971,7 +1453,8 @@
                     "isPerk": true,
                     "isFavorablePerk": false,
                     "perkType": "Origin Trait",
-                    "perkSubType": "origins"
+                    "perkSubType": "origins",
+                    "perkInvestmentStats": []
                 },
                 "exoticArmorPerk": null,
                 "legendWeaponFrame": {
