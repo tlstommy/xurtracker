@@ -372,8 +372,7 @@ class main:
                         "isPerk":True,
                         "isFavorablePerk":False,
                         "perkType":perkType,
-                        "perkSubType":perkSubType,
-                        "perkInvestmentStats":decodedPlug.get("investmentStats")
+                        "perkSubType":perkSubType
                     }
 
                     print(weaponRollTemplate["weaponHash"])
