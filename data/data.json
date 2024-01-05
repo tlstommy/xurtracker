@@ -393,7 +393,12 @@
                 },
                 "legendWeaponDamageType": "Energy",
                 "legendWeaponDamageElement": "Void",
-                "masterworkData": null,
+                "masterworkData": {
+                    "name": "Handling",
+                    "description": "The speed with which the weapon can be readied and aimed.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/d2e1ab2542f585d025fb4cc1a3885164.jpg",
+                    "mwHash": 518224747
+                },
                 "damageTypeIcon": "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_ceb2f6197dccf3958bb31cc783eb97a0.png"
             },
             {
@@ -486,7 +491,12 @@
                 },
                 "legendWeaponDamageType": "Power",
                 "legendWeaponDamageElement": "Arc",
-                "masterworkData": null,
+                "masterworkData": {
+                    "name": "Reload Speed",
+                    "description": "The time it takes to reload this weapon.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/e3a74e6dd4c520ea17eb1fdaf2128213.jpg",
+                    "mwHash": 4283235143
+                },
                 "damageTypeIcon": "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_092d066688b879c807c3b460afdd61e6.png"
             },
             {
@@ -579,7 +589,12 @@
                 },
                 "legendWeaponDamageType": "Power",
                 "legendWeaponDamageElement": "Arc",
-                "masterworkData": null,
+                "masterworkData": {
+                    "name": "Charge Time",
+                    "description": "The time in milliseconds before a weapon fires.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/0ab7e72f178dbec85d531cc7eae34571.jpg",
+                    "mwHash": 3353797898
+                },
                 "damageTypeIcon": "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_092d066688b879c807c3b460afdd61e6.png"
             },
             {
@@ -672,7 +687,12 @@
                 },
                 "legendWeaponDamageType": "Energy",
                 "legendWeaponDamageElement": "Solar",
-                "masterworkData": null,
+                "masterworkData": {
+                    "name": "Reload Speed",
+                    "description": "The time it takes to reload this weapon.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/e3a74e6dd4c520ea17eb1fdaf2128213.jpg",
+                    "mwHash": 4283235143
+                },
                 "damageTypeIcon": "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_2a1773e10968f2d088b97c22b22bba9e.png"
             },
             {
@@ -775,7 +795,12 @@
                 },
                 "legendWeaponDamageType": "Kinetic",
                 "legendWeaponDamageElement": "Kinetic",
-                "masterworkData": null,
+                "masterworkData": {
+                    "name": "Stability",
+                    "description": "How much or little recoil you will experience while firing the weapon.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/c345c1b985997a4e2730ea3919b45359.jpg",
+                    "mwHash": 1590375901
+                },
                 "damageTypeIcon": "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_3385a924fd3ccb92c343ade19f19a370.png"
             },
             {
@@ -878,7 +903,12 @@
                 },
                 "legendWeaponDamageType": "Energy",
                 "legendWeaponDamageElement": "Solar",
-                "masterworkData": null,
+                "masterworkData": {
+                    "name": "Range",
+                    "description": "Increases the effective range of this weapon.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/95af3923bdbdf11438504ddeb498afe8.jpg",
+                    "mwHash": 150943607
+                },
                 "damageTypeIcon": "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_2a1773e10968f2d088b97c22b22bba9e.png"
             },
             {
@@ -981,7 +1011,12 @@
                 },
                 "legendWeaponDamageType": "Kinetic",
                 "legendWeaponDamageElement": "Stasis",
-                "masterworkData": null,
+                "masterworkData": {
+                    "name": "Handling",
+                    "description": "The speed with which the weapon can be readied and aimed.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/d2e1ab2542f585d025fb4cc1a3885164.jpg",
+                    "mwHash": 518224747
+                },
                 "damageTypeIcon": "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_530c4c3e7981dc2aefd24fd3293482bf.png"
             }
         ],

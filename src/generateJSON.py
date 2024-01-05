@@ -378,8 +378,7 @@ class main:
                         "perkSubType":perkSubType
                     }
 
-                    if "masterwork" in perkType:
-                        continue
+                    
 
                     #filter out unwanted perks
                     if(weaponRollTemplate["name"] != 'Empty Mod Socket' and weaponRollTemplate["name"] != '' and weaponRollTemplate["name"] != 'Tracker Disabled' and weaponRollTemplate["name"] != 'Default Shader' 
@@ -546,8 +545,9 @@ class main:
                         continue
                         
                     
-                    
-                    item["weaponPerks"].append(perk)
+                    if "masterwork" not in perk.get("perkType"):
+
+                        item["weaponPerks"].append(perk)
 
                     
             
