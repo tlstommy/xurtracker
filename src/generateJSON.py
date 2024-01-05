@@ -340,8 +340,9 @@ class main:
                         continue
                     print(plugHashVal)    
                     decodedPlug = await self.decodeHash(plugHashVal,"DestinyInventoryItemDefinition")
-                    print(decodedPlug)
-
+                    
+                    
+                    
                     
                     
                     #check if armor or not
@@ -350,11 +351,13 @@ class main:
                     #if it is the armor type
                     if(decodedWeaponHash.get("itemType") == 2):
                         continue
+                    
 
                     #make sure its a trait of sometype
-                    perkType = decodedPlug.get("itemTypeDisplayName")
-                    if perkType == "":
+                    perkType = decodedPlug["plug"].get("plugCategoryIdentifier")
+                    if perkType == "" or decodedPlug["displayProperties"].get("name") == "Crucible Tracker":
                         continue
+                        
                     
 
                     perkSubType = decodedPlug["plug"].get("plugCategoryIdentifier")
@@ -375,7 +378,8 @@ class main:
                         "perkSubType":perkSubType
                     }
 
-                    print(weaponRollTemplate["weaponHash"])
+                    if "masterwork" in perkType:
+                        continue
 
                     #filter out unwanted perks
                     if(weaponRollTemplate["name"] != 'Empty Mod Socket' and weaponRollTemplate["name"] != '' and weaponRollTemplate["name"] != 'Tracker Disabled' and weaponRollTemplate["name"] != 'Default Shader' 
@@ -502,9 +506,10 @@ class main:
                 
                 perkWHash = perk.get("weaponHash")
                 if weaponHash == str(perkWHash):
-
+                    
                     #if the perk is a masterwork decode it
                     if perk.get("description") == "Base-level weapon. Increase the tier to forge a Masterwork item.":    
+                        
                         masterWorkDecoded = await self.decodeHash(perk.get("hashID"),"DestinyInventoryItemDefinition")
                         statIcon = "https://www.bungie.net"+str(masterWorkDecoded["displayProperties"].get("icon"))
                         statTypeHash = str(masterWorkDecoded["investmentStats"][0].get("statTypeHash"))
@@ -517,6 +522,7 @@ class main:
                             "mwHash":perk.get("hashID"),
                         }
                         item["masterworkData"] = masterworkTemplate
+                        
                         print(item)
                         print(masterworkTemplate)
                         continue

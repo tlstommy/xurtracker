@@ -51,6 +51,7 @@
             "itemHash": "4068264807",
             "itemRating": null,
             "icon": "https://www.bungie.net/common/destiny2_content/icons/d123aaf47eed3de479aac4492577f7e9.jpg",
+            "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/4068264807.jpg",
             "rarity": "Exotic",
             "class": 3,
             "statRolls": [],
@@ -62,7 +63,9 @@
                     "hashID": 1484442054,
                     "weaponHash": 4068264807,
                     "isPerk": true,
-                    "isFavorablePerk": false
+                    "isFavorablePerk": false,
+                    "perkType": "intrinsics",
+                    "perkSubType": "intrinsics"
                 },
                 {
                     "name": "Fluted Barrel",
@@ -71,7 +74,9 @@
                     "hashID": 1840239774,
                     "weaponHash": 4068264807,
                     "isPerk": true,
-                    "isFavorablePerk": false
+                    "isFavorablePerk": false,
+                    "perkType": "barrels",
+                    "perkSubType": "barrels"
                 },
                 {
                     "name": "High-Caliber Rounds",
@@ -80,7 +85,9 @@
                     "hashID": 1561002382,
                     "weaponHash": 4068264807,
                     "isPerk": true,
-                    "isFavorablePerk": false
+                    "isFavorablePerk": false,
+                    "perkType": "magazines",
+                    "perkSubType": "magazines"
                 },
                 {
                     "name": "Markov Chain",
@@ -89,7 +96,9 @@
                     "hashID": 2814973067,
                     "weaponHash": 4068264807,
                     "isPerk": true,
-                    "isFavorablePerk": false
+                    "isFavorablePerk": false,
+                    "perkType": "frames",
+                    "perkSubType": "frames"
                 },
                 {
                     "name": "Composite Stock",
@@ -98,14 +107,18 @@
                     "hashID": 3465198467,
                     "weaponHash": 4068264807,
                     "isPerk": true,
-                    "isFavorablePerk": false
+                    "isFavorablePerk": false,
+                    "perkType": "stocks",
+                    "perkSubType": "stocks"
                 }
             ],
+            "originTrait": null,
             "exoticArmorPerk": null,
             "legendWeaponFrame": null,
             "legendWeaponDamageType": "Kinetic",
             "legendWeaponDamageElement": "Kinetic",
-            "masterworkData": null
+            "masterworkData": null,
+            "damageTypeIcon": "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_3385a924fd3ccb92c343ade19f19a370.png"
         },
         "Hawkmoon": {
             "name": "Hawkmoon",
@@ -116,6 +129,7 @@
             "itemHash": "3856705927",
             "itemRating": null,
             "icon": "https://www.bungie.net/common/destiny2_content/icons/cef1290d58a2d94d1437e1e569fa7996.jpg",
+            "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/3856705927.jpg",
             "rarity": "Exotic",
             "class": 3,
             "statRolls": [],
@@ -127,7 +141,9 @@
                     "hashID": 213689231,
                     "weaponHash": 3856705927,
                     "isPerk": true,
-                    "isFavorablePerk": false
+                    "isFavorablePerk": false,
+                    "perkType": "intrinsics",
+                    "perkSubType": "intrinsics"
                 },
                 {
                     "name": "Fluted Barrel",
@@ -136,7 +152,9 @@
                     "hashID": 1840239774,
                     "weaponHash": 3856705927,
                     "isPerk": true,
-                    "isFavorablePerk": false
+                    "isFavorablePerk": false,
+                    "perkType": "barrels",
+                    "perkSubType": "barrels"
                 },
                 {
                     "name": "Alloy Magazine",
@@ -145,7 +163,9 @@
                     "hashID": 1431678320,
                     "weaponHash": 3856705927,
                     "isPerk": true,
-                    "isFavorablePerk": false
+                    "isFavorablePerk": false,
+                    "perkType": "magazines",
+                    "perkSubType": "magazines"
                 },
                 {
                     "name": "Snapshot Sights",
@@ -154,7 +174,9 @@
                     "hashID": 957782887,
                     "weaponHash": 3856705927,
                     "isPerk": true,
-                    "isFavorablePerk": false
+                    "isFavorablePerk": false,
+                    "perkType": "frames",
+                    "perkSubType": "frames"
                 },
                 {
                     "name": "Combat Grip",
@@ -163,14 +185,18 @@
                     "hashID": 3438534621,
                     "weaponHash": 3856705927,
                     "isPerk": true,
-                    "isFavorablePerk": false
+                    "isFavorablePerk": false,
+                    "perkType": "grips",
+                    "perkSubType": "grips"
                 }
             ],
+            "originTrait": null,
             "exoticArmorPerk": null,
             "legendWeaponFrame": null,
             "legendWeaponDamageType": "Kinetic",
             "legendWeaponDamageElement": "Kinetic",
-            "masterworkData": null
+            "masterworkData": null,
+            "damageTypeIcon": "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_3385a924fd3ccb92c343ade19f19a370.png"
         },
         "Warlock Exotic": {
             "name": "Ophidian Aspect",
@@ -181,6 +207,7 @@
             "itemHash": "3627185503",
             "itemRating": null,
             "icon": "https://www.bungie.net/common/destiny2_content/icons/a3e9b60f50480547349cf245f30b28f5.jpg",
+            "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/3627185503.jpg",
             "rarity": "Exotic",
             "class": 2,
             "statRolls": [
@@ -214,6 +241,7 @@
             "itemHash": "1688602431",
             "itemRating": null,
             "icon": "https://www.bungie.net/common/destiny2_content/icons/159870075afe5423cbf1d8d46e920ccc.jpg",
+            "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/1688602431.jpg",
             "rarity": "Exotic",
             "class": 1,
             "statRolls": [
@@ -247,6 +275,7 @@
             "itemHash": "1848640623",
             "itemRating": null,
             "icon": "https://www.bungie.net/common/destiny2_content/icons/a68810bdea4b8c45696315b1e07a9e7e.jpg",
+            "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/1848640623.jpg",
             "rarity": "Exotic",
             "class": 0,
             "statRolls": [
@@ -283,6 +312,7 @@
                 "itemHash": "1946491241",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/9fd7bbd6dfe47b35fb1bcf01f32a314c.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/1946491241.jpg",
                 "rarity": "Legendary",
                 "class": 3,
                 "statRolls": [],
@@ -294,7 +324,20 @@
                         "hashID": 981914802,
                         "weaponHash": 1946491241,
                         "isPerk": true,
-                        "isFavorablePerk": false
+                        "isFavorablePerk": false,
+                        "perkType": "tubes",
+                        "perkSubType": "tubes"
+                    },
+                    {
+                        "name": "Quick Launch",
+                        "description": "This weapon's barrel provides faster projectiles and much faster aiming.\n  \u2022  Greatly increases handling speed\n  \u2022  Increases projectile speed",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/dfad5d8b00b79c4393943b791a624874.png",
+                        "hashID": 3525010810,
+                        "weaponHash": 1946491241,
+                        "isPerk": true,
+                        "isFavorablePerk": false,
+                        "perkType": "tubes",
+                        "perkSubType": "tubes"
                     },
                     {
                         "name": "Disorienting Grenades",
@@ -303,7 +346,20 @@
                         "hashID": 3032599245,
                         "weaponHash": 1946491241,
                         "isPerk": true,
-                        "isFavorablePerk": false
+                        "isFavorablePerk": false,
+                        "perkType": "magazines_gl",
+                        "perkSubType": "magazines_gl"
+                    },
+                    {
+                        "name": "High-Velocity Rounds",
+                        "description": "This weapon's projectiles are particularly light and quick.\n  \u2022  Increases projectile speed\n  \u2022  Increases reload speed",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/2a2b757cd73305126990cd19ad011a2c.png",
+                        "hashID": 2822142346,
+                        "weaponHash": 1946491241,
+                        "isPerk": true,
+                        "isFavorablePerk": false,
+                        "perkType": "magazines_gl",
+                        "perkSubType": "magazines_gl"
                     },
                     {
                         "name": "Feeding Frenzy",
@@ -312,7 +368,9 @@
                         "hashID": 2779035018,
                         "weaponHash": 1946491241,
                         "isPerk": true,
-                        "isFavorablePerk": false
+                        "isFavorablePerk": false,
+                        "perkType": "frames",
+                        "perkSubType": "frames"
                     },
                     {
                         "name": "Demolitionist",
@@ -321,9 +379,12 @@
                         "hashID": 3523296417,
                         "weaponHash": 1946491241,
                         "isPerk": true,
-                        "isFavorablePerk": false
+                        "isFavorablePerk": false,
+                        "perkType": "frames",
+                        "perkSubType": "frames"
                     }
                 ],
+                "originTrait": null,
                 "exoticArmorPerk": null,
                 "legendWeaponFrame": {
                     "name": "Lightweight Frame",
@@ -332,12 +393,8 @@
                 },
                 "legendWeaponDamageType": "Energy",
                 "legendWeaponDamageElement": "Void",
-                "masterworkData": {
-                    "name": "Handling",
-                    "description": "The speed with which the weapon can be readied and aimed.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/d2e1ab2542f585d025fb4cc1a3885164.jpg",
-                    "mwHash": 518224747
-                }
+                "masterworkData": null,
+                "damageTypeIcon": "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_ceb2f6197dccf3958bb31cc783eb97a0.png"
             },
             {
                 "name": "Blast Battue",
@@ -348,6 +405,7 @@
                 "itemHash": "2453357042",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/9b3326bd83ea56e3e85c6139404e0bfd.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/2453357042.jpg",
                 "rarity": "Legendary",
                 "class": 3,
                 "statRolls": [],
@@ -359,7 +417,20 @@
                         "hashID": 1478423395,
                         "weaponHash": 2453357042,
                         "isPerk": true,
-                        "isFavorablePerk": false
+                        "isFavorablePerk": false,
+                        "perkType": "tubes",
+                        "perkSubType": "tubes"
+                    },
+                    {
+                        "name": "Hard Launch",
+                        "description": "This weapon's launch barrel is optimized for projectile speed.\n  \u2022  Greatly increases projectile speed\n  \u2022  Decreases stability\n  \u2022  Slightly decreases blast radius",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/8bedf618841b334417b8f95c2aa35d57.png",
+                        "hashID": 981914802,
+                        "weaponHash": 2453357042,
+                        "isPerk": true,
+                        "isFavorablePerk": false,
+                        "perkType": "tubes",
+                        "perkSubType": "tubes"
                     },
                     {
                         "name": "Spike Grenades",
@@ -368,7 +439,20 @@
                         "hashID": 3301904089,
                         "weaponHash": 2453357042,
                         "isPerk": true,
-                        "isFavorablePerk": false
+                        "isFavorablePerk": false,
+                        "perkType": "magazines_gl",
+                        "perkSubType": "magazines_gl"
+                    },
+                    {
+                        "name": "High-Explosive Ordnance",
+                        "description": "This weapon's projectiles are larger and travel faster.\n  \u2022  Increases blast radius\n  \u2022  Slightly increases projectile speed\n  \u2022  Decreases magazine size",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/1e81b08badb2fa8ce16e9df925294f45.png",
+                        "hashID": 1380253176,
+                        "weaponHash": 2453357042,
+                        "isPerk": true,
+                        "isFavorablePerk": false,
+                        "perkType": "magazines_gl",
+                        "perkSubType": "magazines_gl"
                     },
                     {
                         "name": "Threat Detector",
@@ -377,7 +461,9 @@
                         "hashID": 4071163871,
                         "weaponHash": 2453357042,
                         "isPerk": true,
-                        "isFavorablePerk": false
+                        "isFavorablePerk": false,
+                        "perkType": "frames",
+                        "perkSubType": "frames"
                     },
                     {
                         "name": "Chain Reaction",
@@ -386,9 +472,12 @@
                         "hashID": 2396489472,
                         "weaponHash": 2453357042,
                         "isPerk": true,
-                        "isFavorablePerk": false
+                        "isFavorablePerk": false,
+                        "perkType": "frames",
+                        "perkSubType": "frames"
                     }
                 ],
+                "originTrait": null,
                 "exoticArmorPerk": null,
                 "legendWeaponFrame": {
                     "name": "Adaptive Frame",
@@ -397,12 +486,8 @@
                 },
                 "legendWeaponDamageType": "Power",
                 "legendWeaponDamageElement": "Arc",
-                "masterworkData": {
-                    "name": "Reload Speed",
-                    "description": "The time it takes to reload this weapon.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/e3a74e6dd4c520ea17eb1fdaf2128213.jpg",
-                    "mwHash": 4283235143
-                }
+                "masterworkData": null,
+                "damageTypeIcon": "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_092d066688b879c807c3b460afdd61e6.png"
             },
             {
                 "name": "Tarantula",
@@ -413,6 +498,7 @@
                 "itemHash": "3335343363",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/26e14672cecd7c19e33902dcd1c05db6.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/3335343363.jpg",
                 "rarity": "Legendary",
                 "class": 3,
                 "statRolls": [],
@@ -424,7 +510,20 @@
                         "hashID": 4090651448,
                         "weaponHash": 3335343363,
                         "isPerk": true,
-                        "isFavorablePerk": false
+                        "isFavorablePerk": false,
+                        "perkType": "barrels",
+                        "perkSubType": "barrels"
+                    },
+                    {
+                        "name": "Hammer-Forged Rifling",
+                        "description": "Durable ranged barrel.\n  \u2022  Increases range",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/2b9eb6d4489cffc18c10223279198bcc.png",
+                        "hashID": 3250034553,
+                        "weaponHash": 3335343363,
+                        "isPerk": true,
+                        "isFavorablePerk": false,
+                        "perkType": "barrels",
+                        "perkSubType": "barrels"
                     },
                     {
                         "name": "Ionized Battery",
@@ -433,7 +532,20 @@
                         "hashID": 1483536627,
                         "weaponHash": 3335343363,
                         "isPerk": true,
-                        "isFavorablePerk": false
+                        "isFavorablePerk": false,
+                        "perkType": "batteries",
+                        "perkSubType": "batteries"
+                    },
+                    {
+                        "name": "Particle Repeater",
+                        "description": "Improves stability. \n  \u2022  Increases stability",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/8a273117023794757631a34803314351.png",
+                        "hashID": 3868766766,
+                        "weaponHash": 3335343363,
+                        "isPerk": true,
+                        "isFavorablePerk": false,
+                        "perkType": "batteries",
+                        "perkSubType": "batteries"
                     },
                     {
                         "name": "Firmly Planted",
@@ -442,7 +554,9 @@
                         "hashID": 280464955,
                         "weaponHash": 3335343363,
                         "isPerk": true,
-                        "isFavorablePerk": false
+                        "isFavorablePerk": false,
+                        "perkType": "frames",
+                        "perkSubType": "frames"
                     },
                     {
                         "name": "Kill Clip",
@@ -451,9 +565,12 @@
                         "hashID": 1015611457,
                         "weaponHash": 3335343363,
                         "isPerk": true,
-                        "isFavorablePerk": false
+                        "isFavorablePerk": false,
+                        "perkType": "frames",
+                        "perkSubType": "frames"
                     }
                 ],
+                "originTrait": null,
                 "exoticArmorPerk": null,
                 "legendWeaponFrame": {
                     "name": "Precision Frame",
@@ -462,12 +579,8 @@
                 },
                 "legendWeaponDamageType": "Power",
                 "legendWeaponDamageElement": "Arc",
-                "masterworkData": {
-                    "name": "Charge Time",
-                    "description": "The time in milliseconds before a weapon fires.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/0ab7e72f178dbec85d531cc7eae34571.jpg",
-                    "mwHash": 3353797898
-                }
+                "masterworkData": null,
+                "damageTypeIcon": "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_092d066688b879c807c3b460afdd61e6.png"
             },
             {
                 "name": "Sojourner's Tale",
@@ -478,6 +591,7 @@
                 "itemHash": "599895591",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/7d4dd4ca8f6336b7400746f0ad017351.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/599895591.jpg",
                 "rarity": "Legendary",
                 "class": 3,
                 "statRolls": [],
@@ -489,7 +603,20 @@
                         "hashID": 839105230,
                         "weaponHash": 599895591,
                         "isPerk": true,
-                        "isFavorablePerk": false
+                        "isFavorablePerk": false,
+                        "perkType": "barrels",
+                        "perkSubType": "barrels"
+                    },
+                    {
+                        "name": "Chambered Compensator",
+                        "description": "Stable barrel attachment.\n  \u2022  Increases stability\n  \u2022  Moderately controls recoil\n  \u2022  Slightly decreases handling speed",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/0b451cbccc7f11f6aec9c153e59474cb.png",
+                        "hashID": 3661387068,
+                        "weaponHash": 599895591,
+                        "isPerk": true,
+                        "isFavorablePerk": false,
+                        "perkType": "barrels",
+                        "perkSubType": "barrels"
                     },
                     {
                         "name": "Assault Mag",
@@ -498,7 +625,20 @@
                         "hashID": 791862061,
                         "weaponHash": 599895591,
                         "isPerk": true,
-                        "isFavorablePerk": false
+                        "isFavorablePerk": false,
+                        "perkType": "magazines",
+                        "perkSubType": "magazines"
+                    },
+                    {
+                        "name": "Light Mag",
+                        "description": "Improved reload and range.\n  \u2022  Increases reload speed\n  \u2022  Slightly increases range",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/736b486ddb80beefacb4f09b5ad016eb.png",
+                        "hashID": 679225683,
+                        "weaponHash": 599895591,
+                        "isPerk": true,
+                        "isFavorablePerk": false,
+                        "perkType": "magazines",
+                        "perkSubType": "magazines"
                     },
                     {
                         "name": "Quickdraw",
@@ -507,7 +647,9 @@
                         "hashID": 706527188,
                         "weaponHash": 599895591,
                         "isPerk": true,
-                        "isFavorablePerk": false
+                        "isFavorablePerk": false,
+                        "perkType": "frames",
+                        "perkSubType": "frames"
                     },
                     {
                         "name": "Adrenaline Junkie",
@@ -516,9 +658,12 @@
                         "hashID": 11612903,
                         "weaponHash": 599895591,
                         "isPerk": true,
-                        "isFavorablePerk": false
+                        "isFavorablePerk": false,
+                        "perkType": "frames",
+                        "perkSubType": "frames"
                     }
                 ],
+                "originTrait": null,
                 "exoticArmorPerk": null,
                 "legendWeaponFrame": {
                     "name": "Pinpoint Slug Frame",
@@ -527,12 +672,8 @@
                 },
                 "legendWeaponDamageType": "Energy",
                 "legendWeaponDamageElement": "Solar",
-                "masterworkData": {
-                    "name": "Reload Speed",
-                    "description": "The time it takes to reload this weapon.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/e3a74e6dd4c520ea17eb1fdaf2128213.jpg",
-                    "mwHash": 4283235143
-                }
+                "masterworkData": null,
+                "damageTypeIcon": "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_2a1773e10968f2d088b97c22b22bba9e.png"
             },
             {
                 "name": "Piece of Mind",
@@ -543,6 +684,7 @@
                 "itemHash": "2097055732",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/ca30d3a70241cee7bd68fc139feea695.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/2097055732.jpg",
                 "rarity": "Legendary",
                 "class": 3,
                 "statRolls": [],
@@ -554,7 +696,20 @@
                         "hashID": 4090651448,
                         "weaponHash": 2097055732,
                         "isPerk": true,
-                        "isFavorablePerk": false
+                        "isFavorablePerk": false,
+                        "perkType": "barrels",
+                        "perkSubType": "barrels"
+                    },
+                    {
+                        "name": "Extended Barrel",
+                        "description": "Weighty barrel extension.\n  \u2022  Increases range\n  \u2022  Decreases handling speed\n  \u2022  Moderately controls recoil",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/d9e5e8fa07a84c29252b78b0e7b3106d.png",
+                        "hashID": 1467527085,
+                        "weaponHash": 2097055732,
+                        "isPerk": true,
+                        "isFavorablePerk": false,
+                        "perkType": "barrels",
+                        "perkSubType": "barrels"
                     },
                     {
                         "name": "Appended Mag",
@@ -563,7 +718,20 @@
                         "hashID": 1087426260,
                         "weaponHash": 2097055732,
                         "isPerk": true,
-                        "isFavorablePerk": false
+                        "isFavorablePerk": false,
+                        "perkType": "magazines",
+                        "perkSubType": "magazines"
+                    },
+                    {
+                        "name": "Flared Magwell",
+                        "description": "Optimized for fast reloading.\n  \u2022  Slightly increases stability\n  \u2022  Greatly increases reload speed",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/f95e67e4ff37466505d66d3fa1030782.png",
+                        "hashID": 3230963543,
+                        "weaponHash": 2097055732,
+                        "isPerk": true,
+                        "isFavorablePerk": false,
+                        "perkType": "magazines",
+                        "perkSubType": "magazines"
                     },
                     {
                         "name": "Compulsive Reloader",
@@ -572,7 +740,9 @@
                         "hashID": 671806388,
                         "weaponHash": 2097055732,
                         "isPerk": true,
-                        "isFavorablePerk": false
+                        "isFavorablePerk": false,
+                        "perkType": "frames",
+                        "perkSubType": "frames"
                     },
                     {
                         "name": "Moving Target",
@@ -581,18 +751,22 @@
                         "hashID": 588594999,
                         "weaponHash": 2097055732,
                         "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Land Tank",
-                        "description": "Final blows with this weapon grant increased Resilience and additional damage resistance from combatants.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/9fe0aad515097193ec6371c25fb5b81d.png",
-                        "hashID": 1536798515,
-                        "weaponHash": 2097055732,
-                        "isPerk": true,
-                        "isFavorablePerk": false
+                        "isFavorablePerk": false,
+                        "perkType": "frames",
+                        "perkSubType": "frames"
                     }
                 ],
+                "originTrait": {
+                    "name": "Land Tank",
+                    "description": "Final blows with this weapon grant increased Resilience and additional damage resistance from combatants.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/9fe0aad515097193ec6371c25fb5b81d.png",
+                    "hashID": 1536798515,
+                    "weaponHash": 2097055732,
+                    "isPerk": true,
+                    "isFavorablePerk": false,
+                    "perkType": "origins",
+                    "perkSubType": "origins"
+                },
                 "exoticArmorPerk": null,
                 "legendWeaponFrame": {
                     "name": "Rapid-Fire Frame",
@@ -601,12 +775,8 @@
                 },
                 "legendWeaponDamageType": "Kinetic",
                 "legendWeaponDamageElement": "Kinetic",
-                "masterworkData": {
-                    "name": "Stability",
-                    "description": "How much or little recoil you will experience while firing the weapon.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/c345c1b985997a4e2730ea3919b45359.jpg",
-                    "mwHash": 1590375901
-                }
+                "masterworkData": null,
+                "damageTypeIcon": "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_3385a924fd3ccb92c343ade19f19a370.png"
             },
             {
                 "name": "CALUS Mini-Tool",
@@ -617,6 +787,7 @@
                 "itemHash": "2490988246",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/40909558f2b45d65917eb0c9e245f403.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/2490988246.jpg",
                 "rarity": "Legendary",
                 "class": 3,
                 "statRolls": [],
@@ -628,7 +799,20 @@
                         "hashID": 202670084,
                         "weaponHash": 2490988246,
                         "isPerk": true,
-                        "isFavorablePerk": false
+                        "isFavorablePerk": false,
+                        "perkType": "barrels",
+                        "perkSubType": "barrels"
+                    },
+                    {
+                        "name": "Smallbore",
+                        "description": "Dual strength barrel.\n  \u2022  Increases range\n  \u2022  Increases stability",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/7d1bb6a623f14959a47156ee71acfc3a.png",
+                        "hashID": 1482024992,
+                        "weaponHash": 2490988246,
+                        "isPerk": true,
+                        "isFavorablePerk": false,
+                        "perkType": "barrels",
+                        "perkSubType": "barrels"
                     },
                     {
                         "name": "Accurized Rounds",
@@ -637,7 +821,20 @@
                         "hashID": 3142289711,
                         "weaponHash": 2490988246,
                         "isPerk": true,
-                        "isFavorablePerk": false
+                        "isFavorablePerk": false,
+                        "perkType": "magazines",
+                        "perkSubType": "magazines"
+                    },
+                    {
+                        "name": "Tactical Mag",
+                        "description": "This weapon has multiple tactical improvements.\n  \u2022  Slightly increases stability\n  \u2022  Increases reload speed\n  \u2022  Slightly increases magazine size",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/f0e309a267b25279a871d182f8910bcc.png",
+                        "hashID": 106909392,
+                        "weaponHash": 2490988246,
+                        "isPerk": true,
+                        "isFavorablePerk": false,
+                        "perkType": "magazines",
+                        "perkSubType": "magazines"
                     },
                     {
                         "name": "Air Assault",
@@ -646,7 +843,9 @@
                         "hashID": 3722653512,
                         "weaponHash": 2490988246,
                         "isPerk": true,
-                        "isFavorablePerk": false
+                        "isFavorablePerk": false,
+                        "perkType": "frames",
+                        "perkSubType": "frames"
                     },
                     {
                         "name": "Feeding Frenzy",
@@ -655,18 +854,22 @@
                         "hashID": 2779035018,
                         "weaponHash": 2490988246,
                         "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "To Excess",
-                        "description": "Final blows with this weapon while your Super is full grant a bonus to Strength and Discipline for a moderate duration.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/b35084a1bd62b75098f489a6c689ad08.png",
-                        "hashID": 1905044254,
-                        "weaponHash": 2490988246,
-                        "isPerk": true,
-                        "isFavorablePerk": false
+                        "isFavorablePerk": false,
+                        "perkType": "frames",
+                        "perkSubType": "frames"
                     }
                 ],
+                "originTrait": {
+                    "name": "To Excess",
+                    "description": "Final blows with this weapon while your Super is full grant a bonus to Strength and Discipline for a moderate duration.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/b35084a1bd62b75098f489a6c689ad08.png",
+                    "hashID": 1905044254,
+                    "weaponHash": 2490988246,
+                    "isPerk": true,
+                    "isFavorablePerk": false,
+                    "perkType": "origins",
+                    "perkSubType": "origins"
+                },
                 "exoticArmorPerk": null,
                 "legendWeaponFrame": {
                     "name": "MIDA Synergy",
@@ -675,12 +878,8 @@
                 },
                 "legendWeaponDamageType": "Energy",
                 "legendWeaponDamageElement": "Solar",
-                "masterworkData": {
-                    "name": "Range",
-                    "description": "Increases the effective range of this weapon.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/95af3923bdbdf11438504ddeb498afe8.jpg",
-                    "mwHash": 150943607
-                }
+                "masterworkData": null,
+                "damageTypeIcon": "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_2a1773e10968f2d088b97c22b22bba9e.png"
             },
             {
                 "name": "Disparity",
@@ -691,6 +890,7 @@
                 "itemHash": "1751893422",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/61412a4ba7ca62db0dce0fbc98b7038c.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/1751893422.jpg",
                 "rarity": "Legendary",
                 "class": 3,
                 "statRolls": [],
@@ -702,7 +902,20 @@
                         "hashID": 1840239774,
                         "weaponHash": 1751893422,
                         "isPerk": true,
-                        "isFavorablePerk": false
+                        "isFavorablePerk": false,
+                        "perkType": "barrels",
+                        "perkSubType": "barrels"
+                    },
+                    {
+                        "name": "Polygonal Rifling",
+                        "description": "Barrel optimized for recoil reduction.\n  \u2022  Increases stability",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/7d7aaccee29cf450d4057a9de871cdc8.png",
+                        "hashID": 1392496348,
+                        "weaponHash": 1751893422,
+                        "isPerk": true,
+                        "isFavorablePerk": false,
+                        "perkType": "barrels",
+                        "perkSubType": "barrels"
                     },
                     {
                         "name": "Appended Mag",
@@ -711,7 +924,20 @@
                         "hashID": 1087426260,
                         "weaponHash": 1751893422,
                         "isPerk": true,
-                        "isFavorablePerk": false
+                        "isFavorablePerk": false,
+                        "perkType": "magazines",
+                        "perkSubType": "magazines"
+                    },
+                    {
+                        "name": "Tactical Mag",
+                        "description": "This weapon has multiple tactical improvements.\n  \u2022  Slightly increases stability\n  \u2022  Increases reload speed\n  \u2022  Slightly increases magazine size",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/f0e309a267b25279a871d182f8910bcc.png",
+                        "hashID": 106909392,
+                        "weaponHash": 1751893422,
+                        "isPerk": true,
+                        "isFavorablePerk": false,
+                        "perkType": "magazines",
+                        "perkSubType": "magazines"
                     },
                     {
                         "name": "Moving Target",
@@ -720,7 +946,9 @@
                         "hashID": 588594999,
                         "weaponHash": 1751893422,
                         "isPerk": true,
-                        "isFavorablePerk": false
+                        "isFavorablePerk": false,
+                        "perkType": "frames",
+                        "perkSubType": "frames"
                     },
                     {
                         "name": "Desperado",
@@ -729,18 +957,22 @@
                         "hashID": 3047969693,
                         "weaponHash": 1751893422,
                         "isPerk": true,
-                        "isFavorablePerk": false
-                    },
-                    {
-                        "name": "Ambush",
-                        "description": "Improves range, handling, and damage against combatants during the opening moments of an engagement.",
-                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/a727dccb4a2b0c94bf4eadb8abd5ae95.png",
-                        "hashID": 192157151,
-                        "weaponHash": 1751893422,
-                        "isPerk": true,
-                        "isFavorablePerk": false
+                        "isFavorablePerk": false,
+                        "perkType": "frames",
+                        "perkSubType": "frames"
                     }
                 ],
+                "originTrait": {
+                    "name": "Ambush",
+                    "description": "Improves range, handling, and damage against combatants during the opening moments of an engagement.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/a727dccb4a2b0c94bf4eadb8abd5ae95.png",
+                    "hashID": 192157151,
+                    "weaponHash": 1751893422,
+                    "isPerk": true,
+                    "isFavorablePerk": false,
+                    "perkType": "origins",
+                    "perkSubType": "origins"
+                },
                 "exoticArmorPerk": null,
                 "legendWeaponFrame": {
                     "name": "Aggressive Burst",
@@ -749,12 +981,8 @@
                 },
                 "legendWeaponDamageType": "Kinetic",
                 "legendWeaponDamageElement": "Stasis",
-                "masterworkData": {
-                    "name": "Handling",
-                    "description": "The speed with which the weapon can be readied and aimed.",
-                    "icon": "https://www.bungie.net/common/destiny2_content/icons/d2e1ab2542f585d025fb4cc1a3885164.jpg",
-                    "mwHash": 518224747
-                }
+                "masterworkData": null,
+                "damageTypeIcon": "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_530c4c3e7981dc2aefd24fd3293482bf.png"
             }
         ],
         "Warlock": {
@@ -767,6 +995,7 @@
                 "itemHash": "3311198527",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/e75df2d3cbbdaad5a20e18f961265f66.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/3311198527.jpg",
                 "rarity": "Legendary",
                 "class": 2,
                 "statRolls": [
@@ -794,6 +1023,7 @@
                 "itemHash": "3245065734",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/e8e0a07db8e51c6193c54ecbbfd3129f.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/3245065734.jpg",
                 "rarity": "Legendary",
                 "class": 2,
                 "statRolls": [
@@ -821,6 +1051,7 @@
                 "itemHash": "2166974634",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/a1219a65c21c5f5622f5338157c0e66a.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/2166974634.jpg",
                 "rarity": "Legendary",
                 "class": 2,
                 "statRolls": [
@@ -848,6 +1079,7 @@
                 "itemHash": "2804094976",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/1861c02b372be71eedc591e91637a508.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/2804094976.jpg",
                 "rarity": "Legendary",
                 "class": 2,
                 "statRolls": [
@@ -875,6 +1107,7 @@
                 "itemHash": "2803792315",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/e416e694613233734e602148022f19f7.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/2803792315.jpg",
                 "rarity": "Legendary",
                 "class": 2,
                 "statRolls": [
@@ -904,6 +1137,7 @@
                 "itemHash": "505747572",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/dc555a73967374d5611288e717d3422e.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/505747572.jpg",
                 "rarity": "Legendary",
                 "class": 1,
                 "statRolls": [
@@ -931,6 +1165,7 @@
                 "itemHash": "3673119885",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/bc2b8b0b30047c4dea01e25d37a196de.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/3673119885.jpg",
                 "rarity": "Legendary",
                 "class": 1,
                 "statRolls": [
@@ -958,6 +1193,7 @@
                 "itemHash": "3100185651",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/4a1dd17432e20c42c0bbfa371e4f968f.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/3100185651.jpg",
                 "rarity": "Legendary",
                 "class": 1,
                 "statRolls": [
@@ -985,6 +1221,7 @@
                 "itemHash": "48951631",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/e41b0b33e35319fa49936d757a1671d8.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/48951631.jpg",
                 "rarity": "Legendary",
                 "class": 1,
                 "statRolls": [
@@ -1012,6 +1249,7 @@
                 "itemHash": "1010644330",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/1417ed3b5121b02044ee674b8c897000.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/1010644330.jpg",
                 "rarity": "Legendary",
                 "class": 1,
                 "statRolls": [
@@ -1041,6 +1279,7 @@
                 "itemHash": "4003170632",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/34a21b178b7f0266335bb2b8ae135b43.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/4003170632.jpg",
                 "rarity": "Legendary",
                 "class": 0,
                 "statRolls": [
@@ -1068,6 +1307,7 @@
                 "itemHash": "3350504921",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/17f26cf1dd8ed0448dbeab2c8e829641.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/3350504921.jpg",
                 "rarity": "Legendary",
                 "class": 0,
                 "statRolls": [
@@ -1095,6 +1335,7 @@
                 "itemHash": "412014143",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/900285befbc42e093993f00fab9e761e.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/412014143.jpg",
                 "rarity": "Legendary",
                 "class": 0,
                 "statRolls": [
@@ -1122,6 +1363,7 @@
                 "itemHash": "1947723211",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/47f4ebcd97a06fddf11e9cb8ba5f1a42.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/1947723211.jpg",
                 "rarity": "Legendary",
                 "class": 0,
                 "statRolls": [
@@ -1149,6 +1391,7 @@
                 "itemHash": "1659172686",
                 "itemRating": null,
                 "icon": "https://www.bungie.net/common/destiny2_content/icons/9aaa24252cba18f15453f79f540e6641.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/1659172686.jpg",
                 "rarity": "Legendary",
                 "class": 0,
                 "statRolls": [
