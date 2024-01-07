@@ -359,7 +359,8 @@ class main:
                         continue
                         
                     
-
+                    perkType = decodedPlug.get("itemTypeDisplayName")
+                    
                     perkSubType = decodedPlug["plug"].get("plugCategoryIdentifier")
 
 
@@ -545,7 +546,7 @@ class main:
                         continue
                         
                     
-                    if "masterwork" not in perk.get("perkType"):
+                    if "masterwork" not in perk.get("perkSubType"):
 
                         item["weaponPerks"].append(perk)
 

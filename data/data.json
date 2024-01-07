@@ -64,7 +64,7 @@
                     "weaponHash": 4068264807,
                     "isPerk": true,
                     "isFavorablePerk": false,
-                    "perkType": "intrinsics",
+                    "perkType": "Intrinsic",
                     "perkSubType": "intrinsics"
                 },
                 {
@@ -75,7 +75,7 @@
                     "weaponHash": 4068264807,
                     "isPerk": true,
                     "isFavorablePerk": false,
-                    "perkType": "barrels",
+                    "perkType": "Barrel",
                     "perkSubType": "barrels"
                 },
                 {
@@ -86,7 +86,7 @@
                     "weaponHash": 4068264807,
                     "isPerk": true,
                     "isFavorablePerk": false,
-                    "perkType": "magazines",
+                    "perkType": "Magazine",
                     "perkSubType": "magazines"
                 },
                 {
@@ -97,7 +97,7 @@
                     "weaponHash": 4068264807,
                     "isPerk": true,
                     "isFavorablePerk": false,
-                    "perkType": "frames",
+                    "perkType": "Trait",
                     "perkSubType": "frames"
                 },
                 {
@@ -108,7 +108,7 @@
                     "weaponHash": 4068264807,
                     "isPerk": true,
                     "isFavorablePerk": false,
-                    "perkType": "stocks",
+                    "perkType": "Stock",
                     "perkSubType": "stocks"
                 }
             ],
@@ -142,7 +142,7 @@
                     "weaponHash": 3856705927,
                     "isPerk": true,
                     "isFavorablePerk": false,
-                    "perkType": "intrinsics",
+                    "perkType": "Intrinsic",
                     "perkSubType": "intrinsics"
                 },
                 {
@@ -153,7 +153,7 @@
                     "weaponHash": 3856705927,
                     "isPerk": true,
                     "isFavorablePerk": false,
-                    "perkType": "barrels",
+                    "perkType": "Barrel",
                     "perkSubType": "barrels"
                 },
                 {
@@ -164,7 +164,7 @@
                     "weaponHash": 3856705927,
                     "isPerk": true,
                     "isFavorablePerk": false,
-                    "perkType": "magazines",
+                    "perkType": "Magazine",
                     "perkSubType": "magazines"
                 },
                 {
@@ -175,7 +175,7 @@
                     "weaponHash": 3856705927,
                     "isPerk": true,
                     "isFavorablePerk": false,
-                    "perkType": "frames",
+                    "perkType": "Trait",
                     "perkSubType": "frames"
                 },
                 {
@@ -186,7 +186,7 @@
                     "weaponHash": 3856705927,
                     "isPerk": true,
                     "isFavorablePerk": false,
-                    "perkType": "grips",
+                    "perkType": "Grip",
                     "perkSubType": "grips"
                 }
             ],
@@ -325,7 +325,7 @@
                         "weaponHash": 1946491241,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "tubes",
+                        "perkType": "Launcher Barrel",
                         "perkSubType": "tubes"
                     },
                     {
@@ -336,7 +336,7 @@
                         "weaponHash": 1946491241,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "tubes",
+                        "perkType": "Launcher Barrel",
                         "perkSubType": "tubes"
                     },
                     {
@@ -347,7 +347,7 @@
                         "weaponHash": 1946491241,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "magazines_gl",
+                        "perkType": "Magazine",
                         "perkSubType": "magazines_gl"
                     },
                     {
@@ -358,7 +358,7 @@
                         "weaponHash": 1946491241,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "magazines_gl",
+                        "perkType": "Magazine",
                         "perkSubType": "magazines_gl"
                     },
                     {
@@ -369,7 +369,7 @@
                         "weaponHash": 1946491241,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "frames",
+                        "perkType": "Trait",
                         "perkSubType": "frames"
                     },
                     {
@@ -380,7 +380,7 @@
                         "weaponHash": 1946491241,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "frames",
+                        "perkType": "Trait",
                         "perkSubType": "frames"
                     }
                 ],
@@ -423,7 +423,7 @@
                         "weaponHash": 2453357042,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "tubes",
+                        "perkType": "Launcher Barrel",
                         "perkSubType": "tubes"
                     },
                     {
@@ -434,7 +434,7 @@
                         "weaponHash": 2453357042,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "tubes",
+                        "perkType": "Launcher Barrel",
                         "perkSubType": "tubes"
                     },
                     {
@@ -445,7 +445,7 @@
                         "weaponHash": 2453357042,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "magazines_gl",
+                        "perkType": "Magazine",
                         "perkSubType": "magazines_gl"
                     },
                     {
@@ -456,7 +456,7 @@
                         "weaponHash": 2453357042,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "magazines_gl",
+                        "perkType": "Magazine",
                         "perkSubType": "magazines_gl"
                     },
                     {
@@ -467,7 +467,7 @@
                         "weaponHash": 2453357042,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "frames",
+                        "perkType": "Trait",
                         "perkSubType": "frames"
                     },
                     {
@@ -478,7 +478,7 @@
                         "weaponHash": 2453357042,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "frames",
+                        "perkType": "Trait",
                         "perkSubType": "frames"
                     }
                 ],
@@ -521,7 +521,7 @@
                         "weaponHash": 3335343363,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "barrels",
+                        "perkType": "Barrel",
                         "perkSubType": "barrels"
                     },
                     {
@@ -532,7 +532,7 @@
                         "weaponHash": 3335343363,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "barrels",
+                        "perkType": "Barrel",
                         "perkSubType": "barrels"
                     },
                     {
@@ -543,7 +543,7 @@
                         "weaponHash": 3335343363,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "batteries",
+                        "perkType": "Battery",
                         "perkSubType": "batteries"
                     },
                     {
@@ -554,7 +554,7 @@
                         "weaponHash": 3335343363,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "batteries",
+                        "perkType": "Battery",
                         "perkSubType": "batteries"
                     },
                     {
@@ -565,7 +565,7 @@
                         "weaponHash": 3335343363,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "frames",
+                        "perkType": "Trait",
                         "perkSubType": "frames"
                     },
                     {
@@ -576,7 +576,7 @@
                         "weaponHash": 3335343363,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "frames",
+                        "perkType": "Trait",
                         "perkSubType": "frames"
                     }
                 ],
@@ -619,7 +619,7 @@
                         "weaponHash": 599895591,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "barrels",
+                        "perkType": "Barrel",
                         "perkSubType": "barrels"
                     },
                     {
@@ -630,7 +630,7 @@
                         "weaponHash": 599895591,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "barrels",
+                        "perkType": "Barrel",
                         "perkSubType": "barrels"
                     },
                     {
@@ -641,7 +641,7 @@
                         "weaponHash": 599895591,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "magazines",
+                        "perkType": "Magazine",
                         "perkSubType": "magazines"
                     },
                     {
@@ -652,7 +652,7 @@
                         "weaponHash": 599895591,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "magazines",
+                        "perkType": "Magazine",
                         "perkSubType": "magazines"
                     },
                     {
@@ -663,7 +663,7 @@
                         "weaponHash": 599895591,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "frames",
+                        "perkType": "Trait",
                         "perkSubType": "frames"
                     },
                     {
@@ -674,7 +674,7 @@
                         "weaponHash": 599895591,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "frames",
+                        "perkType": "Trait",
                         "perkSubType": "frames"
                     }
                 ],
@@ -717,7 +717,7 @@
                         "weaponHash": 2097055732,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "barrels",
+                        "perkType": "Barrel",
                         "perkSubType": "barrels"
                     },
                     {
@@ -728,7 +728,7 @@
                         "weaponHash": 2097055732,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "barrels",
+                        "perkType": "Barrel",
                         "perkSubType": "barrels"
                     },
                     {
@@ -739,7 +739,7 @@
                         "weaponHash": 2097055732,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "magazines",
+                        "perkType": "Magazine",
                         "perkSubType": "magazines"
                     },
                     {
@@ -750,7 +750,7 @@
                         "weaponHash": 2097055732,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "magazines",
+                        "perkType": "Magazine",
                         "perkSubType": "magazines"
                     },
                     {
@@ -761,7 +761,7 @@
                         "weaponHash": 2097055732,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "frames",
+                        "perkType": "Trait",
                         "perkSubType": "frames"
                     },
                     {
@@ -772,7 +772,7 @@
                         "weaponHash": 2097055732,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "frames",
+                        "perkType": "Trait",
                         "perkSubType": "frames"
                     }
                 ],
@@ -784,7 +784,7 @@
                     "weaponHash": 2097055732,
                     "isPerk": true,
                     "isFavorablePerk": false,
-                    "perkType": "origins",
+                    "perkType": "Origin Trait",
                     "perkSubType": "origins"
                 },
                 "exoticArmorPerk": null,
@@ -825,7 +825,7 @@
                         "weaponHash": 2490988246,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "barrels",
+                        "perkType": "Barrel",
                         "perkSubType": "barrels"
                     },
                     {
@@ -836,7 +836,7 @@
                         "weaponHash": 2490988246,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "barrels",
+                        "perkType": "Barrel",
                         "perkSubType": "barrels"
                     },
                     {
@@ -847,7 +847,7 @@
                         "weaponHash": 2490988246,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "magazines",
+                        "perkType": "Magazine",
                         "perkSubType": "magazines"
                     },
                     {
@@ -858,7 +858,7 @@
                         "weaponHash": 2490988246,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "magazines",
+                        "perkType": "Magazine",
                         "perkSubType": "magazines"
                     },
                     {
@@ -869,7 +869,7 @@
                         "weaponHash": 2490988246,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "frames",
+                        "perkType": "Trait",
                         "perkSubType": "frames"
                     },
                     {
@@ -880,7 +880,7 @@
                         "weaponHash": 2490988246,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "frames",
+                        "perkType": "Trait",
                         "perkSubType": "frames"
                     }
                 ],
@@ -892,7 +892,7 @@
                     "weaponHash": 2490988246,
                     "isPerk": true,
                     "isFavorablePerk": false,
-                    "perkType": "origins",
+                    "perkType": "Origin Trait",
                     "perkSubType": "origins"
                 },
                 "exoticArmorPerk": null,
@@ -933,7 +933,7 @@
                         "weaponHash": 1751893422,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "barrels",
+                        "perkType": "Barrel",
                         "perkSubType": "barrels"
                     },
                     {
@@ -944,7 +944,7 @@
                         "weaponHash": 1751893422,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "barrels",
+                        "perkType": "Barrel",
                         "perkSubType": "barrels"
                     },
                     {
@@ -955,7 +955,7 @@
                         "weaponHash": 1751893422,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "magazines",
+                        "perkType": "Magazine",
                         "perkSubType": "magazines"
                     },
                     {
@@ -966,7 +966,7 @@
                         "weaponHash": 1751893422,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "magazines",
+                        "perkType": "Magazine",
                         "perkSubType": "magazines"
                     },
                     {
@@ -977,7 +977,7 @@
                         "weaponHash": 1751893422,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "frames",
+                        "perkType": "Trait",
                         "perkSubType": "frames"
                     },
                     {
@@ -988,7 +988,7 @@
                         "weaponHash": 1751893422,
                         "isPerk": true,
                         "isFavorablePerk": false,
-                        "perkType": "frames",
+                        "perkType": "Trait",
                         "perkSubType": "frames"
                     }
                 ],
@@ -1000,7 +1000,7 @@
                     "weaponHash": 1751893422,
                     "isPerk": true,
                     "isFavorablePerk": false,
-                    "perkType": "origins",
+                    "perkType": "Origin Trait",
                     "perkSubType": "origins"
                 },
                 "exoticArmorPerk": null,
