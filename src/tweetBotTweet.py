@@ -75,7 +75,7 @@ class main:
         resetDate = date.today() + timedelta((1-date.today().weekday()) % 7 )
         resetDate = resetDate.strftime("%B %d").replace(' 0', ' ')
         resetDateOrdinaled = self.addOrdinal(resetDate) 
-        tweetStr = f"🌎  Xûr has arrived at the {self.location}!\n\n\n⚔️  {self.exoticWeapon}\n🛡  {self.exoticTitan}\n🛡  {self.exoticHunter}\n🛡  {self.exoticWarlock}\n\n\n\n🚀  Xûr will depart on {resetDateOrdinaled}.\n\nMore info at: https://xurtracker.com\n\n#Xur #Destiny  #Destiny2"
+        tweetStr = f"🌎  Xûr has arrived at the Tower!\n\n\n🛡  {self.exoticTitan}\n🛡  {self.exoticHunter}\n🛡  {self.exoticWarlock}\n\n\n\n🚀  Xûr will depart on {resetDateOrdinaled}.\n\nMore info at: https://xurtracker.com\n\n#Xur #Destiny  #Destiny2"
 
         #tweet
         if(sendTweet):
@@ -206,7 +206,8 @@ class main:
 
     async def getXurInventory(self,getLoc):
         if(getLoc):
-            self.getLocation()
+            #self.getLocation()
+            self.location = "Tower Hangar"
 
         #format url data    
         apiUrl = self.DestinyURLBase + "/Destiny2/Vendors/?components=402"

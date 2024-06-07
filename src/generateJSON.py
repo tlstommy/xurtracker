@@ -188,6 +188,7 @@ class main:
         apiUrl400 = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{characterIDWarlock}/Vendors/?components=400"
         apiResponse400 = self.get_api_request(apiUrl400)
         apiResponse400Json = json.loads(apiResponse400)
+        
         xurVendorLoc = apiResponse400Json["Response"]["vendors"]["data"]["2190858386"].get("vendorLocationIndex")
         
         if xurVendorLoc == 0:
@@ -845,7 +846,8 @@ class main:
         #store into a dict
         self.apiResponseJson = json.loads(self.apiResponse)
         
-        
+        print(self.apiResponseJson)
+            
         #print(self.apiResponseJson)
 
 
