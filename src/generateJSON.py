@@ -70,6 +70,10 @@ class main:
         self.ExoticWeapon = None
         self.ExoticHawkmoon = None
 
+        #exotic weapon catalysts
+        self.FirstCatalyst = None
+        self.SecondCatalyst = None
+
         #the regular weapons that xur sells
         self.LegendaryWeapons = []
         
@@ -144,6 +148,10 @@ class main:
                     "Planet":self.planet,
                     "Landing Zone":self.landingZone,
                     "Week":self.week,
+                    "Catalysts":{
+                        "Primary":self.FirstCatalyst,
+                        "Secondary":self.SecondCatalyst,
+                    },
                     "Exotics":{
                         "Exotic Engram":self.ExoticEngram,
                         "Exotic Quest":self.ExoticQuest,
@@ -796,7 +804,40 @@ class main:
                 if(armorType == "Titan Mark" and jsonTemplate["rarity"] != "Exotic"):
                     self.TitanClassItem = jsonTemplate
 
+    async def getExoticCatalysts(self):
 
+        exoticCatalysts = []
+
+        apiUrl402 = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{characterIDWarlock}/Vendors/{self.vendorHash}/?components=402"
+        apiResponse402 = self.get_api_request(apiUrl402)
+        apiResponse402Json = json.loads(apiResponse402)
+
+        for itemID, itemIDData in apiResponse402Json["Response"]["sales"]["data"].items():
+            if len(exoticCatalysts) > 2:
+                break
+            
+            hashedData = await self.decodeHash(itemIDData.get("itemHash"),"DestinyInventoryItemDefinition")
+            if(hashedData.get('traitIds') == ['item.exotic_catalyst']):
+               
+
+
+
+                jsonTemplate = {
+                    "name":hashedData["displayProperties"].get("name"),
+                    "type":"Exotic Catalyst",
+                    "description":hashedData["displayProperties"].get("description"),
+                    "itemHash":str(itemIDData.get("itemHash")),
+                    "icon":"https://www.bungie.net"+str(hashedData["displayProperties"].get("icon")),
+                    "rarity":hashedData["inventory"].get("tierTypeName"),
+                }
+            
+
+                
+
+                exoticCatalysts.append(jsonTemplate)
+        self.FirstCatalyst = exoticCatalysts[0]
+        self.SecondCatalyst = exoticCatalysts[1]
+        
 
     #determines if an item already exists in the json before its added
     def jsonConflictCheck(self,jsonToTest):
@@ -838,7 +879,8 @@ class main:
     
     async def getXurInventory(self,charID):
         
-
+        
+        
         #do this first before everything
         apiUrl = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{charID}/Vendors/{self.vendorHash}/?components=402"        #format url data
         self.apiResponse = self.get_api_request(apiUrl)
@@ -868,6 +910,8 @@ class main:
         await self.getArmor(self.hunterCharacterID,"hunter")
         await self.getArmor(self.titanCharacterID,"titan")
         await self.getWeapons()
+        await self.getExoticCatalysts()
+
         await self.bindJsonData()
 
         print(self.weaponPerksTemplateList)
