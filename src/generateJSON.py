@@ -291,7 +291,9 @@ class main:
         apiUrl310 = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{characterIDWarlock}/Vendors/{self.strangeGearVendorHash}/?components=310"
         apiResponse310 = self.get_api_request(apiUrl310)
         apiResponse310Json = json.loads(apiResponse310)
-        combinedPerkJson = self.socketPlugs(apiResponse305Json,apiResponse310Json)
+        
+        
+        #self.combinedPerkJson = self.socketPlugs(apiResponse305Json,apiResponse310Json)
 
 
         #item ids
