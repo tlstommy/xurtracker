@@ -328,7 +328,7 @@ class main:
         #now get each individual weapons perks
 
         print(self.combinedPerksJson.items())
-        
+    
         
         for key, values in self.combinedPerksJson.items():
             
@@ -362,6 +362,7 @@ class main:
 
                     #make sure its a trait of sometype
                     perkType = decodedPlug["plug"].get("plugCategoryIdentifier")
+                    
                     if perkType == "" or decodedPlug["displayProperties"].get("name") == "Crucible Tracker":
                         continue
                         
@@ -386,6 +387,7 @@ class main:
                         "perkSubType":perkSubType
                     }
 
+                    
                     
                     
 
@@ -485,8 +487,8 @@ class main:
                 "damageTypeIcon":"https://www.bungie.net"+str(elementData["displayProperties"].get("icon")),
             }
 
-            #print(jsonTemplate)
-            #input("test!!!\n")
+            print("\n")
+            
             
             if(jsonTemplate.get("rarity") != "Exotic"):
                 self.LegendaryWeapons.append(jsonTemplate)
@@ -506,16 +508,13 @@ class main:
     
     async def bindStatToWeapon(self):
 
-        
-
-
-
         for item in self.weaponsTemplatesList:
             weaponHash = item.get("itemHash")
             print(item.get("name"))
             for perk in self.weaponPerksTemplateList:
                 
                 perkWHash = perk.get("weaponHash")
+                
                 if weaponHash == str(perkWHash):
                     
                     #if the perk is a masterwork decode it
@@ -563,8 +562,6 @@ class main:
 
                     
             
-
-
             #group perks on the item
             item["weaponPerks"] = self.perkSort(item["weaponPerks"])
             
