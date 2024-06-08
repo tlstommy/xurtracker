@@ -60,8 +60,162 @@
             "legendWeaponDamageElement": null,
             "masterworkData": null
         },
-        "Exotic Weapon": null,
-        "Hawkmoon": null,
+        "Exotic Weapon": {
+            "name": "Cerberus+1",
+            "type": "Exotic Auto Rifle",
+            "description": "",
+            "lore": "\"Because three heads are good, but four are better.\" \u2014Jeza \"Jeopardy\" Verlayn",
+            "ExtLore": "I had plans for the Photonic Heart.\n\nFirst I was gonna take it straight to Marcus, gloat for a bit. \"Look what I found, told you the rumors were true, how fast d'you think my Sparrow'd go if I swapped my engine out for it\u2026\"\n\nThen see what I could get for it in the Bazaar. Not 'cause I wanted to sell it. Just 'cause it'd feel good to know.\n\nThen I was gonna take a little vacation with it to Venus, and THEN I'd figure out what to do with it. At my leisure.\n\nBut no. Had to get sucker punched by an asteroid.\n\nBarely made the landing on this dusty spit of Shore. Lost all my weapons in the crash. Heart only survived 'cause I put it in my helmet and buckled it in my seat.\n\nSo my Ghost revives me, and there I am in a crater surrounded by fragmentalized auto rifles and a Golden Age microstellar dynamo. Talk about hell.\n\nI started with three barrels. Figured I might as well lean into the hell vibe. Shoulda known that wouldn't have been enough to really min/max with a power source this feisty. Especially once I noticed the coronal containment shield was cracked.\n\nThe first time I fired the Cerberus+1 and felt that puppy kick, I knew: plans are overrated.",
+            "itemHash": "1541131350",
+            "itemRating": null,
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/161a3f06196563345afeacb46e9df88d.jpg",
+            "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/1541131350.jpg",
+            "rarity": "Exotic",
+            "class": 3,
+            "statRolls": [],
+            "weaponPerks": [
+                {
+                    "name": "Four-Headed Dog",
+                    "description": "Shoots erratic bullets from all gun barrels at the same time.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/4de9cb8fc9c1c4e6129c14a196b3ed73.png",
+                    "hashID": 3208839961,
+                    "weaponHash": 1541131350,
+                    "isPerk": true,
+                    "isFavorablePerk": false,
+                    "perkType": "Intrinsic",
+                    "perkSubType": "intrinsics"
+                },
+                {
+                    "name": "Rifled Barrel",
+                    "description": "Ranged shotgun barrel.\n  \u2022  Increases range\n  \u2022  Greatly decreases handling speed",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/79d5f1f469d3290cfb849f4b3e6fc16b.png",
+                    "hashID": 1332244541,
+                    "weaponHash": 1541131350,
+                    "isPerk": true,
+                    "isFavorablePerk": false,
+                    "perkType": "Barrel",
+                    "perkSubType": "barrels"
+                },
+                {
+                    "name": "Fluted Barrel",
+                    "description": "Ultra-light barrel. \n  \u2022  Greatly increases handling speed\n  \u2022  Slightly increases stability",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/260eba9dd149dbb94b1306c9ed4dd8db.png",
+                    "hashID": 1840239774,
+                    "weaponHash": 1541131350,
+                    "isPerk": true,
+                    "isFavorablePerk": false,
+                    "perkType": "Barrel",
+                    "perkSubType": "barrels"
+                },
+                {
+                    "name": "Full Bore",
+                    "description": "Barrel optimized for distance.\n  \u2022  Greatly increases range\n  \u2022  Decreases stability\n  \u2022  Slightly decreases handling speed",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/40a4bdcf0f5a4e492927f9569eaf529d.png",
+                    "hashID": 202670084,
+                    "weaponHash": 1541131350,
+                    "isPerk": true,
+                    "isFavorablePerk": false,
+                    "perkType": "Barrel",
+                    "perkSubType": "barrels"
+                },
+                {
+                    "name": "Spread Shot Package",
+                    "description": "Aiming this weapon reduces the spread of its projectiles.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/5b28dd5acc49a06144fe409e4580f6e8.png",
+                    "hashID": 1289604610,
+                    "weaponHash": 1541131350,
+                    "isPerk": true,
+                    "isFavorablePerk": false,
+                    "perkType": "Trait",
+                    "perkSubType": "frames"
+                }
+            ],
+            "originTrait": null,
+            "exoticArmorPerk": null,
+            "legendWeaponFrame": null,
+            "legendWeaponDamageType": "Kinetic",
+            "legendWeaponDamageElement": "Kinetic",
+            "masterworkData": null,
+            "damageTypeIcon": "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_3385a924fd3ccb92c343ade19f19a370.png"
+        },
+        "Hawkmoon": {
+            "name": "Hawkmoon",
+            "type": "Exotic Hand Cannon",
+            "description": "",
+            "lore": "Stalk thy prey and let loose thy talons upon the Darkness.",
+            "ExtLore": "What is this feeling?\n\nI did not ask for it. I do not understand it. I do not want it.\n\nThe Crow is so carefree in his ignorance. The bonfire's glow lights up his pale features and I am drawn to the hope in his gold eyes. Where is the despairing child I anticipated?\n\nHe drinks from an open bottle of wine against the recommendation of his Ghost. The Guardian encourages him and they are laughing. This celebration is maddening; neither have reason to be so jubilant. Their world is ending and they thrash like dying creatures in the final light of collapsing stars. They do not seem to acknowledge the futility of their existence, the impermanence of it in the face of cosmic annihilation.\n\nNow the Guardian is drinking, standing close to the fire. Their Ghost, too, encourages them not to partake. They poison themselves for the enjoyment of it.\n\nI am reminded of my sisters. Of moments spent by lapping shores, gazing up at infinite stars full of possibilities and wonder. I am left yearning.\n\nWhat is this feeling?\n\nI do not understand it. I do not want it.\n\nThey are celebrating their victory over the Taken. The Crow is making a gun shape with his hand, swinging the nearly empty bottle of wine around in the other like a Sword. The Guardian looks pensive, sitting on a rock by the fire, contemplating the secret they are keeping. The Crow notices, but tries not to show it. He wants the Guardian's spirits to be lifted. He wants to be supportive, so that they may share in their triumphs together.\n\nAs equals.\n\nI am reminded of my home. I am reminded of the warmth of the sun and the embrace of my family. I am reminded of my father's face. I am reminded of everyone I betrayed. All the blood spilled in the name of immortality. The warmth of the sun burns me with its memory.\n\nWhat is this feeling?\n\nI do not want it.\n\nThe fire has nearly died. The Crow fell over and cannot stand, though he insists he is fine. The Guardian is turning the embers with the tip of their Sword. The Ghosts are talking to one another in quiet conspiracy. The celebration has ended, but I can sense their emotions are mixed: complex and myriad things, when a simple, singular focus would suffice.\n\nThere is a growing kinship here. Against better judgment.\n\nWhat is this feeling?",
+            "itemHash": "3856705927",
+            "itemRating": null,
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/cef1290d58a2d94d1437e1e569fa7996.jpg",
+            "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/3856705927.jpg",
+            "rarity": "Exotic",
+            "class": 3,
+            "statRolls": [],
+            "weaponPerks": [
+                {
+                    "name": "Paracausal Shot",
+                    "description": "Final blows and precision hits with Hawkmoon grant stacks of Paracausal Charge. The final round in the magazine deals bonus damage based on the number of stacks. Stowing Hawkmoon on the final round removes this bonus.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/243f5529bbd845871803181958599473.png",
+                    "hashID": 213689231,
+                    "weaponHash": 3856705927,
+                    "isPerk": true,
+                    "isFavorablePerk": false,
+                    "perkType": "Intrinsic",
+                    "perkSubType": "intrinsics"
+                },
+                {
+                    "name": "Fluted Barrel",
+                    "description": "Ultra-light barrel. \n  \u2022  Greatly increases handling speed\n  \u2022  Slightly increases stability",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/260eba9dd149dbb94b1306c9ed4dd8db.png",
+                    "hashID": 1840239774,
+                    "weaponHash": 3856705927,
+                    "isPerk": true,
+                    "isFavorablePerk": false,
+                    "perkType": "Barrel",
+                    "perkSubType": "barrels"
+                },
+                {
+                    "name": "Alloy Magazine",
+                    "description": "Faster reloads when the magazine is empty.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/069170916c98748b7b3e33b80bd7d689.png",
+                    "hashID": 1431678320,
+                    "weaponHash": 3856705927,
+                    "isPerk": true,
+                    "isFavorablePerk": false,
+                    "perkType": "Magazine",
+                    "perkSubType": "magazines"
+                },
+                {
+                    "name": "Surplus",
+                    "description": "Increases handling, reload speed, and stability for each fully charged ability.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/a4c054c3547840300b9ce7ef11b7b6fc.png",
+                    "hashID": 3436462433,
+                    "weaponHash": 3856705927,
+                    "isPerk": true,
+                    "isFavorablePerk": false,
+                    "perkType": "Trait",
+                    "perkSubType": "frames"
+                },
+                {
+                    "name": "Heavy Grip",
+                    "description": "This grip is weighted for recoil control.\n  \u2022  Increases stability\n  \u2022  Decreases handling speed",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/02a60561b11d9abee82741981af12a3f.png",
+                    "hashID": 1012699414,
+                    "weaponHash": 3856705927,
+                    "isPerk": true,
+                    "isFavorablePerk": false,
+                    "perkType": "Grip",
+                    "perkSubType": "grips"
+                }
+            ],
+            "originTrait": null,
+            "exoticArmorPerk": null,
+            "legendWeaponFrame": null,
+            "legendWeaponDamageType": "Kinetic",
+            "legendWeaponDamageElement": "Kinetic",
+            "masterworkData": null,
+            "damageTypeIcon": "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_3385a924fd3ccb92c343ade19f19a370.png"
+        },
         "Warlock Exotic": {
             "name": "Verity's Brow",
             "type": "Exotic Helmet",
@@ -166,7 +320,550 @@
         }
     },
     "Legendaries": {
-        "Legendary weapons": [],
+        "Legendary weapons": [
+            {
+                "name": "Shepherd's Watch",
+                "type": "Legendary Sniper Rifle",
+                "description": "",
+                "lore": "Nobody talks about the day the Shepherd's staff became the Shepherd's rifle.",
+                "ExtLore": null,
+                "itemHash": "3743729616",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/33f1ad0d62716355acf8e0ac9ae151f1.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/3743729616.jpg",
+                "rarity": "Legendary",
+                "class": 3,
+                "statRolls": [],
+                "weaponPerks": [
+                    {
+                        "name": "Full Bore",
+                        "description": "Barrel optimized for distance.\n  \u2022  Greatly increases range\n  \u2022  Decreases stability\n  \u2022  Slightly decreases handling speed",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/40a4bdcf0f5a4e492927f9569eaf529d.png",
+                        "hashID": 202670084,
+                        "weaponHash": 3743729616,
+                        "isPerk": true,
+                        "isFavorablePerk": false,
+                        "perkType": "Barrel",
+                        "perkSubType": "barrels"
+                    },
+                    {
+                        "name": "Accurized Rounds",
+                        "description": "This weapon can fire longer distances.\n  \u2022  Increases range",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/d85024478504205359c7fb52dbc4f6b6.png",
+                        "hashID": 3142289711,
+                        "weaponHash": 3743729616,
+                        "isPerk": true,
+                        "isFavorablePerk": true,
+                        "perkType": "Magazine",
+                        "perkSubType": "magazines"
+                    },
+                    {
+                        "name": "Outlaw",
+                        "description": "Precision kills greatly decrease reload time.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/382df469a091c33e190ee583b64923e8.png",
+                        "hashID": 1168162263,
+                        "weaponHash": 3743729616,
+                        "isPerk": true,
+                        "isFavorablePerk": false,
+                        "perkType": "Trait",
+                        "perkSubType": "frames"
+                    },
+                    {
+                        "name": "Frenzy",
+                        "description": "Being in combat for an extended time increases damage, handling, and reload for this weapon until you are out of combat.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/23e06f4ced1b3e6476f342978ff5bb37.png",
+                        "hashID": 4104185692,
+                        "weaponHash": 3743729616,
+                        "isPerk": true,
+                        "isFavorablePerk": false,
+                        "perkType": "Trait",
+                        "perkSubType": "frames"
+                    }
+                ],
+                "originTrait": null,
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": {
+                    "name": "Adaptive Frame",
+                    "description": "A well-rounded grip, reliable and sturdy.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/967fb4abc6ab98f74639d6c08e5f56ee.png"
+                },
+                "legendWeaponDamageType": "Kinetic",
+                "legendWeaponDamageElement": "Kinetic",
+                "masterworkData": {
+                    "name": "Range",
+                    "description": "Increases the effective range of this weapon.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/95af3923bdbdf11438504ddeb498afe8.jpg",
+                    "mwHash": 150943607
+                },
+                "damageTypeIcon": "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_3385a924fd3ccb92c343ade19f19a370.png"
+            },
+            {
+                "name": "Just in Case",
+                "type": "Legendary Sword",
+                "description": "",
+                "lore": "Even contingencies need contingencies.",
+                "ExtLore": null,
+                "itemHash": "1139727256",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/760f7b8c9dd92a11104edc72a692bc78.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/1139727256.jpg",
+                "rarity": "Legendary",
+                "class": 3,
+                "statRolls": [],
+                "weaponPerks": [
+                    {
+                        "name": "Enduring Blade",
+                        "description": "Greatly increased sword ammo at the cost of damage.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/1478f8a31179ca5306f1316e4018f9bd.png",
+                        "hashID": 1261178282,
+                        "weaponHash": 1139727256,
+                        "isPerk": true,
+                        "isFavorablePerk": false,
+                        "perkType": "Blade",
+                        "perkSubType": "blades"
+                    },
+                    {
+                        "name": "Burst Guard",
+                        "description": "Sword Guard has high resistance, but low endurance.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/d182dd5e1da7a10583dfb9f65ff026bc.png",
+                        "hashID": 3625355092,
+                        "weaponHash": 1139727256,
+                        "isPerk": true,
+                        "isFavorablePerk": false,
+                        "perkType": "Guard",
+                        "perkSubType": "guards"
+                    },
+                    {
+                        "name": "Relentless Strikes",
+                        "description": "[Light Attack]  : Landing three light-attack hits within a short time grants Sword ammo.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/ad4bb4c9e36674ca879310b733a6e6a3.png",
+                        "hashID": 1749209109,
+                        "weaponHash": 1139727256,
+                        "isPerk": true,
+                        "isFavorablePerk": true,
+                        "perkType": "Trait",
+                        "perkSubType": "frames"
+                    },
+                    {
+                        "name": "Incandescent",
+                        "description": "Defeating a target spreads scorch to those nearby.\nMore powerful combatants and opposing Guardians cause scorch in a larger radius.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/22ed4a2cd5a0eb129a14ce77db49373f.png",
+                        "hashID": 4293542123,
+                        "weaponHash": 1139727256,
+                        "isPerk": true,
+                        "isFavorablePerk": true,
+                        "perkType": "Trait",
+                        "perkSubType": "frames"
+                    }
+                ],
+                "originTrait": {
+                    "name": "Disaster Plan",
+                    "description": "Picking up ammunition increases this weapon's flinch resistance and range, which lasts until it is fired again.\n\nSwords gain a large increase to charge rate instead.",
+                    "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/32fd1da58165d07b35d320e2bd6f0de5.png",
+                    "hashID": 1004814308,
+                    "weaponHash": 1139727256,
+                    "isPerk": true,
+                    "isFavorablePerk": false,
+                    "perkType": "Origin Trait",
+                    "perkSubType": "origins"
+                },
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": {
+                    "name": "Adaptive Frame",
+                    "description": "[Heavy Attack]  : Launch a heavy uppercut attack.\nHeavy attacks are stronger with full energy.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/967fb4abc6ab98f74639d6c08e5f56ee.png"
+                },
+                "legendWeaponDamageType": "Power",
+                "legendWeaponDamageElement": "Solar",
+                "masterworkData": {
+                    "name": "Impact",
+                    "description": "Increases the damage inflicted by each round.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/f2354558ad75fb2527155f0f58c2dcc3.jpg",
+                    "mwHash": 1486919755
+                },
+                "damageTypeIcon": "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_2a1773e10968f2d088b97c22b22bba9e.png"
+            },
+            {
+                "name": "Steel Sybil Z-14",
+                "type": "Legendary Sword",
+                "description": "",
+                "lore": "\"Everything I touch falls apart! I see the fragments on the floor!\"\n\n\"Well, isn't that a good thing? You know, if you're a sword?\"",
+                "ExtLore": null,
+                "itemHash": "4230993599",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/f33692242b0791440d8f66e543962c28.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/4230993599.jpg",
+                "rarity": "Legendary",
+                "class": 3,
+                "statRolls": [],
+                "weaponPerks": [
+                    {
+                        "name": "Honed Edge",
+                        "description": "Increased sword damage.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/8390e18bed6857847be890f4d07a9583.png",
+                        "hashID": 2827049491,
+                        "weaponHash": 4230993599,
+                        "isPerk": true,
+                        "isFavorablePerk": false,
+                        "perkType": "Blade",
+                        "perkSubType": "blades"
+                    },
+                    {
+                        "name": "Enduring Guard",
+                        "description": "Sword Guard has high endurance, but low resistance.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/f41732ca49953994397e5ab50fdc3a2e.png",
+                        "hashID": 599007201,
+                        "weaponHash": 4230993599,
+                        "isPerk": true,
+                        "isFavorablePerk": false,
+                        "perkType": "Guard",
+                        "perkSubType": "guards"
+                    },
+                    {
+                        "name": "Relentless Strikes",
+                        "description": "[Light Attack]  : Landing three light-attack hits within a short time grants Sword ammo.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/ad4bb4c9e36674ca879310b733a6e6a3.png",
+                        "hashID": 1749209109,
+                        "weaponHash": 4230993599,
+                        "isPerk": true,
+                        "isFavorablePerk": true,
+                        "perkType": "Trait",
+                        "perkSubType": "frames"
+                    },
+                    {
+                        "name": "Assassin's Blade",
+                        "description": "Sword final blows boost movement speed and damage.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/3084651d1a6c6d206994af7f92856dfe.png",
+                        "hashID": 354401740,
+                        "weaponHash": 4230993599,
+                        "isPerk": true,
+                        "isFavorablePerk": false,
+                        "perkType": "Trait",
+                        "perkSubType": "frames"
+                    }
+                ],
+                "originTrait": null,
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": {
+                    "name": "Adaptive Frame",
+                    "description": "[Heavy Attack]  : Launch a heavy uppercut attack.\nHeavy attacks are stronger with full energy.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/967fb4abc6ab98f74639d6c08e5f56ee.png"
+                },
+                "legendWeaponDamageType": "Power",
+                "legendWeaponDamageElement": "Void",
+                "masterworkData": {
+                    "name": "Impact",
+                    "description": "Increases the damage inflicted by each round.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/f2354558ad75fb2527155f0f58c2dcc3.jpg",
+                    "mwHash": 1486919755
+                },
+                "damageTypeIcon": "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_ceb2f6197dccf3958bb31cc783eb97a0.png"
+            },
+            {
+                "name": "Last Perdition",
+                "type": "Legendary Pulse Rifle",
+                "description": "",
+                "lore": "Can't outrun the ending.",
+                "ExtLore": null,
+                "itemHash": "188882152",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/48937c126157f05b6dcfed6dafd49d3b.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/188882152.jpg",
+                "rarity": "Legendary",
+                "class": 3,
+                "statRolls": [],
+                "weaponPerks": [
+                    {
+                        "name": "SLO-10 Post",
+                        "description": "SUROS projection sight. Short zoom. \n  \u2022  Increases handling speed\n  \u2022  Slightly increases range",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/f9d4f0af9b9bf8489812b242bdb00dec.png",
+                        "hashID": 965619223,
+                        "weaponHash": 188882152,
+                        "isPerk": true,
+                        "isFavorablePerk": false,
+                        "perkType": "Sight",
+                        "perkSubType": "scopes"
+                    },
+                    {
+                        "name": "Tactical Mag",
+                        "description": "This weapon has multiple tactical improvements.\n  \u2022  Slightly increases stability\n  \u2022  Increases reload speed\n  \u2022  Slightly increases magazine size",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/f0e309a267b25279a871d182f8910bcc.png",
+                        "hashID": 106909392,
+                        "weaponHash": 188882152,
+                        "isPerk": true,
+                        "isFavorablePerk": false,
+                        "perkType": "Magazine",
+                        "perkSubType": "magazines"
+                    },
+                    {
+                        "name": "Under Pressure",
+                        "description": "Improved stability and accuracy as the magazine gets lower.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/ac8ec81cd8139434a4b19e459bd9b8ff.png",
+                        "hashID": 1645158859,
+                        "weaponHash": 188882152,
+                        "isPerk": true,
+                        "isFavorablePerk": false,
+                        "perkType": "Trait",
+                        "perkSubType": "frames"
+                    },
+                    {
+                        "name": "Zen Moment",
+                        "description": "Causing damage with this weapon reduces recoil and flinch over time.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/9650a58cd3a439bf3b53a53dbc8122a0.png",
+                        "hashID": 2387244414,
+                        "weaponHash": 188882152,
+                        "isPerk": true,
+                        "isFavorablePerk": false,
+                        "perkType": "Trait",
+                        "perkSubType": "frames"
+                    }
+                ],
+                "originTrait": null,
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": {
+                    "name": "Adaptive Frame",
+                    "description": "A well-rounded grip, reliable and sturdy.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/967fb4abc6ab98f74639d6c08e5f56ee.png"
+                },
+                "legendWeaponDamageType": "Energy",
+                "legendWeaponDamageElement": "Void",
+                "masterworkData": {
+                    "name": "Range",
+                    "description": "Increases the effective range of this weapon.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/95af3923bdbdf11438504ddeb498afe8.jpg",
+                    "mwHash": 150943607
+                },
+                "damageTypeIcon": "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_ceb2f6197dccf3958bb31cc783eb97a0.png"
+            },
+            {
+                "name": "Hollow Words",
+                "type": "Legendary Fusion Rifle",
+                "description": "",
+                "lore": "Holes for the whole.",
+                "ExtLore": "TYPE: SPLICED FEED, AUDIO\n\nCZ: Rasputin has been neutralized. What that means exactly, time will tell.\n\nFWC-L2: A glorious tragedy. May it rise to fight again.\n\nDO-AJ: I trust you have another plan, Commander? Hopefully a more effective plan.\n\n[silence]\n\nIR: The hostility is unnecessary, Jalaal. We are here to devise a plan.\n\nDO-AJ: We had one. It was rejected. The time for that is long past.\n\nIR: Your plan was to leave the Traveler.\n\nNM-EH: We are unprepared because we waste time debating.\n\nFWC-L2: We were prepared by every conflict that befell the City. This war has been written in the stars. Let it come.\n\nDO-AJ: Mobilize the fleet. We have guns enough. Surely, that option would please Lakshmi.\n\nFWC-L2: Yes.\n\nIR: The fire from your guns would have ricocheted off the Almighty's hull. How do you plan to wound the Pyramid?\n\nCZ: This was settled during the Red War. It has not changed. We will need the fleet in reserve should the situation turn dire.\n\nNM-EH: We will not flee the seat of our Golden Age. Enact war-time powers. A Monarch must be chosen.\n\nIR: [inaudible]\n\nNM-EH: How long has that omen been left buried on the Moon? If the Commander had given us access instead of allowing that mystic to\u2014\n\nIR: Cryptarchs have been attempting to parse the Luna site data feed for months. It is digitized madness.\n\nFWC-L2: Are the Warmind's weapons operational?\n\nCZ: No. They\u2026 cannot act independently.\n\nNM-EH: So then there is nothing?\n\nCZ: When Rasputin fell, a Hidden agent was dispatched to investigate the Pyramid's nature and divine its intent. They are supported by Guardian operatives. They will work to contain the Darkness while we evacuate nearby assets and evaluate engagement strategies.\n\n[silence]\n\nCZ: In our haste to act, we were caught flat-footed. When we choose to strike again, we must be sure of its efficacy. We may only get one chance. You have all brought wisdom to this meeting. I have considered your council. Executor, I request the New Monarchy support us as they did so graciously when the Red Legion struck. Organize the movement of our people and coordinate with Suraya Hawthorne's contacts to secure them within the walls. Cousin Jalaal, I request Dead Orbit ships ferry the wayward home and provide transit security. In return, you will both be granted full access to the Vanguard's Luna site resources.\n\nNM-EH: A late invitation, but acceptable.\n\nDO-AJ: For the time being, we will protect caravans and aid in relocation.\n\nCZ: Good. Lakshmi, Project Stronghold will require additional printings. Ada-1 has agreed to lend her equipment and expertise to assist in this endeavor. Is this satisfactory?\n\nFWC-L2: Our forges are ready and eager. We request to assist the Bray in evaluating damage to the Warmind.\n\nCZ: Offer the help. Ana will accept it, I'm sure, so long as you defer to her oversight.\n\nFWC-L2: Her standing is tenuous. We believe it amicable to offer partnership, not support.\n\nCZ: You may suggest as much.\n\nIR: Do we have a consensus?\n\n[many voices pledge in agreement]\n\nIR: Adjourned.\n\n[nondescript shuffling and chatter]\n\n[door closing]\n\n[silence]\n\nIR: You offer too much. They want all the sway and none of the responsibility.\n\nCZ: Let them have both. Now is not the time to tangle ourselves in political conflicts.\n\nCZ: It won't be long before they realize Eris is the agent in question. She should be warned.\n\nIR: I'll reach out to her.",
+                "itemHash": "607191995",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/2a0f2aa7f52e6c992725ef0a85f848f7.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/607191995.jpg",
+                "rarity": "Legendary",
+                "class": 3,
+                "statRolls": [],
+                "weaponPerks": [
+                    {
+                        "name": "Extended Barrel",
+                        "description": "Weighty barrel extension.\n  \u2022  Increases range\n  \u2022  Decreases handling speed\n  \u2022  Moderately controls recoil",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/d9e5e8fa07a84c29252b78b0e7b3106d.png",
+                        "hashID": 1467527085,
+                        "weaponHash": 607191995,
+                        "isPerk": true,
+                        "isFavorablePerk": false,
+                        "perkType": "Barrel",
+                        "perkSubType": "barrels"
+                    },
+                    {
+                        "name": "Enhanced Battery",
+                        "description": "Strong battery life.\n  \u2022  Increases magazine size",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/0ee59b61e99c52c85c2ea18ab705f700.png",
+                        "hashID": 2680121939,
+                        "weaponHash": 607191995,
+                        "isPerk": true,
+                        "isFavorablePerk": false,
+                        "perkType": "Battery",
+                        "perkSubType": "batteries"
+                    },
+                    {
+                        "name": "Slideways",
+                        "description": "Sliding partially reloads this weapon's magazine and temporarily boosts handling and stability.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/531db7656c3f2ed054898e141d85b801.png",
+                        "hashID": 2039302152,
+                        "weaponHash": 607191995,
+                        "isPerk": true,
+                        "isFavorablePerk": false,
+                        "perkType": "Trait",
+                        "perkSubType": "frames"
+                    },
+                    {
+                        "name": "Unrelenting",
+                        "description": "Rapidly defeating targets triggers health regeneration. Guardians and powerful combatants count as more than one kill.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/1e5843177c71ae3f2a4770d01a2f3813.png",
+                        "hashID": 3108830275,
+                        "weaponHash": 607191995,
+                        "isPerk": true,
+                        "isFavorablePerk": false,
+                        "perkType": "Trait",
+                        "perkSubType": "frames"
+                    }
+                ],
+                "originTrait": null,
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": {
+                    "name": "Precision Frame",
+                    "description": "This weapon's recoil pattern is more predictably vertical.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/e9dd736124e8ef94048901a279a5bb18.png"
+                },
+                "legendWeaponDamageType": "Energy",
+                "legendWeaponDamageElement": "Arc",
+                "masterworkData": {
+                    "name": "Handling",
+                    "description": "The speed with which the weapon can be readied and aimed.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/d2e1ab2542f585d025fb4cc1a3885164.jpg",
+                    "mwHash": 518224747
+                },
+                "damageTypeIcon": "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_092d066688b879c807c3b460afdd61e6.png"
+            },
+            {
+                "name": "Farewell",
+                "type": "Legendary Sidearm",
+                "description": "",
+                "lore": "\"A peace born from violence is no peace at all.\" \u2014Lady Efrideet",
+                "ExtLore": "FLIGHT_RECORDER_LOG // VG777-T // L-221\n\nHG01: \u2014took heavy fire! Jax and Klaid are gone! Cabal dropped out of nowhere; they must have our transponder signals!\n\nVSYS: Vanguard ship, ID code is scrambled. Please reauthenticate.\n\nHG01: We need to make an emergency landing at Venus FOB!\n\nVSYS: Please reauthenticate.\n\nHG01: Five times! I tried reauth five times! Look, I have a damaged jumpship, and I'm escorting a frigate of civilians! Clear me for landing!\n\nVSYS: Clearance denied. Venus Forward Operating Base automated orbital defenses now online. \n\nHG01: No! Turn 'em off!\n\nVSYS: I cannot comply.\n\nHG01: Worthless piece of scrap!\n\nHG01: New plan! Captain Hennek, you still with us?\n\nCC03: Reading you loud and clear, Guardian! What's the plan? Those Cabal cruisers are right behind us!\n\nHG01: I'm sending you new coordinates! We'll make a few short jumps; try to lose them in the Re\u2014\n\nFLIGHT_RECORDER_LOG // VG777-T // L-236\n\nHG01: \u2014still work. Ah, see! Green blinking light means power.\n\nUNK1: This ship will never fly again, Human. What value is there in a flight recorder?\n\nHG01: You never write a journal before?\n\nUNK1: I have. But I fail to see the value.\n\nHG01: Well my options here are to talk to you\u2014and no offense, but you Reefborn are an acquired taste\u2014or talk to that one, and I don't speak Fallen.\n\nUNK2: [untranslated]\n\nHG01: You see what I mean?\n\nUNK1: So you would rather\u2026 talk to yourself.\n\nHG01: Now you got it. C'mon, help me disconnect the primary power coupli\u2014\n\nFLIGHT_RECORDER_LOG // VG777-T // L-238\n\nHG01: Been trying to figure out how to word this. Don't know if I'll ever make it back to Earth. The thought of not saying goodbye to you keeps eating away at me.\n\nHG01: I don't know if you're safe. Don't know if you made it out of the City. \n\nHG01: Comms are down, Cabal control the channels. Been trying to get the Awoken to help, but after the whoopin' Oryx gave them, they're reluctant to get between us and the Cabal.\n\nHG01: I miss you so damn much.\n\nHG01: If we see each other again, none of this will matter. I'll complain about Reef cuisine, you'll criticize all my tactical choices, and I'll fall asleep in your arms\u2026 None of this'll matter.\n\nHG01: But in case it does, I just\u2014I want you to know I love you. That, even out here beyond the light, I never forgot you.\n\nFLIGHT_RECORDER_LOG // VG777-T // L-239\n\nHG01: We got the old Dead Orbit ship set up as a shelter. Atmospheric controls are still working, heat, radiation shielding seems good. The friendly Fallen out here are real helpful. I thought they were slaves of the Awoken at first, but it's\u2026 not like that at all.\n\nHG01: Captain Hennek finally succumbed to his injuries. I was with him when he went. Last thing he said to me was, \"I guess, right now, we're not all that different.\"\n\nHG01: [long silence]\n\nHG01: I wish you were here.\n\nFLIGHT_RECORDER_LOG // VG777-T // L-240\n\n[ENTRY DELETED]\n\nFLIGHT_RECORDER_LOG // VG777-T // L-241\n\n[ENTRY DELETED]\n\nFLIGHT_RECORDER_LOG // VG777-T // L-242\n\nHG01: A Fallen named Kesk is helping me hardwire a linguistic modulator his people built into the flight recorder. Should translate their speech back to me in something I can understand, and then I can run it through the vocal processing heuristics onboard my jumpship to speak back.\n\nHG01: Faster than learning a language I don't have the mouth parts to speak.\n\nFLIGHT_RECORDER_LOG // VG777-T // L-243\n\nHG01: Today was our anniversary. I hope we were looking at the same stars.\n\nFLIGHT_RECORDER_LOG // VG777-T // L-244\n\nHG01: Traveler.\n\nUNK2: <<Great Machine.>>\n\nHG01: Huh. Okay.\n\nHG01: Family.\n\nUNK2: <<Ketch.>>\n\nHG01: Okay, that's where we're hitting a wall. Can we try some root words? We need to build the Fallen database.\n\nUNK2: <<Eliksni.>>\n\nHG01: Right, sorry. Eliksni.\n\nFLIGHT_RECORDER_LOG // VG777-T // L-245\n\n[ENTRY DELETED]\n\nFLIGHT_RECORDER_LOG // VG777-T // L-246\n\nHG01: I had this dream\u2026 like a memory of a memory, you know? But I swear, I heard your laugh when I woke up.\n\nHG01: Being Lightless is hard, but it's\u2026 it's these little phantom pains that are the hardest.\n\nHG01: I feel like my whole life is a phantom limb. \n\nFLIGHT_RECORDER_LOG // VG777-T // L-247\n\nHG01: Light.\n\nUNK2: Light.\n\nHG01: I'm not sure why I'm surprised by that.\n\nUNK2: <<We are all forged in the Light. It is what we lost.>>\n\nHG01: Yeah.\n\nUNK2: <<We are not all that different now, you and I.>>\n\nHG01: W-why do you say that?\n\nUNK2: <<When we live, it is in the shadow of the life we once had. When we die, it is the end of our story.>>\n\n[Long Silence]\n\nHG01: That\u2026 makes sense.\n\nUNK2: <<Many things do, when you take the time to stop and listen. To hear.>>\n\n[Long Silence]\n\nHG01: Dig.\n\nUNK2: <<Dig.>>\n\nFLIGHT_RECORDER_LOG // VG777-T // L-248\n\n[ENTRY DELETED]\n\nFLIGHT_RECORDER_LOG // VG777-T // L-250\n\nHG01: I'm heading back to Earth. The locals agreed to take care of the civilians.\n\nHG01: I don't know if I'll find you, but I can't sit here anymore.\n\nHG01: If I find you, you'll never hear this. But if I don't, and I live\u2026 Being here has opened my eyes to a lot of things and I just\u2014I can't fight like this anymore. Not without you. There's an enclave out past the Jovians; pacifists. You'll find me there.\n\nHG01: Kesk will have my Sidearm. I told him to give it to you if you come looking for me. Or\u2026 if he finds out you're\u2014gone\u2014to send it to the Vanguard.\n\nHG01: I won't need it anymore.\n\nHG01: All I need is you.\n\n// End Logs",
+                "itemHash": "541188001",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/a806e99524f2c9e465aacafb93940e13.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/541188001.jpg",
+                "rarity": "Legendary",
+                "class": 3,
+                "statRolls": [],
+                "weaponPerks": [
+                    {
+                        "name": "Polygonal Rifling",
+                        "description": "Barrel optimized for recoil reduction.\n  \u2022  Increases stability",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/7d7aaccee29cf450d4057a9de871cdc8.png",
+                        "hashID": 1392496348,
+                        "weaponHash": 541188001,
+                        "isPerk": true,
+                        "isFavorablePerk": false,
+                        "perkType": "Barrel",
+                        "perkSubType": "barrels"
+                    },
+                    {
+                        "name": "Extended Mag",
+                        "description": "This weapon has a greatly increased magazine size, but reloads much slower.\n  \u2022  Greatly increases magazine size\n  \u2022  Greatly decreases reload speed\n  \u2022  Increases airborne effectiveness",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/66cfea124e24e73cca1ce6370b44ca7e.png",
+                        "hashID": 2420895100,
+                        "weaponHash": 541188001,
+                        "isPerk": true,
+                        "isFavorablePerk": false,
+                        "perkType": "Magazine",
+                        "perkSubType": "magazines"
+                    },
+                    {
+                        "name": "Subsistence",
+                        "description": "Defeating targets partially reloads the magazine from reserves.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/eaa8f4295a71bf47df7ffd8599f7af4d.png",
+                        "hashID": 1820235745,
+                        "weaponHash": 541188001,
+                        "isPerk": true,
+                        "isFavorablePerk": false,
+                        "perkType": "Trait",
+                        "perkSubType": "frames"
+                    },
+                    {
+                        "name": "Frenzy",
+                        "description": "Being in combat for an extended time increases damage, handling, and reload for this weapon until you are out of combat.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/23e06f4ced1b3e6476f342978ff5bb37.png",
+                        "hashID": 4104185692,
+                        "weaponHash": 541188001,
+                        "isPerk": true,
+                        "isFavorablePerk": true,
+                        "perkType": "Trait",
+                        "perkSubType": "frames"
+                    }
+                ],
+                "originTrait": null,
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": {
+                    "name": "Lightweight Frame",
+                    "description": "Superb handling. Move faster with this weapon equipped.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/6db8cd21c2b3e6fffeb6f111d6c70dd2.png"
+                },
+                "legendWeaponDamageType": "Kinetic",
+                "legendWeaponDamageElement": "Kinetic",
+                "masterworkData": {
+                    "name": "Handling",
+                    "description": "The speed with which the weapon can be readied and aimed.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/d2e1ab2542f585d025fb4cc1a3885164.jpg",
+                    "mwHash": 518224747
+                },
+                "damageTypeIcon": "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_3385a924fd3ccb92c343ade19f19a370.png"
+            },
+            {
+                "name": "Eternity's Edge",
+                "type": "Legendary Sword",
+                "description": "",
+                "lore": "\"A sword is a wand that casts two spells: parry and cut.\" \u2014Tarsem Sauer",
+                "ExtLore": null,
+                "itemHash": "2782325301",
+                "itemRating": null,
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/db84dfbb8cc5045c401583367df23276.jpg",
+                "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/2782325301.jpg",
+                "rarity": "Legendary",
+                "class": 2,
+                "statRolls": [],
+                "weaponPerks": [
+                    {
+                        "name": "Honed Edge",
+                        "description": "Increased sword damage.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/8390e18bed6857847be890f4d07a9583.png",
+                        "hashID": 2827049491,
+                        "weaponHash": 2782325301,
+                        "isPerk": true,
+                        "isFavorablePerk": false,
+                        "perkType": "Blade",
+                        "perkSubType": "blades"
+                    },
+                    {
+                        "name": "Infinite Guard",
+                        "description": "Sword Guard has balanced defenses and maximized endurance.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/6aef1709498dad9c61e2d85874f34c8b.png",
+                        "hashID": 2363751990,
+                        "weaponHash": 2782325301,
+                        "isPerk": true,
+                        "isFavorablePerk": false,
+                        "perkType": "Guard",
+                        "perkSubType": "guards"
+                    },
+                    {
+                        "name": "Relentless Strikes",
+                        "description": "[Light Attack]  : Landing three light-attack hits within a short time grants Sword ammo.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/ad4bb4c9e36674ca879310b733a6e6a3.png",
+                        "hashID": 1749209109,
+                        "weaponHash": 2782325301,
+                        "isPerk": true,
+                        "isFavorablePerk": true,
+                        "perkType": "Trait",
+                        "perkSubType": "frames"
+                    },
+                    {
+                        "name": "Surrounded",
+                        "description": "This weapon gains bonus damage when three or more enemies are in close proximity.",
+                        "perkIcon": "https://www.bungie.net/common/destiny2_content/icons/979881b68ca7839267c9aef5aea2b0ce.png",
+                        "hashID": 3708227201,
+                        "weaponHash": 2782325301,
+                        "isPerk": true,
+                        "isFavorablePerk": true,
+                        "perkType": "Trait",
+                        "perkSubType": "frames"
+                    }
+                ],
+                "originTrait": null,
+                "exoticArmorPerk": null,
+                "legendWeaponFrame": {
+                    "name": "Vortex Frame",
+                    "description": "[Heavy Attack]  : Launch a heavy spin attack.\nHeavy attacks are stronger with full energy.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/23e50e126159f0f22983f73d6a246f0d.png"
+                },
+                "legendWeaponDamageType": "Power",
+                "legendWeaponDamageElement": "Solar",
+                "masterworkData": {
+                    "name": "Impact",
+                    "description": "Increases the damage inflicted by each round.",
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/f2354558ad75fb2527155f0f58c2dcc3.jpg",
+                    "mwHash": 1486919755
+                },
+                "damageTypeIcon": "https://www.bungie.net/common/destiny2_content/icons/DestinyDamageTypeDefinition_2a1773e10968f2d088b97c22b22bba9e.png"
+            }
+        ],
         "Warlock": {
             "Helmet": {
                 "name": "Opulent Scholar Hood",

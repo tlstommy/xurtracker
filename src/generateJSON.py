@@ -289,19 +289,19 @@ class main:
         
         
         #item sockets
-        apiUrl305 = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{characterIDWarlock}/Vendors/{self.vendorHash}/?components=305"
+        apiUrl305 = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{characterIDWarlock}/Vendors/{self.strangeGearVendorHash}/?components=305"
         apiResponse305 = self.get_api_request(apiUrl305)
         apiResponse305Json = json.loads(apiResponse305)
 
         #itemplugs
-        apiUrl310 = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{characterIDWarlock}/Vendors/{self.vendorHash}/?components=310"
+        apiUrl310 = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{characterIDWarlock}/Vendors/{self.strangeGearVendorHash}/?components=310"
         apiResponse310 = self.get_api_request(apiUrl310)
         apiResponse310Json = json.loads(apiResponse310)
         combinedPerkJson = self.socketPlugs(apiResponse305Json,apiResponse310Json)
 
 
         #item ids
-        apiUrl402 = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{characterIDWarlock}/Vendors/{self.vendorHash}/?components=402"
+        apiUrl402 = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{characterIDWarlock}/Vendors/{self.strangeGearVendorHash}/?components=402"
         apiResponse402 = self.get_api_request(apiUrl402)
         apiResponse402Json = json.loads(apiResponse402)
         
@@ -335,7 +335,7 @@ class main:
 
         print(self.combinedPerksJson.items())
         
-
+        
         for key, values in self.combinedPerksJson.items():
             
             hashList = values.get("hashes")
@@ -353,7 +353,8 @@ class main:
                     print(plugHashVal)    
                     decodedPlug = await self.decodeHash(plugHashVal,"DestinyInventoryItemDefinition")
                     
-                    
+                    print(decodedPlug)
+                    #input("test!!!\n")
                     
                     
                     
@@ -391,6 +392,7 @@ class main:
                         "perkSubType":perkSubType
                     }
 
+                    
                     
 
                     #filter out unwanted perks
@@ -438,7 +440,7 @@ class main:
 
         weaponHashList = []
 
-        apiUrl402 = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{characterIDWarlock}/Vendors/{self.vendorHash}/?components=402"
+        apiUrl402 = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{characterIDWarlock}/Vendors/{self.strangeGearVendorHash}/?components=402"
         apiResponse402 = self.get_api_request(apiUrl402)
         apiResponse402Json = json.loads(apiResponse402)
         
@@ -488,6 +490,9 @@ class main:
                 "masterworkData":None,
                 "damageTypeIcon":"https://www.bungie.net"+str(elementData["displayProperties"].get("icon")),
             }
+
+            #print(jsonTemplate)
+            #input("test!!!\n")
             
             if(jsonTemplate.get("rarity") != "Exotic"):
                 self.LegendaryWeapons.append(jsonTemplate)
@@ -1051,15 +1056,15 @@ class main:
 
 
         #store perk info
-        apiUrl305 = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{characterIDWarlock}/Vendors/{self.vendorHash}/?components=305"
+        apiUrl305 = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{characterIDWarlock}/Vendors/{self.strangeGearVendorHash}/?components=305"
         apiResponse305 = self.get_api_request(apiUrl305)
     
-        apiUrl310 = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{characterIDWarlock}/Vendors/{self.vendorHash}/?components=310"
+        apiUrl310 = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{characterIDWarlock}/Vendors/{self.strangeGearVendorHash}/?components=310"
         apiResponse310 = self.get_api_request(apiUrl310)
         
         self.combinedPerksJson = self.socketPlugs(apiResponse305,apiResponse310)
 
-        #print(self.combinedPerksJson)
+        print(self.combinedPerksJson)
         #input("\n")
         #store the inventory of for sale items to be parsed 
         self.forSaleItems = self.apiResponseJson["Response"]["sales"]["data"]
