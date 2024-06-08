@@ -69,9 +69,8 @@ class main:
         self.TitanLegs = None
         self.TitanClassItem = None
 
-        #weapons
-        self.ExoticWeapon = None
-        self.ExoticHawkmoon = None
+        #exotic weapons
+        self.ExoticWeapons = []
 
         #exotic weapon catalysts
         self.FirstCatalyst = None
@@ -137,12 +136,8 @@ class main:
 
 
         for item in self.XursInventoryItems:
-            #is hawkmoon
-            if item["itemHash"] == "3856705927":
-                self.ExoticHawkmoon = item
-            #is general exotic
-            if item["itemHash"] != "3654674561" and item["itemHash"] != "3856705927" and item["rarity"] == "Exotic":
-                self.ExoticWeapon = item
+            if item["rarity"] == "Exotic":
+                self.ExoticWeapons.append(item)
 
     #create a json file from all of the collected data
     def buildJSON(self,write):
@@ -158,8 +153,7 @@ class main:
                     "Exotics":{
                         "Exotic Engram":self.ExoticEngram,
                         "Exotic Quest":self.ExoticQuest,
-                        "Exotic Weapon":self.ExoticWeapon,
-                        "Hawkmoon":self.ExoticHawkmoon,
+                        "Exotic Weapons":self.ExoticWeapons,
                         "Warlock Exotic":self.WarlockExotic,
                         "Hunter Exotic":self.HunterExotic,
                         "Titan Exotic":self.TitanExotic,
