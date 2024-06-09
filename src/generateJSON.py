@@ -959,15 +959,15 @@ class main:
 
         exoticCatalysts = []
 
-        apiUrl402 = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{characterIDWarlock}/Vendors/{self.vendorHash}/?components=402"
+        apiUrl402 = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{characterIDWarlock}/Vendors/{self.vendorHash}/?components=308"
         apiResponse402 = self.get_api_request(apiUrl402)
         apiResponse402Json = json.loads(apiResponse402)
 
-        for itemID, itemIDData in apiResponse402Json["Response"]["sales"]["data"].items():
+        for itemID, itemIDData in apiResponse402Json["Response"]["itemComponents"]["plugStates"]["data"].items():
             if len(exoticCatalysts) > 2:
                 break
             
-            hashedData = await self.decodeHash(itemIDData.get("itemHash"),"DestinyInventoryItemDefinition")
+            hashedData = await self.decodeHash(itemIDData.get("plugItemHash"),"DestinyInventoryItemDefinition")
             if(hashedData.get('traitIds') == ['item.exotic_catalyst']):
                
 
@@ -977,7 +977,7 @@ class main:
                     "name":hashedData["displayProperties"].get("name"),
                     "type":"Exotic Catalyst",
                     "description":hashedData["displayProperties"].get("description"),
-                    "itemHash":str(itemIDData.get("itemHash")),
+                    "itemHash":str(itemIDData.get("plugItemHash")),
                     "icon":"https://www.bungie.net"+str(hashedData["displayProperties"].get("icon")),
                     "rarity":hashedData["inventory"].get("tierTypeName"),
                 }
