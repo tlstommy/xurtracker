@@ -71,6 +71,7 @@ class main:
 
         #exotic weapons
         self.ExoticWeapons = []
+        self.Hawkmoon = None
 
         #exotic weapon catalysts
         self.FirstCatalyst = None
