@@ -138,7 +138,12 @@ class main:
 
         for item in self.XursInventoryItems:
             if item["rarity"] == "Exotic":
-                self.ExoticWeapons.append(item)
+                if item["itemHash"] != "3856705927":
+                    self.ExoticWeapons.append(item)
+                else:
+                    self.Hawkmoon = item
+                    
+
 
     #create a json file from all of the collected data
     def buildJSON(self,write):
@@ -154,6 +159,7 @@ class main:
                     "Exotics":{
                         "Exotic Engram":self.ExoticEngram,
                         "Exotic Quest":self.ExoticQuest,
+                        "Hawkmoon":self.Hawkmoon,
                         "Exotic Weapons":self.ExoticWeapons,
                         "Warlock Exotic":self.WarlockExotic,
                         "Hunter Exotic":self.HunterExotic,
@@ -474,6 +480,7 @@ class main:
                 "lore":weaponHashData.get("flavorText"),
                 "ExtLore":weaponLore,
                 "itemHash":str(item),
+                "ammoType":weaponHashData["equippingBlock"].get("ammoType"),
                 "itemRating":None,
                 "icon":"https://www.bungie.net"+str(weaponHashData["displayProperties"].get("icon")),
                 "backgroundImage" : "https://www.bungie.net"+str(weaponHashData.get("screenshot")),
@@ -522,7 +529,7 @@ class main:
                     
                     #if the perk is a masterwork decode it
                     if perk.get("description") == "Base-level weapon. Increase the tier to forge a Masterwork item.":    
-                        
+                        print(perk)
                         masterWorkDecoded = await self.decodeHash(perk.get("hashID"),"DestinyInventoryItemDefinition")
                         statIcon = "https://www.bungie.net"+str(masterWorkDecoded["displayProperties"].get("icon"))
                         statTypeHash = str(masterWorkDecoded["investmentStats"][0].get("statTypeHash"))
@@ -960,11 +967,11 @@ class main:
 
         exoticCatalysts = []
 
-        apiUrl402 = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{characterIDWarlock}/Vendors/{self.vendorHash}/?components=308"
-        apiResponse402 = self.get_api_request(apiUrl402)
-        apiResponse402Json = json.loads(apiResponse402)
+        apiUrl308 = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{characterIDWarlock}/Vendors/{self.vendorHash}/?components=308"
+        apiResponse308 = self.get_api_request(apiUrl308)
+        apiResponse308Json = json.loads(apiResponse308)
 
-        for itemID, itemIDData in apiResponse402Json["Response"]["itemComponents"]["plugStates"]["data"].items():
+        for itemID, itemIDData in apiResponse308Json["Response"]["itemComponents"]["plugStates"]["data"].items():
             if len(exoticCatalysts) > 2:
                 break
             
@@ -1005,6 +1012,42 @@ class main:
         return False
 
 
+    #check for missing mw's
+    async def masterWorkCheck(self):
+        print(self.LegendaryWeapons)
+        for weapon in self.LegendaryWeapons:
+            if(weapon["masterworkData"] == None):
+                print("No mw found!")
+                apiUrl402 = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{characterIDWarlock}/Vendors/{self.strangeGearVendorHash}/?components=402"
+                apiResponse402 = self.get_api_request(apiUrl402)
+                apiResponse402Json = json.loads(apiResponse402)
+                
+                for key, value in apiResponse402Json["Response"]["sales"]["data"].items():
+                    
+                    if(value["itemHash"] == int(weapon["itemHash"])):
+                        
+                        hashedValData = await self.decodeHash(value["itemHash"],"DestinyInventoryItemDefinition")
+                        
+                        weaponSockets = hashedValData["sockets"].get("socketEntries")
+                        for socket in weaponSockets:
+                            print(socket.get("singleInitialItemHash"))
+                            print(socket)
+                            try:
+                                socketData = await self.decodeHash(socket.get("singleInitialItemHash"),"DestinyInventoryItemDefinition")
+                            except Exception as e:
+                                print(f"error: {e}, moving onto next perk..")
+                                continue
+                            if "masterworks" in socketData["plug"].get("plugCategoryIdentifier") and str(socketData.get("hash")) != "905869860":
+                                print(socketData)
+                        
+                                masterworkTemplate = {
+                                    "name":socketData["displayProperties"].get("name").split(": ")[1],
+                                    "description":socketData["displayProperties"].get("description"),
+                                    "icon":"https://www.bungie.net" + str(socketData["displayProperties"].get("icon")),
+                                    "mwHash":socketData.get("hash"),
+                                }
+                                weapon["masterworkData"] = masterworkTemplate
+                        
     #decode the hash from the manifest
     async def decodeHash(self,hash,manifestValue):
         hashedData = await self.destiny.decode_hash(hash,manifestValue)
@@ -1074,6 +1117,7 @@ class main:
         await self.getExoticCatalysts()
 
         await self.bindJsonData()
+        await self.masterWorkCheck()
 
         print(self.weaponPerksTemplateList)
 
