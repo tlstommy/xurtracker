@@ -2,7 +2,7 @@
     "Location": "The Last City",
     "Planet": "Earth",
     "Landing Zone": "Tower Hangar",
-    "Week": "June 14, 2024",
+    "Week": "June 15, 2024",
     "Catalysts": {
         "Primary": {
             "name": "Bad Juju Catalyst",
@@ -10,7 +10,16 @@
             "description": "Upgrades this weapon to a Masterwork. Once upgraded, the weapon will obtain an additional perk.\n\nDefeat targets using Bad Juju to unlock this upgrade.",
             "itemHash": "1324340508",
             "icon": "https://www.bungie.net/common/destiny2_content/icons/379a2872be1dc01faf4cae20508fe8bf.jpg",
-            "rarity": "Exotic"
+            "rarity": "Exotic",
+            "catalyst perks": [
+                {
+                    "name": "Unending Curse",
+                    "type": "Exotic Catalyst Perk",
+                    "description": "Extends the duration of String of Curses.",
+                    "itemHash": 3952396069,
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/f8b19531b31701e181def84c9eb7db98.png"
+                }
+            ]
         },
         "Secondary": {
             "name": "Arbalest Catalyst",
@@ -18,7 +27,16 @@
             "description": "Upgrades this weapon to a Masterwork. Once upgraded, the weapon will obtain enhanced capabilities, such as increased stats and/or additional perks.\n\nDefeat targets using this weapon to unlock this upgrade.",
             "itemHash": "1880379474",
             "icon": "https://www.bungie.net/common/destiny2_content/icons/d69bff533e6e2bb69f0d5df8692de1dd.jpg",
-            "rarity": "Exotic"
+            "rarity": "Exotic",
+            "catalyst perks": [
+                {
+                    "name": "Genesis",
+                    "type": "Exotic Catalyst Perk",
+                    "description": "Breaking a combatant's shield with this weapon fills its magazine from reserves. Energy weapons regenerate ammo on hit when matching the damage type to the combatant's shield.",
+                    "itemHash": 863260328,
+                    "icon": "https://www.bungie.net/common/destiny2_content/icons/087a911353a3586f5346a1cf88d8de05.png"
+                }
+            ]
         }
     },
     "Exotics": {
@@ -481,6 +499,56 @@
             "masterworkData": null
         }
     },
+    "Material Offers": [
+        {
+            "name": "Enhancement Core",
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/0a4eb695ed55b4e720ddc401460cc0f9.jpg",
+            "description": "Required for purchasing Upgrade Modules and forging Masterwork gear. Chance to obtain from Legendary gear, some activities, and bounties, or purchasable from the Cryptarch in the Tower.",
+            "count": 11,
+            "cost": 17,
+            "hash": 3853748946
+        },
+        {
+            "name": "Enhancement Core",
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/0a4eb695ed55b4e720ddc401460cc0f9.jpg",
+            "description": "Required for purchasing Upgrade Modules and forging Masterwork gear. Chance to obtain from Legendary gear, some activities, and bounties, or purchasable from the Cryptarch in the Tower.",
+            "count": 3,
+            "cost": 3,
+            "hash": 3853748946
+        },
+        {
+            "name": "Enhancement Prism",
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/dea2a35badf7466d4c2c2697ce6e8d87.jpg",
+            "description": "Required for forging Masterwork gear. Obtained from challenging activities or purchasable from the Cryptarch in the Tower.",
+            "count": 5,
+            "cost": 31,
+            "hash": 4257549984
+        },
+        {
+            "name": "Gambit Engram",
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/bfdaa952e932b5c738fdd2360af9db4f.png",
+            "description": "An engram with complex markers.\n\nContains a random Legendary Gambit weapon or armor piece. Can be focused at the Drifter.",
+            "count": 3,
+            "cost": 31,
+            "hash": 451915085
+        },
+        {
+            "name": "Glimmer",
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/88993eaeedad32f42072df6f77f47311.png",
+            "description": "The currency of the City. A form of programmable matter, used both for craft and as a fuel.",
+            "count": 30307,
+            "cost": 5,
+            "hash": 3159615086
+        },
+        {
+            "name": "Glimmer",
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/88993eaeedad32f42072df6f77f47311.png",
+            "description": "The currency of the City. A form of programmable matter, used both for craft and as a fuel.",
+            "count": 57077,
+            "cost": 11,
+            "hash": 3159615086
+        }
+    ],
     "Legendaries": {
         "Legendary weapons": [
             {
