@@ -1,9 +1,12 @@
 import requests,aiohttp,asyncio,json,pydest
 from bs4 import BeautifulSoup
 from datetime import date
+from material_prices import *
 from credentials import *
 
 HEADERS = { "X-API-Key": API_KEY, "Authorization": f"Bearer {ACCESS_TOKEN}" }
+
+
 
 #strange gear offers hash 3751514131
 
@@ -20,6 +23,13 @@ class main:
         self.destinyURLBase = "https://www.bungie.net/Platform"
         self.vendorHash = "2190858386" #xur
         self.strangeGearVendorHash = "3751514131" #xur's strange gear tab inside of the xurs menu
+        self.strangeMaterialVendorHash = "537912098" #xur's strange material offerings tab
+
+        #hashes of items that xur can sell under multivarious strange offers
+        self.multivariousOfferableItems = [2979281381, 3282419336, 1260977951, 554159122, 3036656991, 451915085, 2207883242, 3643918802]
+        
+        #excludeable material hashes from xur, 1 coin engram, favor of the nine etc
+        self.excludeableMaterialHashes = [4032296272,3581456570]
 
         self.combinedPerksJson = None
 
@@ -79,6 +89,9 @@ class main:
 
         #the regular weapons that xur sells
         self.LegendaryWeapons = []
+
+        #different resurces/engrams xur sells
+        self.MaterialOffers = []
         
         #general items
         self.ExoticEngram = {
@@ -165,6 +178,7 @@ class main:
                         "Hunter Exotic":self.HunterExotic,
                         "Titan Exotic":self.TitanExotic,
                     },
+                    "Material Offers":self.MaterialOffers,
                     "Legendaries":{
                         "Legendary weapons":self.LegendaryWeapons,
                         "Warlock":{
@@ -978,7 +992,25 @@ class main:
             hashedData = await self.decodeHash(itemIDData.get("plugItemHash"),"DestinyInventoryItemDefinition")
             if(hashedData.get('traitIds') == ['item.exotic_catalyst']):
                
+                catalystPerks = []
 
+                #get perks of the catalyst
+                for perk in hashedData.get("perks"):
+                    hashedPerkData = await self.decodeHash(perk.get("perkHash"),"DestinySandboxPerkDefinition")
+                    if(hashedPerkData["displayProperties"].get("hasIcon")):
+                        
+                        print(hashedPerkData["displayProperties"].get("name"))
+
+                        perkTemplate = {
+                            "name":hashedPerkData["displayProperties"].get("name"),
+                            "type":"Exotic Catalyst Perk",
+                            "description":hashedPerkData["displayProperties"].get("description"),
+                            "itemHash":perk.get("perkHash"),
+                            "icon":"https://www.bungie.net"+str(hashedPerkData["displayProperties"].get("icon")),
+                            
+                        }
+
+                        catalystPerks.append(perkTemplate)
 
 
                 jsonTemplate = {
@@ -988,6 +1020,7 @@ class main:
                     "itemHash":str(itemIDData.get("plugItemHash")),
                     "icon":"https://www.bungie.net"+str(hashedData["displayProperties"].get("icon")),
                     "rarity":hashedData["inventory"].get("tierTypeName"),
+                    "catalyst perks":catalystPerks
                 }
             
 
@@ -1048,6 +1081,81 @@ class main:
                                 }
                                 weapon["masterworkData"] = masterworkTemplate
                         
+
+
+
+
+    async def getMaterialOffers(self):
+
+
+        #get the one item from xurs main inventory first
+        apiUrl402 = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{characterIDWarlock}/Vendors/{self.vendorHash}/?components=402"
+        apiResponse402 = self.get_api_request(apiUrl402)
+        apiResponse402Json = json.loads(apiResponse402)
+
+        for itemID, itemIDData in apiResponse402Json["Response"]["sales"]["data"].items():
+            if itemIDData.get("itemHash") in self.multivariousOfferableItems:
+                
+                hashedData = await self.decodeHash(itemIDData.get("itemHash"),"DestinyInventoryItemDefinition")
+
+                
+
+                itemTemplate = {
+                    "name":hashedData["displayProperties"].get("name"),
+                    "icon":"https://www.bungie.net" + str(hashedData["displayProperties"].get("icon")),
+                    "description":hashedData["displayProperties"].get("description"),
+                    "count":itemIDData.get("quantity"),
+                    "cost":itemIDData["costs"][0].get("quantity"),
+                    "lowest price":lowest_prices[itemIDData.get("itemHash")].get(itemIDData.get("quantity")),
+                    "is lowest": bool(lowest_prices[itemIDData.get("itemHash")].get(itemIDData.get("quantity")) == itemIDData["costs"][0].get("quantity")),
+                    "hash":itemIDData.get("itemHash"),
+                    
+                }
+
+                
+                self.MaterialOffers.append(itemTemplate)
+                break
+        
+        
+        #now get the other items from the actual tab inside his menu
+
+        #get the one item from xurs main inventory first
+        apiUrl402 = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{characterIDWarlock}/Vendors/{self.strangeMaterialVendorHash}/?components=402"
+        apiResponse402 = self.get_api_request(apiUrl402)
+        apiResponse402Json = json.loads(apiResponse402)
+
+        for itemID, itemIDData in apiResponse402Json["Response"]["sales"]["data"].items():
+            if itemIDData.get("itemHash") not in self.excludeableMaterialHashes:
+                print(itemID,itemIDData.get("itemHash"))
+
+                hashedData = await self.decodeHash(itemIDData.get("itemHash"),"DestinyInventoryItemDefinition")
+
+                
+
+                itemTemplate = {
+                    "name":hashedData["displayProperties"].get("name"),
+                    "icon":"https://www.bungie.net" + str(hashedData["displayProperties"].get("icon")),
+                    "description":hashedData["displayProperties"].get("description"),
+                    "count":itemIDData.get("quantity"),
+                    "cost":itemIDData["costs"][0].get("quantity"),
+                    "lowest price":lowest_prices[itemIDData.get("itemHash")].get(itemIDData.get("quantity")),
+                    "is lowest": bool(lowest_prices[itemIDData.get("itemHash")].get(itemIDData.get("quantity")) == itemIDData["costs"][0].get("quantity")),
+                    "hash":itemIDData.get("itemHash"),
+                }
+
+                
+                self.MaterialOffers.append(itemTemplate)
+
+
+        
+        self.MaterialOffers.sort(key=lambda item: item['name'])
+        
+        
+
+
+
+
+
     #decode the hash from the manifest
     async def decodeHash(self,hash,manifestValue):
         hashedData = await self.destiny.decode_hash(hash,manifestValue)
@@ -1077,7 +1185,6 @@ class main:
     #https://bungie-net.github.io/multi/schema_Destiny-Definitions-DestinyInventoryItemDefinition.html#schema_Destiny-Definitions-DestinyInventoryItemDefinition
     
     async def getXurInventory(self,charID):
-        
         
         
         #do this first before everything
@@ -1116,8 +1223,11 @@ class main:
         await self.getWeapons()
         await self.getExoticCatalysts()
 
+        await self.getMaterialOffers()
+
         await self.bindJsonData()
         await self.masterWorkCheck()
+        
 
         print(self.weaponPerksTemplateList)
 

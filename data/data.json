@@ -2,7 +2,7 @@
     "Location": "The Last City",
     "Planet": "Earth",
     "Landing Zone": "Tower Hangar",
-    "Week": "June 15, 2024",
+    "Week": "June 17, 2024",
     "Catalysts": {
         "Primary": {
             "name": "Bad Juju Catalyst",
@@ -506,6 +506,8 @@
             "description": "Required for purchasing Upgrade Modules and forging Masterwork gear. Chance to obtain from Legendary gear, some activities, and bounties, or purchasable from the Cryptarch in the Tower.",
             "count": 11,
             "cost": 17,
+            "lowest price": 11,
+            "is lowest": false,
             "hash": 3853748946
         },
         {
@@ -514,6 +516,8 @@
             "description": "Required for purchasing Upgrade Modules and forging Masterwork gear. Chance to obtain from Legendary gear, some activities, and bounties, or purchasable from the Cryptarch in the Tower.",
             "count": 3,
             "cost": 3,
+            "lowest price": 3,
+            "is lowest": true,
             "hash": 3853748946
         },
         {
@@ -522,6 +526,8 @@
             "description": "Required for forging Masterwork gear. Obtained from challenging activities or purchasable from the Cryptarch in the Tower.",
             "count": 5,
             "cost": 31,
+            "lowest price": 31,
+            "is lowest": true,
             "hash": 4257549984
         },
         {
@@ -530,6 +536,8 @@
             "description": "An engram with complex markers.\n\nContains a random Legendary Gambit weapon or armor piece. Can be focused at the Drifter.",
             "count": 3,
             "cost": 31,
+            "lowest price": 23,
+            "is lowest": false,
             "hash": 451915085
         },
         {
@@ -538,6 +546,8 @@
             "description": "The currency of the City. A form of programmable matter, used both for craft and as a fuel.",
             "count": 30307,
             "cost": 5,
+            "lowest price": 5,
+            "is lowest": true,
             "hash": 3159615086
         },
         {
@@ -546,6 +556,8 @@
             "description": "The currency of the City. A form of programmable matter, used both for craft and as a fuel.",
             "count": 57077,
             "cost": 11,
+            "lowest price": 11,
+            "is lowest": true,
             "hash": 3159615086
         }
     ],
