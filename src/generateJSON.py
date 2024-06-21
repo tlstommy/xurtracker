@@ -31,6 +31,11 @@ class main:
         #excludeable material hashes from xur, 1 coin engram, favor of the nine etc
         self.excludeableMaterialHashes = [4032296272,3581456570]
 
+        self.ArtificePresent = False
+
+        #hunter warlock titan
+        self.artificeHashes = [None,None,None]
+
         self.combinedPerksJson = None
 
         self.apiResponse = None
@@ -56,6 +61,9 @@ class main:
         self.WarlockExotic = None
         self.TitanExotic = None
         self.HunterExotic = None
+
+        #hunter,warlock,titan
+        self.ArtificeArmor = [None,None,None] 
 
         #class specific armor
         self.WarlockExotic = None
@@ -1151,7 +1159,176 @@ class main:
         self.MaterialOffers.sort(key=lambda item: item['name'])
         
         
+    async def checkForArtifice(self):
+        #get the one item from xurs main inventory first
+        apiUrl401 = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{characterIDHunter}/Vendors/{self.vendorHash}/?components=401"
+        apiResponse401 = self.get_api_request(apiUrl401)
+        apiResponse401Json = json.loads(apiResponse401)
 
+        apiUrl402 = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{characterIDHunter}/Vendors/{self.vendorHash}/?components=402"
+        apiResponse402 = self.get_api_request(apiUrl402)
+        apiResponse402Json = json.loads(apiResponse402)
+
+        for item in apiResponse401Json["Response"]["categories"]["data"]["categories"]:
+            
+            
+            for id in item.get('itemIndexes')[::-1]:
+
+                hashedData = await self.decodeHash(apiResponse402Json["Response"]["sales"]["data"][str(id)].get("itemHash"),"DestinyInventoryItemDefinition")
+                
+                if hashedData["itemType"] == 2 and hashedData["equippingBlock"].get("uniqueLabelHash") != 761097285:
+                    
+                    #there is artifice armor 
+                    self.ArtificePresent = True
+                    return True
+
+       
+
+    async def getArtificeArmor(self,classID,classType):
+
+        IDtoArmorHashDict = {}
+        socketStatDict = {}
+        itemIDs402 = []
+        socketIDs305 = []
+        currentAvailableItems = []
+        currentAvailableArmorItems = []
+
+        artificeHash = None
+        artificeID = None
+
+        #item sockets
+        apiUrl304 = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{classID}/Vendors/{self.vendorHash}/?components=304"
+        apiResponse304 = self.get_api_request(apiUrl304)
+        apiResponse304Json = json.loads(apiResponse304)
+        
+        apiUrl401 = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{classID}/Vendors/{self.vendorHash}/?components=401"
+        apiResponse401 = self.get_api_request(apiUrl401)
+        apiResponse401Json = json.loads(apiResponse401)
+
+        apiUrl402 = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{classID}/Vendors/{self.vendorHash}/?components=402"
+        apiResponse402 = self.get_api_request(apiUrl402)
+        apiResponse402Json = json.loads(apiResponse402)
+
+        for item in apiResponse401Json["Response"]["categories"]["data"]["categories"]:
+            if artificeHash:
+                break
+            for id in item.get('itemIndexes')[::-1]:
+                hashedData = await self.decodeHash(apiResponse402Json["Response"]["sales"]["data"][str(id)].get("itemHash"),"DestinyInventoryItemDefinition")
+                if hashedData["itemType"] == 2 and hashedData["equippingBlock"].get("uniqueLabelHash") != 761097285:
+                    
+                    #there is artifice armor 
+                    artificeHash = apiResponse402Json["Response"]["sales"]["data"][str(id)].get("itemHash")
+                    artificeID = id
+                    break
+                    
+
+
+
+
+        print(artificeID,artificeHash)
+
+        
+        
+        
+            
+        
+        socketStatDict = apiResponse304Json["Response"]["itemComponents"]["stats"]["data"][str(artificeID)]
+        
+        
+        
+
+        print(socketStatDict)
+        
+        
+                
+        
+        
+        hashData = await self.decodeHash(artificeHash,"DestinyInventoryItemDefinition")
+            
+
+        print(hashData)
+        
+
+        
+
+        
+            
+
+        #total, mobility, resilince , recovery ,discipline, intelect, strength
+        statsList = [0,0,0,0,0,0,0]
+        statTotal = 0
+        isExoticBool = False
+        statDict = socketStatDict["stats"]
+        print(socketStatDict["stats"])
+        print(item)
+        
+        for key, val in statDict.items():
+            statTotal += val.get("value")
+            statTypeStr = self.decodeStatHash(int(key))
+            
+            if statTypeStr == "Intellect":
+                statsList[5] = int(val.get("value"))
+            if statTypeStr == "Resilience":
+                statsList[2] = int(val.get("value"))
+            if statTypeStr == "Discipline":
+                statsList[4] = int(val.get("value"))
+            if statTypeStr == "Recovery":
+                statsList[3] = int(val.get("value"))
+            if statTypeStr == "Mobility":
+                statsList[1] = int(val.get("value"))
+            if statTypeStr == "Strength":
+                statsList[6] = int(val.get("value"))
+        statsList[0] = statTotal
+
+       
+        stats = apiResponse304Json["Response"]["itemComponents"]["stats"]["data"].get(artificeID)
+        armorData = await self.decodeHash(artificeHash,"DestinyInventoryItemDefinition")
+        
+        loreHash = armorData.get("loreHash")
+        if(loreHash == None):
+            armorLore = None
+        else:
+            armorLore = await self.decodeHash(str(loreHash),"DestinyLoreDefinition")
+            armorLore = armorLore["displayProperties"].get("description")
+
+        try:
+            print("[HASH] ",artificeHash)
+            
+            armorType = armorData["itemTypeDisplayName"]
+            
+            
+
+            jsonTemplate = {
+                "name":armorData["displayProperties"].get("name"),
+                "type":armorData.get("itemTypeAndTierDisplayName"),
+                "description":armorData["displayProperties"].get("description"),
+                "lore":armorData.get("flavorText"),
+                "ExtLore":armorLore,
+                "itemHash":str(artificeHash),
+                "itemRating":None,
+                "icon":"https://www.bungie.net"+str(armorData["displayProperties"].get("icon")),
+                "backgroundImage" : "https://www.bungie.net"+str(armorData.get("screenshot")),
+                "rarity":armorData["inventory"].get("tierTypeName"),
+                "class":armorData.get("classType"), 
+                "statRolls":statsList,
+                "isArtifice":True,
+                
+            }
+        except KeyError:
+            pass
+
+        
+        #store values
+        if(classType == "warlock"):
+            self.ArtificeArmor[1] = jsonTemplate
+        if(classType == "hunter"):
+            self.ArtificeArmor[0] = jsonTemplate
+        if(classType == "titan"):
+            self.ArtificeArmor[2] = jsonTemplate
+
+                    
+        
+        
 
 
 
@@ -1186,6 +1363,14 @@ class main:
     
     async def getXurInventory(self,charID):
         
+        if await self.checkForArtifice():
+            await self.getArtificeArmor(self.warlockCharacterID,"warlock")
+            await self.getArtificeArmor(self.hunterCharacterID,"hunter")
+            await self.getArtificeArmor(self.titanCharacterID,"titan")
+        
+
+        print(self.ArtificeArmor)
+        return None
         
         #do this first before everything
         apiUrl = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{charID}/Vendors/{self.vendorHash}/?components=402"        #format url data
