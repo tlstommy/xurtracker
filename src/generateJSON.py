@@ -173,6 +173,7 @@ class main:
                     "Planet":self.planet,
                     "Landing Zone":self.landingZone,
                     "Week":self.week,
+                    "Artifice":self.ArtificePresent,
                     "Catalysts":{
                         "Primary":self.FirstCatalyst,
                         "Secondary":self.SecondCatalyst,
@@ -187,6 +188,11 @@ class main:
                         "Titan Exotic":self.TitanExotic,
                     },
                     "Material Offers":self.MaterialOffers,
+                    "Artifice Armor":{
+                        "Warlock":self.ArtificeArmor[1],
+                        "Hunter":self.ArtificeArmor[0],
+                        "Titan":self.ArtificeArmor[2],
+                    },
                     "Legendaries":{
                         "Legendary weapons":self.LegendaryWeapons,
                         "Warlock":{
@@ -1186,12 +1192,9 @@ class main:
 
     async def getArtificeArmor(self,classID,classType):
 
-        IDtoArmorHashDict = {}
+        
         socketStatDict = {}
-        itemIDs402 = []
-        socketIDs305 = []
-        currentAvailableItems = []
-        currentAvailableArmorItems = []
+        
 
         artificeHash = None
         artificeID = None
@@ -1220,47 +1223,18 @@ class main:
                     artificeHash = apiResponse402Json["Response"]["sales"]["data"][str(id)].get("itemHash")
                     artificeID = id
                     break
-                    
-
-
-
-
-        print(artificeID,artificeHash)
-
-        
-        
-        
-            
+                
         
         socketStatDict = apiResponse304Json["Response"]["itemComponents"]["stats"]["data"][str(artificeID)]
         
         
-        
-
-        print(socketStatDict)
-        
-        
-                
-        
-        
         hashData = await self.decodeHash(artificeHash,"DestinyInventoryItemDefinition")
-            
-
-        print(hashData)
         
-
-        
-
-        
-            
-
         #total, mobility, resilince , recovery ,discipline, intelect, strength
         statsList = [0,0,0,0,0,0,0]
         statTotal = 0
-        isExoticBool = False
         statDict = socketStatDict["stats"]
-        print(socketStatDict["stats"])
-        print(item)
+        
         
         for key, val in statDict.items():
             statTotal += val.get("value")
@@ -1292,7 +1266,7 @@ class main:
             armorLore = armorLore["displayProperties"].get("description")
 
         try:
-            print("[HASH] ",artificeHash)
+           
             
             armorType = armorData["itemTypeDisplayName"]
             
@@ -1325,13 +1299,6 @@ class main:
             self.ArtificeArmor[0] = jsonTemplate
         if(classType == "titan"):
             self.ArtificeArmor[2] = jsonTemplate
-
-                    
-        
-        
-
-
-
 
     #decode the hash from the manifest
     async def decodeHash(self,hash,manifestValue):
@@ -1367,10 +1334,6 @@ class main:
             await self.getArtificeArmor(self.warlockCharacterID,"warlock")
             await self.getArtificeArmor(self.hunterCharacterID,"hunter")
             await self.getArtificeArmor(self.titanCharacterID,"titan")
-        
-
-        print(self.ArtificeArmor)
-        return None
         
         #do this first before everything
         apiUrl = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{charID}/Vendors/{self.vendorHash}/?components=402"        #format url data

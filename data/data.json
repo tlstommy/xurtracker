@@ -3,6 +3,7 @@
     "Planet": "Earth",
     "Landing Zone": "Tower Hangar",
     "Week": "June 21, 2024",
+    "Artifice": true,
     "Catalysts": {
         "Primary": {
             "name": "MIDA Multi-Tool Catalyst",
@@ -568,6 +569,77 @@
             "hash": 554159122
         }
     ],
+    "Artifice Armor": {
+        "Warlock": {
+            "name": "Ossuary Cover",
+            "type": "Legendary Helmet",
+            "description": "",
+            "lore": "Find beauty in the enamel.",
+            "ExtLore": null,
+            "itemHash": "631191162",
+            "itemRating": null,
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/672c20dbf144f43c781d702d62dfc371.jpg",
+            "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/631191162.jpg",
+            "rarity": "Legendary",
+            "class": 2,
+            "statRolls": [
+                65,
+                14,
+                6,
+                12,
+                12,
+                6,
+                15
+            ],
+            "isArtifice": true
+        },
+        "Hunter": {
+            "name": "Hinterland Cowl",
+            "type": "Legendary Helmet",
+            "description": "",
+            "lore": "The beast snarls, and the hunter whispers.",
+            "ExtLore": null,
+            "itemHash": "2339694345",
+            "itemRating": null,
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/4a6112183720d7884a094c57b7b2be33.jpg",
+            "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/2339694345.jpg",
+            "rarity": "Legendary",
+            "class": 1,
+            "statRolls": [
+                63,
+                14,
+                6,
+                12,
+                23,
+                2,
+                6
+            ],
+            "isArtifice": true
+        },
+        "Titan": {
+            "name": "Biosphere Explorer Helm",
+            "type": "Legendary Helmet",
+            "description": "",
+            "lore": "Hunger teaches resourcefulness.",
+            "ExtLore": null,
+            "itemHash": "1381742107",
+            "itemRating": null,
+            "icon": "https://www.bungie.net/common/destiny2_content/icons/f6a1d887926e34dcdef5f9de94992324.jpg",
+            "backgroundImage": "https://www.bungie.net/common/destiny2_content/screenshots/1381742107.jpg",
+            "rarity": "Legendary",
+            "class": 0,
+            "statRolls": [
+                63,
+                20,
+                2,
+                10,
+                15,
+                10,
+                6
+            ],
+            "isArtifice": true
+        }
+    },
     "Legendaries": {
         "Legendary weapons": [
             {
