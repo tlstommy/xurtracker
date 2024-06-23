@@ -3,7 +3,7 @@ import time
 from datetime import date,timedelta
 from credentials import * 
 
-SEND_TWEET = True
+SEND_TWEET = False
 
 class main:
     def __init__(self, apiKey):
@@ -15,7 +15,8 @@ class main:
         self.forSaleItems = None
         self.hashList = []
         self.hashIDList = []
-        self.exoticWeapon = None
+        self.artificePresent = False
+        self.exoticCatalysts = []
         self.exoticWarlock = None
         self.exoticTitan = None
         self.exoticHunter = None
@@ -30,19 +31,21 @@ class main:
         self.characterIDWarlock = characterIDWarlock
     
     async def tweet(self,sendTweet):
+        
+
         #none checks
         if self.exoticTitan == None:
             print("rerunning tweet func..")
-            await self.getXurInventory(True)
+            await self.getXurInventory()
         if self.exoticWarlock == None:
             print("rerunning tweet func..")
-            await self.getXurInventory(True)
+            await self.getXurInventory()
         if self.exoticHunter== None:
             print("rerunning tweet func..")
-            await self.getXurInventory(True)
-        if self.exoticWeapon == None:
+            await self.getXurInventory()
+        if len(self.exoticCatalysts) != 2:
             print("rerunning tweet func..")
-            await self.getXurInventory(True)
+            await self.getXurInventory()
 
         #setup twitter auth for v2 and v1 endpoints
         
@@ -59,23 +62,17 @@ class main:
 
        
         #update profile statuses
-        if(self.location == "Tower Hangar"):
-            clientV1.update_profile(location="The Last City")
-            clientV1.update_profile_banner(filename="/home/ubuntu/XurTracker/imgs/towerHanger.jpg") 
         
-        if(self.location == "Winding Cove"):
-            clientV1.update_profile(location="European Dead Zone")
-            clientV1.update_profile_banner(filename="/home/ubuntu/XurTracker/imgs/windingCove.jpg")     
+        clientV1.update_profile(location="The Last City")
+        clientV1.update_profile_banner(filename="/home/ubuntu/XurTracker/imgs/xur-tower.jpg") 
         
-        if(self.location == "Watcher's Grave"):
-            clientV1.update_profile(location="Nessus")
-            clientV1.update_profile_banner(filename="/home/ubuntu/XurTracker/imgs/watchersGrave.jpg")
+        
 
         #calculate reset date    
         resetDate = date.today() + timedelta((1-date.today().weekday()) % 7 )
         resetDate = resetDate.strftime("%B %d").replace(' 0', ' ')
         resetDateOrdinaled = self.addOrdinal(resetDate) 
-        tweetStr = f"🌎  Xûr has arrived at the Tower!\n\n\n🛡  {self.exoticTitan}\n🛡  {self.exoticHunter}\n🛡  {self.exoticWarlock}\n\n\n\n🚀  Xûr will depart on {resetDateOrdinaled}.\n\nMore info at: https://xurtracker.com\n\n#Xur #Destiny  #Destiny2"
+        tweetStr = f"🌎  Xûr has arrived at the Tower!\n\n\n💠  {self.exoticCatalysts[0]}\n💠  {self.exoticCatalysts[1]}\n🛡  {self.exoticTitan}\n🛡  {self.exoticHunter}\n🛡  {self.exoticWarlock}\n\n\n\n🚀  Xûr will depart on {resetDateOrdinaled}.\n\nMore info at: https://xurtracker.com\n\n#Xur #Destiny  #Destiny2"
 
         #tweet
         if(sendTweet):
@@ -100,17 +97,6 @@ class main:
         apiResponse304Json = json.loads(apiResponse304)
         return self.combineStats(itemId,apiResponse304Json)
       
-    def getLocation(self):
-        apiUrl400 = self.DestinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{characterIDWarlock}/Vendors/?components=400"
-        apiResponse400 = self.get_api_request(apiUrl400)
-        apiResponse400Json = json.loads(apiResponse400)
-        xurVendorLoc = apiResponse400Json["Response"]["vendors"]["data"]["2190858386"].get("vendorLocationIndex")
-        if xurVendorLoc == 0:            
-            self.location = "Tower Hangar"
-        elif xurVendorLoc == 1:
-            self.location = "Winding Cove"
-        elif xurVendorLoc == 2:
-            self.location = "Watcher's Grave"
 
     #Make a GET request to api and return json
     def get_api_request(self, url):
@@ -149,31 +135,32 @@ class main:
             if decodedObj["inventory"]["tierType"] == 6:
                 
                 name = decodedObj["displayProperties"]["name"]
-                type = decodedObj["itemTypeDisplayName"]
                 itemClass = decodedObj["classType"]
-                jsonTemp = {
-                    "name":name,
-                    "type":type,
-                    "class":itemClass,
-                    "armorRating":None,
-                }
+                
+                
+                #print(decodedObj["traitIds"][0])
+                
 
                 #warlock
                 if(itemClass == 2):
-                    self.exoticWarlock = jsonTemp["name"]
+                    self.exoticWarlock = name
                     
                 #titan
                 elif(itemClass == 0):
-                    self.exoticTitan = jsonTemp["name"]
+                    self.exoticTitan = name
                     
                 #hunter
                 elif(itemClass == 1):
-                    self.exoticHunter = jsonTemp["name"]
+                    self.exoticHunter = name
                     
-                #weapon
+                #catalyst
                 else:
-                    self.exoticWeapon = jsonTemp["name"]
-                jsonObj.append(jsonTemp)
+                    if len(self.exoticCatalysts) > 2:
+                        break
+                    
+                    if decodedObj["traitIds"][0] == "item.exotic_catalyst":
+                        self.exoticCatalysts.append(name)
+                
 
     #get data from api
     def get_api_request(self, url):
@@ -204,10 +191,11 @@ class main:
         
         return date+suffix
 
-    async def getXurInventory(self,getLoc):
-        if(getLoc):
-            #self.getLocation()
-            self.location = "Tower Hangar"
+    async def getXurInventory(self):
+        
+        unwanted_hashes = {2125848607,1092685591,4257549985,353704689,903043774}
+        
+        self.location = "Tower"
 
         #format url data    
         apiUrl = self.DestinyURLBase + "/Destiny2/Vendors/?components=402"
@@ -221,49 +209,11 @@ class main:
         for i in range(len(self.forSaleItems)):
             self.hashList.append(self.apiResponseJson["Response"]["sales"]["data"][list(self.apiResponseJson["Response"]["sales"]["data"].keys())[0]]["saleItems"][list(self.forSaleItems)[i]]["itemHash"])
             self.hashIDList.append(self.apiResponseJson["Response"]["sales"]["data"][list(self.apiResponseJson["Response"]["sales"]["data"].keys())[0]]["saleItems"][list(self.forSaleItems)[i]].get('vendorItemIndex'))
-        
+        print(self.hashIDList)
         #remove unwanted items via their hash
-        try:
-            self.hashList.remove(3875551374)
-        except ValueError as e:
-            print(f"ValueError: {e}")
-            pass
-        try:
-            self.hashList.remove(2125848607)
-        except ValueError as e:
-            print(f"ValueError: {e}")
-            pass
-        try:
-            self.hashList.remove(3856705927)
-        except ValueError as e:
-            print(f"ValueError: {e}")
-            pass
-        try:
-            self.hashList.remove(3654674561)
-        except ValueError as e:
-            print(f"ValueError: {e}")
-            pass
-        try:
-            self.hashIDList.remove(0)
-        except ValueError as e:
-            print(f"ValueError: {e}")
-            pass
-        try:
-            self.hashIDList.remove(31)
-        except ValueError as e:
-            print(f"ValueError: {e}")
-            pass
-        try:
-            self.hashIDList.remove(32)
-        except ValueError as e:
-            print(f"ValueError: {e}")
-            pass
-        try:
-            self.hashIDList.remove(597)
-        except ValueError as e:
-            print(f"ValueError: {e}")
-            pass
+        self.hashList = [hash_ for hash_ in self.hashList if hash_ not in unwanted_hashes]
         
+        print(self.hashIDList)
         await self.parseHash()
         await self.tweet(sendTweet=SEND_TWEET)
 
@@ -273,6 +223,6 @@ def mainloop():
     asyncio.set_event_loop(loop)
 
     TB = main(apiKey)
-    loop.run_until_complete(TB.getXurInventory(True))
+    loop.run_until_complete(TB.getXurInventory())
 
 mainloop()
