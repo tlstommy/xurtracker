@@ -1,9 +1,8 @@
-import pydest, asyncio, aiohttp, json, requests, tweepy, random
-import time
+import pydest, asyncio, aiohttp, json, requests, tweepy
 from datetime import date, timedelta
 from credentials import *
 
-SEND_TWEET = False
+SEND_TWEET = True
 
 
 class main:
@@ -71,7 +70,7 @@ class main:
         resetDate = date.today() + timedelta((1 - date.today().weekday()) % 7)
         resetDate = resetDate.strftime("%B %d").replace(" 0", " ")
         resetDateOrdinaled = self.addOrdinal(resetDate)
-        tweetStr = f"🌎  Xûr has arrived at the Tower!\n\n{self.artificeString}\n💠  {self.exoticCatalysts[0]}\n💠  {self.exoticCatalysts[1]}\n🛡  {self.exoticTitan}\n🛡  {self.exoticHunter}\n🛡  {self.exoticWarlock}\n\n\n\n🚀  Xûr will depart on {resetDateOrdinaled}.\n\nMore info at: https://xurtracker.com\n\n#Xur #Destiny  #Destiny2"
+        tweetStr = f"🌎  Xûr has arrived at the Tower!\n\n{self.artificeString}\n💠  {self.exoticCatalysts[0]}\n💠  {self.exoticCatalysts[1]}\n🛡  {self.exoticTitan}\n🛡  {self.exoticHunter}\n🛡  {self.exoticWarlock}\n\n\n\n🚀  Xûr will depart on {resetDateOrdinaled}.\n\nMore info at: https://xurtracker.com\n\n#Xur #Destiny #Destiny2"
 
         # tweet check
         if sendTweet:
