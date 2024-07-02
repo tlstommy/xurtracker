@@ -2,6 +2,9 @@
 date
 sudo /usr/bin/python3 /home/ubuntu/XurTracker/src/tweetBotTweet.py
 sudo /usr/bin/python3 /home/ubuntu/XurTracker/src/generateJSON.py
+
+sudo netlify deploy --prod --cwd=/home/ubuntu/XurTracker/frontend
+
 bash /home/ubuntu/XurTracker/scripts/regenerateHTML.sh
 sudo /usr/bin/python3 /home/ubuntu/XurTracker/src/deleteOldManifests.py
 cd /home/ubuntu/XurTracker/

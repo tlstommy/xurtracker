@@ -224,6 +224,10 @@ class main:
                 json.dump(JSONTemplate,outfile,indent=4)
             outfile.close()
 
+            with open("/home/ubuntu/XurTracker/frontend/src/destinyData.json","w",encoding='utf-8') as outfile:
+                json.dump(JSONTemplate,outfile,indent=4)    
+            outfile.close()
+
     async def getLocation(self):
         apiUrl400 = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{characterIDWarlock}/Vendors/?components=400"
         apiResponse400 = self.get_api_request(apiUrl400)
