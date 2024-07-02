@@ -1,0 +1,197 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-hunter: #2a669f;
+  --color-warlock: #edae0b;
+  --color-titan: #bc343b;
+  --color-selected-text: #fff;
+  --color-unselected-text: #676a6c;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:  #121212;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+@layer utilities {
+  
+  /* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  .accordion-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #ededed #fcfcfc;
+  }
+
+  /* Chrome, Edge, and Safari */
+  .accordion-scrollbar::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .accordion-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #ededed;
+    border-radius: 8px;
+    border: 1px groove #000000;
+  }
+
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #3c3c3c #1c1d21;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #1c1d21;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #3c3c3c;
+    border-radius: 4px;
+  }
+}
+
+
+.react-modal-sheet-container {
+  margin: 0 auto;
+
+  background-color: #222 !important;
+}
+
+
+
+.react-modal-sheet-drag-indicator {
+  background-color: #666 !important;
+}
+
+
+.grid-background {
+  position: relative;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, #80808012 1px, transparent 1px),
+    linear-gradient(to bottom, #80808012 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.dot-background {
+  position: relative;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+
+/*class select switch*/
+
+
+.class-select-switch {
+  position: relative;
+  height: 40px; /* Adjust height for better visual impact */
+  width: 90%;
+  margin: 20px auto;
+  background: #D7D7D7;
+  border-radius: 40px; /* Increase border-radius for more pill-like shape */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Soft shadow for depth */
+}
+
+.class-select-switch-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px; /* Adjust the space between the icon and text */
+  font-weight: bold;
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 33.33%;
+  line-height: 40px;
+  font-size: 14px;
+  color: var(--color-unselected-text);
+  text-align: center;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.class-select-switch-label svg {
+  width: 40px; /* Set the width of the SVG icon */
+  height: 40px; /* Set the height of the SVG icon */
+  fill: currentColor; /* Color of the SVG icon changes with the label */
+}
+
+.class-select-switch-input {
+  display: none;
+}
+
+.class-select-switch-input:checked + .class-select-switch-label {
+  color: var(--color-selected-text);
+}
+
+.class-select-switch-input:checked + .class-select-switch-label[class*="hunter"] ~ .class-select-switch-selector {
+  transform: translateX(0%);
+  background-color: var(--color-hunter);
+}
+.class-select-switch-input:checked + .class-select-switch-label[class*="warlock"] ~ .class-select-switch-selector {
+  transform: translateX(100%);
+  background-color: var(--color-warlock);
+}
+.class-select-switch-input:checked + .class-select-switch-label[class*="titan"] ~ .class-select-switch-selector {
+  transform: translateX(200%);
+  background-color: var(--color-titan);
+}
+
+.class-select-switch-selector {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 33.33%;
+  height: 100%;
+  border-radius: 40px;
+  background-color: var(--color-hunter);
+  transition: all 0.4s cubic-bezier(0.18, 0.89, 0.32, 1);
+}
+
+.class-armor-icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: middle; /* or other values like 'text-bottom' */
+}
+
+.weapon-damage-icon {
+  height: 1.2em; 
+  vertical-align: middle;
+}
+
+.item-overlay {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  width: 1em;  /* Width of the overlay box */
+  height: 1em;  /* Height of the overlay box */
+  display: flex;
+  align-items: center;  /* Centers text vertically */
+  justify-content: center;  /* Centers text horizontally */
+}
+
+
+
+

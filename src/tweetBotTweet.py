@@ -14,7 +14,7 @@ class main:
         self.destiny = pydest.Pydest(apiKey)
         self.DestinyURLBase = "https://www.bungie.net/Platform"
         self.apiKey = apiKey
-        self.artificeString = None
+        self.artificeString = ""
         self.apiResponseJson = None
         self.forSaleItems = None
         self.hashList = []
