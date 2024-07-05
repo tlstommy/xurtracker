@@ -74,8 +74,8 @@ export default function XurGone() {
         
       </div>
       <footer className="mt-auto w-full bg-gray-600 text-white text-center p-4">
-            hi
-        </footer>
+          &nbsp;
+      </footer>
     </div>
   );
 }
