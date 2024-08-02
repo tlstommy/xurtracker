@@ -1148,16 +1148,33 @@ class main:
 
                 hashedData = await self.decodeHash(itemIDData.get("itemHash"),"DestinyInventoryItemDefinition")
 
+                try: 
+                    cost = itemIDData["costs"][0].get("quantity")
+                except:
+                    cost = 0
+                    
+                
+                try: 
+                    lowest_price = lowest_prices[itemIDData.get("itemHash")].get(itemIDData.get("quantity"))
+                except:
+                    lowest_price = 0
+
+                try:
+                    is_lowest_price = bool((lowest_price) == itemIDData["costs"][0].get("quantity"))
+                except:
+                    is_lowest_price = True
+                
                 
 
+                
                 itemTemplate = {
                     "name":hashedData["displayProperties"].get("name"),
                     "icon":"https://www.bungie.net" + str(hashedData["displayProperties"].get("icon")),
                     "description":hashedData["displayProperties"].get("description"),
                     "count":itemIDData.get("quantity"),
-                    "cost":itemIDData["costs"][0].get("quantity"),
-                    "lowest price":lowest_prices[itemIDData.get("itemHash")].get(itemIDData.get("quantity")),
-                    "is lowest": bool(lowest_prices[itemIDData.get("itemHash")].get(itemIDData.get("quantity")) == itemIDData["costs"][0].get("quantity")),
+                    "cost":cost,
+                    "lowest price":lowest_price,
+                    "is lowest": is_lowest_price,
                     "hash":itemIDData.get("itemHash"),
                 }
 
