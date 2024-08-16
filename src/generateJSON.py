@@ -1090,12 +1090,25 @@ class main:
                                 continue
                             if "masterworks" in socketData["plug"].get("plugCategoryIdentifier") and str(socketData.get("hash")) != "905869860":
                                 print(socketData)
-                        
+                                try: 
+                                    name = socketData["displayProperties"].get("name").split(": ")[1]
+                                    description = socketData["displayProperties"].get("name").split(": ")[1]
+                                    icon = "https://www.bungie.net" + str(socketData["displayProperties"].get("icon"))
+                                    masterworkHash = socketData.get("hash")
+                                except IndexError as e:
+                                    print(f"index error: {e}")
+                                    name = "Unknown Masterwork"
+                                    description = "This master work could not be found, perhaps it does not exist?"
+                                    icon = "https://www.bungie.net/common/destiny2_content/icons/cc3be955cb34b918e90d0f8e654a11c1.png"
+                                    masterworkHash = "231101171"
+
+                                
                                 masterworkTemplate = {
-                                    "name":socketData["displayProperties"].get("name").split(": ")[1],
-                                    "description":socketData["displayProperties"].get("description"),
-                                    "icon":"https://www.bungie.net" + str(socketData["displayProperties"].get("icon")),
-                                    "mwHash":socketData.get("hash"),
+                                    
+                                    "name":name,
+                                    "description":description,
+                                    "icon":icon,
+                                    "mwHash":masterworkHash,
                                 }
                                 weapon["masterworkData"] = masterworkTemplate
                         
