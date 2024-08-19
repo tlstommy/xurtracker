@@ -1,6 +1,6 @@
 # XurTracker.com
 
-[![Website](https://img.shields.io/website-up-down-green-red/https/www.xurtracker.com.svg)](https://www.xurtracker.com)
+[![XurTracker.com](https://img.shields.io/website-up-down-green-red/https/www.xurtracker.com.svg)](https://www.xurtracker.com)
 
 XurTracker.com is a comprehensive service that provides Destiny 2 players with real-time information on Xur's location and inventory. This repository contains the source code for the [XurTracker](https://www.xurtracker.com) website, Twitter bot, and API.
 
