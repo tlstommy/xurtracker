@@ -106,10 +106,10 @@ export default function Navbar() {
             
           </nav>
           <nav className="navbar hidden lg:block items-right lg:pl-4 lg:border-l lg:border-l-2  lg:border-gray-500 flex flex-wrap items-center text-md font-semibold justify-center">
-            <Link to="https://github.com/tlstommy/xurtracker" className="navbar-item mx-3 hover:fill-white ">
+            <Link to="https://github.com/tlstommy/xurtracker" className="navbar-item mx-3 hover:fill-white " title="Twitter Alerts">
               <TwitterIcon style={{ width: "1.25em", height: "1.25em", display: "inline"}}/>
             </Link>
-            <Link to="https://github.com/tlstommy/xurtracker" className="navbar-item mx-3 hover:fill-white text-navbar-text">
+            <Link to="https://github.com/tlstommy/xurtracker" className="navbar-item mx-3 hover:fill-white text-navbar-text" title="GitHub Repository">
               <GithubIcon style={{ width: "1.5em", height: "1.5em", display: "inline" }}/>
             </Link>
             
@@ -139,10 +139,10 @@ export default function Navbar() {
             
             <div className="pt-2">
               
-              <Link to="https://x.com/XurTrack" className="navbar-item mx-3 fill-white " onClick={() => setIsMobileMenuOpen(false)}>
+              <Link to="https://x.com/XurTrack" className="navbar-item mx-3 fill-white " title="Twitter Alerts" onClick={() => setIsMobileMenuOpen(false)}>
                 <TwitterIcon style={{ width: "1.25em", height: "1.25em", display: "inline"}}/>
               </Link>
-              <Link to="https://github.com/tlstommy/xurtracker" className="navbar-item mx-3 fill-white text-navbar-text" onClick={() => setIsMobileMenuOpen(false)}>
+              <Link to="https://github.com/tlstommy/xurtracker" title="GitHub Repository" className="navbar-item mx-3 fill-white text-navbar-text" onClick={() => setIsMobileMenuOpen(false)}>
                 <GithubIcon style={{ width: "1.5em", height: "1.5em", display: "inline" }}/>
               </Link> 
             </div>
