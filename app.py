@@ -33,14 +33,18 @@ limiter.init_app(app)
 
 #api routes
 
-api.add_resource(APIPrediction, '/api/prediction-data')
+#since tfs no longer needed
+#api.add_resource(APIPrediction, '/api/prediction-data')
+
 api.add_resource(APIData, '/api/get-data')
-#api.add_resource(APIExotics, '/api/exotics')
-#api.add_resource(APIArmor, '/api/armor')
-#api.add_resource(APILocation, '/api/location')
-#api.add_resource(APIDates, '/api/dates')
-#api.add_resource(APIExoticWeapons, '/api/exotic-weapons')
-#api.add_resource(APILegendaryWeapons, '/api/legendary-weapons')
+#api.add_resource(APIExotics, '/api/get-exotics')
+
+# api/get-armor?class=titan
+api.add_resource(APIArmor, '/api/get-armor')
+api.add_resource(APILocation, '/api/get-location')
+api.add_resource(APIDates, '/api/get-dates')
+#api.add_resource(APIExoticWeapons, '/api/get-exotic-weapons')
+api.add_resource(APILegendaryWeapons, '/api/get-legendary-weapons')
 
 
 
