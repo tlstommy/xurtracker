@@ -109,7 +109,7 @@ export default function Navbar() {
             <Link to="https://x.com/XurTrack" className="navbar-item mx-3 hover:fill-white " title="Twitter Alerts">
               <TwitterIcon style={{ width: "1.25em", height: "1.25em", display: "inline"}}/>
             </Link>
-            <Link to="https://github.com/tlstommy/xurtracker.com" className="navbar-item mx-3 hover:fill-white text-navbar-text" title="GitHub Repository">
+            <Link to="https://github.com/tlstommy/xurtracker" className="navbar-item mx-3 hover:fill-white text-navbar-text" title="GitHub Repository">
               <GithubIcon style={{ width: "1.5em", height: "1.5em", display: "inline" }}/>
             </Link>
             
