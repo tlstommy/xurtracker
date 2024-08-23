@@ -44,7 +44,7 @@ export default function NavbarSimp() {
             <Link to="https://x.com/XurTrack" className="navbar-item mx-3 hover:fill-white ">
               <TwitterIcon style={{ width: "1.25em", height: "1.25em", display: "inline"}}/>
             </Link>
-            <Link to="#github" className="navbar-item mx-3 hover:fill-white text-navbar-text">
+            <Link to="https://github.com/tlstommy/xurtracker.com" className="navbar-item mx-3 hover:fill-white text-navbar-text">
               <GithubIcon style={{ width: "1.5em", height: "1.5em", display: "inline" }}/>
             </Link>
             
@@ -58,7 +58,7 @@ export default function NavbarSimp() {
               <Link to="https://x.com/XurTrack" className="navbar-item mx-3 fill-white " onClick={() => setIsMobileMenuOpen(false)}>
                 <TwitterIcon style={{ width: "1.25em", height: "1.25em", display: "inline"}}/>
               </Link>
-              <Link to="#github" className="navbar-item mx-3 fill-white text-navbar-text" onClick={() => setIsMobileMenuOpen(false)}>
+              <Link to="https://github.com/tlstommy/xurtracker.com" className="navbar-item mx-3 fill-white text-navbar-text" onClick={() => setIsMobileMenuOpen(false)}>
                 <GithubIcon style={{ width: "1.5em", height: "1.5em", display: "inline" }}/>
               </Link> 
             </div>
