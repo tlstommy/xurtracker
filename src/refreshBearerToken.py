@@ -31,4 +31,5 @@ if response.status_code == 200:
         f.write(accessToken)
         f.close()
 else:
-    print(f"Error refreshing tokens: {response.json()['error_description']}")
+    print(f"Error refreshing tokens: {response.json()['error_description']}\n\nMore Info:")
+    print(response.json())
