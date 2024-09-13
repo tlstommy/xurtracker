@@ -99,6 +99,18 @@ class main:
 
         for i in range(len(self.hashList)):
             decodedObj = await self.decodeHash(self.hashList[i], "DestinyInventoryItemDefinition")
+            
+
+
+
+            #TODO Filter out and parse class items when i have more time
+            
+            if(decodedObj['hash'] == 3076343411 or decodedObj['hash'] == 2705455302 or decodedObj['hash'] == 1540068657):
+                print("skip CI")
+                continue
+
+
+
 
             if(decodedObj["itemType"] == 2 and decodedObj["equippingBlock"].get("uniqueLabelHash") != 761097285):
                 # there is artifice armor
