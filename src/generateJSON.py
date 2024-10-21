@@ -31,6 +31,9 @@ class main:
         #excludeable material hashes from xur, 1 coin engram, favor of the nine etc
         self.excludeableMaterialHashes = [4032296272,3581456570]
 
+        #misc other items xur can offer, like the xurfboard
+        self.miscItemHashes = [3158812152]
+
         self.ArtificePresent = False
 
         #hunter warlock titan
@@ -100,6 +103,9 @@ class main:
 
         #different resurces/engrams xur sells
         self.MaterialOffers = []
+
+        #misc items, i.e xurfboard
+        self.MiscOffers = []
         
         #general items
         self.ExoticEngram = {
@@ -188,6 +194,7 @@ class main:
                         "Titan Exotic":self.TitanExotic,
                     },
                     "Material Offers":self.MaterialOffers,
+                    "Miscellaneous Offers":self.MiscOffers,
                     "Artifice Armor":{
                         "Warlock":self.ArtificeArmor[1],
                         "Hunter":self.ArtificeArmor[0],
@@ -666,6 +673,8 @@ class main:
         #look through currentAvailableItems for armor peices hash and then see if the hash relates to armor or not
         for i in range(len(currentAvailableItems)):
             hashData = await self.decodeHash(IDtoArmorHashDict[currentAvailableItems[i]],"DestinyInventoryItemDefinition")
+
+            
             #it is armor   
             if hashData.get("itemType") == 2:
                 currentAvailableArmorItems.append(currentAvailableItems[i])
@@ -1125,6 +1134,7 @@ class main:
         apiResponse402Json = json.loads(apiResponse402)
 
         for itemID, itemIDData in apiResponse402Json["Response"]["sales"]["data"].items():
+            hashedData = await self.decodeHash(itemIDData.get("itemHash"),"DestinyInventoryItemDefinition")
             if itemIDData.get("itemHash") in self.multivariousOfferableItems:
                 
                 hashedData = await self.decodeHash(itemIDData.get("itemHash"),"DestinyInventoryItemDefinition")
@@ -1145,6 +1155,36 @@ class main:
 
                 
                 self.MaterialOffers.append(itemTemplate)
+                break
+                
+            if itemIDData.get("itemHash") in self.miscItemHashes:
+                
+                hashedData = await self.decodeHash(itemIDData.get("itemHash"),"DestinyInventoryItemDefinition")
+
+                if hashedData.get("loreHash"):
+                    lore =  await self.decodeHash(hashedData.get("loreHash"),"DestinyLoreDefinition")
+                
+                if hashedData["displayProperties"].get("description"):
+                    desc = hashedData["displayProperties"].get("description")
+                else:
+                    desc = hashedData.get("flavorText")
+                
+                
+
+
+                itemTemplate = {
+                    "name":hashedData["displayProperties"].get("name"),
+                    "icon":"https://www.bungie.net" + str(hashedData["displayProperties"].get("icon")),
+                    "description":desc,
+                    "backgroundImage":"https://www.bungie.net"+str(hashedData.get("screenshot")),
+                    "type":hashedData.get("itemTypeDisplayName"),
+                    "lore":lore["displayProperties"].get("description"),
+                    "hash":hashedData.get("hash"),
+                    
+                }
+
+                
+                self.MiscOffers.append(itemTemplate)
                 break
         
         

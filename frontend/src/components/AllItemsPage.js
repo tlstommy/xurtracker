@@ -11,6 +11,7 @@ import LegendaryArmor from "./LegendaryArmor";
 import LegendaryWeapon from "./LegendaryWeapon";
 import ClassSelect from "./ClassSelect";
 import Item from "./Item";
+import MiscellaneousItem from "./MiscellaneousItem";
 
 import destinyData from '../destinyData.json';
 
@@ -21,6 +22,8 @@ export default function AllItemsPage() {
 
     const exoticArmors = [destinyData.Exotics["Hunter Exotic"],destinyData.Exotics["Warlock Exotic"],destinyData.Exotics["Titan Exotic"]];
     const legendaryWeapons = destinyData.Legendaries["Legendary weapons"];
+
+    const miscItems = destinyData["Miscellaneous Offers"];
 
     const artificeBeingSold = destinyData.Artifice;
     const artificeArmors = [destinyData["Artifice Armor"].Hunter,destinyData["Artifice Armor"].Warlock,destinyData["Artifice Armor"].Titan]
@@ -110,6 +113,15 @@ export default function AllItemsPage() {
                     
                     <section id="artifice" className="pt-5">
                         <ArtificeArmorCheck artificeForSale={artificeBeingSold}/>
+                    </section>
+
+                    <section id="misc-exotics" className="pt-5">
+                        <SectionHeader title="Miscellaneous Exotic Items"/>    
+                        <div class="grid grid-cols-1 lg:grid-cols-3 justify-evenly gap-2 p-4 items-stretch">
+                            {Object.keys(miscItems).map((key) => (              
+                                <MiscellaneousItem key={miscItems[key].hash} data={miscItems[key]} />
+                            ))}
+                        </div>
                     </section>
                     
                     <section id="legendary-weapons" className="pt-5">
