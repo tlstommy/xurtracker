@@ -63,6 +63,16 @@ export default function AllItemsPage() {
         }
     }
 
+    function MiscExoticsCheck(){
+        if(miscItems.length !== 0){
+            return(
+                <div>
+                    <SectionHeader title="Miscellaneous Exotic Items"/>    
+                </div>
+            );
+        }
+    }
+
 
     console.log(selectedClass)
 
@@ -116,7 +126,7 @@ export default function AllItemsPage() {
                     </section>
 
                     <section id="misc-exotics" className="pt-5">
-                        <SectionHeader title="Miscellaneous Exotic Items"/>    
+                        <MiscExoticsCheck /> 
                         <div class="grid grid-cols-1 lg:grid-cols-3 justify-evenly gap-2 p-4 items-stretch">
                             {Object.keys(miscItems).map((key) => (              
                                 <MiscellaneousItem key={miscItems[key].hash} data={miscItems[key]} />
