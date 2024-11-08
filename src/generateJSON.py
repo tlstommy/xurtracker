@@ -32,7 +32,7 @@ class main:
         self.excludeableMaterialHashes = [4032296272,3581456570]
 
         #misc other items xur can offer, like the xurfboard
-        self.miscItemHashes = [3158812152]
+        self.miscItemHashes = [3158812152,]
 
         self.ArtificePresent = False
 
@@ -1123,7 +1123,45 @@ class main:
                         
 
 
+    #items like xurfboard dont show up if i have claimed it
+    async def getHiddenMaterialOffers(self):
 
+        apiResponse402Json = json.loads(self.get_api_request(f"{self.destinyURLBase}/Destiny2/Vendors/?components=402"))
+        forSaleItems = apiResponse402Json["Response"]["sales"]["data"][list(apiResponse402Json["Response"]["sales"]["data"].keys())[0]]["saleItems"]
+        for i in range(len(forSaleItems)):
+            hash = apiResponse402Json["Response"]["sales"]["data"][list(apiResponse402Json["Response"]["sales"]["data"].keys())[0]]["saleItems"][list(forSaleItems)[i]]["itemHash"]
+
+            if hash in self.miscItemHashes:
+                
+                hashedData = await self.decodeHash(hash,"DestinyInventoryItemDefinition")
+
+                if hashedData.get("loreHash"):
+                    lore =  await self.decodeHash(hashedData.get("loreHash"),"DestinyLoreDefinition")
+                
+                if hashedData["displayProperties"].get("description"):
+                    desc = hashedData["displayProperties"].get("description")
+                else:
+                    desc = hashedData.get("flavorText")
+                
+                
+
+
+                itemTemplate = {
+                    "name":hashedData["displayProperties"].get("name"),
+                    "icon":"https://www.bungie.net" + str(hashedData["displayProperties"].get("icon")),
+                    "description":desc,
+                    "backgroundImage":"https://www.bungie.net"+str(hashedData.get("screenshot")),
+                    "type":hashedData.get("itemTypeDisplayName"),
+                    "lore":lore["displayProperties"].get("description"),
+                    "hash":hashedData.get("hash"),
+                    
+                }
+
+                
+                if itemTemplate not in self.MiscOffers:
+                    self.MiscOffers.append(itemTemplate)
+                break
+                
 
     async def getMaterialOffers(self):
 
@@ -1156,7 +1194,9 @@ class main:
                 
                 self.MaterialOffers.append(itemTemplate)
                 break
-                
+
+            
+
             if itemIDData.get("itemHash") in self.miscItemHashes:
                 
                 hashedData = await self.decodeHash(itemIDData.get("itemHash"),"DestinyInventoryItemDefinition")
@@ -1183,8 +1223,8 @@ class main:
                     
                 }
 
-                
-                self.MiscOffers.append(itemTemplate)
+                if itemTemplate not in self.MiscOffers:
+                    self.MiscOffers.append(itemTemplate)
                 break
         
         
@@ -1446,7 +1486,7 @@ class main:
         await self.getExoticCatalysts()
 
         await self.getMaterialOffers()
-
+        await self.getHiddenMaterialOffers()
         await self.bindJsonData()
         await self.masterWorkCheck()
         
