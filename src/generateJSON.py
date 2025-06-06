@@ -65,25 +65,25 @@ class main:
         self.TitanExotic = None
         self.HunterExotic = None
 
+        self.SellingExoticClassItems = False
+
+
         #hunter,warlock,titan
         self.ArtificeArmor = [None,None,None] 
 
         #class specific armor
-        self.WarlockExotic = None
         self.WarlockHelmet = None
         self.WarlockArms = None
         self.WarlockChest = None
         self.WarlockLegs = None
         self.WarlockClassItem = None
-        
-        self.HunterExotic = None
+
         self.HunterHelmet = None
         self.HunterArms = None
         self.HunterChest = None
         self.HunterLegs = None
         self.HunterClassItem = None
         
-        self.TitanExotic = None
         self.TitanHelmet = None
         self.TitanArms = None
         self.TitanChest = None
@@ -225,69 +225,59 @@ class main:
                         },
                     }
                 }
-        if(write == True):
-            #serialize JSON
-            with open("/home/ubuntu/XurTracker/data/data.json","w",encoding='utf-8') as outfile:
-                json.dump(JSONTemplate,outfile,indent=4)
-            outfile.close()
+        if write:
+            for path in [
+                "/home/ubuntu/XurTracker/data/data.json",
+                "/home/ubuntu/XurTracker/frontend/src/destinyData.json"
+            ]:
+                with open(path, "w", encoding="utf-8") as outfile:
+                    json.dump(JSONTemplate, outfile, indent=4)
 
-            with open("/home/ubuntu/XurTracker/frontend/src/destinyData.json","w",encoding='utf-8') as outfile:
-                json.dump(JSONTemplate,outfile,indent=4)    
-            outfile.close()
 
     async def getLocation(self):
-        apiUrl400 = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{characterIDWarlock}/Vendors/?components=400"
-        apiResponse400 = self.get_api_request(apiUrl400)
-        apiResponse400Json = json.loads(apiResponse400)
-        
+        apiUrl400 = f"{self.destinyURLBase}/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{characterIDWarlock}/Vendors/?components=400"
+        apiResponse400Json = json.loads(self.get_api_request(apiUrl400))
         xurVendorLoc = apiResponse400Json["Response"]["vendors"]["data"]["2190858386"].get("vendorLocationIndex")
-        
         if xurVendorLoc == 0:
-            self.planet = "Earth"
-            self.location = "The Last City"
-            self.landingZone = "Tower Hangar"
-        if xurVendorLoc == 1:
-            self.planet = "Earth"
-            self.location = "European Dead Zone"
-            self.landingZone = "Winding Cove"
-        if xurVendorLoc == 2:
-            self.planet = "Nessus"
-            self.location = "Arcadian Valley"
-            self.landingZone = "Watcher's Grave"
+            self.planet, self.location, self.landingZone = "Earth", "The Last City", "Tower Hangar"
+        elif xurVendorLoc == 1:
+            self.planet, self.location, self.landingZone = "Earth", "European Dead Zone", "Winding Cove"
+        elif xurVendorLoc == 2:
+            self.planet, self.location, self.landingZone = "Nessus", "Arcadian Valley", "Watcher's Grave"
 
     #combines a list of sockets and plugs together
     def socketPlugs(self, socketJSON, plugJSON):
-        # Convert JSON if they are not already
+        # convert JSON if they are not already
         if isinstance(socketJSON, str):
             socketJSON = json.loads(socketJSON)
         if isinstance(plugJSON, str):
             plugJSON = json.loads(plugJSON)
 
-        # Extracting the relevant data from the JSON
+        # extracting the relevant data from the JSON
         sockets = socketJSON["Response"]["itemComponents"]["sockets"]["data"]
         plugs = plugJSON["Response"]["itemComponents"]["reusablePlugs"]["data"]
 
         combined_data = {}
 
-        # Iterate through the sockets data and combine with plugs data
+        #iterate through the sockets data and combine with plugs data
         for item_id, socket_info in sockets.items():
             seen_hashes = set()  # Set to track seen hashes
             hashes = []
 
-            # Function to add hash if not seen
+            # function to add hash if not seen
             def add_hash(hash_value):
                 if hash_value not in seen_hashes:
                     seen_hashes.add(hash_value)
                     hashes.append({"hash": hash_value})
 
-            # Add hashes from sockets
+            #Add hashes from sockets
             for socket in socket_info["sockets"]:
                 if "plugHash" in socket and socket["isEnabled"]:
                     add_hash(socket["plugHash"])
                 
-            # Add hashes from plugs
+            #Add hashes from plugs
             if item_id in plugs:
-                for plug_slot, plug_list in plugs[item_id]["plugs"].items():
+                for plug_list in plugs[item_id]["plugs"].values():
                     for plug in plug_list:
                         if plug["enabled"]:
                             add_hash(plug["plugItemHash"])
@@ -300,19 +290,15 @@ class main:
     def perkSort(self,perkList):
 
         newPerkListDict = {}
-
-        #group by subtypes
+        #group perks by perkSubType
         for perk in perkList:
             perkType = perk["perkSubType"]
-            if perkType not in newPerkListDict:
-                newPerkListDict[perkType] = []
-            newPerkListDict[perkType].append(perk)
+            newPerkListDict.setdefault(perkType, []).append(perk)
 
         newPerkList = []
 
-        for perkType, perks in newPerkListDict.items():
+        for perks in newPerkListDict.values():
             newPerkList.extend(perks)
-
         return newPerkList
 
 
@@ -623,18 +609,15 @@ class main:
 
     
     def decodeStatHash(self,hash):
-        if hash == 144602215:
-            return "Intellect"
-        if hash == 392767087:
-            return "Resilience"
-        if hash == 1735777505:
-            return "Discipline"
-        if hash == 1943323491:
-            return "Recovery"
-        if hash == 2996146975:
-            return "Mobility"
-        if hash == 4244567218:
-            return "Strength"
+        stat_map = {
+            144602215: "Intellect",
+            392767087: "Resilience",
+            1735777505: "Discipline",
+            1943323491: "Recovery",
+            2996146975: "Mobility",
+            4244567218: "Strength"
+        }
+        return stat_map.get(hash)
 
     async def getExoticArmor(self,classID,classType):
         #armor stat template
@@ -710,14 +693,12 @@ class main:
         
         for item in currentAvailableArmorItems:
             
-
             #total, mobility, resilince , recovery ,discipline, intelect, strength
             statsList = [0,0,0,0,0,0,0]
             statTotal = 0
             isExoticBool = False
             statDict = socketStatDict[item]["stats"]
-            print(socketStatDict[item]["stats"])
-            print(item)
+            
             for key, val in statDict.items():
                 statTotal += val.get("value")
                 statTypeStr = self.decodeStatHash(int(key))
@@ -1066,10 +1047,11 @@ class main:
     def jsonConflictCheck(self,jsonToTest):
         
         
-        for i in range(len(self.XursInventoryItems)):
-            if(self.XursInventoryItems[i]["itemHash"] == jsonToTest["itemHash"] and (self.XursInventoryItems[i]["class"] == jsonToTest["class"] and jsonToTest["class"] != 3)):
+        for item in self.XursInventoryItems:
+            if (item["itemHash"] == jsonToTest["itemHash"] and item["class"] == jsonToTest["class"] and jsonToTest["class"] != 3):
                 return True
         return False
+
 
 
     #check for missing mw's
@@ -1416,8 +1398,7 @@ class main:
 
     #decode the hash from the manifest
     async def decodeHash(self,hash,manifestValue):
-        hashedData = await self.destiny.decode_hash(hash,manifestValue)
-        return hashedData
+        return await self.destiny.decode_hash(hash, manifestValue)
 
 
 
@@ -1431,10 +1412,7 @@ class main:
                 
                 #parse to json
                 jsonResponse = json.dumps(res.json(), sort_keys=True, indent=4)
-                
-                
-                #store json response
-                #self.apiResponseJson = jsonResponse
+
         except aiohttp.client_exceptions.ClientResponseError as e:
             print("ERROR: Could not connect to Bungie.net Endpoint")
 
@@ -1449,54 +1427,31 @@ class main:
             await self.getArtificeArmor(self.hunterCharacterID,"hunter")
             await self.getArtificeArmor(self.titanCharacterID,"titan")
         
-        #do this first before everything
-        apiUrl = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{charID}/Vendors/{self.vendorHash}/?components=402"        #format url data
+        apiUrl = f"{self.destinyURLBase}/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{charID}/Vendors/{self.vendorHash}/?components=402"
         self.apiResponse = self.get_api_request(apiUrl)
-
-        #store into a dict
         self.apiResponseJson = json.loads(self.apiResponse)
-        
-        print(self.apiResponseJson)
-            
-        #print(self.apiResponseJson)
-
-
-        #store perk info
-        apiUrl305 = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{characterIDWarlock}/Vendors/{self.strangeGearVendorHash}/?components=305"
+        apiUrl305 = f"{self.destinyURLBase}/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{characterIDWarlock}/Vendors/{self.strangeGearVendorHash}/?components=305"
         apiResponse305 = self.get_api_request(apiUrl305)
-    
-        apiUrl310 = self.destinyURLBase + f"/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{characterIDWarlock}/Vendors/{self.strangeGearVendorHash}/?components=310"
+        apiUrl310 = f"{self.destinyURLBase}/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{characterIDWarlock}/Vendors/{self.strangeGearVendorHash}/?components=310"
         apiResponse310 = self.get_api_request(apiUrl310)
-        
-        self.combinedPerksJson = self.socketPlugs(apiResponse305,apiResponse310)
 
-        print(self.combinedPerksJson)
-        #input("\n")
-        #store the inventory of for sale items to be parsed 
+        self.combinedPerksJson = self.socketPlugs(apiResponse305, apiResponse310)
         self.forSaleItems = self.apiResponseJson["Response"]["sales"]["data"]
-        await self.getExoticArmor(self.warlockCharacterID,"warlock")
-        await self.getExoticArmor(self.hunterCharacterID,"hunter")
-        await self.getExoticArmor(self.titanCharacterID,"titan")
-    
-        await self.getLegendaryArmor(self.warlockCharacterID,"warlock")
-        await self.getLegendaryArmor(self.hunterCharacterID,"hunter")
-        await self.getLegendaryArmor(self.titanCharacterID,"titan")
-        
+
+        await self.getExoticArmor(self.warlockCharacterID, "warlock")
+        await self.getExoticArmor(self.hunterCharacterID, "hunter")
+        await self.getExoticArmor(self.titanCharacterID, "titan")
+        await self.getLegendaryArmor(self.warlockCharacterID, "warlock")
+        await self.getLegendaryArmor(self.hunterCharacterID, "hunter")
+        await self.getLegendaryArmor(self.titanCharacterID, "titan")
         await self.getWeapons()
         await self.getExoticCatalysts()
-
         await self.getMaterialOffers()
         await self.getHiddenMaterialOffers()
         await self.bindJsonData()
         await self.masterWorkCheck()
-        
-
-        print(self.weaponPerksTemplateList)
-
-        print(self.weaponsTemplatesList)
 
         self.buildJSON(True)
-        #close loop
         await self.destiny.close()
 
 #main loop
