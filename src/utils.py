@@ -131,54 +131,6 @@ async def check_for_artifice(destiny):
                 destiny.ArtificePresent = True
                 return True
 
-
-#get weapon perks from community
-def get_weapon_perks_from_community(weapon_hash):
-        favorablePerks = []
-        url = "https://www.light.gg/db/items/"+str(weapon_hash)
-        page = requests.get(url)
-        soup = BeautifulSoup(page.content, "html.parser")
-        try:
-            communityPerksRows = soup.find(id = "community-average").find_all("ul")
-        except AttributeError as e:
-            return -1
-        for row in communityPerksRows:
-            perks = row.find_all("li")
-            if(len(perks) > 1):
-                topPerk = perks[0].find("img")
-                topPerkStr = str(topPerk).split('" ')
-                topPerkStr = topPerkStr[0].replace('<img alt="','')
-                favorablePerks.append(topPerkStr)
-            else:
-                favorablePerks.append("")
-                continue
-        return favorablePerks
-
-#sort perks so they are grouped by their type
-def perk_sort(perk_list):
-        
-
-        sorted_perk_dict = {}
-        #group perks by perkSubType
-        for perk in perk_list:
-            perk_type = perk["perkSubType"]
-            sorted_perk_dict.setdefault(perk_type, []).append(perk)
-
-        sorted_perks = []
-
-        for perks in sorted_perk_dict.values():
-            sorted_perks.extend(perks)
-        return sorted_perks
-
-#rate perks based on community data, returns True if the weapon has the good perk, False otherwise
-def rate_weapon_perks(destiny, weapon_hash, perk_name):
-    topPerks = get_weapon_perks_from_community(weapon_hash)
-    if(topPerks == -1):
-        return False
-    for i in range(len(topPerks)):
-        if(topPerks[i] == perk_name):
-            return True
-    return False
 def decode_stat_hash(hash):
     stat_map = {
             144602215: "Intellect",
