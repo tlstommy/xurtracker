@@ -2,10 +2,13 @@
 import requests
 import json
 import aiohttp
-import asyncio
+import asyncio  
+import pydest
+
+from config import HEADERS
 
 #Make a GET request to api and return json
-def get_api_request(url, headers):
+def get_api_request(url, headers=HEADERS):
     try:
 
             #get api request
@@ -19,4 +22,5 @@ def get_api_request(url, headers):
     return jsonResponse
 
 async def decode_hash(destiny, hash, manifest_value):
-     return await destiny.decode_hash(hash, manifest_value)
+     
+     return await destiny.destiny.decode_hash(hash, manifest_value)

@@ -4,7 +4,13 @@ from datetime import date
 from material_prices import *
 from credentials import *
 
-HEADERS = { "X-API-Key": API_KEY, "Authorization": f"Bearer {ACCESS_TOKEN}" }
+from weapons import get_weapons, get_exotic_catalysts
+from armor import get_exotic_armor, get_legendary_armor, get_artifice_armor
+from inventory import get_material_offers, get_hidden_material_offers
+from utils import bind_stats_to_weapon, check_for_artifice
+from destiny_api import get_api_request, decode_hash
+from utils import socket_plugs, get_location
+
 
 
 
@@ -154,6 +160,15 @@ class main:
         self.XursInventoryItems = []
 
     async def getXurInventory(self,charID):
+        await get_weapons(self)
+        await get_exotic_catalysts(self)
+        await get_exotic_armor(self, charID, "warlock")  # example
+        await get_legendary_armor(self, charID, "warlock")
+        await get_artifice_armor(self, charID, "warlock")
+        await get_material_offers(self)
+        await get_hidden_material_offers(self)
+        await bind_stats_to_weapon(self)
+        await check_for_artifice(self)
         return None
         
 
@@ -167,4 +182,6 @@ def mainloop():
     XI = main(API_KEY)
     loop.run_until_complete(XI.getXurInventory(characterIDWarlock))
 
-mainloop()
+
+if __name__ == "__main__":
+    mainloop()

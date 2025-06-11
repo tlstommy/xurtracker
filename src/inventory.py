@@ -11,15 +11,16 @@ async def getXurStrangeGearOffers(destiny):
 
 async def get_material_offers(destiny):
     #get the one item from xurs main inventory first
-        apiUrl402 = destiny.destinyURLBase + f"/Destiny2/{destiny.membershipType}/Profile/{destiny.membershipId}/Character/{characterIDWarlock}/Vendors/{destiny.vendorHash}/?components=402"
+        apiUrl402 = destiny.destinyURLBase + f"/Destiny2/{destiny.membershipType}/Profile/{destiny.membershipId}/Character/{destiny.warlockCharacterID}/Vendors/{destiny.vendorHash}/?components=402"
         apiResponse402 = get_api_request(apiUrl402)
         apiResponse402Json = json.loads(apiResponse402)
-
+        
+        
         for itemID, itemIDData in apiResponse402Json["Response"]["sales"]["data"].items():
-            hashedData = await decode_hash(itemIDData.get("itemHash"),"DestinyInventoryItemDefinition")
+            hashedData = await decode_hash(destiny, itemIDData.get("itemHash"),"DestinyInventoryItemDefinition")
             if itemIDData.get("itemHash") in destiny.multivariousOfferableItems:
                 
-                hashedData = await decode_hash(itemIDData.get("itemHash"),"DestinyInventoryItemDefinition")
+                hashedData = await decode_hash(destiny, itemIDData.get("itemHash"),"DestinyInventoryItemDefinition")
 
                 
 
@@ -43,10 +44,10 @@ async def get_material_offers(destiny):
 
             if itemIDData.get("itemHash") in destiny.miscItemHashes:
                 
-                hashedData = await decode_hash(itemIDData.get("itemHash"),"DestinyInventoryItemDefinition")
+                hashedData = await decode_hash(destiny, itemIDData.get("itemHash"),"DestinyInventoryItemDefinition")
 
                 if hashedData.get("loreHash"):
-                    lore =  await decode_hash(hashedData.get("loreHash"),"DestinyLoreDefinition")
+                    lore =  await decode_hash(destiny, hashedData.get("loreHash"),"DestinyLoreDefinition")
                 
                 if hashedData["displayProperties"].get("description"):
                     desc = hashedData["displayProperties"].get("description")
@@ -83,7 +84,7 @@ async def get_material_offers(destiny):
             if itemIDData.get("itemHash") not in destiny.excludeableMaterialHashes:
                 print(itemID,itemIDData.get("itemHash"))
 
-                hashedData = await decode_hash(itemIDData.get("itemHash"),"DestinyInventoryItemDefinition")
+                hashedData = await decode_hash(destiny, itemIDData.get("itemHash"),"DestinyInventoryItemDefinition")
 
                 try: 
                     cost = itemIDData["costs"][0].get("quantity")
@@ -130,10 +131,10 @@ async def get_hidden_material_offers(destiny):
 
         if hash in destiny.miscItemHashes:
             
-            hashedData = await decode_hash(hash,"DestinyInventoryItemDefinition")
+            hashedData = await decode_hash(destiny, hash,"DestinyInventoryItemDefinition")
 
             if hashedData.get("loreHash"):
-                lore =  await decode_hash(hashedData.get("loreHash"),"DestinyLoreDefinition")
+                lore =  await decode_hash(destiny, hashedData.get("loreHash"),"DestinyLoreDefinition")
             
             if hashedData["displayProperties"].get("description"):
                 desc = hashedData["displayProperties"].get("description")

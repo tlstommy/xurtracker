@@ -1,6 +1,8 @@
 from bs4 import BeautifulSoup
 from destiny_api import get_api_request, decode_hash
 
+from perk_utils import perk_sort
+
 import requests,json,aiohttp,asyncio
 
 
@@ -61,10 +63,10 @@ async def bind_stats_to_weapon(destiny):
                 #if the perk is a masterwork decode it
                 if perk.get("description") == "Base-level weapon. Increase the tier to forge a Masterwork item.":    
                     print(perk)
-                    masterWorkDecoded = await decode_hash(perk.get("hashID"),"DestinyInventoryItemDefinition")
+                    masterWorkDecoded = await decode_hash(destiny, perk.get("hashID"),"DestinyInventoryItemDefinition")
                     statIcon = "https://www.bungie.net"+str(masterWorkDecoded["displayProperties"].get("icon"))
                     statTypeHash = str(masterWorkDecoded["investmentStats"][0].get("statTypeHash"))
-                    statHashDecoded = await decode_hash(statTypeHash,"DestinyStatDefinition")
+                    statHashDecoded = await decode_hash(destiny, statTypeHash,"DestinyStatDefinition")
 
                     masterworkTemplate = {
                         "name":statHashDecoded["displayProperties"].get("name"),
@@ -79,8 +81,8 @@ async def bind_stats_to_weapon(destiny):
                     continue
 
                 #decode perk to see if its a "frame-related" perk
-                if (await decode_hash(perk.get("hashID"),"DestinyInventoryItemDefinition")).get("uiItemDisplayStyle") == "ui_display_style_intrinsic_plug" and item.get("rarity") != "Exotic":
-                    data = await decode_hash(perk.get("hashID"),"DestinyInventoryItemDefinition")
+                if (await decode_hash(destiny, perk.get("hashID"),"DestinyInventoryItemDefinition")).get("uiItemDisplayStyle") == "ui_display_style_intrinsic_plug" and item.get("rarity") != "Exotic":
+                    data = await decode_hash(destiny, perk.get("hashID"),"DestinyInventoryItemDefinition")
                     item["legendWeaponFrame"] = {
                         "name":data["displayProperties"].get("name"),
                         "description":data["displayProperties"].get("description"),
@@ -110,11 +112,11 @@ async def bind_stats_to_weapon(destiny):
 #check to see if xur is selling an artifice armor piece
 async def check_for_artifice(destiny):
     #get the one item from xurs main inventory first
-    apiUrl401 = destiny.destinyURLBase + f"/Destiny2/{destiny.membershipType}/Profile/{destiny.membershipId}/Character/{characterIDHunter}/Vendors/{destiny.vendorHash}/?components=401"
+    apiUrl401 = destiny.destinyURLBase + f"/Destiny2/{destiny.membershipType}/Profile/{destiny.membershipId}/Character/{destiny.hunterCharacterID}/Vendors/{destiny.vendorHash}/?components=401"
     apiResponse401 = get_api_request(apiUrl401)
     apiResponse401Json = json.loads(apiResponse401)
 
-    apiUrl402 = destiny.destinyURLBase + f"/Destiny2/{destiny.membershipType}/Profile/{destiny.membershipId}/Character/{characterIDHunter}/Vendors/{destiny.vendorHash}/?components=402"
+    apiUrl402 = destiny.destinyURLBase + f"/Destiny2/{destiny.membershipType}/Profile/{destiny.membershipId}/Character/{destiny.hunterCharacterID}/Vendors/{destiny.vendorHash}/?components=402"
     apiResponse402 = get_api_request(apiUrl402)
     apiResponse402Json = json.loads(apiResponse402)
 
@@ -123,7 +125,7 @@ async def check_for_artifice(destiny):
         
         for id in item.get('itemIndexes')[::-1]:
 
-            hashedData = await decode_hash(apiResponse402Json["Response"]["sales"]["data"][str(id)].get("itemHash"),"DestinyInventoryItemDefinition")
+            hashedData = await decode_hash(destiny, apiResponse402Json["Response"]["sales"]["data"][str(id)].get("itemHash"),"DestinyInventoryItemDefinition")
             
             if hashedData["itemType"] == 2 and hashedData["equippingBlock"].get("uniqueLabelHash") != 761097285:
                 

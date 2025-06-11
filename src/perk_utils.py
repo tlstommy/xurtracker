@@ -17,12 +17,12 @@ async def get_weapon_perks(destiny):
 
 
     #item sockets
-    apiUrl305 = destiny.destinyURLBase + f"/Destiny2/{destiny.membershipType}/Profile/{destiny.membershipId}/Character/{characterIDWarlock}/Vendors/{destiny.strangeGearVendorHash}/?components=305"
+    apiUrl305 = destiny.destinyURLBase + f"/Destiny2/{destiny.membershipType}/Profile/{destiny.membershipId}/Character/{destiny.warlockCharacterID}/Vendors/{destiny.strangeGearVendorHash}/?components=305"
     apiResponse305 = get_api_request(apiUrl305)
     apiResponse305Json = json.loads(apiResponse305)
 
     #itemplugs
-    apiUrl310 = destiny.destinyURLBase + f"/Destiny2/{destiny.membershipType}/Profile/{destiny.membershipId}/Character/{characterIDWarlock}/Vendors/{destiny.strangeGearVendorHash}/?components=310"
+    apiUrl310 = destiny.destinyURLBase + f"/Destiny2/{destiny.membershipType}/Profile/{destiny.membershipId}/Character/{destiny.warlockCharacterID}/Vendors/{destiny.strangeGearVendorHash}/?components=310"
     apiResponse310 = get_api_request(apiUrl310)
     apiResponse310Json = json.loads(apiResponse310)
 
@@ -31,7 +31,7 @@ async def get_weapon_perks(destiny):
 
 
     #item ids
-    apiUrl402 = destiny.destinyURLBase + f"/Destiny2/{destiny.membershipType}/Profile/{destiny.membershipId}/Character/{characterIDWarlock}/Vendors/{destiny.strangeGearVendorHash}/?components=402"
+    apiUrl402 = destiny.destinyURLBase + f"/Destiny2/{destiny.membershipType}/Profile/{destiny.membershipId}/Character/{destiny.warlockCharacterID}/Vendors/{destiny.strangeGearVendorHash}/?components=402"
     apiResponse402 = get_api_request(apiUrl402)
     apiResponse402Json = json.loads(apiResponse402)
 
@@ -62,7 +62,7 @@ async def get_weapon_perks(destiny):
 
 
     #now get each individual weapons perks
-
+    
     print(destiny.combinedPerksJson.items())
 
 
@@ -81,7 +81,7 @@ async def get_weapon_perks(destiny):
                     print("keyerror plughash: ",e)
                     continue
                 print(plugHashVal)    
-                decodedPlug = await decode_hash(plugHashVal,"DestinyInventoryItemDefinition")
+                decodedPlug = await decode_hash(destiny, plugHashVal,"DestinyInventoryItemDefinition")
                 
                 print(decodedPlug)
                 #input("test!!!\n")
@@ -89,7 +89,7 @@ async def get_weapon_perks(destiny):
                 
                 
                 #check if armor or not
-                decodedWeaponHash = await decode_hash(IDtoWeaponHashDict[key],"DestinyInventoryItemDefinition")
+                decodedWeaponHash = await decode_hash(destiny, IDtoWeaponHashDict[key],"DestinyInventoryItemDefinition")
 
                 #if it is the armor type
                 if(decodedWeaponHash.get("itemType") == 2):

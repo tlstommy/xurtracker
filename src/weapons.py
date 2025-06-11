@@ -9,31 +9,31 @@ import requests,json,aiohttp,asyncio
 async def get_weapons(destiny):
     weaponHashList = []
 
-    apiUrl402 = destiny.destinyURLBase + f"/Destiny2/{destiny.membershipType}/Profile/{destiny.membershipId}/Character/{characterIDWarlock}/Vendors/{destiny.strangeGearVendorHash}/?components=402"
+    apiUrl402 = destiny.destinyURLBase + f"/Destiny2/{destiny.membershipType}/Profile/{destiny.membershipId}/Character/{destiny.warlockCharacterID}/Vendors/{destiny.strangeGearVendorHash}/?components=402"
     apiResponse402 = get_api_request(apiUrl402)
     apiResponse402Json = json.loads(apiResponse402)
     
     for itemID, itemIDData in apiResponse402Json["Response"]["sales"]["data"].items():
-        weaponID = await decode_hash(itemIDData.get("itemHash"),"DestinyInventoryItemDefinition")
+        weaponID = await decode_hash(destiny, itemIDData.get("itemHash"),"DestinyInventoryItemDefinition")
         #check if the hash is tied to a weapon
         if(weaponID.get("itemType") == 3):
             weaponHashList.append(itemIDData.get("itemHash"))
     
     #run through hash list and get data for each weapon
     for item in weaponHashList:
-        weaponHashData = await decode_hash(item,"DestinyInventoryItemDefinition")
+        weaponHashData = await decode_hash(destiny, item,"DestinyInventoryItemDefinition")
         loreHash = weaponHashData.get("loreHash")
         if(loreHash == None):
             weaponLore = None
         else:
-            weaponLore = await decode_hash(str(loreHash),"DestinyLoreDefinition")
+            weaponLore = await decode_hash(destiny, str(loreHash),"DestinyLoreDefinition")
             weaponLore = weaponLore["displayProperties"].get("description")
 
         #decode elemental information
-        elementData = await decode_hash(str(weaponHashData["damageTypeHashes"][0]),"DestinyDamageTypeDefinition")
+        elementData = await decode_hash(destiny, str(weaponHashData["damageTypeHashes"][0]),"DestinyDamageTypeDefinition")
 
         damageType = weaponHashData["itemCategoryHashes"][0]
-        damageTypeHash = await decode_hash(damageType,"DestinyItemCategoryDefinition")
+        damageTypeHash = await decode_hash(destiny, damageType,"DestinyItemCategoryDefinition")
 
 
         #template for item jsons
@@ -61,9 +61,7 @@ async def get_weapons(destiny):
             "damageTypeIcon":"https://www.bungie.net"+str(elementData["displayProperties"].get("icon")),
         }
 
-        print("\n")
-        
-        
+        #check if the weapon is exotic
         if(jsonTemplate.get("rarity") != "Exotic"):
             destiny.LegendaryWeapons.append(jsonTemplate)
 
@@ -84,7 +82,7 @@ async def get_weapons(destiny):
 async def get_exotic_catalysts(destiny):
     exoticCatalysts = []
 
-    apiUrl308 = destiny.destinyURLBase + f"/Destiny2/{destiny.membershipType}/Profile/{destiny.membershipId}/Character/{characterIDWarlock}/Vendors/{destiny.vendorHash}/?components=308"
+    apiUrl308 = destiny.destinyURLBase + f"/Destiny2/{destiny.membershipType}/Profile/{destiny.membershipId}/Character/{destiny.warlockCharacterID}/Vendors/{destiny.vendorHash}/?components=308"
     apiResponse308 = get_api_request(apiUrl308)
     apiResponse308Json = json.loads(apiResponse308)
 
@@ -92,14 +90,14 @@ async def get_exotic_catalysts(destiny):
         if len(exoticCatalysts) > 2:
             break
         
-        hashedData = await decode_hash(itemIDData.get("plugItemHash"),"DestinyInventoryItemDefinition")
+        hashedData = await decode_hash(destiny, itemIDData.get("plugItemHash"),"DestinyInventoryItemDefinition")
         if(hashedData.get('traitIds') == ['item.exotic_catalyst']):
             
             catalystPerks = []
 
             #get perks of the catalyst
             for perk in hashedData.get("perks"):
-                hashedPerkData = await decode_hash(perk.get("perkHash"),"DestinySandboxPerkDefinition")
+                hashedPerkData = await decode_hash(destiny, perk.get("perkHash"),"DestinySandboxPerkDefinition")
                 if(hashedPerkData["displayProperties"].get("hasIcon")):
                     
                     print(hashedPerkData["displayProperties"].get("name"))
@@ -140,7 +138,7 @@ async def masterwork_check(destiny):
     for weapon in destiny.LegendaryWeapons:
         if(weapon["masterworkData"] == None):
             print("No mw found!")
-            apiUrl402 = destiny.destinyURLBase + f"/Destiny2/{destiny.membershipType}/Profile/{destiny.membershipId}/Character/{characterIDWarlock}/Vendors/{destiny.strangeGearVendorHash}/?components=402"
+            apiUrl402 = destiny.destinyURLBase + f"/Destiny2/{destiny.membershipType}/Profile/{destiny.membershipId}/Character/{destiny.warlockCharacterID}/Vendors/{destiny.strangeGearVendorHash}/?components=402"
             apiResponse402 = get_api_request(apiUrl402)
             apiResponse402Json = json.loads(apiResponse402)
             
@@ -148,14 +146,14 @@ async def masterwork_check(destiny):
                 
                 if(value["itemHash"] == int(weapon["itemHash"])):
                     
-                    hashedValData = await decode_hash(value["itemHash"],"DestinyInventoryItemDefinition")
+                    hashedValData = await decode_hash(destiny, value["itemHash"],"DestinyInventoryItemDefinition")
                     
                     weaponSockets = hashedValData["sockets"].get("socketEntries")
                     for socket in weaponSockets:
                         print(socket.get("singleInitialItemHash"))
                         print(socket)
                         try:
-                            socketData = await decode_hash(socket.get("singleInitialItemHash"),"DestinyInventoryItemDefinition")
+                            socketData = await decode_hash(destiny, socket.get("singleInitialItemHash"),"DestinyInventoryItemDefinition")
                         except Exception as e:
                             print(f"error: {e}, moving onto next perk..")
                             continue

@@ -1,6 +1,7 @@
 #functions for armor handling
 
 from destiny_api import get_api_request, decode_hash
+from utils import decode_stat_hash
 
 import requests,json,aiohttp,asyncio
 
@@ -41,7 +42,7 @@ async def get_exotic_armor(destiny,class_id,class_type):
                 
         #look through currentAvailableItems for armor peices hash and then see if the hash relates to armor or not
         for i in range(len(currentAvailableItems)):
-            hashData = await decode_hash(IDtoArmorHashDict[currentAvailableItems[i]],"DestinyInventoryItemDefinition")
+            hashData = await decode_hash(destiny,IDtoArmorHashDict[currentAvailableItems[i]],"DestinyInventoryItemDefinition")
 
             
             #it is armor   
@@ -51,7 +52,7 @@ async def get_exotic_armor(destiny,class_id,class_type):
         #now get rid of the exotics for the other class
         removalIDS = []
         for i in range(len(currentAvailableArmorItems)):
-            hashData = await decode_hash(IDtoArmorHashDict[currentAvailableArmorItems[i]],"DestinyInventoryItemDefinition")
+            hashData = await decode_hash(destiny,IDtoArmorHashDict[currentAvailableArmorItems[i]],"DestinyInventoryItemDefinition")
 
             #titan
             if hashData.get("classType") == 0:
@@ -106,7 +107,7 @@ async def get_exotic_armor(destiny,class_id,class_type):
             print("[ID]   ",item)
             print("[HASH] ",IDtoArmorHashDict[item])
             stats = apiResponse304Json["Response"]["itemComponents"]["stats"]["data"].get(item)
-            armorData = await decode_hash(IDtoArmorHashDict[item],"DestinyInventoryItemDefinition")
+            armorData = await decode_hash(destiny,IDtoArmorHashDict[item],"DestinyInventoryItemDefinition")
             print(stats)
             print(armorData)
             
@@ -118,7 +119,7 @@ async def get_exotic_armor(destiny,class_id,class_type):
                     print(key)
                     print(key.get("socketTypeHash"))
                     try:
-                        armorSocketHash = await decode_hash(key.get("singleInitialItemHash"),"DestinyInventoryItemDefinition")
+                        armorSocketHash = await decode_hash(destiny,key.get("singleInitialItemHash"),"DestinyInventoryItemDefinition")
                         print(armorSocketHash["displayProperties"].get("name")) 
                     except Exception as e:
                         print(e)
@@ -127,7 +128,7 @@ async def get_exotic_armor(destiny,class_id,class_type):
 
                     if(armorSocketHash.get("itemTypeDisplayName") == "Intrinsic" or armorSocketHash.get("itemTypeDisplayName") == "Aeon Cult Mod"):
                         
-                        exPerkHashed = await decode_hash(key.get("singleInitialItemHash"),"DestinyInventoryItemDefinition")
+                        exPerkHashed = await decode_hash(destiny,key.get("singleInitialItemHash"),"DestinyInventoryItemDefinition")
                         isExoticBool = True
                         exArmorPerk = {
                             "name": exPerkHashed["displayProperties"].get("name"),
@@ -139,7 +140,7 @@ async def get_exotic_armor(destiny,class_id,class_type):
             if(loreHash == None):
                 armorLore = None
             else:
-                armorLore = await decode_hash(str(loreHash),"DestinyLoreDefinition")
+                armorLore = await decode_hash(destiny,str(loreHash),"DestinyLoreDefinition")
                 armorLore = armorLore["displayProperties"].get("description")
 
             try:
@@ -202,12 +203,12 @@ async def get_legendary_armor(destiny, class_id, class_type):
         
         #item sockets
         apiUrl304 = destiny.destinyURLBase + f"/Destiny2/{destiny.membershipType}/Profile/{destiny.membershipId}/Character/{class_id}/Vendors/{destiny.strangeGearVendorHash}/?components=304"
-        apiResponse304 = destiny.get_api_request(apiUrl304)
+        apiResponse304 = get_api_request(apiUrl304)
         apiResponse304Json = json.loads(apiResponse304)
 
         #item ids
         apiUrl402 = destiny.destinyURLBase + f"/Destiny2/{destiny.membershipType}/Profile/{destiny.membershipId}/Character/{class_id}/Vendors/{destiny.strangeGearVendorHash}/?components=402"
-        apiResponse402 = destiny.get_api_request(apiUrl402)
+        apiResponse402 = get_api_request(apiUrl402)
         apiResponse402Json = json.loads(apiResponse402)
         
         for itemID, itemIDData in apiResponse402Json["Response"]["sales"]["data"].items():
@@ -227,7 +228,7 @@ async def get_legendary_armor(destiny, class_id, class_type):
                 
         #look through currentAvailableItems for armor peices hash and then see if the hash relates to armor or not
         for i in range(len(currentAvailableItems)):
-            hashData = await destiny.decodeHash(IDtoArmorHashDict[currentAvailableItems[i]],"DestinyInventoryItemDefinition")
+            hashData = await decode_hash(destiny,IDtoArmorHashDict[currentAvailableItems[i]],"DestinyInventoryItemDefinition")
             #it is armor   
             if hashData.get("itemType") == 2:
                 currentAvailableArmorItems.append(currentAvailableItems[i])
@@ -235,7 +236,7 @@ async def get_legendary_armor(destiny, class_id, class_type):
         #now get rid of the exotics for the other class
         removalIDS = []
         for i in range(len(currentAvailableArmorItems)):
-            hashData = await destiny.decodeHash(IDtoArmorHashDict[currentAvailableArmorItems[i]],"DestinyInventoryItemDefinition")
+            hashData = await decode_hash(destiny,IDtoArmorHashDict[currentAvailableArmorItems[i]],"DestinyInventoryItemDefinition")
 
             #titan
             if hashData.get("classType") == 0:
@@ -270,7 +271,7 @@ async def get_legendary_armor(destiny, class_id, class_type):
             print(item)
             for key, val in statDict.items():
                 statTotal += val.get("value")
-                statTypeStr = destiny.decodeStatHash(int(key))
+                statTypeStr = decode_stat_hash(int(key))
                 
                 if statTypeStr == "Intellect":
                     statsList[5] = int(val.get("value"))
@@ -292,7 +293,7 @@ async def get_legendary_armor(destiny, class_id, class_type):
             print("[ID]   ",item)
             print("[HASH] ",IDtoArmorHashDict[item])
             stats = apiResponse304Json["Response"]["itemComponents"]["stats"]["data"].get(item)
-            armorData = await destiny.decodeHash(IDtoArmorHashDict[item],"DestinyInventoryItemDefinition")
+            armorData = await decode_hash(destiny,IDtoArmorHashDict[item],"DestinyInventoryItemDefinition")
             print(stats)
             print(armorData)
             
@@ -300,7 +301,7 @@ async def get_legendary_armor(destiny, class_id, class_type):
             if(loreHash == None):
                 armorLore = None
             else:
-                armorLore = await destiny.decodeHash(str(loreHash),"DestinyLoreDefinition")
+                armorLore = await decode_hash(destiny,str(loreHash),"DestinyLoreDefinition")
                 armorLore = armorLore["displayProperties"].get("description")
 
             try:
@@ -379,22 +380,22 @@ async def get_artifice_armor(destiny, class_id, class_type):
 
     #item sockets
     apiUrl304 = destiny.destinyURLBase + f"/Destiny2/{destiny.membershipType}/Profile/{destiny.membershipId}/Character/{class_id}/Vendors/{destiny.vendorHash}/?components=304"
-    apiResponse304 = destiny.get_api_request(apiUrl304)
+    apiResponse304 = get_api_request(apiUrl304)
     apiResponse304Json = json.loads(apiResponse304)
     
     apiUrl401 = destiny.destinyURLBase + f"/Destiny2/{destiny.membershipType}/Profile/{destiny.membershipId}/Character/{class_id}/Vendors/{destiny.vendorHash}/?components=401"
-    apiResponse401 = destiny.get_api_request(apiUrl401)
+    apiResponse401 = get_api_request(apiUrl401)
     apiResponse401Json = json.loads(apiResponse401)
 
     apiUrl402 = destiny.destinyURLBase + f"/Destiny2/{destiny.membershipType}/Profile/{destiny.membershipId}/Character/{class_id}/Vendors/{destiny.vendorHash}/?components=402"
-    apiResponse402 = destiny.get_api_request(apiUrl402)
+    apiResponse402 = get_api_request(apiUrl402)
     apiResponse402Json = json.loads(apiResponse402)
-
+    
     for item in apiResponse401Json["Response"]["categories"]["data"]["categories"]:
         if artificeHash:
             break
         for id in item.get('itemIndexes')[::-1]:
-            hashedData = await destiny.decodeHash(apiResponse402Json["Response"]["sales"]["data"][str(id)].get("itemHash"),"DestinyInventoryItemDefinition")
+            hashedData = await decode_hash(destiny,apiResponse402Json["Response"]["sales"]["data"][str(id)].get("itemHash"),"DestinyInventoryItemDefinition")
             if hashedData["itemType"] == 2 and hashedData["equippingBlock"].get("uniqueLabelHash") != 761097285:
                 
                 #there is artifice armor 
@@ -406,7 +407,7 @@ async def get_artifice_armor(destiny, class_id, class_type):
     socketStatDict = apiResponse304Json["Response"]["itemComponents"]["stats"]["data"][str(artificeID)]
     
     
-    hashData = await destiny.decodeHash(artificeHash,"DestinyInventoryItemDefinition")
+    hashData = await decode_hash(destiny,artificeHash,"DestinyInventoryItemDefinition")
     
     #total, mobility, resilince , recovery ,discipline, intelect, strength
     statsList = [0,0,0,0,0,0,0]
@@ -434,13 +435,13 @@ async def get_artifice_armor(destiny, class_id, class_type):
 
     
     stats = apiResponse304Json["Response"]["itemComponents"]["stats"]["data"].get(artificeID)
-    armorData = await destiny.decodeHash(artificeHash,"DestinyInventoryItemDefinition")
+    armorData = await decode_hash(destiny,artificeHash,"DestinyInventoryItemDefinition")
     
     loreHash = armorData.get("loreHash")
     if(loreHash == None):
         armorLore = None
     else:
-        armorLore = await destiny.decodeHash(str(loreHash),"DestinyLoreDefinition")
+        armorLore = await decode_hash(destiny,str(loreHash),"DestinyLoreDefinition")
         armorLore = armorLore["displayProperties"].get("description")
 
     try:
