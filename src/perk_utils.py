@@ -59,7 +59,7 @@ async def get_weapon_perks(destiny):
 
     print(IDtoWeaponHashDict)
 
-
+    print(destiny.combinedPerksJson)
 
     #now get each individual weapons perks
     
@@ -131,7 +131,7 @@ async def get_weapon_perks(destiny):
                 if(weaponRollTemplate["name"] != 'Empty Mod Socket' and weaponRollTemplate["name"] != '' and weaponRollTemplate["name"] != 'Tracker Disabled' and weaponRollTemplate["name"] != 'Default Shader' 
                     and weaponRollTemplate["name"] != 'Default Ornament' and weaponRollTemplate["name"] != 'Change Energy Type' and weaponRollTemplate["name"] !='Empty Catalyst Socket' and "catalyst" not in weaponRollTemplate["name"]
                     and "Catalyst" not in weaponRollTemplate["name"] and weaponRollTemplate["name"] != "Rasputin's Arsenal" and weaponRollTemplate["name"] != "Kill Tracker" and weaponRollTemplate["name"] != "Empty Memento Socket" and weaponRollTemplate["name"] != "Empty Weapon Level Boost Socket" and weaponRollTemplate["name"] != "Empty Deepsight Socket"):
-                    weaponRollTemplate["isFavorablePerk"] = destiny.rateWeaponPerks(IDtoWeaponHashDict[key],decodedPlug["displayProperties"].get("name"))
+                    weaponRollTemplate["isFavorablePerk"] = rate_weapon_perks(destiny,IDtoWeaponHashDict[key],decodedPlug["displayProperties"].get("name"))
                     destiny.weaponPerksTemplateList.append(weaponRollTemplate)
 
 #get weapon perks from community

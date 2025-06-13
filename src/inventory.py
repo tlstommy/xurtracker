@@ -76,7 +76,7 @@ async def get_material_offers(destiny):
         #now get the other items from the actual tab inside his menu
 
         #get the one item from xurs main inventory first
-        apiUrl402 = destiny.destinyURLBase + f"/Destiny2/{destiny.membershipType}/Profile/{destiny.membershipId}/Character/{characterIDWarlock}/Vendors/{destiny.strangeMaterialVendorHash}/?components=402"
+        apiUrl402 = destiny.destinyURLBase + f"/Destiny2/{destiny.membershipType}/Profile/{destiny.membershipId}/Character/{destiny.warlockCharacterID}/Vendors/{destiny.strangeMaterialVendorHash}/?components=402"
         apiResponse402 = get_api_request(apiUrl402)
         apiResponse402Json = json.loads(apiResponse402)
 
