@@ -85,7 +85,7 @@ async def get_exotic_armor(destiny,class_id,class_type):
             
             for key, val in statDict.items():
                 statTotal += val.get("value")
-                statTypeStr = destiny.decodeStatHash(int(key))
+                statTypeStr = decode_stat_hash(int(key))
                 
                 if statTypeStr == "Intellect":
                     statsList[5] = int(val.get("value"))

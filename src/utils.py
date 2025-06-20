@@ -1,4 +1,5 @@
 from bs4 import BeautifulSoup
+from datetime import date
 from destiny_api import get_api_request, decode_hash
 
 from perk_utils import perk_sort
@@ -151,3 +152,22 @@ def json_conflict_check(destiny,json_dict):
         if (item["itemHash"] == json_dict["itemHash"] and item["class"] == json_dict["class"] and json_dict["class"] != 3):
             return True
     return False
+
+#loop through items and assign json template items
+async def bindJsonData(destiny):
+
+    #set date
+    today = date.today()
+    destiny.week = str(today.strftime("%B %d, %Y"))
+    await destiny.get_location()
+
+
+    for item in destiny.XursInventoryItems:
+        if item["rarity"] == "Exotic":
+            if item["itemHash"] != "3856705927":
+                destiny.ExoticWeapons.append(item)
+            else:
+                destiny.Hawkmoon = item
+                
+
+

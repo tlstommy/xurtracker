@@ -4,7 +4,7 @@ from datetime import date
 from material_prices import *
 from credentials import *
 
-from weapons import get_weapons, get_exotic_catalysts
+from weapons import get_weapons, get_exotic_catalysts,masterwork_check
 from armor import get_exotic_armor, get_legendary_armor, get_artifice_armor
 from inventory import get_material_offers, get_hidden_material_offers
 from utils import bind_stats_to_weapon, check_for_artifice
@@ -159,18 +159,114 @@ class main:
 
         self.XursInventoryItems = []
 
+        #create a json file from all of the collected data
+    def buildJSON(self,write):
+        JSONTemplate = {
+                    "Location":self.location,
+                    "Planet":self.planet,
+                    "Landing Zone":self.landingZone,
+                    "Week":self.week,
+                    "Artifice":self.ArtificePresent,
+                    "Catalysts":{
+                        "Primary":self.FirstCatalyst,
+                        "Secondary":self.SecondCatalyst,
+                    },
+                    "Exotics":{
+                        "Exotic Engram":self.ExoticEngram,
+                        "Exotic Quest":self.ExoticQuest,
+                        "Hawkmoon":self.Hawkmoon,
+                        "Exotic Weapons":self.ExoticWeapons,
+                        "Warlock Exotic":self.WarlockExotic,
+                        "Hunter Exotic":self.HunterExotic,
+                        "Titan Exotic":self.TitanExotic,
+                    },
+                    "Material Offers":self.MaterialOffers,
+                    "Miscellaneous Offers":self.MiscOffers,
+                    "Artifice Armor":{
+                        "Warlock":self.ArtificeArmor[1],
+                        "Hunter":self.ArtificeArmor[0],
+                        "Titan":self.ArtificeArmor[2],
+                    },
+                    "Legendaries":{
+                        "Legendary weapons":self.LegendaryWeapons,
+                        "Warlock":{
+                            "Helmet":self.WarlockHelmet,
+                            "Arms":self.WarlockArms,
+                            "Chest":self.WarlockChest,
+                            "Legs":self.WarlockLegs,
+                            "Class Item":self.WarlockClassItem,
+                        },
+                        "Hunter":{
+                            "Helmet":self.HunterHelmet,
+                            "Arms":self.HunterArms,
+                            "Chest":self.HunterChest,
+                            "Legs":self.HunterLegs,
+                            "Class Item":self.HunterClassItem,
+                        },
+                        "Titan":{
+                            "Helmet":self.TitanHelmet,
+                            "Arms":self.TitanArms,
+                            "Chest":self.TitanChest,
+                            "Legs":self.TitanLegs,
+                            "Class Item":self.TitanClassItem,
+                        },
+                    }
+                }
+        if write:
+            for path in [
+                "data-refactored-code-test.json",
+                "destinyData-refactored-code-test.json"
+            ]:
+                with open(path, "w", encoding="utf-8") as outfile:
+                    json.dump(JSONTemplate, outfile, indent=4)
+
+
+
     async def getXurInventory(self,charID):
+
+        if await check_for_artifice(self):
+            await get_artifice_armor(self, charID, "warlock")
+            await get_artifice_armor(self, charID, "hunter")
+            await get_artifice_armor(self, charID, "titan")
+
+
+        
+        #get all xurs inventory items
+        apiUrl = f"{self.destinyURLBase}/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{charID}/Vendors/{self.vendorHash}/?components=402"
+        self.apiResponse = get_api_request(apiUrl)
+        self.apiResponseJson = json.loads(self.apiResponse)
+        apiUrl305 = f"{self.destinyURLBase}/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{characterIDWarlock}/Vendors/{self.strangeGearVendorHash}/?components=305"
+        apiResponse305 = get_api_request(apiUrl305)
+        apiUrl310 = f"{self.destinyURLBase}/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{characterIDWarlock}/Vendors/{self.strangeGearVendorHash}/?components=310"
+        apiResponse310 = get_api_request(apiUrl310)
+
+        self.combinedPerksJson = await socket_plugs(apiResponse305, apiResponse310)
+        self.forSaleItems = self.apiResponseJson["Response"]["sales"]["data"]
+
+
+
         await get_weapons(self)
         await get_exotic_catalysts(self)
         await get_exotic_armor(self, charID, "warlock")  # example
         await get_legendary_armor(self, charID, "warlock")
-        await get_artifice_armor(self, charID, "warlock")
         await get_material_offers(self)
         await get_hidden_material_offers(self)
         await bind_stats_to_weapon(self)
         await check_for_artifice(self)
+        await masterwork_check(self)
+        
+        self.buildJSON(True)
+
         return None
         
+
+
+
+
+
+
+
+   
 
 #main loop
 

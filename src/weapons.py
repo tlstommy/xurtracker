@@ -1,6 +1,7 @@
 #handles weapons and their stats
 from destiny_api import get_api_request, decode_hash
 from perk_utils import get_weapon_perks
+from utils import bind_stats_to_weapon
 
 import requests,json,aiohttp,asyncio
 
@@ -67,7 +68,7 @@ async def get_weapons(destiny):
 
         destiny.weaponsTemplatesList.append(jsonTemplate)
     await get_weapon_perks(destiny)
-    await destiny.bindStatToWeapon()
+    await bind_stats_to_weapon(destiny)
 
 
     for item in destiny.weaponsTemplatesList:
@@ -128,8 +129,8 @@ async def get_exotic_catalysts(destiny):
             
 
             exoticCatalysts.append(jsonTemplate)
-        destiny.FirstCatalyst = exoticCatalysts[0]
-        destiny.SecondCatalyst = exoticCatalysts[1]
+    destiny.FirstCatalyst = exoticCatalysts[0]
+    destiny.SecondCatalyst = exoticCatalysts[1]
 
 
 #checks for missing masterwork data on weapons

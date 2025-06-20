@@ -129,7 +129,7 @@ dmypy.json
 .pyre/
 
 #tmp 
-
+temp-refactor-stuff/*
 src/tmp/*
 
 #private data and certs
