@@ -20,7 +20,11 @@ export default function AllItemsPage() {
     const exoticWeapons = destinyData.Exotics["Exotic Weapons"];
     const hawkmoon = destinyData.Exotics.Hawkmoon;
 
-    const exoticArmors = [destinyData.Exotics["Hunter Exotic"],destinyData.Exotics["Warlock Exotic"],destinyData.Exotics["Titan Exotic"]];
+    const exoticArmors = {
+        "Hunter Exotic": destinyData.Exotics["Hunter Exotic"],
+        "Warlock Exotic": destinyData.Exotics["Warlock Exotic"], 
+        "Titan Exotic": destinyData.Exotics["Titan Exotic"]
+    };
     const legendaryWeapons = destinyData.Legendaries["Legendary weapons"];
 
     const miscItems = destinyData["Miscellaneous Offers"];
@@ -115,9 +119,11 @@ export default function AllItemsPage() {
                     <section id="exotic-armor" className="pt-5">
                         <SectionHeader title="Exotic Armor"/>    
                         <div class="grid grid-cols-1 lg:grid-cols-3 justify-evenly gap-2 p-4 items-stretch">
-                            {Object.keys(exoticArmors).map((key) => (              
-                                <ExoticArmor key={exoticArmors[key].itemHash} classKey={key} data={exoticArmors[key]} />
-                            ))}
+                            {Object.keys(exoticArmors).map((classKey) => (
+                                exoticArmors[classKey] && exoticArmors[classKey].map((armorItem, index) => (
+                                    armorItem && <ExoticArmor key={`${classKey}-${index}-${armorItem.itemHash}`} classKey={classKey} data={armorItem} />
+                                ))
+                            )).flat().filter(Boolean)}
                         </div>
                     </section>
                     
@@ -150,8 +156,9 @@ export default function AllItemsPage() {
                         <ClassSelect selectedClass={selectedClass} setSelectedClass={setSelectedClass} />
                         <div class="grid grid-cols-1 md:grid-cols-1 justify-evenly gap-4 p-4 items-stretch">
                             {Object.keys(legendaryArmors[selectedClass]).map((key) => (              
-                                
-                                <LegendaryArmor data={legendaryArmors[selectedClass][key]} itemType={legendaryArmors[selectedClass][key]} />
+                                legendaryArmors[selectedClass][key] && (
+                                    <LegendaryArmor key={key} data={legendaryArmors[selectedClass][key]} itemType={legendaryArmors[selectedClass][key]} />
+                                )
                             ))}
                         </div>
                     </section>
