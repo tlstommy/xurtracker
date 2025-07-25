@@ -93,11 +93,12 @@ export default function Navbar() {
             <Link to="#legendary-weapons" className="navbar-item mr-3 hover:text-white text-navbar-text">
               Legendary Weapons
             </Link>
-            
+            {/* 
+            not needed in edge of fate
             <Link to="#legendary-armor" className="navbar-item mr-3 hover:text-white text-navbar-text">
               Legendary Armor
             </Link>
-
+            */}
             <ArtificeArmorCheck artificeForSale={artificeBeingSold} mobile={false}/>
 
            

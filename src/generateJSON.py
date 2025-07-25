@@ -920,6 +920,10 @@ class main:
                 armorLore = await self.decodeHash(str(loreHash),"DestinyLoreDefinition")
                 armorLore = armorLore["displayProperties"].get("description")
 
+            # Initialize variables outside try block to ensure they're always defined
+            armorType = None
+            jsonTemplate = None
+
             try:
                 print("[HASH] ",IDtoArmorHashDict[item])
                 
@@ -947,43 +951,46 @@ class main:
                     "legendWeaponDamageElement":None,
                     "masterworkData":None,
                 }
-            except KeyError:
-                pass
+            except KeyError as e:
+                print(f"KeyError in getLegendaryArmor for item {item}: {e}")
+                continue  # Skip this item if we can't decode it properly
 
-            #store values
-            if(classType == "warlock"):
-                if(armorType == "Helmet" and jsonTemplate["rarity"] != "Exotic"):
-                    self.WarlockHelmet = jsonTemplate
-                if(armorType == "Gauntlets" and jsonTemplate["rarity"] != "Exotic"):
-                    self.WarlockArms = jsonTemplate
-                if(armorType == "Chest Armor" and jsonTemplate["rarity"] != "Exotic"):
-                    self.WarlockChest = jsonTemplate
-                if(armorType == "Leg Armor" and jsonTemplate["rarity"] != "Exotic"):
-                    self.WarlockLegs = jsonTemplate                    
-                if(armorType == "Warlock Bond" and jsonTemplate["rarity"] != "Exotic"):
-                    self.WarlockClassItem = jsonTemplate
-            if(classType == "hunter"):
-                if(armorType == "Helmet" and jsonTemplate["rarity"] != "Exotic"):
-                    self.HunterHelmet = jsonTemplate
-                if(armorType == "Gauntlets" and jsonTemplate["rarity"] != "Exotic"):
-                    self.HunterArms = jsonTemplate 
-                if(armorType == "Chest Armor" and jsonTemplate["rarity"] != "Exotic"):
-                    self.HunterChest = jsonTemplate
-                if(armorType == "Leg Armor" and jsonTemplate["rarity"] != "Exotic"):
-                    self.HunterLegs = jsonTemplate
-                if(armorType == "Hunter Cloak" and jsonTemplate["rarity"] != "Exotic"):
-                    self.HunterClassItem = jsonTemplate
-            if(classType == "titan"):
-                if(armorType == "Helmet" and jsonTemplate["rarity"] != "Exotic"):
-                    self.TitanHelmet = jsonTemplate
-                if(armorType == "Gauntlets" and jsonTemplate["rarity"] != "Exotic"):
-                    self.TitanArms = jsonTemplate
-                if(armorType == "Chest Armor" and jsonTemplate["rarity"] != "Exotic"):
-                    self.TitanChest = jsonTemplate       
-                if(armorType == "Leg Armor" and jsonTemplate["rarity"] != "Exotic"):
-                    self.TitanLegs = jsonTemplate
-                if(armorType == "Titan Mark" and jsonTemplate["rarity"] != "Exotic"):
-                    self.TitanClassItem = jsonTemplate
+            # Only proceed with assignment if we have valid data
+            if armorType is not None and jsonTemplate is not None:
+                #store values
+                if(classType == "warlock"):
+                    if(armorType == "Helmet" and jsonTemplate["rarity"] != "Exotic"):
+                        self.WarlockHelmet = jsonTemplate
+                    if(armorType == "Gauntlets" and jsonTemplate["rarity"] != "Exotic"):
+                        self.WarlockArms = jsonTemplate
+                    if(armorType == "Chest Armor" and jsonTemplate["rarity"] != "Exotic"):
+                        self.WarlockChest = jsonTemplate
+                    if(armorType == "Leg Armor" and jsonTemplate["rarity"] != "Exotic"):
+                        self.WarlockLegs = jsonTemplate                    
+                    if(armorType == "Warlock Bond" and jsonTemplate["rarity"] != "Exotic"):
+                        self.WarlockClassItem = jsonTemplate
+                if(classType == "hunter"):
+                    if(armorType == "Helmet" and jsonTemplate["rarity"] != "Exotic"):
+                        self.HunterHelmet = jsonTemplate
+                    if(armorType == "Gauntlets" and jsonTemplate["rarity"] != "Exotic"):
+                        self.HunterArms = jsonTemplate 
+                    if(armorType == "Chest Armor" and jsonTemplate["rarity"] != "Exotic"):
+                        self.HunterChest = jsonTemplate
+                    if(armorType == "Leg Armor" and jsonTemplate["rarity"] != "Exotic"):
+                        self.HunterLegs = jsonTemplate
+                    if(armorType == "Hunter Cloak" and jsonTemplate["rarity"] != "Exotic"):
+                        self.HunterClassItem = jsonTemplate
+                if(classType == "titan"):
+                    if(armorType == "Helmet" and jsonTemplate["rarity"] != "Exotic"):
+                        self.TitanHelmet = jsonTemplate
+                    if(armorType == "Gauntlets" and jsonTemplate["rarity"] != "Exotic"):
+                        self.TitanArms = jsonTemplate
+                    if(armorType == "Chest Armor" and jsonTemplate["rarity"] != "Exotic"):
+                        self.TitanChest = jsonTemplate       
+                    if(armorType == "Leg Armor" and jsonTemplate["rarity"] != "Exotic"):
+                        self.TitanLegs = jsonTemplate
+                    if(armorType == "Titan Mark" and jsonTemplate["rarity"] != "Exotic"):
+                        self.TitanClassItem = jsonTemplate
 
     async def getExoticCatalysts(self):
 

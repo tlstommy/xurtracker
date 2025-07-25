@@ -150,7 +150,8 @@ export default function AllItemsPage() {
                     </section>
                     
                 
-
+                    {/*
+                    not needed in edge of fate
                     <section id="legendary-armor" className="pt-5">
                         <SectionHeader title="Legendary Armor"/>
                         <ClassSelect selectedClass={selectedClass} setSelectedClass={setSelectedClass} />
@@ -162,7 +163,7 @@ export default function AllItemsPage() {
                             ))}
                         </div>
                     </section>
-                    
+                    */}
                     
                 
                 </main>
