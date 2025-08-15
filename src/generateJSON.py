@@ -363,6 +363,7 @@ class main:
 
         print(self.combinedPerksJson.items())
     
+        ignoredPerkTypes = ["Weapon Mod","Memento",""]
         
         for key, values in self.combinedPerksJson.items():
             
@@ -402,9 +403,12 @@ class main:
                         
                     
                     perkType = decodedPlug.get("itemTypeDisplayName")
-                    
+                    if perkType in ignoredPerkTypes:
+                        continue
+
                     perkSubType = decodedPlug["plug"].get("plugCategoryIdentifier")
 
+                    
 
                     #get ivestment stats for perk
 
@@ -996,78 +1000,65 @@ class main:
 
         exoticCatalysts = []
 
-        # Get Xur's main inventory to find Strange Gear Offers
-        apiResponseJson = json.loads(self.get_api_request(f"{self.destinyURLBase}/Destiny2/Vendors/?components=402"))
-        forSaleItems = apiResponseJson["Response"]["sales"]["data"][list(apiResponseJson["Response"]["sales"]["data"].keys())[0]]["saleItems"]
+        # Get catalysts from Xur's Strange Gear Offers vendor
+        apiUrl402 = f"{self.destinyURLBase}/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{self.warlockCharacterID}/Vendors/{self.strangeGearVendorHash}/?components=402"
+        apiResponse402 = self.get_api_request(apiUrl402)
+        apiResponse402Json = json.loads(apiResponse402)
         
-        # Look for Strange Gear Offers in Xur's inventory
-        for item_key in forSaleItems:
-            item_hash = forSaleItems[item_key]["itemHash"]
+        print("Checking Strange Gear Offers for catalysts...")
+        
+        for itemID, itemIDData in apiResponse402Json["Response"]["sales"]["data"].items():
+            item_hash = itemIDData.get("itemHash")
             
-            # Check if this is the Strange Gear Offers item
-            if item_hash == 3670668729:  # Strange Gear Offers hash
-                print("Found Strange Gear Offers - extracting catalysts...")
-                try:
-                    # Decode the Strange Gear Offers item to get its preview data
-                    decoded_item = await self.decodeHash(item_hash, "DestinyInventoryItemDefinition")
-                    if decoded_item and "preview" in decoded_item and "derivedItemCategories" in decoded_item["preview"]:
-                        # Check all categories for catalysts
-                        for cat_idx, category in enumerate(decoded_item["preview"]["derivedItemCategories"]):
-                            print(f"Checking category {cat_idx} for catalysts...")
-                            
-                            for item_idx, item in enumerate(category.get("items", [])):
-                                sub_hash = item.get("itemHash")
-                                vendor_index = item.get("vendorItemIndex")
-                                
-                                # Decode each item to check if it's a catalyst
-                                try:
-                                    sub_decoded = await self.decodeHash(sub_hash, "DestinyInventoryItemDefinition")
-                                    if sub_decoded and "displayProperties" in sub_decoded:
-                                        item_name = sub_decoded["displayProperties"]["name"]
-                                        
-                                        # Only add catalysts that Xur is actually selling this week
-                                        if "Catalyst" in item_name and item_name in ["Merciless Catalyst", "Fighting Lion Catalyst"]:
-                                            print(f"✓ Found catalyst for sale: {item_name}")
-                                            
-                                            catalystPerks = []
-                                            
-                                            # Get perks of the catalyst
-                                            if sub_decoded.get("perks"):
-                                                for perk in sub_decoded.get("perks"):
-                                                    hashedPerkData = await self.decodeHash(perk.get("perkHash"),"DestinySandboxPerkDefinition")
-                                                    if(hashedPerkData["displayProperties"].get("hasIcon")):
-                                                        
-                                                        print(hashedPerkData["displayProperties"].get("name"))
-
-                                                        perkTemplate = {
-                                                            "name":hashedPerkData["displayProperties"].get("name"),
-                                                            "type":"Exotic Catalyst Perk",
-                                                            "description":hashedPerkData["displayProperties"].get("description"),
-                                                            "itemHash":perk.get("perkHash"),
-                                                            "icon":"https://www.bungie.net"+str(hashedPerkData["displayProperties"].get("icon")),
-                                                            
-                                                        }
-
-                                                        catalystPerks.append(perkTemplate)
-
-                                            jsonTemplate = {
-                                                "name":sub_decoded["displayProperties"].get("name"),
-                                                "type":"Exotic Catalyst",
-                                                "description":sub_decoded["displayProperties"].get("description"),
-                                                "itemHash":str(sub_hash),
-                                                "icon":"https://www.bungie.net"+str(sub_decoded["displayProperties"].get("icon")),
-                                                "rarity":sub_decoded["inventory"].get("tierTypeName"),
-                                                "catalyst perks":catalystPerks
-                                            }
-                                            
-                                            exoticCatalysts.append(jsonTemplate)
-                                            
-                                except Exception as e:
-                                    print(f"Error decoding catalyst {sub_hash}: {e}")
+            try:
+                # Decode each item to check if it's a catalyst
+                decoded_item = await self.decodeHash(item_hash, "DestinyInventoryItemDefinition")
+                
+                if decoded_item and "displayProperties" in decoded_item:
+                    item_name = decoded_item["displayProperties"]["name"]
+                    item_type = decoded_item.get("itemTypeDisplayName", "")
+                    
+                    # Check if this is a catalyst (either by name or type)
+                    if "Catalyst" in item_name or item_type == "Catalyst":
+                        print(f"✓ Found catalyst: {item_name}")
                         
-                except Exception as e:
-                    print(f"Error extracting Strange Gear Offers catalysts: {e}")
-                break
+                        catalystPerks = []
+                        
+                        # Get perks of the catalyst
+                        if decoded_item.get("perks"):
+                            for perk in decoded_item.get("perks"):
+                                try:
+                                    hashedPerkData = await self.decodeHash(perk.get("perkHash"),"DestinySandboxPerkDefinition")
+                                    if hashedPerkData and hashedPerkData["displayProperties"].get("hasIcon"):
+                                        
+                                        perkTemplate = {
+                                            "name": hashedPerkData["displayProperties"].get("name"),
+                                            "type": "Exotic Catalyst Perk",
+                                            "description": hashedPerkData["displayProperties"].get("description"),
+                                            "itemHash": perk.get("perkHash"),
+                                            "icon": "https://www.bungie.net" + str(hashedPerkData["displayProperties"].get("icon")),
+                                        }
+                                        catalystPerks.append(perkTemplate)
+                                except Exception as e:
+                                    print(f"Error processing catalyst perk: {e}")
+
+                        jsonTemplate = {
+                            "name": decoded_item["displayProperties"].get("name"),
+                            "type": "Exotic Catalyst",
+                            "description": decoded_item["displayProperties"].get("description"),
+                            "itemHash": str(item_hash),
+                            "icon": "https://www.bungie.net" + str(decoded_item["displayProperties"].get("icon")),
+                            "rarity": decoded_item["inventory"].get("tierTypeName"),
+                            "catalyst perks": catalystPerks
+                        }
+                        
+                        exoticCatalysts.append(jsonTemplate)
+                        
+            except Exception as e:
+                print(f"Error decoding item {item_hash}: {e}")
+
+        # Sort catalysts by name for consistency
+        exoticCatalysts.sort(key=lambda x: x.get("name", ""))
 
         # Assign catalysts (handle cases where there might be fewer than 2)
         if len(exoticCatalysts) >= 1:
@@ -1079,6 +1070,8 @@ class main:
             self.SecondCatalyst = exoticCatalysts[1]
         else:
             self.SecondCatalyst = None
+            
+        print(f"Found {len(exoticCatalysts)} catalysts total")
 
     async def getXurStrangeGearOffers(self):
         return None

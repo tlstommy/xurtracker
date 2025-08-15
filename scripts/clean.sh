@@ -12,7 +12,7 @@ sudo journalctl --vacuum-time=2d
 
 # Clear common user cache directories
 echo "Clearing user cache..."
-rm -rf ~/.cache ~/.npm ~/.vscode-server ~/.local/share/Trash ~/.conda ~/.python_history ~/.ipython
+rm -rf ~/.cache ~/.vscode-server ~/.local/share/Trash ~/.conda ~/.python_history ~/.ipython
 
 # Clean /tmp (only what's safe)
 echo "Emptying /tmp directory..."

@@ -30,6 +30,7 @@ class main:
         self.membershipType = destinyMembershipType
         self.membershipId = destinyMembershipID
         self.characterIDWarlock = characterIDWarlock
+        self.strangeGearVendorHash = "3751514131"  # Xur's strange gear tab
 
     async def tweet(self, sendTweet):
         # Check if we have at least some armor pieces for each class
@@ -92,7 +93,7 @@ class main:
         for armor in self.exoticWarlock[:2]:  # Limit to 2 for tweet length
             warlock_str += f"🛡  {armor}\n"
             
-        tweetStr = f"🌎  Xûr has arrived at the Tower!\n\n{self.artificeString}\n{catalyst_str}{titan_str}{hunter_str}{warlock_str}\n\n🚀  Xûr will depart on {resetDateOrdinaled}.\n\nMore info at: https://xurtracker.com\n\n#Xur #Destiny #Destiny2"
+        tweetStr = f"🌎  Xûr has arrived at the Tower!\n\n{self.artificeString}\n{catalyst_str}{titan_str}{hunter_str}{warlock_str}\n🚀  Xûr will depart on {resetDateOrdinaled}.\nMore info at: https://xurtracker.com\n\n#Xur #Destiny #Destiny2"
 
         # tweet check
         if sendTweet:
@@ -145,7 +146,9 @@ class main:
                 # Check for catalysts - look for any item with "Catalyst" in the name
                 if "Catalyst" in name:
                     print("catalyst found:", name)
-                    self.exoticCatalysts.append(name)
+                    # Only add if not already found by getExoticCatalysts
+                    if name not in self.exoticCatalysts:
+                        self.exoticCatalysts.append(name)
                     continue
 
                 # if item is exotic armor/weapon
@@ -194,6 +197,38 @@ class main:
 
         return date + suffix
 
+    async def getExoticCatalysts(self):
+        """Get catalysts from Xur's Strange Gear Offers vendor"""
+        try:
+            # Get catalysts from Xur's Strange Gear Offers vendor
+            apiUrl402 = f"{self.DestinyURLBase}/Destiny2/{self.membershipType}/Profile/{self.membershipId}/Character/{self.characterIDWarlock}/Vendors/{self.strangeGearVendorHash}/?components=402"
+            apiResponse402 = self.get_api_request(apiUrl402)
+            apiResponse402Json = json.loads(apiResponse402)
+            
+            print("Checking Strange Gear Offers for catalysts...")
+            
+            for itemID, itemIDData in apiResponse402Json["Response"]["sales"]["data"].items():
+                item_hash = itemIDData.get("itemHash")
+                
+                try:
+                    # Decode each item to check if it's a catalyst
+                    decoded_item = await self.decodeHash(item_hash, "DestinyInventoryItemDefinition")
+                    
+                    if decoded_item and "displayProperties" in decoded_item:
+                        item_name = decoded_item["displayProperties"]["name"]
+                        item_type = decoded_item.get("itemTypeDisplayName", "")
+                        
+                        # Check if this is a catalyst (either by name or type)
+                        if "Catalyst" in item_name or item_type == "Catalyst":
+                            print(f"✓ Found catalyst: {item_name}")
+                            self.exoticCatalysts.append(item_name)
+                            
+                except Exception as e:
+                    print(f"Error decoding catalyst item {item_hash}: {e}")
+                    
+        except Exception as e:
+            print(f"Error getting catalysts from Strange Gear Offers: {e}")
+
     async def getXurInventory(self):
 
         unwanted_hashes = {2125848607, 1092685591, 4257549985, 353704689, 903043774}
@@ -204,6 +239,9 @@ class main:
         self.exoticWarlock = []
         self.exoticHunter = []
         self.exoticCatalysts = []
+
+        # Get catalysts from Strange Gear Offers first
+        await self.getExoticCatalysts()
 
         # store the inventory of for sale items to be parsed
         self.apiResponseJson = json.loads(self.get_api_request(f"{self.DestinyURLBase}/Destiny2/Vendors/?components=402"))
@@ -218,39 +256,6 @@ class main:
             self.hashIDList.append(vendor_item_index)
             
             print(f"Main inventory item: hash={item_hash}, vendorItemIndex={vendor_item_index}")
-            
-            # Check if this is the Strange Gear Offers item and extract its sub-items
-            if item_hash == 3670668729:  # Strange Gear Offers hash
-                print("Found Strange Gear Offers - extracting sub-items...")
-                try:
-                    # Decode the Strange Gear Offers item to get its preview data
-                    decoded_item = await self.decodeHash(item_hash, "DestinyInventoryItemDefinition")
-                    if decoded_item and "preview" in decoded_item and "derivedItemCategories" in decoded_item["preview"]:
-                        # Check all categories for catalysts
-                        for cat_idx, category in enumerate(decoded_item["preview"]["derivedItemCategories"]):
-                            print(f"Category {cat_idx} has {len(category.get('items', []))} items")
-                            
-                            for item_idx, item in enumerate(category.get("items", [])):
-                                sub_hash = item.get("itemHash")
-                                vendor_index = item.get("vendorItemIndex")
-                                
-                                # Decode each item to check if it's a catalyst
-                                try:
-                                    sub_decoded = await self.decodeHash(sub_hash, "DestinyInventoryItemDefinition")
-                                    if sub_decoded and "displayProperties" in sub_decoded:
-                                        item_name = sub_decoded["displayProperties"]["name"]
-                                        print(f"Category {cat_idx}, Item {item_idx}: {item_name} (hash={sub_hash}, vendorIdx={vendor_index})")
-                                        
-                                        # Only add catalysts that Xur is actually selling this week
-                                        if "Catalyst" in item_name and item_name in ["Merciless Catalyst", "Fighting Lion Catalyst"]:
-                                            if sub_hash not in self.hashList:
-                                                self.hashList.append(sub_hash)
-                                                print(f"✓ Added actual catalyst for sale: {item_name}")
-                                except Exception as e:
-                                    print(f"Error decoding sub-item {sub_hash}: {e}")
-                        
-                except Exception as e:
-                    print(f"Error extracting Strange Gear Offers items: {e}")
         
         #remove unwanted items via their hash
         self.hashList = [hash_ for hash_ in self.hashList if hash_ not in unwanted_hashes]
