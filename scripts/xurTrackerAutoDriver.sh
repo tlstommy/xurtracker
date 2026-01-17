@@ -1,5 +1,6 @@
 #! /bin/sh
 date
+sudo /usr/bin/python3 /home/ubuntu/XurTracker/src/refreshBearerToken.py
 sudo /usr/bin/python3 /home/ubuntu/XurTracker/src/tweetBotTweet.py
 sudo /usr/bin/python3 /home/ubuntu/XurTracker/src/generateJSON.py
 sudo netlify build --cwd=/home/ubuntu/XurTracker/frontend
@@ -17,6 +18,7 @@ cd /home/ubuntu/XurTracker/
 #echo fallback attempt...
 #sudo bash /home/ubuntu/XurTracker/scripts/autocommit.sh
 sudo rm /home/ubuntu/XurTracker/*.content
+sudo rm /home/ubuntu/*.content
 sudo rm /home/ubuntu/XurTracker/src/*.content
 sudo rm /home/ubuntu/scripts/XurTracker/*.content
 sudo rm /home/ubuntu/manifest_zip
