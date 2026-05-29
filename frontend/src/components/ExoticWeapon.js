@@ -50,7 +50,7 @@ export default function ExoticWeapon(props) {
                         
                         <h3 className="text-lg sm:text-xl font-bold text-gray-100 text-start underline-offset-4 py-2">Weapon Perks</h3>
                         <hr/>
-                        <div class="grid grid-cols-5 gap-1 py-1 grid-background">
+                        <div className="grid grid-cols-5 gap-1 py-1 grid-background">
                             {data.weaponPerks.map((perk,index) => (
                                 <div className='group relative p-0 sm:p-1' key={perk.hashID}>
                                     <Perk 

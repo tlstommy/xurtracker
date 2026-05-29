@@ -9,7 +9,7 @@ export default function Accordion(props) {
     };
 
     return (
-        <div className="accordion w-full px-2" onClick={(e) => e.stopPropagation()} onTap={(e) => e.stopPropagation()}>
+        <div className="accordion w-full px-2" onClick={(e) => e.stopPropagation()} onClick={(e) => e.stopPropagation()}>
             <button 
                 onClick={handleAccordionToggle} 
                 className="w-full text-left xs:h-32 flex items-center justify-between text-white font-medium border px-1 py-8 sm:py-2 border-t-0 border-r-0 border-l-0 hover:border-t hover:border-r hover:border-l border-gray-200 gap-3"

@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import Sheet from 'react-modal-sheet';
+import { Sheet } from 'react-modal-sheet';
 
 import DoublePerk from "./DoublePerk";
 import SinglePerk from "./SinglePerk"
@@ -18,12 +18,12 @@ export default function LegendaryWeaponDetailed(props) {
 
     return (
         <div>
-            <Sheet isOpen={isOpen} snapPoints={[1.0, 0]}
+            <Sheet isOpen={isOpen} snapPoints={[0, 1]}
                 initialSnap={0} detent="full-height"
-                onClose={() => setOpen(false)} ref={containerRef}  onTap={(e) => e.stopPropagation()} isDismissable={true}>
+                onClose={() => setOpen(false)} ref={containerRef}  onClick={(e) => e.stopPropagation()}>
                 <Sheet.Container>
-                    <Sheet.Header onClose={() => setOpen(false)} onTap={() => setOpen(false)} isDismissable={true} />   
-                    <Sheet.Content className="relative bg-[rgba(51,52,57,0.9)]" onClose={() => setOpen(false)}  isDismissable={true}>
+                    <Sheet.Header onClose={() => setOpen(false)} onClick={() => setOpen(false)} />   
+                    <Sheet.Content className="relative bg-[rgba(51,52,57,0.9)]" onClose={() => setOpen(false)} >
                         {/* background image */}
                         <img className="absolute inset-0 w-full h-auto object-cover z-0" src={data.backgroundImage} alt="weapon" />
 
@@ -53,19 +53,19 @@ export default function LegendaryWeaponDetailed(props) {
                                     </div>
                                 </div>
 
-                                <div class="weapon-frame flex flex-col flex-grow space-y-4 mt-2 text-white pl-4">
-                                    <div class="flex flex-col sm:flex-row justify-evenly space-y-4 sm:space-y-0 sm:space-x-4">
+                                <div className="weapon-frame flex flex-col flex-grow space-y-4 mt-2 text-white pl-4">
+                                    <div className="flex flex-col sm:flex-row justify-evenly space-y-4 sm:space-y-0 sm:space-x-4">
                                         
-                                        <div class="flex items-center space-x-2">
+                                        <div className="flex items-center space-x-2">
                                             <FramePerk name={data.legendWeaponFrame.name} image={data.legendWeaponFrame.icon} description={data.legendWeaponFrame.description} imageSize={"4rem"}/>
-                                            <h4 class="text-lg font-semibold text-left text-white">
+                                            <h4 className="text-lg font-semibold text-left text-white">
                                                 {data.legendWeaponFrame.name}
                                             </h4>
                                         </div>
                                         
-                                        <div class="flex items-center space-x-2">
+                                        <div className="flex items-center space-x-2">
                                             <Masterwork name={data.masterworkData.name} image={data.masterworkData.icon} description={data.masterworkData.description} imageSize={"3.5rem"}/>
-                                            <h4 class="text-lg font-semibold text-left text-white">
+                                            <h4 className="text-lg font-semibold text-left text-white">
                                                 {data.masterworkData.name}
                                             </h4>
                                         </div>
@@ -157,23 +157,23 @@ export default function LegendaryWeaponDetailed(props) {
                                     </blockquote>
                                 </div>
 
-                                <div class="weapon-frame flex flex-col flex-grow space-y-4 mt-2 text-white pl-4">
-                                    <div class="space-y-4 ">
+                                <div className="weapon-frame flex flex-col flex-grow space-y-4 mt-2 text-white pl-4">
+                                    <div className="space-y-4 ">
                                         
-                                        <div class="flex flex-col">
+                                        <div className="flex flex-col">
                                                 
                                                 <FramePerk name={data.legendWeaponFrame.name} image={data.legendWeaponFrame.icon} description={data.legendWeaponFrame.description} imageSize={"4rem"}/>
                                             
-                                                <h4 class="text-lg font-semibold text-left text-white">
+                                                <h4 className="text-lg font-semibold text-left text-white">
                                                     {data.legendWeaponFrame.name}
                                                 </h4>
                                                 
                                            
                                         </div>
                                         
-                                        <div class="">
+                                        <div className="">
                                             <Masterwork name={data.masterworkData.name} image={data.masterworkData.icon} description={data.masterworkData.description} imageSize={"3.5rem"}/>
-                                            <h4 class="text-lg font-semibold text-left text-white">
+                                            <h4 className="text-lg font-semibold text-left text-white">
                                                 {data.masterworkData.name}
                                             </h4>
                                         </div>

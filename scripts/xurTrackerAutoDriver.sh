@@ -1,7 +1,12 @@
 #! /bin/sh
 date
 sudo /usr/bin/python3 /home/ubuntu/XurTracker/src/refreshBearerToken.py
-sudo /usr/bin/python3 /home/ubuntu/XurTracker/src/tweetBotTweet.py
+
+
+#twitter is now pay by use so no
+#sudo /usr/bin/python3 /home/ubuntu/XurTracker/src/tweetBotTweet.py
+
+
 sudo /usr/bin/python3 /home/ubuntu/XurTracker/src/generateJSON.py
 sudo netlify build --cwd=/home/ubuntu/XurTracker/frontend
 sudo netlify deploy --prod --cwd=/home/ubuntu/XurTracker/frontend

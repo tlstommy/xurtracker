@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import Sheet from 'react-modal-sheet';
+import { Sheet } from 'react-modal-sheet';
 
 import Accordion from "./Accordion"
 
@@ -23,12 +23,12 @@ export default function ExoticArmoDetailed(props) {
 
     return (
         <div>
-            <Sheet isOpen={isOpen} snapPoints={[1.0, 0]}
+            <Sheet isOpen={isOpen} snapPoints={[0, 1]}
                 initialSnap={0} detent="full-height"
-                onClose={() => setOpen(false)} onTap={(e) => e.stopPropagation()} ref={containerRef} isDismissable={true}>
+                onClose={() => setOpen(false)} onClick={(e) => e.stopPropagation()} ref={containerRef}>
                 <Sheet.Container>
-                    <Sheet.Header onClose={() => setOpen(false)} onTap={() => setOpen(false)} isDismissable={true} />
-                    <Sheet.Content className="relative bg-[rgba(51,52,57,0.9)]" onClose={() => setOpen(false)}  isDismissable={true}>
+                    <Sheet.Header onClose={() => setOpen(false)} onClick={() => setOpen(false)} />
+                    <Sheet.Content className="relative bg-[rgba(51,52,57,0.9)]" onClose={() => setOpen(false)} >
                         {/* background image */}
 
                         <img className="absolute inset-0 w-full h-auto object-cover z-0" src={data.backgroundImage} alt="exotic perk" />

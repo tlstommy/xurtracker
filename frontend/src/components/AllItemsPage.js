@@ -54,7 +54,7 @@ export default function AllItemsPage() {
             return (
                 <div>
                     <SectionHeader title="Artifice Armor"/>
-                    <div class="grid grid-cols-1 lg:grid-cols-3 justify-evenly gap-2 p-4 items-stretch">
+                    <div className="grid grid-cols-1 lg:grid-cols-3 justify-evenly gap-2 p-4 items-stretch">
                         {Object.keys(artificeArmors).map((key) => (              
                             <ArtificeArmor classKey={key} data={artificeArmors[key]} />
 
@@ -104,7 +104,7 @@ export default function AllItemsPage() {
                     
                     <section id="exotic-weapons" className="pt-5">
                         <SectionHeader title="Exotic Weapons"/>
-                        <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 justify-evenly gap-1 p-4 items-stretch">
+                        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 justify-evenly gap-1 p-4 items-stretch">
                         
                             {Object.keys(exoticWeapons).map((key) => (              
                                 <ExoticWeapon key={exoticWeapons[key].itemHash} data={exoticWeapons[key]} />
@@ -118,7 +118,7 @@ export default function AllItemsPage() {
                     
                     <section id="exotic-armor" className="pt-5">
                         <SectionHeader title="Exotic Armor"/>    
-                        <div class="grid grid-cols-1 lg:grid-cols-3 justify-evenly gap-2 p-4 items-stretch">
+                        <div className="grid grid-cols-1 lg:grid-cols-3 justify-evenly gap-2 p-4 items-stretch">
                             {Object.keys(exoticArmors).map((classKey) => (
                                 exoticArmors[classKey] && exoticArmors[classKey].map((armorItem, index) => (
                                     armorItem && <ExoticArmor key={`${classKey}-${index}-${armorItem.itemHash}`} classKey={classKey} data={armorItem} />
@@ -133,7 +133,7 @@ export default function AllItemsPage() {
 
                     <section id="misc-exotics" className="pt-5">
                         <MiscExoticsCheck /> 
-                        <div class="grid grid-cols-1 lg:grid-cols-3 justify-evenly gap-2 p-4 items-stretch">
+                        <div className="grid grid-cols-1 lg:grid-cols-3 justify-evenly gap-2 p-4 items-stretch">
                             {Object.keys(miscItems).map((key) => (              
                                 <MiscellaneousItem key={miscItems[key].hash} data={miscItems[key]} />
                             ))}
@@ -142,7 +142,7 @@ export default function AllItemsPage() {
                     
                     <section id="legendary-weapons" className="pt-5">
                         <SectionHeader title="Legendary Weapons"/>
-                        <div class="grid grid-cols-1 lg:grid-cols-3 justify-evenly gap-2 p-4 pt-2 items-stretch">
+                        <div className="grid grid-cols-1 lg:grid-cols-3 justify-evenly gap-2 p-4 pt-2 items-stretch">
                             {Object.keys(legendaryWeapons).map((key) => (              
                                 <LegendaryWeapon key={legendaryWeapons[key].itemHash} data={legendaryWeapons[key]} />
                             ))}
@@ -155,7 +155,7 @@ export default function AllItemsPage() {
                     <section id="legendary-armor" className="pt-5">
                         <SectionHeader title="Legendary Armor"/>
                         <ClassSelect selectedClass={selectedClass} setSelectedClass={setSelectedClass} />
-                        <div class="grid grid-cols-1 md:grid-cols-1 justify-evenly gap-4 p-4 items-stretch">
+                        <div className="grid grid-cols-1 md:grid-cols-1 justify-evenly gap-4 p-4 items-stretch">
                             {Object.keys(legendaryArmors[selectedClass]).map((key) => (              
                                 legendaryArmors[selectedClass][key] && (
                                     <LegendaryArmor key={key} data={legendaryArmors[selectedClass][key]} itemType={legendaryArmors[selectedClass][key]} />
