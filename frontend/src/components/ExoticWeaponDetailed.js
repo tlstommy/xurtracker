@@ -15,14 +15,11 @@ export default function ExoticWeaponDetailed(props) {
     return (
         <div>
             <Sheet isOpen={isOpen} snapPoints={[0, 1]}
-                initialSnap={0} detent="full-height"
+                initialSnap={1} detent="full"
                 onClose={() => setOpen(false)} ref={containerRef}  onClick={(e) => e.stopPropagation()}>
                 <Sheet.Container>
                     <Sheet.Header onClose={() => setOpen(false)} onClick={() => setOpen(false)} />
-                    <Sheet.Content className="relative bg-[rgba(51,52,57,0.9)]" onClose={() => setOpen(false)} >
-                        {/* background image */}
-                        <img className="absolute inset-0 w-full h-auto object-cover" src={data.backgroundImage} alt="exotic perk" />
-
+                    <Sheet.Content className="relative" disableScroll style={{ backgroundImage: `url(${data.backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center top' }}>
                         {/* Hide on small screens */}
                         <div className="hidden lg:grid sm:grid-cols-2 gap-4 overflow-y-auto h-full p-4 z-10" style={{ backgroundImage: `linear-gradient(to right, rgba(0, 0, 0, 0.85) 50%, transparent)` }}>
 
@@ -72,8 +69,8 @@ export default function ExoticWeaponDetailed(props) {
                                     <div className="flex flex-col py-2 mt-2">
                                         <span className="text-white font-semibold text-md text-nowrap pt-2">{data.name}{' // '}Basic<hr /></span>
                                         <div className="mt-1 perks grid-background space-y-2">
-                                            {data.weaponPerks.slice(1).map((perk) => (
-                                                <div>
+                                            {data.weaponPerks.slice(1).map((perk, index) => (
+                                                <div key={perk.hashID ?? index}>
                                                     <SinglePerk perk={perk} />
                                                 </div>
                                                 
@@ -110,7 +107,7 @@ export default function ExoticWeaponDetailed(props) {
                         
 
                         {/* Hide on non mobile screens */}
-                        <div className="lg:hidden grid grid-rows-[auto_1fr] gap-4 p-4 z-10 overflow-y-auto ">
+                        <div className="lg:hidden grid grid-rows-[auto_1fr] gap-4 p-4 z-10 overflow-y-auto" style={{ background: 'rgba(0,0,0,0.72)' }}>
                             
                             <div className="relative w-full " style={{ paddingTop: '56.25%' }}>
                                 <div className="absolute inset-0 flex flex-col justify-end pb-5">

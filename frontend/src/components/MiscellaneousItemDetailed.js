@@ -13,14 +13,11 @@ export default function MiscellaneousItemDetailed(props) {
     return (
         <div>
             <Sheet isOpen={isOpen} snapPoints={[0, 1]}
-                initialSnap={0} detent="full-height"
+                initialSnap={1} detent="full"
                 onClose={() => setOpen(false)} ref={containerRef}  onClick={(e) => e.stopPropagation()}>
                 <Sheet.Container>
                     <Sheet.Header onClose={() => setOpen(false)} onClick={() => setOpen(false)} />   
-                    <Sheet.Content className="relative bg-[rgba(51,52,57,0.9)]" onClose={() => setOpen(false)} >
-                        {/* background image */}
-                        <img className="absolute inset-0 w-full h-auto object-cover z-0" src={data.backgroundImage} alt="item background" />
-
+                    <Sheet.Content className="relative" disableScroll style={{ backgroundImage: `url(${data.backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center top' }}>
                         {/* Hide on small screens */}
                         <div className="hidden lg:grid sm:grid-cols-2 gap-4 overflow-y-auto h-full pl-4 z-10 " style={{ backgroundImage: `linear-gradient(to right, rgba(0, 0, 0, 0.85) 50%, transparent)` }}>
 
@@ -70,7 +67,7 @@ export default function MiscellaneousItemDetailed(props) {
                         
 
                         {/* Hide on non mobile screens */}
-                        <div className="lg:hidden grid grid-rows-[auto_1fr] gap-4 p-4 z-10 overflow-y-auto ">
+                        <div className="lg:hidden grid grid-rows-[auto_1fr] gap-4 p-4 z-10 overflow-y-auto" style={{ background: 'rgba(0,0,0,0.72)' }}>
                             
                             <div className="relative w-full " style={{ paddingTop: '56.25%' }}>
                                 <div className="absolute inset-0 flex flex-col justify-end pb-5">

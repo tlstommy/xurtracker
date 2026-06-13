@@ -56,7 +56,7 @@ export default function AllItemsPage() {
                     <SectionHeader title="Artifice Armor"/>
                     <div className="grid grid-cols-1 lg:grid-cols-3 justify-evenly gap-2 p-4 items-stretch">
                         {Object.keys(artificeArmors).map((key) => (              
-                            <ArtificeArmor classKey={key} data={artificeArmors[key]} />
+                            <ArtificeArmor key={key} classKey={key} data={artificeArmors[key]} />
 
                         ))}
                     </div>                    

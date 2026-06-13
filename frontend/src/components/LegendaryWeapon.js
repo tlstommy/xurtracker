@@ -92,7 +92,7 @@ export default function LegendaryWeapon(props) {
                                     ))}
                                 </div>
                                 {data.weaponPerks.slice(4,6).map((perk, index) => (
-                                    <div className="cols-3-4" >
+                                    <div className="cols-3-4" key={perk.hashID}>
                                         <div className='group relative p-1 sm:p-1' key={perk.hashID} onClick={(e) => {e.stopPropagation();}}>
                                         <Perk image={perk.perkIcon}
                                                 name={perk.name}
